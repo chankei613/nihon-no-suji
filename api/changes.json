@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:57:29+09:00",
+  "generated_at": "2026-09-02T05:02:08+09:00",
   "date": "2026-09-02",
   "changes": [
     {
@@ -47,6 +47,38 @@
         "note": "前日データなし"
       },
       "caption": "宮川｜この24時間でいちばん降った",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "biwako-level",
+      "name": "琵琶湖の水位",
+      "category": "自然",
+      "value_display": "-46cm",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "基準水位(B.S.L.)より46cm低い",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "79.2%",
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": null,
       "label": "前日データなし"
     },

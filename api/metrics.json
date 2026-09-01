@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:57:29+09:00",
+  "generated_at": "2026-09-02T05:02:08+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -27,6 +27,24 @@
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁「最新の気象データ」"
+    },
+    {
+      "slug": "biwako-level",
+      "name": "琵琶湖の水位",
+      "category": "自然",
+      "unit": "cm",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "国土交通省 近畿地方整備局"
+    },
+    {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "国土交通省 近畿・関東地方整備局"
     },
     {
       "slug": "elec-usage-tokyo",

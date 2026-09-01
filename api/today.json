@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:57:29+09:00",
+  "generated_at": "2026-09-02T05:02:08+09:00",
   "date": "2026-09-02",
   "metrics": [
     {
@@ -95,6 +95,153 @@
       }
     },
     {
+      "slug": "biwako-level",
+      "name": "琵琶湖の水位",
+      "category": "自然",
+      "unit": "cm",
+      "value": -46.0,
+      "value_display": "-46cm",
+      "observed_at": "2026-09-01T06:00:00+09:00",
+      "as_of": "2026-09-01",
+      "stale": true,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "基準水位(B.S.L.)より46cm低い",
+      "detail": {
+        "unit": "cm",
+        "basis": "B.S.L.（琵琶湖基準水位）",
+        "station_diff": 0.0,
+        "caption": "基準水位(B.S.L.)より46cm低い"
+      },
+      "source": {
+        "name": "国土交通省 近畿地方整備局",
+        "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
+      }
+    },
+    {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "unit": "%",
+      "value": 79.2,
+      "value_display": "79.2%",
+      "observed_at": "2026-09-01T06:00:00+09:00",
+      "as_of": "2026-09-01",
+      "stale": true,
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
+      "detail": {
+        "dam_count": 17,
+        "region_means": {
+          "近畿": 75.0,
+          "関東": 89.2
+        },
+        "dams": [
+          {
+            "name": "九頭竜ダム",
+            "rate": 22.9,
+            "region": "近畿"
+          },
+          {
+            "name": "猿谷ダム",
+            "rate": 28.2,
+            "region": "近畿"
+          },
+          {
+            "name": "室生ダム",
+            "rate": 60.1,
+            "region": "近畿"
+          },
+          {
+            "name": "多摩川水系 小河内ダム",
+            "rate": 65.0,
+            "region": "関東"
+          },
+          {
+            "name": "天ヶ瀬ダム",
+            "rate": 65.2,
+            "region": "近畿"
+          },
+          {
+            "name": "青蓮寺ダム",
+            "rate": 66.0,
+            "region": "近畿"
+          },
+          {
+            "name": "大滝ダム",
+            "rate": 84.7,
+            "region": "近畿"
+          },
+          {
+            "name": "比奈知ダム",
+            "rate": 86.0,
+            "region": "近畿"
+          },
+          {
+            "name": "利根川水系鬼怒川4ダム",
+            "rate": 91.0,
+            "region": "関東"
+          },
+          {
+            "name": "布目ダム",
+            "rate": 92.3,
+            "region": "近畿"
+          },
+          {
+            "name": "高山ダム",
+            "rate": 94.5,
+            "region": "近畿"
+          },
+          {
+            "name": "利根川水系上流9ダム",
+            "rate": 95.0,
+            "region": "関東"
+          },
+          {
+            "name": "相模川水系3ダム",
+            "rate": 95.0,
+            "region": "関東"
+          },
+          {
+            "name": "真名川ダム",
+            "rate": 100.0,
+            "region": "近畿"
+          },
+          {
+            "name": "日吉ダム",
+            "rate": 100.0,
+            "region": "近畿"
+          },
+          {
+            "name": "一庫ダム",
+            "rate": 100.0,
+            "region": "近畿"
+          },
+          {
+            "name": "荒川水系4ダム",
+            "rate": 100.0,
+            "region": "関東"
+          }
+        ],
+        "caption": "主要17ダムの平均貯水率（おおむね平年並み）"
+      },
+      "source": {
+        "name": "国土交通省 近畿・関東地方整備局",
+        "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
+      }
+    },
+    {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
@@ -135,7 +282,7 @@
       "unit": "回",
       "value": 8,
       "value_display": "8回",
-      "observed_at": "2026-09-02T04:57:00+09:00",
+      "observed_at": "2026-09-02T05:02:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {

@@ -14,7 +14,7 @@ import traceback
 from core import registry
 from core import store
 
-COLLECTORS = ["jma_rank", "tepco_pg", "p2pquake", "astro"]
+COLLECTORS = ["jma_rank", "mlit_water", "tepco_pg", "p2pquake", "astro"]
 
 
 def main(argv: list[str]) -> int:
