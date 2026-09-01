@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T05:02:50+09:00",
+  "generated_at": "2026-09-02T07:47:15+09:00",
   "date": "2026-09-02",
   "metrics": [
     {
@@ -55,6 +55,8 @@
         "place": "宇登呂",
         "pref": "北海道網走・北見・紋別地方",
         "caption": "宇登呂｜きょう日本でいちばん寒い",
+        "normal_diff": -3.1,
+        "station_prev_diff": 0.5,
         "record_1st": -20.9,
         "year_extreme": false,
         "all_time_record": false
@@ -101,15 +103,17 @@
       "unit": "cm",
       "value": -46.0,
       "value_display": "-46cm",
-      "observed_at": "2026-09-01T06:00:00+09:00",
-      "as_of": "2026-09-01",
-      "stale": true,
+      "observed_at": "2026-09-02T06:00:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": false,
       "change": {
         "type": "absolute",
-        "available": false,
+        "available": true,
+        "value": 0.0,
+        "display": "+0cm",
         "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "prev_value": -46.0,
+        "prev_date": "2026-09-01"
       },
       "caption": "基準水位(B.S.L.)より46cm低い",
       "detail": {
@@ -128,39 +132,46 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value": 79.2,
-      "value_display": "79.2%",
-      "observed_at": "2026-09-01T06:00:00+09:00",
-      "as_of": "2026-09-01",
-      "stale": true,
+      "value": 78.8,
+      "value_display": "78.8%",
+      "observed_at": "2026-09-02T06:00:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": false,
       "change": {
         "type": "percentage_point",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": -0.4,
+        "display": "-0.4pt",
+        "direction": "down",
+        "prev_value": 79.2,
+        "prev_date": "2026-09-01"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "detail": {
         "dam_count": 17,
         "region_means": {
-          "近畿": 75.0,
+          "近畿": 74.4,
           "関東": 89.2
         },
         "dams": [
           {
             "name": "九頭竜ダム",
-            "rate": 22.9,
+            "rate": 23.2,
             "region": "近畿"
           },
           {
             "name": "猿谷ダム",
-            "rate": 28.2,
+            "rate": 27.4,
             "region": "近畿"
           },
           {
             "name": "室生ダム",
-            "rate": 60.1,
+            "rate": 60.4,
+            "region": "近畿"
+          },
+          {
+            "name": "天ヶ瀬ダム",
+            "rate": 64.4,
             "region": "近畿"
           },
           {
@@ -169,23 +180,18 @@
             "region": "関東"
           },
           {
-            "name": "天ヶ瀬ダム",
-            "rate": 65.2,
-            "region": "近畿"
-          },
-          {
             "name": "青蓮寺ダム",
-            "rate": 66.0,
+            "rate": 65.4,
             "region": "近畿"
           },
           {
             "name": "大滝ダム",
-            "rate": 84.7,
+            "rate": 83.2,
             "region": "近畿"
           },
           {
             "name": "比奈知ダム",
-            "rate": 86.0,
+            "rate": 85.5,
             "region": "近畿"
           },
           {
@@ -194,13 +200,13 @@
             "region": "関東"
           },
           {
-            "name": "布目ダム",
-            "rate": 92.3,
+            "name": "高山ダム",
+            "rate": 91.5,
             "region": "近畿"
           },
           {
-            "name": "高山ダム",
-            "rate": 94.5,
+            "name": "布目ダム",
+            "rate": 92.2,
             "region": "近畿"
           },
           {
@@ -246,9 +252,9 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value": 89.0,
-      "value_display": "89%",
-      "observed_at": "2026-09-02T04:40:00+09:00",
+      "value": 90.0,
+      "value_display": "90%",
+      "observed_at": "2026-09-02T07:10:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {
@@ -261,11 +267,11 @@
       "caption": "ピークは14:00〜15:00の見込み",
       "detail": {
         "reserve_rate": 11.0,
-        "peak_supply_10MW": 5037.0,
-        "forecast_peak_demand_10MW": 4529.0,
-        "current_demand_10MW": 2517.0,
-        "current_demand_time": "3:00",
-        "current_usage_rate": 75.0,
+        "peak_supply_10MW": 5046.0,
+        "forecast_peak_demand_10MW": 4542.0,
+        "current_demand_10MW": 2757.0,
+        "current_demand_time": "6:00",
+        "current_usage_rate": 79.0,
         "peak_timeband": "14:00〜15:00",
         "area": "東京",
         "caption": "ピークは14:00〜15:00の見込み"
@@ -282,7 +288,7 @@
       "unit": "回",
       "value": 8,
       "value_display": "8回",
-      "observed_at": "2026-09-02T05:02:00+09:00",
+      "observed_at": "2026-09-02T07:47:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {

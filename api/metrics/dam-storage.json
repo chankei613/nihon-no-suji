@@ -8,41 +8,50 @@
     "name": "国土交通省 近畿・関東地方整備局",
     "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
   },
-  "updated_at": "2026-09-02T05:02:50+09:00",
+  "updated_at": "2026-09-02T07:47:15+09:00",
   "summary": {
-    "count": 1,
+    "count": 2,
     "first_date": "2026-09-01",
-    "last_date": "2026-09-01",
-    "min_30d": 79.2,
+    "last_date": "2026-09-02",
+    "min_30d": 78.8,
     "max_30d": 79.2,
-    "avg_30d": 79.2
+    "avg_30d": 79.0
   },
   "history": [
     {
       "date": "2026-09-01",
       "value": 79.2
+    },
+    {
+      "date": "2026-09-02",
+      "value": 78.8
     }
   ],
   "latest_detail": {
     "dam_count": 17,
     "region_means": {
-      "近畿": 75.0,
+      "近畿": 74.4,
       "関東": 89.2
     },
     "dams": [
       {
         "name": "九頭竜ダム",
-        "rate": 22.9,
+        "rate": 23.2,
         "region": "近畿"
       },
       {
         "name": "猿谷ダム",
-        "rate": 28.2,
+        "rate": 27.4,
         "region": "近畿"
       },
       {
         "name": "室生ダム",
-        "rate": 60.1,
+        "rate": 60.4,
+        "region": "近畿"
+      },
+      {
+        "name": "天ヶ瀬ダム",
+        "rate": 64.4,
         "region": "近畿"
       },
       {
@@ -51,23 +60,18 @@
         "region": "関東"
       },
       {
-        "name": "天ヶ瀬ダム",
-        "rate": 65.2,
-        "region": "近畿"
-      },
-      {
         "name": "青蓮寺ダム",
-        "rate": 66.0,
+        "rate": 65.4,
         "region": "近畿"
       },
       {
         "name": "大滝ダム",
-        "rate": 84.7,
+        "rate": 83.2,
         "region": "近畿"
       },
       {
         "name": "比奈知ダム",
-        "rate": 86.0,
+        "rate": 85.5,
         "region": "近畿"
       },
       {
@@ -76,13 +80,13 @@
         "region": "関東"
       },
       {
-        "name": "布目ダム",
-        "rate": 92.3,
+        "name": "高山ダム",
+        "rate": 91.5,
         "region": "近畿"
       },
       {
-        "name": "高山ダム",
-        "rate": 94.5,
+        "name": "布目ダム",
+        "rate": 92.2,
         "region": "近畿"
       },
       {

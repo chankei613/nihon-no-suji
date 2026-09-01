@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T05:02:50+09:00",
+  "generated_at": "2026-09-02T07:47:15+09:00",
   "date": "2026-09-02",
   "changes": [
     {
@@ -57,36 +57,40 @@
       "value_display": "-46cm",
       "change": {
         "type": "absolute",
-        "available": false,
+        "available": true,
+        "value": 0.0,
+        "display": "+0cm",
         "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "prev_value": -46.0,
+        "prev_date": "2026-09-01"
       },
       "caption": "基準水位(B.S.L.)より46cm低い",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "79.2%",
+      "value_display": "78.8%",
       "change": {
         "type": "percentage_point",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": -0.4,
+        "display": "-0.4pt",
+        "direction": "down",
+        "prev_value": 79.2,
+        "prev_date": "2026-09-01"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "89%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
         "available": false,
