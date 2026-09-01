@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-09-02T04:56:54+09:00",
+  "metrics": [
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁「最新の気象データ」"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁「最新の気象データ」"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "unit": "mm",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁「最新の気象データ」"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "東京電力パワーグリッド でんき予報"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "unit": "回",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "P2P地震情報 API（元データ：気象庁）"
+    },
+    {
+      "slug": "sunset-tokyo",
+      "name": "東京の日の入り時刻",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "time",
+      "source": "自前天文計算（NOAA式）"
+    },
+    {
+      "slug": "sunrise-tokyo",
+      "name": "東京の日の出時刻",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "time",
+      "source": "自前天文計算（NOAA式）"
+    },
+    {
+      "slug": "moon-age",
+      "name": "月齢",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "moon",
+      "source": "自前天文計算"
+    }
+  ]
+}

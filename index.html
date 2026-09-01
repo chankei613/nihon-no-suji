@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日本の数字</title>
+<style>
+  :root { --ink:#1a1a1a; --sub:#8a8a86; --bg:#faf8f4; --line:#e9e5dd; --accent:#2f6fb3; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--ink);
+    font-family:-apple-system,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.5; }
+  .wrap { max-width:460px; margin:0 auto; padding:32px 22px 80px; }
+  header { padding:8px 0 26px; }
+  h1 { font-size:15px; font-weight:600; letter-spacing:.04em; }
+  .date { color:var(--sub); font-size:13px; margin-top:2px; }
+  .card { padding:30px 0 26px; border-top:1px solid var(--line); }
+  .card:first-of-type { border-top:none; }
+  .name { font-size:13px; color:var(--sub); letter-spacing:.02em; }
+  .row { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-top:10px; }
+  .value { font-size:44px; font-weight:600; letter-spacing:-.01em; font-variant-numeric:tabular-nums; }
+  .change { font-size:15px; color:var(--accent); white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .change.flat { color:var(--sub); }
+  .change.na { color:var(--line); }
+  .caption { margin-top:12px; font-size:13.5px; color:#5f5f5a; }
+  .stale { font-size:11px; color:var(--sub); margin-left:6px; }
+  footer { margin-top:40px; font-size:11px; color:var(--sub); text-align:center; }
+  a { color:inherit; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>日本の数字</h1>
+    <div class="date" id="date">読み込み中…</div>
+  </header>
+  <div id="cards"></div>
+  <footer>
+    昨日から、日本はどう変わった？<br>
+    出典：気象庁・東京電力パワーグリッド・P2P地震情報 ほか公開データ
+  </footer>
+</div>
+<script>
+const ARROW = { up:"↑", down:"↓", flat:"→" };
+fetch("api/today.json?" + Date.now()).then(r => r.json()).then(d => {
+  document.getElementById("date").textContent =
+    new Date(d.date).toLocaleDateString("ja-JP",{month:"long",day:"numeric",weekday:"short"}) + "の日本";
+  const box = document.getElementById("cards");
+  for (const m of d.metrics) {
+    const c = m.change || {};
+    const cls = !c.available ? "na" : (c.direction || "flat");
+    const chg = !c.available ? "—"
+      : (["up","down"].includes(c.direction) ? ARROW[c.direction] + " " : "") + (c.display || "");
+    const el = document.createElement("div");
+    el.className = "card";
+    el.innerHTML =
+      `<div class="name">${m.name}${m.stale ? '<span class="stale">'+m.as_of+' 時点</span>' : ''}</div>
+       <div class="row"><div class="value">${m.value_display}</div>
+       <div class="change ${cls}">${chg}</div></div>
+       <div class="caption">${m.caption || ""}</div>`;
+    box.appendChild(el);
+  }
+}).catch(e => {
+  document.getElementById("date").textContent = "データを読み込めませんでした";
+});
+</script>
+</body>
+</html>

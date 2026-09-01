@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.local
+*.p8
+*.pem
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.mypy_cache/
+.ruff_cache/
+
+# macOS / editors
+.DS_Store
+.claude/settings.local.json
+
+# Xcode (iOS lane)
+ios/**/build/
+ios/**/DerivedData/
+ios/**/*.xcuserstate
+ios/**/xcuserdata/
+
+# NOTE: data/history/ と api/ は「自動更新される値」そのものなので意図的にコミットする

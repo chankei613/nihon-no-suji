@@ -1,0 +1,37 @@
+{
+  "slug": "min-temp",
+  "name": "全国最低気温",
+  "unit": "℃",
+  "comparison_type": "absolute",
+  "value_type": "number",
+  "source": {
+    "name": "気象庁「最新の気象データ」",
+    "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
+  },
+  "updated_at": "2026-09-02T04:56:54+09:00",
+  "summary": {
+    "count": 1,
+    "first_date": "2026-09-02",
+    "last_date": "2026-09-02",
+    "min_30d": 10.7,
+    "max_30d": 10.7,
+    "avg_30d": 10.7,
+    "record_1st": -20.9,
+    "year_extreme": false,
+    "all_time_record": false
+  },
+  "history": [
+    {
+      "date": "2026-09-02",
+      "value": 10.7
+    }
+  ],
+  "latest_detail": {
+    "place": "宇登呂",
+    "pref": "北海道網走・北見・紋別地方",
+    "caption": "宇登呂｜きょう日本でいちばん寒い",
+    "record_1st": -20.9,
+    "year_extreme": false,
+    "all_time_record": false
+  }
+}

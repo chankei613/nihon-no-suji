@@ -1,0 +1,257 @@
+{
+  "generated_at": "2026-09-02T04:56:54+09:00",
+  "date": "2026-09-02",
+  "metrics": [
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "value": 30.1,
+      "value_display": "30.1℃",
+      "observed_at": "2026-09-02T04:00:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "福岡｜きょう日本でいちばん暑い",
+      "detail": {
+        "place": "福岡",
+        "pref": "福岡県",
+        "caption": "福岡｜きょう日本でいちばん暑い",
+        "record_1st": 39.0,
+        "year_extreme": false,
+        "all_time_record": false
+      },
+      "source": {
+        "name": "気象庁「最新の気象データ」",
+        "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
+      }
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "unit": "℃",
+      "value": 10.7,
+      "value_display": "10.7℃",
+      "observed_at": "2026-09-02T04:00:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "宇登呂｜きょう日本でいちばん寒い",
+      "detail": {
+        "place": "宇登呂",
+        "pref": "北海道網走・北見・紋別地方",
+        "caption": "宇登呂｜きょう日本でいちばん寒い",
+        "record_1st": -20.9,
+        "year_extreme": false,
+        "all_time_record": false
+      },
+      "source": {
+        "name": "気象庁「最新の気象データ」",
+        "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
+      }
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "unit": "mm",
+      "value": 299.5,
+      "value_display": "299.5mm",
+      "observed_at": "2026-09-02T04:20:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "宮川｜この24時間でいちばん降った",
+      "detail": {
+        "place": "宮川",
+        "pref": "三重県",
+        "caption": "宮川｜この24時間でいちばん降った",
+        "record_1st": 872.5,
+        "all_time_record": false
+      },
+      "source": {
+        "name": "気象庁「最新の気象データ」",
+        "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
+      }
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "unit": "%",
+      "value": 89.0,
+      "value_display": "89%",
+      "observed_at": "2026-09-02T04:40:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": false,
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "ピークは14:00〜15:00の見込み",
+      "detail": {
+        "reserve_rate": 11.0,
+        "peak_supply_10MW": 5037.0,
+        "forecast_peak_demand_10MW": 4529.0,
+        "current_demand_10MW": 2517.0,
+        "current_demand_time": "3:00",
+        "current_usage_rate": 75.0,
+        "peak_timeband": "14:00〜15:00",
+        "area": "東京",
+        "caption": "ピークは14:00〜15:00の見込み"
+      },
+      "source": {
+        "name": "東京電力パワーグリッド でんき予報",
+        "url": "https://www.tepco.co.jp/forecast/html/images/juyo-s1-j.csv"
+      }
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "unit": "回",
+      "value": 8,
+      "value_display": "8回",
+      "observed_at": "2026-09-02T04:56:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "最大は浦河沖の震度2",
+      "detail": {
+        "caption": "最大は浦河沖の震度2",
+        "window_hours": 24,
+        "max_magnitude": 4.3,
+        "strongest": {
+          "time": "2026-09-02T04:21:00+09:00",
+          "scale": 20,
+          "name": "浦河沖",
+          "magnitude": 4.3,
+          "depth": 50
+        },
+        "latest": {
+          "time": "2026-09-02T04:21:00+09:00",
+          "scale": 20,
+          "name": "浦河沖",
+          "magnitude": 4.3,
+          "depth": 50
+        },
+        "capped": false
+      },
+      "source": {
+        "name": "P2P地震情報 API（元データ：気象庁）",
+        "url": "https://api.p2pquake.net/v2/history?codes=551"
+      }
+    },
+    {
+      "slug": "sunset-tokyo",
+      "name": "東京の日の入り時刻",
+      "category": "こよみ",
+      "unit": "",
+      "value": 1088.1,
+      "value_display": "18:08",
+      "observed_at": "2026-09-02T00:00:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうは18:08ごろに沈む",
+      "detail": {
+        "time": "18:08",
+        "place": "東京"
+      },
+      "source": {
+        "name": "自前天文計算（NOAA式）",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "sunrise-tokyo",
+      "name": "東京の日の出時刻",
+      "category": "こよみ",
+      "unit": "",
+      "value": 313.2,
+      "value_display": "05:13",
+      "observed_at": "2026-09-02T00:00:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうは05:13ごろに昇る",
+      "detail": {
+        "time": "05:13",
+        "place": "東京"
+      },
+      "source": {
+        "name": "自前天文計算（NOAA式）",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "moon-age",
+      "name": "月齢",
+      "category": "こよみ",
+      "unit": "",
+      "value": 20.0,
+      "value_display": "月齢 20.0",
+      "observed_at": "2026-09-02T00:00:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "次の満月まであと24日",
+      "detail": {
+        "phase": "寝待月",
+        "days_to_full": 24,
+        "caption": "次の満月まであと24日"
+      },
+      "source": {
+        "name": "自前天文計算",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    }
+  ]
+}
