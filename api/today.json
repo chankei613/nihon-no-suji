@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T01:49:38+09:00",
+  "generated_at": "2026-09-03T05:03:32+09:00",
   "date": "2026-09-03",
   "metrics": [
     {
@@ -40,26 +40,26 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 12.9,
-      "value_display": "12.9℃",
-      "observed_at": "2026-09-03T01:00:00+09:00",
+      "value": 12.4,
+      "value_display": "12.4℃",
+      "observed_at": "2026-09-03T04:00:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.2,
-        "display": "+2.2℃",
+        "value": 1.7,
+        "display": "+1.7℃",
         "direction": "up",
         "prev_value": 10.7,
         "prev_date": "2026-09-02"
       },
-      "caption": "阿寒湖畔｜きょう日本でいちばん寒い",
+      "caption": "上標津｜きょう日本でいちばん寒い",
       "detail": {
-        "place": "阿寒湖畔",
-        "pref": "北海道釧路地方",
-        "caption": "阿寒湖畔｜きょう日本でいちばん寒い",
-        "record_1st": -30.7,
+        "place": "上標津",
+        "pref": "北海道根室地方",
+        "caption": "上標津｜きょう日本でいちばん寒い",
+        "record_1st": -25.2,
         "year_extreme": false,
         "all_time_record": false
       },
@@ -258,7 +258,7 @@
       "unit": "%",
       "value": 91.0,
       "value_display": "91%",
-      "observed_at": "2026-09-03T01:10:00+09:00",
+      "observed_at": "2026-09-03T04:40:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -270,17 +270,17 @@
         "prev_value": 88.0,
         "prev_date": "2026-09-02"
       },
-      "caption": "ピークは11:00〜12:00の見込み",
+      "caption": "ピークは13:00〜14:00の見込み",
       "detail": {
         "reserve_rate": 9.0,
-        "peak_supply_10MW": 4807.0,
-        "forecast_peak_demand_10MW": 4402.0,
-        "current_demand_10MW": 2920.0,
-        "current_demand_time": "0:00",
-        "current_usage_rate": 83.0,
-        "peak_timeband": "11:00〜12:00",
+        "peak_supply_10MW": 4841.0,
+        "forecast_peak_demand_10MW": 4434.0,
+        "current_demand_10MW": 2623.0,
+        "current_demand_time": "3:00",
+        "current_usage_rate": 76.0,
+        "peak_timeband": "13:00〜14:00",
         "area": "東京",
-        "caption": "ピークは11:00〜12:00の見込み"
+        "caption": "ピークは13:00〜14:00の見込み"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -292,16 +292,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 11,
-      "value_display": "11回",
-      "observed_at": "2026-09-03T01:49:00+09:00",
+      "value": 8,
+      "value_display": "8回",
+      "observed_at": "2026-09-03T05:03:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
+        "value": -4,
+        "display": "-4回",
         "direction": "down",
         "prev_value": 12,
         "prev_date": "2026-09-02"
@@ -310,7 +310,7 @@
       "detail": {
         "caption": "最大は和歌山県北部の震度3",
         "window_hours": 24,
-        "max_magnitude": 4.3,
+        "max_magnitude": 4,
         "strongest": {
           "time": "2026-09-02T17:23:00+09:00",
           "scale": 30,
