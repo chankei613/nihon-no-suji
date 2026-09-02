@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T15:22:28+09:00",
+  "generated_at": "2026-09-02T20:39:50+09:00",
   "date": "2026-09-02",
   "metrics": [
     {
@@ -7,9 +7,9 @@
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 32.5,
-      "value_display": "32.5℃",
-      "observed_at": "2026-09-02T09:00:00+09:00",
+      "value": 37.9,
+      "value_display": "37.9℃",
+      "observed_at": "2026-09-02T19:00:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {
@@ -19,12 +19,14 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "須佐｜きょう日本でいちばん暑い",
+      "caption": "加計｜きょう日本でいちばん暑い",
       "detail": {
-        "place": "須佐",
-        "pref": "山口県",
-        "caption": "須佐｜きょう日本でいちばん暑い",
-        "record_1st": 38.4,
+        "place": "加計",
+        "pref": "広島県",
+        "caption": "加計｜きょう日本でいちばん暑い",
+        "normal_diff": 7.6,
+        "station_prev_diff": 1.9,
+        "record_1st": 40.0,
         "year_extreme": false,
         "all_time_record": false
       },
@@ -254,7 +256,7 @@
       "unit": "%",
       "value": 88.0,
       "value_display": "88%",
-      "observed_at": "2026-09-02T15:10:00+09:00",
+      "observed_at": "2026-09-02T20:10:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {
@@ -269,9 +271,9 @@
         "reserve_rate": 13.0,
         "peak_supply_10MW": 5117.0,
         "forecast_peak_demand_10MW": 4512.0,
-        "current_demand_10MW": 4496.0,
-        "current_demand_time": "14:00",
-        "current_usage_rate": 87.0,
+        "current_demand_10MW": 3975.0,
+        "current_demand_time": "19:00",
+        "current_usage_rate": 83.0,
         "peak_timeband": "14:00〜15:00",
         "area": "東京",
         "caption": "ピークは14:00〜15:00の見込み"
@@ -286,9 +288,9 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 10,
-      "value_display": "10回",
-      "observed_at": "2026-09-02T15:22:00+09:00",
+      "value": 12,
+      "value_display": "12回",
+      "observed_at": "2026-09-02T20:39:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {
@@ -298,24 +300,24 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "最大は浦河沖の震度2",
+      "caption": "最大は和歌山県北部の震度3",
       "detail": {
-        "caption": "最大は浦河沖の震度2",
+        "caption": "最大は和歌山県北部の震度3",
         "window_hours": 24,
         "max_magnitude": 4.3,
         "strongest": {
-          "time": "2026-09-02T04:21:00+09:00",
-          "scale": 20,
-          "name": "浦河沖",
-          "magnitude": 4.3,
-          "depth": 50
+          "time": "2026-09-02T17:23:00+09:00",
+          "scale": 30,
+          "name": "和歌山県北部",
+          "magnitude": 3.3,
+          "depth": 10
         },
         "latest": {
-          "time": "2026-09-02T14:24:00+09:00",
-          "scale": 10,
-          "name": "伊予灘",
-          "magnitude": 3.2,
-          "depth": 80
+          "time": "2026-09-02T19:12:00+09:00",
+          "scale": 20,
+          "name": "秋田県内陸北部",
+          "magnitude": 3.5,
+          "depth": 10
         },
         "capped": false
       },

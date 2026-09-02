@@ -8,38 +8,38 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-02T15:22:28+09:00",
+  "updated_at": "2026-09-02T20:39:50+09:00",
   "summary": {
     "count": 1,
     "first_date": "2026-09-02",
     "last_date": "2026-09-02",
-    "min_30d": 10,
-    "max_30d": 10,
-    "avg_30d": 10.0
+    "min_30d": 12,
+    "max_30d": 12,
+    "avg_30d": 12.0
   },
   "history": [
     {
       "date": "2026-09-02",
-      "value": 10
+      "value": 12
     }
   ],
   "latest_detail": {
-    "caption": "最大は浦河沖の震度2",
+    "caption": "最大は和歌山県北部の震度3",
     "window_hours": 24,
     "max_magnitude": 4.3,
     "strongest": {
-      "time": "2026-09-02T04:21:00+09:00",
-      "scale": 20,
-      "name": "浦河沖",
-      "magnitude": 4.3,
-      "depth": 50
+      "time": "2026-09-02T17:23:00+09:00",
+      "scale": 30,
+      "name": "和歌山県北部",
+      "magnitude": 3.3,
+      "depth": 10
     },
     "latest": {
-      "time": "2026-09-02T14:24:00+09:00",
-      "scale": 10,
-      "name": "伊予灘",
-      "magnitude": 3.2,
-      "depth": 80
+      "time": "2026-09-02T19:12:00+09:00",
+      "scale": 20,
+      "name": "秋田県内陸北部",
+      "magnitude": 3.5,
+      "depth": 10
     },
     "capped": false
   }
