@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T05:03:32+09:00",
+  "generated_at": "2026-09-03T07:48:07+09:00",
   "date": "2026-09-03",
   "metrics": [
     {
@@ -40,16 +40,16 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 12.4,
-      "value_display": "12.4℃",
-      "observed_at": "2026-09-03T04:00:00+09:00",
+      "value": 12.3,
+      "value_display": "12.3℃",
+      "observed_at": "2026-09-03T06:00:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.7,
-        "display": "+1.7℃",
+        "value": 1.6,
+        "display": "+1.6℃",
         "direction": "up",
         "prev_value": 10.7,
         "prev_date": "2026-09-02"
@@ -59,6 +59,8 @@
         "place": "上標津",
         "pref": "北海道根室地方",
         "caption": "上標津｜きょう日本でいちばん寒い",
+        "normal_diff": -1.2,
+        "station_prev_diff": -0.4,
         "record_1st": -25.2,
         "year_extreme": false,
         "all_time_record": false
@@ -105,26 +107,26 @@
       "name": "琵琶湖の水位",
       "category": "自然",
       "unit": "cm",
-      "value": -46.0,
-      "value_display": "-46cm",
-      "observed_at": "2026-09-02T06:00:00+09:00",
-      "as_of": "2026-09-02",
-      "stale": true,
+      "value": -48.0,
+      "value_display": "-48cm",
+      "observed_at": "2026-09-03T06:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "+0cm",
-        "direction": "flat",
+        "value": -2.0,
+        "display": "-2cm",
+        "direction": "down",
         "prev_value": -46.0,
-        "prev_date": "2026-09-01"
+        "prev_date": "2026-09-02"
       },
-      "caption": "基準水位(B.S.L.)より46cm低い",
+      "caption": "基準水位(B.S.L.)より48cm低い",
       "detail": {
         "unit": "cm",
         "basis": "B.S.L.（琵琶湖基準水位）",
-        "station_diff": 0.0,
-        "caption": "基準水位(B.S.L.)より46cm低い"
+        "station_diff": -2.0,
+        "caption": "基準水位(B.S.L.)より48cm低い"
       },
       "source": {
         "name": "国土交通省 近畿地方整備局",
@@ -136,46 +138,41 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value": 78.7,
-      "value_display": "78.7%",
-      "observed_at": "2026-09-02T06:00:00+09:00",
-      "as_of": "2026-09-02",
-      "stale": true,
+      "value": 77.6,
+      "value_display": "77.6%",
+      "observed_at": "2026-09-03T06:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -0.5,
-        "display": "-0.5pt",
+        "value": -1.1,
+        "display": "-1.1pt",
         "direction": "down",
-        "prev_value": 79.2,
-        "prev_date": "2026-09-01"
+        "prev_value": 78.7,
+        "prev_date": "2026-09-02"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "detail": {
         "dam_count": 17,
         "region_means": {
-          "近畿": 74.4,
+          "近畿": 72.9,
           "関東": 89.0
         },
         "dams": [
           {
             "name": "九頭竜ダム",
-            "rate": 23.2,
+            "rate": 23.8,
             "region": "近畿"
           },
           {
             "name": "猿谷ダム",
-            "rate": 27.4,
+            "rate": 28.4,
             "region": "近畿"
           },
           {
             "name": "室生ダム",
-            "rate": 60.4,
-            "region": "近畿"
-          },
-          {
-            "name": "天ヶ瀬ダム",
-            "rate": 64.4,
+            "rate": 60.1,
             "region": "近畿"
           },
           {
@@ -184,18 +181,33 @@
             "region": "関東"
           },
           {
+            "name": "天ヶ瀬ダム",
+            "rate": 65.1,
+            "region": "近畿"
+          },
+          {
             "name": "青蓮寺ダム",
-            "rate": 65.4,
+            "rate": 65.1,
             "region": "近畿"
           },
           {
             "name": "大滝ダム",
-            "rate": 83.2,
+            "rate": 82.2,
             "region": "近畿"
           },
           {
             "name": "比奈知ダム",
-            "rate": 85.5,
+            "rate": 85.1,
+            "region": "近畿"
+          },
+          {
+            "name": "真名川ダム",
+            "rate": 87.4,
+            "region": "近畿"
+          },
+          {
+            "name": "高山ダム",
+            "rate": 89.3,
             "region": "近畿"
           },
           {
@@ -204,13 +216,8 @@
             "region": "関東"
           },
           {
-            "name": "高山ダム",
-            "rate": 91.5,
-            "region": "近畿"
-          },
-          {
             "name": "布目ダム",
-            "rate": 92.2,
+            "rate": 91.2,
             "region": "近畿"
           },
           {
@@ -224,18 +231,13 @@
             "region": "関東"
           },
           {
-            "name": "真名川ダム",
-            "rate": 100.0,
-            "region": "近畿"
-          },
-          {
             "name": "日吉ダム",
-            "rate": 100.0,
+            "rate": 98.0,
             "region": "近畿"
           },
           {
             "name": "一庫ダム",
-            "rate": 100.0,
+            "rate": 98.6,
             "region": "近畿"
           },
           {
@@ -258,7 +260,7 @@
       "unit": "%",
       "value": 91.0,
       "value_display": "91%",
-      "observed_at": "2026-09-03T04:40:00+09:00",
+      "observed_at": "2026-09-03T07:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -273,11 +275,11 @@
       "caption": "ピークは13:00〜14:00の見込み",
       "detail": {
         "reserve_rate": 9.0,
-        "peak_supply_10MW": 4841.0,
-        "forecast_peak_demand_10MW": 4434.0,
-        "current_demand_10MW": 2623.0,
-        "current_demand_time": "3:00",
-        "current_usage_rate": 76.0,
+        "peak_supply_10MW": 4871.0,
+        "forecast_peak_demand_10MW": 4451.0,
+        "current_demand_10MW": 2874.0,
+        "current_demand_time": "6:00",
+        "current_usage_rate": 80.0,
         "peak_timeband": "13:00〜14:00",
         "area": "東京",
         "caption": "ピークは13:00〜14:00の見込み"
@@ -292,16 +294,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 8,
-      "value_display": "8回",
-      "observed_at": "2026-09-03T05:03:00+09:00",
+      "value": 10,
+      "value_display": "10回",
+      "observed_at": "2026-09-03T07:48:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4,
-        "display": "-4回",
+        "value": -2,
+        "display": "-2回",
         "direction": "down",
         "prev_value": 12,
         "prev_date": "2026-09-02"
@@ -319,11 +321,11 @@
           "depth": 10
         },
         "latest": {
-          "time": "2026-09-02T22:50:00+09:00",
-          "scale": 20,
-          "name": "陸奥湾",
-          "magnitude": 3,
-          "depth": 0
+          "time": "2026-09-03T06:39:00+09:00",
+          "scale": 10,
+          "name": "熊本県天草・芦北地方",
+          "magnitude": 1.8,
+          "depth": 10
         },
         "capped": false
       },

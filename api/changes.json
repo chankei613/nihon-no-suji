@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T05:03:32+09:00",
+  "generated_at": "2026-09-03T07:48:07+09:00",
   "date": "2026-09-03",
   "changes": [
     {
@@ -24,12 +24,12 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "12.4℃",
+      "value_display": "12.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.7,
-        "display": "+1.7℃",
+        "value": 1.6,
+        "display": "+1.6℃",
         "direction": "up",
         "prev_value": 10.7,
         "prev_date": "2026-09-02"
@@ -60,17 +60,17 @@
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
-      "value_display": "-46cm",
+      "value_display": "-48cm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "+0cm",
-        "direction": "flat",
+        "value": -2.0,
+        "display": "-2cm",
+        "direction": "down",
         "prev_value": -46.0,
-        "prev_date": "2026-09-01"
+        "prev_date": "2026-09-02"
       },
-      "caption": "基準水位(B.S.L.)より46cm低い",
+      "caption": "基準水位(B.S.L.)より48cm低い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -78,15 +78,15 @@
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "78.7%",
+      "value_display": "77.6%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -0.5,
-        "display": "-0.5pt",
+        "value": -1.1,
+        "display": "-1.1pt",
         "direction": "down",
-        "prev_value": 79.2,
-        "prev_date": "2026-09-01"
+        "prev_value": 78.7,
+        "prev_date": "2026-09-02"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": null,
@@ -114,12 +114,12 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "8回",
+      "value_display": "10回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4,
-        "display": "-4回",
+        "value": -2,
+        "display": "-2回",
         "direction": "down",
         "prev_value": 12,
         "prev_date": "2026-09-02"

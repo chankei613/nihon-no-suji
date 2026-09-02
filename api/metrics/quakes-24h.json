@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-03T05:03:32+09:00",
+  "updated_at": "2026-09-03T07:48:07+09:00",
   "summary": {
     "count": 2,
     "first_date": "2026-09-02",
     "last_date": "2026-09-03",
-    "min_30d": 8,
+    "min_30d": 10,
     "max_30d": 12,
-    "avg_30d": 10.0
+    "avg_30d": 11.0
   },
   "history": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "date": "2026-09-03",
-      "value": 8
+      "value": 10
     }
   ],
   "latest_detail": {
@@ -39,11 +39,11 @@
       "depth": 10
     },
     "latest": {
-      "time": "2026-09-02T22:50:00+09:00",
-      "scale": 20,
-      "name": "陸奥湾",
-      "magnitude": 3,
-      "depth": 0
+      "time": "2026-09-03T06:39:00+09:00",
+      "scale": 10,
+      "name": "熊本県天草・芦北地方",
+      "magnitude": 1.8,
+      "depth": 10
     },
     "capped": false
   }
