@@ -1,54 +1,60 @@
 {
-  "generated_at": "2026-09-02T20:39:50+09:00",
-  "date": "2026-09-02",
+  "generated_at": "2026-09-03T01:49:38+09:00",
+  "date": "2026-09-03",
   "changes": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "37.9℃",
+      "value_display": "30.3℃",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": -7.6,
+        "display": "-7.6℃",
+        "direction": "down",
+        "prev_value": 37.9,
+        "prev_date": "2026-09-02"
       },
-      "caption": "加計｜きょう日本でいちばん暑い",
+      "caption": "熊本｜きょう日本でいちばん暑い",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "10.7℃",
+      "value_display": "12.9℃",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": 2.2,
+        "display": "+2.2℃",
+        "direction": "up",
+        "prev_value": 10.7,
+        "prev_date": "2026-09-02"
       },
-      "caption": "宇登呂｜きょう日本でいちばん寒い",
+      "caption": "阿寒湖畔｜きょう日本でいちばん寒い",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "299.5mm",
+      "value_display": "242mm",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": -57.5,
+        "display": "-57.5mm",
+        "direction": "down",
+        "prev_value": 299.5,
+        "prev_date": "2026-09-02"
       },
-      "caption": "宮川｜この24時間でいちばん降った",
+      "caption": "鰺ケ沢｜この24時間でいちばん降った",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "biwako-level",
@@ -90,81 +96,91 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "88%",
+      "value_display": "91%",
       "change": {
         "type": "percentage_point",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": 3.0,
+        "display": "+3.0pt",
+        "direction": "up",
+        "prev_value": 88.0,
+        "prev_date": "2026-09-02"
       },
-      "caption": "ピークは14:00〜15:00の見込み",
+      "caption": "ピークは11:00〜12:00の見込み",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "12回",
+      "value_display": "11回",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": -1,
+        "display": "-1回",
+        "direction": "down",
+        "prev_value": 12,
+        "prev_date": "2026-09-02"
       },
       "caption": "最大は和歌山県北部の震度3",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "sunset-tokyo",
       "name": "東京の日の入り時刻",
       "category": "こよみ",
-      "value_display": "18:08",
+      "value_display": "18:07",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": -1,
+        "display": "1分早く",
+        "direction": "down",
+        "prev_value": 1088.1,
+        "prev_date": "2026-09-02"
       },
-      "caption": "きょうは18:08ごろに沈む",
+      "caption": "きのうより1分早くなった",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "sunrise-tokyo",
       "name": "東京の日の出時刻",
       "category": "こよみ",
-      "value_display": "05:13",
+      "value_display": "05:14",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": 1,
+        "display": "1分遅く",
+        "direction": "up",
+        "prev_value": 313.2,
+        "prev_date": "2026-09-02"
       },
-      "caption": "きょうは05:13ごろに昇る",
+      "caption": "きのうより1分遅くなった",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "moon-age",
       "name": "月齢",
       "category": "こよみ",
-      "value_display": "月齢 20.0",
+      "value_display": "月齢 21.0",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": 1.0,
+        "display": "+1.0",
+        "direction": "up",
+        "prev_value": 20.0,
+        "prev_date": "2026-09-02"
       },
-      "caption": "次の満月まであと24日",
+      "caption": "次の満月まであと23日",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     }
   ]
 }

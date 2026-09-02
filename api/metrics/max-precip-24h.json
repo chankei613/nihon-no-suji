@@ -8,28 +8,32 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-09-02T20:39:50+09:00",
+  "updated_at": "2026-09-03T01:49:38+09:00",
   "summary": {
-    "count": 1,
+    "count": 2,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-02",
-    "min_30d": 299.5,
+    "last_date": "2026-09-03",
+    "min_30d": 242.0,
     "max_30d": 299.5,
-    "avg_30d": 299.5,
-    "record_1st": 872.5,
+    "avg_30d": 270.75,
+    "record_1st": 246.5,
     "all_time_record": false
   },
   "history": [
     {
       "date": "2026-09-02",
       "value": 299.5
+    },
+    {
+      "date": "2026-09-03",
+      "value": 242.0
     }
   ],
   "latest_detail": {
-    "place": "宮川",
-    "pref": "三重県",
-    "caption": "宮川｜この24時間でいちばん降った",
-    "record_1st": 872.5,
+    "place": "鰺ケ沢",
+    "pref": "青森県",
+    "caption": "鰺ケ沢｜この24時間でいちばん降った",
+    "record_1st": 246.5,
     "all_time_record": false
   }
 }
