@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T07:47:15+09:00",
+  "generated_at": "2026-09-02T10:18:38+09:00",
   "date": "2026-09-02",
   "metrics": [
     {
@@ -7,9 +7,9 @@
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 30.1,
-      "value_display": "30.1℃",
-      "observed_at": "2026-09-02T04:00:00+09:00",
+      "value": 32.5,
+      "value_display": "32.5℃",
+      "observed_at": "2026-09-02T09:00:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {
@@ -19,12 +19,12 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "福岡｜きょう日本でいちばん暑い",
+      "caption": "須佐｜きょう日本でいちばん暑い",
       "detail": {
-        "place": "福岡",
-        "pref": "福岡県",
-        "caption": "福岡｜きょう日本でいちばん暑い",
-        "record_1st": 39.0,
+        "place": "須佐",
+        "pref": "山口県",
+        "caption": "須佐｜きょう日本でいちばん暑い",
+        "record_1st": 38.4,
         "year_extreme": false,
         "all_time_record": false
       },
@@ -252,9 +252,9 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value": 90.0,
-      "value_display": "90%",
-      "observed_at": "2026-09-02T07:10:00+09:00",
+      "value": 89.0,
+      "value_display": "89%",
+      "observed_at": "2026-09-02T09:40:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {
@@ -264,17 +264,17 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "ピークは14:00〜15:00の見込み",
+      "caption": "ピークは15:00〜16:00の見込み",
       "detail": {
-        "reserve_rate": 11.0,
-        "peak_supply_10MW": 5046.0,
-        "forecast_peak_demand_10MW": 4542.0,
-        "current_demand_10MW": 2757.0,
-        "current_demand_time": "6:00",
-        "current_usage_rate": 79.0,
-        "peak_timeband": "14:00〜15:00",
+        "reserve_rate": 12.0,
+        "peak_supply_10MW": 5069.0,
+        "forecast_peak_demand_10MW": 4524.0,
+        "current_demand_10MW": 3919.0,
+        "current_demand_time": "9:00",
+        "current_usage_rate": 87.0,
+        "peak_timeband": "15:00〜16:00",
         "area": "東京",
-        "caption": "ピークは14:00〜15:00の見込み"
+        "caption": "ピークは15:00〜16:00の見込み"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -286,9 +286,9 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 8,
-      "value_display": "8回",
-      "observed_at": "2026-09-02T07:47:00+09:00",
+      "value": 9,
+      "value_display": "9回",
+      "observed_at": "2026-09-02T10:18:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {
@@ -311,11 +311,11 @@
           "depth": 50
         },
         "latest": {
-          "time": "2026-09-02T04:21:00+09:00",
-          "scale": 20,
-          "name": "浦河沖",
-          "magnitude": 4.3,
-          "depth": 50
+          "time": "2026-09-02T08:24:00+09:00",
+          "scale": 10,
+          "name": "日向灘",
+          "magnitude": 4,
+          "depth": 40
         },
         "capped": false
       },
