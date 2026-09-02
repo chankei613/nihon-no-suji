@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:18:38+09:00",
+  "generated_at": "2026-09-02T15:22:28+09:00",
   "date": "2026-09-02",
   "metrics": [
     {
@@ -132,16 +132,16 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value": 78.8,
-      "value_display": "78.8%",
+      "value": 78.7,
+      "value_display": "78.7%",
       "observed_at": "2026-09-02T06:00:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -0.4,
-        "display": "-0.4pt",
+        "value": -0.5,
+        "display": "-0.5pt",
         "direction": "down",
         "prev_value": 79.2,
         "prev_date": "2026-09-01"
@@ -151,7 +151,7 @@
         "dam_count": 17,
         "region_means": {
           "近畿": 74.4,
-          "関東": 89.2
+          "関東": 89.0
         },
         "dams": [
           {
@@ -196,7 +196,7 @@
           },
           {
             "name": "利根川水系鬼怒川4ダム",
-            "rate": 91.0,
+            "rate": 90.0,
             "region": "関東"
           },
           {
@@ -252,9 +252,9 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value": 89.0,
-      "value_display": "89%",
-      "observed_at": "2026-09-02T09:40:00+09:00",
+      "value": 88.0,
+      "value_display": "88%",
+      "observed_at": "2026-09-02T15:10:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {
@@ -264,17 +264,17 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "ピークは15:00〜16:00の見込み",
+      "caption": "ピークは14:00〜15:00の見込み",
       "detail": {
-        "reserve_rate": 12.0,
-        "peak_supply_10MW": 5069.0,
-        "forecast_peak_demand_10MW": 4524.0,
-        "current_demand_10MW": 3919.0,
-        "current_demand_time": "9:00",
+        "reserve_rate": 13.0,
+        "peak_supply_10MW": 5117.0,
+        "forecast_peak_demand_10MW": 4512.0,
+        "current_demand_10MW": 4496.0,
+        "current_demand_time": "14:00",
         "current_usage_rate": 87.0,
-        "peak_timeband": "15:00〜16:00",
+        "peak_timeband": "14:00〜15:00",
         "area": "東京",
-        "caption": "ピークは15:00〜16:00の見込み"
+        "caption": "ピークは14:00〜15:00の見込み"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -286,9 +286,9 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 9,
-      "value_display": "9回",
-      "observed_at": "2026-09-02T10:18:00+09:00",
+      "value": 10,
+      "value_display": "10回",
+      "observed_at": "2026-09-02T15:22:00+09:00",
       "as_of": "2026-09-02",
       "stale": false,
       "change": {
@@ -311,11 +311,11 @@
           "depth": 50
         },
         "latest": {
-          "time": "2026-09-02T08:24:00+09:00",
+          "time": "2026-09-02T14:24:00+09:00",
           "scale": 10,
-          "name": "日向灘",
-          "magnitude": 4,
-          "depth": 40
+          "name": "伊予灘",
+          "magnitude": 3.2,
+          "depth": 80
         },
         "capped": false
       },

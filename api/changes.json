@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:18:38+09:00",
+  "generated_at": "2026-09-02T15:22:28+09:00",
   "date": "2026-09-02",
   "changes": [
     {
@@ -72,12 +72,12 @@
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "78.8%",
+      "value_display": "78.7%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -0.4,
-        "display": "-0.4pt",
+        "value": -0.5,
+        "display": "-0.5pt",
         "direction": "down",
         "prev_value": 79.2,
         "prev_date": "2026-09-01"
@@ -90,7 +90,7 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "89%",
+      "value_display": "88%",
       "change": {
         "type": "percentage_point",
         "available": false,
@@ -98,7 +98,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "ピークは15:00〜16:00の見込み",
+      "caption": "ピークは14:00〜15:00の見込み",
       "score": null,
       "label": "前日データなし"
     },
@@ -106,7 +106,7 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "9回",
+      "value_display": "10回",
       "change": {
         "type": "absolute",
         "available": false,

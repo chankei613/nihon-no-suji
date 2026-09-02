@@ -8,19 +8,19 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-02T10:18:38+09:00",
+  "updated_at": "2026-09-02T15:22:28+09:00",
   "summary": {
     "count": 1,
     "first_date": "2026-09-02",
     "last_date": "2026-09-02",
-    "min_30d": 9,
-    "max_30d": 9,
-    "avg_30d": 9.0
+    "min_30d": 10,
+    "max_30d": 10,
+    "avg_30d": 10.0
   },
   "history": [
     {
       "date": "2026-09-02",
-      "value": 9
+      "value": 10
     }
   ],
   "latest_detail": {
@@ -35,11 +35,11 @@
       "depth": 50
     },
     "latest": {
-      "time": "2026-09-02T08:24:00+09:00",
+      "time": "2026-09-02T14:24:00+09:00",
       "scale": 10,
-      "name": "日向灘",
-      "magnitude": 4,
-      "depth": 40
+      "name": "伊予灘",
+      "magnitude": 3.2,
+      "depth": 80
     },
     "capped": false
   }
