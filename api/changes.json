@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T05:05:56+09:00",
+  "generated_at": "2026-09-04T07:47:18+09:00",
   "date": "2026-09-04",
   "changes": [
     {
@@ -195,17 +195,17 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "11.7℃",
+      "value_display": "11.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.6,
-        "display": "-0.6℃",
+        "value": -0.8,
+        "display": "-0.8℃",
         "direction": "down",
         "prev_value": 12.3,
         "prev_date": "2026-09-03"
       },
-      "caption": "ぬかびら源泉郷｜きょう日本でいちばん寒い",
+      "caption": "朱鞠内｜きょう日本でいちばん寒い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -231,12 +231,12 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "198.5mm",
+      "value_display": "203.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -43.5,
-        "display": "-43.5mm",
+        "value": -38.5,
+        "display": "-38.5mm",
         "direction": "down",
         "prev_value": 242.0,
         "prev_date": "2026-09-03"
@@ -267,12 +267,12 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -101,
-        "display": "-101地点",
+        "value": -100,
+        "display": "-100地点",
         "direction": "down",
         "prev_value": 101,
         "prev_date": "2026-09-03"
@@ -303,12 +303,12 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "305地点",
+      "value_display": "443地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -290,
-        "display": "-290地点",
+        "value": -152,
+        "display": "-152地点",
         "direction": "down",
         "prev_value": 595,
         "prev_date": "2026-09-03"
@@ -357,17 +357,17 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "16.9℃",
+      "value_display": "18.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.5,
-        "display": "-4.5℃",
+        "value": -3.1,
+        "display": "-3.1℃",
         "direction": "down",
         "prev_value": 21.4,
         "prev_date": "2026-09-03"
       },
-      "caption": "南鳥島28.5℃ と 朱鞠内11.6℃ の差",
+      "caption": "三宅坪田30.2℃ と 白滝11.9℃ の差",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -393,17 +393,17 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "66%",
+      "value_display": "62%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 29.0,
-        "display": "+29.0pt",
+        "value": 25.0,
+        "display": "+25.0pt",
         "direction": "up",
         "prev_value": 37.0,
         "prev_date": "2026-09-03"
       },
-      "caption": "輪島｜全国でいちばん空気が乾いている",
+      "caption": "酒田｜全国でいちばん空気が乾いている",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -411,12 +411,12 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "3.1℃",
+      "value_display": "2.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.6,
-        "display": "-1.6℃",
+        "value": -2.3,
+        "display": "-2.3℃",
         "direction": "down",
         "prev_value": 4.7,
         "prev_date": "2026-09-03"
@@ -475,7 +475,7 @@
         "prev_value": 2,
         "prev_date": "2026-09-03"
       },
-      "caption": "台風24号「クロヴァン」が奄美市の西北西約160km",
+      "caption": "台風24号「クロヴァン」が奄美市の北西約170km",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -483,17 +483,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "3市町村",
+      "value_display": "10市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3市町村",
-        "direction": "down",
+        "value": 4,
+        "display": "+4市町村",
+        "direction": "up",
         "prev_value": 6,
         "prev_date": "2026-09-03"
       },
-      "caption": "3市町村に気象警報",
+      "caption": "10市町村に気象警報",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -501,17 +501,17 @@
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
-      "value_display": "-48cm",
+      "value_display": "-45cm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.0,
-        "display": "-2cm",
-        "direction": "down",
-        "prev_value": -46.0,
-        "prev_date": "2026-09-02"
+        "value": 3.0,
+        "display": "+3cm",
+        "direction": "up",
+        "prev_value": -48.0,
+        "prev_date": "2026-09-03"
       },
-      "caption": "基準水位(B.S.L.)より48cm低い",
+      "caption": "基準水位(B.S.L.)より45cm低い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -523,11 +523,11 @@
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -1.1,
-        "display": "-1.1pt",
-        "direction": "down",
-        "prev_value": 78.7,
-        "prev_date": "2026-09-02"
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
+        "prev_value": 77.6,
+        "prev_date": "2026-09-03"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": null,
@@ -555,29 +555,31 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "12%",
+      "value_display": "3%",
       "change": {
         "type": "percentage_point",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": -9.0,
+        "display": "-9.0pt",
+        "direction": "down",
+        "prev_value": 12.0,
+        "prev_date": "2026-09-03"
       },
-      "caption": "きょうのピークで電力の12%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の3%を太陽光がまかなった",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "8回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1回",
-        "direction": "up",
+        "value": -1,
+        "display": "-1回",
+        "direction": "down",
         "prev_value": 7,
         "prev_date": "2026-09-03"
       },
