@@ -225,7 +225,8 @@ def collect(for_date: date | None = None) -> list[Observation]:
                                {"time": _hhmm(sunset), "place": "東京"}))
     if sunrise is not None and sunset is not None:
         length = round(sunset - sunrise, 1)
-        h, mi = int(length // 60), int(round(length % 60))
+        total = int(round(length))
+        h, mi = divmod(total, 60)
         out.append(Observation("day-length-tokyo", length, observed_at,
                                {"place": "東京", "caption": f"きょうの昼は{h}時間{mi}分"}))
 

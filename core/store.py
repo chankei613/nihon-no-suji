@@ -166,7 +166,7 @@ def _caption(metric: dict, record: dict, change: dict) -> str:
         return detail_cap
     if metric.get("value_type") == "time":
         t = (record.get("detail") or {}).get("time", "")
-        verb = "昇る" if "日の出" in metric["name"] else "沈む"
+        verb = "昇る" if "の出" in metric["name"] else "沈む"
         if change.get("available"):
             if change["value"] == 0:
                 return f"きのうと同じ時刻に{verb}"
