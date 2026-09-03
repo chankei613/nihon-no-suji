@@ -197,23 +197,31 @@ def _summary(history: list[dict]) -> dict:
 
 
 def _change_score(metric: dict, history: list[dict], change: dict) -> dict:
+    """今日の変化が「普段と比べてどれくらい大きいか」を返す。
+
+    天文・カウントダウン系は決まりきった動きなのでスコアを出さない。
+    それ以外は「今日の変化量の絶対値」を「過去の変化量の絶対値の分布」と比べる
+    （なめらかなトレンドを外れ値と誤判定しないよう、偏差ではなく大きさで見る）。
+    """
     if not change.get("available"):
         return {"score": None, "label": "前日データなし"}
-    deltas = [history[i]["value"] - history[i - 1]["value"] for i in range(1, len(history))]
-    deltas = deltas[-30:]
+    if metric.get("trend") == "countdown" or metric.get("collector") == "astro":
+        return {"score": None, "label": "決まった動き"}
+
+    deltas = [abs(history[i]["value"] - history[i - 1]["value"]) for i in range(1, len(history))]
+    deltas = deltas[-45:]
     if len(deltas) < 5:
         return {"score": None, "label": "データ蓄積中"}
-    try:
-        sd = statistics.pstdev(deltas)
-    except statistics.StatisticsError:
-        sd = 0.0
-    today_delta = history[-1]["value"] - history[-2]["value"]
-    if sd <= 1e-9:
-        z = 0.0
-    else:
-        z = today_delta / sd
-    score = round(abs(z), 2)
-    if score >= 2.5:
+
+    today_delta = abs(history[-1]["value"] - history[-2]["value"])
+    typical = statistics.median(deltas)
+    spread = statistics.median([abs(d - typical) for d in deltas]) or (typical * 0.5) or 1.0
+    z = (today_delta - typical) / spread
+    score = round(max(z, 0.0), 2)
+
+    if today_delta <= typical * 1.1:
+        label = "通常の範囲"
+    elif score >= 3.0:
         label = "かなり珍しい変化"
     elif score >= 1.5:
         label = "いつもより大きな変化"
@@ -244,6 +252,16 @@ def build_api() -> dict:
         prev = _prev_record(history, cur["date"])
         change = compute_change(metric, cur, prev)
         caption = _caption(metric, cur, change)
+        score = _change_score(metric, history, change)
+
+        detail = cur.get("detail", {}) or {}
+        highlight_reason = None
+        if detail.get("all_time_record"):
+            highlight_reason = "観測史上1位"
+        elif detail.get("year_extreme"):
+            highlight_reason = "今年いちばん"
+        elif score.get("score") is not None and score["score"] >= 1.8:
+            highlight_reason = score["label"]
 
         card = {
             "slug": slug,
@@ -257,12 +275,13 @@ def build_api() -> dict:
             "stale": cur["date"] != today_date,
             "change": change,
             "caption": caption,
-            "detail": cur.get("detail", {}),
+            "highlight": highlight_reason is not None,
+            "highlight_reason": highlight_reason,
+            "detail": detail,
             "source": {"name": metric["source"], "url": metric["source_url"]},
         }
         today_metrics.append(card)
 
-        score = _change_score(metric, history, change)
         changes.append({
             "slug": slug, "name": metric["name"], "category": metric["category"],
             "value_display": card["value_display"], "change": change,

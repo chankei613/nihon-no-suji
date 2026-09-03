@@ -33,6 +33,18 @@ jobs:
       - name: Run collectors
         run: python -m core.run
 
+      - name: Check collector health
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          h = json.load(open("api/health.json"))
+          if h["overall"] != "ok":
+              for name in h["degraded"]:
+                  print(f"::warning title=collector degraded::{name} — {h['generated_at']}")
+          else:
+              print("all collectors ok")
+          PY
+
       - name: Commit updated data
         run: |
           git config user.name  "nihon-no-suji-bot"

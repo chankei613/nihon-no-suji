@@ -33,6 +33,11 @@ struct TodayView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.top, 6)
 
+                let highlights = feed.metrics.filter(\.highlight)
+                if !highlights.isEmpty {
+                    section(title: "きょうの注目", symbol: "sparkles", metrics: highlights)
+                }
+
                 ForEach(Theme.sorted(categories(feed.metrics)), id: \.self) { cat in
                     section(title: cat,
                             symbol: Theme.categorySymbol(cat),

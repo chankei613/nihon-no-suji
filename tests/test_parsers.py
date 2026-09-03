@@ -38,6 +38,41 @@ class JmaRankTests(unittest.TestCase):
         self.assertIn("東京", out["tokyo-max-temp"].detail.get("place", ""))
 
 
+class JmaAmedasTests(unittest.TestCase):
+    def setUp(self):
+        import tempfile
+        from core import store
+        self._tmp = tempfile.TemporaryDirectory()
+        self._orig = store.HISTORY_DIR
+        store.HISTORY_DIR = __import__("pathlib").Path(self._tmp.name)
+
+    def tearDown(self):
+        from core import store
+        store.HISTORY_DIR = self._orig
+        self._tmp.cleanup()
+
+    def test_amedas_derived_metrics(self):
+        from collectors import jma_amedas
+        urls = {
+            "latest_time.txt": "amedas_latest_time.txt",
+            "amedastable.json": "amedas_table.json",
+            "/map/": "amedas_map.json",
+        }
+        with patch_fetch("collectors.jma_amedas", urls):
+            out = {o.slug: o for o in jma_amedas.collect()}
+
+        self.assertIn("hot-points-30", out)          # 東京36.5℃ → 1地点
+        self.assertEqual(out["hot-points-30"].value, 1)
+        self.assertEqual(out["hot-points-35"].value, 1)
+        self.assertEqual(out["cold-points-0"].value, 1)   # テスト高地 -2℃
+        self.assertIn("fuji-temp", out)
+        self.assertEqual(out["fuji-temp"].value, 7.1)
+        # 気温差は山岳(alt>1000)を除外 → 東京36.5 と 宗谷岬15.9 の差
+        self.assertAlmostEqual(out["national-temp-spread"].value, 36.5 - 15.9, places=1)
+        self.assertIn("max-wind", out)
+        self.assertIn("max-precip-1h", out)
+
+
 class TepcoTests(unittest.TestCase):
     def test_usage_and_solar(self):
         from collectors import tepco_pg

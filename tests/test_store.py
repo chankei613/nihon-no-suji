@@ -111,10 +111,26 @@ class ChangeScoreTests(unittest.TestCase):
         self.assertEqual(r["label"], "データ蓄積中")
 
     def test_big_jump_scores_high(self):
-        vals = [10, 10, 10, 10, 10, 10, 50]
+        vals = [10, 11, 9, 10, 11, 9, 40]  # 普段±1、今日+31
         hist = [{"value": v, "date": f"2026-09-{i+1:02d}"} for i, v in enumerate(vals)]
         r = store._change_score(M(), hist, {"available": True})
-        self.assertGreater(r["score"], 2.0)
+        self.assertGreater(r["score"], 3.0)
+        self.assertEqual(r["label"], "かなり珍しい変化")
+
+    def test_smooth_trend_not_flagged(self):
+        # なめらかに毎日 -2 ずつ → 外れ値ではない
+        vals = [100 - 2 * i for i in range(15)]
+        hist = [{"value": v, "date": f"2026-09-{i+1:02d}"} for i, v in enumerate(vals)]
+        r = store._change_score(M(), hist, {"available": True})
+        self.assertEqual(r["label"], "通常の範囲")
+
+    def test_countdown_and_astro_excluded(self):
+        hist = [{"value": v, "date": f"2026-09-{i+1:02d}"} for i, v in enumerate(range(15, 0, -1))]
+        r1 = store._change_score(M(trend="countdown"), hist, {"available": True})
+        r2 = store._change_score(M(collector="astro"), hist, {"available": True})
+        self.assertIsNone(r1["score"])
+        self.assertIsNone(r2["score"])
+        self.assertEqual(r1["label"], "決まった動き")
 
 
 if __name__ == "__main__":

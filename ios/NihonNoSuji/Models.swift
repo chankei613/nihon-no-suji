@@ -25,21 +25,43 @@ struct Metric: Codable, Identifiable, Hashable {
     let caption: String
     let source: Source
     let detail: MetricInlineDetail?
+    let highlight: Bool
+    let highlightReason: String?
 
     var id: String { slug }
 
     /// この数字が「今日ならではの意味」を持つか（記録更新など）。カードで強調する。
     var badge: String? {
+        if let r = highlightReason { return r }
         if detail?.allTimeRecord == true { return "観測史上1位" }
         if detail?.yearExtreme == true { return "今年いちばん" }
         return nil
     }
 
     enum CodingKeys: String, CodingKey {
-        case slug, name, category, unit, caption, stale, change, source, detail
+        case slug, name, category, unit, caption, stale, change, source, detail, highlight
         case valueDisplay = "value_display"
         case observedAt = "observed_at"
         case asOf = "as_of"
+        case highlightReason = "highlight_reason"
+    }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        slug = try c.decode(String.self, forKey: .slug)
+        name = try c.decode(String.self, forKey: .name)
+        category = try c.decode(String.self, forKey: .category)
+        unit = try c.decode(String.self, forKey: .unit)
+        valueDisplay = try c.decode(String.self, forKey: .valueDisplay)
+        observedAt = try c.decode(String.self, forKey: .observedAt)
+        asOf = try c.decode(String.self, forKey: .asOf)
+        stale = try c.decode(Bool.self, forKey: .stale)
+        change = try c.decode(Change.self, forKey: .change)
+        caption = try c.decode(String.self, forKey: .caption)
+        source = try c.decode(Source.self, forKey: .source)
+        detail = try c.decodeIfPresent(MetricInlineDetail.self, forKey: .detail)
+        highlight = try c.decodeIfPresent(Bool.self, forKey: .highlight) ?? false
+        highlightReason = try c.decodeIfPresent(String.self, forKey: .highlightReason)
     }
 }
 
