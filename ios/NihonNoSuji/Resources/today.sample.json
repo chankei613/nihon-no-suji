@@ -1,0 +1,1483 @@
+{
+  "generated_at": "2026-09-03T14:05:29+09:00",
+  "date": "2026-09-03",
+  "metrics": [
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "value": 34.8,
+      "value_display": "34.8℃",
+      "observed_at": "2026-09-03T13:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.1,
+        "display": "-3.1℃",
+        "direction": "down",
+        "prev_value": 37.9,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "前原｜きょう日本でいちばん暑い",
+      "detail": {
+        "place": "前原",
+        "pref": "福岡県",
+        "caption": "前原｜きょう日本でいちばん暑い",
+        "record_1st": 38.9,
+        "year_extreme": false,
+        "all_time_record": false
+      },
+      "source": {
+        "name": "気象庁「最新の気象データ」",
+        "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
+      }
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "unit": "℃",
+      "value": 12.3,
+      "value_display": "12.3℃",
+      "observed_at": "2026-09-03T06:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.6,
+        "display": "+1.6℃",
+        "direction": "up",
+        "prev_value": 10.7,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "上標津｜きょう日本でいちばん寒い",
+      "detail": {
+        "place": "上標津",
+        "pref": "北海道根室地方",
+        "caption": "上標津｜きょう日本でいちばん寒い",
+        "normal_diff": -1.2,
+        "station_prev_diff": -0.4,
+        "record_1st": -25.2,
+        "year_extreme": false,
+        "all_time_record": false
+      },
+      "source": {
+        "name": "気象庁「最新の気象データ」",
+        "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
+      }
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "value": 30.6,
+      "value_display": "30.6℃",
+      "observed_at": "2026-09-03T12:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "真夏日",
+      "detail": {
+        "place": "東京",
+        "pref": "東京都",
+        "caption": "真夏日",
+        "record_1st": 39.5,
+        "year_extreme": false,
+        "all_time_record": false
+      },
+      "source": {
+        "name": "気象庁「最新の気象データ」",
+        "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
+      }
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "unit": "mm",
+      "value": 242.0,
+      "value_display": "242mm",
+      "observed_at": "2026-09-03T01:20:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -57.5,
+        "display": "-57.5mm",
+        "direction": "down",
+        "prev_value": 299.5,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "鰺ケ沢｜この24時間でいちばん降った",
+      "detail": {
+        "place": "鰺ケ沢",
+        "pref": "青森県",
+        "caption": "鰺ケ沢｜この24時間でいちばん降った",
+        "record_1st": 246.5,
+        "all_time_record": false
+      },
+      "source": {
+        "name": "気象庁「最新の気象データ」",
+        "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
+      }
+    },
+    {
+      "slug": "hot-points-35",
+      "name": "35℃以上になった地点数",
+      "category": "自然",
+      "unit": "地点",
+      "value": 0,
+      "value_display": "0地点",
+      "observed_at": "2026-09-03T09:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう35℃以上になった地点",
+      "detail": {
+        "station_ids": [],
+        "now": 0,
+        "caption": "きょう35℃以上になった地点"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "unit": "地点",
+      "value": 99,
+      "value_display": "99地点",
+      "observed_at": "2026-09-03T13:50:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "detail": {
+        "station_ids": [
+          "40191",
+          "40311",
+          "40336",
+          "40341",
+          "40406",
+          "40426",
+          "43256",
+          "44071",
+          "44132",
+          "44166",
+          "44207",
+          "44226",
+          "44228",
+          "44262",
+          "44301",
+          "44356",
+          "45061",
+          "45081",
+          "45106",
+          "45116",
+          "45121",
+          "45181",
+          "45212",
+          "45261",
+          "45291",
+          "45361",
+          "46091",
+          "46166",
+          "50206",
+          "50331",
+          "50506",
+          "65288",
+          "65356",
+          "66501",
+          "67212",
+          "67292",
+          "67437",
+          "67461",
+          "67496",
+          "68121",
+          "68132",
+          "68156",
+          "68246",
+          "68351",
+          "68376",
+          "68462",
+          "68516",
+          "68541",
+          "81071",
+          "81116",
+          "81196",
+          "81266",
+          "81286",
+          "81321",
+          "81371",
+          "81386",
+          "81397",
+          "81428",
+          "81436",
+          "82046",
+          "82056",
+          "82068",
+          "82101",
+          "82136",
+          "82171",
+          "82182",
+          "82186",
+          "82191",
+          "82206",
+          "82261",
+          "82306",
+          "82361",
+          "83051",
+          "84072",
+          "84076",
+          "84121",
+          "84122",
+          "84171",
+          "84183",
+          "84266",
+          "84306",
+          "84341",
+          "84371",
+          "84496",
+          "84536",
+          "85033",
+          "85116",
+          "85142",
+          "85161",
+          "85166",
+          "85176",
+          "88151",
+          "88261",
+          "88317",
+          "88371",
+          "88466",
+          "88612",
+          "91141",
+          "91146"
+        ],
+        "now": 43,
+        "caption": "きょう30℃以上になった地点"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "unit": "地点",
+      "value": 0,
+      "value_display": "0地点",
+      "observed_at": "2026-09-03T09:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう0℃を下回った地点",
+      "detail": {
+        "station_ids": [],
+        "now": 0,
+        "caption": "きょう0℃を下回った地点"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "unit": "地点",
+      "value": 326,
+      "value_display": "326地点",
+      "observed_at": "2026-09-03T13:50:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう雨が降った地点",
+      "detail": {
+        "station_ids": [
+          "12041",
+          "12066",
+          "13086",
+          "13181",
+          "15391",
+          "15491",
+          "16026",
+          "18171",
+          "19311",
+          "19346",
+          "19347",
+          "19376",
+          "19451",
+          "20506",
+          "20556",
+          "20601",
+          "20751",
+          "21111",
+          "22072",
+          "22106",
+          "22156",
+          "22206",
+          "22291",
+          "22306",
+          "22356",
+          "22366",
+          "23191",
+          "23226",
+          "31296",
+          "31436",
+          "31451",
+          "32376",
+          "32408",
+          "32426",
+          "32431",
+          "32451",
+          "32466",
+          "32476",
+          "32496",
+          "32551",
+          "32571",
+          "32581",
+          "32596",
+          "32626",
+          "32681",
+          "32691",
+          "32701",
+          "32771",
+          "33486",
+          "33501",
+          "33581",
+          "33631",
+          "33671",
+          "33711",
+          "33831",
+          "33841",
+          "34026",
+          "34096",
+          "34216",
+          "34266",
+          "34296",
+          "34331",
+          "35002",
+          "35334",
+          "36426",
+          "36641",
+          "36716",
+          "41076",
+          "41116",
+          "41271",
+          "42046",
+          "42091",
+          "42106",
+          "42121",
+          "42146",
+          "42186",
+          "42221",
+          "42241",
+          "42251",
+          "42286",
+          "42366",
+          "43151",
+          "43171",
+          "48031",
+          "48061",
+          "48066",
+          "48097",
+          "48141",
+          "48146",
+          "48156",
+          "48172",
+          "48191",
+          "48196",
+          "48216",
+          "48247",
+          "48256",
+          "48296",
+          "48321",
+          "48331",
+          "48346",
+          "48361",
+          "48363",
+          "48371",
+          "48381",
+          "48386",
+          "48436",
+          "48466",
+          "48531",
+          "48536",
+          "48546",
+          "48601",
+          "48606",
+          "48621",
+          "52041",
+          "52051",
+          "52081",
+          "52111",
+          "52131",
+          "52137",
+          "52146",
+          "52152",
+          "52173",
+          "52181",
+          "52192",
+          "52196",
+          "52221",
+          "52331",
+          "52346",
+          "52381",
+          "52406",
+          "52461",
+          "52511",
+          "52571",
+          "52581",
+          "52586",
+          "54157",
+          "54181",
+          "54421",
+          "54472",
+          "54621",
+          "54661",
+          "54721",
+          "54737",
+          "54761",
+          "54841",
+          "54876",
+          "54892",
+          "55022",
+          "55063",
+          "55091",
+          "55102",
+          "55141",
+          "55151",
+          "55156",
+          "55166",
+          "55191",
+          "55206",
+          "55217",
+          "55252",
+          "55267",
+          "56227",
+          "56232",
+          "56286",
+          "56301",
+          "56346",
+          "57051",
+          "57066",
+          "57071",
+          "57082",
+          "57106",
+          "57121",
+          "57206",
+          "57248",
+          "57286",
+          "57311",
+          "57317",
+          "60026",
+          "60116",
+          "61001",
+          "61031",
+          "61076",
+          "61096",
+          "61111",
+          "61151",
+          "61187",
+          "61192",
+          "61196",
+          "61201",
+          "61241",
+          "61242",
+          "61306",
+          "62046",
+          "63016",
+          "63032",
+          "63051",
+          "63071",
+          "63111",
+          "63116",
+          "63121",
+          "63201",
+          "63216",
+          "63241",
+          "63251",
+          "63331",
+          "63366",
+          "63383",
+          "63411",
+          "63491",
+          "66046",
+          "66056",
+          "66127",
+          "66136",
+          "66171",
+          "66186",
+          "66237",
+          "66251",
+          "66276",
+          "66287",
+          "66296",
+          "66306",
+          "66336",
+          "66346",
+          "66381",
+          "66421",
+          "66446",
+          "66481",
+          "66501",
+          "67251",
+          "67306",
+          "67316",
+          "67371",
+          "67376",
+          "67401",
+          "67461",
+          "67511",
+          "67576",
+          "68046",
+          "68206",
+          "68261",
+          "69006",
+          "69041",
+          "69052",
+          "69061",
+          "69101",
+          "69111",
+          "69122",
+          "69161",
+          "69181",
+          "69196",
+          "69222",
+          "69246",
+          "72086",
+          "72111",
+          "72121",
+          "72161",
+          "73001",
+          "73071",
+          "73076",
+          "73126",
+          "73151",
+          "73152",
+          "73166",
+          "73168",
+          "73231",
+          "73247",
+          "73256",
+          "73271",
+          "73276",
+          "73306",
+          "73341",
+          "73351",
+          "81397",
+          "81481",
+          "81486",
+          "82272",
+          "82316",
+          "83021",
+          "83061",
+          "83096",
+          "83106",
+          "83121",
+          "83191",
+          "83201",
+          "83216",
+          "83226",
+          "83242",
+          "83286",
+          "83341",
+          "84341",
+          "84523",
+          "84536",
+          "86006",
+          "86086",
+          "86111",
+          "86141",
+          "86146",
+          "86157",
+          "86181",
+          "86216",
+          "86336",
+          "87376",
+          "87412",
+          "87461",
+          "87492",
+          "88331",
+          "88341",
+          "88447",
+          "88506",
+          "88837",
+          "88931",
+          "91021",
+          "91046",
+          "91107",
+          "91161",
+          "91166",
+          "92006",
+          "92011",
+          "92012",
+          "93062",
+          "94001",
+          "94017",
+          "94036",
+          "94062",
+          "94081",
+          "94086",
+          "94101"
+        ],
+        "now": 209,
+        "caption": "きょう雨が降った地点"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "unit": "mm",
+      "value": 35.5,
+      "value_display": "35.5mm",
+      "observed_at": "2026-09-03T13:50:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "舞鶴｜バケツをひっくり返したような雨",
+      "detail": {
+        "place": "舞鶴",
+        "caption": "舞鶴｜バケツをひっくり返したような雨"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "unit": "mm",
+      "value": 97.0,
+      "value_display": "97mm",
+      "observed_at": "2026-09-03T12:50:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "石垣島｜この3時間でいちばん激しく降った",
+      "detail": {
+        "place": "石垣島",
+        "caption": "石垣島｜この3時間でいちばん激しく降った"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "unit": "℃",
+      "value": 21.4,
+      "value_display": "21.4℃",
+      "observed_at": "2026-09-03T12:20:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "前原34℃ と 上標津13.1℃ の差",
+      "detail": {
+        "hot": {
+          "place": "前原",
+          "temp": 34.0
+        },
+        "cold": {
+          "place": "上標津",
+          "temp": 13.1
+        },
+        "caption": "前原34℃ と 上標津13.1℃ の差"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "unit": "m/s",
+      "value": 18.4,
+      "value_display": "18.4m/s",
+      "observed_at": "2026-09-03T12:20:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "北大東｜全国でいちばん風が強い（10分平均）",
+      "detail": {
+        "place": "北大東",
+        "caption": "北大東｜全国でいちばん風が強い（10分平均）"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "unit": "%",
+      "value": 37.0,
+      "value_display": "37%",
+      "observed_at": "2026-09-03T12:20:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "前原｜全国でいちばん空気が乾いている",
+      "detail": {
+        "place": "前原",
+        "caption": "前原｜全国でいちばん空気が乾いている"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "unit": "℃",
+      "value": 5.4,
+      "value_display": "5.4℃",
+      "observed_at": "2026-09-03T13:50:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "夏でもひんやり",
+      "detail": {
+        "place": "富士山（標高3775m）",
+        "caption": "夏でもひんやり"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況（富士山）",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "days-to-sekki",
+      "name": "次の二十四節気まで",
+      "category": "こよみ",
+      "unit": "日",
+      "value": 5,
+      "value_display": "5日",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "次の二十四節気「白露」まで",
+      "detail": {
+        "next": "白露",
+        "caption": "次の二十四節気「白露」まで"
+      },
+      "source": {
+        "name": "自前天文計算",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "gas-regular",
+      "name": "レギュラーガソリンの全国平均価格",
+      "category": "経済",
+      "unit": "円/L",
+      "value": 170.0,
+      "value_display": "170円/L",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "レギュラーガソリン全国平均（8月31日調査）",
+      "detail": {
+        "survey_date": "2026-08-31",
+        "caption": "レギュラーガソリン全国平均（8月31日調査）"
+      },
+      "source": {
+        "name": "資源エネルギー庁 石油製品価格調査",
+        "url": "https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl007/results.html"
+      }
+    },
+    {
+      "slug": "typhoons-this-year",
+      "name": "今年の台風発生数",
+      "category": "防災",
+      "unit": "個",
+      "value": 24,
+      "value_display": "24個",
+      "observed_at": "2026-09-03T12:27:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "今年はこれまでに24個の台風が発生",
+      "detail": {
+        "caption": "今年はこれまでに24個の台風が発生"
+      },
+      "source": {
+        "name": "気象庁 台風情報",
+        "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
+      }
+    },
+    {
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "unit": "個",
+      "value": 2,
+      "value_display": "2個",
+      "observed_at": "2026-09-03T14:05:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "台風18・24号が発生中",
+      "detail": {
+        "typhoons": [
+          {
+            "number": "2618",
+            "name": "ソウデル",
+            "category": "TS",
+            "pressure": "992",
+            "location": "華南",
+            "course": "北西",
+            "typhoon_number": "2618"
+          },
+          {
+            "number": "2624",
+            "name": "クロヴァン",
+            "category": "TS",
+            "pressure": "985",
+            "location": "奄美市の南約170km",
+            "course": "北北西",
+            "typhoon_number": "2624"
+          }
+        ],
+        "caption": "台風18・24号が発生中"
+      },
+      "source": {
+        "name": "気象庁 台風情報",
+        "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
+      }
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "unit": "市町村",
+      "value": 8,
+      "value_display": "8市町村",
+      "observed_at": "2026-09-03T13:55:58+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "8市町村に気象警報",
+      "detail": {
+        "emergency_count": 0,
+        "caption": "8市町村に気象警報"
+      },
+      "source": {
+        "name": "気象庁 気象警報・注意報",
+        "url": "https://www.jma.go.jp/bosai/warning/data/r8/map.json"
+      }
+    },
+    {
+      "slug": "day-length-tokyo",
+      "name": "東京の昼の長さ",
+      "category": "こよみ",
+      "unit": "",
+      "value": 772.8,
+      "value_display": "12時間53分",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうの昼は12時間53分",
+      "detail": {
+        "place": "東京",
+        "caption": "きょうの昼は12時間53分"
+      },
+      "source": {
+        "name": "自前天文計算",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "days-left-year",
+      "name": "今年の残り日数",
+      "category": "こよみ",
+      "unit": "日",
+      "value": 119,
+      "value_display": "119日",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "2026年は67%が過ぎた",
+      "detail": {
+        "caption": "2026年は67%が過ぎた",
+        "days_passed": 245
+      },
+      "source": {
+        "name": "計算のみ",
+        "url": ""
+      }
+    },
+    {
+      "slug": "moonrise-tokyo",
+      "name": "東京の月の出",
+      "category": "こよみ",
+      "unit": "",
+      "value": 1277.5,
+      "value_display": "21:18",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "月が昇るのは21:18ごろ",
+      "detail": {
+        "time": "21:18",
+        "place": "東京",
+        "caption": "月が昇るのは21:18ごろ"
+      },
+      "source": {
+        "name": "自前天文計算",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "moonset-tokyo",
+      "name": "東京の月の入り",
+      "category": "こよみ",
+      "unit": "",
+      "value": 690.1,
+      "value_display": "11:30",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "月が沈むのは11:30ごろ",
+      "detail": {
+        "time": "11:30",
+        "place": "東京",
+        "caption": "月が沈むのは11:30ごろ"
+      },
+      "source": {
+        "name": "自前天文計算",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "days-to-full-moon",
+      "name": "次の満月まで",
+      "category": "こよみ",
+      "unit": "日",
+      "value": 23,
+      "value_display": "23日",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "次の満月まであと23日",
+      "detail": {
+        "phase": "下弦の月",
+        "caption": "次の満月まであと23日"
+      },
+      "source": {
+        "name": "自前天文計算",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "biwako-level",
+      "name": "琵琶湖の水位",
+      "category": "自然",
+      "unit": "cm",
+      "value": -48.0,
+      "value_display": "-48cm",
+      "observed_at": "2026-09-03T06:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.0,
+        "display": "-2cm",
+        "direction": "down",
+        "prev_value": -46.0,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "基準水位(B.S.L.)より48cm低い",
+      "detail": {
+        "unit": "cm",
+        "basis": "B.S.L.（琵琶湖基準水位）",
+        "station_diff": -2.0,
+        "caption": "基準水位(B.S.L.)より48cm低い"
+      },
+      "source": {
+        "name": "国土交通省 近畿地方整備局",
+        "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
+      }
+    },
+    {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "unit": "%",
+      "value": 77.6,
+      "value_display": "77.6%",
+      "observed_at": "2026-09-03T06:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -1.1,
+        "display": "-1.1pt",
+        "direction": "down",
+        "prev_value": 78.7,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
+      "detail": {
+        "dam_count": 17,
+        "region_means": {
+          "近畿": 72.9,
+          "関東": 89.0
+        },
+        "dams": [
+          {
+            "name": "九頭竜ダム",
+            "rate": 23.8,
+            "region": "近畿"
+          },
+          {
+            "name": "猿谷ダム",
+            "rate": 28.4,
+            "region": "近畿"
+          },
+          {
+            "name": "室生ダム",
+            "rate": 60.1,
+            "region": "近畿"
+          },
+          {
+            "name": "多摩川水系 小河内ダム",
+            "rate": 65.0,
+            "region": "関東"
+          },
+          {
+            "name": "天ヶ瀬ダム",
+            "rate": 65.1,
+            "region": "近畿"
+          },
+          {
+            "name": "青蓮寺ダム",
+            "rate": 65.1,
+            "region": "近畿"
+          },
+          {
+            "name": "大滝ダム",
+            "rate": 82.2,
+            "region": "近畿"
+          },
+          {
+            "name": "比奈知ダム",
+            "rate": 85.1,
+            "region": "近畿"
+          },
+          {
+            "name": "真名川ダム",
+            "rate": 87.4,
+            "region": "近畿"
+          },
+          {
+            "name": "高山ダム",
+            "rate": 89.3,
+            "region": "近畿"
+          },
+          {
+            "name": "利根川水系鬼怒川4ダム",
+            "rate": 90.0,
+            "region": "関東"
+          },
+          {
+            "name": "布目ダム",
+            "rate": 91.2,
+            "region": "近畿"
+          },
+          {
+            "name": "利根川水系上流9ダム",
+            "rate": 95.0,
+            "region": "関東"
+          },
+          {
+            "name": "相模川水系3ダム",
+            "rate": 95.0,
+            "region": "関東"
+          },
+          {
+            "name": "日吉ダム",
+            "rate": 98.0,
+            "region": "近畿"
+          },
+          {
+            "name": "一庫ダム",
+            "rate": 98.6,
+            "region": "近畿"
+          },
+          {
+            "name": "荒川水系4ダム",
+            "rate": 100.0,
+            "region": "関東"
+          }
+        ],
+        "caption": "主要17ダムの平均貯水率（おおむね平年並み）"
+      },
+      "source": {
+        "name": "国土交通省 近畿・関東地方整備局",
+        "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
+      }
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "unit": "%",
+      "value": 90.0,
+      "value_display": "90%",
+      "observed_at": "2026-09-03T13:40:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 2.0,
+        "display": "+2.0pt",
+        "direction": "up",
+        "prev_value": 88.0,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "ピークは11:00〜12:00の見込み",
+      "detail": {
+        "reserve_rate": 11.0,
+        "peak_supply_10MW": 4845.0,
+        "forecast_peak_demand_10MW": 4378.0,
+        "current_demand_10MW": 4301.0,
+        "current_demand_time": "13:00",
+        "current_usage_rate": 88.0,
+        "peak_timeband": "11:00〜12:00",
+        "area": "東京",
+        "caption": "ピークは11:00〜12:00の見込み"
+      },
+      "source": {
+        "name": "東京電力パワーグリッド でんき予報",
+        "url": "https://www.tepco.co.jp/forecast/html/images/juyo-s1-j.csv"
+      }
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "unit": "%",
+      "value": 12.0,
+      "value_display": "12%",
+      "observed_at": "2026-09-03T12:40:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうのピークで電力の12%を太陽光がまかなった",
+      "detail": {
+        "peak_output_10MW": 496.0,
+        "area": "東京",
+        "caption": "きょうのピークで電力の12%を太陽光がまかなった"
+      },
+      "source": {
+        "name": "東京電力パワーグリッド でんき予報",
+        "url": "https://www.tepco.co.jp/forecast/html/images/juyo-s1-j.csv"
+      }
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "unit": "回",
+      "value": 10,
+      "value_display": "10回",
+      "observed_at": "2026-09-03T14:05:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2,
+        "display": "-2回",
+        "direction": "down",
+        "prev_value": 12,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "最大は和歌山県北部の震度3",
+      "detail": {
+        "caption": "最大は和歌山県北部の震度3",
+        "window_hours": 24,
+        "max_magnitude": 3.5,
+        "strongest": {
+          "time": "2026-09-02T17:23:00+09:00",
+          "scale": 30,
+          "name": "和歌山県北部",
+          "magnitude": 3.3,
+          "depth": 10
+        },
+        "latest": {
+          "time": "2026-09-03T11:55:00+09:00",
+          "scale": 10,
+          "name": "熊本県天草・芦北地方",
+          "magnitude": 2.3,
+          "depth": 0
+        },
+        "capped": false
+      },
+      "source": {
+        "name": "P2P地震情報 API（元データ：気象庁）",
+        "url": "https://api.p2pquake.net/v2/history?codes=551"
+      }
+    },
+    {
+      "slug": "sunset-tokyo",
+      "name": "東京の日の入り時刻",
+      "category": "こよみ",
+      "unit": "",
+      "value": 1086.7,
+      "value_display": "18:07",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1,
+        "display": "1分早く",
+        "direction": "down",
+        "prev_value": 1088.1,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "きのうより1分早くなった",
+      "detail": {
+        "time": "18:07",
+        "place": "東京"
+      },
+      "source": {
+        "name": "自前天文計算（NOAA式）",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "sunrise-tokyo",
+      "name": "東京の日の出時刻",
+      "category": "こよみ",
+      "unit": "",
+      "value": 313.9,
+      "value_display": "05:14",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "1分遅く",
+        "direction": "up",
+        "prev_value": 313.2,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "きのうより1分遅くなった",
+      "detail": {
+        "time": "05:14",
+        "place": "東京"
+      },
+      "source": {
+        "name": "自前天文計算（NOAA式）",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "moon-age",
+      "name": "月齢",
+      "category": "こよみ",
+      "unit": "",
+      "value": 21.0,
+      "value_display": "月齢 21.0",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.0,
+        "display": "+1.0",
+        "direction": "up",
+        "prev_value": 20.0,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "次の満月まであと23日",
+      "detail": {
+        "phase": "下弦の月",
+        "days_to_full": 23,
+        "caption": "次の満月まであと23日"
+      },
+      "source": {
+        "name": "自前天文計算",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    }
+  ]
+}

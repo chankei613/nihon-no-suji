@@ -1,0 +1,55 @@
+name: NihonNoSuji
+options:
+  bundleIdPrefix: com.cometcat
+  developmentLanguage: ja
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "26.0"
+settings:
+  base:
+    DEVELOPMENT_TEAM: D5R956CRBE
+    MARKETING_VERSION: "0.1"
+    CURRENT_PROJECT_VERSION: "1"
+targets:
+  NihonNoSuji:
+    type: application
+    platform: iOS
+    sources:
+      - NihonNoSuji
+    info:
+      path: NihonNoSuji/Info.plist
+      properties:
+        CFBundleDisplayName: 日本の数字
+        CFBundleShortVersionString: "0.1"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "6.0"
+        SWIFT_APPROACHABLE_CONCURRENCY: YES
+  NihonNoSujiTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - NihonNoSujiTests
+    dependencies:
+      - target: NihonNoSuji
+    settings:
+      base:
+        SWIFT_VERSION: "6.0"
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  NihonNoSuji:
+    build:
+      targets:
+        NihonNoSuji: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - NihonNoSujiTests

@@ -15,7 +15,8 @@ __pycache__/
 .DS_Store
 .claude/settings.local.json
 
-# Xcode (iOS lane)
+# Xcode (iOS lane) — .xcodeproj は project.yml から `xcodegen generate` で生成する
+ios/**/*.xcodeproj
 ios/**/build/
 ios/**/DerivedData/
 ios/**/*.xcuserstate

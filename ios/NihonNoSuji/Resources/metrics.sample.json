@@ -1,0 +1,311 @@
+{
+  "generated_at": "2026-09-03T14:05:29+09:00",
+  "metrics": [
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁「最新の気象データ」"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁「最新の気象データ」"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁「最新の気象データ」"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "unit": "mm",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁「最新の気象データ」"
+    },
+    {
+      "slug": "hot-points-35",
+      "name": "35℃以上になった地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "unit": "mm",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "unit": "mm",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "unit": "m/s",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "snow-points",
+      "name": "雪が積もっている地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "max-snow",
+      "name": "全国最深積雪",
+      "category": "自然",
+      "unit": "cm",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況（富士山）"
+    },
+    {
+      "slug": "days-to-sekki",
+      "name": "次の二十四節気まで",
+      "category": "こよみ",
+      "unit": "日",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "自前天文計算"
+    },
+    {
+      "slug": "gas-regular",
+      "name": "レギュラーガソリンの全国平均価格",
+      "category": "経済",
+      "unit": "円/L",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "資源エネルギー庁 石油製品価格調査"
+    },
+    {
+      "slug": "typhoons-this-year",
+      "name": "今年の台風発生数",
+      "category": "防災",
+      "unit": "個",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 台風情報"
+    },
+    {
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "unit": "個",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 台風情報"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "unit": "市町村",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 気象警報・注意報"
+    },
+    {
+      "slug": "day-length-tokyo",
+      "name": "東京の昼の長さ",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "duration",
+      "source": "自前天文計算"
+    },
+    {
+      "slug": "days-left-year",
+      "name": "今年の残り日数",
+      "category": "こよみ",
+      "unit": "日",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "計算のみ"
+    },
+    {
+      "slug": "moonrise-tokyo",
+      "name": "東京の月の出",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "time",
+      "source": "自前天文計算"
+    },
+    {
+      "slug": "moonset-tokyo",
+      "name": "東京の月の入り",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "time",
+      "source": "自前天文計算"
+    },
+    {
+      "slug": "days-to-full-moon",
+      "name": "次の満月まで",
+      "category": "こよみ",
+      "unit": "日",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "自前天文計算"
+    },
+    {
+      "slug": "biwako-level",
+      "name": "琵琶湖の水位",
+      "category": "自然",
+      "unit": "cm",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "国土交通省 近畿地方整備局"
+    },
+    {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "国土交通省 近畿・関東地方整備局"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "東京電力パワーグリッド でんき予報"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "東京電力パワーグリッド でんき予報"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "unit": "回",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "P2P地震情報 API（元データ：気象庁）"
+    },
+    {
+      "slug": "sunset-tokyo",
+      "name": "東京の日の入り時刻",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "time",
+      "source": "自前天文計算（NOAA式）"
+    },
+    {
+      "slug": "sunrise-tokyo",
+      "name": "東京の日の出時刻",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "time",
+      "source": "自前天文計算（NOAA式）"
+    },
+    {
+      "slug": "moon-age",
+      "name": "月齢",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "moon",
+      "source": "自前天文計算"
+    }
+  ]
+}

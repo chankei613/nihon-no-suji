@@ -1,0 +1,538 @@
+{
+  "generated_at": "2026-09-03T14:05:29+09:00",
+  "date": "2026-09-03",
+  "changes": [
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "34.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.1,
+        "display": "-3.1℃",
+        "direction": "down",
+        "prev_value": 37.9,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "前原｜きょう日本でいちばん暑い",
+      "score": null,
+      "label": "データ蓄積中"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "12.3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.6,
+        "display": "+1.6℃",
+        "direction": "up",
+        "prev_value": 10.7,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "上標津｜きょう日本でいちばん寒い",
+      "score": null,
+      "label": "データ蓄積中"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "30.6℃",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "真夏日",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "242mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -57.5,
+        "display": "-57.5mm",
+        "direction": "down",
+        "prev_value": 299.5,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "鰺ケ沢｜この24時間でいちばん降った",
+      "score": null,
+      "label": "データ蓄積中"
+    },
+    {
+      "slug": "hot-points-35",
+      "name": "35℃以上になった地点数",
+      "category": "自然",
+      "value_display": "0地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう35℃以上になった地点",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "value_display": "99地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "value_display": "0地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう0℃を下回った地点",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "326地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "35.5mm",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "舞鶴｜バケツをひっくり返したような雨",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "value_display": "97mm",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "石垣島｜この3時間でいちばん激しく降った",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "21.4℃",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "前原34℃ と 上標津13.1℃ の差",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "18.4m/s",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "北大東｜全国でいちばん風が強い（10分平均）",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "37%",
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "前原｜全国でいちばん空気が乾いている",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "5.4℃",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "夏でもひんやり",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "days-to-sekki",
+      "name": "次の二十四節気まで",
+      "category": "こよみ",
+      "value_display": "5日",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "次の二十四節気「白露」まで",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "gas-regular",
+      "name": "レギュラーガソリンの全国平均価格",
+      "category": "経済",
+      "value_display": "170円/L",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "レギュラーガソリン全国平均（8月31日調査）",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "typhoons-this-year",
+      "name": "今年の台風発生数",
+      "category": "防災",
+      "value_display": "24個",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "今年はこれまでに24個の台風が発生",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "value_display": "2個",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "台風18・24号が発生中",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "8市町村",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "8市町村に気象警報",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "day-length-tokyo",
+      "name": "東京の昼の長さ",
+      "category": "こよみ",
+      "value_display": "12時間53分",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうの昼は12時間53分",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "days-left-year",
+      "name": "今年の残り日数",
+      "category": "こよみ",
+      "value_display": "119日",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "2026年は67%が過ぎた",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "moonrise-tokyo",
+      "name": "東京の月の出",
+      "category": "こよみ",
+      "value_display": "21:18",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "月が昇るのは21:18ごろ",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "moonset-tokyo",
+      "name": "東京の月の入り",
+      "category": "こよみ",
+      "value_display": "11:30",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "月が沈むのは11:30ごろ",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "days-to-full-moon",
+      "name": "次の満月まで",
+      "category": "こよみ",
+      "value_display": "23日",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "次の満月まであと23日",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "biwako-level",
+      "name": "琵琶湖の水位",
+      "category": "自然",
+      "value_display": "-48cm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.0,
+        "display": "-2cm",
+        "direction": "down",
+        "prev_value": -46.0,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "基準水位(B.S.L.)より48cm低い",
+      "score": null,
+      "label": "データ蓄積中"
+    },
+    {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "77.6%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -1.1,
+        "display": "-1.1pt",
+        "direction": "down",
+        "prev_value": 78.7,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
+      "score": null,
+      "label": "データ蓄積中"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "90%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 2.0,
+        "display": "+2.0pt",
+        "direction": "up",
+        "prev_value": 88.0,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "ピークは11:00〜12:00の見込み",
+      "score": null,
+      "label": "データ蓄積中"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "12%",
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうのピークで電力の12%を太陽光がまかなった",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "10回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2,
+        "display": "-2回",
+        "direction": "down",
+        "prev_value": 12,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "最大は和歌山県北部の震度3",
+      "score": null,
+      "label": "データ蓄積中"
+    },
+    {
+      "slug": "sunset-tokyo",
+      "name": "東京の日の入り時刻",
+      "category": "こよみ",
+      "value_display": "18:07",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1,
+        "display": "1分早く",
+        "direction": "down",
+        "prev_value": 1088.1,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "きのうより1分早くなった",
+      "score": null,
+      "label": "データ蓄積中"
+    },
+    {
+      "slug": "sunrise-tokyo",
+      "name": "東京の日の出時刻",
+      "category": "こよみ",
+      "value_display": "05:14",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "1分遅く",
+        "direction": "up",
+        "prev_value": 313.2,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "きのうより1分遅くなった",
+      "score": null,
+      "label": "データ蓄積中"
+    },
+    {
+      "slug": "moon-age",
+      "name": "月齢",
+      "category": "こよみ",
+      "value_display": "月齢 21.0",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.0,
+        "display": "+1.0",
+        "direction": "up",
+        "prev_value": 20.0,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "次の満月まであと23日",
+      "score": null,
+      "label": "データ蓄積中"
+    }
+  ]
+}
