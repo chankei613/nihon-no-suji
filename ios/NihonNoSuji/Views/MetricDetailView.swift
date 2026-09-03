@@ -7,7 +7,15 @@ struct MetricDetailView: View {
     @Environment(FavoritesStore.self) private var favorites
     @State private var detail: MetricDetail?
 
-    private var history: [MetricDetail.Point] { detail?.history ?? [] }
+    private var history: [MetricDetail.Point] {
+        if let h = detail?.history, h.count >= 2 { return h }
+        // 詳細JSONが取れないとき（オフライン等）は sparklines.json の点で代用
+        if case .loaded(let spark, _) = store.sparklines,
+           let s = spark.series.first(where: { $0.slug == metric.slug }) {
+            return s.points
+        }
+        return detail?.history ?? []
+    }
 
     var body: some View {
         ScrollView {
@@ -169,10 +177,14 @@ struct MetricDetailView: View {
     }
 
     private var summaryStats: some View {
-        HStack(spacing: 22) {
-            stat("30日 最小", detail?.summary.min30d)
-            stat("30日 平均", detail?.summary.avg30d)
-            stat("30日 最大", detail?.summary.max30d)
+        let recent = history.suffix(30).map(\.value)
+        let mn = detail?.summary.min30d ?? recent.min()
+        let mx = detail?.summary.max30d ?? recent.max()
+        let avg = detail?.summary.avg30d ?? (recent.isEmpty ? nil : recent.reduce(0, +) / Double(recent.count))
+        return HStack(spacing: 22) {
+            stat("30日 最小", mn)
+            stat("30日 平均", avg)
+            stat("30日 最大", mx)
         }
         .padding(.top, 4)
     }

@@ -18,12 +18,14 @@ enum LoadState<T> {
 final class DataStore {
     var today: LoadState<TodayFeed> = .loading
     var changes: LoadState<ChangesFeed> = .loading
+    var sparklines: LoadState<SparklineFeed> = .loading
 
     private let decoder = JSONDecoder()
 
     func loadAll() async {
         await loadToday()
         await loadChanges()
+        await loadSparklines()
     }
 
     func loadToday() async {
@@ -32,6 +34,10 @@ final class DataStore {
 
     func loadChanges() async {
         changes = await fetch("changes", ChangesFeed.self)
+    }
+
+    func loadSparklines() async {
+        sparklines = await fetch("sparklines", SparklineFeed.self)
     }
 
     func metricDetail(_ slug: String) async -> MetricDetail? {

@@ -119,6 +119,34 @@ struct ChangeRow: Codable, Identifiable, Hashable {
     }
 }
 
+// api/sparklines.json
+struct SparklineFeed: Codable {
+    let generatedAt: String
+    let series: [SparkSeries]
+
+    enum CodingKeys: String, CodingKey {
+        case generatedAt = "generated_at"
+        case series
+    }
+}
+
+struct SparkSeries: Codable, Identifiable {
+    let slug: String
+    let name: String
+    let category: String
+    let unit: String
+    let valueDisplay: String
+    let change: Change
+    let points: [MetricDetail.Point]
+
+    var id: String { slug }
+
+    enum CodingKeys: String, CodingKey {
+        case slug, name, category, unit, change, points
+        case valueDisplay = "value_display"
+    }
+}
+
 // api/metrics/{slug}.json
 struct MetricDetail: Codable {
     let slug: String
