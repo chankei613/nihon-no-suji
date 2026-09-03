@@ -79,6 +79,21 @@ def collect() -> list[Observation]:
                     current_rate = _num(f[5]) if len(f) >= 6 else None
             break
 
+    # 太陽光（5分間隔値）セクション … 当日ピークの太陽光率
+    solar_peak_rate = None
+    solar_peak_mw = None
+    for i, ln in enumerate(lines):
+        if ln.startswith("DATE,TIME,太陽光"):
+            for row in lines[i + 1:]:
+                if not row or not row[0].isdigit():
+                    break
+                f = row.split(",")
+                if len(f) >= 4 and (_num(f[3]) or 0) > 0:
+                    r = _num(f[3])
+                    if solar_peak_rate is None or r > solar_peak_rate:
+                        solar_peak_rate, solar_peak_mw = r, _num(f[2])
+            break
+
     usage = peak.get("usage_rate")
     if usage is None:
         print("  ! tepco_pg: 使用率が取れなかった")
@@ -106,5 +121,15 @@ def collect() -> list[Observation]:
         "area": "東京",
         "caption": _caption(usage, peak.get("timeband", "")),
     }
-    return [Observation(slug="elec-usage-tokyo", value=round(usage, 1),
-                        observed_at=observed_at, detail=detail)]
+    out = [Observation(slug="elec-usage-tokyo", value=round(usage, 1),
+                       observed_at=observed_at, detail=detail)]
+
+    if solar_peak_rate is not None:
+        out.append(Observation(
+            slug="solar-share-tokyo",
+            value=round(solar_peak_rate, 1),
+            observed_at=observed_at,
+            detail={"peak_output_10MW": solar_peak_mw, "area": "東京",
+                    "caption": f"きょうのピークで電力の{solar_peak_rate:g}%を太陽光がまかなった"},
+        ))
+    return out
