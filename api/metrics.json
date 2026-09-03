@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:13:02+09:00",
+  "generated_at": "2026-09-03T09:40:00+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -13,6 +13,15 @@
     {
       "slug": "min-temp",
       "name": "全国最低気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁「最新の気象データ」"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
       "comparison_type": "absolute",
@@ -99,6 +108,33 @@
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況（富士山）"
+    },
+    {
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "unit": "個",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 台風情報"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "unit": "市町村",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 気象警報・注意報"
     },
     {
       "slug": "day-length-tokyo",

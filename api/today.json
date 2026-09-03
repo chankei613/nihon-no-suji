@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:13:02+09:00",
+  "generated_at": "2026-09-03T09:40:00+09:00",
   "date": "2026-09-03",
   "metrics": [
     {
@@ -71,6 +71,37 @@
       }
     },
     {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "value": 27.4,
+      "value_display": "27.4℃",
+      "observed_at": "2026-09-03T08:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうの東京の最高気温",
+      "detail": {
+        "place": "東京",
+        "pref": "東京都",
+        "caption": "きょうの東京の最高気温",
+        "record_1st": 39.5,
+        "year_extreme": false,
+        "all_time_record": false
+      },
+      "source": {
+        "name": "気象庁「最新の気象データ」",
+        "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
+      }
+    },
+    {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
@@ -135,9 +166,9 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 25,
-      "value_display": "25地点",
-      "observed_at": "2026-09-03T09:00:00+09:00",
+      "value": 41,
+      "value_display": "41地点",
+      "observed_at": "2026-09-03T09:30:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -152,17 +183,31 @@
         "station_ids": [
           "44207",
           "44262",
+          "45261",
+          "45291",
+          "66501",
+          "67461",
+          "67496",
           "81071",
+          "81116",
+          "81266",
           "81286",
+          "81321",
           "81371",
+          "81386",
+          "81397",
           "81436",
           "82056",
+          "82068",
           "82101",
+          "82171",
           "82182",
           "82186",
           "82191",
+          "82306",
           "83051",
           "84072",
+          "84076",
           "84121",
           "84122",
           "84183",
@@ -170,13 +215,15 @@
           "84306",
           "84371",
           "84496",
+          "84536",
           "85033",
           "85116",
           "85142",
           "85161",
-          "85166"
+          "85166",
+          "85176"
         ],
-        "now": 25,
+        "now": 40,
         "caption": "きょう30℃以上になった地点"
       },
       "source": {
@@ -217,9 +264,9 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value": 17.4,
-      "value_display": "17.4℃",
-      "observed_at": "2026-09-03T09:00:00+09:00",
+      "value": 17.8,
+      "value_display": "17.8℃",
+      "observed_at": "2026-09-03T09:30:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -229,17 +276,17 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "福岡31.4℃ と 上標津14℃ の差",
+      "caption": "佐世保32.1℃ と 阿寒湖畔14.3℃ の差",
       "detail": {
         "hot": {
-          "place": "福岡",
-          "temp": 31.4
+          "place": "佐世保",
+          "temp": 32.1
         },
         "cold": {
-          "place": "上標津",
-          "temp": 14.0
+          "place": "阿寒湖畔",
+          "temp": 14.3
         },
-        "caption": "福岡31.4℃ と 上標津14℃ の差"
+        "caption": "佐世保32.1℃ と 阿寒湖畔14.3℃ の差"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -278,9 +325,9 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value": 60.0,
-      "value_display": "60%",
-      "observed_at": "2026-09-03T09:00:00+09:00",
+      "value": 56.0,
+      "value_display": "56%",
+      "observed_at": "2026-09-03T09:30:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -298,6 +345,79 @@
       "source": {
         "name": "気象庁 アメダス実況",
         "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "unit": "℃",
+      "value": 7.1,
+      "value_display": "7.1℃",
+      "observed_at": "2026-09-03T09:30:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "夏でもひんやり",
+      "detail": {
+        "place": "富士山（標高3775m）",
+        "caption": "夏でもひんやり"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況（富士山）",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "unit": "個",
+      "value": 2,
+      "value_display": "2個",
+      "observed_at": "2026-09-03T09:39:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "台風18・24号が発生中",
+      "detail": {
+        "typhoons": [
+          {
+            "number": "2618",
+            "name": "ソウデル",
+            "category": "TS",
+            "pressure": "992",
+            "location": "南シナ海",
+            "course": "北北西",
+            "typhoon_number": "2618"
+          },
+          {
+            "number": "2624",
+            "name": "クロヴァン",
+            "category": "TS",
+            "pressure": "992",
+            "location": "南大東島の南西約100km",
+            "course": "北北西",
+            "typhoon_number": "2624"
+          }
+        ],
+        "caption": "台風18・24号が発生中"
+      },
+      "source": {
+        "name": "気象庁 台風情報",
+        "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
       }
     },
     {
@@ -539,7 +659,7 @@
       "unit": "%",
       "value": 91.0,
       "value_display": "91%",
-      "observed_at": "2026-09-03T08:40:00+09:00",
+      "observed_at": "2026-09-03T09:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -553,9 +673,9 @@
       },
       "caption": "ピークは13:00〜14:00の見込み",
       "detail": {
-        "reserve_rate": 9.0,
-        "peak_supply_10MW": 4860.0,
-        "forecast_peak_demand_10MW": 4448.0,
+        "reserve_rate": 10.0,
+        "peak_supply_10MW": 4851.0,
+        "forecast_peak_demand_10MW": 4418.0,
         "current_demand_10MW": 3690.0,
         "current_demand_time": "8:00",
         "current_usage_rate": 86.0,
@@ -575,7 +695,7 @@
       "unit": "回",
       "value": 11,
       "value_display": "11回",
-      "observed_at": "2026-09-03T09:13:00+09:00",
+      "observed_at": "2026-09-03T09:40:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {

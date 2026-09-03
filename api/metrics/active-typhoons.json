@@ -1,0 +1,49 @@
+{
+  "slug": "active-typhoons",
+  "name": "発生中の台風の数",
+  "unit": "個",
+  "comparison_type": "absolute",
+  "value_type": "number",
+  "source": {
+    "name": "気象庁 台風情報",
+    "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
+  },
+  "updated_at": "2026-09-03T09:40:00+09:00",
+  "summary": {
+    "count": 1,
+    "first_date": "2026-09-03",
+    "last_date": "2026-09-03",
+    "min_30d": 2,
+    "max_30d": 2,
+    "avg_30d": 2.0
+  },
+  "history": [
+    {
+      "date": "2026-09-03",
+      "value": 2
+    }
+  ],
+  "latest_detail": {
+    "typhoons": [
+      {
+        "number": "2618",
+        "name": "ソウデル",
+        "category": "TS",
+        "pressure": "992",
+        "location": "南シナ海",
+        "course": "北北西",
+        "typhoon_number": "2618"
+      },
+      {
+        "number": "2624",
+        "name": "クロヴァン",
+        "category": "TS",
+        "pressure": "992",
+        "location": "南大東島の南西約100km",
+        "course": "北北西",
+        "typhoon_number": "2624"
+      }
+    ],
+    "caption": "台風18・24号が発生中"
+  }
+}

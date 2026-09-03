@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:13:02+09:00",
+  "generated_at": "2026-09-03T09:40:00+09:00",
   "date": "2026-09-03",
   "changes": [
     {
@@ -39,6 +39,22 @@
       "label": "データ蓄積中"
     },
     {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "27.4℃",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
@@ -76,7 +92,7 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "25地点",
+      "value_display": "41地点",
       "change": {
         "type": "absolute",
         "available": false,
@@ -108,7 +124,7 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "17.4℃",
+      "value_display": "17.8℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -116,7 +132,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "福岡31.4℃ と 上標津14℃ の差",
+      "caption": "佐世保32.1℃ と 阿寒湖畔14.3℃ の差",
       "score": null,
       "label": "前日データなし"
     },
@@ -140,7 +156,7 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "60%",
+      "value_display": "56%",
       "change": {
         "type": "percentage_point",
         "available": false,
@@ -149,6 +165,38 @@
         "note": "前日データなし"
       },
       "caption": "福岡｜全国でいちばん空気が乾いている",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "7.1℃",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "夏でもひんやり",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "value_display": "2個",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "台風18・24号が発生中",
       "score": null,
       "label": "前日データなし"
     },
