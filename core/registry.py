@@ -192,7 +192,7 @@ METRICS: list[dict] = [
         "daily_agg": "max",
         "collector": "jma_warning",
         "source": "気象庁 気象警報・注意報",
-        "source_url": "https://www.jma.go.jp/bosai/warning/",
+        "source_url": "https://www.jma.go.jp/bosai/warning/data/r8/map.json",
     },
     {
         "slug": "day-length-tokyo",

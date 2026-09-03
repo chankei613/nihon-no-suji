@@ -1,69 +1,75 @@
 """気象庁の気象警報から、いま警報が発表されている市町村数。
 
-    warning/data/warning/map.json … 全国の警報・注意報を1ファイルに集約
+    warning/data/r8/map.json      … 全国の警報・注意報（発表官署ごとの最新報の配列）
+    warning/data/r8/map_time.json … 最新の管理時刻（鮮度チェック用）
 
-※ このエンドポイントは配信が遅れる/古いことがあるため、reportDatetime が
-   6時間より古ければ何も出さない（古い値で埋めない）。
+※ 旧 warning/data/warning/*.json は 2026-05 で凍結。現行は data/r8/。
+   鮮度が6時間より古ければ何も出さない（古い値で埋めない）。
 """
 from __future__ import annotations
 
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from core.http import fetch
 from core.models import JST, Observation, now_jst
 
-URL = "https://www.jma.go.jp/bosai/warning/data/warning/map.json"
+MAP_URL = "https://www.jma.go.jp/bosai/warning/data/r8/map.json"
+TIME_URL = "https://www.jma.go.jp/bosai/warning/data/r8/map_time.json"
 
-# 警報コード（02-08）＋ 特別警報コード（32-38）
 WARNING_CODES = {"02", "03", "04", "05", "06", "07", "08"}
 EMERGENCY_CODES = {"32", "33", "35", "36", "37", "38"}
-ACTIVE = {"発表", "継続"}
+NONE_STATUS = "発表警報・注意報はなし"
+ACTIVE_STATUS = {"発表", "継続"}
+
+
+def _freshness_ok() -> tuple[bool, datetime | None]:
+    try:
+        t = json.loads(fetch(TIME_URL, timeout=15)).get("latestControlDatetime")
+        dt = datetime.fromisoformat(t.replace("Z", "+00:00"))
+        return (now_jst() - dt.astimezone(JST)) <= timedelta(hours=6), dt.astimezone(JST)
+    except Exception:  # noqa: BLE001
+        return False, None
 
 
 def collect() -> list[Observation]:
+    fresh, latest = _freshness_ok()
+    if not fresh:
+        print(f"  ! jma_warning: r8データが古い/取得不可（{latest}）ので採用しない")
+        return []
+
     try:
-        data = json.loads(fetch(URL, timeout=20))
+        reports = json.loads(fetch(MAP_URL, timeout=20))
     except Exception as exc:  # noqa: BLE001
         print(f"  ! jma_warning: {exc}")
         return []
 
-    entries = data if isinstance(data, list) else [data]
+    # 発表官署ごとの最新報で上書きしたいので reportDatetime 昇順に処理
+    reports.sort(key=lambda r: r.get("reportDatetime", ""))
 
-    latest_report = None
-    warned: set[str] = set()
-    emergency: set[str] = set()
-
-    for entry in entries:
-        rd = entry.get("reportDatetime")
-        if rd:
-            try:
-                dt = datetime.fromisoformat(rd)
-                latest_report = dt if latest_report is None else max(latest_report, dt)
-            except ValueError:
-                pass
-        for at in entry.get("areaTypes", []):
-            for area in at.get("areas", []):
-                code = str(area.get("code", ""))
-                if len(code) < 7:  # 市町村レベルのみ
+    # areaCode -> 現在有効な警報コードの集合
+    state: dict[str, set[str]] = {}
+    for rep in reports:
+        for item in (rep.get("warning") or {}).get("class20Items", []):
+            code = str(item.get("areaCode", ""))
+            if len(code) < 7:
+                continue
+            kinds = item.get("kinds", [])
+            if any(k.get("status") == NONE_STATUS for k in kinds):
+                state[code] = set()
+                continue
+            cur = state.setdefault(code, set())
+            for k in kinds:
+                c, st = k.get("code"), k.get("status")
+                if c not in WARNING_CODES and c not in EMERGENCY_CODES:
                     continue
-                for w in area.get("warnings", []):
-                    if w.get("status") not in ACTIVE:
-                        continue
-                    c = w.get("code")
-                    if c in EMERGENCY_CODES:
-                        emergency.add(code)
-                        warned.add(code)
-                    elif c in WARNING_CODES:
-                        warned.add(code)
+                if st in ACTIVE_STATUS:
+                    cur.add(c)
+                elif st == "解除":
+                    cur.discard(c)
 
-    if latest_report is None:
-        print("  ! jma_warning: reportDatetime が無い")
-        return []
-    age = now_jst() - latest_report.astimezone(JST)
-    if age > timedelta(hours=6):
-        print(f"  ! jma_warning: データが古い（{latest_report:%Y-%m-%d %H:%M}）ので採用しない")
-        return []
+    warned = {a for a, codes in state.items() if codes}
+    emergency = {a for a, codes in state.items() if codes & EMERGENCY_CODES}
 
     n = len(warned)
     if n == 0:
@@ -73,7 +79,6 @@ def collect() -> list[Observation]:
     else:
         caption = f"{n}市町村に気象警報"
 
-    return [Observation("warned-municipalities", n,
-                        latest_report.astimezone(JST).isoformat(timespec="seconds"),
-                        {"emergency_count": len(emergency), "caption": caption,
-                         "report_datetime": latest_report.isoformat()})]
+    observed_at = (latest or now_jst()).isoformat(timespec="seconds")
+    return [Observation("warned-municipalities", n, observed_at,
+                        {"emergency_count": len(emergency), "caption": caption})]
