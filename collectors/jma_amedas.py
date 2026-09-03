@@ -57,6 +57,7 @@ def collect() -> list[Observation]:
     hums = {sid: h for sid, e in obs_map.items() if (h := _field(e, "humidity")) is not None}
     snows = {sid: s for sid, e in obs_map.items() if (s := _field(e, "snow")) is not None}
     rain10 = {sid: r for sid, e in obs_map.items() if (r := _field(e, "precipitation10m")) is not None}
+    rain1h = {sid: r for sid, e in obs_map.items() if (r := _field(e, "precipitation1h")) is not None}
     rain3h = {sid: r for sid, e in obs_map.items() if (r := _field(e, "precipitation3h")) is not None}
 
     out: list[Observation] = []
@@ -91,6 +92,15 @@ def collect() -> list[Observation]:
     if rain10:
         wet = {s for s, r in rain10.items() if r > 0}
         out.append(threshold_count("rain-points", wet, "きょう雨が降った地点"))
+    if rain1h:
+        rs = max(rain1h, key=rain1h.get)
+        if rain1h[rs] > 0:
+            v = rain1h[rs]
+            note = "バケツをひっくり返したような雨" if v >= 30 else \
+                   "激しい雨" if v >= 20 else "この1時間でいちばん降った"
+            out.append(Observation("max-precip-1h", round(v, 1), observed_at, {
+                "place": name(rs), "caption": f"{name(rs)}｜{note}",
+            }))
     if rain3h:
         rs = max(rain3h, key=rain3h.get)
         if rain3h[rs] > 0:

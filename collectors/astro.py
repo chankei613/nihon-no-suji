@@ -88,8 +88,107 @@ def _next_sekki(year: int, month: int, day: int) -> tuple[str, int]:
 
 
 def _hhmm(minutes: float) -> str:
-    m = int(round(minutes))
+    m = int(round(minutes)) % 1440
     return f"{m // 60:02d}:{m % 60:02d}"
+
+
+def _moon_radec(jd: float) -> tuple[float, float]:
+    """月の赤経・赤緯（度）。Schlyter の低精度計算＋主要摂動。"""
+    d = jd - 2451543.5
+    rad = math.radians
+
+    def norm(x: float) -> float:
+        return x % 360.0
+
+    N = norm(125.1228 - 0.0529538083 * d)
+    i = 5.1454
+    w = norm(318.0634 + 0.1643573223 * d)
+    a = 60.2666
+    e = 0.054900
+    M = norm(115.3654 + 13.0649929509 * d)
+
+    ea = M + (180 / math.pi) * e * math.sin(rad(M)) * (1 + e * math.cos(rad(M)))
+    for _ in range(2):
+        ea = ea - (ea - (180 / math.pi) * e * math.sin(rad(ea)) - M) / (
+            1 - e * math.cos(rad(ea)))
+
+    x = a * (math.cos(rad(ea)) - e)
+    y = a * math.sqrt(1 - e * e) * math.sin(rad(ea))
+    r = math.hypot(x, y)
+    v = norm(math.degrees(math.atan2(y, x)))
+
+    xec = r * (math.cos(rad(N)) * math.cos(rad(v + w))
+               - math.sin(rad(N)) * math.sin(rad(v + w)) * math.cos(rad(i)))
+    yec = r * (math.sin(rad(N)) * math.cos(rad(v + w))
+               + math.cos(rad(N)) * math.sin(rad(v + w)) * math.cos(rad(i)))
+    zec = r * math.sin(rad(v + w)) * math.sin(rad(i))
+
+    lon = math.degrees(math.atan2(yec, xec))
+    lat = math.degrees(math.atan2(zec, math.hypot(xec, yec)))
+
+    # 主要摂動（太陽の平均引数 Ms, 平均黄経 Ls が必要）
+    Ms = norm(356.0470 + 0.9856002585 * d)
+    Ls = norm(282.9404 + 4.70935e-5 * d + Ms
+              + (180 / math.pi) * 0.016709 * math.sin(rad(Ms)))
+    Lm = norm(N + w + M)
+    D = norm(Lm - Ls)
+    F = norm(Lm - N)
+
+    lon += (-1.274 * math.sin(rad(M - 2 * D))
+            + 0.658 * math.sin(rad(2 * D))
+            - 0.186 * math.sin(rad(Ms))
+            - 0.059 * math.sin(rad(2 * M - 2 * D))
+            - 0.057 * math.sin(rad(M - 2 * D + Ms))
+            + 0.053 * math.sin(rad(M + 2 * D))
+            + 0.046 * math.sin(rad(2 * D - Ms))
+            + 0.041 * math.sin(rad(M - Ms))
+            - 0.035 * math.sin(rad(D))
+            - 0.031 * math.sin(rad(M + Ms)))
+    lat += (-0.173 * math.sin(rad(F - 2 * D))
+            - 0.055 * math.sin(rad(M - F - 2 * D))
+            - 0.046 * math.sin(rad(M + F - 2 * D))
+            + 0.033 * math.sin(rad(F + 2 * D))
+            + 0.017 * math.sin(rad(2 * M + F)))
+
+    # 黄道傾斜
+    ecl = 23.4393 - 3.563e-7 * d
+    xe = math.cos(rad(lon)) * math.cos(rad(lat))
+    ye = math.sin(rad(lon)) * math.cos(rad(lat))
+    ze = math.sin(rad(lat))
+    xq = xe
+    yq = ye * math.cos(rad(ecl)) - ze * math.sin(rad(ecl))
+    zq = ye * math.sin(rad(ecl)) + ze * math.cos(rad(ecl))
+    ra = math.degrees(math.atan2(yq, xq)) % 360
+    dec = math.degrees(math.atan2(zq, math.hypot(xq, yq)))
+    return ra, dec
+
+
+def _moon_events(year: int, month: int, day: int) -> tuple[float | None, float | None]:
+    """(月の出, 月の入り) を 0時からの分(JST)で。見つからなければ None。"""
+    rise = sett = None
+    prev_alt = None
+    for step in range(0, 24 * 6 + 1):  # 10分刻み
+        minutes = step * 10
+        jd = _julian_day(year, month, day + (minutes / 60.0 - JST_OFFSET) / 24.0)
+        ra, dec = _moon_radec(jd)
+        # 恒星時
+        d = jd - 2451545.0
+        gmst = (280.46061837 + 360.98564736629 * d) % 360
+        lst = (gmst + LON) % 360
+        ha = (lst - ra + 180) % 360 - 180
+        alt = math.degrees(math.asin(
+            math.sin(math.radians(LAT)) * math.sin(math.radians(dec))
+            + math.cos(math.radians(LAT)) * math.cos(math.radians(dec))
+            * math.cos(math.radians(ha))))
+        alt += 0.125  # 視差 - 大気差 - 視半径 のざっくり補正
+        if prev_alt is not None:
+            if prev_alt < 0 <= alt and rise is None:
+                rise = minutes - 10 * (alt / (alt - prev_alt))
+            if prev_alt >= 0 > alt and sett is None:
+                sett = minutes - 10 * (alt / (alt - prev_alt))
+        prev_alt = alt
+    return (round(rise, 1) if rise is not None else None,
+            round(sett, 1) if sett is not None else None)
 
 
 def _moon(year: int, month: int, day: int) -> tuple[float, str, int]:
@@ -141,6 +240,16 @@ def collect() -> list[Observation]:
     sekki_name, sekki_days = _next_sekki(y, mo, d)
     out.append(Observation("days-to-sekki", sekki_days, observed_at,
                            {"next": sekki_name, "caption": f"次の二十四節気「{sekki_name}」まで"}))
+
+    mrise, mset = _moon_events(y, mo, d)
+    if mrise is not None:
+        out.append(Observation("moonrise-tokyo", mrise, observed_at,
+                               {"time": _hhmm(mrise), "place": "東京",
+                                "caption": f"月が昇るのは{_hhmm(mrise)}ごろ"}))
+    if mset is not None:
+        out.append(Observation("moonset-tokyo", mset, observed_at,
+                               {"time": _hhmm(mset), "place": "東京",
+                                "caption": f"月が沈むのは{_hhmm(mset)}ごろ"}))
 
     age, phase, to_full = _moon(y, mo, d)
     if 13.5 < age < 16.0:
