@@ -65,17 +65,16 @@ def record_observation(obs: Observation, metric: dict) -> None:
     if existing is None:
         by_date[obs.date] = incoming
     else:
-        # detail・時刻は常に最新の取得で上書き。値だけ agg ルールに従う。
-        keep_old_value = (
+        runs = existing.get("runs", 1) + 1
+        # agg=max/min で旧値を維持する場合は、値・detail・時刻を一貫させるため
+        # レコードごと据え置く（caption と value がズレないように）。
+        keep_old = (
             (agg == "max" and existing["value"] >= obs.value)
             or (agg == "min" and existing["value"] <= obs.value)
         )
-        incoming["runs"] = existing.get("runs", 1) + 1
-        if keep_old_value:
-            incoming["value"] = existing["value"]
-            # 値を据え置くときは、その値の観測時刻も残す
-            incoming["observed_at"] = existing.get("observed_at", obs.observed_at)
-        by_date[obs.date] = incoming
+        chosen = existing if keep_old else incoming
+        chosen["runs"] = runs
+        by_date[obs.date] = chosen
 
     _save_history(obs.slug, list(by_date.values()))
 
