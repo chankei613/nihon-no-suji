@@ -24,6 +24,28 @@ enum Theme {
         case .unknown: return ""
         }
     }
+
+    /// カテゴリの並び順（今日画面のセクション順）
+    static let categoryOrder = ["防災", "自然", "インフラ", "経済", "こよみ"]
+
+    static func categorySymbol(_ category: String) -> String {
+        switch category {
+        case "自然": return "leaf"
+        case "防災": return "exclamationmark.triangle"
+        case "インフラ": return "bolt"
+        case "経済": return "yensign"
+        case "こよみ": return "moon.stars"
+        default: return "number"
+        }
+    }
+
+    static func sorted(_ categories: [String]) -> [String] {
+        categories.sorted { a, b in
+            let ia = categoryOrder.firstIndex(of: a) ?? categoryOrder.count
+            let ib = categoryOrder.firstIndex(of: b) ?? categoryOrder.count
+            return ia == ib ? a < b : ia < ib
+        }
+    }
 }
 
 extension Font {

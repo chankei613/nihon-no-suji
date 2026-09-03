@@ -4,6 +4,7 @@ import SwiftUI
 struct MetricDetailView: View {
     let metric: Metric
     @Environment(DataStore.self) private var store
+    @Environment(FavoritesStore.self) private var favorites
     @State private var detail: MetricDetail?
 
     var body: some View {
@@ -45,6 +46,16 @@ struct MetricDetailView: View {
         }
         .background(Theme.bg)
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    favorites.toggle(metric.slug)
+                } label: {
+                    Image(systemName: favorites.isFavorite(metric.slug) ? "star.fill" : "star")
+                }
+                .accessibilityLabel(favorites.isFavorite(metric.slug) ? "わたしの数字から外す" : "わたしの数字に追加")
+            }
+        }
         .task { detail = await store.metricDetail(metric.slug) }
     }
 

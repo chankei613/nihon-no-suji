@@ -24,14 +24,37 @@ struct Metric: Codable, Identifiable, Hashable {
     let change: Change
     let caption: String
     let source: Source
+    let detail: MetricInlineDetail?
 
     var id: String { slug }
 
+    /// この数字が「今日ならではの意味」を持つか（記録更新など）。カードで強調する。
+    var badge: String? {
+        if detail?.allTimeRecord == true { return "観測史上1位" }
+        if detail?.yearExtreme == true { return "今年いちばん" }
+        return nil
+    }
+
     enum CodingKeys: String, CodingKey {
-        case slug, name, category, unit, caption, stale, change, source
+        case slug, name, category, unit, caption, stale, change, source, detail
         case valueDisplay = "value_display"
         case observedAt = "observed_at"
         case asOf = "as_of"
+    }
+}
+
+/// today.json の detail は数字ごとに形が違う。使うキーだけ拾う。
+struct MetricInlineDetail: Codable, Hashable {
+    let place: String?
+    let pref: String?
+    let yearExtreme: Bool?
+    let allTimeRecord: Bool?
+    let phase: String?
+
+    enum CodingKeys: String, CodingKey {
+        case place, pref, phase
+        case yearExtreme = "year_extreme"
+        case allTimeRecord = "all_time_record"
     }
 }
 
