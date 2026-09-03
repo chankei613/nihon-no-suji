@@ -11,7 +11,7 @@
 - ロードマップ: [docs/日本の数字_100選ロードマップ.md](docs/日本の数字_100選ロードマップ.md)
 - データ仕様: [docs/schema.md](docs/schema.md)
 
-## いま動いているもの（26メトリック）
+## いま動いているもの（32メトリック）
 
 一覧は [api/metrics.json](api/metrics.json)、今日の値は [api/today.json](api/today.json)。
 
@@ -32,6 +32,11 @@
 `active-typhoons` 発生中の台風の数 / `typhoons-this-year` 今年の台風発生数 /
 `warned-municipalities` 気象警報が出ている市町村数 /
 `gas-regular` レギュラーガソリン全国平均（週次）/ `days-to-sekki` 次の二十四節気まで
+
+
+**Phase 3〜 追加分（続き）**
+`rain-points` 雨が降った地点数 / `max-precip-1h` `max-precip-3h` 全国最大1・3時間降水量 /
+`solar-share-tokyo` 東京エリアの太陽光発電シェア / `moonrise-tokyo` `moonset-tokyo` 月の出入り
 
 取得元: 気象庁（ランキングCSV・アメダス実況JSON・台風情報・警報 data/r8）/ 国交省 近畿・関東地整 /
 東京電力PG でんき予報 / P2P地震情報API / 資源エネルギー庁（石油製品価格xlsx）/ 自前天文計算。
