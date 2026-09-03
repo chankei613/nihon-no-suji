@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T15:24:45+09:00",
+  "generated_at": "2026-09-03T20:39:15+09:00",
   "date": "2026-09-03",
   "changes": [
     {
@@ -124,7 +124,7 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "431地点",
+      "value_display": "533地点",
       "change": {
         "type": "absolute",
         "available": false,
@@ -220,7 +220,7 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "5.7℃",
+      "value_display": "4.8℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -300,7 +300,7 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "8市町村",
+      "value_display": "9市町村",
       "change": {
         "type": "absolute",
         "available": false,
@@ -308,7 +308,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "8市町村に気象警報",
+      "caption": "9市町村に気象警報",
       "score": null,
       "label": "前日データなし"
     },
@@ -466,17 +466,17 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "9回",
+      "value_display": "7回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3回",
+        "value": -5,
+        "display": "-5回",
         "direction": "down",
         "prev_value": 12,
         "prev_date": "2026-09-02"
       },
-      "caption": "最大は和歌山県北部の震度3",
+      "caption": "最大は熊本県天草・芦北地方の震度2",
       "score": null,
       "label": "データ蓄積中"
     },
