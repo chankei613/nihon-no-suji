@@ -209,10 +209,10 @@ def _moon(year: int, month: int, day: int) -> tuple[float, str, int]:
     return round(age, 1), name, round(to_full)
 
 
-def collect() -> list[Observation]:
-    now = now_jst()
-    y, mo, d = now.year, now.month, now.day
-    observed_at = now.replace(hour=0, minute=0, second=0, microsecond=0).isoformat(timespec="seconds")
+def collect(for_date: date | None = None) -> list[Observation]:
+    day0 = for_date or now_jst().date()
+    y, mo, d = day0.year, day0.month, day0.day
+    observed_at = f"{day0.isoformat()}T00:00:00+09:00"
     out: list[Observation] = []
 
     sunrise = _sun_event(y, mo, d, rising=True)

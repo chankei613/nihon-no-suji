@@ -301,4 +301,22 @@ def build_api() -> dict:
         "metrics": catalog,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
+    # グラフ一覧用：全メトリックの直近スパークライン（1ファイル）
+    series: list[dict] = []
+    for card in today_metrics:
+        hist = load_history(card["slug"])[-60:]
+        series.append({
+            "slug": card["slug"],
+            "name": card["name"],
+            "category": card["category"],
+            "unit": card["unit"],
+            "value_display": card["value_display"],
+            "change": card["change"],
+            "points": [{"date": r["date"], "value": r["value"]} for r in hist],
+        })
+    (API_DIR / "sparklines.json").write_text(json.dumps({
+        "generated_at": generated_at,
+        "series": series,
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
     return {"metrics_with_data": len(today_metrics), "generated_at": generated_at}

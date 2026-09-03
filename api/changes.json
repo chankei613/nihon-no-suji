@@ -1,7 +1,178 @@
 {
-  "generated_at": "2026-09-03T20:39:15+09:00",
+  "generated_at": "2026-09-03T21:35:13+09:00",
   "date": "2026-09-03",
   "changes": [
+    {
+      "slug": "sunrise-tokyo",
+      "name": "東京の日の出時刻",
+      "category": "こよみ",
+      "value_display": "05:14",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "1分遅く",
+        "direction": "up",
+        "prev_value": 313.2,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "きのうより1分遅くなった",
+      "score": 15.83,
+      "z": 15.83,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "day-length-tokyo",
+      "name": "東京の昼の長さ",
+      "category": "こよみ",
+      "value_display": "12時間53分",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2,
+        "display": "-2分",
+        "direction": "down",
+        "prev_value": 774.9,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "きょうの昼は12時間53分",
+      "score": 15.44,
+      "z": -15.44,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "sunset-tokyo",
+      "name": "東京の日の入り時刻",
+      "category": "こよみ",
+      "value_display": "18:07",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1,
+        "display": "1分早く",
+        "direction": "down",
+        "prev_value": 1088.1,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "きのうより1分早くなった",
+      "score": 10.12,
+      "z": -10.12,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "moonset-tokyo",
+      "name": "東京の月の入り",
+      "category": "こよみ",
+      "value_display": "11:30",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 71,
+        "display": "71分遅く",
+        "direction": "up",
+        "prev_value": 618.9,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "月が沈むのは11:30ごろ",
+      "score": 0.28,
+      "z": 0.28,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "days-to-sekki",
+      "name": "次の二十四節気まで",
+      "category": "こよみ",
+      "value_display": "5日",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1,
+        "display": "-1日",
+        "direction": "down",
+        "prev_value": 6,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "次の二十四節気「白露」まで",
+      "score": 0.25,
+      "z": -0.25,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "days-to-full-moon",
+      "name": "次の満月まで",
+      "category": "こよみ",
+      "value_display": "23日",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1,
+        "display": "-1日",
+        "direction": "down",
+        "prev_value": 24,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "次の満月まであと23日",
+      "score": 0.19,
+      "z": -0.19,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "moon-age",
+      "name": "月齢",
+      "category": "こよみ",
+      "value_display": "月齢 21.0",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.0,
+        "display": "+1.0",
+        "direction": "up",
+        "prev_value": 20.0,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "次の満月まであと23日",
+      "score": 0.19,
+      "z": 0.19,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "moonrise-tokyo",
+      "name": "東京の月の出",
+      "category": "こよみ",
+      "value_display": "21:18",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 42,
+        "display": "42分遅く",
+        "direction": "up",
+        "prev_value": 1235.3,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "月が昇るのは21:18ごろ",
+      "score": 0.16,
+      "z": 0.16,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "days-left-year",
+      "name": "今年の残り日数",
+      "category": "こよみ",
+      "value_display": "119日",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1,
+        "display": "-1日",
+        "direction": "down",
+        "prev_value": 120,
+        "prev_date": "2026-09-02"
+      },
+      "caption": "2026年は67%が過ぎた",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
     {
       "slug": "max-temp",
       "name": "全国最高気温",
@@ -124,7 +295,7 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "533地点",
+      "value_display": "595地点",
       "change": {
         "type": "absolute",
         "available": false,
@@ -220,7 +391,7 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "4.8℃",
+      "value_display": "4.7℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -229,22 +400,6 @@
         "note": "前日データなし"
       },
       "caption": "夏でもひんやり",
-      "score": null,
-      "label": "前日データなし"
-    },
-    {
-      "slug": "days-to-sekki",
-      "name": "次の二十四節気まで",
-      "category": "こよみ",
-      "value_display": "5日",
-      "change": {
-        "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
-      },
-      "caption": "次の二十四節気「白露」まで",
       "score": null,
       "label": "前日データなし"
     },
@@ -300,7 +455,7 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "9市町村",
+      "value_display": "6市町村",
       "change": {
         "type": "absolute",
         "available": false,
@@ -308,87 +463,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "9市町村に気象警報",
-      "score": null,
-      "label": "前日データなし"
-    },
-    {
-      "slug": "day-length-tokyo",
-      "name": "東京の昼の長さ",
-      "category": "こよみ",
-      "value_display": "12時間53分",
-      "change": {
-        "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
-      },
-      "caption": "きょうの昼は12時間53分",
-      "score": null,
-      "label": "前日データなし"
-    },
-    {
-      "slug": "days-left-year",
-      "name": "今年の残り日数",
-      "category": "こよみ",
-      "value_display": "119日",
-      "change": {
-        "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
-      },
-      "caption": "2026年は67%が過ぎた",
-      "score": null,
-      "label": "前日データなし"
-    },
-    {
-      "slug": "moonrise-tokyo",
-      "name": "東京の月の出",
-      "category": "こよみ",
-      "value_display": "21:18",
-      "change": {
-        "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
-      },
-      "caption": "月が昇るのは21:18ごろ",
-      "score": null,
-      "label": "前日データなし"
-    },
-    {
-      "slug": "moonset-tokyo",
-      "name": "東京の月の入り",
-      "category": "こよみ",
-      "value_display": "11:30",
-      "change": {
-        "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
-      },
-      "caption": "月が沈むのは11:30ごろ",
-      "score": null,
-      "label": "前日データなし"
-    },
-    {
-      "slug": "days-to-full-moon",
-      "name": "次の満月まで",
-      "category": "こよみ",
-      "value_display": "23日",
-      "change": {
-        "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
-      },
-      "caption": "次の満月まであと23日",
+      "caption": "6市町村に気象警報",
       "score": null,
       "label": "前日データなし"
     },
@@ -477,60 +552,6 @@
         "prev_date": "2026-09-02"
       },
       "caption": "最大は熊本県天草・芦北地方の震度2",
-      "score": null,
-      "label": "データ蓄積中"
-    },
-    {
-      "slug": "sunset-tokyo",
-      "name": "東京の日の入り時刻",
-      "category": "こよみ",
-      "value_display": "18:07",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1,
-        "display": "1分早く",
-        "direction": "down",
-        "prev_value": 1088.1,
-        "prev_date": "2026-09-02"
-      },
-      "caption": "きのうより1分早くなった",
-      "score": null,
-      "label": "データ蓄積中"
-    },
-    {
-      "slug": "sunrise-tokyo",
-      "name": "東京の日の出時刻",
-      "category": "こよみ",
-      "value_display": "05:14",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1,
-        "display": "1分遅く",
-        "direction": "up",
-        "prev_value": 313.2,
-        "prev_date": "2026-09-02"
-      },
-      "caption": "きのうより1分遅くなった",
-      "score": null,
-      "label": "データ蓄積中"
-    },
-    {
-      "slug": "moon-age",
-      "name": "月齢",
-      "category": "こよみ",
-      "value_display": "月齢 21.0",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.0,
-        "display": "+1.0",
-        "direction": "up",
-        "prev_value": 20.0,
-        "prev_date": "2026-09-02"
-      },
-      "caption": "次の満月まであと23日",
       "score": null,
       "label": "データ蓄積中"
     }
