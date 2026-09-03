@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T07:48:07+09:00",
+  "generated_at": "2026-09-03T09:13:02+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -27,6 +27,105 @@
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁「最新の気象データ」"
+    },
+    {
+      "slug": "hot-points-35",
+      "name": "35℃以上になった地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "unit": "m/s",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "snow-points",
+      "name": "雪が積もっている地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "max-snow",
+      "name": "全国最深積雪",
+      "category": "自然",
+      "unit": "cm",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "day-length-tokyo",
+      "name": "東京の昼の長さ",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "duration",
+      "source": "自前天文計算"
+    },
+    {
+      "slug": "days-left-year",
+      "name": "今年の残り日数",
+      "category": "こよみ",
+      "unit": "日",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "計算のみ"
+    },
+    {
+      "slug": "days-to-full-moon",
+      "name": "次の満月まで",
+      "category": "こよみ",
+      "unit": "日",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "自前天文計算"
     },
     {
       "slug": "biwako-level",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T07:48:07+09:00",
+  "generated_at": "2026-09-03T09:13:02+09:00",
   "date": "2026-09-03",
   "metrics": [
     {
@@ -100,6 +100,285 @@
       "source": {
         "name": "気象庁「最新の気象データ」",
         "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
+      }
+    },
+    {
+      "slug": "hot-points-35",
+      "name": "35℃以上になった地点数",
+      "category": "自然",
+      "unit": "地点",
+      "value": 0,
+      "value_display": "0地点",
+      "observed_at": "2026-09-03T09:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう35℃以上になった地点",
+      "detail": {
+        "station_ids": [],
+        "now": 0,
+        "caption": "きょう35℃以上になった地点"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "unit": "地点",
+      "value": 25,
+      "value_display": "25地点",
+      "observed_at": "2026-09-03T09:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "detail": {
+        "station_ids": [
+          "44207",
+          "44262",
+          "81071",
+          "81286",
+          "81371",
+          "81436",
+          "82056",
+          "82101",
+          "82182",
+          "82186",
+          "82191",
+          "83051",
+          "84072",
+          "84121",
+          "84122",
+          "84183",
+          "84266",
+          "84306",
+          "84371",
+          "84496",
+          "85033",
+          "85116",
+          "85142",
+          "85161",
+          "85166"
+        ],
+        "now": 25,
+        "caption": "きょう30℃以上になった地点"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "unit": "地点",
+      "value": 0,
+      "value_display": "0地点",
+      "observed_at": "2026-09-03T09:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう0℃を下回った地点",
+      "detail": {
+        "station_ids": [],
+        "now": 0,
+        "caption": "きょう0℃を下回った地点"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "unit": "℃",
+      "value": 17.4,
+      "value_display": "17.4℃",
+      "observed_at": "2026-09-03T09:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "福岡31.4℃ と 上標津14℃ の差",
+      "detail": {
+        "hot": {
+          "place": "福岡",
+          "temp": 31.4
+        },
+        "cold": {
+          "place": "上標津",
+          "temp": 14.0
+        },
+        "caption": "福岡31.4℃ と 上標津14℃ の差"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "unit": "m/s",
+      "value": 17.7,
+      "value_display": "17.7m/s",
+      "observed_at": "2026-09-03T09:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "北大東｜全国でいちばん風が強い（10分平均）",
+      "detail": {
+        "place": "北大東",
+        "caption": "北大東｜全国でいちばん風が強い（10分平均）"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "unit": "%",
+      "value": 60.0,
+      "value_display": "60%",
+      "observed_at": "2026-09-03T09:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "福岡｜全国でいちばん空気が乾いている",
+      "detail": {
+        "place": "福岡",
+        "caption": "福岡｜全国でいちばん空気が乾いている"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "day-length-tokyo",
+      "name": "東京の昼の長さ",
+      "category": "こよみ",
+      "unit": "",
+      "value": 772.8,
+      "value_display": "12時間53分",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうの昼は12時間53分",
+      "detail": {
+        "place": "東京",
+        "caption": "きょうの昼は12時間53分"
+      },
+      "source": {
+        "name": "自前天文計算",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "days-left-year",
+      "name": "今年の残り日数",
+      "category": "こよみ",
+      "unit": "日",
+      "value": 119,
+      "value_display": "119日",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "2026年は67%が過ぎた",
+      "detail": {
+        "caption": "2026年は67%が過ぎた",
+        "days_passed": 245
+      },
+      "source": {
+        "name": "計算のみ",
+        "url": ""
+      }
+    },
+    {
+      "slug": "days-to-full-moon",
+      "name": "次の満月まで",
+      "category": "こよみ",
+      "unit": "日",
+      "value": 23,
+      "value_display": "23日",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "次の満月まであと23日",
+      "detail": {
+        "phase": "下弦の月",
+        "caption": "次の満月まであと23日"
+      },
+      "source": {
+        "name": "自前天文計算",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
       }
     },
     {
@@ -260,7 +539,7 @@
       "unit": "%",
       "value": 91.0,
       "value_display": "91%",
-      "observed_at": "2026-09-03T07:10:00+09:00",
+      "observed_at": "2026-09-03T08:40:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -275,11 +554,11 @@
       "caption": "ピークは13:00〜14:00の見込み",
       "detail": {
         "reserve_rate": 9.0,
-        "peak_supply_10MW": 4871.0,
-        "forecast_peak_demand_10MW": 4451.0,
-        "current_demand_10MW": 2874.0,
-        "current_demand_time": "6:00",
-        "current_usage_rate": 80.0,
+        "peak_supply_10MW": 4860.0,
+        "forecast_peak_demand_10MW": 4448.0,
+        "current_demand_10MW": 3690.0,
+        "current_demand_time": "8:00",
+        "current_usage_rate": 86.0,
         "peak_timeband": "13:00〜14:00",
         "area": "東京",
         "caption": "ピークは13:00〜14:00の見込み"
@@ -294,16 +573,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 10,
-      "value_display": "10回",
-      "observed_at": "2026-09-03T07:48:00+09:00",
+      "value": 11,
+      "value_display": "11回",
+      "observed_at": "2026-09-03T09:13:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2回",
+        "value": -1,
+        "display": "-1回",
         "direction": "down",
         "prev_value": 12,
         "prev_date": "2026-09-02"
@@ -312,7 +591,7 @@
       "detail": {
         "caption": "最大は和歌山県北部の震度3",
         "window_hours": 24,
-        "max_magnitude": 4,
+        "max_magnitude": 3.5,
         "strongest": {
           "time": "2026-09-02T17:23:00+09:00",
           "scale": 30,
@@ -321,10 +600,10 @@
           "depth": 10
         },
         "latest": {
-          "time": "2026-09-03T06:39:00+09:00",
-          "scale": 10,
-          "name": "熊本県天草・芦北地方",
-          "magnitude": 1.8,
+          "time": "2026-09-03T08:44:00+09:00",
+          "scale": 20,
+          "name": "熊本県熊本地方",
+          "magnitude": 2.5,
           "depth": 10
         },
         "capped": false

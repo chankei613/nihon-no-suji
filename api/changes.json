@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T07:48:07+09:00",
+  "generated_at": "2026-09-03T09:13:02+09:00",
   "date": "2026-09-03",
   "changes": [
     {
@@ -55,6 +55,150 @@
       "caption": "鰺ケ沢｜この24時間でいちばん降った",
       "score": null,
       "label": "データ蓄積中"
+    },
+    {
+      "slug": "hot-points-35",
+      "name": "35℃以上になった地点数",
+      "category": "自然",
+      "value_display": "0地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう35℃以上になった地点",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "value_display": "25地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "value_display": "0地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう0℃を下回った地点",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "17.4℃",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "福岡31.4℃ と 上標津14℃ の差",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "17.7m/s",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "北大東｜全国でいちばん風が強い（10分平均）",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "60%",
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "福岡｜全国でいちばん空気が乾いている",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "day-length-tokyo",
+      "name": "東京の昼の長さ",
+      "category": "こよみ",
+      "value_display": "12時間53分",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうの昼は12時間53分",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "days-left-year",
+      "name": "今年の残り日数",
+      "category": "こよみ",
+      "value_display": "119日",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "2026年は67%が過ぎた",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "days-to-full-moon",
+      "name": "次の満月まで",
+      "category": "こよみ",
+      "value_display": "23日",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "次の満月まであと23日",
+      "score": null,
+      "label": "前日データなし"
     },
     {
       "slug": "biwako-level",
@@ -114,12 +258,12 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "10回",
+      "value_display": "11回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2回",
+        "value": -1,
+        "display": "-1回",
         "direction": "down",
         "prev_value": 12,
         "prev_date": "2026-09-02"

@@ -1,35 +1,30 @@
 {
-  "slug": "moon-age",
-  "name": "月齢",
-  "unit": "",
+  "slug": "days-to-full-moon",
+  "name": "次の満月まで",
+  "unit": "日",
   "comparison_type": "absolute",
-  "value_type": "moon",
+  "value_type": "number",
   "source": {
     "name": "自前天文計算",
     "url": "https://eco.mtk.nao.ac.jp/koyomi/"
   },
   "updated_at": "2026-09-03T09:13:02+09:00",
   "summary": {
-    "count": 2,
-    "first_date": "2026-09-02",
+    "count": 1,
+    "first_date": "2026-09-03",
     "last_date": "2026-09-03",
-    "min_30d": 20.0,
-    "max_30d": 21.0,
-    "avg_30d": 20.5
+    "min_30d": 23,
+    "max_30d": 23,
+    "avg_30d": 23.0
   },
   "history": [
     {
-      "date": "2026-09-02",
-      "value": 20.0
-    },
-    {
       "date": "2026-09-03",
-      "value": 21.0
+      "value": 23
     }
   ],
   "latest_detail": {
     "phase": "下弦の月",
-    "days_to_full": 23,
     "caption": "次の満月まであと23日"
   }
 }
