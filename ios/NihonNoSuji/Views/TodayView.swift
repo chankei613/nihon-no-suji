@@ -33,11 +33,6 @@ struct TodayView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.top, 6)
 
-                let favs = favorites.ordered(from: feed.metrics)
-                if !favs.isEmpty {
-                    section(title: "わたしの数字", symbol: "star.fill", metrics: favs)
-                }
-
                 ForEach(Theme.sorted(categories(feed.metrics)), id: \.self) { cat in
                     section(title: cat,
                             symbol: Theme.categorySymbol(cat),
@@ -88,7 +83,7 @@ struct TodayView: View {
             if stale {
                 Text("オフライン表示（サンプルデータ）")
             }
-            Text("長押しで「わたしの数字」に追加")
+            Text("長押しで「わたし」に追加")
             Text("昨日から、日本はどう変わった？")
         }
         .font(.system(size: 11))

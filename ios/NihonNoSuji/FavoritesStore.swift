@@ -23,6 +23,20 @@ final class FavoritesStore {
         } else {
             slugs.append(slug)
         }
+        persist()
+    }
+
+    func remove(atOffsets offsets: IndexSet) {
+        slugs.remove(atOffsets: offsets)
+        persist()
+    }
+
+    func move(fromOffsets source: IndexSet, toOffset destination: Int) {
+        slugs.move(fromOffsets: source, toOffset: destination)
+        persist()
+    }
+
+    private func persist() {
         UserDefaults.standard.set(slugs, forKey: key)
     }
 

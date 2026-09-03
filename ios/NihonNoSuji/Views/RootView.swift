@@ -9,6 +9,8 @@ struct RootView: View {
                 .tabItem { Label("変化", systemImage: "arrow.up.arrow.down") }
             MetricsListView()
                 .tabItem { Label("数字", systemImage: "number") }
+            FavoritesView()
+                .tabItem { Label("わたし", systemImage: "star") }
         }
     }
 }
