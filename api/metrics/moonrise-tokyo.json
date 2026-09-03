@@ -1,9 +1,9 @@
 {
-  "slug": "day-length-tokyo",
-  "name": "東京の昼の長さ",
+  "slug": "moonrise-tokyo",
+  "name": "東京の月の出",
   "unit": "",
   "comparison_type": "absolute",
-  "value_type": "duration",
+  "value_type": "time",
   "source": {
     "name": "自前天文計算",
     "url": "https://eco.mtk.nao.ac.jp/koyomi/"
@@ -13,18 +13,19 @@
     "count": 1,
     "first_date": "2026-09-03",
     "last_date": "2026-09-03",
-    "min_30d": 772.8,
-    "max_30d": 772.8,
-    "avg_30d": 772.8
+    "min_30d": 1277.5,
+    "max_30d": 1277.5,
+    "avg_30d": 1277.5
   },
   "history": [
     {
       "date": "2026-09-03",
-      "value": 772.8
+      "value": 1277.5
     }
   ],
   "latest_detail": {
+    "time": "21:18",
     "place": "東京",
-    "caption": "きょうの昼は12時間53分"
+    "caption": "月が昇るのは21:18ごろ"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T13:04:10+09:00",
+  "generated_at": "2026-09-03T14:05:29+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -69,6 +69,15 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "unit": "mm",
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁 アメダス実況"
@@ -198,6 +207,24 @@
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "計算のみ"
+    },
+    {
+      "slug": "moonrise-tokyo",
+      "name": "東京の月の出",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "time",
+      "source": "自前天文計算"
+    },
+    {
+      "slug": "moonset-tokyo",
+      "name": "東京の月の入り",
+      "category": "こよみ",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "time",
+      "source": "自前天文計算"
     },
     {
       "slug": "days-to-full-moon",

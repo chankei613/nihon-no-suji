@@ -1,7 +1,7 @@
 {
-  "slug": "max-wind",
-  "name": "全国最大風速（10分平均）",
-  "unit": "m/s",
+  "slug": "max-precip-1h",
+  "name": "全国最大1時間降水量",
+  "unit": "mm",
   "comparison_type": "absolute",
   "value_type": "number",
   "source": {
@@ -13,18 +13,18 @@
     "count": 1,
     "first_date": "2026-09-03",
     "last_date": "2026-09-03",
-    "min_30d": 18.4,
-    "max_30d": 18.4,
-    "avg_30d": 18.4
+    "min_30d": 35.5,
+    "max_30d": 35.5,
+    "avg_30d": 35.5
   },
   "history": [
     {
       "date": "2026-09-03",
-      "value": 18.4
+      "value": 35.5
     }
   ],
   "latest_detail": {
-    "place": "北大東",
-    "caption": "北大東｜全国でいちばん風が強い（10分平均）"
+    "place": "舞鶴",
+    "caption": "舞鶴｜バケツをひっくり返したような雨"
   }
 }

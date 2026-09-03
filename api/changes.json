@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-03T13:04:10+09:00",
+  "generated_at": "2026-09-03T14:05:29+09:00",
   "date": "2026-09-03",
   "changes": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "34℃",
+      "value_display": "34.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.9,
-        "display": "-3.9℃",
+        "value": -3.1,
+        "display": "-3.1℃",
         "direction": "down",
         "prev_value": 37.9,
         "prev_date": "2026-09-02"
       },
-      "caption": "唐津｜きょう日本でいちばん暑い",
+      "caption": "前原｜きょう日本でいちばん暑い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -92,7 +92,7 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "92地点",
+      "value_display": "99地点",
       "change": {
         "type": "absolute",
         "available": false,
@@ -124,7 +124,7 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "208地点",
+      "value_display": "326地点",
       "change": {
         "type": "absolute",
         "available": false,
@@ -133,6 +133,22 @@
         "note": "前日データなし"
       },
       "caption": "きょう雨が降った地点",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "35.5mm",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "舞鶴｜バケツをひっくり返したような雨",
       "score": null,
       "label": "前日データなし"
     },
@@ -204,7 +220,7 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "6.3℃",
+      "value_display": "5.4℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -276,7 +292,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "台風24・18号が発生中",
+      "caption": "台風18・24号が発生中",
       "score": null,
       "label": "前日データなし"
     },
@@ -284,7 +300,7 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "10市町村",
+      "value_display": "8市町村",
       "change": {
         "type": "absolute",
         "available": false,
@@ -292,7 +308,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "10市町村に気象警報",
+      "caption": "8市町村に気象警報",
       "score": null,
       "label": "前日データなし"
     },
@@ -325,6 +341,38 @@
         "note": "前日データなし"
       },
       "caption": "2026年は67%が過ぎた",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "moonrise-tokyo",
+      "name": "東京の月の出",
+      "category": "こよみ",
+      "value_display": "21:18",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "月が昇るのは21:18ごろ",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "moonset-tokyo",
+      "name": "東京の月の入り",
+      "category": "こよみ",
+      "value_display": "11:30",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "月が沈むのは11:30ごろ",
       "score": null,
       "label": "前日データなし"
     },
