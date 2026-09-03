@@ -1,7 +1,7 @@
 {
-  "slug": "hot-points-35",
-  "name": "35℃以上になった地点数",
-  "unit": "地点",
+  "slug": "max-precip-3h",
+  "name": "全国最大3時間降水量",
+  "unit": "mm",
   "comparison_type": "absolute",
   "value_type": "number",
   "source": {
@@ -13,19 +13,18 @@
     "count": 1,
     "first_date": "2026-09-03",
     "last_date": "2026-09-03",
-    "min_30d": 0,
-    "max_30d": 0,
-    "avg_30d": 0.0
+    "min_30d": 97.0,
+    "max_30d": 97.0,
+    "avg_30d": 97.0
   },
   "history": [
     {
       "date": "2026-09-03",
-      "value": 0
+      "value": 97.0
     }
   ],
   "latest_detail": {
-    "station_ids": [],
-    "now": 0,
-    "caption": "きょう35℃以上になった地点"
+    "place": "石垣島",
+    "caption": "石垣島｜この3時間でいちばん激しく降った"
   }
 }

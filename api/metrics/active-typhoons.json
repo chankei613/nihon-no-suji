@@ -8,7 +8,7 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-09-03T12:27:41+09:00",
+  "updated_at": "2026-09-03T13:02:01+09:00",
   "summary": {
     "count": 1,
     "first_date": "2026-09-03",
@@ -26,6 +26,15 @@
   "latest_detail": {
     "typhoons": [
       {
+        "number": "2624",
+        "name": "クロヴァン",
+        "category": "TS",
+        "pressure": "985",
+        "location": "奄美市の南約170km",
+        "course": "北北西",
+        "typhoon_number": "2624"
+      },
+      {
         "number": "2618",
         "name": "ソウデル",
         "category": "TS",
@@ -33,17 +42,8 @@
         "location": "南シナ海",
         "course": "西北西",
         "typhoon_number": "2618"
-      },
-      {
-        "number": "2624",
-        "name": "クロヴァン",
-        "category": "TS",
-        "pressure": "985",
-        "location": "南大東島の北西約90km",
-        "course": "北",
-        "typhoon_number": "2624"
       }
     ],
-    "caption": "台風18・24号が発生中"
+    "caption": "台風24・18号が発生中"
   }
 }

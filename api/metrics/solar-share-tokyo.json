@@ -1,0 +1,31 @@
+{
+  "slug": "solar-share-tokyo",
+  "name": "東京エリアの太陽光発電シェア（ピーク）",
+  "unit": "%",
+  "comparison_type": "percentage_point",
+  "value_type": "number",
+  "source": {
+    "name": "東京電力パワーグリッド でんき予報",
+    "url": "https://www.tepco.co.jp/forecast/html/images/juyo-s1-j.csv"
+  },
+  "updated_at": "2026-09-03T13:02:01+09:00",
+  "summary": {
+    "count": 1,
+    "first_date": "2026-09-03",
+    "last_date": "2026-09-03",
+    "min_30d": 12.0,
+    "max_30d": 12.0,
+    "avg_30d": 12.0
+  },
+  "history": [
+    {
+      "date": "2026-09-03",
+      "value": 12.0
+    }
+  ],
+  "latest_detail": {
+    "peak_output_10MW": 496.0,
+    "area": "東京",
+    "caption": "きょうのピークで電力の12%を太陽光がまかなった"
+  }
+}

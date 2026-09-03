@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-03T12:27:41+09:00",
+  "generated_at": "2026-09-03T13:02:01+09:00",
   "date": "2026-09-03",
   "changes": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "33.7℃",
+      "value_display": "34℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.2,
-        "display": "-4.2℃",
+        "value": -3.9,
+        "display": "-3.9℃",
         "direction": "down",
         "prev_value": 37.9,
         "prev_date": "2026-09-02"
       },
-      "caption": "福岡｜きょう日本でいちばん暑い",
+      "caption": "唐津｜きょう日本でいちばん暑い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -42,7 +42,7 @@
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "30℃",
+      "value_display": "30.6℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -92,7 +92,7 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "88地点",
+      "value_display": "92地点",
       "change": {
         "type": "absolute",
         "available": false,
@@ -121,6 +121,38 @@
       "label": "前日データなし"
     },
     {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "208地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "value_display": "97mm",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "石垣島｜この3時間でいちばん激しく降った",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
@@ -132,7 +164,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "前原34.5℃ と 上標津13.1℃ の差",
+      "caption": "前原34℃ と 上標津13.1℃ の差",
       "score": null,
       "label": "前日データなし"
     },
@@ -172,7 +204,7 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "6.9℃",
+      "value_display": "6.3℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -244,7 +276,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "台風18・24号が発生中",
+      "caption": "台風24・18号が発生中",
       "score": null,
       "label": "前日データなし"
     },
@@ -260,7 +292,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "16市町村に気象警報",
+      "caption": "14市町村に気象警報",
       "score": null,
       "label": "前日データなし"
     },
@@ -365,6 +397,22 @@
       "caption": "ピークは11:00〜12:00の見込み",
       "score": null,
       "label": "データ蓄積中"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "12%",
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうのピークで電力の12%を太陽光がまかなった",
+      "score": null,
+      "label": "前日データなし"
     },
     {
       "slug": "quakes-24h",

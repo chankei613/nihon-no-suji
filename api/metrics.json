@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:27:41+09:00",
+  "generated_at": "2026-09-03T13:02:01+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -60,6 +60,24 @@
       "name": "0℃を下回った地点数",
       "category": "自然",
       "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "unit": "mm",
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁 アメダス実況"
@@ -211,6 +229,15 @@
     {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "東京電力パワーグリッド でんき予報"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
       "comparison_type": "percentage_point",
