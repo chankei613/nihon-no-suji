@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 import math
+from datetime import date
 
 from core.models import Observation, now_jst
 
@@ -94,6 +95,19 @@ def collect() -> list[Observation]:
     if sunset is not None:
         out.append(Observation("sunset-tokyo", sunset, observed_at,
                                {"time": _hhmm(sunset), "place": "東京"}))
+    if sunrise is not None and sunset is not None:
+        length = round(sunset - sunrise, 1)
+        h, mi = int(length // 60), int(round(length % 60))
+        out.append(Observation("day-length-tokyo", length, observed_at,
+                               {"place": "東京", "caption": f"きょうの昼は{h}時間{mi}分"}))
+
+    # 今年の残り日数
+    today = date(y, mo, d)
+    left = (date(y, 12, 31) - today).days
+    passed = (today - date(y, 1, 1)).days
+    pct = round(passed / ((date(y, 12, 31) - date(y, 1, 1)).days) * 100)
+    out.append(Observation("days-left-year", left, observed_at,
+                           {"caption": f"{y}年は{pct}%が過ぎた", "days_passed": passed}))
 
     age, phase, to_full = _moon(y, mo, d)
     if 13.5 < age < 16.0:
@@ -104,4 +118,6 @@ def collect() -> list[Observation]:
         cap = f"次の満月まであと{max(to_full, 0)}日"
     out.append(Observation("moon-age", age, observed_at,
                            {"phase": phase, "days_to_full": to_full, "caption": cap}))
+    out.append(Observation("days-to-full-moon", to_full, observed_at,
+                           {"phase": phase, "caption": cap}))
     return out

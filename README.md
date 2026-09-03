@@ -11,20 +11,24 @@
 - ロードマップ: [docs/日本の数字_100選ロードマップ.md](docs/日本の数字_100選ロードマップ.md)
 - データ仕様: [docs/schema.md](docs/schema.md)
 
-## いま動いているもの（MVP 8種 ＋ おまけ2種）
+## いま動いているもの（約20メトリック）
 
-| slug | 数字 | 取得元 | 更新 |
-|---|---|---|---|
-| `max-temp` | 全国最高気温 | 気象庁 ランキングCSV | 毎時 |
-| `min-temp` | 全国最低気温 | 気象庁 ランキングCSV | 毎時 |
-| `max-precip-24h` | 全国最大24時間降水量 | 気象庁 ランキングCSV | 毎時 |
-| `biwako-level` | 琵琶湖の水位 | 国交省 近畿地整 JSON | 平日 |
-| `dam-storage` | 主要ダムの貯水率（近畿＋関東） | 国交省 近畿地整 JSON ＋ 関東地整 HTML | 平日 |
-| `elec-usage-tokyo` | 東京エリアの電力使用率 | 東京電力PG でんき予報 | 毎時 |
-| `quakes-24h` | 地震回数（過去24時間） | P2P地震情報 API | 毎時 |
-| `sunset-tokyo` | 東京の日の入り時刻 | 自前天文計算 | 日次 |
-| `sunrise-tokyo` | 東京の日の出時刻（おまけ） | 自前天文計算 | 日次 |
-| `moon-age` | 月齢（おまけ） | 自前天文計算 | 日次 |
+一覧は [api/metrics.json](api/metrics.json)、今日の値は [api/today.json](api/today.json)。
+
+**MVP 8種**（企画で承認）
+`max-temp` 全国最高気温 / `min-temp` 全国最低気温 / `max-precip-24h` 全国最大24時間降水量 /
+`biwako-level` 琵琶湖の水位 / `dam-storage` 主要ダムの貯水率 / `elec-usage-tokyo` 東京エリアの電力使用率 /
+`quakes-24h` 地震回数（24時間） / `sunset-tokyo` 東京の日の入り時刻
+
+**Phase 2 で追加**（既存エンドポイントの横展開＋計算のみ）
+`hot-points-35` `hot-points-30` `cold-points-0`（しきい値を超えた地点数）/
+`national-temp-spread` 全国の気温差 / `max-wind` 全国最大風速 / `min-humidity` 全国の最小湿度 /
+`snow-points` `max-snow`（冬のみ）/
+`sunrise-tokyo` 日の出 / `day-length-tokyo` 昼の長さ / `days-left-year` 今年の残り日数 /
+`moon-age` 月齢 / `days-to-full-moon` 次の満月まで
+
+取得元: 気象庁（ランキングCSV・アメダス実況JSON）/ 国交省 近畿・関東地整 / 東京電力PG でんき予報 /
+P2P地震情報API / 自前天文計算。
 
 ## 仕組み
 

@@ -87,6 +87,15 @@ def _prev_record(history: list[dict], today_date: str) -> dict | None:
     return earlier[-1] if earlier else None
 
 
+def today_detail(slug: str) -> dict:
+    """当日すでに記録済みの detail（同じ日に累積したい collector 向け）。"""
+    today = now_jst().date().isoformat()
+    for r in load_history(slug):
+        if r["date"] == today:
+            return r.get("detail", {}) or {}
+    return {}
+
+
 def compute_change(metric: dict, today: dict, prev: dict | None) -> dict:
     ctype = metric["comparison_type"]
     vtype = metric.get("value_type", "number")
@@ -111,6 +120,10 @@ def compute_change(metric: dict, today: dict, prev: dict | None) -> dict:
             display = "±0分"
         else:
             display = f"{abs(mins)}分{'遅く' if mins > 0 else '早く'}"
+    elif vtype == "duration":
+        mins = int(round(raw))
+        val = mins
+        display = "±0分" if mins == 0 else f"{mins:+d}分"
     elif vtype == "moon":
         # 月齢は毎日ほぼ +1。周期をまたぐと大きな負値になるので補正
         if raw < -20:
@@ -140,6 +153,9 @@ def _value_display(metric: dict, record: dict) -> str:
         return record.get("detail", {}).get("time") or ""
     if vtype == "moon":
         return f"月齢 {record['value']:.1f}"
+    if vtype == "duration":
+        m = int(round(record["value"]))
+        return f"{m // 60}時間{m % 60:02d}分"
     v = record["value"]
     s = f"{v:g}"
     return f"{s}{unit}" if unit else s
