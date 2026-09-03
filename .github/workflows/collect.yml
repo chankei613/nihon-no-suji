@@ -39,8 +39,14 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/ api/
           if git diff --cached --quiet; then
-            echo "変化なし"
-          else
-            git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ) 自動更新"
-            git push
+            echo "変化なし"; exit 0
           fi
+          git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ) 自動更新"
+          # 人間のコード push とレースするので、rebase してリトライ
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main && git push; then
+              echo "push OK (try $i)"; exit 0
+            fi
+            echo "retry $i"; sleep $(( (RANDOM % 8) + 3 ))
+          done
+          echo "::error::push に5回失敗"; exit 1
