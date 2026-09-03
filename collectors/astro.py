@@ -58,6 +58,35 @@ def _sun_event(year: int, month: int, day: int, rising: bool, zenith: float = 90
     return round(local * 60.0, 1)
 
 
+SEKKI = ["春分", "清明", "穀雨", "立夏", "小満", "芒種", "夏至", "小暑", "大暑",
+         "立秋", "処暑", "白露", "秋分", "寒露", "霜降", "立冬", "小雪", "大雪",
+         "冬至", "小寒", "大寒", "立春", "雨水", "啓蟄"]
+
+
+def _solar_longitude(jd: float) -> float:
+    """太陽の視黄経（度）。近似式。"""
+    d = jd - 2451545.0
+    g = math.radians((357.529 + 0.98560028 * d) % 360)
+    q = (280.459 + 0.98564736 * d) % 360
+    return (q + 1.915 * math.sin(g) + 0.020 * math.sin(2 * g)) % 360
+
+
+def _next_sekki(year: int, month: int, day: int) -> tuple[str, int]:
+    """(次の二十四節気の名前, その日までの日数)。"""
+    jd0 = _julian_day(year, month, day + 0.5)  # 正午UT基準でざっくり
+    lon0 = _solar_longitude(jd0)
+    target = (math.floor(lon0 / 15.0) + 1) * 15.0
+    for n in range(1, 20):
+        lon = _solar_longitude(jd0 + n)
+        # 15度の境界を越えたら到達
+        crossed = (lon - lon0) % 360 >= (target - lon0) % 360
+        if crossed:
+            idx = int(round(target / 15.0)) % 24
+            return SEKKI[idx], n
+    idx = int(round(target / 15.0)) % 24
+    return SEKKI[idx], 15
+
+
 def _hhmm(minutes: float) -> str:
     m = int(round(minutes))
     return f"{m // 60:02d}:{m % 60:02d}"
@@ -108,6 +137,10 @@ def collect() -> list[Observation]:
     pct = round(passed / ((date(y, 12, 31) - date(y, 1, 1)).days) * 100)
     out.append(Observation("days-left-year", left, observed_at,
                            {"caption": f"{y}年は{pct}%が過ぎた", "days_passed": passed}))
+
+    sekki_name, sekki_days = _next_sekki(y, mo, d)
+    out.append(Observation("days-to-sekki", sekki_days, observed_at,
+                           {"next": sekki_name, "caption": f"次の二十四節気「{sekki_name}」まで"}))
 
     age, phase, to_full = _moon(y, mo, d)
     if 13.5 < age < 16.0:

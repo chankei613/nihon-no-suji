@@ -15,7 +15,7 @@ from core import registry
 from core import store
 
 COLLECTORS = ["jma_rank", "jma_amedas", "jma_typhoon", "jma_warning",
-              "mlit_water", "tepco_pg", "p2pquake", "astro"]
+              "mlit_water", "tepco_pg", "p2pquake", "enecho_gas", "astro"]
 
 
 def main(argv: list[str]) -> int:

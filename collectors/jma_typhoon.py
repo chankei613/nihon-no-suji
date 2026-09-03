@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 
+from core import store
 from core.http import fetch
 from core.models import Observation, now_jst
 
@@ -67,5 +68,19 @@ def collect() -> list[Observation]:
         nums = "・".join((d.get("typhoon_number") or "")[-2:].lstrip("0") for d in details)
         caption = f"台風{nums}号が発生中"
 
-    return [Observation("active-typhoons", n, observed_at,
-                        {"typhoons": details, "caption": caption})]
+    out = [Observation("active-typhoons", n, observed_at,
+                       {"typhoons": details, "caption": caption})]
+
+    # 今年の台風発生数 = 今年発生した台風番号の最大（履歴から単調増加で持ち越す）
+    yy = now_jst().year % 100
+    nums = [int(t["typhoonNumber"][-2:]) for t in tcs
+            if (t.get("typhoonNumber") or "").startswith(f"{yy:02d}")]
+    seen_max = 0
+    for rec in store.load_history("typhoons-this-year"):
+        if rec["date"][:4] == str(now_jst().year):
+            seen_max = max(seen_max, int(rec["value"]))
+    total = max([seen_max] + nums)
+    if total > 0:
+        out.append(Observation("typhoons-this-year", total, observed_at,
+                               {"caption": f"今年はこれまでに{total}個の台風が発生"}))
+    return out
