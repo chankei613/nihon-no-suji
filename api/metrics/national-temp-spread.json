@@ -8,30 +8,34 @@
     "name": "気象庁 アメダス実況",
     "url": "https://www.jma.go.jp/bosai/amedas/"
   },
-  "updated_at": "2026-09-03T21:35:53+09:00",
+  "updated_at": "2026-09-04T01:38:46+09:00",
   "summary": {
-    "count": 1,
+    "count": 2,
     "first_date": "2026-09-03",
-    "last_date": "2026-09-03",
-    "min_30d": 21.4,
+    "last_date": "2026-09-04",
+    "min_30d": 16.3,
     "max_30d": 21.4,
-    "avg_30d": 21.4
+    "avg_30d": 18.85
   },
   "history": [
     {
       "date": "2026-09-03",
       "value": 21.4
+    },
+    {
+      "date": "2026-09-04",
+      "value": 16.3
     }
   ],
   "latest_detail": {
     "hot": {
-      "place": "前原",
-      "temp": 34.0
+      "place": "鹿児島",
+      "temp": 28.9
     },
     "cold": {
-      "place": "上標津",
-      "temp": 13.1
+      "place": "歌登",
+      "temp": 12.6
     },
-    "caption": "前原34℃ と 上標津13.1℃ の差"
+    "caption": "鹿児島28.9℃ と 歌登12.6℃ の差"
   }
 }
