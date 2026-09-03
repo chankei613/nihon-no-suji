@@ -98,6 +98,20 @@ def collect() -> list[Observation]:
             "place": name(hs), "caption": f"{name(hs)}｜全国でいちばん空気が乾いている",
         }))
 
+    # --- 富士山頂の気温 ---
+    if "50066" in temps:
+        ft = temps["50066"]
+        if ft <= -10:
+            fc = "真冬並みの厳しい寒さ"
+        elif ft <= 0:
+            fc = "氷点下。街とはまるで別世界"
+        elif ft < 10:
+            fc = "夏でもひんやり"
+        else:
+            fc = "富士山頂も暖かい"
+        out.append(Observation("fuji-temp", round(ft, 1), observed_at,
+                               {"place": "富士山（標高3775m）", "caption": fc}))
+
     # --- 積雪（冬のみ map.json に出現） ---
     if snows:
         snow_pts = {s for s, v in snows.items() if v > 0}

@@ -55,6 +55,14 @@ def _observed_at(row: list[str], ci_year: int) -> str:
 
 
 def _caption(slug: str, place: str, value: float) -> str:
+    if slug == "tokyo-max-temp":
+        if value >= 35:
+            return "猛暑日。危険な暑さ"
+        if value >= 30:
+            return "真夏日"
+        if value < 10:
+            return "冬の寒さ"
+        return f"きょうの東京の最高気温"
     if slug == "max-temp":
         return f"{place}｜きょう日本でいちばん暑い"
     if slug == "min-temp":
@@ -87,10 +95,13 @@ def _collect_one(m: dict) -> Observation | None:
         raise RuntimeError(f"列が見つからない: {m['slug']}")
 
     agg = m["daily_agg"]  # max / min
+    want_station = m.get("station")
     best_row: list[str] | None = None
     best_val = None
     for row in rows:
         if len(row) <= ci_val:
+            continue
+        if want_station is not None and row[0].strip() != want_station:
             continue
         v = _num(row[ci_val])
         if v is None:
@@ -98,6 +109,9 @@ def _collect_one(m: dict) -> Observation | None:
         q = (row[ci_val + 1] or "").strip() if len(row) > ci_val + 1 else ""
         if q not in GOOD_QUALITY:
             continue
+        if want_station is not None:
+            best_row, best_val = row, v
+            break
         if best_val is None or (agg == "max" and v > best_val) or (agg == "min" and v < best_val):
             best_row, best_val = row, v
 
