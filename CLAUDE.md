@@ -35,5 +35,7 @@
 
 ## コミット
 
-- `data/` と `api/` の自動更新コミットは bot（`nihon-no-suji-bot`）が行う。手で触らない
-- コード変更のコミットメッセージは日本語で簡潔に
+- **`data/` と `api/` は bot（`nihon-no-suji-bot`）だけがコミットする。ローカルからは絶対に `git add` しない**
+  （ローカルで `python -m core.run` するとこれらが変わるが、`git checkout -- data api && git clean -fdq data api` で捨てる）
+- ローカルからのコミットは `collectors/` `core/` `docs/` などコードだけ。push すると Actions が走って data/api を再生成する
+- コミットメッセージは日本語で簡潔に
