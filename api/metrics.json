@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:21:10+09:00",
+  "generated_at": "2026-09-03T12:27:41+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -117,6 +117,33 @@
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁 アメダス実況（富士山）"
+    },
+    {
+      "slug": "days-to-sekki",
+      "name": "次の二十四節気まで",
+      "category": "こよみ",
+      "unit": "日",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "自前天文計算"
+    },
+    {
+      "slug": "gas-regular",
+      "name": "レギュラーガソリンの全国平均価格",
+      "category": "経済",
+      "unit": "円/L",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "資源エネルギー庁 石油製品価格調査"
+    },
+    {
+      "slug": "typhoons-this-year",
+      "name": "今年の台風発生数",
+      "category": "防災",
+      "unit": "個",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 台風情報"
     },
     {
       "slug": "active-typhoons",

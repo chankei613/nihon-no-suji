@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:21:10+09:00",
+  "generated_at": "2026-09-03T12:27:41+09:00",
   "date": "2026-09-03",
   "metrics": [
     {
@@ -166,9 +166,9 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 78,
-      "value_display": "78地点",
-      "observed_at": "2026-09-03T12:10:00+09:00",
+      "value": 88,
+      "value_display": "88地点",
+      "observed_at": "2026-09-03T12:20:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -182,8 +182,11 @@
       "detail": {
         "station_ids": [
           "40191",
+          "40311",
           "40336",
           "40341",
+          "40406",
+          "40426",
           "43256",
           "44132",
           "44166",
@@ -194,6 +197,7 @@
           "44301",
           "44356",
           "45061",
+          "45081",
           "45106",
           "45116",
           "45121",
@@ -203,6 +207,7 @@
           "45291",
           "45361",
           "46166",
+          "50206",
           "50506",
           "66501",
           "67212",
@@ -211,12 +216,17 @@
           "67461",
           "67496",
           "68121",
+          "68132",
           "68156",
+          "68246",
+          "68351",
           "68376",
           "68462",
           "68516",
+          "68541",
           "81071",
           "81116",
+          "81196",
           "81266",
           "81286",
           "81321",
@@ -260,7 +270,7 @@
           "88612",
           "91141"
         ],
-        "now": 56,
+        "now": 64,
         "caption": "きょう30℃以上になった地点"
       },
       "source": {
@@ -301,9 +311,9 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value": 20.8,
-      "value_display": "20.8℃",
-      "observed_at": "2026-09-03T12:10:00+09:00",
+      "value": 21.4,
+      "value_display": "21.4℃",
+      "observed_at": "2026-09-03T12:20:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -313,17 +323,17 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "前原33.9℃ と 上標津13.1℃ の差",
+      "caption": "前原34.5℃ と 上標津13.1℃ の差",
       "detail": {
         "hot": {
           "place": "前原",
-          "temp": 33.9
+          "temp": 34.5
         },
         "cold": {
           "place": "上標津",
           "temp": 13.1
         },
-        "caption": "前原33.9℃ と 上標津13.1℃ の差"
+        "caption": "前原34.5℃ と 上標津13.1℃ の差"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -335,9 +345,9 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value": 17.7,
-      "value_display": "17.7m/s",
-      "observed_at": "2026-09-03T09:00:00+09:00",
+      "value": 18.4,
+      "value_display": "18.4m/s",
+      "observed_at": "2026-09-03T12:20:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -347,10 +357,10 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "旧東｜全国でいちばん風が強い（10分平均）",
+      "caption": "北大東｜全国でいちばん風が強い（10分平均）",
       "detail": {
-        "place": "旧東",
-        "caption": "旧東｜全国でいちばん風が強い（10分平均）"
+        "place": "北大東",
+        "caption": "北大東｜全国でいちばん風が強い（10分平均）"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -362,9 +372,9 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value": 40.0,
-      "value_display": "40%",
-      "observed_at": "2026-09-03T12:10:00+09:00",
+      "value": 37.0,
+      "value_display": "37%",
+      "observed_at": "2026-09-03T12:20:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -389,9 +399,9 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 6.0,
-      "value_display": "6℃",
-      "observed_at": "2026-09-03T12:10:00+09:00",
+      "value": 6.9,
+      "value_display": "6.9℃",
+      "observed_at": "2026-09-03T12:20:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -409,6 +419,86 @@
       "source": {
         "name": "気象庁 アメダス実況（富士山）",
         "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
+      "slug": "days-to-sekki",
+      "name": "次の二十四節気まで",
+      "category": "こよみ",
+      "unit": "日",
+      "value": 5,
+      "value_display": "5日",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "次の二十四節気「白露」まで",
+      "detail": {
+        "next": "白露",
+        "caption": "次の二十四節気「白露」まで"
+      },
+      "source": {
+        "name": "自前天文計算",
+        "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "gas-regular",
+      "name": "レギュラーガソリンの全国平均価格",
+      "category": "経済",
+      "unit": "円/L",
+      "value": 170.0,
+      "value_display": "170円/L",
+      "observed_at": "2026-09-03T00:00:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "レギュラーガソリン全国平均（8月31日調査）",
+      "detail": {
+        "survey_date": "2026-08-31",
+        "caption": "レギュラーガソリン全国平均（8月31日調査）"
+      },
+      "source": {
+        "name": "資源エネルギー庁 石油製品価格調査",
+        "url": "https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl007/results.html"
+      }
+    },
+    {
+      "slug": "typhoons-this-year",
+      "name": "今年の台風発生数",
+      "category": "防災",
+      "unit": "個",
+      "value": 24,
+      "value_display": "24個",
+      "observed_at": "2026-09-03T12:27:00+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "今年はこれまでに24個の台風が発生",
+      "detail": {
+        "caption": "今年はこれまでに24個の台風が発生"
+      },
+      "source": {
+        "name": "気象庁 台風情報",
+        "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
       }
     },
     {
@@ -759,7 +849,7 @@
       "unit": "回",
       "value": 10,
       "value_display": "10回",
-      "observed_at": "2026-09-03T12:21:00+09:00",
+      "observed_at": "2026-09-03T12:27:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {

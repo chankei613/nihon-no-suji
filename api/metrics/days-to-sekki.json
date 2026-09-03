@@ -1,30 +1,30 @@
 {
-  "slug": "days-left-year",
-  "name": "今年の残り日数",
+  "slug": "days-to-sekki",
+  "name": "次の二十四節気まで",
   "unit": "日",
   "comparison_type": "absolute",
   "value_type": "number",
   "source": {
-    "name": "計算のみ",
-    "url": ""
+    "name": "自前天文計算",
+    "url": "https://eco.mtk.nao.ac.jp/koyomi/"
   },
   "updated_at": "2026-09-03T12:27:41+09:00",
   "summary": {
     "count": 1,
     "first_date": "2026-09-03",
     "last_date": "2026-09-03",
-    "min_30d": 119,
-    "max_30d": 119,
-    "avg_30d": 119.0
+    "min_30d": 5,
+    "max_30d": 5,
+    "avg_30d": 5.0
   },
   "history": [
     {
       "date": "2026-09-03",
-      "value": 119
+      "value": 5
     }
   ],
   "latest_detail": {
-    "caption": "2026年は67%が過ぎた",
-    "days_passed": 245
+    "next": "白露",
+    "caption": "次の二十四節気「白露」まで"
   }
 }

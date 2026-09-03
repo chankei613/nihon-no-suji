@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:21:10+09:00",
+  "generated_at": "2026-09-03T12:27:41+09:00",
   "date": "2026-09-03",
   "changes": [
     {
@@ -92,7 +92,7 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "78地点",
+      "value_display": "88地点",
       "change": {
         "type": "absolute",
         "available": false,
@@ -124,7 +124,7 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "20.8℃",
+      "value_display": "21.4℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -132,7 +132,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "前原33.9℃ と 上標津13.1℃ の差",
+      "caption": "前原34.5℃ と 上標津13.1℃ の差",
       "score": null,
       "label": "前日データなし"
     },
@@ -140,7 +140,7 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "17.7m/s",
+      "value_display": "18.4m/s",
       "change": {
         "type": "absolute",
         "available": false,
@@ -148,7 +148,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "旧東｜全国でいちばん風が強い（10分平均）",
+      "caption": "北大東｜全国でいちばん風が強い（10分平均）",
       "score": null,
       "label": "前日データなし"
     },
@@ -156,7 +156,7 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "40%",
+      "value_display": "37%",
       "change": {
         "type": "percentage_point",
         "available": false,
@@ -172,7 +172,7 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "6℃",
+      "value_display": "6.9℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -181,6 +181,54 @@
         "note": "前日データなし"
       },
       "caption": "夏でもひんやり",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "days-to-sekki",
+      "name": "次の二十四節気まで",
+      "category": "こよみ",
+      "value_display": "5日",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "次の二十四節気「白露」まで",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "gas-regular",
+      "name": "レギュラーガソリンの全国平均価格",
+      "category": "経済",
+      "value_display": "170円/L",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "レギュラーガソリン全国平均（8月31日調査）",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "typhoons-this-year",
+      "name": "今年の台風発生数",
+      "category": "防災",
+      "value_display": "24個",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "今年はこれまでに24個の台風が発生",
       "score": null,
       "label": "前日データなし"
     },

@@ -1,0 +1,30 @@
+{
+  "slug": "gas-regular",
+  "name": "レギュラーガソリンの全国平均価格",
+  "unit": "円/L",
+  "comparison_type": "absolute",
+  "value_type": "number",
+  "source": {
+    "name": "資源エネルギー庁 石油製品価格調査",
+    "url": "https://www.enecho.meti.go.jp/statistics/petroleum_and_lpgas/pl007/results.html"
+  },
+  "updated_at": "2026-09-03T12:27:41+09:00",
+  "summary": {
+    "count": 1,
+    "first_date": "2026-09-03",
+    "last_date": "2026-09-03",
+    "min_30d": 170.0,
+    "max_30d": 170.0,
+    "avg_30d": 170.0
+  },
+  "history": [
+    {
+      "date": "2026-09-03",
+      "value": 170.0
+    }
+  ],
+  "latest_detail": {
+    "survey_date": "2026-08-31",
+    "caption": "レギュラーガソリン全国平均（8月31日調査）"
+  }
+}
