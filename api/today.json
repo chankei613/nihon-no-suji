@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T10:22:57+09:00",
+  "generated_at": "2026-09-03T12:21:10+09:00",
   "date": "2026-09-03",
   "metrics": [
     {
@@ -7,26 +7,26 @@
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 31.9,
-      "value_display": "31.9℃",
-      "observed_at": "2026-09-03T09:00:00+09:00",
+      "value": 33.7,
+      "value_display": "33.7℃",
+      "observed_at": "2026-09-03T11:00:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.0,
-        "display": "-6℃",
+        "value": -4.2,
+        "display": "-4.2℃",
         "direction": "down",
         "prev_value": 37.9,
         "prev_date": "2026-09-02"
       },
-      "caption": "山口｜きょう日本でいちばん暑い",
+      "caption": "福岡｜きょう日本でいちばん暑い",
       "detail": {
-        "place": "山口",
-        "pref": "山口県",
-        "caption": "山口｜きょう日本でいちばん暑い",
-        "record_1st": 39.4,
+        "place": "福岡",
+        "pref": "福岡県",
+        "caption": "福岡｜きょう日本でいちばん暑い",
+        "record_1st": 39.0,
         "year_extreme": false,
         "all_time_record": false
       },
@@ -75,9 +75,9 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 28.6,
-      "value_display": "28.6℃",
-      "observed_at": "2026-09-03T09:00:00+09:00",
+      "value": 30.0,
+      "value_display": "30℃",
+      "observed_at": "2026-09-03T11:00:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -87,11 +87,11 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "きょうの東京の最高気温",
+      "caption": "真夏日",
       "detail": {
         "place": "東京",
         "pref": "東京都",
-        "caption": "きょうの東京の最高気温",
+        "caption": "真夏日",
         "record_1st": 39.5,
         "year_extreme": false,
         "all_time_record": false
@@ -166,9 +166,9 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 59,
-      "value_display": "59地点",
-      "observed_at": "2026-09-03T10:10:00+09:00",
+      "value": 78,
+      "value_display": "78地点",
+      "observed_at": "2026-09-03T12:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -181,15 +181,28 @@
       "caption": "きょう30℃以上になった地点",
       "detail": {
         "station_ids": [
+          "40191",
+          "40336",
+          "40341",
+          "43256",
+          "44132",
+          "44166",
           "44207",
           "44226",
           "44228",
           "44262",
           "44301",
           "44356",
+          "45061",
+          "45106",
+          "45116",
+          "45121",
+          "45181",
+          "45212",
           "45261",
           "45291",
           "45361",
+          "46166",
           "50506",
           "66501",
           "67212",
@@ -197,7 +210,11 @@
           "67437",
           "67461",
           "67496",
+          "68121",
+          "68156",
           "68376",
+          "68462",
+          "68516",
           "81071",
           "81116",
           "81266",
@@ -239,9 +256,11 @@
           "85142",
           "85161",
           "85166",
-          "85176"
+          "85176",
+          "88612",
+          "91141"
         ],
-        "now": 53,
+        "now": 56,
         "caption": "きょう30℃以上になった地点"
       },
       "source": {
@@ -282,9 +301,9 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value": 18.8,
-      "value_display": "18.8℃",
-      "observed_at": "2026-09-03T10:10:00+09:00",
+      "value": 20.8,
+      "value_display": "20.8℃",
+      "observed_at": "2026-09-03T12:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -294,17 +313,17 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "佐世保32.6℃ と 根室中標津13.8℃ の差",
+      "caption": "前原33.9℃ と 上標津13.1℃ の差",
       "detail": {
         "hot": {
-          "place": "佐世保",
-          "temp": 32.6
+          "place": "前原",
+          "temp": 33.9
         },
         "cold": {
-          "place": "根室中標津",
-          "temp": 13.8
+          "place": "上標津",
+          "temp": 13.1
         },
-        "caption": "佐世保32.6℃ と 根室中標津13.8℃ の差"
+        "caption": "前原33.9℃ と 上標津13.1℃ の差"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -328,10 +347,10 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "北大東｜全国でいちばん風が強い（10分平均）",
+      "caption": "旧東｜全国でいちばん風が強い（10分平均）",
       "detail": {
-        "place": "北大東",
-        "caption": "北大東｜全国でいちばん風が強い（10分平均）"
+        "place": "旧東",
+        "caption": "旧東｜全国でいちばん風が強い（10分平均）"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -343,9 +362,9 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value": 53.0,
-      "value_display": "53%",
-      "observed_at": "2026-09-03T10:10:00+09:00",
+      "value": 40.0,
+      "value_display": "40%",
+      "observed_at": "2026-09-03T12:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -370,9 +389,9 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 7.3,
-      "value_display": "7.3℃",
-      "observed_at": "2026-09-03T10:10:00+09:00",
+      "value": 6.0,
+      "value_display": "6℃",
+      "observed_at": "2026-09-03T12:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -436,6 +455,33 @@
       "source": {
         "name": "気象庁 台風情報",
         "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
+      }
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "unit": "市町村",
+      "value": 16,
+      "value_display": "16市町村",
+      "observed_at": "2026-09-03T12:13:39+09:00",
+      "as_of": "2026-09-03",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "16市町村に気象警報",
+      "detail": {
+        "emergency_count": 0,
+        "caption": "16市町村に気象警報"
+      },
+      "source": {
+        "name": "気象庁 気象警報・注意報",
+        "url": "https://www.jma.go.jp/bosai/warning/data/r8/map.json"
       }
     },
     {
@@ -677,7 +723,7 @@
       "unit": "%",
       "value": 90.0,
       "value_display": "90%",
-      "observed_at": "2026-09-03T10:10:00+09:00",
+      "observed_at": "2026-09-03T12:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -689,17 +735,17 @@
         "prev_value": 88.0,
         "prev_date": "2026-09-02"
       },
-      "caption": "ピークは13:00〜14:00の見込み",
+      "caption": "ピークは11:00〜12:00の見込み",
       "detail": {
         "reserve_rate": 11.0,
-        "peak_supply_10MW": 4865.0,
-        "forecast_peak_demand_10MW": 4398.0,
-        "current_demand_10MW": 4076.0,
-        "current_demand_time": "9:00",
-        "current_usage_rate": 89.0,
-        "peak_timeband": "13:00〜14:00",
+        "peak_supply_10MW": 4845.0,
+        "forecast_peak_demand_10MW": 4378.0,
+        "current_demand_10MW": 4267.0,
+        "current_demand_time": "11:00",
+        "current_usage_rate": 88.0,
+        "peak_timeband": "11:00〜12:00",
         "area": "東京",
-        "caption": "ピークは13:00〜14:00の見込み"
+        "caption": "ピークは11:00〜12:00の見込み"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -711,16 +757,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 11,
-      "value_display": "11回",
-      "observed_at": "2026-09-03T10:22:00+09:00",
+      "value": 10,
+      "value_display": "10回",
+      "observed_at": "2026-09-03T12:21:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
+        "value": -2,
+        "display": "-2回",
         "direction": "down",
         "prev_value": 12,
         "prev_date": "2026-09-02"
@@ -738,11 +784,11 @@
           "depth": 10
         },
         "latest": {
-          "time": "2026-09-03T08:44:00+09:00",
-          "scale": 20,
-          "name": "熊本県熊本地方",
-          "magnitude": 2.5,
-          "depth": 10
+          "time": "2026-09-03T11:55:00+09:00",
+          "scale": 10,
+          "name": "熊本県天草・芦北地方",
+          "magnitude": 2.3,
+          "depth": 0
         },
         "capped": false
       },

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-03T10:22:57+09:00",
+  "generated_at": "2026-09-03T12:21:10+09:00",
   "date": "2026-09-03",
   "changes": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "31.9℃",
+      "value_display": "33.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.0,
-        "display": "-6℃",
+        "value": -4.2,
+        "display": "-4.2℃",
         "direction": "down",
         "prev_value": 37.9,
         "prev_date": "2026-09-02"
       },
-      "caption": "山口｜きょう日本でいちばん暑い",
+      "caption": "福岡｜きょう日本でいちばん暑い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -42,7 +42,7 @@
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "28.6℃",
+      "value_display": "30℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -50,7 +50,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "きょうの東京の最高気温",
+      "caption": "真夏日",
       "score": null,
       "label": "前日データなし"
     },
@@ -92,7 +92,7 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "59地点",
+      "value_display": "78地点",
       "change": {
         "type": "absolute",
         "available": false,
@@ -124,7 +124,7 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "18.8℃",
+      "value_display": "20.8℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -132,7 +132,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "佐世保32.6℃ と 根室中標津13.8℃ の差",
+      "caption": "前原33.9℃ と 上標津13.1℃ の差",
       "score": null,
       "label": "前日データなし"
     },
@@ -148,7 +148,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "北大東｜全国でいちばん風が強い（10分平均）",
+      "caption": "旧東｜全国でいちばん風が強い（10分平均）",
       "score": null,
       "label": "前日データなし"
     },
@@ -156,7 +156,7 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "53%",
+      "value_display": "40%",
       "change": {
         "type": "percentage_point",
         "available": false,
@@ -172,7 +172,7 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "7.3℃",
+      "value_display": "6℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -197,6 +197,22 @@
         "note": "前日データなし"
       },
       "caption": "台風18・24号が発生中",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "16市町村",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "16市町村に気象警報",
       "score": null,
       "label": "前日データなし"
     },
@@ -298,7 +314,7 @@
         "prev_value": 88.0,
         "prev_date": "2026-09-02"
       },
-      "caption": "ピークは13:00〜14:00の見込み",
+      "caption": "ピークは11:00〜12:00の見込み",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -306,12 +322,12 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "11回",
+      "value_display": "10回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
+        "value": -2,
+        "display": "-2回",
         "direction": "down",
         "prev_value": 12,
         "prev_date": "2026-09-02"
