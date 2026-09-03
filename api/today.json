@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:40:00+09:00",
+  "generated_at": "2026-09-03T10:22:57+09:00",
   "date": "2026-09-03",
   "metrics": [
     {
@@ -7,26 +7,26 @@
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 30.3,
-      "value_display": "30.3℃",
-      "observed_at": "2026-09-03T01:00:00+09:00",
+      "value": 31.9,
+      "value_display": "31.9℃",
+      "observed_at": "2026-09-03T09:00:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7.6,
-        "display": "-7.6℃",
+        "value": -6.0,
+        "display": "-6℃",
         "direction": "down",
         "prev_value": 37.9,
         "prev_date": "2026-09-02"
       },
-      "caption": "熊本｜きょう日本でいちばん暑い",
+      "caption": "山口｜きょう日本でいちばん暑い",
       "detail": {
-        "place": "熊本",
-        "pref": "熊本県",
-        "caption": "熊本｜きょう日本でいちばん暑い",
-        "record_1st": 40.3,
+        "place": "山口",
+        "pref": "山口県",
+        "caption": "山口｜きょう日本でいちばん暑い",
+        "record_1st": 39.4,
         "year_extreme": false,
         "all_time_record": false
       },
@@ -75,9 +75,9 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 27.4,
-      "value_display": "27.4℃",
-      "observed_at": "2026-09-03T08:00:00+09:00",
+      "value": 28.6,
+      "value_display": "28.6℃",
+      "observed_at": "2026-09-03T09:00:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -166,9 +166,9 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 41,
-      "value_display": "41地点",
-      "observed_at": "2026-09-03T09:30:00+09:00",
+      "value": 59,
+      "value_display": "59地点",
+      "observed_at": "2026-09-03T10:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -182,12 +182,22 @@
       "detail": {
         "station_ids": [
           "44207",
+          "44226",
+          "44228",
           "44262",
+          "44301",
+          "44356",
           "45261",
           "45291",
+          "45361",
+          "50506",
           "66501",
+          "67212",
+          "67292",
+          "67437",
           "67461",
           "67496",
+          "68376",
           "81071",
           "81116",
           "81266",
@@ -196,23 +206,31 @@
           "81371",
           "81386",
           "81397",
+          "81428",
           "81436",
+          "82046",
           "82056",
           "82068",
           "82101",
+          "82136",
           "82171",
           "82182",
           "82186",
           "82191",
+          "82206",
+          "82261",
           "82306",
+          "82361",
           "83051",
           "84072",
           "84076",
           "84121",
           "84122",
+          "84171",
           "84183",
           "84266",
           "84306",
+          "84341",
           "84371",
           "84496",
           "84536",
@@ -223,7 +241,7 @@
           "85166",
           "85176"
         ],
-        "now": 40,
+        "now": 53,
         "caption": "きょう30℃以上になった地点"
       },
       "source": {
@@ -264,9 +282,9 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value": 17.8,
-      "value_display": "17.8℃",
-      "observed_at": "2026-09-03T09:30:00+09:00",
+      "value": 18.8,
+      "value_display": "18.8℃",
+      "observed_at": "2026-09-03T10:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -276,17 +294,17 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "佐世保32.1℃ と 阿寒湖畔14.3℃ の差",
+      "caption": "佐世保32.6℃ と 根室中標津13.8℃ の差",
       "detail": {
         "hot": {
           "place": "佐世保",
-          "temp": 32.1
+          "temp": 32.6
         },
         "cold": {
-          "place": "阿寒湖畔",
-          "temp": 14.3
+          "place": "根室中標津",
+          "temp": 13.8
         },
-        "caption": "佐世保32.1℃ と 阿寒湖畔14.3℃ の差"
+        "caption": "佐世保32.6℃ と 根室中標津13.8℃ の差"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -325,9 +343,9 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value": 56.0,
-      "value_display": "56%",
-      "observed_at": "2026-09-03T09:30:00+09:00",
+      "value": 53.0,
+      "value_display": "53%",
+      "observed_at": "2026-09-03T10:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -337,10 +355,10 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "福岡｜全国でいちばん空気が乾いている",
+      "caption": "前原｜全国でいちばん空気が乾いている",
       "detail": {
-        "place": "福岡",
-        "caption": "福岡｜全国でいちばん空気が乾いている"
+        "place": "前原",
+        "caption": "前原｜全国でいちばん空気が乾いている"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -352,9 +370,9 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 7.1,
-      "value_display": "7.1℃",
-      "observed_at": "2026-09-03T09:30:00+09:00",
+      "value": 7.3,
+      "value_display": "7.3℃",
+      "observed_at": "2026-09-03T10:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
@@ -400,16 +418,16 @@
             "category": "TS",
             "pressure": "992",
             "location": "南シナ海",
-            "course": "北北西",
+            "course": "西北西",
             "typhoon_number": "2618"
           },
           {
             "number": "2624",
             "name": "クロヴァン",
             "category": "TS",
-            "pressure": "992",
-            "location": "南大東島の南西約100km",
-            "course": "北北西",
+            "pressure": "985",
+            "location": "南大東島の北西約90km",
+            "course": "北",
             "typhoon_number": "2624"
           }
         ],
@@ -657,28 +675,28 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value": 91.0,
-      "value_display": "91%",
-      "observed_at": "2026-09-03T09:10:00+09:00",
+      "value": 90.0,
+      "value_display": "90%",
+      "observed_at": "2026-09-03T10:10:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
         "prev_value": 88.0,
         "prev_date": "2026-09-02"
       },
       "caption": "ピークは13:00〜14:00の見込み",
       "detail": {
-        "reserve_rate": 10.0,
-        "peak_supply_10MW": 4851.0,
-        "forecast_peak_demand_10MW": 4418.0,
-        "current_demand_10MW": 3690.0,
-        "current_demand_time": "8:00",
-        "current_usage_rate": 86.0,
+        "reserve_rate": 11.0,
+        "peak_supply_10MW": 4865.0,
+        "forecast_peak_demand_10MW": 4398.0,
+        "current_demand_10MW": 4076.0,
+        "current_demand_time": "9:00",
+        "current_usage_rate": 89.0,
         "peak_timeband": "13:00〜14:00",
         "area": "東京",
         "caption": "ピークは13:00〜14:00の見込み"
@@ -695,7 +713,7 @@
       "unit": "回",
       "value": 11,
       "value_display": "11回",
-      "observed_at": "2026-09-03T09:40:00+09:00",
+      "observed_at": "2026-09-03T10:22:00+09:00",
       "as_of": "2026-09-03",
       "stale": false,
       "change": {

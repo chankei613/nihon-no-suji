@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-03T09:40:00+09:00",
+  "generated_at": "2026-09-03T10:22:57+09:00",
   "date": "2026-09-03",
   "changes": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "30.3℃",
+      "value_display": "31.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7.6,
-        "display": "-7.6℃",
+        "value": -6.0,
+        "display": "-6℃",
         "direction": "down",
         "prev_value": 37.9,
         "prev_date": "2026-09-02"
       },
-      "caption": "熊本｜きょう日本でいちばん暑い",
+      "caption": "山口｜きょう日本でいちばん暑い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -42,7 +42,7 @@
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "27.4℃",
+      "value_display": "28.6℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -92,7 +92,7 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "41地点",
+      "value_display": "59地点",
       "change": {
         "type": "absolute",
         "available": false,
@@ -124,7 +124,7 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "17.8℃",
+      "value_display": "18.8℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -132,7 +132,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "佐世保32.1℃ と 阿寒湖畔14.3℃ の差",
+      "caption": "佐世保32.6℃ と 根室中標津13.8℃ の差",
       "score": null,
       "label": "前日データなし"
     },
@@ -156,7 +156,7 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "56%",
+      "value_display": "53%",
       "change": {
         "type": "percentage_point",
         "available": false,
@@ -164,7 +164,7 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "福岡｜全国でいちばん空気が乾いている",
+      "caption": "前原｜全国でいちばん空気が乾いている",
       "score": null,
       "label": "前日データなし"
     },
@@ -172,7 +172,7 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "7.1℃",
+      "value_display": "7.3℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -288,12 +288,12 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "91%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
         "prev_value": 88.0,
         "prev_date": "2026-09-02"
