@@ -8,23 +8,27 @@
     "name": "気象庁 天気予報",
     "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
   },
-  "updated_at": "2026-09-05T04:06:33+09:00",
+  "updated_at": "2026-09-05T06:31:30+09:00",
   "summary": {
-    "count": 1,
+    "count": 2,
     "first_date": "2026-09-05",
-    "last_date": "2026-09-05",
+    "last_date": "2026-09-06",
     "min_30d": 60.0,
-    "max_30d": 60.0,
-    "avg_30d": 60.0
+    "max_30d": 90.0,
+    "avg_30d": 75.0
   },
   "history": [
     {
       "date": "2026-09-05",
       "value": 60.0
+    },
+    {
+      "date": "2026-09-06",
+      "value": 90.0
     }
   ],
   "latest_detail": {
-    "for_date": "2026-09-05",
+    "for_date": "2026-09-06",
     "caption": "あすは雨の可能性が高い"
   }
 }

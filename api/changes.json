@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T04:06:33+09:00",
+  "generated_at": "2026-09-05T06:31:30+09:00",
   "date": "2026-09-05",
   "changes": [
     {
@@ -24,12 +24,12 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "3.7℃",
+      "value_display": "3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.3,
-        "display": "-5.3℃",
+        "value": -6.0,
+        "display": "-6℃",
         "direction": "down",
         "prev_value": 9.0,
         "prev_date": "2026-09-04"
@@ -60,12 +60,12 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "428mm",
+      "value_display": "490.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 51.0,
-        "display": "+51mm",
+        "value": 113.5,
+        "display": "+113.5mm",
         "direction": "up",
         "prev_value": 377.0,
         "prev_date": "2026-09-04"
@@ -132,12 +132,12 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "167地点",
+      "value_display": "184地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -505,
-        "display": "-505地点",
+        "value": -488,
+        "display": "-488地点",
         "direction": "down",
         "prev_value": 672,
         "prev_date": "2026-09-04"
@@ -204,17 +204,19 @@
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "26℃",
+      "value_display": "25℃",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
+        "prev_value": 26.0,
+        "prev_date": "2026-09-05"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "tokyo-forecast-min",
@@ -223,12 +225,30 @@
       "value_display": "20℃",
       "change": {
         "type": "absolute",
+        "available": true,
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 20.0,
+        "prev_date": "2026-09-05"
+      },
+      "caption": "あすの東京の最低気温の予想",
+      "score": null,
+      "label": "データ蓄積中"
+    },
+    {
+      "slug": "tokyo-week-max-forecast",
+      "name": "今週いちばん暑くなりそうな日の予想最高気温",
+      "category": "自然",
+      "value_display": "30℃",
+      "change": {
+        "type": "absolute",
         "available": false,
         "direction": "flat",
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "あすの東京の最低気温の予想",
+      "caption": "9月8日ごろがいちばん暑くなりそう",
       "score": null,
       "label": "前日データなし"
     },
@@ -236,17 +256,19 @@
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "60%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": 30.0,
+        "display": "+30.0pt",
+        "direction": "up",
+        "prev_value": 60.0,
+        "prev_date": "2026-09-05"
       },
       "caption": "あすは雨の可能性が高い",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "min-pressure",
@@ -306,13 +328,13 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "3.1℃",
+      "value_display": "4.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.2,
+        "display": "+1.2℃",
+        "direction": "up",
         "prev_value": 3.1,
         "prev_date": "2026-09-04"
       },
@@ -520,17 +542,17 @@
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
-      "value_display": "-45cm",
+      "value_display": "-44cm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.0,
-        "display": "+3cm",
+        "value": 1.0,
+        "display": "+1cm",
         "direction": "up",
-        "prev_value": -48.0,
-        "prev_date": "2026-09-03"
+        "prev_value": -45.0,
+        "prev_date": "2026-09-04"
       },
-      "caption": "基準水位(B.S.L.)より45cm低い",
+      "caption": "基準水位(B.S.L.)より44cm低い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -538,15 +560,15 @@
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "77.6%",
+      "value_display": "78.4%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": 0.8,
+        "display": "+0.8pt",
+        "direction": "up",
         "prev_value": 77.6,
-        "prev_date": "2026-09-03"
+        "prev_date": "2026-09-04"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": null,
@@ -566,7 +588,7 @@
         "prev_value": 86.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "ピークは16:00〜17:00の見込み",
+      "caption": "ピークは15:00〜16:00の見込み",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -574,17 +596,17 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "12%",
+      "value_display": "1%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": -11.0,
+        "display": "-11.0pt",
+        "direction": "down",
         "prev_value": 12.0,
-        "prev_date": "2026-09-03"
+        "prev_date": "2026-09-04"
       },
-      "caption": "きょうのピークで電力の12%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の1%を太陽光がまかなった",
       "score": null,
       "label": "データ蓄積中"
     },
