@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:34:12+09:00",
+  "generated_at": "2026-09-04T21:06:05+09:00",
   "date": "2026-09-04",
   "changes": [
     {
@@ -24,17 +24,17 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "11.5℃",
+      "value_display": "9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.8,
-        "display": "-0.8℃",
+        "value": -3.3,
+        "display": "-3.3℃",
         "direction": "down",
         "prev_value": 12.3,
         "prev_date": "2026-09-03"
       },
-      "caption": "朱鞠内｜きょう日本でいちばん寒い",
+      "caption": "天塩｜きょう日本でいちばん寒い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -60,12 +60,12 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "353.5mm",
+      "value_display": "377mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 111.5,
-        "display": "+111.5mm",
+        "value": 135.0,
+        "display": "+135mm",
         "direction": "up",
         "prev_value": 242.0,
         "prev_date": "2026-09-03"
@@ -132,12 +132,12 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "596地点",
+      "value_display": "659地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1地点",
+        "value": 64,
+        "display": "+64地点",
         "direction": "up",
         "prev_value": 595,
         "prev_date": "2026-09-03"
@@ -150,17 +150,17 @@
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "59.5mm",
+      "value_display": "79mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 12.5,
-        "display": "+12.5mm",
+        "value": 32.0,
+        "display": "+32mm",
         "direction": "up",
         "prev_value": 47.0,
         "prev_date": "2026-09-03"
       },
-      "caption": "喜界島｜バケツをひっくり返したような雨",
+      "caption": "上中｜バケツをひっくり返したような雨",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -168,17 +168,17 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "162mm",
+      "value_display": "167.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 65.0,
-        "display": "+65mm",
+        "value": 70.5,
+        "display": "+70.5mm",
         "direction": "up",
         "prev_value": 97.0,
         "prev_date": "2026-09-03"
       },
-      "caption": "喜界島｜この3時間でいちばん激しく降った",
+      "caption": "屋久島｜この3時間でいちばん激しく降った",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -186,25 +186,25 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "18.3℃",
+      "value_display": "20.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.1,
-        "display": "-3.1℃",
+        "value": -0.9,
+        "display": "-0.9℃",
         "direction": "down",
         "prev_value": 21.4,
         "prev_date": "2026-09-03"
       },
-      "caption": "三宅坪田30.2℃ と 白滝11.9℃ の差",
+      "caption": "父島29.3℃ と 中頓別8.8℃ の差",
       "score": null,
       "label": "データ蓄積中"
     },
     {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "994.8hPa",
+      "value_display": "26℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -212,7 +212,55 @@
         "display": "—",
         "note": "前日データなし"
       },
-      "caption": "名瀬｜全国でいちばん気圧が低い",
+      "caption": "あすの東京の最高気温の予想",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "value_display": "20℃",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "あすの東京の最低気温の予想",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "value_display": "60%",
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "あすは雨の可能性が高い",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "value_display": "995.1hPa",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "沖永良部｜全国でいちばん気圧が低い",
       "score": null,
       "label": "前日データなし"
     },
@@ -256,12 +304,12 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "2.6℃",
+      "value_display": "3.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.1,
-        "display": "-2.1℃",
+        "value": -1.6,
+        "display": "-1.6℃",
         "direction": "down",
         "prev_value": 4.7,
         "prev_date": "2026-09-03"
@@ -354,7 +402,7 @@
         "prev_value": 2,
         "prev_date": "2026-09-03"
       },
-      "caption": "台風24号「クロヴァン」が奄美市の北西約220km",
+      "caption": "台風24号「クロヴァン」が奄美市の西北西約250km",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -362,17 +410,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "15市町村",
+      "value_display": "6市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 9,
-        "display": "+9市町村",
-        "direction": "up",
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
         "prev_value": 6,
         "prev_date": "2026-09-03"
       },
-      "caption": "15市町村に気象警報",
+      "caption": "6市町村に気象警報",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -542,17 +590,17 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "6回",
+      "value_display": "8回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
-        "direction": "down",
+        "value": 1,
+        "display": "+1回",
+        "direction": "up",
         "prev_value": 7,
         "prev_date": "2026-09-03"
       },
-      "caption": "最大は福島県会津の震度2",
+      "caption": "最大は福島県沖の震度2",
       "score": null,
       "label": "データ蓄積中"
     },

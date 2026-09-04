@@ -171,6 +171,26 @@ class WarningTests(unittest.TestCase):
         self.assertEqual(out, [])
 
 
+class JmaForecastTests(unittest.TestCase):
+    def test_tomorrow_tokyo(self):
+        from collectors import jma_forecast
+        with patch_fetch("collectors.jma_forecast",
+                         {"forecast/130000.json": "jma_forecast_130000.json"}):
+            out = {o.slug: o for o in jma_forecast.collect()}
+        self.assertIn("tokyo-forecast-max", out)
+        hi = out["tokyo-forecast-max"].value
+        lo = out["tokyo-forecast-min"].value
+        self.assertGreaterEqual(hi, lo)          # 最高 >= 最低
+        self.assertGreater(hi, -20)
+        self.assertLess(hi, 45)
+        pop = out["tokyo-forecast-pop"].value
+        self.assertGreaterEqual(pop, 0)
+        self.assertLessEqual(pop, 100)
+        # 観測時刻は「あした」の日付
+        self.assertGreater(out["tokyo-forecast-max"].observed_at,
+                           out["tokyo-forecast-max"].fetched_at[:4])
+
+
 class BojFxTests(unittest.TestCase):
     def test_parses_latest_usd_jpy(self):
         from collectors import boj_fx

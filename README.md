@@ -11,7 +11,7 @@
 - ロードマップ: [docs/日本の数字_100選ロードマップ.md](docs/日本の数字_100選ロードマップ.md)
 - データ仕様: [docs/schema.md](docs/schema.md)
 
-## いま動いているもの（35メトリック）
+## いま動いているもの（38メトリック）
 
 一覧は [api/metrics.json](api/metrics.json)、今日の値は [api/today.json](api/today.json)。
 
