@@ -58,9 +58,7 @@ struct MetricDetailView: View {
 
             Text(metric.name).font(.system(size: 15)).foregroundStyle(Theme.ink)
 
-            Text(metric.valueDisplay)
-                .font(.system(size: 60, weight: .semibold).width(.condensed))
-                .foregroundStyle(Theme.ink)
+            bigValue
                 .monospacedDigit()
                 .lineLimit(1)
                 .minimumScaleFactor(0.5)
@@ -75,6 +73,16 @@ struct MetricDetailView: View {
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(.top, 12)
         .padding(.bottom, 24)
+    }
+
+    private var bigValue: Text {
+        let (num, suffix) = MetricCard.splitUnit(metric.valueDisplay)
+        var t = Text(num).font(.system(size: 58, weight: .medium)).foregroundStyle(Theme.ink)
+        if !suffix.isEmpty {
+            t = t + Text(suffix).font(.system(size: 26, weight: .medium))
+                .foregroundStyle(Theme.ink.opacity(0.75))
+        }
+        return t
     }
 
     private func badgeRow(_ badge: String) -> some View {

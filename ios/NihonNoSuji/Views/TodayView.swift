@@ -9,7 +9,7 @@ struct TodayView: View {
             Group {
                 switch store.today {
                 case .loading:
-                    ProgressView().frame(maxWidth: .infinity, maxHeight: .infinity)
+                    LoadingView()
                 case .failed(let msg):
                     ContentUnavailableView("読み込めません", systemImage: "wifi.slash",
                                            description: Text(msg))
@@ -28,10 +28,10 @@ struct TodayView: View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 0, pinnedViews: [.sectionHeaders]) {
                 Text(headline(feed.date))
-                    .font(.system(size: 13))
+                    .font(.system(size: 12.5))
                     .foregroundStyle(Theme.sub)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.top, 6)
+                    .padding(.top, 4)
 
                 let highlights = feed.metrics.filter(\.highlight)
                 if !highlights.isEmpty {
@@ -68,18 +68,11 @@ struct TodayView: View {
                     }
                 }
                 if metric.id != metrics.last?.id {
-                    Divider().overlay(Theme.hairline)
+                    Rectangle().fill(Theme.hairline).frame(height: 1)
                 }
             }
         } header: {
-            HStack(spacing: 6) {
-                Image(systemName: symbol).font(.system(size: 11))
-                Text(title).font(.system(size: 12, weight: .semibold))
-            }
-            .foregroundStyle(Theme.sub)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(.top, 26).padding(.bottom, 10)
-            .background(Theme.bg)
+            SectionHeader(title: title, symbol: symbol)
         }
     }
 

@@ -130,7 +130,7 @@ def compute_change(metric: dict, today: dict, prev: dict | None) -> dict:
         val, display = round(raw, 1), f"{raw:+.1f}"
     else:
         val = round(raw, 2)
-        display = f"{raw:+g}{unit}".replace("+0.0", "±0").replace("-0.0", "±0")
+        display = f"±0{unit}" if abs(raw) < 5e-10 else f"{raw:+g}{unit}"
 
     direction = "flat"
     if raw > 1e-9:
