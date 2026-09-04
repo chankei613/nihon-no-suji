@@ -8,16 +8,16 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-04T21:07:15+09:00",
+  "updated_at": "2026-09-05T01:34:06+09:00",
   "summary": {
-    "count": 3,
+    "count": 4,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-04",
-    "min_30d": 9.0,
+    "last_date": "2026-09-05",
+    "min_30d": 4.9,
     "max_30d": 12.3,
-    "avg_30d": 10.67,
-    "record_1st": -30.6,
-    "year_extreme": false,
+    "avg_30d": 9.22,
+    "record_1st": -29.6,
+    "year_extreme": true,
     "all_time_record": false
   },
   "history": [
@@ -32,16 +32,20 @@
     {
       "date": "2026-09-04",
       "value": 9.0
+    },
+    {
+      "date": "2026-09-05",
+      "value": 4.9
     }
   ],
   "latest_detail": {
-    "place": "天塩",
-    "pref": "北海道留萌地方",
-    "caption": "天塩｜きょう日本でいちばん寒い",
-    "normal_diff": -4.4,
-    "station_prev_diff": -5.2,
-    "record_1st": -30.6,
-    "year_extreme": false,
+    "place": "根室中標津",
+    "pref": "北海道根室地方",
+    "caption": "根室中標津｜きょう日本でいちばん寒い",
+    "normal_diff": -8.4,
+    "station_prev_diff": -8.0,
+    "record_1st": -29.6,
+    "year_extreme": true,
     "all_time_record": false
   }
 }
