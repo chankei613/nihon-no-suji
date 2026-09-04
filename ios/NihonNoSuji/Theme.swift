@@ -79,21 +79,18 @@ struct SectionHeader: View {
     var symbol: String?
 
     var body: some View {
-        VStack(spacing: 8) {
-            Rectangle().fill(Theme.hairline).frame(height: 1)
-            HStack(spacing: 6) {
-                if let symbol {
-                    Image(systemName: symbol).font(.system(size: 10))
-                }
-                Text(title)
-                    .font(.system(size: 11, weight: .semibold))
-                    .tracking(0.8)
-                Spacer()
+        HStack(spacing: 5) {
+            if let symbol {
+                Image(systemName: symbol).font(.system(size: 9))
             }
-            .foregroundStyle(Theme.sub)
+            Text(title)
+                .font(.system(size: 10.5, weight: .semibold))
+                .tracking(1.2)
+            Spacer()
         }
-        .padding(.top, 26)
-        .padding(.bottom, 12)
+        .foregroundStyle(Theme.faint)
+        .padding(.top, 30)
+        .padding(.bottom, 6)
         .background(Theme.bg)
     }
 }
