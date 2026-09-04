@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:41:03+09:00",
+  "generated_at": "2026-09-04T15:29:54+09:00",
   "date": "2026-09-04",
   "metrics": [
     {
@@ -118,16 +118,16 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value": 284.0,
-      "value_display": "284mm",
-      "observed_at": "2026-09-04T12:20:00+09:00",
+      "value": 353.5,
+      "value_display": "353.5mm",
+      "observed_at": "2026-09-04T15:00:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 42.0,
-        "display": "+42mm",
+        "value": 111.5,
+        "display": "+111.5mm",
         "direction": "up",
         "prev_value": 242.0,
         "prev_date": "2026-09-03"
@@ -184,16 +184,16 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 17,
-      "value_display": "17地点",
-      "observed_at": "2026-09-04T12:30:00+09:00",
+      "value": 21,
+      "value_display": "21地点",
+      "observed_at": "2026-09-04T15:20:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -84,
-        "display": "-84地点",
+        "value": -80,
+        "display": "-80地点",
         "direction": "down",
         "prev_value": 101,
         "prev_date": "2026-09-03"
@@ -217,11 +217,15 @@
           "93041",
           "93042",
           "93062",
+          "94001",
           "94011",
           "94062",
+          "94081",
+          "94086",
+          "94101",
           "94116"
         ],
-        "now": 11,
+        "now": 13,
         "caption": "きょう30℃以上になった地点"
       },
       "source": {
@@ -266,17 +270,17 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 575,
-      "value_display": "575地点",
-      "observed_at": "2026-09-04T12:30:00+09:00",
+      "value": 596,
+      "value_display": "596地点",
+      "observed_at": "2026-09-04T15:20:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -20,
-        "display": "-20地点",
-        "direction": "down",
+        "value": 1,
+        "display": "+1地点",
+        "direction": "up",
         "prev_value": 595,
         "prev_date": "2026-09-03"
       },
@@ -379,7 +383,10 @@
           "43171",
           "43241",
           "44046",
+          "44051",
           "44056",
+          "44112",
+          "44116",
           "46076",
           "48141",
           "48717",
@@ -394,12 +401,17 @@
           "49151",
           "49187",
           "49256",
+          "50056",
           "50106",
           "50226",
           "50232",
+          "50296",
           "50317",
+          "50331",
           "50371",
           "50386",
+          "50456",
+          "50466",
           "51056",
           "51071",
           "51077",
@@ -491,6 +503,7 @@
           "61286",
           "61306",
           "61326",
+          "62016",
           "62037",
           "62046",
           "62051",
@@ -510,12 +523,15 @@
           "63121",
           "63201",
           "63216",
+          "63241",
+          "63251",
           "63321",
           "63331",
           "63346",
           "63366",
           "63461",
           "63477",
+          "63491",
           "63496",
           "63517",
           "63518",
@@ -556,8 +572,11 @@
           "66046",
           "66056",
           "66112",
+          "66127",
+          "66136",
           "66171",
           "66186",
+          "66251",
           "66287",
           "66296",
           "66306",
@@ -569,15 +588,19 @@
           "66421",
           "66446",
           "66481",
+          "67106",
+          "67116",
           "67126",
           "67151",
           "67191",
           "67231",
+          "67251",
           "67306",
           "67316",
           "67326",
           "67351",
           "67371",
+          "67376",
           "67386",
           "67401",
           "67421",
@@ -605,6 +628,7 @@
           "69101",
           "69111",
           "69152",
+          "69161",
           "69181",
           "69196",
           "71066",
@@ -809,6 +833,7 @@
           "87426",
           "87461",
           "87492",
+          "87501",
           "88061",
           "88066",
           "88081",
@@ -861,7 +886,7 @@
           "94036",
           "94062"
         ],
-        "now": 262,
+        "now": 261,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -974,26 +999,26 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value": 15.1,
-      "value_display": "15.1m/s",
-      "observed_at": "2026-09-04T08:20:00+09:00",
+      "value": 17.5,
+      "value_display": "17.5m/s",
+      "observed_at": "2026-09-04T15:20:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.3,
-        "display": "-3.3m/s",
+        "value": -0.9,
+        "display": "-0.9m/s",
         "direction": "down",
         "prev_value": 18.4,
         "prev_date": "2026-09-03"
       },
-      "caption": "室戸岬｜全国でいちばん風が強い（10分平均）",
+      "caption": "赤江｜全国でいちばん風が強い（10分平均）",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "室戸岬",
-        "caption": "室戸岬｜全国でいちばん風が強い（10分平均）"
+        "place": "赤江",
+        "caption": "赤江｜全国でいちばん風が強い（10分平均）"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -1036,16 +1061,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 3.7,
-      "value_display": "3.7℃",
-      "observed_at": "2026-09-04T12:30:00+09:00",
+      "value": 2.6,
+      "value_display": "2.6℃",
+      "observed_at": "2026-09-04T15:20:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
+        "value": -2.1,
+        "display": "-2.1℃",
         "direction": "down",
         "prev_value": 4.7,
         "prev_date": "2026-09-03"
@@ -1161,7 +1186,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-09-04T12:40:00+09:00",
+      "observed_at": "2026-09-04T15:29:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
@@ -1173,7 +1198,7 @@
         "prev_value": 2,
         "prev_date": "2026-09-03"
       },
-      "caption": "台風24号「クロヴァン」が奄美市の北西約200km",
+      "caption": "台風24号「クロヴァン」が奄美市の北西約220km",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
@@ -1183,12 +1208,12 @@
             "name": "クロヴァン",
             "category": "TS",
             "pressure": "992",
-            "location": "奄美市の北西約200km",
-            "course": "北西",
+            "location": "奄美市の北西約220km",
+            "course": "北北西",
             "typhoon_number": "2624"
           }
         ],
-        "caption": "台風24号「クロヴァン」が奄美市の北西約200km"
+        "caption": "台風24号「クロヴァン」が奄美市の北西約220km"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -1200,26 +1225,26 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 21,
-      "value_display": "21市町村",
-      "observed_at": "2026-09-04T12:26:58+09:00",
+      "value": 15,
+      "value_display": "15市町村",
+      "observed_at": "2026-09-04T15:27:50+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 15,
-        "display": "+15市町村",
+        "value": 9,
+        "display": "+9市町村",
         "direction": "up",
         "prev_value": 6,
         "prev_date": "2026-09-03"
       },
-      "caption": "21市町村に気象警報",
+      "caption": "15市町村に気象警報",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "emergency_count": 0,
-        "caption": "21市町村に気象警報"
+        "caption": "15市町村に気象警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -1461,14 +1486,14 @@
             "region": "近畿"
           },
           {
-            "name": "多摩川水系 小河内ダム",
-            "rate": 65.0,
-            "region": "関東"
-          },
-          {
             "name": "青蓮寺ダム",
             "rate": 65.1,
             "region": "近畿"
+          },
+          {
+            "name": "多摩川水系 小河内ダム",
+            "rate": 66.0,
+            "region": "関東"
           },
           {
             "name": "天ヶ瀬ダム",
@@ -1506,12 +1531,12 @@
             "region": "近畿"
           },
           {
-            "name": "利根川水系上流9ダム",
-            "rate": 95.0,
+            "name": "相模川水系3ダム",
+            "rate": 94.0,
             "region": "関東"
           },
           {
-            "name": "相模川水系3ダム",
+            "name": "利根川水系上流9ダム",
             "rate": 95.0,
             "region": "関東"
           },
@@ -1545,7 +1570,7 @@
       "unit": "%",
       "value": 86.0,
       "value_display": "86%",
-      "observed_at": "2026-09-04T12:10:00+09:00",
+      "observed_at": "2026-09-04T15:10:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
@@ -1564,9 +1589,9 @@
         "reserve_rate": 15.0,
         "peak_supply_10MW": 4369.0,
         "forecast_peak_demand_10MW": 3785.0,
-        "current_demand_10MW": 3653.0,
-        "current_demand_time": "11:00",
-        "current_usage_rate": 83.0,
+        "current_demand_10MW": 3775.0,
+        "current_demand_time": "14:00",
+        "current_usage_rate": 86.0,
         "peak_timeband": "11:00〜12:00",
         "area": "東京",
         "caption": "ピークは11:00〜12:00の見込み"
@@ -1613,16 +1638,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 4,
-      "value_display": "4回",
-      "observed_at": "2026-09-04T12:41:00+09:00",
+      "value": 6,
+      "value_display": "6回",
+      "observed_at": "2026-09-04T15:29:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3回",
+        "value": -1,
+        "display": "-1回",
         "direction": "down",
         "prev_value": 7,
         "prev_date": "2026-09-03"
@@ -1633,7 +1658,7 @@
       "detail": {
         "caption": "最大は福島県会津の震度2",
         "window_hours": 24,
-        "max_magnitude": 3.8,
+        "max_magnitude": 3.9,
         "strongest": {
           "time": "2026-09-03T22:34:00+09:00",
           "scale": 20,
@@ -1642,7 +1667,7 @@
           "depth": 10
         },
         "latest": {
-          "time": "2026-09-04T11:54:00+09:00",
+          "time": "2026-09-04T15:17:00+09:00",
           "scale": 10,
           "name": "熊本県熊本地方",
           "magnitude": 2.9,
