@@ -1,7 +1,7 @@
 {
-  "slug": "cold-points-0",
-  "name": "0℃を下回った地点数",
-  "unit": "地点",
+  "slug": "min-pressure",
+  "name": "全国の最低海面気圧",
+  "unit": "hPa",
   "comparison_type": "absolute",
   "value_type": "number",
   "source": {
@@ -10,26 +10,21 @@
   },
   "updated_at": "2026-09-04T15:35:08+09:00",
   "summary": {
-    "count": 2,
-    "first_date": "2026-09-03",
+    "count": 1,
+    "first_date": "2026-09-04",
     "last_date": "2026-09-04",
-    "min_30d": 0,
-    "max_30d": 0,
-    "avg_30d": 0.0
+    "min_30d": 994.8,
+    "max_30d": 994.8,
+    "avg_30d": 994.8
   },
   "history": [
     {
-      "date": "2026-09-03",
-      "value": 0
-    },
-    {
       "date": "2026-09-04",
-      "value": 0
+      "value": 994.8
     }
   ],
   "latest_detail": {
-    "station_ids": [],
-    "now": 0,
-    "caption": "きょう0℃を下回った地点"
+    "place": "名瀬",
+    "caption": "名瀬｜全国でいちばん気圧が低い"
   }
 }

@@ -1,0 +1,31 @@
+{
+  "slug": "usd-jpy",
+  "name": "ドル円レート",
+  "unit": "円",
+  "comparison_type": "absolute",
+  "value_type": "number",
+  "source": {
+    "name": "日本銀行 時系列統計データ（東京市場・17時時点）",
+    "url": "https://www.stat-search.boj.or.jp/ssi/mtshtml/csv/fm08_d_1.csv"
+  },
+  "updated_at": "2026-09-04T15:35:08+09:00",
+  "summary": {
+    "count": 1,
+    "first_date": "2026-09-02",
+    "last_date": "2026-09-02",
+    "min_30d": 159.7,
+    "max_30d": 159.7,
+    "avg_30d": 159.7
+  },
+  "history": [
+    {
+      "date": "2026-09-02",
+      "value": 159.7
+    }
+  ],
+  "latest_detail": {
+    "market": "東京市場・17時時点",
+    "as_of": "2026/09/02",
+    "caption": "1ドル＝159.7円（9月2日）"
+  }
+}

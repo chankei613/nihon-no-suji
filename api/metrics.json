@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:29:54+09:00",
+  "generated_at": "2026-09-04T15:35:08+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -101,6 +101,15 @@
       "source": "気象庁 アメダス実況"
     },
     {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "unit": "hPa",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
@@ -162,6 +171,15 @@
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "資源エネルギー庁 石油製品価格調査"
+    },
+    {
+      "slug": "usd-jpy",
+      "name": "ドル円レート",
+      "category": "経済",
+      "unit": "円",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "日本銀行 時系列統計データ（東京市場・17時時点）"
     },
     {
       "slug": "typhoons-this-year",
@@ -278,6 +296,15 @@
       "unit": "回",
       "comparison_type": "absolute",
       "value_type": "number",
+      "source": "P2P地震情報 API（元データ：気象庁）"
+    },
+    {
+      "slug": "max-shindo-7d",
+      "name": "この1週間の最大震度",
+      "category": "防災",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "shindo",
       "source": "P2P地震情報 API（元データ：気象庁）"
     },
     {

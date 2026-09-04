@@ -1,0 +1,33 @@
+{
+  "slug": "max-shindo-7d",
+  "name": "この1週間の最大震度",
+  "unit": "",
+  "comparison_type": "absolute",
+  "value_type": "shindo",
+  "source": {
+    "name": "P2P地震情報 API（元データ：気象庁）",
+    "url": "https://api.p2pquake.net/v2/history?codes=551"
+  },
+  "updated_at": "2026-09-04T15:35:08+09:00",
+  "summary": {
+    "count": 1,
+    "first_date": "2026-09-04",
+    "last_date": "2026-09-04",
+    "min_30d": 40.0,
+    "max_30d": 40.0,
+    "avg_30d": 40.0
+  },
+  "history": [
+    {
+      "date": "2026-09-04",
+      "value": 40.0
+    }
+  ],
+  "latest_detail": {
+    "label": "4",
+    "place": "千葉県東方沖",
+    "at": "2026-08-30T00:17:00+09:00",
+    "capped": true,
+    "caption": "千葉県東方沖（08/30）"
+  }
+}

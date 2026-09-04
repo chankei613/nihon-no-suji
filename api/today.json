@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T15:29:54+09:00",
+  "generated_at": "2026-09-04T15:35:08+09:00",
   "date": "2026-09-04",
   "metrics": [
     {
@@ -118,16 +118,16 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value": 353.5,
-      "value_display": "353.5mm",
-      "observed_at": "2026-09-04T15:00:00+09:00",
+      "value": 356.0,
+      "value_display": "356mm",
+      "observed_at": "2026-09-04T15:10:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 111.5,
-        "display": "+111.5mm",
+        "value": 114.0,
+        "display": "+114mm",
         "direction": "up",
         "prev_value": 242.0,
         "prev_date": "2026-09-03"
@@ -995,6 +995,35 @@
       }
     },
     {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "unit": "hPa",
+      "value": 994.8,
+      "value_display": "994.8hPa",
+      "observed_at": "2026-09-04T15:20:00+09:00",
+      "as_of": "2026-09-04",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "名瀬｜全国でいちばん気圧が低い",
+      "highlight": false,
+      "highlight_reason": null,
+      "detail": {
+        "place": "名瀬",
+        "caption": "名瀬｜全国でいちばん気圧が低い"
+      },
+      "source": {
+        "name": "気象庁 アメダス実況",
+        "url": "https://www.jma.go.jp/bosai/amedas/"
+      }
+    },
+    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
@@ -1150,6 +1179,36 @@
       }
     },
     {
+      "slug": "usd-jpy",
+      "name": "ドル円レート",
+      "category": "経済",
+      "unit": "円",
+      "value": 159.7,
+      "value_display": "159.7円",
+      "observed_at": "2026-09-02T17:00:00+09:00",
+      "as_of": "2026-09-02",
+      "stale": true,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "1ドル＝159.7円（9月2日）",
+      "highlight": false,
+      "highlight_reason": null,
+      "detail": {
+        "market": "東京市場・17時時点",
+        "as_of": "2026/09/02",
+        "caption": "1ドル＝159.7円（9月2日）"
+      },
+      "source": {
+        "name": "日本銀行 時系列統計データ（東京市場・17時時点）",
+        "url": "https://www.stat-search.boj.or.jp/ssi/mtshtml/csv/fm08_d_1.csv"
+      }
+    },
+    {
       "slug": "typhoons-this-year",
       "name": "今年の台風発生数",
       "category": "防災",
@@ -1186,7 +1245,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-09-04T15:29:00+09:00",
+      "observed_at": "2026-09-04T15:35:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
@@ -1227,7 +1286,7 @@
       "unit": "市町村",
       "value": 15,
       "value_display": "15市町村",
-      "observed_at": "2026-09-04T15:27:50+09:00",
+      "observed_at": "2026-09-04T15:30:27+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
@@ -1640,7 +1699,7 @@
       "unit": "回",
       "value": 6,
       "value_display": "6回",
-      "observed_at": "2026-09-04T15:29:00+09:00",
+      "observed_at": "2026-09-04T15:35:00+09:00",
       "as_of": "2026-09-04",
       "stale": false,
       "change": {
@@ -1674,6 +1733,38 @@
           "depth": 10
         },
         "capped": false
+      },
+      "source": {
+        "name": "P2P地震情報 API（元データ：気象庁）",
+        "url": "https://api.p2pquake.net/v2/history?codes=551"
+      }
+    },
+    {
+      "slug": "max-shindo-7d",
+      "name": "この1週間の最大震度",
+      "category": "防災",
+      "unit": "",
+      "value": 40.0,
+      "value_display": "震度4",
+      "observed_at": "2026-09-04T15:35:00+09:00",
+      "as_of": "2026-09-04",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "千葉県東方沖（08/30）",
+      "highlight": false,
+      "highlight_reason": null,
+      "detail": {
+        "label": "4",
+        "place": "千葉県東方沖",
+        "at": "2026-08-30T00:17:00+09:00",
+        "capped": true,
+        "caption": "千葉県東方沖（08/30）"
       },
       "source": {
         "name": "P2P地震情報 API（元データ：気象庁）",
