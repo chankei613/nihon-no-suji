@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T01:34:06+09:00",
+  "generated_at": "2026-09-05T04:06:33+09:00",
   "date": "2026-09-05",
   "changes": [
     {
@@ -24,12 +24,12 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "4.9℃",
+      "value_display": "3.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.1,
-        "display": "-4.1℃",
+        "value": -5.3,
+        "display": "-5.3℃",
         "direction": "down",
         "prev_value": 9.0,
         "prev_date": "2026-09-04"
@@ -60,17 +60,17 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "352.5mm",
+      "value_display": "428mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -24.5,
-        "display": "-24.5mm",
-        "direction": "down",
+        "value": 51.0,
+        "display": "+51mm",
+        "direction": "up",
         "prev_value": 377.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "中種子｜この24時間でいちばん降った",
+      "caption": "尾之間｜この24時間でいちばん降った",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -132,12 +132,12 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "123地点",
+      "value_display": "167地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -549,
-        "display": "-549地点",
+        "value": -505,
+        "display": "-505地点",
         "direction": "down",
         "prev_value": 672,
         "prev_date": "2026-09-04"
@@ -150,17 +150,17 @@
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "42.5mm",
+      "value_display": "63mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -36.5,
-        "display": "-36.5mm",
+        "value": -16.0,
+        "display": "-16mm",
         "direction": "down",
         "prev_value": 79.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "小宝島｜バケツをひっくり返したような雨",
+      "caption": "尾之間｜バケツをひっくり返したような雨",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -168,17 +168,17 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "114.5mm",
+      "value_display": "129mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -53.0,
-        "display": "-53mm",
+        "value": -38.5,
+        "display": "-38.5mm",
         "direction": "down",
         "prev_value": 167.5,
         "prev_date": "2026-09-04"
       },
-      "caption": "中之島｜この3時間でいちばん激しく降った",
+      "caption": "尾之間｜この3時間でいちばん激しく降った",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -252,12 +252,12 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "993.8hPa",
+      "value_display": "992.7hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1hPa",
+        "value": -2.1,
+        "display": "-2.1hPa",
         "direction": "down",
         "prev_value": 994.8,
         "prev_date": "2026-09-04"
@@ -288,17 +288,17 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "63%",
+      "value_display": "56%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 26.0,
-        "display": "+26.0pt",
+        "value": 19.0,
+        "display": "+19.0pt",
         "direction": "up",
         "prev_value": 37.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "伏木｜全国でいちばん空気が乾いている",
+      "caption": "朝日｜全国でいちばん空気が乾いている",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -404,7 +404,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-04"
       },
-      "caption": "台風24号「クロヴァン」が奄美市の西北西約220km",
+      "caption": "台風24号「クロヴァン」が久米島の北約270km",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -556,17 +556,17 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "86%",
+      "value_display": "91%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": 5.0,
+        "display": "+5.0pt",
+        "direction": "up",
         "prev_value": 86.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "ピークは11:00〜12:00の見込み",
+      "caption": "ピークは16:00〜17:00の見込み",
       "score": null,
       "label": "データ蓄積中"
     },

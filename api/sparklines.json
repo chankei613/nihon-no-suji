@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T01:34:06+09:00",
+  "generated_at": "2026-09-05T04:06:33+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -40,12 +40,12 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "4.9℃",
+      "value_display": "3.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.1,
-        "display": "-4.1℃",
+        "value": -5.3,
+        "display": "-5.3℃",
         "direction": "down",
         "prev_value": 9.0,
         "prev_date": "2026-09-04"
@@ -65,7 +65,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 4.9
+          "value": 3.7
         }
       ]
     },
@@ -104,13 +104,13 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "352.5mm",
+      "value_display": "428mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -24.5,
-        "display": "-24.5mm",
-        "direction": "down",
+        "value": 51.0,
+        "display": "+51mm",
+        "direction": "up",
         "prev_value": 377.0,
         "prev_date": "2026-09-04"
       },
@@ -129,7 +129,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 352.5
+          "value": 428.0
         }
       ]
     },
@@ -228,12 +228,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "123地点",
+      "value_display": "167地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -549,
-        "display": "-549地点",
+        "value": -505,
+        "display": "-505地点",
         "direction": "down",
         "prev_value": 672,
         "prev_date": "2026-09-04"
@@ -249,7 +249,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 123
+          "value": 167
         }
       ]
     },
@@ -258,12 +258,12 @@
       "name": "全国最大1時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "42.5mm",
+      "value_display": "63mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -36.5,
-        "display": "-36.5mm",
+        "value": -16.0,
+        "display": "-16mm",
         "direction": "down",
         "prev_value": 79.0,
         "prev_date": "2026-09-04"
@@ -279,7 +279,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 42.5
+          "value": 63.0
         }
       ]
     },
@@ -288,12 +288,12 @@
       "name": "全国最大3時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "114.5mm",
+      "value_display": "129mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -53.0,
-        "display": "-53mm",
+        "value": -38.5,
+        "display": "-38.5mm",
         "direction": "down",
         "prev_value": 167.5,
         "prev_date": "2026-09-04"
@@ -309,7 +309,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 114.5
+          "value": 129.0
         }
       ]
     },
@@ -408,12 +408,12 @@
       "name": "全国の最低海面気圧",
       "category": "自然",
       "unit": "hPa",
-      "value_display": "993.8hPa",
+      "value_display": "992.7hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1hPa",
+        "value": -2.1,
+        "display": "-2.1hPa",
         "direction": "down",
         "prev_value": 994.8,
         "prev_date": "2026-09-04"
@@ -425,7 +425,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 993.8
+          "value": 992.7
         }
       ]
     },
@@ -464,12 +464,12 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "63%",
+      "value_display": "56%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 26.0,
-        "display": "+26.0pt",
+        "value": 19.0,
+        "display": "+19.0pt",
         "direction": "up",
         "prev_value": 37.0,
         "prev_date": "2026-09-04"
@@ -485,7 +485,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 63.0
+          "value": 56.0
         }
       ]
     },
@@ -2280,13 +2280,13 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "86%",
+      "value_display": "91%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": 5.0,
+        "display": "+5.0pt",
+        "direction": "up",
         "prev_value": 86.0,
         "prev_date": "2026-09-04"
       },
@@ -2305,7 +2305,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 86.0
+          "value": 91.0
         }
       ]
     },
