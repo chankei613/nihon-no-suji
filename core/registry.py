@@ -171,6 +171,18 @@ METRICS: list[dict] = [
         "source_url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
     },
     {
+        "slug": "tokyo-week-max-forecast",
+        "name": "今週いちばん暑くなりそうな日の予想最高気温",
+        "category": "自然",
+        "unit": "℃",
+        "value_type": "number",
+        "comparison_type": "absolute",
+        "daily_agg": "last",
+        "collector": "jma_forecast",
+        "source": "気象庁 天気予報（週間）",
+        "source_url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json",
+    },
+    {
         "slug": "tokyo-forecast-pop",
         "name": "東京のあしたの降水確率",
         "category": "自然",

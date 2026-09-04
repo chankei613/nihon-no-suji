@@ -186,6 +186,11 @@ class JmaForecastTests(unittest.TestCase):
         pop = out["tokyo-forecast-pop"].value
         self.assertGreaterEqual(pop, 0)
         self.assertLessEqual(pop, 100)
+        self.assertIn("tokyo-week-max-forecast", out)
+        wk = out["tokyo-week-max-forecast"]
+        self.assertGreater(wk.value, -20)
+        self.assertLess(wk.value, 45)
+        self.assertIn("for_date", wk.detail)
         # 観測時刻は「あした」の日付
         self.assertGreater(out["tokyo-forecast-max"].observed_at,
                            out["tokyo-forecast-max"].fetched_at[:4])

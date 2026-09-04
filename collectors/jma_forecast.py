@@ -68,6 +68,24 @@ def collect() -> list[Observation]:
             }))
         break
 
+    # --- 週間予報：この先いちばん暑くなりそうな日 ---
+    weekly = data[1] if len(data) > 1 else None
+    if weekly:
+        for ts in weekly.get("timeSeries", []):
+            a = _area(ts.get("areas", []), "東京")
+            if not a or "tempsMax" not in a:
+                continue
+            pairs = [(d[:10], _int(v)) for d, v in zip(ts["timeDefines"], a["tempsMax"])
+                     if _int(v) is not None]
+            if pairs:
+                best_date, best_val = max(pairs, key=lambda p: p[1])
+                out.append(Observation("tokyo-week-max-forecast", float(best_val),
+                                       f"{best_date}T05:00:00+09:00", {
+                    "for_date": best_date,
+                    "caption": f"{int(best_date[5:7])}月{int(best_date[8:10])}日ごろがいちばん暑くなりそう",
+                }))
+            break
+
     # --- 降水確率 ---
     for ts in detail.get("timeSeries", []):
         a = _area(ts.get("areas", []), "東京地方", "東京")
