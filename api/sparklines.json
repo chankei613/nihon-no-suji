@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T10:16:08+09:00",
+  "generated_at": "2026-09-04T12:41:03+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -11,7 +11,7 @@
         "type": "absolute",
         "available": true,
         "value": 0.0,
-        "display": "+0℃",
+        "display": "±0℃",
         "direction": "flat",
         "prev_value": 34.8,
         "prev_date": "2026-09-03"
@@ -71,7 +71,7 @@
         "type": "absolute",
         "available": true,
         "value": 0.0,
-        "display": "+0℃",
+        "display": "±0℃",
         "direction": "flat",
         "prev_value": 30.8,
         "prev_date": "2026-09-03"
@@ -92,13 +92,13 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "210mm",
+      "value_display": "284mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -32.0,
-        "display": "-32mm",
-        "direction": "down",
+        "value": 42.0,
+        "display": "+42mm",
+        "direction": "up",
         "prev_value": 242.0,
         "prev_date": "2026-09-03"
       },
@@ -113,7 +113,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 210.0
+          "value": 284.0
         }
       ]
     },
@@ -127,7 +127,7 @@
         "type": "absolute",
         "available": true,
         "value": 0,
-        "display": "+0地点",
+        "display": "±0地点",
         "direction": "flat",
         "prev_value": 0,
         "prev_date": "2026-09-03"
@@ -148,12 +148,12 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "10地点",
+      "value_display": "17地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -91,
-        "display": "-91地点",
+        "value": -84,
+        "display": "-84地点",
         "direction": "down",
         "prev_value": 101,
         "prev_date": "2026-09-03"
@@ -165,7 +165,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 10
+          "value": 17
         }
       ]
     },
@@ -179,7 +179,7 @@
         "type": "absolute",
         "available": true,
         "value": 0,
-        "display": "+0地点",
+        "display": "±0地点",
         "direction": "flat",
         "prev_value": 0,
         "prev_date": "2026-09-03"
@@ -200,12 +200,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "554地点",
+      "value_display": "575地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -41,
-        "display": "-41地点",
+        "value": -20,
+        "display": "-20地点",
         "direction": "down",
         "prev_value": 595,
         "prev_date": "2026-09-03"
@@ -217,7 +217,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 554
+          "value": 575
         }
       ]
     },
@@ -356,12 +356,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "2.4℃",
+      "value_display": "3.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.3,
-        "display": "-2.3℃",
+        "value": -1.0,
+        "display": "-1℃",
         "direction": "down",
         "prev_value": 4.7,
         "prev_date": "2026-09-03"
@@ -373,7 +373,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 2.4
+          "value": 3.7
         }
       ]
     },
@@ -645,7 +645,7 @@
         "type": "absolute",
         "available": true,
         "value": 0.0,
-        "display": "+0円/L",
+        "display": "±0円/L",
         "direction": "flat",
         "prev_value": 170.0,
         "prev_date": "2026-09-03"
@@ -671,7 +671,7 @@
         "type": "absolute",
         "available": true,
         "value": 0,
-        "display": "+0個",
+        "display": "±0個",
         "direction": "flat",
         "prev_value": 24,
         "prev_date": "2026-09-03"
@@ -718,12 +718,12 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "16市町村",
+      "value_display": "21市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 10,
-        "display": "+10市町村",
+        "value": 15,
+        "display": "+15市町村",
         "direction": "up",
         "prev_value": 6,
         "prev_date": "2026-09-03"
@@ -735,7 +735,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 16
+          "value": 21
         }
       ]
     },
@@ -2102,12 +2102,12 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "87%",
+      "value_display": "86%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -3.0,
-        "display": "-3.0pt",
+        "value": -4.0,
+        "display": "-4.0pt",
         "direction": "down",
         "prev_value": 90.0,
         "prev_date": "2026-09-03"
@@ -2123,7 +2123,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 87.0
+          "value": 86.0
         }
       ]
     },
@@ -2132,13 +2132,13 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "8%",
+      "value_display": "12%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -4.0,
-        "display": "-4.0pt",
-        "direction": "down",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 12.0,
         "prev_date": "2026-09-03"
       },
@@ -2149,7 +2149,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 8.0
+          "value": 12.0
         }
       ]
     },
