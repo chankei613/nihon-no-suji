@@ -59,6 +59,12 @@ def collect() -> list[Observation]:
     rain10 = {sid: r for sid, e in obs_map.items() if (r := _field(e, "precipitation10m")) is not None}
     rain1h = {sid: r for sid, e in obs_map.items() if (r := _field(e, "precipitation1h")) is not None}
     rain3h = {sid: r for sid, e in obs_map.items() if (r := _field(e, "precipitation3h")) is not None}
+    # 気圧は標高100m以下の局のみ（現地気圧≒海面気圧とみなせる）
+    pressures = {
+        sid: p for sid, e in obs_map.items()
+        if (p := _field(e, "pressure")) is not None
+        and ((table.get(sid) or {}).get("alt") or 9999) <= 100
+    }
 
     out: list[Observation] = []
 
@@ -107,6 +113,18 @@ def collect() -> list[Observation]:
             out.append(Observation("max-precip-3h", round(rain3h[rs], 1), observed_at, {
                 "place": name(rs), "caption": f"{name(rs)}｜この3時間でいちばん激しく降った",
             }))
+
+    if pressures:
+        ps = min(pressures, key=pressures.get)
+        p = pressures[ps]
+        if p < 990:
+            pc = f"{name(ps)}｜台風や発達した低気圧が近い"
+        elif p >= 1022:
+            pc = f"{name(ps)}｜強い高気圧に覆われている"
+        else:
+            pc = f"{name(ps)}｜全国でいちばん気圧が低い"
+        out.append(Observation("min-pressure", round(p, 1), observed_at,
+                               {"place": name(ps), "caption": pc}))
 
     if winds:
         ws = max(winds, key=winds.get)

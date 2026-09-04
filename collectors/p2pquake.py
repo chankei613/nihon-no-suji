@@ -32,7 +32,9 @@ def collect() -> list[Observation]:
 
     now = now_jst()
     since = now - timedelta(hours=24)
+    week_ago = now - timedelta(days=7)
     window: list[dict] = []
+    week: list[dict] = []
     for item in data:
         eq = item.get("earthquake") or {}
         t = eq.get("time")
@@ -42,6 +44,14 @@ def collect() -> list[Observation]:
             dt = datetime.strptime(t, "%Y/%m/%d %H:%M:%S").replace(tzinfo=JST)
         except ValueError:
             continue
+        rec = {
+            "time": dt.isoformat(timespec="seconds"),
+            "scale": eq.get("maxScale", -1),
+            "name": (eq.get("hypocenter") or {}).get("name") or "",
+            "magnitude": (eq.get("hypocenter") or {}).get("magnitude"),
+        }
+        if week_ago <= dt <= now + timedelta(minutes=5):
+            week.append(rec)
         if since <= dt <= now + timedelta(minutes=5):
             window.append({
                 "time": dt.isoformat(timespec="seconds"),
@@ -78,9 +88,21 @@ def collect() -> list[Observation]:
         "latest": felt[-1] if felt else None,
         "capped": len(data) >= 100 and count >= 100,
     }
-    return [Observation(
-        slug="quakes-24h",
-        value=count,
-        observed_at=now.replace(second=0, microsecond=0).isoformat(timespec="seconds"),
-        detail=detail,
-    )]
+    obs_at = now.replace(second=0, microsecond=0).isoformat(timespec="seconds")
+    out = [Observation("quakes-24h", count, obs_at, detail)]
+
+    # 過去7日の最大震度
+    week_felt = [w for w in week if isinstance(w["scale"], int) and w["scale"] >= 10]
+    if week_felt:
+        top = max(week_felt, key=lambda w: w["scale"])
+        capped_week = len(data) >= 100
+        when = top["time"][5:10].replace("-", "/")
+        out.append(Observation(
+            "max-shindo-7d",
+            float(top["scale"]),
+            obs_at,
+            {"label": _label(top["scale"]), "place": top["name"],
+             "at": top["time"], "capped": capped_week,
+             "caption": (f"{top['name']}（{when}）" if top["name"] else f"{when}")},
+        ))
+    return out

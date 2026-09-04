@@ -8,7 +8,7 @@ REQUIRED = {"slug", "name", "category", "unit", "value_type", "comparison_type",
             "daily_agg", "collector", "source", "source_url"}
 VALID_COMPARISON = {"absolute", "percentage", "percentage_point"}
 VALID_AGG = {"max", "min", "last"}
-VALID_VTYPE = {"number", "time", "duration", "moon"}
+VALID_VTYPE = {"number", "time", "duration", "moon", "shindo"}
 
 
 class RegistryTests(unittest.TestCase):

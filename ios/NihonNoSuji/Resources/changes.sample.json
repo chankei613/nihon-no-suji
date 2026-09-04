@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:38:31+09:00",
+  "generated_at": "2026-09-04T15:34:12+09:00",
   "date": "2026-09-04",
   "changes": [
     {
@@ -60,12 +60,12 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "279mm",
+      "value_display": "353.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 37.0,
-        "display": "+37mm",
+        "value": 111.5,
+        "display": "+111.5mm",
         "direction": "up",
         "prev_value": 242.0,
         "prev_date": "2026-09-03"
@@ -96,12 +96,12 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "12地点",
+      "value_display": "21地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -89,
-        "display": "-89地点",
+        "value": -80,
+        "display": "-80地点",
         "direction": "down",
         "prev_value": 101,
         "prev_date": "2026-09-03"
@@ -132,13 +132,13 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "559地点",
+      "value_display": "596地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -36,
-        "display": "-36地点",
-        "direction": "down",
+        "value": 1,
+        "display": "+1地点",
+        "direction": "up",
         "prev_value": 595,
         "prev_date": "2026-09-03"
       },
@@ -201,20 +201,36 @@
       "label": "データ蓄積中"
     },
     {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "value_display": "994.8hPa",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "名瀬｜全国でいちばん気圧が低い",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "15.1m/s",
+      "value_display": "17.5m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.3,
-        "display": "-3.3m/s",
+        "value": -0.9,
+        "display": "-0.9m/s",
         "direction": "down",
         "prev_value": 18.4,
         "prev_date": "2026-09-03"
       },
-      "caption": "室戸岬｜全国でいちばん風が強い（10分平均）",
+      "caption": "赤江｜全国でいちばん風が強い（10分平均）",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -222,13 +238,13 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "44%",
+      "value_display": "37%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 7.0,
-        "display": "+7.0pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 37.0,
         "prev_date": "2026-09-03"
       },
@@ -240,12 +256,12 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "3.7℃",
+      "value_display": "2.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
+        "value": -2.1,
+        "display": "-2.1℃",
         "direction": "down",
         "prev_value": 4.7,
         "prev_date": "2026-09-03"
@@ -291,6 +307,22 @@
       "label": "データ蓄積中"
     },
     {
+      "slug": "usd-jpy",
+      "name": "ドル円レート",
+      "category": "経済",
+      "value_display": "159.7円",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "1ドル＝159.7円（9月2日）",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
       "slug": "typhoons-this-year",
       "name": "今年の台風発生数",
       "category": "防災",
@@ -322,7 +354,7 @@
         "prev_value": 2,
         "prev_date": "2026-09-03"
       },
-      "caption": "台風24号「クロヴァン」が奄美市の北西約200km",
+      "caption": "台風24号「クロヴァン」が奄美市の北西約220km",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -330,17 +362,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "21市町村",
+      "value_display": "15市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 15,
-        "display": "+15市町村",
+        "value": 9,
+        "display": "+9市町村",
         "direction": "up",
         "prev_value": 6,
         "prev_date": "2026-09-03"
       },
-      "caption": "21市町村に気象警報",
+      "caption": "15市町村に気象警報",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -510,12 +542,12 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "4回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3回",
+        "value": -1,
+        "display": "-1回",
         "direction": "down",
         "prev_value": 7,
         "prev_date": "2026-09-03"
@@ -523,6 +555,22 @@
       "caption": "最大は福島県会津の震度2",
       "score": null,
       "label": "データ蓄積中"
+    },
+    {
+      "slug": "max-shindo-7d",
+      "name": "この1週間の最大震度",
+      "category": "防災",
+      "value_display": "震度4",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "千葉県東方沖（08/30）",
+      "score": null,
+      "label": "前日データなし"
     },
     {
       "slug": "sunset-tokyo",

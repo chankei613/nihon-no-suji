@@ -71,6 +71,10 @@ class JmaAmedasTests(unittest.TestCase):
         self.assertAlmostEqual(out["national-temp-spread"].value, 36.5 - 15.9, places=1)
         self.assertIn("max-wind", out)
         self.assertIn("max-precip-1h", out)
+        # 名瀬 994.8hPa（標高3m）が最低海面気圧
+        self.assertIn("min-pressure", out)
+        self.assertAlmostEqual(out["min-pressure"].value, 994.8, places=1)
+        self.assertIn("名瀬", out["min-pressure"].detail["place"])
 
 
 class TepcoTests(unittest.TestCase):
@@ -165,6 +169,33 @@ class WarningTests(unittest.TestCase):
                           "r8/map.json": "warning_map.json"}):
             out = jma_warning.collect()   # 3か月前の管理時刻 → 鮮度ガードで空
         self.assertEqual(out, [])
+
+
+class BojFxTests(unittest.TestCase):
+    def test_parses_latest_usd_jpy(self):
+        from collectors import boj_fx
+        with patch_fetch("collectors.boj_fx", {"fm08_d_1.csv": "boj_fx.csv"}):
+            out = {o.slug: o for o in boj_fx.collect()}
+        self.assertIn("usd-jpy", out)
+        v = out["usd-jpy"].value
+        self.assertGreater(v, 50)
+        self.assertLess(v, 400)
+        self.assertRegex(out["usd-jpy"].observed_at, r"T17:00:00\+09:00$")
+
+
+class P2PWeekTests(unittest.TestCase):
+    def test_max_shindo_7d(self):
+        from collectors import p2pquake
+        data = json.loads(fixture_bytes("p2pquake.json"))
+        latest = max(datetime.strptime(x["earthquake"]["time"], "%Y/%m/%d %H:%M:%S")
+                     for x in data if x.get("earthquake", {}).get("time"))
+        fake_now = latest.replace(tzinfo=JST_TZ) + timedelta(hours=1)
+        with patch_fetch("collectors.p2pquake", {"api.p2pquake.net": "p2pquake.json"}), \
+             unittest.mock.patch("collectors.p2pquake.now_jst", return_value=fake_now):
+            out = {o.slug: o for o in p2pquake.collect()}
+        if "max-shindo-7d" in out:  # fixture に有感地震があれば
+            self.assertGreaterEqual(out["max-shindo-7d"].value, 10)
+            self.assertIn("label", out["max-shindo-7d"].detail)
 
 
 class EnechoGasTests(unittest.TestCase):

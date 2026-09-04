@@ -103,6 +103,9 @@ def compute_change(metric: dict, today: dict, prev: dict | None) -> dict:
     if prev is None:
         return {"type": ctype, "available": False, "direction": "flat",
                 "display": "—", "note": "前日データなし"}
+    if vtype == "shindo":
+        # 直近1週間の最大震度は前日比に意味がない
+        return {"type": ctype, "available": False, "direction": "flat", "display": ""}
 
     cur, old = today["value"], prev["value"]
     raw = cur - old
@@ -155,6 +158,10 @@ def _value_display(metric: dict, record: dict) -> str:
     if vtype == "duration":
         m = int(round(record["value"]))
         return f"{m // 60}時間{m % 60:02d}分"
+    if vtype == "shindo":
+        labels = {10: "1", 20: "2", 30: "3", 40: "4", 45: "5弱",
+                  50: "5強", 55: "6弱", 60: "6強", 70: "7"}
+        return "震度" + labels.get(int(round(record["value"])), "—")
     v = record["value"]
     s = f"{v:g}"
     return f"{s}{unit}" if unit else s
