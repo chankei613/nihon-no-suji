@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:39:59+09:00",
+  "generated_at": "2026-09-04T21:07:15+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -36,12 +36,12 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "10.1℃",
+      "value_display": "9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.2,
-        "display": "-2.2℃",
+        "value": -3.3,
+        "display": "-3.3℃",
         "direction": "down",
         "prev_value": 12.3,
         "prev_date": "2026-09-03"
@@ -57,7 +57,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 10.1
+          "value": 9.0
         }
       ]
     },
@@ -200,12 +200,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "631地点",
+      "value_display": "672地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 36,
-        "display": "+36地点",
+        "value": 77,
+        "display": "+77地点",
         "direction": "up",
         "prev_value": 595,
         "prev_date": "2026-09-03"
@@ -217,7 +217,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 631
+          "value": 672
         }
       ]
     },
@@ -226,12 +226,12 @@
       "name": "全国最大1時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "71.5mm",
+      "value_display": "79mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 24.5,
-        "display": "+24.5mm",
+        "value": 32.0,
+        "display": "+32mm",
         "direction": "up",
         "prev_value": 47.0,
         "prev_date": "2026-09-03"
@@ -243,7 +243,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 71.5
+          "value": 79.0
         }
       ]
     },
@@ -252,12 +252,12 @@
       "name": "全国最大3時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "162mm",
+      "value_display": "167.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 65.0,
-        "display": "+65mm",
+        "value": 70.5,
+        "display": "+70.5mm",
         "direction": "up",
         "prev_value": 97.0,
         "prev_date": "2026-09-03"
@@ -269,7 +269,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 162.0
+          "value": 167.5
         }
       ]
     },
@@ -278,12 +278,12 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value_display": "20.4℃",
+      "value_display": "20.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
+        "value": -0.9,
+        "display": "-0.9℃",
         "direction": "down",
         "prev_value": 21.4,
         "prev_date": "2026-09-03"
@@ -295,7 +295,67 @@
         },
         {
           "date": "2026-09-04",
-          "value": 20.4
+          "value": 20.5
+        }
+      ]
+    },
+    {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "value_display": "26℃",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-05",
+          "value": 26.0
+        }
+      ]
+    },
+    {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "unit": "℃",
+      "value_display": "20℃",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-05",
+          "value": 20.0
+        }
+      ]
+    },
+    {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "unit": "%",
+      "value_display": "60%",
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-05",
+          "value": 60.0
         }
       ]
     },
@@ -376,12 +436,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "2.8℃",
+      "value_display": "3.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.9,
-        "display": "-1.9℃",
+        "value": -1.6,
+        "display": "-1.6℃",
         "direction": "down",
         "prev_value": 4.7,
         "prev_date": "2026-09-03"
@@ -393,7 +453,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 2.8
+          "value": 3.1
         }
       ]
     },
@@ -758,13 +818,13 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "12市町村",
+      "value_display": "6市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 6,
-        "display": "+6市町村",
-        "direction": "up",
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
         "prev_value": 6,
         "prev_date": "2026-09-03"
       },
@@ -775,7 +835,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 12
+          "value": 6
         }
       ]
     },
@@ -2198,13 +2258,13 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "7回",
+      "value_display": "8回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": 1,
+        "display": "+1回",
+        "direction": "up",
         "prev_value": 7,
         "prev_date": "2026-09-03"
       },
@@ -2219,7 +2279,7 @@
         },
         {
           "date": "2026-09-04",
-          "value": 7
+          "value": 8
         }
       ]
     },

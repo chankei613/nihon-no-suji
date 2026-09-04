@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:39:59+09:00",
+  "generated_at": "2026-09-04T21:07:15+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -99,6 +99,33 @@
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 天気予報"
+    },
+    {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 天気予報"
+    },
+    {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "気象庁 天気予報"
     },
     {
       "slug": "min-pressure",
