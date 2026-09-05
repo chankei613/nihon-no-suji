@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T05:40:52+09:00",
+  "generated_at": "2026-09-06T08:12:40+09:00",
   "date": "2026-09-06",
   "metrics": [
     {
@@ -118,28 +118,28 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value": 243.5,
-      "value_display": "243.5mm",
-      "observed_at": "2026-09-06T00:50:00+09:00",
+      "value": 257.5,
+      "value_display": "257.5mm",
+      "observed_at": "2026-09-06T07:50:00+09:00",
       "as_of": "2026-09-06",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -247.0,
-        "display": "-247mm",
+        "value": -233.0,
+        "display": "-233mm",
         "direction": "down",
         "prev_value": 490.5,
         "prev_date": "2026-09-05"
       },
-      "caption": "尾之間｜この24時間でいちばん降った",
+      "caption": "八丈島｜この24時間でいちばん降った",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "尾之間",
-        "pref": "鹿児島県",
-        "caption": "尾之間｜この24時間でいちばん降った",
-        "record_1st": 490.5,
+        "place": "八丈島",
+        "pref": "東京都",
+        "caption": "八丈島｜この24時間でいちばん降った",
+        "record_1st": 356.5,
         "all_time_record": false
       },
       "source": {
@@ -184,16 +184,16 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 0,
-      "value_display": "0地点",
-      "observed_at": "2026-09-06T01:00:00+09:00",
+      "value": 2,
+      "value_display": "2地点",
+      "observed_at": "2026-09-06T08:00:00+09:00",
       "as_of": "2026-09-06",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -55,
-        "display": "-55地点",
+        "value": -53,
+        "display": "-53地点",
         "direction": "down",
         "prev_value": 55,
         "prev_date": "2026-09-05"
@@ -202,8 +202,11 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "station_ids": [],
-        "now": 0,
+        "station_ids": [
+          "44301",
+          "44356"
+        ],
+        "now": 2,
         "caption": "きょう30℃以上になった地点"
       },
       "source": {
@@ -248,16 +251,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 78,
-      "value_display": "78地点",
-      "observed_at": "2026-09-06T05:30:00+09:00",
+      "value": 115,
+      "value_display": "115地点",
+      "observed_at": "2026-09-06T08:00:00+09:00",
       "as_of": "2026-09-06",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -140,
-        "display": "-140地点",
+        "value": -103,
+        "display": "-103地点",
         "direction": "down",
         "prev_value": 218,
         "prev_date": "2026-09-05"
@@ -267,6 +270,14 @@
       "highlight_reason": null,
       "detail": {
         "station_ids": [
+          "43151",
+          "44046",
+          "44056",
+          "44071",
+          "44112",
+          "44126",
+          "44132",
+          "44136",
           "44172",
           "44173",
           "44191",
@@ -281,8 +292,16 @@
           "45326",
           "45331",
           "45346",
+          "45361",
           "45371",
+          "45401",
+          "46061",
+          "46091",
           "46106",
+          "46141",
+          "46161",
+          "49256",
+          "50426",
           "50427",
           "53321",
           "53378",
@@ -297,6 +316,11 @@
           "69152",
           "74238",
           "74506",
+          "81371",
+          "81436",
+          "82046",
+          "82097",
+          "82101",
           "82317",
           "83061",
           "83216",
@@ -304,6 +328,7 @@
           "85142",
           "86146",
           "87157",
+          "87371",
           "87376",
           "87406",
           "87412",
@@ -311,7 +336,13 @@
           "87461",
           "87492",
           "87501",
+          "88286",
+          "88317",
           "88331",
+          "88341",
+          "88406",
+          "88432",
+          "88442",
           "88447",
           "88486",
           "88506",
@@ -328,17 +359,26 @@
           "88781",
           "88851",
           "88901",
+          "88956",
+          "88971",
           "88986",
           "91021",
           "91046",
           "91066",
           "91081",
           "91107",
+          "91121",
           "91166",
+          "91181",
+          "91197",
+          "91236",
           "92012",
           "93042",
           "93051",
+          "93062",
           "94001",
+          "94011",
+          "94017",
           "94036",
           "94062",
           "94081",
@@ -346,7 +386,7 @@
           "94101",
           "94116"
         ],
-        "now": 37,
+        "now": 70,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -390,17 +430,17 @@
       "name": "全国最大3時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value": 89.5,
-      "value_display": "89.5mm",
-      "observed_at": "2026-09-06T05:30:00+09:00",
+      "value": 159.0,
+      "value_display": "159mm",
+      "observed_at": "2026-09-06T08:00:00+09:00",
       "as_of": "2026-09-06",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -39.5,
-        "display": "-39.5mm",
-        "direction": "down",
+        "value": 30.0,
+        "display": "+30mm",
+        "direction": "up",
         "prev_value": 129.0,
         "prev_date": "2026-09-05"
       },
@@ -674,16 +714,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 5.4,
-      "value_display": "5.4℃",
-      "observed_at": "2026-09-06T05:30:00+09:00",
+      "value": 5.0,
+      "value_display": "5℃",
+      "observed_at": "2026-09-06T08:00:00+09:00",
       "as_of": "2026-09-06",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.4,
-        "display": "+1.4℃",
+        "value": 1.0,
+        "display": "+1℃",
         "direction": "up",
         "prev_value": 4.0,
         "prev_date": "2026-09-05"
@@ -829,7 +869,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-09-06T05:40:00+09:00",
+      "observed_at": "2026-09-06T08:12:00+09:00",
       "as_of": "2026-09-06",
       "stale": false,
       "change": {
@@ -841,7 +881,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-05"
       },
-      "caption": "台風24号「クロヴァン」が那覇市の南東約110km",
+      "caption": "台風24号「クロヴァン」が那覇市の東南東約130km",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
@@ -851,12 +891,12 @@
             "name": "クロヴァン",
             "category": "TS",
             "pressure": "992",
-            "location": "那覇市の南東約110km",
-            "course": "南東",
+            "location": "那覇市の東南東約130km",
+            "course": "東南東",
             "typhoon_number": "2624"
           }
         ],
-        "caption": "台風24号「クロヴァン」が那覇市の南東約110km"
+        "caption": "台風24号「クロヴァン」が那覇市の東南東約130km"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -868,26 +908,26 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 0,
-      "value_display": "0市町村",
-      "observed_at": "2026-09-06T05:25:55+09:00",
+      "value": 1,
+      "value_display": "1市町村",
+      "observed_at": "2026-09-06T07:12:42+09:00",
       "as_of": "2026-09-06",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6,
-        "display": "-6市町村",
+        "value": -5,
+        "display": "-5市町村",
         "direction": "down",
         "prev_value": 6,
         "prev_date": "2026-09-05"
       },
-      "caption": "いま気象警報は出ていない",
+      "caption": "1市町村に気象警報",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "emergency_count": 0,
-        "caption": "いま気象警報は出ていない"
+        "caption": "1市町村に気象警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -1058,17 +1098,17 @@
       "unit": "cm",
       "value": -44.0,
       "value_display": "-44cm",
-      "observed_at": "2026-09-05T06:00:00+09:00",
-      "as_of": "2026-09-05",
-      "stale": true,
+      "observed_at": "2026-09-06T06:00:00+09:00",
+      "as_of": "2026-09-06",
+      "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1cm",
-        "direction": "up",
-        "prev_value": -45.0,
-        "prev_date": "2026-09-04"
+        "value": 0.0,
+        "display": "±0cm",
+        "direction": "flat",
+        "prev_value": -44.0,
+        "prev_date": "2026-09-05"
       },
       "caption": "基準水位(B.S.L.)より44cm低い",
       "highlight": false,
@@ -1076,7 +1116,7 @@
       "detail": {
         "unit": "cm",
         "basis": "B.S.L.（琵琶湖基準水位）",
-        "station_diff": 1.0,
+        "station_diff": 0.0,
         "caption": "基準水位(B.S.L.)より44cm低い"
       },
       "source": {
@@ -1089,19 +1129,19 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value": 78.4,
-      "value_display": "78.4%",
-      "observed_at": "2026-09-05T06:00:00+09:00",
-      "as_of": "2026-09-05",
-      "stale": true,
+      "value": 78.6,
+      "value_display": "78.6%",
+      "observed_at": "2026-09-06T06:00:00+09:00",
+      "as_of": "2026-09-06",
+      "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.8,
-        "display": "+0.8pt",
+        "value": 0.2,
+        "display": "+0.2pt",
         "direction": "up",
-        "prev_value": 77.6,
-        "prev_date": "2026-09-04"
+        "prev_value": 78.4,
+        "prev_date": "2026-09-05"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "highlight": false,
@@ -1109,23 +1149,28 @@
       "detail": {
         "dam_count": 17,
         "region_means": {
-          "近畿": 74.0,
+          "近畿": 74.2,
           "関東": 89.0
         },
         "dams": [
           {
             "name": "九頭竜ダム",
-            "rate": 25.1,
+            "rate": 25.7,
             "region": "近畿"
           },
           {
             "name": "猿谷ダム",
-            "rate": 41.3,
+            "rate": 45.5,
+            "region": "近畿"
+          },
+          {
+            "name": "真名川ダム",
+            "rate": 59.5,
             "region": "近畿"
           },
           {
             "name": "天ヶ瀬ダム",
-            "rate": 65.2,
+            "rate": 65.4,
             "region": "近畿"
           },
           {
@@ -1135,27 +1180,22 @@
           },
           {
             "name": "青蓮寺ダム",
-            "rate": 67.7,
-            "region": "近畿"
-          },
-          {
-            "name": "真名川ダム",
-            "rate": 68.8,
+            "rate": 68.4,
             "region": "近畿"
           },
           {
             "name": "室生ダム",
-            "rate": 71.6,
+            "rate": 73.8,
             "region": "近畿"
           },
           {
             "name": "大滝ダム",
-            "rate": 78.8,
+            "rate": 80.6,
             "region": "近畿"
           },
           {
             "name": "高山ダム",
-            "rate": 88.6,
+            "rate": 89.0,
             "region": "近畿"
           },
           {
@@ -1165,7 +1205,7 @@
           },
           {
             "name": "比奈知ダム",
-            "rate": 90.2,
+            "rate": 92.2,
             "region": "近畿"
           },
           {
@@ -1180,12 +1220,12 @@
           },
           {
             "name": "布目ダム",
-            "rate": 95.9,
+            "rate": 95.7,
             "region": "近畿"
           },
           {
             "name": "日吉ダム",
-            "rate": 96.6,
+            "rate": 96.7,
             "region": "近畿"
           },
           {
@@ -1211,17 +1251,17 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value": 90.0,
-      "value_display": "90%",
-      "observed_at": "2026-09-06T05:10:00+09:00",
+      "value": 89.0,
+      "value_display": "89%",
+      "observed_at": "2026-09-06T07:40:00+09:00",
       "as_of": "2026-09-06",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 1.0,
-        "display": "+1.0pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 89.0,
         "prev_date": "2026-09-05"
       },
@@ -1229,12 +1269,12 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "reserve_rate": 11.0,
-        "peak_supply_10MW": 3240.0,
-        "forecast_peak_demand_10MW": 2927.0,
-        "current_demand_10MW": 2186.0,
-        "current_demand_time": "4:00",
-        "current_usage_rate": 75.0,
+        "reserve_rate": 12.0,
+        "peak_supply_10MW": 3271.0,
+        "forecast_peak_demand_10MW": 2914.0,
+        "current_demand_10MW": 2277.0,
+        "current_demand_time": "7:00",
+        "current_usage_rate": 80.0,
         "peak_timeband": "18:00〜19:00",
         "area": "東京",
         "caption": "ピークは18:00〜19:00の見込み"
@@ -1249,27 +1289,27 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value": 31.0,
-      "value_display": "31%",
-      "observed_at": "2026-09-05T13:10:00+09:00",
-      "as_of": "2026-09-05",
-      "stale": true,
+      "value": 3.0,
+      "value_display": "3%",
+      "observed_at": "2026-09-06T07:40:00+09:00",
+      "as_of": "2026-09-06",
+      "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 19.0,
-        "display": "+19.0pt",
-        "direction": "up",
-        "prev_value": 12.0,
-        "prev_date": "2026-09-04"
+        "value": -28.0,
+        "display": "-28.0pt",
+        "direction": "down",
+        "prev_value": 31.0,
+        "prev_date": "2026-09-05"
       },
-      "caption": "きょうのピークで電力の31%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の3%を太陽光がまかなった",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "peak_output_10MW": 923.0,
+        "peak_output_10MW": 72.0,
         "area": "東京",
-        "caption": "きょうのピークで電力の31%を太陽光がまかなった"
+        "caption": "きょうのピークで電力の3%を太陽光がまかなった"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -1283,7 +1323,7 @@
       "unit": "回",
       "value": 4,
       "value_display": "4回",
-      "observed_at": "2026-09-06T05:40:00+09:00",
+      "observed_at": "2026-09-06T08:12:00+09:00",
       "as_of": "2026-09-06",
       "stale": false,
       "change": {
