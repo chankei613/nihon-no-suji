@@ -8,14 +8,14 @@
     "name": "気象庁 気象警報・注意報",
     "url": "https://www.jma.go.jp/bosai/warning/data/r8/map.json"
   },
-  "updated_at": "2026-09-05T21:59:44+09:00",
+  "updated_at": "2026-09-06T01:12:56+09:00",
   "summary": {
-    "count": 3,
+    "count": 4,
     "first_date": "2026-09-03",
-    "last_date": "2026-09-05",
+    "last_date": "2026-09-06",
     "min_30d": 6,
-    "max_30d": 6,
-    "avg_30d": 6.0
+    "max_30d": 14,
+    "avg_30d": 8.0
   },
   "history": [
     {
@@ -29,10 +29,14 @@
     {
       "date": "2026-09-05",
       "value": 6
+    },
+    {
+      "date": "2026-09-06",
+      "value": 14
     }
   ],
   "latest_detail": {
     "emergency_count": 0,
-    "caption": "6市町村に気象警報"
+    "caption": "14市町村に気象警報"
   }
 }

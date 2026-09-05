@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-05T21:59:44+09:00",
+  "updated_at": "2026-09-06T01:12:56+09:00",
   "summary": {
-    "count": 2,
+    "count": 3,
     "first_date": "2026-09-04",
-    "last_date": "2026-09-05",
-    "min_30d": 40.0,
+    "last_date": "2026-09-06",
+    "min_30d": 30.0,
     "max_30d": 40.0,
-    "avg_30d": 40.0
+    "avg_30d": 36.67
   },
   "history": [
     {
@@ -25,13 +25,17 @@
     {
       "date": "2026-09-05",
       "value": 40.0
+    },
+    {
+      "date": "2026-09-06",
+      "value": 30.0
     }
   ],
   "latest_detail": {
-    "label": "4",
-    "place": "千葉県東方沖",
-    "at": "2026-08-30T00:17:00+09:00",
+    "label": "3",
+    "place": "和歌山県北部",
+    "at": "2026-09-02T17:23:00+09:00",
     "capped": true,
-    "caption": "千葉県東方沖（08/30）"
+    "caption": "和歌山県北部（09/02）"
   }
 }

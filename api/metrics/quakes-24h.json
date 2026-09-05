@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-05T21:59:44+09:00",
+  "updated_at": "2026-09-06T01:12:56+09:00",
   "summary": {
-    "count": 4,
+    "count": 5,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-05",
-    "min_30d": 4,
+    "last_date": "2026-09-06",
+    "min_30d": 3,
     "max_30d": 12,
-    "avg_30d": 7.75
+    "avg_30d": 6.8
   },
   "history": [
     {
@@ -33,18 +33,22 @@
     {
       "date": "2026-09-05",
       "value": 4
+    },
+    {
+      "date": "2026-09-06",
+      "value": 3
     }
   ],
   "latest_detail": {
-    "caption": "最大は釧路沖の震度2",
+    "caption": "最大は和歌山県南部の震度1",
     "window_hours": 24,
     "max_magnitude": 3.6,
     "strongest": {
-      "time": "2026-09-04T23:52:00+09:00",
-      "scale": 20,
-      "name": "釧路沖",
-      "magnitude": 3.5,
-      "depth": 50
+      "time": "2026-09-05T21:45:00+09:00",
+      "scale": 10,
+      "name": "和歌山県南部",
+      "magnitude": 3.6,
+      "depth": 60
     },
     "latest": {
       "time": "2026-09-05T21:45:00+09:00",
