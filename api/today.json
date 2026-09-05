@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:16:28+09:00",
+  "generated_at": "2026-09-05T21:59:44+09:00",
   "date": "2026-09-05",
   "metrics": [
     {
@@ -304,16 +304,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 213,
-      "value_display": "213地点",
-      "observed_at": "2026-09-05T18:00:00+09:00",
+      "value": 218,
+      "value_display": "218地点",
+      "observed_at": "2026-09-05T21:50:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -459,
-        "display": "-459地点",
+        "value": -454,
+        "display": "-454地点",
         "direction": "down",
         "prev_value": 672,
         "prev_date": "2026-09-04"
@@ -325,6 +325,7 @@
         "station_ids": [
           "22141",
           "33751",
+          "34311",
           "36276",
           "40076",
           "40136",
@@ -374,6 +375,7 @@
           "44228",
           "44262",
           "44263",
+          "44281",
           "45061",
           "45081",
           "45086",
@@ -439,6 +441,7 @@
           "50476",
           "50477",
           "50491",
+          "50506",
           "50536",
           "50551",
           "51071",
@@ -460,6 +463,7 @@
           "53296",
           "53321",
           "53326",
+          "53378",
           "53401",
           "56346",
           "60102",
@@ -535,9 +539,10 @@
           "91197",
           "91241",
           "93012",
+          "94081",
           "94101"
         ],
-        "now": 15,
+        "now": 20,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -865,16 +870,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 5.7,
-      "value_display": "5.7℃",
-      "observed_at": "2026-09-05T18:00:00+09:00",
+      "value": 4.0,
+      "value_display": "4℃",
+      "observed_at": "2026-09-05T21:50:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.6,
-        "display": "+2.6℃",
+        "value": 0.9,
+        "display": "+0.9℃",
         "direction": "up",
         "prev_value": 3.1,
         "prev_date": "2026-09-04"
@@ -1020,7 +1025,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-09-05T18:16:00+09:00",
+      "observed_at": "2026-09-05T21:59:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
@@ -1032,7 +1037,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-04"
       },
-      "caption": "台風24号「クロヴァン」が那覇市付近",
+      "caption": "台風24号「クロヴァン」が那覇市の南東約100km",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
@@ -1042,12 +1047,12 @@
             "name": "クロヴァン",
             "category": "TS",
             "pressure": "992",
-            "location": "那覇市付近",
-            "course": "南南東",
+            "location": "那覇市の南東約100km",
+            "course": "南東",
             "typhoon_number": "2624"
           }
         ],
-        "caption": "台風24号「クロヴァン」が那覇市付近"
+        "caption": "台風24号「クロヴァン」が那覇市の南東約100km"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -1059,26 +1064,26 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 0,
-      "value_display": "0市町村",
-      "observed_at": "2026-09-05T18:08:59+09:00",
+      "value": 6,
+      "value_display": "6市町村",
+      "observed_at": "2026-09-05T21:52:06+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6,
-        "display": "-6市町村",
-        "direction": "down",
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
         "prev_value": 6,
         "prev_date": "2026-09-04"
       },
-      "caption": "いま気象警報は出ていない",
+      "caption": "6市町村に気象警報",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "emergency_count": 0,
-        "caption": "いま気象警報は出ていない"
+        "caption": "6市町村に気象警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -1404,7 +1409,7 @@
       "unit": "%",
       "value": 89.0,
       "value_display": "89%",
-      "observed_at": "2026-09-05T17:40:00+09:00",
+      "observed_at": "2026-09-05T21:40:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
@@ -1423,9 +1428,9 @@
         "reserve_rate": 12.0,
         "peak_supply_10MW": 3507.0,
         "forecast_peak_demand_10MW": 3130.0,
-        "current_demand_10MW": 3051.0,
-        "current_demand_time": "17:00",
-        "current_usage_rate": 86.0,
+        "current_demand_10MW": 2901.0,
+        "current_demand_time": "20:00",
+        "current_usage_rate": 84.0,
         "peak_timeband": "15:00〜16:00",
         "area": "東京",
         "caption": "ピークは15:00〜16:00の見込み"
@@ -1472,40 +1477,40 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 6,
-      "value_display": "6回",
-      "observed_at": "2026-09-05T18:16:00+09:00",
+      "value": 4,
+      "value_display": "4回",
+      "observed_at": "2026-09-05T21:59:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2回",
+        "value": -4,
+        "display": "-4回",
         "direction": "down",
         "prev_value": 8,
         "prev_date": "2026-09-04"
       },
-      "caption": "最大は宮城県沖の震度2",
+      "caption": "最大は釧路沖の震度2",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "最大は宮城県沖の震度2",
+        "caption": "最大は釧路沖の震度2",
         "window_hours": 24,
-        "max_magnitude": 3.8,
+        "max_magnitude": 3.6,
         "strongest": {
-          "time": "2026-09-04T21:10:00+09:00",
+          "time": "2026-09-04T23:52:00+09:00",
           "scale": 20,
-          "name": "宮城県沖",
-          "magnitude": 3.8,
-          "depth": 70
+          "name": "釧路沖",
+          "magnitude": 3.5,
+          "depth": 50
         },
         "latest": {
-          "time": "2026-09-05T17:26:00+09:00",
+          "time": "2026-09-05T21:45:00+09:00",
           "scale": 10,
-          "name": "熊本県熊本地方",
-          "magnitude": 2.4,
-          "depth": 0
+          "name": "和歌山県南部",
+          "magnitude": 3.6,
+          "depth": 60
         },
         "capped": false
       },

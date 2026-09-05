@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T18:16:28+09:00",
+  "generated_at": "2026-09-05T21:59:44+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -228,12 +228,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "213地点",
+      "value_display": "218地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -459,
-        "display": "-459地点",
+        "value": -454,
+        "display": "-454地点",
         "direction": "down",
         "prev_value": 672,
         "prev_date": "2026-09-04"
@@ -249,7 +249,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 213
+          "value": 218
         }
       ]
     },
@@ -532,12 +532,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "5.7℃",
+      "value_display": "4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.6,
-        "display": "+2.6℃",
+        "value": 0.9,
+        "display": "+0.9℃",
         "direction": "up",
         "prev_value": 3.1,
         "prev_date": "2026-09-04"
@@ -553,7 +553,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 5.7
+          "value": 4.0
         }
       ]
     },
@@ -930,13 +930,13 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "0市町村",
+      "value_display": "6市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6,
-        "display": "-6市町村",
-        "direction": "down",
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
         "prev_value": 6,
         "prev_date": "2026-09-04"
       },
@@ -951,7 +951,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 0
+          "value": 6
         }
       ]
     },
@@ -2390,12 +2390,12 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "6回",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2回",
+        "value": -4,
+        "display": "-4回",
         "direction": "down",
         "prev_value": 8,
         "prev_date": "2026-09-04"
@@ -2415,7 +2415,7 @@
         },
         {
           "date": "2026-09-05",
-          "value": 6
+          "value": 4
         }
       ]
     },
