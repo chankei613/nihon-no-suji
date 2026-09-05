@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-05T13:53:16+09:00",
+  "updated_at": "2026-09-05T18:16:28+09:00",
   "summary": {
     "count": 4,
     "first_date": "2026-09-02",
     "last_date": "2026-09-05",
-    "min_30d": 32.7,
+    "min_30d": 33.5,
     "max_30d": 37.9,
-    "avg_30d": 35.05,
-    "record_1st": 39.2,
+    "avg_30d": 35.25,
+    "record_1st": 38.8,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -35,14 +35,16 @@
     },
     {
       "date": "2026-09-05",
-      "value": 32.7
+      "value": 33.5
     }
   ],
   "latest_detail": {
-    "place": "三角",
-    "pref": "熊本県",
-    "caption": "三角｜きょう日本でいちばん暑い",
-    "record_1st": 39.2,
+    "place": "口之津",
+    "pref": "長崎県",
+    "caption": "口之津｜きょう日本でいちばん暑い",
+    "normal_diff": 2.8,
+    "station_prev_diff": 5.4,
+    "record_1st": 38.8,
     "year_extreme": false,
     "all_time_record": false
   }
