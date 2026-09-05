@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-05T06:30:32+09:00",
+  "generated_at": "2026-09-05T13:24:01+09:00",
   "date": "2026-09-05",
   "changes": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "29.4℃",
+      "value_display": "32.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.4,
-        "display": "-5.4℃",
+        "value": -2.6,
+        "display": "-2.6℃",
         "direction": "down",
         "prev_value": 34.8,
         "prev_date": "2026-09-04"
       },
-      "caption": "父島｜きょう日本でいちばん暑い",
+      "caption": "西表島｜きょう日本でいちばん暑い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -24,14 +24,14 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "3℃",
+      "value_display": "2.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7.1,
-        "display": "-7.1℃",
+        "value": -6.2,
+        "display": "-6.2℃",
         "direction": "down",
-        "prev_value": 10.1,
+        "prev_value": 9.0,
         "prev_date": "2026-09-04"
       },
       "caption": "根室中標津｜きょう日本でいちばん寒い",
@@ -42,12 +42,12 @@
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "20.7℃",
+      "value_display": "25.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -10.1,
-        "display": "-10.1℃",
+        "value": -5.0,
+        "display": "-5℃",
         "direction": "down",
         "prev_value": 30.8,
         "prev_date": "2026-09-04"
@@ -96,13 +96,13 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "48地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -21,
-        "display": "-21地点",
-        "direction": "down",
+        "value": 27,
+        "display": "+27地点",
+        "direction": "up",
         "prev_value": 21,
         "prev_date": "2026-09-04"
       },
@@ -132,14 +132,14 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "50地点",
+      "value_display": "170地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -581,
-        "display": "-581地点",
+        "value": -502,
+        "display": "-502地点",
         "direction": "down",
-        "prev_value": 631,
+        "prev_value": 672,
         "prev_date": "2026-09-04"
       },
       "caption": "きょう雨が降った地点",
@@ -150,17 +150,17 @@
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "22mm",
+      "value_display": "63mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -49.5,
-        "display": "-49.5mm",
+        "value": -16.0,
+        "display": "-16mm",
         "direction": "down",
-        "prev_value": 71.5,
+        "prev_value": 79.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "名瀬｜激しい雨",
+      "caption": "尾之間｜バケツをひっくり返したような雨",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -168,14 +168,14 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "95.5mm",
+      "value_display": "129mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -66.5,
-        "display": "-66.5mm",
+        "value": -38.5,
+        "display": "-38.5mm",
         "direction": "down",
-        "prev_value": 162.0,
+        "prev_value": 167.5,
         "prev_date": "2026-09-04"
       },
       "caption": "尾之間｜この3時間でいちばん激しく降った",
@@ -186,17 +186,17 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "24.3℃",
+      "value_display": "24.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.9,
-        "display": "+3.9℃",
+        "value": 4.2,
+        "display": "+4.2℃",
         "direction": "up",
-        "prev_value": 20.4,
+        "prev_value": 20.5,
         "prev_date": "2026-09-04"
       },
-      "caption": "南鳥島29.9℃ と 白滝5.6℃ の差",
+      "caption": "父島29.2℃ と 根室中標津4.5℃ の差",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -207,14 +207,16 @@
       "value_display": "25℃",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
+        "prev_value": 26.0,
+        "prev_date": "2026-09-05"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "tokyo-forecast-min",
@@ -223,20 +225,22 @@
       "value_display": "20℃",
       "change": {
         "type": "absolute",
-        "available": false,
+        "available": true,
+        "value": 0.0,
+        "display": "±0℃",
         "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "prev_value": 20.0,
+        "prev_date": "2026-09-05"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "30℃",
+      "value_display": "32℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -255,30 +259,32 @@
       "value_display": "90%",
       "change": {
         "type": "percentage_point",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": 30.0,
+        "display": "+30.0pt",
+        "direction": "up",
+        "prev_value": 60.0,
+        "prev_date": "2026-09-05"
       },
       "caption": "あすは雨の可能性が高い",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "993hPa",
+      "value_display": "989.6hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.8,
-        "display": "-1.8hPa",
+        "value": -5.2,
+        "display": "-5.2hPa",
         "direction": "down",
         "prev_value": 994.8,
         "prev_date": "2026-09-04"
       },
-      "caption": "沖永良部｜全国でいちばん気圧が低い",
+      "caption": "那覇｜台風や発達した低気圧が近い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -286,17 +292,17 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "12.1m/s",
+      "value_display": "16.1m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.4,
-        "display": "-5.4m/s",
+        "value": -1.4,
+        "display": "-1.4m/s",
         "direction": "down",
         "prev_value": 17.5,
         "prev_date": "2026-09-04"
       },
-      "caption": "所野｜全国でいちばん風が強い（10分平均）",
+      "caption": "種子島｜全国でいちばん風が強い（10分平均）",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -304,17 +310,17 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "62%",
+      "value_display": "32%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 25.0,
-        "display": "+25.0pt",
-        "direction": "up",
+        "value": -5.0,
+        "display": "-5.0pt",
+        "direction": "down",
         "prev_value": 37.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "島原｜全国でいちばん空気が乾いている",
+      "caption": "滝上｜全国でいちばん空気が乾いている",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -322,14 +328,14 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "4.3℃",
+      "value_display": "5.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.5,
-        "display": "+1.5℃",
+        "value": 2.1,
+        "display": "+2.1℃",
         "direction": "up",
-        "prev_value": 2.8,
+        "prev_value": 3.1,
         "prev_date": "2026-09-04"
       },
       "caption": "夏でもひんやり",
@@ -420,7 +426,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-04"
       },
-      "caption": "台風24号「クロヴァン」が久米島の北約270km",
+      "caption": "台風24号「クロヴァン」が久米島の北北東約90km",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -428,17 +434,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "6市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -6,
         "display": "-6市町村",
         "direction": "down",
-        "prev_value": 12,
+        "prev_value": 6,
         "prev_date": "2026-09-04"
       },
-      "caption": "6市町村に気象警報",
+      "caption": "いま気象警報は出ていない",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -572,12 +578,12 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "91%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 5.0,
-        "display": "+5.0pt",
+        "value": 4.0,
+        "display": "+4.0pt",
         "direction": "up",
         "prev_value": 86.0,
         "prev_date": "2026-09-04"
@@ -590,17 +596,17 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "1%",
+      "value_display": "31%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -11.0,
-        "display": "-11.0pt",
-        "direction": "down",
+        "value": 19.0,
+        "display": "+19.0pt",
+        "direction": "up",
         "prev_value": 12.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "きょうのピークで電力の1%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の31%を太陽光がまかなった",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -608,14 +614,14 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "8回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1回",
-        "direction": "up",
-        "prev_value": 7,
+        "value": -2,
+        "display": "-2回",
+        "direction": "down",
+        "prev_value": 8,
         "prev_date": "2026-09-04"
       },
       "caption": "最大は福島県沖の震度2",

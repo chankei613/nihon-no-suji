@@ -18,13 +18,13 @@ from core import store
 from core.models import iso, now_jst
 
 COLLECTORS = ["jma_rank", "jma_amedas", "jma_forecast", "jma_typhoon", "jma_warning",
-              "mlit_water", "tepco_pg", "p2pquake", "enecho_gas", "boj_fx", "astro"]
+              "mlit_water", "tepco_pg", "p2pquake", "enecho_gas", "boj_fx", "estat", "astro"]
 
 # collector が正常なら「これ以上の数のメトリック」を返すはず、の目安。
 # これを下回ったら degraded 扱いにする（形式変更の早期検知）。
 EXPECTED_MIN = {
     "jma_rank": 4, "jma_amedas": 5, "jma_forecast": 1, "jma_typhoon": 1, "jma_warning": 0,
-    "mlit_water": 2, "tepco_pg": 1, "p2pquake": 1, "enecho_gas": 1, "boj_fx": 1, "astro": 7,
+    "mlit_water": 2, "tepco_pg": 1, "p2pquake": 1, "enecho_gas": 1, "boj_fx": 1, "estat": 0, "astro": 7,
 }
 
 

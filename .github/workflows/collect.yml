@@ -31,6 +31,8 @@ jobs:
           python-version: "3.12"
 
       - name: Run collectors
+        env:
+          ESTAT_APP_ID: ${{ secrets.ESTAT_APP_ID }}
         run: python -m core.run
 
       - name: Check collector health

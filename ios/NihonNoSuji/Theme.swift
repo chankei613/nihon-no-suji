@@ -45,7 +45,7 @@ enum Theme {
 
     // MARK: カテゴリ
 
-    static let categoryOrder = ["防災", "自然", "インフラ", "経済", "こよみ"]
+    static let categoryOrder = ["防災", "自然", "インフラ", "経済", "社会", "こよみ"]
 
     static func categorySymbol(_ category: String) -> String {
         switch category {
@@ -53,6 +53,7 @@ enum Theme {
         case "防災": return "exclamationmark.triangle"
         case "インフラ": return "bolt"
         case "経済": return "yensign"
+        case "社会": return "person.2"
         case "こよみ": return "moon.stars"
         default: return "number"
         }

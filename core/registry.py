@@ -402,6 +402,18 @@ METRICS: list[dict] = [
         "source_url": "https://eco.mtk.nao.ac.jp/koyomi/",
     },
     {
+        "slug": "japan-population",
+        "name": "日本の総人口（推計）",
+        "category": "社会",
+        "unit": "人",
+        "value_type": "number",
+        "comparison_type": "absolute",
+        "daily_agg": "last",
+        "collector": "estat",
+        "source": "総務省統計局 人口推計",
+        "source_url": "https://www.e-stat.go.jp/dbview?sid=0003443838",
+    },
+    {
         "slug": "biwako-level",
         "name": "琵琶湖の水位",
         "category": "自然",
