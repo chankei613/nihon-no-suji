@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:44:35+09:00",
+  "generated_at": "2026-09-05T09:20:05+09:00",
   "date": "2026-09-05",
   "metrics": [
     {
@@ -44,16 +44,16 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 3.0,
-      "value_display": "3℃",
-      "observed_at": "2026-09-05T05:00:00+09:00",
+      "value": 2.8,
+      "value_display": "2.8℃",
+      "observed_at": "2026-09-05T08:00:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.0,
-        "display": "-6℃",
+        "value": -6.2,
+        "display": "-6.2℃",
         "direction": "down",
         "prev_value": 9.0,
         "prev_date": "2026-09-04"
@@ -65,6 +65,8 @@
         "place": "根室中標津",
         "pref": "北海道根室地方",
         "caption": "根室中標津｜きょう日本でいちばん寒い",
+        "normal_diff": -10.4,
+        "station_prev_diff": -2.1,
         "record_1st": -29.6,
         "year_extreme": true,
         "all_time_record": false
@@ -182,16 +184,16 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 0,
-      "value_display": "0地点",
-      "observed_at": "2026-09-05T01:20:00+09:00",
+      "value": 2,
+      "value_display": "2地点",
+      "observed_at": "2026-09-05T09:10:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -21,
-        "display": "-21地点",
+        "value": -19,
+        "display": "-19地点",
         "direction": "down",
         "prev_value": 21,
         "prev_date": "2026-09-04"
@@ -200,8 +202,11 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "station_ids": [],
-        "now": 0,
+        "station_ids": [
+          "44301",
+          "44356"
+        ],
+        "now": 2,
         "caption": "きょう30℃以上になった地点"
       },
       "source": {
@@ -246,16 +251,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 196,
-      "value_display": "196地点",
-      "observed_at": "2026-09-05T06:30:00+09:00",
+      "value": 198,
+      "value_display": "198地点",
+      "observed_at": "2026-09-05T09:10:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -476,
-        "display": "-476地点",
+        "value": -474,
+        "display": "-474地点",
         "direction": "down",
         "prev_value": 672,
         "prev_date": "2026-09-04"
@@ -285,6 +290,7 @@
           "41371",
           "41376",
           "42241",
+          "42261",
           "42286",
           "42341",
           "42366",
@@ -421,6 +427,7 @@
           "73071",
           "74336",
           "74372",
+          "83201",
           "83431",
           "84072",
           "87127",
@@ -462,7 +469,7 @@
           "91181",
           "91197"
         ],
-        "now": 45,
+        "now": 18,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -759,26 +766,26 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value": 56.0,
-      "value_display": "56%",
-      "observed_at": "2026-09-05T03:50:00+09:00",
+      "value": 51.0,
+      "value_display": "51%",
+      "observed_at": "2026-09-05T09:10:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 19.0,
-        "display": "+19.0pt",
+        "value": 14.0,
+        "display": "+14.0pt",
         "direction": "up",
         "prev_value": 37.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "朝日｜全国でいちばん空気が乾いている",
+      "caption": "志賀｜全国でいちばん空気が乾いている",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "朝日",
-        "caption": "朝日｜全国でいちばん空気が乾いている"
+        "place": "志賀",
+        "caption": "志賀｜全国でいちばん空気が乾いている"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -790,16 +797,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 4.5,
-      "value_display": "4.5℃",
-      "observed_at": "2026-09-05T06:30:00+09:00",
+      "value": 4.9,
+      "value_display": "4.9℃",
+      "observed_at": "2026-09-05T09:10:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.4,
-        "display": "+1.4℃",
+        "value": 1.8,
+        "display": "+1.8℃",
         "direction": "up",
         "prev_value": 3.1,
         "prev_date": "2026-09-04"
@@ -945,7 +952,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-09-05T06:44:00+09:00",
+      "observed_at": "2026-09-05T09:19:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
@@ -984,26 +991,26 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 6,
-      "value_display": "6市町村",
-      "observed_at": "2026-09-05T06:39:56+09:00",
+      "value": 3,
+      "value_display": "3市町村",
+      "observed_at": "2026-09-05T09:16:37+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0市町村",
-        "direction": "flat",
+        "value": -3,
+        "display": "-3市町村",
+        "direction": "down",
         "prev_value": 6,
         "prev_date": "2026-09-04"
       },
-      "caption": "6市町村に気象警報",
+      "caption": "3市町村に気象警報",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "emergency_count": 0,
-        "caption": "6市町村に気象警報"
+        "caption": "3市町村に気象警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -1329,7 +1336,7 @@
       "unit": "%",
       "value": 91.0,
       "value_display": "91%",
-      "observed_at": "2026-09-05T06:10:00+09:00",
+      "observed_at": "2026-09-05T08:40:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
@@ -1345,12 +1352,12 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "reserve_rate": 10.0,
-        "peak_supply_10MW": 3431.0,
-        "forecast_peak_demand_10MW": 3123.0,
-        "current_demand_10MW": 2364.0,
-        "current_demand_time": "5:00",
-        "current_usage_rate": 82.0,
+        "reserve_rate": 9.0,
+        "peak_supply_10MW": 3453.0,
+        "forecast_peak_demand_10MW": 3173.0,
+        "current_demand_10MW": 2665.0,
+        "current_demand_time": "8:00",
+        "current_usage_rate": 84.0,
         "peak_timeband": "15:00〜16:00",
         "area": "東京",
         "caption": "ピークは15:00〜16:00の見込み"
@@ -1365,27 +1372,27 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value": 1.0,
-      "value_display": "1%",
-      "observed_at": "2026-09-05T06:10:00+09:00",
+      "value": 10.0,
+      "value_display": "10%",
+      "observed_at": "2026-09-05T08:40:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -11.0,
-        "display": "-11.0pt",
+        "value": -2.0,
+        "display": "-2.0pt",
         "direction": "down",
         "prev_value": 12.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "きょうのピークで電力の1%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の10%を太陽光がまかなった",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "peak_output_10MW": 26.0,
+        "peak_output_10MW": 277.0,
         "area": "東京",
-        "caption": "きょうのピークで電力の1%を太陽光がまかなった"
+        "caption": "きょうのピークで電力の10%を太陽光がまかなった"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -1399,7 +1406,7 @@
       "unit": "回",
       "value": 8,
       "value_display": "8回",
-      "observed_at": "2026-09-05T06:44:00+09:00",
+      "observed_at": "2026-09-05T09:20:00+09:00",
       "as_of": "2026-09-05",
       "stale": false,
       "change": {
