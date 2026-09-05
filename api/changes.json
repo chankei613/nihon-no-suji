@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:20:05+09:00",
+  "generated_at": "2026-09-05T13:25:49+09:00",
   "date": "2026-09-05",
   "changes": [
     {
@@ -96,13 +96,13 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "2地点",
+      "value_display": "48地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -19,
-        "display": "-19地点",
-        "direction": "down",
+        "value": 27,
+        "display": "+27地点",
+        "direction": "up",
         "prev_value": 21,
         "prev_date": "2026-09-04"
       },
@@ -132,12 +132,12 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "198地点",
+      "value_display": "200地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -474,
-        "display": "-474地点",
+        "value": -472,
+        "display": "-472地点",
         "direction": "down",
         "prev_value": 672,
         "prev_date": "2026-09-04"
@@ -240,7 +240,7 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "30℃",
+      "value_display": "32℃",
       "change": {
         "type": "absolute",
         "available": false,
@@ -274,17 +274,17 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "992.7hPa",
+      "value_display": "989.6hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.1,
-        "display": "-2.1hPa",
+        "value": -5.2,
+        "display": "-5.2hPa",
         "direction": "down",
         "prev_value": 994.8,
         "prev_date": "2026-09-04"
       },
-      "caption": "沖永良部｜全国でいちばん気圧が低い",
+      "caption": "那覇｜台風や発達した低気圧が近い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -310,17 +310,17 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "51%",
+      "value_display": "32%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 14.0,
-        "display": "+14.0pt",
-        "direction": "up",
+        "value": -5.0,
+        "display": "-5.0pt",
+        "direction": "down",
         "prev_value": 37.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "志賀｜全国でいちばん空気が乾いている",
+      "caption": "滝上｜全国でいちばん空気が乾いている",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -328,12 +328,12 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "4.9℃",
+      "value_display": "5.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.8,
-        "display": "+1.8℃",
+        "value": 2.1,
+        "display": "+2.1℃",
         "direction": "up",
         "prev_value": 3.1,
         "prev_date": "2026-09-04"
@@ -426,7 +426,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-04"
       },
-      "caption": "台風24号「クロヴァン」が久米島の北約200km",
+      "caption": "台風24号「クロヴァン」が久米島の北北東約90km",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -434,17 +434,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "3市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3市町村",
+        "value": -6,
+        "display": "-6市町村",
         "direction": "down",
         "prev_value": 6,
         "prev_date": "2026-09-04"
       },
-      "caption": "3市町村に気象警報",
+      "caption": "いま気象警報は出ていない",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -578,12 +578,12 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "91%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 5.0,
-        "display": "+5.0pt",
+        "value": 4.0,
+        "display": "+4.0pt",
         "direction": "up",
         "prev_value": 86.0,
         "prev_date": "2026-09-04"
@@ -596,17 +596,17 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "10%",
+      "value_display": "31%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -2.0,
-        "display": "-2.0pt",
-        "direction": "down",
+        "value": 19.0,
+        "display": "+19.0pt",
+        "direction": "up",
         "prev_value": 12.0,
         "prev_date": "2026-09-04"
       },
-      "caption": "きょうのピークで電力の10%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の31%を太陽光がまかなった",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -614,13 +614,13 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "8回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": -2,
+        "display": "-2回",
+        "direction": "down",
         "prev_value": 8,
         "prev_date": "2026-09-04"
       },
