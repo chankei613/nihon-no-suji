@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T01:12:56+09:00",
+  "generated_at": "2026-09-06T03:32:09+09:00",
   "date": "2026-09-06",
   "changes": [
     {
@@ -132,12 +132,12 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "36地点",
+      "value_display": "59地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -182,
-        "display": "-182地点",
+        "value": -159,
+        "display": "-159地点",
         "direction": "down",
         "prev_value": 218,
         "prev_date": "2026-09-05"
@@ -150,17 +150,17 @@
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "16mm",
+      "value_display": "22.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -47.0,
-        "display": "-47mm",
+        "value": -40.5,
+        "display": "-40.5mm",
         "direction": "down",
         "prev_value": 63.0,
         "prev_date": "2026-09-05"
       },
-      "caption": "青ヶ島｜この1時間でいちばん降った",
+      "caption": "八丈島｜激しい雨",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -168,17 +168,17 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "55mm",
+      "value_display": "64.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -74.0,
-        "display": "-74mm",
+        "value": -64.5,
+        "display": "-64.5mm",
         "direction": "down",
         "prev_value": 129.0,
         "prev_date": "2026-09-05"
       },
-      "caption": "宮城島｜この3時間でいちばん激しく降った",
+      "caption": "青ヶ島｜この3時間でいちばん激しく降った",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -186,17 +186,17 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "22.7℃",
+      "value_display": "23.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.0,
-        "display": "-2℃",
+        "value": -1.1,
+        "display": "-1.1℃",
         "direction": "down",
         "prev_value": 24.7,
         "prev_date": "2026-09-05"
       },
-      "caption": "父島29℃ と ぬかびら源泉郷6.3℃ の差",
+      "caption": "父島29℃ と ぬかびら源泉郷5.4℃ の差",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -274,12 +274,12 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "992.8hPa",
+      "value_display": "991.8hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.4,
-        "display": "+3.4hPa",
+        "value": 2.4,
+        "display": "+2.4hPa",
         "direction": "up",
         "prev_value": 989.4,
         "prev_date": "2026-09-05"
@@ -328,12 +328,12 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "4.7℃",
+      "value_display": "5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.7,
-        "display": "+0.7℃",
+        "value": 1.0,
+        "display": "+1℃",
         "direction": "up",
         "prev_value": 4.0,
         "prev_date": "2026-09-05"
@@ -578,13 +578,13 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "89%",
+      "value_display": "88%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1.0pt",
+        "direction": "down",
         "prev_value": 89.0,
         "prev_date": "2026-09-05"
       },
@@ -614,17 +614,17 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "3回",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 4,
         "prev_date": "2026-09-05"
       },
-      "caption": "最大は和歌山県南部の震度1",
+      "caption": "最大は茨城県沖の震度1",
       "score": null,
       "label": "データ蓄積中"
     },
