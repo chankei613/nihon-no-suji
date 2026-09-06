@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T04:27:28+09:00",
+  "generated_at": "2026-09-07T06:38:19+09:00",
   "date": "2026-09-07",
   "changes": [
     {
@@ -25,57 +25,57 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "541mm",
+      "value_display": "548.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 130.5,
-        "display": "+130.5mm",
+        "value": 138.0,
+        "display": "+138mm",
         "direction": "up",
         "prev_value": 410.5,
         "prev_date": "2026-09-06"
       },
       "caption": "大島｜この24時間でいちばん降った",
-      "score": 0.79,
-      "z": 0.79,
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "6.6℃",
+      "value_display": "6.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.8,
-        "display": "+3.8℃",
+        "value": 3.6,
+        "display": "+3.6℃",
         "direction": "up",
         "prev_value": 2.8,
         "prev_date": "2026-09-06"
       },
       "caption": "上川｜きょう日本でいちばん寒い",
-      "score": 0.29,
-      "z": 0.29,
+      "score": 0.18,
+      "z": 0.18,
       "label": "通常の範囲"
     },
     {
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
-      "value_display": "-44cm",
+      "value_display": "-43cm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0cm",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1cm",
+        "direction": "up",
         "prev_value": -44.0,
-        "prev_date": "2026-09-05"
+        "prev_date": "2026-09-06"
       },
-      "caption": "基準水位(B.S.L.)より44cm低い",
+      "caption": "基準水位(B.S.L.)より43cm低い",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -86,11 +86,11 @@
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.2,
-        "display": "+0.2pt",
-        "direction": "up",
-        "prev_value": 78.4,
-        "prev_date": "2026-09-05"
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
+        "prev_value": 78.6,
+        "prev_date": "2026-09-06"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": 0.0,
@@ -139,12 +139,12 @@
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "22.4℃",
+      "value_display": "22.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.2,
-        "display": "-4.2℃",
+        "value": -3.9,
+        "display": "-3.9℃",
         "direction": "down",
         "prev_value": 26.6,
         "prev_date": "2026-09-06"
@@ -211,13 +211,13 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "327地点",
+      "value_display": "398地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -55,
-        "display": "-55地点",
-        "direction": "down",
+        "value": 16,
+        "display": "+16地点",
+        "direction": "up",
         "prev_value": 382,
         "prev_date": "2026-09-06"
       },
@@ -283,15 +283,15 @@
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "28℃",
+      "value_display": "29℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4.0,
-        "display": "+4℃",
+        "value": 1.0,
+        "display": "+1℃",
         "direction": "up",
-        "prev_value": 24.0,
-        "prev_date": "2026-09-06"
+        "prev_value": 28.0,
+        "prev_date": "2026-09-07"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": null,
@@ -301,15 +301,15 @@
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "21℃",
+      "value_display": "24℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
+        "value": 3.0,
+        "display": "+3℃",
         "direction": "up",
-        "prev_value": 20.0,
-        "prev_date": "2026-09-06"
+        "prev_value": 21.0,
+        "prev_date": "2026-09-07"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": null,
@@ -337,17 +337,17 @@
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "100%",
+      "value_display": "50%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 10.0,
-        "display": "+10.0pt",
-        "direction": "up",
-        "prev_value": 90.0,
-        "prev_date": "2026-09-06"
+        "value": -50.0,
+        "display": "-50.0pt",
+        "direction": "down",
+        "prev_value": 100.0,
+        "prev_date": "2026-09-07"
       },
-      "caption": "あすは雨の可能性が高い",
+      "caption": "あすは所により雨",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -409,12 +409,12 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "7.4℃",
+      "value_display": "8.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.4,
-        "display": "+2.4℃",
+        "value": 3.3,
+        "display": "+3.3℃",
         "direction": "up",
         "prev_value": 5.0,
         "prev_date": "2026-09-06"
@@ -515,17 +515,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "46市町村",
+      "value_display": "49市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 22,
-        "display": "+22市町村",
+        "value": 25,
+        "display": "+25市町村",
         "direction": "up",
         "prev_value": 24,
         "prev_date": "2026-09-06"
       },
-      "caption": "46市町村に気象警報",
+      "caption": "49市町村に気象警報",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -623,17 +623,17 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "4%",
+      "value_display": "1%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -27.0,
-        "display": "-27.0pt",
+        "value": -3.0,
+        "display": "-3.0pt",
         "direction": "down",
-        "prev_value": 31.0,
-        "prev_date": "2026-09-05"
+        "prev_value": 4.0,
+        "prev_date": "2026-09-06"
       },
-      "caption": "きょうのピークで電力の4%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の1%を太陽光がまかなった",
       "score": null,
       "label": "データ蓄積中"
     },
