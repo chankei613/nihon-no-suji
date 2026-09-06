@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T02:18:52+09:00",
+  "generated_at": "2026-09-07T04:27:28+09:00",
   "date": "2026-09-07",
   "changes": [
     {
@@ -22,41 +22,41 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
-      "category": "自然",
-      "value_display": "7.8℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 5.0,
-        "display": "+5℃",
-        "direction": "up",
-        "prev_value": 2.8,
-        "prev_date": "2026-09-06"
-      },
-      "caption": "喜茂別｜きょう日本でいちばん寒い",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "498mm",
+      "value_display": "541mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 87.5,
-        "display": "+87.5mm",
+        "value": 130.5,
+        "display": "+130.5mm",
         "direction": "up",
         "prev_value": 410.5,
         "prev_date": "2026-09-06"
       },
       "caption": "大島｜この24時間でいちばん降った",
-      "score": 0.0,
-      "z": 0.0,
+      "score": 0.79,
+      "z": 0.79,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "6.6℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.8,
+        "display": "+3.8℃",
+        "direction": "up",
+        "prev_value": 2.8,
+        "prev_date": "2026-09-06"
+      },
+      "caption": "上川｜きょう日本でいちばん寒い",
+      "score": 0.29,
+      "z": 0.29,
       "label": "通常の範囲"
     },
     {
@@ -101,50 +101,50 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "91%",
+      "value_display": "89%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
+        "value": 1.0,
+        "display": "+1.0pt",
         "direction": "up",
         "prev_value": 88.0,
         "prev_date": "2026-09-06"
       },
       "caption": "ピークは16:00〜17:00の見込み",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "6回",
+      "value_display": "5回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1回",
-        "direction": "up",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 5,
         "prev_date": "2026-09-06"
       },
       "caption": "最大は青森県東方沖の震度2",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "22.2℃",
+      "value_display": "22.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.4,
-        "display": "-4.4℃",
+        "value": -4.2,
+        "display": "-4.2℃",
         "direction": "down",
         "prev_value": 26.6,
         "prev_date": "2026-09-06"
@@ -211,12 +211,12 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "232地点",
+      "value_display": "327地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -150,
-        "display": "-150地点",
+        "value": -55,
+        "display": "-55地点",
         "direction": "down",
         "prev_value": 382,
         "prev_date": "2026-09-06"
@@ -229,17 +229,17 @@
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "40.5mm",
+      "value_display": "52mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.5,
-        "display": "-2.5mm",
-        "direction": "down",
+        "value": 9.0,
+        "display": "+9mm",
+        "direction": "up",
         "prev_value": 43.0,
         "prev_date": "2026-09-06"
       },
-      "caption": "茂原｜バケツをひっくり返したような雨",
+      "caption": "新島｜バケツをひっくり返したような雨",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -265,17 +265,17 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "20.9℃",
+      "value_display": "21.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.2,
-        "display": "-3.2℃",
+        "value": -2.2,
+        "display": "-2.2℃",
         "direction": "down",
         "prev_value": 24.1,
         "prev_date": "2026-09-06"
       },
-      "caption": "父島28.6℃ と 朱鞠内7.7℃ の差",
+      "caption": "父島28.7℃ と 朱鞠内6.8℃ の差",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -373,12 +373,12 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "12.7m/s",
+      "value_display": "12.8m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.7,
-        "display": "-3.7m/s",
+        "value": -3.6,
+        "display": "-3.6m/s",
         "direction": "down",
         "prev_value": 16.4,
         "prev_date": "2026-09-06"
@@ -409,12 +409,12 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "5.4℃",
+      "value_display": "7.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.4,
-        "display": "+0.4℃",
+        "value": 2.4,
+        "display": "+2.4℃",
         "direction": "up",
         "prev_value": 5.0,
         "prev_date": "2026-09-06"
@@ -515,17 +515,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "37市町村",
+      "value_display": "46市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 13,
-        "display": "+13市町村",
+        "value": 22,
+        "display": "+22市町村",
         "direction": "up",
         "prev_value": 24,
         "prev_date": "2026-09-06"
       },
-      "caption": "37市町村に気象警報",
+      "caption": "46市町村に気象警報",
       "score": null,
       "label": "データ蓄積中"
     },
