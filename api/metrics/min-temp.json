@@ -8,16 +8,16 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-06T23:22:05+09:00",
+  "updated_at": "2026-09-07T02:18:52+09:00",
   "summary": {
-    "count": 5,
+    "count": 6,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-06",
+    "last_date": "2026-09-07",
     "min_30d": 2.8,
     "max_30d": 12.3,
-    "avg_30d": 7.52,
-    "record_1st": -29.6,
-    "year_extreme": true,
+    "avg_30d": 7.57,
+    "record_1st": -31.9,
+    "year_extreme": false,
     "all_time_record": false
   },
   "history": [
@@ -40,16 +40,18 @@
     {
       "date": "2026-09-06",
       "value": 2.8
+    },
+    {
+      "date": "2026-09-07",
+      "value": 7.8
     }
   ],
   "latest_detail": {
-    "place": "根室中標津",
-    "pref": "北海道根室地方",
-    "caption": "根室中標津｜きょう日本でいちばん寒い",
-    "normal_diff": -10.4,
-    "station_prev_diff": -2.1,
-    "record_1st": -29.6,
-    "year_extreme": true,
+    "place": "喜茂別",
+    "pref": "北海道後志地方",
+    "caption": "喜茂別｜きょう日本でいちばん寒い",
+    "record_1st": -31.9,
+    "year_extreme": false,
     "all_time_record": false
   }
 }

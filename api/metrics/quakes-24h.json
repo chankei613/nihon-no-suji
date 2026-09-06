@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-06T23:22:05+09:00",
+  "updated_at": "2026-09-07T02:18:52+09:00",
   "summary": {
-    "count": 5,
+    "count": 6,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-06",
+    "last_date": "2026-09-07",
     "min_30d": 4,
     "max_30d": 12,
-    "avg_30d": 7.2
+    "avg_30d": 7.0
   },
   "history": [
     {
@@ -37,6 +37,10 @@
     {
       "date": "2026-09-06",
       "value": 5
+    },
+    {
+      "date": "2026-09-07",
+      "value": 6
     }
   ],
   "latest_detail": {
@@ -51,11 +55,11 @@
       "depth": 30
     },
     "latest": {
-      "time": "2026-09-06T19:28:00+09:00",
+      "time": "2026-09-07T02:04:00+09:00",
       "scale": 10,
-      "name": "千葉県北東部",
-      "magnitude": 3.2,
-      "depth": 40
+      "name": "茨城県北部",
+      "magnitude": 2.4,
+      "depth": 10
     },
     "capped": false
   }
