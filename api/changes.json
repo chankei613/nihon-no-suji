@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T15:27:38+09:00",
+  "generated_at": "2026-09-06T20:17:21+09:00",
   "date": "2026-09-06",
   "changes": [
     {
@@ -98,12 +98,12 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "296.5mm",
+      "value_display": "336.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -194.0,
-        "display": "-194mm",
+        "value": -154.0,
+        "display": "-154mm",
         "direction": "down",
         "prev_value": 490.5,
         "prev_date": "2026-09-05"
@@ -170,12 +170,12 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "244地点",
+      "value_display": "302地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 26,
-        "display": "+26地点",
+        "value": 84,
+        "display": "+84地点",
         "direction": "up",
         "prev_value": 218,
         "prev_date": "2026-09-05"
@@ -260,12 +260,12 @@
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "22℃",
+      "value_display": "21℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.0,
-        "display": "+2℃",
+        "value": 1.0,
+        "display": "+1℃",
         "direction": "up",
         "prev_value": 20.0,
         "prev_date": "2026-09-06"
@@ -314,13 +314,13 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "989.4hPa",
+      "value_display": "988.1hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0hPa",
-        "direction": "flat",
+        "value": -1.3,
+        "display": "-1.3hPa",
+        "direction": "down",
         "prev_value": 989.4,
         "prev_date": "2026-09-05"
       },
@@ -332,17 +332,17 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "15.4m/s",
+      "value_display": "16.4m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.7,
-        "display": "-0.7m/s",
-        "direction": "down",
+        "value": 0.3,
+        "display": "+0.3m/s",
+        "direction": "up",
         "prev_value": 16.1,
         "prev_date": "2026-09-05"
       },
-      "caption": "所野｜全国でいちばん風が強い（10分平均）",
+      "caption": "室戸岬｜全国でいちばん風が強い（10分平均）",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -368,12 +368,12 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "4.8℃",
+      "value_display": "4.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.8,
-        "display": "+0.8℃",
+        "value": 0.4,
+        "display": "+0.4℃",
         "direction": "up",
         "prev_value": 4.0,
         "prev_date": "2026-09-05"
@@ -466,7 +466,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-05"
       },
-      "caption": "台風24号「クロヴァン」が那覇市の東約200km",
+      "caption": "台風24号「クロヴァン」が南大東島の西約60km",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -618,12 +618,12 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "5回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1回",
+        "value": 2,
+        "display": "+2回",
         "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-09-05"
