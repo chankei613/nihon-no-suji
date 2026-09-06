@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T10:17:34+09:00",
+  "generated_at": "2026-09-06T15:27:38+09:00",
   "date": "2026-09-06",
   "changes": [
     {
@@ -44,17 +44,17 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "33.5℃",
+      "value_display": "34.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 0.7,
+        "display": "+0.7℃",
+        "direction": "up",
         "prev_value": 33.5,
         "prev_date": "2026-09-05"
       },
-      "caption": "口之津｜きょう日本でいちばん暑い",
+      "caption": "高知｜きょう日本でいちばん暑い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -98,12 +98,12 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "286mm",
+      "value_display": "296.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -204.5,
-        "display": "-204.5mm",
+        "value": -194.0,
+        "display": "-194mm",
         "direction": "down",
         "prev_value": 490.5,
         "prev_date": "2026-09-05"
@@ -134,12 +134,12 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "12地点",
+      "value_display": "25地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -43,
-        "display": "-43地点",
+        "value": -30,
+        "display": "-30地点",
         "direction": "down",
         "prev_value": 55,
         "prev_date": "2026-09-05"
@@ -170,13 +170,13 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "167地点",
+      "value_display": "244地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -51,
-        "display": "-51地点",
-        "direction": "down",
+        "value": 26,
+        "display": "+26地点",
+        "direction": "up",
         "prev_value": 218,
         "prev_date": "2026-09-05"
       },
@@ -278,17 +278,19 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "32℃",
+      "value_display": "31℃",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
+        "prev_value": 32.0,
+        "prev_date": "2026-09-08"
       },
-      "caption": "9月8日ごろがいちばん暑くなりそう",
+      "caption": "9月9日ごろがいちばん暑くなりそう",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "tokyo-forecast-pop",
@@ -312,17 +314,17 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "991.4hPa",
+      "value_display": "989.4hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.0,
-        "display": "+2hPa",
-        "direction": "up",
+        "value": 0.0,
+        "display": "±0hPa",
+        "direction": "flat",
         "prev_value": 989.4,
         "prev_date": "2026-09-05"
       },
-      "caption": "那覇｜全国でいちばん気圧が低い",
+      "caption": "南大東｜台風や発達した低気圧が近い",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -348,17 +350,17 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "42%",
+      "value_display": "32%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 24.0,
-        "display": "+24.0pt",
+        "value": 14.0,
+        "display": "+14.0pt",
         "direction": "up",
         "prev_value": 18.0,
         "prev_date": "2026-09-05"
       },
-      "caption": "八森｜全国でいちばん空気が乾いている",
+      "caption": "幾寅｜全国でいちばん空気が乾いている",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -366,12 +368,12 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "5.1℃",
+      "value_display": "4.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.1,
-        "display": "+1.1℃",
+        "value": 0.8,
+        "display": "+0.8℃",
         "direction": "up",
         "prev_value": 4.0,
         "prev_date": "2026-09-05"
@@ -464,7 +466,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-05"
       },
-      "caption": "台風24号「クロヴァン」が那覇市の東約190km",
+      "caption": "台風24号「クロヴァン」が那覇市の東約200km",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -472,17 +474,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "1市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5,
-        "display": "-5市町村",
+        "value": -6,
+        "display": "-6市町村",
         "direction": "down",
         "prev_value": 6,
         "prev_date": "2026-09-05"
       },
-      "caption": "1市町村に気象警報",
+      "caption": "いま気象警報は出ていない",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -580,13 +582,13 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "91%",
+      "value_display": "88%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.0,
-        "display": "+2.0pt",
-        "direction": "up",
+        "value": -1.0,
+        "display": "-1.0pt",
+        "direction": "down",
         "prev_value": 89.0,
         "prev_date": "2026-09-05"
       },
@@ -616,17 +618,17 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "4回",
+      "value_display": "5回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": 1,
+        "display": "+1回",
+        "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-09-05"
       },
-      "caption": "最大は茨城県沖の震度1",
+      "caption": "最大は青森県東方沖の震度2",
       "score": null,
       "label": "データ蓄積中"
     },
