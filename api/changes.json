@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-09-07T14:08:30+09:00",
+  "generated_at": "2026-09-07T19:40:30+09:00",
   "date": "2026-09-07",
   "changes": [
-    {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "83%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -5.0,
-        "display": "-5.0pt",
-        "direction": "down",
-        "prev_value": 88.0,
-        "prev_date": "2026-09-06"
-      },
-      "caption": "ピークは16:00〜17:00の見込み",
-      "score": 2.0,
-      "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "578mm",
+      "value_display": "581.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 167.5,
-        "display": "+167.5mm",
+        "value": 171.0,
+        "display": "+171mm",
         "direction": "up",
         "prev_value": 410.5,
         "prev_date": "2026-09-06"
       },
       "caption": "大島｜この24時間でいちばん降った",
-      "score": 1.61,
-      "z": 1.61,
+      "score": 1.72,
+      "z": 1.72,
       "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "84%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -4.0,
+        "display": "-4.0pt",
+        "direction": "down",
+        "prev_value": 88.0,
+        "prev_date": "2026-09-06"
+      },
+      "caption": "ピークは14:00〜15:00の見込み",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
     },
     {
       "slug": "max-temp",
@@ -101,38 +101,38 @@
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "78.6%",
+      "value_display": "78.1%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": -0.5,
+        "display": "-0.5pt",
+        "direction": "down",
         "prev_value": 78.6,
         "prev_date": "2026-09-06"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "5回",
+      "value_display": "3回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": -2,
+        "display": "-2回",
+        "direction": "down",
         "prev_value": 5,
         "prev_date": "2026-09-06"
       },
-      "caption": "最大は青森県東方沖の震度2",
+      "caption": "最大は岩手県沖の震度1",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -211,12 +211,12 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "474地点",
+      "value_display": "487地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 92,
-        "display": "+92地点",
+        "value": 105,
+        "display": "+105地点",
         "direction": "up",
         "prev_value": 382,
         "prev_date": "2026-09-06"
@@ -301,12 +301,12 @@
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "24℃",
+      "value_display": "23℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.0,
-        "display": "+3℃",
+        "value": 2.0,
+        "display": "+2℃",
         "direction": "up",
         "prev_value": 21.0,
         "prev_date": "2026-09-07"
@@ -409,12 +409,12 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "8.7℃",
+      "value_display": "8.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.7,
-        "display": "+3.7℃",
+        "value": 3.2,
+        "display": "+3.2℃",
         "direction": "up",
         "prev_value": 5.0,
         "prev_date": "2026-09-06"
@@ -517,17 +517,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "37市町村",
+      "value_display": "19市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 13,
-        "display": "+13市町村",
-        "direction": "up",
+        "value": -5,
+        "display": "-5市町村",
+        "direction": "down",
         "prev_value": 24,
         "prev_date": "2026-09-06"
       },
-      "caption": "37市町村に気象警報",
+      "caption": "19市町村に気象警報",
       "score": null,
       "label": "データ蓄積中"
     },
