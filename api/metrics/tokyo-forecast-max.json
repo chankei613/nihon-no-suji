@@ -8,14 +8,14 @@
     "name": "気象庁 天気予報",
     "url": "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
   },
-  "updated_at": "2026-09-09T03:56:51+09:00",
+  "updated_at": "2026-09-09T06:59:14+09:00",
   "summary": {
-    "count": 5,
+    "count": 6,
     "first_date": "2026-09-05",
-    "last_date": "2026-09-09",
+    "last_date": "2026-09-10",
     "min_30d": 24.0,
     "max_30d": 31.0,
-    "avg_30d": 27.6
+    "avg_30d": 27.17
   },
   "history": [
     {
@@ -37,10 +37,14 @@
     {
       "date": "2026-09-09",
       "value": 31.0
+    },
+    {
+      "date": "2026-09-10",
+      "value": 25.0
     }
   ],
   "latest_detail": {
-    "for_date": "2026-09-09",
-    "caption": "あすは真夏日の予想"
+    "for_date": "2026-09-10",
+    "caption": "あすの東京の最高気温の予想"
   }
 }
