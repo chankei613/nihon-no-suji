@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:43:08+09:00",
+  "generated_at": "2026-09-08T14:07:01+09:00",
   "date": "2026-09-08",
   "changes": [
     {
@@ -25,19 +25,19 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "0市町村",
+      "value_display": "1市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -19,
-        "display": "-19市町村",
+        "value": -18,
+        "display": "-18市町村",
         "direction": "down",
         "prev_value": 19,
         "prev_date": "2026-09-07"
       },
-      "caption": "いま気象警報は出ていない",
-      "score": 2.8,
-      "z": 2.8,
+      "caption": "1市町村に気象警報",
+      "score": 2.6,
+      "z": 2.6,
       "label": "いつもより大きな変化"
     },
     {
@@ -60,22 +60,22 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "172地点",
+      "value_display": "30.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -315,
-        "display": "-315地点",
-        "direction": "down",
-        "prev_value": 487,
+        "value": 5.6,
+        "display": "+5.6℃",
+        "direction": "up",
+        "prev_value": 24.8,
         "prev_date": "2026-09-07"
       },
-      "caption": "きょう雨が降った地点",
-      "score": 1.74,
-      "z": 1.74,
+      "caption": "真夏日",
+      "score": 2.11,
+      "z": 2.11,
       "label": "いつもより大きな変化"
     },
     {
@@ -98,79 +98,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-1h",
-      "name": "全国最大1時間降水量",
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "18mm",
+      "value_display": "273地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -34.0,
-        "display": "-34mm",
+        "value": -214,
+        "display": "-214地点",
         "direction": "down",
-        "prev_value": 52.0,
+        "prev_value": 487,
         "prev_date": "2026-09-07"
       },
-      "caption": "潮岬｜この1時間でいちばん降った",
-      "score": 1.27,
-      "z": 1.27,
+      "caption": "きょう雨が降った地点",
+      "score": 0.85,
+      "z": 0.85,
       "label": "通常の範囲"
     },
     {
-      "slug": "hot-points-30",
-      "name": "30℃以上になった地点数",
-      "category": "自然",
-      "value_display": "2地点",
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "7回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -45,
-        "display": "-45地点",
-        "direction": "down",
-        "prev_value": 47,
-        "prev_date": "2026-09-07"
-      },
-      "caption": "きょう30℃以上になった地点",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
-      "category": "自然",
-      "value_display": "32mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -70.5,
-        "display": "-70.5mm",
-        "direction": "down",
-        "prev_value": 102.5,
-        "prev_date": "2026-09-07"
-      },
-      "caption": "井川｜この3時間でいちばん激しく降った",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "60%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 15.0,
-        "display": "+15.0pt",
+        "value": 4,
+        "display": "+4回",
         "direction": "up",
-        "prev_value": 45.0,
+        "prev_value": 3,
         "prev_date": "2026-09-07"
       },
-      "caption": "広島｜全国でいちばん空気が乾いている",
-      "score": 1.0,
-      "z": 1.0,
+      "caption": "最大は熊本県熊本地方の震度3",
+      "score": 0.67,
+      "z": 0.67,
       "label": "通常の範囲"
     },
     {
@@ -196,19 +158,19 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "33.2℃",
+      "value_display": "33.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 0.4,
+        "display": "+0.4℃",
+        "direction": "up",
         "prev_value": 33.2,
         "prev_date": "2026-09-07"
       },
-      "caption": "高知｜きょう日本でいちばん暑い",
+      "caption": "口之津｜きょう日本でいちばん暑い",
       "score": 0.0,
-      "z": -1.31,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -231,25 +193,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "24.8℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 24.8,
-        "prev_date": "2026-09-07"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "hot-points-35",
       "name": "35℃以上になった地点数",
       "category": "自然",
@@ -266,6 +209,25 @@
       "caption": "きょう35℃以上になった地点",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "value_display": "63地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 16,
+        "display": "+16地点",
+        "direction": "up",
+        "prev_value": 47,
+        "prev_date": "2026-09-07"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "score": 0.0,
+      "z": -1.75,
       "label": "通常の範囲"
     },
     {
@@ -288,6 +250,44 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "51mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.0,
+        "display": "-1mm",
+        "direction": "down",
+        "prev_value": 52.0,
+        "prev_date": "2026-09-07"
+      },
+      "caption": "四日市｜バケツをひっくり返したような雨",
+      "score": 0.0,
+      "z": -2.14,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "value_display": "83.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -19.0,
+        "display": "-19mm",
+        "direction": "down",
+        "prev_value": 102.5,
+        "prev_date": "2026-09-07"
+      },
+      "caption": "白山｜この3時間でいちばん激しく降った",
+      "score": 0.0,
+      "z": -1.08,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
@@ -307,22 +307,41 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "50%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 5.0,
+        "display": "+5.0pt",
+        "direction": "up",
+        "prev_value": 45.0,
+        "prev_date": "2026-09-07"
+      },
+      "caption": "島原｜全国でいちばん空気が乾いている",
+      "score": 0.0,
+      "z": -1.33,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "7.9℃",
+      "value_display": "8.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.3,
-        "display": "-0.3℃",
-        "direction": "down",
+        "value": 0.1,
+        "display": "+0.1℃",
+        "direction": "up",
         "prev_value": 8.2,
         "prev_date": "2026-09-07"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.17,
+      "z": -1.5,
       "label": "通常の範囲"
     },
     {
@@ -405,38 +424,19 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "11%",
+      "value_display": "19%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -1.0,
-        "display": "-1.0pt",
-        "direction": "down",
+        "value": 7.0,
+        "display": "+7.0pt",
+        "direction": "up",
         "prev_value": 12.0,
         "prev_date": "2026-09-07"
       },
-      "caption": "きょうのピークで電力の11%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の19%を太陽光がまかなった",
       "score": 0.0,
-      "z": -0.88,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "4回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1,
-        "display": "+1回",
-        "direction": "up",
-        "prev_value": 3,
-        "prev_date": "2026-09-07"
-      },
-      "caption": "最大は熊本県熊本地方の震度3",
-      "score": 0.0,
-      "z": -1.0,
+      "z": -0.12,
       "label": "通常の範囲"
     },
     {
@@ -479,17 +479,17 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "33℃",
+      "value_display": "30℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
-        "direction": "up",
-        "prev_value": 32.0,
-        "prev_date": "2026-09-08"
+        "value": -3.0,
+        "display": "-3℃",
+        "direction": "down",
+        "prev_value": 33.0,
+        "prev_date": "2026-09-09"
       },
-      "caption": "9月9日ごろがいちばん暑くなりそう",
+      "caption": "9月14日ごろがいちばん暑くなりそう",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -515,12 +515,12 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "994hPa",
+      "value_display": "993hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 7.9,
-        "display": "+7.9hPa",
+        "value": 6.9,
+        "display": "+6.9hPa",
         "direction": "up",
         "prev_value": 986.1,
         "prev_date": "2026-09-07"
@@ -551,17 +551,17 @@
       "slug": "usd-jpy",
       "name": "ドル円レート",
       "category": "経済",
-      "value_display": "157.05円",
+      "value_display": "156.3円",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.65,
-        "display": "-2.65円",
+        "value": -0.75,
+        "display": "-0.75円",
         "direction": "down",
-        "prev_value": 159.7,
-        "prev_date": "2026-09-02"
+        "prev_value": 157.05,
+        "prev_date": "2026-09-03"
       },
-      "caption": "1ドル＝157.05円（9月3日）",
+      "caption": "1ドル＝156.3円（9月4日）",
       "score": null,
       "label": "データ蓄積中"
     },
