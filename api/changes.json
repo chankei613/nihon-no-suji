@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-09-08T14:07:01+09:00",
+  "generated_at": "2026-09-08T19:02:44+09:00",
   "date": "2026-09-08",
   "changes": [
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "40市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 21,
+        "display": "+21市町村",
+        "direction": "up",
+        "prev_value": 19,
+        "prev_date": "2026-09-07"
+      },
+      "caption": "40市町村に気象警報",
+      "score": 3.2,
+      "z": 3.2,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
@@ -22,25 +41,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "1市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -18,
-        "display": "-18市町村",
-        "direction": "down",
-        "prev_value": 19,
-        "prev_date": "2026-09-07"
-      },
-      "caption": "1市町村に気象警報",
-      "score": 2.6,
-      "z": 2.6,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
@@ -57,6 +57,25 @@
       "caption": "ピークは14:00〜15:00の見込み",
       "score": 2.5,
       "z": 2.5,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "79.3%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 1.2,
+        "display": "+1.2pt",
+        "direction": "up",
+        "prev_value": 78.1,
+        "prev_date": "2026-09-07"
+      },
+      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
+      "score": 2.33,
+      "z": 2.33,
       "label": "いつもより大きな変化"
     },
     {
@@ -98,79 +117,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "273地点",
+      "value_display": "35.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -214,
-        "display": "-214地点",
-        "direction": "down",
-        "prev_value": 487,
+        "value": 1.9,
+        "display": "+1.9℃",
+        "direction": "up",
+        "prev_value": 33.2,
         "prev_date": "2026-09-07"
       },
-      "caption": "きょう雨が降った地点",
-      "score": 0.85,
-      "z": 0.85,
+      "caption": "牛深｜きょう日本でいちばん暑い",
+      "score": 1.25,
+      "z": 1.25,
       "label": "通常の範囲"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "7回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4,
-        "display": "+4回",
+        "value": 3,
+        "display": "+3回",
         "direction": "up",
         "prev_value": 3,
         "prev_date": "2026-09-07"
       },
       "caption": "最大は熊本県熊本地方の震度3",
-      "score": 0.67,
-      "z": 0.67,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "dam-storage",
-      "name": "主要ダムの貯水率",
-      "category": "自然",
-      "value_display": "78.7%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.6,
-        "display": "+0.6pt",
-        "direction": "up",
-        "prev_value": 78.1,
-        "prev_date": "2026-09-07"
-      },
-      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": 0.33,
       "z": 0.33,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "33.6℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.4,
-        "display": "+0.4℃",
-        "direction": "up",
-        "prev_value": 33.2,
-        "prev_date": "2026-09-07"
-      },
-      "caption": "口之津｜きょう日本でいちばん暑い",
-      "score": 0.0,
-      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -250,6 +231,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "422地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -65,
+        "display": "-65地点",
+        "direction": "down",
+        "prev_value": 487,
+        "prev_date": "2026-09-07"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.0,
+      "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
@@ -272,19 +272,19 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "83.5mm",
+      "value_display": "134mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -19.0,
-        "display": "-19mm",
-        "direction": "down",
+        "value": 31.5,
+        "display": "+31.5mm",
+        "direction": "up",
         "prev_value": 102.5,
         "prev_date": "2026-09-07"
       },
-      "caption": "白山｜この3時間でいちばん激しく降った",
+      "caption": "名古屋｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -1.08,
+      "z": -0.82,
       "label": "通常の範囲"
     },
     {
@@ -329,19 +329,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "8.3℃",
+      "value_display": "8.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.1,
-        "display": "+0.1℃",
+        "value": 0.3,
+        "display": "+0.3℃",
         "direction": "up",
         "prev_value": 8.2,
         "prev_date": "2026-09-07"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.5,
+      "z": -1.17,
       "label": "通常の範囲"
     },
     {
@@ -461,12 +461,12 @@
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "26℃",
+      "value_display": "25℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.0,
-        "display": "+3℃",
+        "value": 2.0,
+        "display": "+2℃",
         "direction": "up",
         "prev_value": 23.0,
         "prev_date": "2026-09-08"
