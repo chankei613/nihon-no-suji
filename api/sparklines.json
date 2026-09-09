@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-09T14:06:10+09:00",
+  "generated_at": "2026-09-09T19:03:46+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "32.9℃",
+      "value_display": "34.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.2,
-        "display": "-2.2℃",
+        "value": -0.5,
+        "display": "-0.5℃",
         "direction": "down",
         "prev_value": 35.1,
         "prev_date": "2026-09-08"
@@ -47,7 +47,7 @@
         },
         {
           "date": "2026-09-09",
-          "value": 32.9
+          "value": 34.6
         }
       ]
     },
@@ -56,12 +56,12 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "12℃",
+      "value_display": "11.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 6.0,
-        "display": "+6℃",
+        "value": 5.6,
+        "display": "+5.6℃",
         "direction": "up",
         "prev_value": 6.0,
         "prev_date": "2026-09-08"
@@ -97,7 +97,7 @@
         },
         {
           "date": "2026-09-09",
-          "value": 12.0
+          "value": 11.6
         }
       ]
     },
@@ -340,13 +340,13 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "524地点",
+      "value_display": "554地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -23,
-        "display": "-23地点",
-        "direction": "down",
+        "value": 7,
+        "display": "+7地点",
+        "direction": "up",
         "prev_value": 547,
         "prev_date": "2026-09-08"
       },
@@ -377,7 +377,7 @@
         },
         {
           "date": "2026-09-09",
-          "value": 524
+          "value": 554
         }
       ]
     },
@@ -478,12 +478,12 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value_display": "19.6℃",
+      "value_display": "19.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.1,
-        "display": "+2.1℃",
+        "value": 2.2,
+        "display": "+2.2℃",
         "direction": "up",
         "prev_value": 17.5,
         "prev_date": "2026-09-08"
@@ -515,7 +515,7 @@
         },
         {
           "date": "2026-09-09",
-          "value": 19.6
+          "value": 19.7
         }
       ]
     },
@@ -524,12 +524,12 @@
       "name": "東京のあしたの最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "25℃",
+      "value_display": "23℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.0,
-        "display": "-6℃",
+        "value": -8.0,
+        "display": "-8℃",
         "direction": "down",
         "prev_value": 31.0,
         "prev_date": "2026-09-09"
@@ -557,7 +557,7 @@
         },
         {
           "date": "2026-09-10",
-          "value": 25.0
+          "value": 23.0
         }
       ]
     },
@@ -566,12 +566,12 @@
       "name": "東京のあしたの最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "19℃",
+      "value_display": "18℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.0,
-        "display": "-6℃",
+        "value": -7.0,
+        "display": "-7℃",
         "direction": "down",
         "prev_value": 25.0,
         "prev_date": "2026-09-09"
@@ -599,7 +599,7 @@
         },
         {
           "date": "2026-09-10",
-          "value": 19.0
+          "value": 18.0
         }
       ]
     },
@@ -814,13 +814,13 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "9.4℃",
+      "value_display": "8.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.3,
-        "display": "+0.3℃",
-        "direction": "up",
+        "value": -0.7,
+        "display": "-0.7℃",
+        "direction": "down",
         "prev_value": 9.1,
         "prev_date": "2026-09-08"
       },
@@ -851,7 +851,7 @@
         },
         {
           "date": "2026-09-09",
-          "value": 9.4
+          "value": 8.4
         }
       ]
     },
@@ -1290,13 +1290,13 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "87市町村",
+      "value_display": "8市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 36,
-        "display": "+36市町村",
-        "direction": "up",
+        "value": -43,
+        "display": "-43市町村",
+        "direction": "down",
         "prev_value": 51,
         "prev_date": "2026-09-08"
       },
@@ -1327,7 +1327,7 @@
         },
         {
           "date": "2026-09-09",
-          "value": 87
+          "value": 8
         }
       ]
     },
@@ -2680,12 +2680,12 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value_display": "81.8%",
+      "value_display": "82%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.5,
-        "display": "+2.5pt",
+        "value": 2.7,
+        "display": "+2.7pt",
         "direction": "up",
         "prev_value": 79.3,
         "prev_date": "2026-09-08"
@@ -2725,7 +2725,7 @@
         },
         {
           "date": "2026-09-09",
-          "value": 81.8
+          "value": 82.0
         }
       ]
     },
@@ -2830,13 +2830,13 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "7回",
+      "value_display": "9回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": 2,
+        "display": "+2回",
+        "direction": "up",
         "prev_value": 7,
         "prev_date": "2026-09-08"
       },
@@ -2871,7 +2871,7 @@
         },
         {
           "date": "2026-09-09",
-          "value": 7
+          "value": 9
         }
       ]
     },
