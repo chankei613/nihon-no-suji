@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T19:03:46+09:00",
+  "generated_at": "2026-09-09T23:46:33+09:00",
   "date": "2026-09-09",
   "changes": [
     {
@@ -101,39 +101,39 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "8市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -43,
-        "display": "-43市町村",
+        "value": -51,
+        "display": "-51市町村",
         "direction": "down",
         "prev_value": 51,
         "prev_date": "2026-09-08"
       },
-      "caption": "8市町村に気象警報",
-      "score": 2.74,
-      "z": 2.74,
-      "label": "いつもより大きな変化"
+      "caption": "いま気象警報は出ていない",
+      "score": 3.43,
+      "z": 3.43,
+      "label": "かなり珍しい変化"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "11.6℃",
+      "value_display": "23.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.6,
-        "display": "+5.6℃",
+        "value": 6.2,
+        "display": "+6.2℃",
         "direction": "up",
-        "prev_value": 6.0,
+        "prev_value": 17.5,
         "prev_date": "2026-09-08"
       },
-      "caption": "西興部｜きょう日本でいちばん寒い",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
+      "caption": "南鳥島28.9℃ と 天塩5.2℃ の差",
+      "score": 1.71,
+      "z": 1.71,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "max-precip-3h",
@@ -171,6 +171,25 @@
       "caption": "東市来｜きょう日本でいちばん暑い",
       "score": 0.0,
       "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "3.9℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.1,
+        "display": "-2.1℃",
+        "direction": "down",
+        "prev_value": 6.0,
+        "prev_date": "2026-09-08"
+      },
+      "caption": "天塩｜きょう日本でいちばん寒い",
+      "score": 0.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -272,19 +291,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "554地点",
+      "value_display": "576地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 7,
-        "display": "+7地点",
+        "value": 29,
+        "display": "+29地点",
         "direction": "up",
         "prev_value": 547,
         "prev_date": "2026-09-08"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.62,
+      "z": -1.33,
       "label": "通常の範囲"
     },
     {
@@ -304,25 +323,6 @@
       "caption": "美濃加茂｜バケツをひっくり返したような雨",
       "score": 0.0,
       "z": -0.32,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "19.7℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2.2,
-        "display": "+2.2℃",
-        "direction": "up",
-        "prev_value": 17.5,
-        "prev_date": "2026-09-08"
-      },
-      "caption": "南鳥島29.3℃ と 沼川9.6℃ の差",
-      "score": 0.0,
-      "z": -0.0,
       "label": "通常の範囲"
     },
     {
@@ -386,19 +386,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "8.4℃",
+      "value_display": "8.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.7,
-        "display": "-0.7℃",
+        "value": -0.5,
+        "display": "-0.5℃",
         "direction": "down",
         "prev_value": 9.1,
         "prev_date": "2026-09-08"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.67,
+      "z": -1.8,
       "label": "通常の範囲"
     },
     {
@@ -500,19 +500,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "9回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
-        "direction": "up",
+        "value": -1,
+        "display": "-1回",
+        "direction": "down",
         "prev_value": 7,
         "prev_date": "2026-09-08"
       },
       "caption": "最大は釧路沖の震度2",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
