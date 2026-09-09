@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-09T23:46:33+09:00",
+  "updated_at": "2026-09-10T03:49:02+09:00",
   "summary": {
-    "count": 8,
+    "count": 9,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-09",
+    "last_date": "2026-09-10",
     "min_30d": 3,
     "max_30d": 12,
-    "avg_30d": 6.5
+    "avg_30d": 6.56
   },
   "history": [
     {
@@ -49,6 +49,10 @@
     {
       "date": "2026-09-09",
       "value": 6
+    },
+    {
+      "date": "2026-09-10",
+      "value": 7
     }
   ],
   "latest_detail": {
@@ -63,11 +67,11 @@
       "depth": 40
     },
     "latest": {
-      "time": "2026-09-09T17:38:00+09:00",
+      "time": "2026-09-10T02:11:00+09:00",
       "scale": 10,
-      "name": "秋田県内陸北部",
-      "magnitude": 2.7,
-      "depth": 10
+      "name": "宮古島近海",
+      "magnitude": 3.4,
+      "depth": 40
     },
     "capped": false
   }
