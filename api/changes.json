@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-10T18:59:52+09:00",
+  "generated_at": "2026-09-10T23:36:28+09:00",
   "date": "2026-09-10",
   "changes": [
     {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "118地点",
+      "value_display": "175地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -458,
-        "display": "-458地点",
+        "value": -401,
+        "display": "-401地点",
         "direction": "down",
         "prev_value": 576,
         "prev_date": "2026-09-09"
       },
       "caption": "きょう雨が降った地点",
-      "score": 5.98,
-      "z": 5.98,
+      "score": 5.02,
+      "z": 5.02,
       "label": "かなり珍しい変化"
     },
     {
@@ -155,25 +155,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "6.6℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.0,
-        "display": "-2℃",
-        "direction": "down",
-        "prev_value": 8.6,
-        "prev_date": "2026-09-09"
-      },
-      "caption": "夏でもひんやり",
-      "score": 2.0,
-      "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
@@ -191,6 +172,25 @@
       "score": 1.71,
       "z": 1.71,
       "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "7℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.6,
+        "display": "-1.6℃",
+        "direction": "down",
+        "prev_value": 8.6,
+        "prev_date": "2026-09-09"
+      },
+      "caption": "夏でもひんやり",
+      "score": 1.2,
+      "z": 1.2,
+      "label": "通常の範囲"
     },
     {
       "slug": "hot-points-30",
