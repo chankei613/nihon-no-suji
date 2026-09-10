@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-09-11T03:39:31+09:00",
+  "generated_at": "2026-09-11T06:48:47+09:00",
   "date": "2026-09-11",
   "changes": [
-    {
-      "slug": "biwako-level",
-      "name": "琵琶湖の水位",
-      "category": "自然",
-      "value_display": "-32cm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 5.0,
-        "display": "+5cm",
-        "direction": "up",
-        "prev_value": -37.0,
-        "prev_date": "2026-09-09"
-      },
-      "caption": "基準水位(B.S.L.)より32cm低い",
-      "score": 4.0,
-      "z": 4.0,
-      "label": "かなり珍しい変化"
-    },
     {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
@@ -39,44 +20,6 @@
       "score": 3.89,
       "z": 3.89,
       "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "dam-storage",
-      "name": "主要ダムの貯水率",
-      "category": "自然",
-      "value_display": "83.8%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 1.8,
-        "display": "+1.8pt",
-        "direction": "up",
-        "prev_value": 82.0,
-        "prev_date": "2026-09-09"
-      },
-      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
-      "score": 2.5,
-      "z": 2.5,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "min-temp",
-      "name": "全国最低気温",
-      "category": "自然",
-      "value_display": "7.5℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4.7,
-        "display": "+4.7℃",
-        "direction": "up",
-        "prev_value": 2.8,
-        "prev_date": "2026-09-10"
-      },
-      "caption": "上川｜きょう日本でいちばん寒い",
-      "score": 2.17,
-      "z": 2.17,
-      "label": "いつもより大きな変化"
     },
     {
       "slug": "max-temp",
@@ -98,60 +41,98 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
+      "slug": "min-temp",
+      "name": "全国最低気温",
       "category": "自然",
-      "value_display": "80%",
+      "value_display": "6.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 4.0,
+        "display": "+4℃",
+        "direction": "up",
+        "prev_value": 2.8,
+        "prev_date": "2026-09-10"
+      },
+      "caption": "上川｜きょう日本でいちばん寒い",
+      "score": 1.58,
+      "z": 1.58,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "1%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 30.0,
-        "display": "+30.0pt",
-        "direction": "up",
-        "prev_value": 50.0,
+        "value": -12.0,
+        "display": "-12.0pt",
+        "direction": "down",
+        "prev_value": 13.0,
         "prev_date": "2026-09-10"
       },
-      "caption": "あすは雨の可能性が高い",
-      "score": 1.0,
-      "z": 1.0,
+      "caption": "きょうのピークで電力の1%を太陽光がまかなった",
+      "score": 0.82,
+      "z": 0.82,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "biwako-level",
+      "name": "琵琶湖の水位",
+      "category": "自然",
+      "value_display": "-30cm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 2.0,
+        "display": "+2cm",
+        "direction": "up",
+        "prev_value": -32.0,
+        "prev_date": "2026-09-10"
+      },
+      "caption": "基準水位(B.S.L.)より30cm低い",
+      "score": 0.5,
+      "z": 0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "338地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 163,
+        "display": "+163地点",
+        "direction": "up",
+        "prev_value": 175,
+        "prev_date": "2026-09-10"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.44,
+      "z": 0.44,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "18.7℃",
+      "value_display": "18.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.8,
-        "display": "-3.8℃",
+        "value": -3.6,
+        "display": "-3.6℃",
         "direction": "down",
         "prev_value": 22.5,
         "prev_date": "2026-09-10"
       },
       "caption": "きょうの東京の最高気温",
-      "score": 0.43,
-      "z": 0.43,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "9.1m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.7,
-        "display": "-2.7m/s",
-        "direction": "down",
-        "prev_value": 11.8,
-        "prev_date": "2026-09-10"
-      },
-      "caption": "室戸岬｜全国でいちばん風が強い（10分平均）",
-      "score": 0.43,
-      "z": 0.43,
+      "score": 0.4,
+      "z": 0.4,
       "label": "通常の範囲"
     },
     {
@@ -171,6 +152,25 @@
       "caption": "南鳥島29℃ と 上川7.3℃ の差",
       "score": 0.35,
       "z": 0.35,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "9.9m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.9,
+        "display": "-1.9m/s",
+        "direction": "down",
+        "prev_value": 11.8,
+        "prev_date": "2026-09-10"
+      },
+      "caption": "室戸岬｜全国でいちばん風が強い（10分平均）",
+      "score": 0.21,
+      "z": 0.21,
       "label": "通常の範囲"
     },
     {
@@ -215,19 +215,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -18,
-        "display": "-18地点",
+        "value": -17,
+        "display": "-17地点",
         "direction": "down",
         "prev_value": 18,
         "prev_date": "2026-09-10"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -0.89,
+      "z": -0.95,
       "label": "通常の範囲"
     },
     {
@@ -250,75 +250,56 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "164地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -11,
-        "display": "-11地点",
-        "direction": "down",
-        "prev_value": 175,
-        "prev_date": "2026-09-10"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.0,
-      "z": -1.19,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "9.5mm",
+      "value_display": "25mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1mm",
-        "direction": "down",
+        "value": 14.5,
+        "display": "+14.5mm",
+        "direction": "up",
         "prev_value": 10.5,
         "prev_date": "2026-09-10"
       },
-      "caption": "関ケ原｜この1時間でいちばん降った",
+      "caption": "静岡｜激しい雨",
       "score": 0.0,
-      "z": -1.39,
+      "z": -0.14,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "27.5mm",
+      "value_display": "47mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1mm",
+        "value": 20.5,
+        "display": "+20.5mm",
         "direction": "up",
         "prev_value": 26.5,
         "prev_date": "2026-09-10"
       },
-      "caption": "阿児｜この3時間でいちばん激しく降った",
+      "caption": "静岡｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -3.11,
+      "z": -1.64,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "22℃",
+      "value_display": "23℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
-        "direction": "down",
-        "prev_value": 23.0,
-        "prev_date": "2026-09-10"
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
+        "prev_value": 22.0,
+        "prev_date": "2026-09-11"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": 0.0,
@@ -337,11 +318,30 @@
         "display": "±0℃",
         "direction": "flat",
         "prev_value": 18.0,
-        "prev_date": "2026-09-10"
+        "prev_date": "2026-09-11"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
-      "z": -1.5,
+      "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "value_display": "50%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -30.0,
+        "display": "-30.0pt",
+        "direction": "down",
+        "prev_value": 80.0,
+        "prev_date": "2026-09-11"
+      },
+      "caption": "あすは所により雨",
+      "score": 0.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -367,19 +367,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "7.2℃",
+      "value_display": "6.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.2,
-        "display": "+0.2℃",
-        "direction": "up",
+        "value": -0.6,
+        "display": "-0.6℃",
+        "direction": "down",
         "prev_value": 7.0,
         "prev_date": "2026-09-10"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.36,
+      "z": -0.88,
       "label": "通常の範囲"
     },
     {
@@ -459,6 +459,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "84.6%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 0.8,
+        "display": "+0.8pt",
+        "direction": "up",
+        "prev_value": 83.8,
+        "prev_date": "2026-09-10"
+      },
+      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
+      "score": 0.0,
+      "z": -0.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
@@ -472,28 +491,9 @@
         "prev_value": 83.0,
         "prev_date": "2026-09-10"
       },
-      "caption": "ピークは17:00〜18:00の見込み",
+      "caption": "ピークは16:00〜17:00の見込み",
       "score": 0.0,
       "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "13%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -1.0,
-        "display": "-1.0pt",
-        "direction": "down",
-        "prev_value": 14.0,
-        "prev_date": "2026-09-09"
-      },
-      "caption": "きょうのピークで電力の13%を太陽光がまかなった",
-      "score": 0.0,
-      "z": -1.0,
       "label": "通常の範囲"
     },
     {
