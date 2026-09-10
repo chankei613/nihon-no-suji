@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-10T14:09:06+09:00",
+  "updated_at": "2026-09-10T18:59:52+09:00",
   "summary": {
     "count": 9,
     "first_date": "2026-09-02",
     "last_date": "2026-09-10",
     "min_30d": 3,
     "max_30d": 12,
-    "avg_30d": 6.56
+    "avg_30d": 6.44
   },
   "history": [
     {
@@ -52,26 +52,26 @@
     },
     {
       "date": "2026-09-10",
-      "value": 7
+      "value": 6
     }
   ],
   "latest_detail": {
-    "caption": "最大は岐阜県美濃中西部の震度2",
+    "caption": "最大は福島県会津の震度3",
     "window_hours": 24,
     "max_magnitude": 3.8,
     "strongest": {
-      "time": "2026-09-10T11:49:00+09:00",
-      "scale": 20,
-      "name": "岐阜県美濃中西部",
-      "magnitude": 3.8,
-      "depth": 10
+      "time": "2026-09-10T18:55:00+09:00",
+      "scale": 30,
+      "name": "福島県会津",
+      "magnitude": 3.2,
+      "depth": 0
     },
     "latest": {
-      "time": "2026-09-10T11:49:00+09:00",
-      "scale": 20,
-      "name": "岐阜県美濃中西部",
-      "magnitude": 3.8,
-      "depth": 10
+      "time": "2026-09-10T18:55:00+09:00",
+      "scale": 30,
+      "name": "福島県会津",
+      "magnitude": 3.2,
+      "depth": 0
     },
     "capped": false
   }
