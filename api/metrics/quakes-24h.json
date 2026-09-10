@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-10T23:36:28+09:00",
+  "updated_at": "2026-09-11T03:39:31+09:00",
   "summary": {
-    "count": 9,
+    "count": 10,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-10",
+    "last_date": "2026-09-11",
     "min_30d": 3,
     "max_30d": 12,
-    "avg_30d": 6.44
+    "avg_30d": 6.6
   },
   "history": [
     {
@@ -53,6 +53,10 @@
     {
       "date": "2026-09-10",
       "value": 6
+    },
+    {
+      "date": "2026-09-11",
+      "value": 8
     }
   ],
   "latest_detail": {
@@ -67,11 +71,11 @@
       "depth": 0
     },
     "latest": {
-      "time": "2026-09-10T18:55:00+09:00",
-      "scale": 30,
-      "name": "福島県会津",
-      "magnitude": 3.2,
-      "depth": 0
+      "time": "2026-09-11T02:09:00+09:00",
+      "scale": 10,
+      "name": "熊本県天草・芦北地方",
+      "magnitude": 2.5,
+      "depth": 10
     },
     "capped": false
   }
