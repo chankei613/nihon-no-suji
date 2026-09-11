@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:58:19+09:00",
+  "generated_at": "2026-09-11T23:35:12+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -176,12 +176,12 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "87mm",
+      "value_display": "91mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -90.0,
-        "display": "-90mm",
+        "value": -86.0,
+        "display": "-86mm",
         "direction": "down",
         "prev_value": 177.0,
         "prev_date": "2026-09-10"
@@ -225,7 +225,7 @@
         },
         {
           "date": "2026-09-11",
-          "value": 87.0
+          "value": 91.0
         }
       ]
     },
@@ -396,12 +396,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "402地点",
+      "value_display": "408地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 227,
-        "display": "+227地点",
+        "value": 233,
+        "display": "+233地点",
         "direction": "up",
         "prev_value": 175,
         "prev_date": "2026-09-10"
@@ -441,7 +441,7 @@
         },
         {
           "date": "2026-09-11",
-          "value": 402
+          "value": 408
         }
       ]
     },
@@ -950,13 +950,13 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "6.9℃",
+      "value_display": "7.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.1,
-        "display": "-0.1℃",
-        "direction": "down",
+        "value": 0.4,
+        "display": "+0.4℃",
+        "direction": "up",
         "prev_value": 7.0,
         "prev_date": "2026-09-10"
       },
@@ -995,7 +995,7 @@
         },
         {
           "date": "2026-09-11",
-          "value": 6.9
+          "value": 7.4
         }
       ]
     },
@@ -3046,13 +3046,13 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "5回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 6,
         "prev_date": "2026-09-10"
       },
@@ -3095,7 +3095,7 @@
         },
         {
           "date": "2026-09-11",
-          "value": 5
+          "value": 6
         }
       ]
     },

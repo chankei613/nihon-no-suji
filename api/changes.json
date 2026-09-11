@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:58:19+09:00",
+  "generated_at": "2026-09-11T23:35:12+09:00",
   "date": "2026-09-11",
   "changes": [
     {
@@ -25,19 +25,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "402地点",
+      "value_display": "408地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 227,
-        "display": "+227地点",
+        "value": 233,
+        "display": "+233地点",
         "direction": "up",
         "prev_value": 175,
         "prev_date": "2026-09-10"
       },
       "caption": "きょう雨が降った地点",
-      "score": 1.11,
-      "z": 1.11,
+      "score": 1.14,
+      "z": 1.14,
       "label": "通常の範囲"
     },
     {
@@ -139,19 +139,19 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "87mm",
+      "value_display": "91mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -90.0,
-        "display": "-90mm",
+        "value": -86.0,
+        "display": "-86mm",
         "direction": "down",
         "prev_value": 177.0,
         "prev_date": "2026-09-10"
       },
-      "caption": "静岡｜この24時間でいちばん降った",
+      "caption": "川根本町｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.13,
       "label": "通常の範囲"
     },
     {
@@ -367,19 +367,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "6.9℃",
+      "value_display": "7.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.1,
-        "display": "-0.1℃",
-        "direction": "down",
+        "value": 0.4,
+        "display": "+0.4℃",
+        "direction": "up",
         "prev_value": 7.0,
         "prev_date": "2026-09-10"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.55,
+      "z": -1.1,
       "label": "通常の範囲"
     },
     {
@@ -519,19 +519,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "5回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 6,
         "prev_date": "2026-09-10"
       },
       "caption": "最大は岩手県沿岸北部の震度2",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
