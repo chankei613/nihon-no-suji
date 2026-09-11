@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T14:06:35+09:00",
+  "generated_at": "2026-09-11T18:58:19+09:00",
   "date": "2026-09-11",
   "metrics": [
     {
@@ -79,16 +79,16 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 19.9,
-      "value_display": "19.9℃",
-      "observed_at": "2026-09-11T13:00:00+09:00",
+      "value": 20.8,
+      "value_display": "20.8℃",
+      "observed_at": "2026-09-11T18:00:00+09:00",
       "as_of": "2026-09-11",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.6,
-        "display": "-2.6℃",
+        "value": -1.7,
+        "display": "-1.7℃",
         "direction": "down",
         "prev_value": 22.5,
         "prev_date": "2026-09-10"
@@ -100,6 +100,8 @@
         "place": "東京",
         "pref": "東京都",
         "caption": "きょうの東京の最高気温",
+        "normal_diff": -7.8,
+        "station_prev_diff": -1.7,
         "record_1st": 39.5,
         "year_extreme": false,
         "all_time_record": false
@@ -282,16 +284,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 396,
-      "value_display": "396地点",
-      "observed_at": "2026-09-11T13:50:00+09:00",
+      "value": 402,
+      "value_display": "402地点",
+      "observed_at": "2026-09-11T18:50:00+09:00",
       "as_of": "2026-09-11",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 221,
-        "display": "+221地点",
+        "value": 227,
+        "display": "+227地点",
         "direction": "up",
         "prev_value": 175,
         "prev_date": "2026-09-10"
@@ -690,15 +692,21 @@
           "84537",
           "85033",
           "86161",
+          "86467",
+          "87301",
           "88131",
+          "88686",
           "88851",
+          "88971",
+          "91021",
+          "91046",
           "91081",
           "91166",
           "91197",
           "93041",
           "93042"
         ],
-        "now": 25,
+        "now": 18,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -811,16 +819,16 @@
       "name": "東京のあしたの最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 23.0,
-      "value_display": "23℃",
+      "value": 24.0,
+      "value_display": "24℃",
       "observed_at": "2026-09-12T05:00:00+09:00",
       "as_of": "2026-09-12",
       "stale": true,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
+        "value": 2.0,
+        "display": "+2℃",
         "direction": "up",
         "prev_value": 22.0,
         "prev_date": "2026-09-11"
@@ -842,17 +850,17 @@
       "name": "東京のあしたの最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 18.0,
-      "value_display": "18℃",
+      "value": 19.0,
+      "value_display": "19℃",
       "observed_at": "2026-09-12T05:00:00+09:00",
       "as_of": "2026-09-12",
       "stale": true,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 18.0,
         "prev_date": "2026-09-11"
       },
@@ -1028,17 +1036,17 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 7.3,
-      "value_display": "7.3℃",
-      "observed_at": "2026-09-11T13:50:00+09:00",
+      "value": 6.9,
+      "value_display": "6.9℃",
+      "observed_at": "2026-09-11T18:50:00+09:00",
       "as_of": "2026-09-11",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.3,
-        "display": "+0.3℃",
-        "direction": "up",
+        "value": -0.1,
+        "display": "-0.1℃",
+        "direction": "down",
         "prev_value": 7.0,
         "prev_date": "2026-09-10"
       },
@@ -1185,7 +1193,7 @@
       "unit": "個",
       "value": 0,
       "value_display": "0個",
-      "observed_at": "2026-09-11T14:06:00+09:00",
+      "observed_at": "2026-09-11T18:58:00+09:00",
       "as_of": "2026-09-11",
       "stale": false,
       "change": {
@@ -1216,7 +1224,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-09-11T13:44:36+09:00",
+      "observed_at": "2026-09-11T18:25:35+09:00",
       "as_of": "2026-09-11",
       "stale": false,
       "change": {
@@ -1435,16 +1443,16 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value": 84.6,
-      "value_display": "84.6%",
+      "value": 84.8,
+      "value_display": "84.8%",
       "observed_at": "2026-09-11T06:00:00+09:00",
       "as_of": "2026-09-11",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.8,
-        "display": "+0.8pt",
+        "value": 1.0,
+        "display": "+1.0pt",
         "direction": "up",
         "prev_value": 83.8,
         "prev_date": "2026-09-10"
@@ -1456,7 +1464,7 @@
         "dam_count": 17,
         "region_means": {
           "近畿": 82.0,
-          "関東": 90.8
+          "関東": 91.6
         },
         "dams": [
           {
@@ -1476,7 +1484,7 @@
           },
           {
             "name": "多摩川水系 小河内ダム",
-            "rate": 76.0,
+            "rate": 79.0,
             "region": "関東"
           },
           {
@@ -1506,7 +1514,7 @@
           },
           {
             "name": "相模川水系3ダム",
-            "rate": 92.0,
+            "rate": 93.0,
             "region": "関東"
           },
           {
@@ -1559,7 +1567,7 @@
       "unit": "%",
       "value": 87.0,
       "value_display": "87%",
-      "observed_at": "2026-09-11T13:40:00+09:00",
+      "observed_at": "2026-09-11T18:40:00+09:00",
       "as_of": "2026-09-11",
       "stale": false,
       "change": {
@@ -1571,19 +1579,19 @@
         "prev_value": 83.0,
         "prev_date": "2026-09-10"
       },
-      "caption": "ピークは16:00〜17:00の見込み",
+      "caption": "ピークは14:00〜15:00の見込み",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "reserve_rate": 14.0,
-        "peak_supply_10MW": 3796.0,
-        "forecast_peak_demand_10MW": 3317.0,
-        "current_demand_10MW": 3184.0,
-        "current_demand_time": "12:00",
-        "current_usage_rate": 90.0,
-        "peak_timeband": "16:00〜17:00",
+        "peak_supply_10MW": 3748.0,
+        "forecast_peak_demand_10MW": 3274.0,
+        "current_demand_10MW": 3217.0,
+        "current_demand_time": "17:00",
+        "current_usage_rate": 83.0,
+        "peak_timeband": "14:00〜15:00",
         "area": "東京",
-        "caption": "ピークは16:00〜17:00の見込み"
+        "caption": "ピークは14:00〜15:00の見込み"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -1627,39 +1635,39 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 6,
-      "value_display": "6回",
-      "observed_at": "2026-09-11T14:06:00+09:00",
+      "value": 5,
+      "value_display": "5回",
+      "observed_at": "2026-09-11T18:58:00+09:00",
       "as_of": "2026-09-11",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": -1,
+        "display": "-1回",
+        "direction": "down",
         "prev_value": 6,
         "prev_date": "2026-09-10"
       },
-      "caption": "最大は福島県会津の震度3",
+      "caption": "最大は岩手県沿岸北部の震度2",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "最大は福島県会津の震度3",
+        "caption": "最大は岩手県沿岸北部の震度2",
         "window_hours": 24,
         "max_magnitude": 3.7,
         "strongest": {
-          "time": "2026-09-10T18:55:00+09:00",
-          "scale": 30,
-          "name": "福島県会津",
-          "magnitude": 3.2,
-          "depth": 0
+          "time": "2026-09-11T00:21:00+09:00",
+          "scale": 20,
+          "name": "岩手県沿岸北部",
+          "magnitude": 3.7,
+          "depth": 60
         },
         "latest": {
-          "time": "2026-09-11T10:07:00+09:00",
+          "time": "2026-09-11T17:55:00+09:00",
           "scale": 10,
-          "name": "熊本県熊本地方",
-          "magnitude": 2.8,
+          "name": "鹿児島県薩摩地方",
+          "magnitude": 2.2,
           "depth": 10
         },
         "capped": false

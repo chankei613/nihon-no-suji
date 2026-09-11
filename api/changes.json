@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T14:06:35+09:00",
+  "generated_at": "2026-09-11T18:58:19+09:00",
   "date": "2026-09-11",
   "changes": [
     {
@@ -25,19 +25,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "396地点",
+      "value_display": "402地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 221,
-        "display": "+221地点",
+        "value": 227,
+        "display": "+227地点",
         "direction": "up",
         "prev_value": 175,
         "prev_date": "2026-09-10"
       },
       "caption": "きょう雨が降った地点",
-      "score": 1.07,
-      "z": 1.07,
+      "score": 1.11,
+      "z": 1.11,
       "label": "通常の範囲"
     },
     {
@@ -79,22 +79,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "19.9℃",
+      "value_display": "84.8%",
       "change": {
-        "type": "absolute",
+        "type": "percentage_point",
         "available": true,
-        "value": -2.6,
-        "display": "-2.6℃",
-        "direction": "down",
-        "prev_value": 22.5,
+        "value": 1.0,
+        "display": "+1.0pt",
+        "direction": "up",
+        "prev_value": 83.8,
         "prev_date": "2026-09-10"
       },
-      "caption": "きょうの東京の最高気温",
-      "score": 0.19,
-      "z": 0.19,
+      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
+      "score": 0.25,
+      "z": 0.25,
       "label": "通常の範囲"
     },
     {
@@ -114,6 +114,25 @@
       "caption": "指宿｜きょう日本でいちばん暑い",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "20.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.7,
+        "display": "-1.7℃",
+        "direction": "down",
+        "prev_value": 22.5,
+        "prev_date": "2026-09-10"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 0.0,
+      "z": -0.03,
       "label": "通常の範囲"
     },
     {
@@ -234,38 +253,38 @@
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "23℃",
+      "value_display": "24℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
+        "value": 2.0,
+        "display": "+2℃",
         "direction": "up",
         "prev_value": 22.0,
         "prev_date": "2026-09-11"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "18℃",
+      "value_display": "19℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 18.0,
         "prev_date": "2026-09-11"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -348,19 +367,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "7.3℃",
+      "value_display": "6.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.3,
-        "display": "+0.3℃",
-        "direction": "up",
+        "value": -0.1,
+        "display": "-0.1℃",
+        "direction": "down",
         "prev_value": 7.0,
         "prev_date": "2026-09-10"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.18,
+      "z": -1.55,
       "label": "通常の範囲"
     },
     {
@@ -459,25 +478,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "dam-storage",
-      "name": "主要ダムの貯水率",
-      "category": "自然",
-      "value_display": "84.6%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.8,
-        "display": "+0.8pt",
-        "direction": "up",
-        "prev_value": 83.8,
-        "prev_date": "2026-09-10"
-      },
-      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
-      "score": 0.0,
-      "z": -0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
@@ -491,7 +491,7 @@
         "prev_value": 83.0,
         "prev_date": "2026-09-10"
       },
-      "caption": "ピークは16:00〜17:00の見込み",
+      "caption": "ピークは14:00〜15:00の見込み",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -519,19 +519,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "6回",
+      "value_display": "5回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": -1,
+        "display": "-1回",
+        "direction": "down",
         "prev_value": 6,
         "prev_date": "2026-09-10"
       },
-      "caption": "最大は福島県会津の震度3",
+      "caption": "最大は岩手県沿岸北部の震度2",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {

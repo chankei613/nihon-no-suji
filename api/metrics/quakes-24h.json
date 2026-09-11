@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-11T14:06:35+09:00",
+  "updated_at": "2026-09-11T18:58:19+09:00",
   "summary": {
     "count": 10,
     "first_date": "2026-09-02",
     "last_date": "2026-09-11",
     "min_30d": 3,
     "max_30d": 12,
-    "avg_30d": 6.4
+    "avg_30d": 6.3
   },
   "history": [
     {
@@ -56,25 +56,25 @@
     },
     {
       "date": "2026-09-11",
-      "value": 6
+      "value": 5
     }
   ],
   "latest_detail": {
-    "caption": "最大は福島県会津の震度3",
+    "caption": "最大は岩手県沿岸北部の震度2",
     "window_hours": 24,
     "max_magnitude": 3.7,
     "strongest": {
-      "time": "2026-09-10T18:55:00+09:00",
-      "scale": 30,
-      "name": "福島県会津",
-      "magnitude": 3.2,
-      "depth": 0
+      "time": "2026-09-11T00:21:00+09:00",
+      "scale": 20,
+      "name": "岩手県沿岸北部",
+      "magnitude": 3.7,
+      "depth": 60
     },
     "latest": {
-      "time": "2026-09-11T10:07:00+09:00",
+      "time": "2026-09-11T17:55:00+09:00",
       "scale": 10,
-      "name": "熊本県熊本地方",
-      "magnitude": 2.8,
+      "name": "鹿児島県薩摩地方",
+      "magnitude": 2.2,
       "depth": 10
     },
     "capped": false
