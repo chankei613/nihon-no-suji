@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-09-11T23:35:12+09:00",
+  "updated_at": "2026-09-12T02:52:42+09:00",
   "summary": {
-    "count": 10,
+    "count": 11,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-11",
+    "last_date": "2026-09-12",
     "min_30d": 91.0,
     "max_30d": 581.5,
-    "avg_30d": 326.3,
-    "record_1st": 420.0,
+    "avg_30d": 305.73,
+    "record_1st": 398.5,
     "all_time_record": false
   },
   "history": [
@@ -59,13 +59,17 @@
     {
       "date": "2026-09-11",
       "value": 91.0
+    },
+    {
+      "date": "2026-09-12",
+      "value": 100.0
     }
   ],
   "latest_detail": {
-    "place": "川根本町",
+    "place": "有東木",
     "pref": "静岡県",
-    "caption": "川根本町｜この24時間でいちばん降った",
-    "record_1st": 420.0,
+    "caption": "有東木｜この24時間でいちばん降った",
+    "record_1st": 398.5,
     "all_time_record": false
   }
 }
