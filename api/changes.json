@@ -1,43 +1,62 @@
 {
-  "generated_at": "2026-09-12T20:11:51+09:00",
+  "generated_at": "2026-09-12T23:19:59+09:00",
   "date": "2026-09-12",
   "changes": [
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "4.5℃",
+      "value_display": "3.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.9,
-        "display": "-2.9℃",
+        "value": -3.6,
+        "display": "-3.6℃",
         "direction": "down",
         "prev_value": 7.4,
         "prev_date": "2026-09-11"
       },
       "caption": "夏でもひんやり",
-      "score": 3.17,
-      "z": 3.17,
+      "score": 4.33,
+      "z": 4.33,
       "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "2回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4,
+        "display": "-4回",
+        "direction": "down",
+        "prev_value": 6,
+        "prev_date": "2026-09-11"
+      },
+      "caption": "最大は千葉県南部の震度1",
+      "score": 1.67,
+      "z": 1.67,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "92地点",
+      "value_display": "98地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -316,
-        "display": "-316地点",
+        "value": -310,
+        "display": "-310地点",
         "direction": "down",
         "prev_value": 408,
         "prev_date": "2026-09-11"
       },
       "caption": "きょう雨が降った地点",
-      "score": 1.46,
-      "z": 1.46,
+      "score": 1.4,
+      "z": 1.4,
       "label": "通常の範囲"
     },
     {
@@ -93,25 +112,6 @@
         "prev_date": "2026-09-12"
       },
       "caption": "あすの東京の最低気温の予想",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "3回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -3,
-        "display": "-3回",
-        "direction": "down",
-        "prev_value": 6,
-        "prev_date": "2026-09-11"
-      },
-      "caption": "最大は千葉県南部の震度1",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
