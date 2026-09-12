@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-12T15:24:20+09:00",
+  "updated_at": "2026-09-12T20:11:51+09:00",
   "summary": {
     "count": 11,
     "first_date": "2026-09-02",
     "last_date": "2026-09-12",
-    "min_30d": 2,
+    "min_30d": 3,
     "max_30d": 12,
-    "avg_30d": 6.0
+    "avg_30d": 6.09
   },
   "history": [
     {
@@ -60,26 +60,26 @@
     },
     {
       "date": "2026-09-12",
-      "value": 2
+      "value": 3
     }
   ],
   "latest_detail": {
-    "caption": "最大は熊本県天草・芦北地方の震度1",
+    "caption": "最大は千葉県南部の震度1",
     "window_hours": 24,
-    "max_magnitude": 2.6,
+    "max_magnitude": 3.3,
     "strongest": {
-      "time": "2026-09-11T20:39:00+09:00",
+      "time": "2026-09-12T15:56:00+09:00",
       "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 2.6,
-      "depth": 10
+      "name": "千葉県南部",
+      "magnitude": 3.3,
+      "depth": 20
     },
     "latest": {
-      "time": "2026-09-11T20:39:00+09:00",
+      "time": "2026-09-12T16:49:00+09:00",
       "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 2.6,
-      "depth": 10
+      "name": "千葉県南部",
+      "magnitude": 3.2,
+      "depth": 20
     },
     "capped": false
   }
