@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-09-12T23:19:59+09:00",
+  "updated_at": "2026-09-13T02:24:40+09:00",
   "summary": {
-    "count": 11,
+    "count": 12,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-12",
-    "min_30d": 91.0,
+    "last_date": "2026-09-13",
+    "min_30d": 44.0,
     "max_30d": 581.5,
-    "avg_30d": 305.73,
-    "record_1st": 398.5,
+    "avg_30d": 283.92,
+    "record_1st": 429.5,
     "all_time_record": false
   },
   "history": [
@@ -63,13 +63,17 @@
     {
       "date": "2026-09-12",
       "value": 100.0
+    },
+    {
+      "date": "2026-09-13",
+      "value": 44.0
     }
   ],
   "latest_detail": {
-    "place": "有東木",
-    "pref": "静岡県",
-    "caption": "有東木｜この24時間でいちばん降った",
-    "record_1st": 398.5,
+    "place": "三宅坪田",
+    "pref": "東京都",
+    "caption": "三宅坪田｜この24時間でいちばん降った",
+    "record_1st": 429.5,
     "all_time_record": false
   }
 }
