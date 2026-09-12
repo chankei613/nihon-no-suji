@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-12T10:28:48+09:00",
+  "generated_at": "2026-09-12T15:24:20+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "30.3℃",
+      "value_display": "33.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.0,
-        "display": "-3℃",
+        "value": -0.2,
+        "display": "-0.2℃",
         "direction": "down",
         "prev_value": 33.3,
         "prev_date": "2026-09-11"
@@ -59,7 +59,7 @@
         },
         {
           "date": "2026-09-12",
-          "value": 30.3
+          "value": 33.1
         }
       ]
     },
@@ -130,12 +130,12 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "21.3℃",
+      "value_display": "24.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.5,
-        "display": "+0.5℃",
+        "value": 3.7,
+        "display": "+3.7℃",
         "direction": "up",
         "prev_value": 20.8,
         "prev_date": "2026-09-11"
@@ -179,7 +179,7 @@
         },
         {
           "date": "2026-09-12",
-          "value": 21.3
+          "value": 24.5
         }
       ]
     },
@@ -308,13 +308,13 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "30地点",
+      "value_display": "73地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7,
-        "display": "-7地点",
-        "direction": "down",
+        "value": 36,
+        "display": "+36地点",
+        "direction": "up",
         "prev_value": 37,
         "prev_date": "2026-09-11"
       },
@@ -357,7 +357,7 @@
         },
         {
           "date": "2026-09-12",
-          "value": 30
+          "value": 73
         }
       ]
     },
@@ -424,12 +424,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "83地点",
+      "value_display": "86地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -325,
-        "display": "-325地点",
+        "value": -322,
+        "display": "-322地点",
         "direction": "down",
         "prev_value": 408,
         "prev_date": "2026-09-11"
@@ -473,7 +473,7 @@
         },
         {
           "date": "2026-09-12",
-          "value": 83
+          "value": 86
         }
       ]
     },
@@ -764,12 +764,12 @@
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "32℃",
+      "value_display": "31℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
+        "value": -2.0,
+        "display": "-2℃",
         "direction": "down",
         "prev_value": 33.0,
         "prev_date": "2026-09-09"
@@ -785,7 +785,7 @@
         },
         {
           "date": "2026-09-14",
-          "value": 32.0
+          "value": 31.0
         }
       ]
     },
@@ -848,12 +848,12 @@
       "name": "全国の最低海面気圧",
       "category": "自然",
       "unit": "hPa",
-      "value_display": "1008.1hPa",
+      "value_display": "1008hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.6,
-        "display": "+1.6hPa",
+        "value": 1.5,
+        "display": "+1.5hPa",
         "direction": "up",
         "prev_value": 1006.5,
         "prev_date": "2026-09-11"
@@ -893,7 +893,7 @@
         },
         {
           "date": "2026-09-12",
-          "value": 1008.1
+          "value": 1008.0
         }
       ]
     },
@@ -960,13 +960,13 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "34%",
+      "value_display": "19%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 8.0,
-        "display": "+8.0pt",
-        "direction": "up",
+        "value": -7.0,
+        "display": "-7.0pt",
+        "direction": "down",
         "prev_value": 26.0,
         "prev_date": "2026-09-11"
       },
@@ -1009,7 +1009,7 @@
         },
         {
           "date": "2026-09-12",
-          "value": 34.0
+          "value": 19.0
         }
       ]
     },
@@ -1018,12 +1018,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "7.2℃",
+      "value_display": "7.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.2,
-        "display": "-0.2℃",
+        "value": -0.1,
+        "display": "-0.1℃",
         "direction": "down",
         "prev_value": 7.4,
         "prev_date": "2026-09-11"
@@ -1067,7 +1067,7 @@
         },
         {
           "date": "2026-09-12",
-          "value": 7.2
+          "value": 7.3
         }
       ]
     },
@@ -3030,13 +3030,13 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "89%",
+      "value_display": "87%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.0,
-        "display": "+2.0pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 87.0,
         "prev_date": "2026-09-11"
       },
@@ -3083,7 +3083,7 @@
         },
         {
           "date": "2026-09-12",
-          "value": 89.0
+          "value": 87.0
         }
       ]
     },
@@ -3092,12 +3092,12 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "18%",
+      "value_display": "22%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 10.0,
-        "display": "+10.0pt",
+        "value": 14.0,
+        "display": "+14.0pt",
         "direction": "up",
         "prev_value": 8.0,
         "prev_date": "2026-09-11"
@@ -3141,7 +3141,7 @@
         },
         {
           "date": "2026-09-12",
-          "value": 18.0
+          "value": 22.0
         }
       ]
     },
