@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-13T04:36:49+09:00",
+  "updated_at": "2026-09-13T07:29:57+09:00",
   "summary": {
     "count": 12,
     "first_date": "2026-09-02",
     "last_date": "2026-09-13",
     "min_30d": 2,
     "max_30d": 12,
-    "avg_30d": 5.83
+    "avg_30d": 5.92
   },
   "history": [
     {
@@ -64,26 +64,26 @@
     },
     {
       "date": "2026-09-13",
-      "value": 4
+      "value": 5
     }
   ],
   "latest_detail": {
-    "caption": "最大は三宅島近海の震度2",
+    "caption": "最大は奄美大島北東沖の震度2",
     "window_hours": 24,
-    "max_magnitude": 4.3,
+    "max_magnitude": 5.1,
     "strongest": {
-      "time": "2026-09-13T04:18:00+09:00",
+      "time": "2026-09-13T05:33:00+09:00",
       "scale": 20,
-      "name": "三宅島近海",
-      "magnitude": 4.3,
-      "depth": 20
+      "name": "奄美大島北東沖",
+      "magnitude": 5.1,
+      "depth": 30
     },
     "latest": {
-      "time": "2026-09-13T04:18:00+09:00",
+      "time": "2026-09-13T05:33:00+09:00",
       "scale": 20,
-      "name": "三宅島近海",
-      "magnitude": 4.3,
-      "depth": 20
+      "name": "奄美大島北東沖",
+      "magnitude": 5.1,
+      "depth": 30
     },
     "capped": false
   }

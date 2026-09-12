@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-13T04:36:49+09:00",
+  "generated_at": "2026-09-13T07:29:57+09:00",
   "date": "2026-09-13",
   "changes": [
     {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "54%",
+      "value_display": "50%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 35.0,
-        "display": "+35.0pt",
+        "value": 31.0,
+        "display": "+31.0pt",
         "direction": "up",
         "prev_value": 19.0,
         "prev_date": "2026-09-12"
       },
-      "caption": "下関｜全国でいちばん空気が乾いている",
-      "score": 5.67,
-      "z": 5.67,
+      "caption": "湯の岱｜全国でいちばん空気が乾いている",
+      "score": 4.78,
+      "z": 4.78,
       "label": "かなり珍しい変化"
     },
     {
@@ -79,6 +79,25 @@
       "label": "かなり珍しい変化"
     },
     {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "6.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.0,
+        "display": "+3℃",
+        "direction": "up",
+        "prev_value": 3.8,
+        "prev_date": "2026-09-12"
+      },
+      "caption": "夏でもひんやり",
+      "score": 2.83,
+      "z": 2.83,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
@@ -101,19 +120,38 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "22%",
+      "value_display": "9%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 14.0,
-        "display": "+14.0pt",
-        "direction": "up",
-        "prev_value": 8.0,
-        "prev_date": "2026-09-11"
+        "value": -13.0,
+        "display": "-13.0pt",
+        "direction": "down",
+        "prev_value": 22.0,
+        "prev_date": "2026-09-12"
       },
-      "caption": "きょうのピークで電力の22%を太陽光がまかなった",
-      "score": 1.17,
-      "z": 1.17,
+      "caption": "きょうのピークで電力の9%を太陽光がまかなった",
+      "score": 0.92,
+      "z": 0.92,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "87.4%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 1.5,
+        "display": "+1.5pt",
+        "direction": "up",
+        "prev_value": 85.9,
+        "prev_date": "2026-09-12"
+      },
+      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
+      "score": 0.9,
+      "z": 0.9,
       "label": "通常の範囲"
     },
     {
@@ -155,60 +193,60 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
-      "category": "自然",
-      "value_display": "7.9℃",
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "5回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.4,
-        "display": "+2.4℃",
+        "value": 3,
+        "display": "+3回",
+        "direction": "up",
+        "prev_value": 2,
+        "prev_date": "2026-09-12"
+      },
+      "caption": "最大は奄美大島北東沖の震度2",
+      "score": 0.5,
+      "z": 0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "7.1℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.6,
+        "display": "+1.6℃",
         "direction": "up",
         "prev_value": 5.5,
         "prev_date": "2026-09-12"
       },
       "caption": "ぬかびら源泉郷｜きょう日本でいちばん寒い",
-      "score": 0.27,
-      "z": 0.27,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "dam-storage",
-      "name": "主要ダムの貯水率",
-      "category": "自然",
-      "value_display": "85.9%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 1.1,
-        "display": "+1.1pt",
-        "direction": "up",
-        "prev_value": 84.8,
-        "prev_date": "2026-09-11"
-      },
-      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
-      "score": 0.2,
-      "z": 0.2,
+      "score": 0.0,
+      "z": -0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "44mm",
+      "value_display": "71mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -56.0,
-        "display": "-56mm",
+        "value": -29.0,
+        "display": "-29mm",
         "direction": "down",
         "prev_value": 100.0,
         "prev_date": "2026-09-12"
       },
-      "caption": "三宅坪田｜この24時間でいちばん降った",
+      "caption": "蒲江｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -1.05,
+      "z": -2.0,
       "label": "通常の範囲"
     },
     {
@@ -253,19 +291,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "35地点",
+      "value_display": "67地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -63,
-        "display": "-63地点",
+        "value": -31,
+        "display": "-31地点",
         "direction": "down",
         "prev_value": 98,
         "prev_date": "2026-09-12"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.83,
+      "z": -1.02,
       "label": "通常の範囲"
     },
     {
@@ -291,19 +329,19 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "32.5mm",
+      "value_display": "39.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -9.5,
-        "display": "-9.5mm",
+        "value": -2.5,
+        "display": "-2.5mm",
         "direction": "down",
         "prev_value": 42.0,
         "prev_date": "2026-09-12"
       },
-      "caption": "古江｜この3時間でいちばん激しく降った",
+      "caption": "蒲江｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -1.5,
+      "z": -1.91,
       "label": "通常の範囲"
     },
     {
@@ -378,25 +416,6 @@
         "prev_date": "2026-09-12"
       },
       "caption": "日田｜全国でいちばん気圧が低い",
-      "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "4.2℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.4,
-        "display": "+0.4℃",
-        "direction": "up",
-        "prev_value": 3.8,
-        "prev_date": "2026-09-12"
-      },
-      "caption": "夏でもひんやり",
       "score": 0.0,
       "z": -1.0,
       "label": "通常の範囲"
@@ -500,36 +519,17 @@
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
-      "value_display": "-29cm",
+      "value_display": "-28cm",
       "change": {
         "type": "absolute",
         "available": true,
         "value": 1.0,
         "display": "+1cm",
         "direction": "up",
-        "prev_value": -30.0,
-        "prev_date": "2026-09-11"
-      },
-      "caption": "基準水位(B.S.L.)より29cm低い",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "4回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2,
-        "display": "+2回",
-        "direction": "up",
-        "prev_value": 2,
+        "prev_value": -29.0,
         "prev_date": "2026-09-12"
       },
-      "caption": "最大は三宅島近海の震度2",
+      "caption": "基準水位(B.S.L.)より28cm低い",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
