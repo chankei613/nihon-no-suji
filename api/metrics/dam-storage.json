@@ -8,14 +8,14 @@
     "name": "国土交通省 近畿・関東地方整備局",
     "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
   },
-  "updated_at": "2026-09-14T06:05:33+09:00",
+  "updated_at": "2026-09-14T08:25:48+09:00",
   "summary": {
-    "count": 13,
+    "count": 14,
     "first_date": "2026-09-01",
-    "last_date": "2026-09-13",
+    "last_date": "2026-09-14",
     "min_30d": 77.6,
     "max_30d": 87.4,
-    "avg_30d": 80.88
+    "avg_30d": 81.28
   },
   "history": [
     {
@@ -69,23 +69,32 @@
     {
       "date": "2026-09-13",
       "value": 87.4
+    },
+    {
+      "date": "2026-09-14",
+      "value": 86.5
     }
   ],
   "latest_detail": {
     "dam_count": 17,
     "region_means": {
-      "近畿": 85.6,
+      "近畿": 84.3,
       "関東": 91.6
     },
     "dams": [
       {
         "name": "九頭竜ダム",
-        "rate": 33.7,
+        "rate": 34.4,
         "region": "近畿"
       },
       {
         "name": "猿谷ダム",
-        "rate": 54.3,
+        "rate": 54.7,
+        "region": "近畿"
+      },
+      {
+        "name": "天ヶ瀬ダム",
+        "rate": 67.6,
         "region": "近畿"
       },
       {
@@ -94,28 +103,23 @@
         "region": "関東"
       },
       {
-        "name": "天ヶ瀬ダム",
-        "rate": 87.1,
-        "region": "近畿"
-      },
-      {
-        "name": "真名川ダム",
-        "rate": 88.6,
-        "region": "近畿"
-      },
-      {
         "name": "利根川水系鬼怒川4ダム",
         "rate": 89.0,
         "region": "関東"
       },
       {
+        "name": "真名川ダム",
+        "rate": 89.6,
+        "region": "近畿"
+      },
+      {
         "name": "高山ダム",
-        "rate": 90.1,
+        "rate": 89.8,
         "region": "近畿"
       },
       {
         "name": "大滝ダム",
-        "rate": 92.0,
+        "rate": 92.7,
         "region": "近畿"
       },
       {
@@ -125,12 +129,12 @@
       },
       {
         "name": "青蓮寺ダム",
-        "rate": 93.2,
+        "rate": 93.5,
         "region": "近畿"
       },
       {
         "name": "布目ダム",
-        "rate": 95.2,
+        "rate": 95.8,
         "region": "近畿"
       },
       {
@@ -139,14 +143,14 @@
         "region": "近畿"
       },
       {
-        "name": "比奈知ダム",
-        "rate": 96.9,
-        "region": "近畿"
-      },
-      {
         "name": "利根川水系上流9ダム",
         "rate": 97.0,
         "region": "関東"
+      },
+      {
+        "name": "比奈知ダム",
+        "rate": 97.5,
+        "region": "近畿"
       },
       {
         "name": "日吉ダム",
