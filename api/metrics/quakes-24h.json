@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-14T03:19:18+09:00",
+  "updated_at": "2026-09-14T06:05:33+09:00",
   "summary": {
     "count": 13,
     "first_date": "2026-09-02",
     "last_date": "2026-09-14",
     "min_30d": 2,
     "max_30d": 12,
-    "avg_30d": 6.38
+    "avg_30d": 6.23
   },
   "history": [
     {
@@ -68,13 +68,13 @@
     },
     {
       "date": "2026-09-14",
-      "value": 8
+      "value": 6
     }
   ],
   "latest_detail": {
     "caption": "最大は津軽海峡の震度3",
     "window_hours": 24,
-    "max_magnitude": 5.1,
+    "max_magnitude": 4.6,
     "strongest": {
       "time": "2026-09-13T17:31:00+09:00",
       "scale": 30,

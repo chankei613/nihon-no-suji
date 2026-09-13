@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T03:19:18+09:00",
+  "generated_at": "2026-09-14T06:05:33+09:00",
   "date": "2026-09-14",
   "changes": [
     {
@@ -25,19 +25,19 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "28.6℃",
+      "value_display": "29℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.4,
-        "display": "-5.4℃",
+        "value": -5.0,
+        "display": "-5℃",
         "direction": "down",
         "prev_value": 34.0,
         "prev_date": "2026-09-13"
       },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 6.07,
-      "z": 6.07,
+      "caption": "秋ヶ島｜きょう日本でいちばん暑い",
+      "score": 5.5,
+      "z": 5.5,
       "label": "かなり珍しい変化"
     },
     {
@@ -63,96 +63,134 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "15.1℃",
+      "value_display": "15.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.3,
-        "display": "-6.3℃",
+        "value": -5.9,
+        "display": "-5.9℃",
         "direction": "down",
         "prev_value": 21.4,
         "prev_date": "2026-09-13"
       },
-      "caption": "南鳥島28.5℃ と 朱鞠内13.4℃ の差",
-      "score": 3.15,
-      "z": 3.15,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "tokyo-forecast-max",
-      "name": "東京のあしたの最高気温",
-      "category": "自然",
-      "value_display": "31℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 5.0,
-        "display": "+5℃",
-        "direction": "up",
-        "prev_value": 26.0,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "あすは真夏日の予想",
-      "score": 3.0,
-      "z": 3.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "3市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 3,
-        "display": "+3市町村",
-        "direction": "up",
-        "prev_value": 0,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "3市町村に気象警報",
-      "score": 3.0,
-      "z": 3.0,
-      "label": "かなり珍しい変化"
+      "caption": "南鳥島28.7℃ と ぬかびら源泉郷13.2℃ の差",
+      "score": 2.85,
+      "z": 2.85,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "13.1℃",
+      "value_display": "12.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 6.0,
-        "display": "+6℃",
+        "value": 5.6,
+        "display": "+5.6℃",
         "direction": "up",
         "prev_value": 7.1,
         "prev_date": "2026-09-13"
       },
-      "caption": "上川｜きょう日本でいちばん寒い",
-      "score": 2.96,
-      "z": 2.96,
+      "caption": "白滝｜きょう日本でいちばん寒い",
+      "score": 2.68,
+      "z": 2.68,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "2市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 2,
+        "display": "+2市町村",
+        "direction": "up",
+        "prev_value": 0,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "2市町村に気象警報",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "1%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -21.0,
+        "display": "-21.0pt",
+        "direction": "down",
+        "prev_value": 22.0,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "きょうのピークで電力の1%を太陽光がまかなった",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "value_display": "50%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 40.0,
+        "display": "+40.0pt",
+        "direction": "up",
+        "prev_value": 10.0,
+        "prev_date": "2026-09-14"
+      },
+      "caption": "あすは所により雨",
+      "score": 1.5,
+      "z": 1.5,
       "label": "いつもより大きな変化"
     },
     {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "8.4m/s",
+      "value_display": "9.3m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.3,
-        "display": "-3.3m/s",
+        "value": -2.4,
+        "display": "-2.4m/s",
         "direction": "down",
         "prev_value": 11.7,
         "prev_date": "2026-09-13"
       },
-      "caption": "松本今井｜全国でいちばん風が強い（10分平均）",
-      "score": 2.62,
-      "z": 2.62,
+      "caption": "本泊｜全国でいちばん風が強い（10分平均）",
+      "score": 1.5,
+      "z": 1.5,
       "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "value_display": "28℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.0,
+        "display": "-3℃",
+        "direction": "down",
+        "prev_value": 31.0,
+        "prev_date": "2026-09-14"
+      },
+      "caption": "あすの東京の最高気温の予想",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
     },
     {
       "slug": "dam-storage",
@@ -193,20 +231,20 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "90%",
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "6回",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": 4.0,
-        "display": "+4.0pt",
-        "direction": "up",
-        "prev_value": 86.0,
+        "value": -3,
+        "display": "-3回",
+        "direction": "down",
+        "prev_value": 9,
         "prev_date": "2026-09-13"
       },
-      "caption": "ピークは15:00〜16:00の見込み",
+      "caption": "最大は津軽海峡の震度3",
       "score": 0.33,
       "z": 0.33,
       "label": "通常の範囲"
@@ -291,114 +329,95 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "53地点",
+      "value_display": "96地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -139,
-        "display": "-139地点",
+        "value": -96,
+        "display": "-96地点",
         "direction": "down",
         "prev_value": 192,
         "prev_date": "2026-09-13"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.15,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "26mm",
+      "value_display": "28.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.5,
-        "display": "-3.5mm",
+        "value": -1.0,
+        "display": "-1mm",
         "direction": "down",
         "prev_value": 29.5,
         "prev_date": "2026-09-13"
       },
-      "caption": "東厚保｜激しい雨",
+      "caption": "高津｜激しい雨",
       "score": 0.0,
-      "z": -1.2,
+      "z": -1.53,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "23℃",
+      "value_display": "24℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.0,
-        "display": "+2℃",
+        "value": 1.0,
+        "display": "+1℃",
         "direction": "up",
-        "prev_value": 21.0,
-        "prev_date": "2026-09-13"
+        "prev_value": 23.0,
+        "prev_date": "2026-09-14"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
-      "category": "自然",
-      "value_display": "10%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -20.0,
-        "display": "-20.0pt",
-        "direction": "down",
-        "prev_value": 30.0,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "あすは雨の心配は少ない",
-      "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1006.5hPa",
+      "value_display": "1005.9hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.1,
-        "display": "-0.1hPa",
+        "value": -0.7,
+        "display": "-0.7hPa",
         "direction": "down",
         "prev_value": 1006.6,
         "prev_date": "2026-09-13"
       },
-      "caption": "日田｜全国でいちばん気圧が低い",
+      "caption": "深浦｜全国でいちばん気圧が低い",
       "score": 0.0,
-      "z": -1.27,
+      "z": -1.04,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "2.4℃",
+      "value_display": "2.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 0.5,
+        "display": "+0.5℃",
+        "direction": "up",
         "prev_value": 2.4,
         "prev_date": "2026-09-13"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.67,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -497,41 +516,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "22%",
+      "value_display": "89%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
-        "prev_value": 22.0,
-        "prev_date": "2026-09-12"
-      },
-      "caption": "きょうのピークで電力の22%を太陽光がまかなった",
-      "score": 0.0,
-      "z": -1.09,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "8回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1,
-        "display": "-1回",
-        "direction": "down",
-        "prev_value": 9,
+        "value": 3.0,
+        "display": "+3.0pt",
+        "direction": "up",
+        "prev_value": 86.0,
         "prev_date": "2026-09-13"
       },
-      "caption": "最大は津軽海峡の震度3",
+      "caption": "ピークは13:00〜14:00の見込み",
       "score": 0.0,
-      "z": -0.33,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
