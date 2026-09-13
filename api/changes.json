@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-09-13T14:18:05+09:00",
+  "generated_at": "2026-09-13T19:33:57+09:00",
   "date": "2026-09-13",
   "changes": [
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "7.9℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4.1,
-        "display": "+4.1℃",
-        "direction": "up",
-        "prev_value": 3.8,
-        "prev_date": "2026-09-12"
-      },
-      "caption": "夏でもひんやり",
-      "score": 4.67,
-      "z": 4.67,
-      "label": "かなり珍しい変化"
-    },
     {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
@@ -60,6 +41,25 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "8回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 6,
+        "display": "+6回",
+        "direction": "up",
+        "prev_value": 2,
+        "prev_date": "2026-09-12"
+      },
+      "caption": "最大は津軽海峡の震度3",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
@@ -79,25 +79,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "7回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 5,
-        "display": "+5回",
-        "direction": "up",
-        "prev_value": 2,
-        "prev_date": "2026-09-12"
-      },
-      "caption": "最大は奄美大島北東沖の震度2",
-      "score": 1.5,
-      "z": 1.5,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
@@ -114,6 +95,44 @@
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": 0.9,
       "z": 0.9,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "2.4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.4,
+        "display": "-1.4℃",
+        "direction": "down",
+        "prev_value": 3.8,
+        "prev_date": "2026-09-12"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.5,
+      "z": 0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "26.7℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.9,
+        "display": "+1.9℃",
+        "direction": "up",
+        "prev_value": 24.8,
+        "prev_date": "2026-09-12"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 0.03,
+      "z": 0.03,
       "label": "通常の範囲"
     },
     {
@@ -152,25 +171,6 @@
       "caption": "ぬかびら源泉郷｜きょう日本でいちばん寒い",
       "score": 0.0,
       "z": -0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "24.8℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 24.8,
-        "prev_date": "2026-09-12"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 0.0,
-      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -234,57 +234,57 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "117地点",
+      "value_display": "144地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 19,
-        "display": "+19地点",
+        "value": 46,
+        "display": "+46地点",
         "direction": "up",
         "prev_value": 98,
         "prev_date": "2026-09-12"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.13,
+      "z": -0.95,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "23.5mm",
+      "value_display": "27.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -10.0,
-        "display": "-10mm",
+        "value": -6.0,
+        "display": "-6mm",
         "direction": "down",
         "prev_value": 33.5,
         "prev_date": "2026-09-12"
       },
-      "caption": "蒲江｜激しい雨",
+      "caption": "大東｜激しい雨",
       "score": 0.0,
-      "z": -0.74,
+      "z": -1.3,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "39.5mm",
+      "value_display": "47mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.5,
-        "display": "-2.5mm",
-        "direction": "down",
+        "value": 5.0,
+        "display": "+5mm",
+        "direction": "up",
         "prev_value": 42.0,
         "prev_date": "2026-09-12"
       },
-      "caption": "蒲江｜この3時間でいちばん激しく降った",
+      "caption": "山都｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -1.91,
+      "z": -1.76,
       "label": "通常の範囲"
     },
     {
@@ -500,19 +500,19 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "88%",
+      "value_display": "86%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
+        "value": 1.0,
+        "display": "+1.0pt",
         "direction": "up",
         "prev_value": 85.0,
         "prev_date": "2026-09-12"
       },
       "caption": "ピークは18:00〜19:00の見込み",
       "score": 0.0,
-      "z": 0.0,
+      "z": -2.0,
       "label": "通常の範囲"
     },
     {
@@ -538,12 +538,12 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "30℃",
+      "value_display": "29℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
+        "value": -2.0,
+        "display": "-2℃",
         "direction": "down",
         "prev_value": 31.0,
         "prev_date": "2026-09-14"
