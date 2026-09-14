@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-14T23:22:40+09:00",
+  "updated_at": "2026-09-15T04:33:41+09:00",
   "summary": {
-    "count": 11,
+    "count": 12,
     "first_date": "2026-09-04",
-    "last_date": "2026-09-14",
+    "last_date": "2026-09-15",
     "min_30d": 30.0,
     "max_30d": 40.0,
-    "avg_30d": 31.82
+    "avg_30d": 31.67
   },
   "history": [
     {
@@ -61,13 +61,17 @@
     {
       "date": "2026-09-14",
       "value": 30.0
+    },
+    {
+      "date": "2026-09-15",
+      "value": 30.0
     }
   ],
   "latest_detail": {
     "label": "3",
-    "place": "津軽海峡",
-    "at": "2026-09-13T17:31:00+09:00",
+    "place": "熊本県熊本地方",
+    "at": "2026-09-14T19:36:00+09:00",
     "capped": true,
-    "caption": "津軽海峡（09/13）"
+    "caption": "熊本県熊本地方（09/14）"
   }
 }
