@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-14T15:58:00+09:00",
+  "updated_at": "2026-09-14T23:22:40+09:00",
   "summary": {
     "count": 13,
     "first_date": "2026-09-02",
     "last_date": "2026-09-14",
     "min_30d": 2,
     "max_30d": 12,
-    "avg_30d": 6.15
+    "avg_30d": 6.31
   },
   "history": [
     {
@@ -68,26 +68,26 @@
     },
     {
       "date": "2026-09-14",
-      "value": 5
+      "value": 7
     }
   ],
   "latest_detail": {
-    "caption": "最大は津軽海峡の震度3",
+    "caption": "最大は熊本県熊本地方の震度3",
     "window_hours": 24,
-    "max_magnitude": 4.5,
+    "max_magnitude": 4.4,
     "strongest": {
-      "time": "2026-09-13T17:31:00+09:00",
+      "time": "2026-09-14T19:36:00+09:00",
       "scale": 30,
-      "name": "津軽海峡",
-      "magnitude": 4.5,
-      "depth": 120
+      "name": "熊本県熊本地方",
+      "magnitude": 4,
+      "depth": 0
     },
     "latest": {
-      "time": "2026-09-14T07:17:00+09:00",
-      "scale": 10,
-      "name": "岩手県沿岸北部",
-      "magnitude": 2.9,
-      "depth": 10
+      "time": "2026-09-14T20:00:00+09:00",
+      "scale": 20,
+      "name": "福島県沖",
+      "magnitude": 4.3,
+      "depth": 50
     },
     "capped": false
   }

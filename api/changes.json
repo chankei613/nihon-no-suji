@@ -1,81 +1,62 @@
 {
-  "generated_at": "2026-09-14T15:58:00+09:00",
+  "generated_at": "2026-09-14T23:22:40+09:00",
   "date": "2026-09-14",
   "changes": [
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "6市町村",
+      "value_display": "3市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 6,
-        "display": "+6市町村",
+        "value": 3,
+        "display": "+3市町村",
         "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-09-13"
       },
-      "caption": "6市町村に気象警報",
-      "score": 6.0,
-      "z": 6.0,
+      "caption": "3市町村に気象警報",
+      "score": 3.0,
+      "z": 3.0,
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "6.6℃",
+      "value_display": "60%",
       "change": {
-        "type": "absolute",
+        "type": "percentage_point",
         "available": true,
-        "value": 4.2,
-        "display": "+4.2℃",
+        "value": 50.0,
+        "display": "+50.0pt",
         "direction": "up",
-        "prev_value": 2.4,
-        "prev_date": "2026-09-13"
+        "prev_value": 10.0,
+        "prev_date": "2026-09-14"
       },
-      "caption": "夏でもひんやり",
-      "score": 5.6,
-      "z": 5.6,
-      "label": "かなり珍しい変化"
+      "caption": "あすは雨の可能性が高い",
+      "score": 2.5,
+      "z": 2.5,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "12.7℃",
+      "value_display": "11.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.6,
-        "display": "+5.6℃",
+        "value": 4.6,
+        "display": "+4.6℃",
         "direction": "up",
         "prev_value": 7.1,
         "prev_date": "2026-09-13"
       },
-      "caption": "白滝｜きょう日本でいちばん寒い",
-      "score": 2.68,
-      "z": 2.68,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "16.1℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -5.3,
-        "display": "-5.3℃",
-        "direction": "down",
-        "prev_value": 21.4,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "浪江31.4℃ と 酸ケ湯15.3℃ の差",
-      "score": 2.38,
-      "z": 2.38,
+      "caption": "中頓別｜きょう日本でいちばん寒い",
+      "score": 1.96,
+      "z": 1.96,
       "label": "いつもより大きな変化"
     },
     {
@@ -117,23 +98,23 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "50%",
+      "value_display": "13.9m/s",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": 40.0,
-        "display": "+40.0pt",
+        "value": 2.2,
+        "display": "+2.2m/s",
         "direction": "up",
-        "prev_value": 10.0,
-        "prev_date": "2026-09-14"
+        "prev_value": 11.7,
+        "prev_date": "2026-09-13"
       },
-      "caption": "あすは所により雨",
-      "score": 1.5,
-      "z": 1.5,
-      "label": "いつもより大きな変化"
+      "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）",
+      "score": 1.25,
+      "z": 1.25,
+      "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-max",
@@ -174,6 +155,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "4.3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.9,
+        "display": "+1.9℃",
+        "direction": "up",
+        "prev_value": 2.4,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "夏でもひんやり",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
@@ -193,6 +193,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "18.1℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.3,
+        "display": "-3.3℃",
+        "direction": "down",
+        "prev_value": 21.4,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "父島28.4℃ と 真狩10.3℃ の差",
+      "score": 0.92,
+      "z": 0.92,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
@@ -209,25 +228,6 @@
       "caption": "柳井｜この3時間でいちばん激しく降った",
       "score": 0.56,
       "z": 0.56,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "5回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4,
-        "display": "-4回",
-        "direction": "down",
-        "prev_value": 9,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "最大は津軽海峡の震度3",
-      "score": 0.5,
-      "z": 0.5,
       "label": "通常の範囲"
     },
     {
@@ -269,6 +269,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "359地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 167,
+        "display": "+167地点",
+        "direction": "up",
+        "prev_value": 192,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.03,
+      "z": 0.03,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
@@ -291,19 +310,19 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "127mm",
+      "value_display": "140.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 43.5,
-        "display": "+43.5mm",
+        "value": 57.0,
+        "display": "+57mm",
         "direction": "up",
         "prev_value": 83.5,
         "prev_date": "2026-09-13"
       },
-      "caption": "仁別｜この24時間でいちばん降った",
+      "caption": "輪島｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -1.13,
+      "z": -0.92,
       "label": "通常の範囲"
     },
     {
@@ -345,25 +364,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "301地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 109,
-        "display": "+109地点",
-        "direction": "up",
-        "prev_value": 192,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
@@ -380,25 +380,6 @@
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
       "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "12.2m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.5,
-        "display": "+0.5m/s",
-        "direction": "up",
-        "prev_value": 11.7,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）",
-      "score": 0.0,
-      "z": -0.8,
       "label": "通常の範囲"
     },
     {
@@ -532,6 +513,25 @@
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": 0.0,
       "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "7回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2,
+        "display": "-2回",
+        "direction": "down",
+        "prev_value": 9,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "最大は熊本県熊本地方の震度3",
+      "score": 0.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
