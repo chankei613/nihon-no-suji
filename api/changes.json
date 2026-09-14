@@ -1,63 +1,44 @@
 {
-  "generated_at": "2026-09-14T10:31:47+09:00",
+  "generated_at": "2026-09-14T15:58:00+09:00",
   "date": "2026-09-14",
   "changes": [
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "6市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 6,
+        "display": "+6市町村",
+        "direction": "up",
+        "prev_value": 0,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "6市町村に気象警報",
+      "score": 6.0,
+      "z": 6.0,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "7.6℃",
+      "value_display": "6.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.2,
-        "display": "+5.2℃",
+        "value": 4.2,
+        "display": "+4.2℃",
         "direction": "up",
         "prev_value": 2.4,
         "prev_date": "2026-09-13"
       },
       "caption": "夏でもひんやり",
-      "score": 7.6,
-      "z": 7.6,
+      "score": 5.6,
+      "z": 5.6,
       "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "hot-points-30",
-      "name": "30℃以上になった地点数",
-      "category": "自然",
-      "value_display": "52地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -82,
-        "display": "-82地点",
-        "direction": "down",
-        "prev_value": 134,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "きょう30℃以上になった地点",
-      "score": 3.2,
-      "z": 3.2,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "15.5℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -5.9,
-        "display": "-5.9℃",
-        "direction": "down",
-        "prev_value": 21.4,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "南鳥島28.7℃ と ぬかびら源泉郷13.2℃ の差",
-      "score": 2.85,
-      "z": 2.85,
-      "label": "いつもより大きな変化"
     },
     {
       "slug": "min-temp",
@@ -79,41 +60,60 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "31℃",
+      "value_display": "16.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.0,
-        "display": "-3℃",
+        "value": -5.3,
+        "display": "-5.3℃",
         "direction": "down",
-        "prev_value": 34.0,
+        "prev_value": 21.4,
         "prev_date": "2026-09-13"
       },
-      "caption": "八尾｜きょう日本でいちばん暑い",
-      "score": 2.64,
-      "z": 2.64,
+      "caption": "浪江31.4℃ と 酸ケ湯15.3℃ の差",
+      "score": 2.38,
+      "z": 2.38,
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "2市町村",
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "32.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2市町村",
+        "value": 5.5,
+        "display": "+5.5℃",
         "direction": "up",
-        "prev_value": 0,
+        "prev_value": 26.7,
         "prev_date": "2026-09-13"
       },
-      "caption": "2市町村に気象警報",
-      "score": 2.0,
-      "z": 2.0,
+      "caption": "真夏日",
+      "score": 1.89,
+      "z": 1.89,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "value_display": "72地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -62,
+        "display": "-62地点",
+        "direction": "down",
+        "prev_value": 134,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "score": 1.87,
+      "z": 1.87,
       "label": "いつもより大きな変化"
     },
     {
@@ -155,22 +155,41 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "value_display": "1002.2hPa",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4.4,
+        "display": "-4.4hPa",
+        "direction": "down",
+        "prev_value": 1006.6,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "網走｜全国でいちばん気圧が低い",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "33%",
+      "value_display": "35%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 11.0,
-        "display": "+11.0pt",
+        "value": 13.0,
+        "display": "+13.0pt",
         "direction": "up",
         "prev_value": 22.0,
         "prev_date": "2026-09-13"
       },
-      "caption": "きょうのピークで電力の33%を太陽光がまかなった",
-      "score": 0.67,
-      "z": 0.67,
+      "caption": "きょうのピークで電力の35%を太陽光がまかなった",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -193,22 +212,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "29.3℃",
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "5回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.6,
-        "display": "+2.6℃",
-        "direction": "up",
-        "prev_value": 26.7,
+        "value": -4,
+        "display": "-4回",
+        "direction": "down",
+        "prev_value": 9,
         "prev_date": "2026-09-13"
       },
-      "caption": "きょうの東京の最高気温",
-      "score": 0.37,
-      "z": 0.37,
+      "caption": "最大は津軽海峡の震度3",
+      "score": 0.5,
+      "z": 0.5,
       "label": "通常の範囲"
     },
     {
@@ -231,22 +250,60 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "90%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 4.0,
+        "display": "+4.0pt",
+        "direction": "up",
+        "prev_value": 86.0,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "ピークは13:00〜14:00の見込み",
+      "score": 0.33,
+      "z": 0.33,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "110mm",
+      "value_display": "34.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 26.5,
-        "display": "+26.5mm",
+        "value": 0.1,
+        "display": "+0.1℃",
+        "direction": "up",
+        "prev_value": 34.0,
+        "prev_date": "2026-09-13"
+      },
+      "caption": "鹿屋｜きょう日本でいちばん暑い",
+      "score": 0.0,
+      "z": -1.42,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "127mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 43.5,
+        "display": "+43.5mm",
         "direction": "up",
         "prev_value": 83.5,
         "prev_date": "2026-09-13"
       },
-      "caption": "輪島｜この24時間でいちばん降った",
+      "caption": "仁別｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -1.37,
+      "z": -1.13,
       "label": "通常の範囲"
     },
     {
@@ -291,19 +348,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "227地点",
+      "value_display": "301地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 35,
-        "display": "+35地点",
+        "value": 109,
+        "display": "+109地点",
         "direction": "up",
         "prev_value": 192,
         "prev_date": "2026-09-13"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -326,60 +383,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
-      "category": "自然",
-      "value_display": "1004.9hPa",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1.7,
-        "display": "-1.7hPa",
-        "direction": "down",
-        "prev_value": 1006.6,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "網走｜全国でいちばん気圧が低い",
-      "score": 0.0,
-      "z": -0.4,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "11.5m/s",
+      "value_display": "12.2m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.2,
-        "display": "-0.2m/s",
-        "direction": "down",
+        "value": 0.5,
+        "display": "+0.5m/s",
+        "direction": "up",
         "prev_value": 11.7,
         "prev_date": "2026-09-13"
       },
-      "caption": "本泊｜全国でいちばん風が強い（10分平均）",
+      "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
-      "z": -1.4,
+      "z": -0.8,
       "label": "通常の範囲"
     },
     {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "46%",
+      "value_display": "39%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 9.0,
-        "display": "+9.0pt",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
         "prev_value": 37.0,
         "prev_date": "2026-09-13"
       },
-      "caption": "松本｜全国でいちばん空気が乾いている",
+      "caption": "留辺蘂｜全国でいちばん空気が乾いている",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.75,
       "label": "通常の範囲"
     },
     {
@@ -481,74 +519,36 @@
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "86.5%",
+      "value_display": "86.9%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -0.9,
-        "display": "-0.9pt",
+        "value": -0.5,
+        "display": "-0.5pt",
         "direction": "down",
         "prev_value": 87.4,
         "prev_date": "2026-09-13"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": 0.0,
-      "z": -0.2,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "89%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
-        "direction": "up",
-        "prev_value": 86.0,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "ピークは13:00〜14:00の見込み",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "7回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2,
-        "display": "-2回",
-        "direction": "down",
-        "prev_value": 9,
-        "prev_date": "2026-09-13"
-      },
-      "caption": "最大は津軽海峡の震度3",
-      "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "29℃",
+      "value_display": "28℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.0,
-        "display": "-2℃",
+        "value": -1.0,
+        "display": "-1℃",
         "direction": "down",
-        "prev_value": 31.0,
-        "prev_date": "2026-09-14"
+        "prev_value": 29.0,
+        "prev_date": "2026-09-15"
       },
-      "caption": "9月15日ごろがいちばん暑くなりそう",
+      "caption": "9月20日ごろがいちばん暑くなりそう",
       "score": null,
       "label": "データ蓄積中"
     },
