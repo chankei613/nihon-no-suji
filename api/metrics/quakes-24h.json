@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-16T03:26:04+09:00",
+  "updated_at": "2026-09-16T06:42:03+09:00",
   "summary": {
     "count": 15,
     "first_date": "2026-09-02",
     "last_date": "2026-09-16",
     "min_30d": 2,
     "max_30d": 12,
-    "avg_30d": 6.07
+    "avg_30d": 6.27
   },
   "history": [
     {
@@ -76,26 +76,26 @@
     },
     {
       "date": "2026-09-16",
-      "value": 5
+      "value": 8
     }
   ],
   "latest_detail": {
-    "caption": "最大は熊本県天草・芦北地方の震度2",
+    "caption": "最大は熊本県天草・芦北地方の震度4",
     "window_hours": 24,
-    "max_magnitude": 3,
+    "max_magnitude": 4,
     "strongest": {
-      "time": "2026-09-15T17:54:00+09:00",
-      "scale": 20,
+      "time": "2026-09-16T06:09:00+09:00",
+      "scale": 40,
       "name": "熊本県天草・芦北地方",
-      "magnitude": 2.5,
+      "magnitude": 4,
       "depth": 10
     },
     "latest": {
-      "time": "2026-09-16T03:17:00+09:00",
-      "scale": 10,
-      "name": "新島・神津島近海",
-      "magnitude": 2.7,
-      "depth": 10
+      "time": "2026-09-16T06:09:00+09:00",
+      "scale": 40,
+      "name": "",
+      "magnitude": -1,
+      "depth": -1
     },
     "capped": false
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T03:26:04+09:00",
+  "generated_at": "2026-09-16T06:42:03+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -84,12 +84,12 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "4.7℃",
+      "value_display": "4.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.5,
-        "display": "-1.5℃",
+        "value": -2.1,
+        "display": "-2.1℃",
         "direction": "down",
         "prev_value": 6.2,
         "prev_date": "2026-09-15"
@@ -153,7 +153,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 4.7
+          "value": 4.1
         }
       ]
     },
@@ -536,12 +536,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "69地点",
+      "value_display": "129地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -327,
-        "display": "-327地点",
+        "value": -267,
+        "display": "-267地点",
         "direction": "down",
         "prev_value": 396,
         "prev_date": "2026-09-15"
@@ -601,7 +601,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 69
+          "value": 129
         }
       ]
     },
@@ -610,12 +610,12 @@
       "name": "全国最大1時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "19.5mm",
+      "value_display": "29.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -17.0,
-        "display": "-17mm",
+        "value": -7.0,
+        "display": "-7mm",
         "direction": "down",
         "prev_value": 36.5,
         "prev_date": "2026-09-15"
@@ -675,7 +675,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 19.5
+          "value": 29.5
         }
       ]
     },
@@ -684,12 +684,12 @@
       "name": "全国最大3時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "30mm",
+      "value_display": "33mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -74.5,
-        "display": "-74.5mm",
+        "value": -71.5,
+        "display": "-71.5mm",
         "direction": "down",
         "prev_value": 104.5,
         "prev_date": "2026-09-15"
@@ -749,7 +749,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 30.0
+          "value": 33.0
         }
       ]
     },
@@ -832,15 +832,15 @@
       "name": "東京のあしたの最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "24℃",
+      "value_display": "23℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.0,
-        "display": "-4℃",
+        "value": -1.0,
+        "display": "-1℃",
         "direction": "down",
-        "prev_value": 28.0,
-        "prev_date": "2026-09-15"
+        "prev_value": 24.0,
+        "prev_date": "2026-09-16"
       },
       "points": [
         {
@@ -890,6 +890,10 @@
         {
           "date": "2026-09-16",
           "value": 24.0
+        },
+        {
+          "date": "2026-09-17",
+          "value": 23.0
         }
       ]
     },
@@ -898,15 +902,15 @@
       "name": "東京のあしたの最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "21℃",
+      "value_display": "18℃",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -3.0,
         "display": "-3℃",
         "direction": "down",
-        "prev_value": 24.0,
-        "prev_date": "2026-09-15"
+        "prev_value": 21.0,
+        "prev_date": "2026-09-16"
       },
       "points": [
         {
@@ -956,6 +960,10 @@
         {
           "date": "2026-09-16",
           "value": 21.0
+        },
+        {
+          "date": "2026-09-17",
+          "value": 18.0
         }
       ]
     },
@@ -1006,15 +1014,15 @@
       "name": "東京のあしたの降水確率",
       "category": "自然",
       "unit": "%",
-      "value_display": "80%",
+      "value_display": "70%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 20.0,
-        "display": "+20.0pt",
-        "direction": "up",
-        "prev_value": 60.0,
-        "prev_date": "2026-09-15"
+        "value": -10.0,
+        "display": "-10.0pt",
+        "direction": "down",
+        "prev_value": 80.0,
+        "prev_date": "2026-09-16"
       },
       "points": [
         {
@@ -1064,6 +1072,10 @@
         {
           "date": "2026-09-16",
           "value": 80.0
+        },
+        {
+          "date": "2026-09-17",
+          "value": 70.0
         }
       ]
     },
@@ -1142,12 +1154,12 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "9.9m/s",
+      "value_display": "10.1m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.1,
-        "display": "-1.1m/s",
+        "value": -0.9,
+        "display": "-0.9m/s",
         "direction": "down",
         "prev_value": 11.0,
         "prev_date": "2026-09-15"
@@ -1207,7 +1219,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 9.9
+          "value": 10.1
         }
       ]
     },
@@ -1216,12 +1228,12 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "56%",
+      "value_display": "54%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 16.0,
-        "display": "+16.0pt",
+        "value": 14.0,
+        "display": "+14.0pt",
         "direction": "up",
         "prev_value": 40.0,
         "prev_date": "2026-09-15"
@@ -1281,7 +1293,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 56.0
+          "value": 54.0
         }
       ]
     },
@@ -1290,13 +1302,13 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "4.4℃",
+      "value_display": "3.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.6,
-        "display": "+0.6℃",
-        "direction": "up",
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
         "prev_value": 3.8,
         "prev_date": "2026-09-15"
       },
@@ -1355,7 +1367,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 4.4
+          "value": 3.8
         }
       ]
     },
@@ -3258,15 +3270,15 @@
       "name": "琵琶湖の水位",
       "category": "自然",
       "unit": "cm",
-      "value_display": "-26cm",
+      "value_display": "-25cm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.0,
-        "display": "+2cm",
+        "value": 1.0,
+        "display": "+1cm",
         "direction": "up",
-        "prev_value": -28.0,
-        "prev_date": "2026-09-14"
+        "prev_value": -26.0,
+        "prev_date": "2026-09-15"
       },
       "points": [
         {
@@ -3328,6 +3340,10 @@
         {
           "date": "2026-09-15",
           "value": -26.0
+        },
+        {
+          "date": "2026-09-16",
+          "value": -25.0
         }
       ]
     },
@@ -3336,15 +3352,15 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value_display": "86.7%",
+      "value_display": "86.8%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -0.2,
-        "display": "-0.2pt",
-        "direction": "down",
-        "prev_value": 86.9,
-        "prev_date": "2026-09-14"
+        "value": 0.1,
+        "display": "+0.1pt",
+        "direction": "up",
+        "prev_value": 86.7,
+        "prev_date": "2026-09-15"
       },
       "points": [
         {
@@ -3406,6 +3422,10 @@
         {
           "date": "2026-09-15",
           "value": 86.7
+        },
+        {
+          "date": "2026-09-16",
+          "value": 86.8
         }
       ]
     },
@@ -3562,12 +3582,12 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "5回",
+      "value_display": "8回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1回",
+        "value": 4,
+        "display": "+4回",
         "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-09-15"
@@ -3631,7 +3651,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 5
+          "value": 8
         }
       ]
     },
@@ -3640,7 +3660,7 @@
       "name": "この1週間の最大震度",
       "category": "防災",
       "unit": "",
-      "value_display": "震度3",
+      "value_display": "震度4",
       "change": {
         "type": "absolute",
         "available": false,
@@ -3698,7 +3718,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 30.0
+          "value": 40.0
         }
       ]
     },
