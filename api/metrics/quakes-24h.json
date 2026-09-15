@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-15T22:49:41+09:00",
+  "updated_at": "2026-09-16T03:26:04+09:00",
   "summary": {
-    "count": 14,
+    "count": 15,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-15",
+    "last_date": "2026-09-16",
     "min_30d": 2,
     "max_30d": 12,
-    "avg_30d": 6.14
+    "avg_30d": 6.07
   },
   "history": [
     {
@@ -73,6 +73,10 @@
     {
       "date": "2026-09-15",
       "value": 4
+    },
+    {
+      "date": "2026-09-16",
+      "value": 5
     }
   ],
   "latest_detail": {
@@ -87,11 +91,11 @@
       "depth": 10
     },
     "latest": {
-      "time": "2026-09-15T18:01:00+09:00",
+      "time": "2026-09-16T03:17:00+09:00",
       "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 2.3,
-      "depth": 0
+      "name": "新島・神津島近海",
+      "magnitude": 2.7,
+      "depth": 10
     },
     "capped": false
   }
