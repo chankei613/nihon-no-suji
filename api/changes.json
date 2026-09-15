@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-15T16:59:52+09:00",
+  "generated_at": "2026-09-15T22:49:41+09:00",
   "date": "2026-09-15",
   "changes": [
     {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "6.7℃",
+      "value_display": "6.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.0,
-        "display": "-5℃",
+        "value": -5.5,
+        "display": "-5.5℃",
         "direction": "down",
         "prev_value": 11.7,
         "prev_date": "2026-09-14"
       },
-      "caption": "中頓別｜きょう日本でいちばん寒い",
-      "score": 2.42,
-      "z": 2.42,
+      "caption": "天塩｜きょう日本でいちばん寒い",
+      "score": 2.83,
+      "z": 2.83,
       "label": "いつもより大きな変化"
     },
     {
@@ -139,17 +139,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "0市町村",
+      "value_display": "2市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3市町村",
+        "value": -1,
+        "display": "-1市町村",
         "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-09-14"
       },
-      "caption": "いま気象警報は出ていない",
+      "caption": "2市町村に気象警報",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -174,6 +174,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "22.2℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 4.1,
+        "display": "+4.1℃",
+        "direction": "up",
+        "prev_value": 18.1,
+        "prev_date": "2026-09-14"
+      },
+      "caption": "南鳥島28.6℃ と 天塩6.4℃ の差",
+      "score": 0.93,
+      "z": 0.93,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
@@ -190,6 +209,25 @@
       "caption": "きょうの東京の最高気温",
       "score": 0.76,
       "z": 0.76,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "4回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3,
+        "display": "-3回",
+        "direction": "down",
+        "prev_value": 7,
+        "prev_date": "2026-09-14"
+      },
+      "caption": "最大は熊本県天草・芦北地方の震度2",
+      "score": 0.5,
+      "z": 0.5,
       "label": "通常の範囲"
     },
     {
@@ -272,19 +310,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "367地点",
+      "value_display": "396地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 8,
-        "display": "+8地点",
+        "value": 37,
+        "display": "+37地点",
         "direction": "up",
         "prev_value": 359,
         "prev_date": "2026-09-14"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.46,
+      "z": -1.13,
       "label": "通常の範囲"
     },
     {
@@ -310,38 +348,19 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "71mm",
+      "value_display": "104.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -23.5,
-        "display": "-23.5mm",
-        "direction": "down",
+        "value": 10.0,
+        "display": "+10mm",
+        "direction": "up",
         "prev_value": 94.5,
         "prev_date": "2026-09-14"
       },
-      "caption": "古江｜この3時間でいちばん激しく降った",
+      "caption": "那覇｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.92,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "20℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.9,
-        "display": "+1.9℃",
-        "direction": "up",
-        "prev_value": 18.1,
-        "prev_date": "2026-09-14"
-      },
-      "caption": "父島27.9℃ と 中頓別7.9℃ の差",
-      "score": 0.0,
-      "z": -0.13,
+      "z": -1.47,
       "label": "通常の範囲"
     },
     {
@@ -424,13 +443,13 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "4.8℃",
+      "value_display": "3.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.5,
-        "display": "+0.5℃",
-        "direction": "up",
+        "value": -0.5,
+        "display": "-0.5℃",
+        "direction": "down",
         "prev_value": 4.3,
         "prev_date": "2026-09-14"
       },
@@ -532,25 +551,6 @@
       "caption": "ピークは14:00〜15:00の見込み",
       "score": 0.0,
       "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "6回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1,
-        "display": "-1回",
-        "direction": "down",
-        "prev_value": 7,
-        "prev_date": "2026-09-14"
-      },
-      "caption": "最大は熊本県熊本地方の震度3",
-      "score": 0.0,
-      "z": -0.5,
       "label": "通常の範囲"
     },
     {
