@@ -1,45 +1,7 @@
 {
-  "generated_at": "2026-09-15T07:43:29+09:00",
+  "generated_at": "2026-09-15T10:49:51+09:00",
   "date": "2026-09-15",
   "changes": [
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "28.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -5.7,
-        "display": "-5.7℃",
-        "direction": "down",
-        "prev_value": 34.1,
-        "prev_date": "2026-09-14"
-      },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 5.87,
-      "z": 5.87,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "2%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -33.0,
-        "display": "-33.0pt",
-        "direction": "down",
-        "prev_value": 35.0,
-        "prev_date": "2026-09-14"
-      },
-      "caption": "きょうのピークで電力の2%を太陽光がまかなった",
-      "score": 3.92,
-      "z": 3.92,
-      "label": "かなり珍しい変化"
-    },
     {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
@@ -58,6 +20,25 @@
       "score": 3.0,
       "z": 3.0,
       "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "9%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -26.0,
+        "display": "-26.0pt",
+        "direction": "down",
+        "prev_value": 35.0,
+        "prev_date": "2026-09-14"
+      },
+      "caption": "きょうのピークで電力の9%を太陽光がまかなった",
+      "score": 2.85,
+      "z": 2.85,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "min-temp",
@@ -79,22 +60,22 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "hot-points-30",
-      "name": "30℃以上になった地点数",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "31.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -72,
-        "display": "-72地点",
+        "value": -2.7,
+        "display": "-2.7℃",
         "direction": "down",
-        "prev_value": 72,
+        "prev_value": 34.1,
         "prev_date": "2026-09-14"
       },
-      "caption": "きょう30℃以上になった地点",
-      "score": 2.11,
-      "z": 2.11,
+      "caption": "肝付前田｜きょう日本でいちばん暑い",
+      "score": 2.12,
+      "z": 2.12,
       "label": "いつもより大きな変化"
     },
     {
@@ -114,6 +95,25 @@
       "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）",
       "score": 1.78,
       "z": 1.78,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "value_display": "7地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -65,
+        "display": "-65地点",
+        "direction": "down",
+        "prev_value": 72,
+        "prev_date": "2026-09-14"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "score": 1.71,
+      "z": 1.71,
       "label": "いつもより大きな変化"
     },
     {
@@ -155,20 +155,39 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "2市町村",
+      "slug": "usd-jpy",
+      "name": "ドル円レート",
+      "category": "経済",
+      "value_display": "154.22円",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1市町村",
+        "value": 0.81,
+        "display": "+0.81円",
+        "direction": "up",
+        "prev_value": 153.41,
+        "prev_date": "2026-09-10"
+      },
+      "caption": "1ドル＝154.22円（9月11日）",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3,
+        "display": "-3市町村",
         "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-09-14"
       },
-      "caption": "2市町村に気象警報",
+      "caption": "いま気象警報は出ていない",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -253,19 +272,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "267地点",
+      "value_display": "328地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -92,
-        "display": "-92地点",
+        "value": -31,
+        "display": "-31地点",
         "direction": "down",
         "prev_value": 359,
         "prev_date": "2026-09-14"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.64,
+      "z": -1.2,
       "label": "通常の範囲"
     },
     {
@@ -326,6 +345,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "tokyo-week-max-forecast",
+      "name": "今週いちばん暑くなりそうな日の予想最高気温",
+      "category": "自然",
+      "value_display": "27℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
+        "prev_value": 28.0,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "9月21日ごろがいちばん暑くなりそう",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
@@ -367,38 +405,38 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "42%",
+      "value_display": "40%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
+        "value": 1.0,
+        "display": "+1.0pt",
         "direction": "up",
         "prev_value": 39.0,
         "prev_date": "2026-09-14"
       },
-      "caption": "礼文｜全国でいちばん空気が乾いている",
+      "caption": "興部｜全国でいちばん空気が乾いている",
       "score": 0.0,
-      "z": -1.0,
+      "z": -1.27,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "5.1℃",
+      "value_display": "3.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.8,
-        "display": "+0.8℃",
-        "direction": "up",
+        "value": -0.7,
+        "display": "-0.7℃",
+        "direction": "down",
         "prev_value": 4.3,
         "prev_date": "2026-09-14"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.0,
+      "z": -1.11,
       "label": "通常の範囲"
     },
     {
@@ -418,25 +456,6 @@
       "caption": "レギュラーガソリン全国平均（9月7日調査）",
       "score": 0.0,
       "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "usd-jpy",
-      "name": "ドル円レート",
-      "category": "経済",
-      "value_display": "153.41円",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.29,
-        "display": "+0.29円",
-        "direction": "up",
-        "prev_value": 153.12,
-        "prev_date": "2026-09-09"
-      },
-      "caption": "1ドル＝153.41円（9月10日）",
-      "score": 0.0,
-      "z": -1.78,
       "label": "通常の範囲"
     },
     {
@@ -500,57 +519,39 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "93%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 90.0,
         "prev_date": "2026-09-14"
       },
-      "caption": "ピークは15:00〜16:00の見込み",
+      "caption": "ピークは14:00〜15:00の見込み",
       "score": 0.0,
-      "z": 0.0,
+      "z": -3.0,
       "label": "通常の範囲"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "7回",
+      "value_display": "8回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": 1,
+        "display": "+1回",
+        "direction": "up",
         "prev_value": 7,
         "prev_date": "2026-09-14"
       },
       "caption": "最大は熊本県熊本地方の震度3",
       "score": 0.0,
-      "z": -1.0,
+      "z": -0.5,
       "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-week-max-forecast",
-      "name": "今週いちばん暑くなりそうな日の予想最高気温",
-      "category": "自然",
-      "value_display": "28℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1.0,
-        "display": "-1℃",
-        "direction": "down",
-        "prev_value": 29.0,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "9月20日ごろがいちばん暑くなりそう",
-      "score": null,
-      "label": "データ蓄積中"
     },
     {
       "slug": "days-to-sekki",
