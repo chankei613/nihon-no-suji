@@ -21,6 +21,7 @@ WARNING_CODES = {"02", "03", "04", "05", "06", "07", "08"}
 EMERGENCY_CODES = {"32", "33", "35", "36", "37", "38"}
 HEAVY_RAIN_CODE = "03"  # 大雨警報
 FLOOD_CODE = "04"       # 洪水警報
+SEDIMENT_CODE = "49"    # 土砂災害警戒情報（警報・注意報とは別枠のkindsコード）
 NONE_STATUS = "発表警報・注意報はなし"
 ACTIVE_STATUS = {"発表", "継続"}
 
@@ -49,8 +50,9 @@ def collect() -> list[Observation]:
     # 発表官署ごとの最新報で上書きしたいので reportDatetime 昇順に処理
     reports.sort(key=lambda r: r.get("reportDatetime", ""))
 
-    # areaCode -> 現在有効な警報コードの集合
+    # areaCode -> 現在有効な警報コードの集合（土砂災害警戒情報は警報・注意報の集計を汚さないよう別集合で管理）
     state: dict[str, set[str]] = {}
+    sediment_state: dict[str, set[str]] = {}
     for rep in reports:
         for item in (rep.get("warning") or {}).get("class20Items", []):
             code = str(item.get("areaCode", ""))
@@ -59,10 +61,18 @@ def collect() -> list[Observation]:
             kinds = item.get("kinds", [])
             if any(k.get("status") == NONE_STATUS for k in kinds):
                 state[code] = set()
+                sediment_state[code] = set()
                 continue
             cur = state.setdefault(code, set())
+            sed = sediment_state.setdefault(code, set())
             for k in kinds:
                 c, st = k.get("code"), k.get("status")
+                if c == SEDIMENT_CODE:
+                    if st in ACTIVE_STATUS:
+                        sed.add(c)
+                    elif st == "解除":
+                        sed.discard(c)
+                    continue
                 if c not in WARNING_CODES and c not in EMERGENCY_CODES:
                     continue
                 if st in ACTIVE_STATUS:
@@ -83,6 +93,7 @@ def collect() -> list[Observation]:
 
     heavy_rain = {a for a, codes in state.items() if HEAVY_RAIN_CODE in codes}
     flood = {a for a, codes in state.items() if FLOOD_CODE in codes}
+    sediment = {a for a, codes in sediment_state.items() if codes}
 
     observed_at = (latest or now_jst()).isoformat(timespec="seconds")
     out = [Observation("warned-municipalities", n, observed_at,
@@ -92,5 +103,8 @@ def collect() -> list[Observation]:
     }))
     out.append(Observation("flood-warned-municipalities", len(flood), observed_at, {
         "caption": f"{len(flood)}市町村に洪水警報" if flood else "いま洪水警報は出ていない",
+    }))
+    out.append(Observation("sediment-warning-municipalities", len(sediment), observed_at, {
+        "caption": f"{len(sediment)}市町村に土砂災害警戒情報" if sediment else "いま土砂災害警戒情報は出ていない",
     }))
     return out
