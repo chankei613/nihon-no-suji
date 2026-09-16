@@ -8,9 +8,14 @@ appId の取り方: https://www.e-stat.go.jp/mypage/user/preregister で登録
 
 統計表(statsDataId)ごとに分類コードの構成が違うため、まず getMetaInfo で
 メタ情報を取り、「総数」的なコードを名前から動的に選んでから getStatsData を叩く。
+ただし分類の選択肢名に「総数」等の手がかりが無い軸（就業状態・費目など）は
+_total_filters() で自動判定できないので、各 _fetch_xxx() 内で明示的に指定する。
 
 参考: e-Stat API仕様 https://www.e-stat.go.jp/api/api-info/e-stat-manual3-0
-実レスポンスで確認済み: 2026-09-05（statsDataId=0003443838 人口推計）
+実レスポンスで確認済み:
+  2026-09-05  statsDataId=0003443838 人口推計
+  2026-09-16  statsDataId=0003005865 労働力調査（完全失業率）
+  2026-09-16  statsDataId=0004052037 消費者物価指数（2025年基準・前年同月比）
 """
 from __future__ import annotations
 
@@ -124,6 +129,52 @@ def _fetch_population(app_id: str) -> Observation | None:
         return None
 
 
+def _fetch_unemployment_rate(app_id: str) -> Observation | None:
+    stats_data_id = "0003005865"  # 労働力調査 基本集計 全国 月次
+    # cat02=08 完全失業者、cat03=0 総数（男女計）。ここは「総数」表記が無く
+    # _total_filters() で自動判定できない分類軸なので明示的に指定する。
+    try:
+        filters = {"appId": app_id, "statsDataId": stats_data_id, "metaGetFlg": "N",
+                   "cdCat02": "08", "cdCat03": "0"}
+        data = _get("getStatsData", **filters)
+        v = _latest_by_time(_values(data))
+        if v is None:
+            print("  ! estat unemployment: 値が取れない")
+            return None
+        return Observation(
+            "unemployment-rate", round(float(v["$"]), 1),
+            now_jst().date().isoformat() + "T00:00:00+09:00",
+            {"time_code": v.get("@time"),
+             "caption": "総務省統計局 労働力調査（完全失業率）"},
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"  ! estat unemployment: {exc}")
+        return None
+
+
+def _fetch_cpi_yoy(app_id: str) -> Observation | None:
+    stats_data_id = "0004052037"  # 2025年基準消費者物価指数
+    # tab=3 前年同月比、cat01=0001 総合、area=00000 全国。
+    # 「総合」は _total_filters() の「総数」系ヒントに一致しないので明示指定。
+    try:
+        filters = {"appId": app_id, "statsDataId": stats_data_id, "metaGetFlg": "N",
+                   "cdTab": "3", "cdCat01": "0001", "cdArea": "00000"}
+        data = _get("getStatsData", **filters)
+        v = _latest_by_time(_values(data))
+        if v is None:
+            print("  ! estat cpi: 値が取れない")
+            return None
+        return Observation(
+            "cpi-yoy", round(float(v["$"]), 1),
+            now_jst().date().isoformat() + "T00:00:00+09:00",
+            {"time_code": v.get("@time"),
+             "caption": "総務省統計局 消費者物価指数（生鮮食品を含む総合・前年同月比）"},
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"  ! estat cpi: {exc}")
+        return None
+
+
 def collect() -> list[Observation]:
     app_id = _app_id()
     if not app_id:
@@ -131,7 +182,8 @@ def collect() -> list[Observation]:
         return []
 
     out: list[Observation] = []
-    pop = _fetch_population(app_id)
-    if pop:
-        out.append(pop)
+    for fn in (_fetch_population, _fetch_unemployment_rate, _fetch_cpi_yoy):
+        obs = fn(app_id)
+        if obs:
+            out.append(obs)
     return out

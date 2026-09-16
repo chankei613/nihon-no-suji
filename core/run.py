@@ -26,8 +26,8 @@ EXPECTED_MIN = {
     "jma_rank": 4, "jma_amedas": 8, "jma_forecast": 1, "jma_typhoon": 1, "jma_warning": 0,
     "jma_volcano": 1, "jma_sakura": 2,
     "mlit_water": 2, "tepco_pg": 1, "p2pquake": 1, "enecho_gas": 1, "boj_fx": 1, "astro": 7,
-    # ESTAT_APP_ID を secret 登録済み（2026-09-16）。japan-population が毎回1件返るはず。
-    "estat": 1,
+    # ESTAT_APP_ID を secret 登録済み（2026-09-16）。人口・完全失業率・CPIの3件が毎回返るはず。
+    "estat": 3,
 }
 
 
