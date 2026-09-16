@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-09-16T21:48:16+09:00",
+  "updated_at": "2026-09-17T02:43:34+09:00",
   "summary": {
-    "count": 14,
+    "count": 15,
     "first_date": "2026-09-03",
-    "last_date": "2026-09-16",
+    "last_date": "2026-09-17",
     "min_30d": 0,
     "max_30d": 2,
-    "avg_30d": 0.36
+    "avg_30d": 0.4
   },
   "history": [
     {
@@ -73,10 +73,24 @@
     {
       "date": "2026-09-16",
       "value": 0
+    },
+    {
+      "date": "2026-09-17",
+      "value": 1
     }
   ],
   "latest_detail": {
-    "typhoons": [],
-    "caption": "いま発生している台風はない"
+    "typhoons": [
+      {
+        "number": "2625",
+        "name": "ドゥージェン",
+        "category": "TS",
+        "pressure": "998",
+        "location": "マリアナ諸島",
+        "course": "北北東",
+        "typhoon_number": "2625"
+      }
+    ],
+    "caption": "台風25号「ドゥージェン」がマリアナ諸島"
   }
 }
