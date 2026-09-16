@@ -24,7 +24,9 @@ COLLECTORS = ["jma_rank", "jma_amedas", "jma_forecast", "jma_typhoon", "jma_warn
 # これを下回ったら degraded 扱いにする（形式変更の早期検知）。
 EXPECTED_MIN = {
     "jma_rank": 4, "jma_amedas": 5, "jma_forecast": 1, "jma_typhoon": 1, "jma_warning": 0,
-    "mlit_water": 2, "tepco_pg": 1, "p2pquake": 1, "enecho_gas": 1, "boj_fx": 1, "estat": 0, "astro": 7,
+    "mlit_water": 2, "tepco_pg": 1, "p2pquake": 1, "enecho_gas": 1, "boj_fx": 1, "astro": 7,
+    # estat は ESTAT_APP_ID 未設定だと [] を返すのが正常なので 0。secret 登録後に 1 へ。
+    "estat": 0,
 }
 
 

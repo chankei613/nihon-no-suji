@@ -6,23 +6,24 @@
 appId の取り方: https://www.e-stat.go.jp/mypage/user/preregister で登録
 → メール確認 → マイページ「API機能」で即時発行。
 
-⚠️ 実際の appId で一度も検証していない（2026-09-05時点）。
-   統計表(statsDataId)ごとに分類コードの構成が違うため、まず getMetaInfo で
-   コードを名前から動的に解決してから getStatsData を叩く設計にしている。
-   appId が使えるようになったら最初の実行結果を必ず確認すること。
+統計表(statsDataId)ごとに分類コードの構成が違うため、まず getMetaInfo で
+メタ情報を取り、「総数」的なコードを名前から動的に選んでから getStatsData を叩く。
 
 参考: e-Stat API仕様 https://www.e-stat.go.jp/api/api-info/e-stat-manual3-0
+実レスポンスで確認済み: 2026-09-05（statsDataId=0003443838 人口推計）
 """
 from __future__ import annotations
 
 import json
 import os
-from datetime import datetime
 
 from core.http import fetch
 from core.models import Observation, now_jst
 
 BASE = "https://api.e-stat.go.jp/rest/3.0/app/json"
+
+# 分類軸の中から「合計」を意味するコードを選ぶための手がかり
+_TOTAL_HINTS = ("総数", "総人口", "男女計", "全国", "合計", "全age")
 
 
 def _app_id() -> str | None:
@@ -43,19 +44,38 @@ def _as_list(x):
 
 
 def _class_objs(meta: dict) -> list[dict]:
-    return _as_list(meta["GET_META_INFO"]["METADATA_INF"]["CLASS_OBJ"])
+    """分類オブジェクト一覧。実レスポンスは METADATA_INF > CLASS_INF > CLASS_OBJ。"""
+    inf = meta["GET_META_INFO"]["METADATA_INF"]
+    node = inf.get("CLASS_INF", inf)
+    return _as_list(node.get("CLASS_OBJ"))
 
 
-def _code_by_name(meta: dict, class_id: str, name_substrings: tuple[str, ...]) -> str | None:
-    """指定した分類軸(class_id)の中から、名前に name_substrings のどれかを含むコードを探す。"""
+def _cd_param(class_id: str) -> str:
+    """分類軸ID → getStatsData の絞り込みパラメータ名（"cat01"→"cdCat01", "area"→"cdArea"）。"""
+    return "cd" + class_id[:1].upper() + class_id[1:]
+
+
+def _total_filters(meta: dict) -> dict:
+    """各分類軸について、選択肢が複数あるものは「総数」相当のコードで絞り込む。
+
+    時間軸(time)は最新値がほしいので絞らない。選択肢が1つだけの軸も指定不要。
+    どの選択肢が「総数」か判定できない軸があると、絞り込み漏れで別カテゴリの値を
+    拾ってしまう危険があるため、その場合は黙って進めずエラーにする。
+    """
+    filters: dict[str, str] = {}
     for obj in _class_objs(meta):
-        if obj.get("@id") != class_id:
+        cid = obj.get("@id", "")
+        if cid == "time":
             continue
-        for c in _as_list(obj.get("CLASS")):
-            name = c.get("@name", "")
-            if any(s in name for s in name_substrings):
-                return c.get("@code")
-    return None
+        classes = _as_list(obj.get("CLASS"))
+        if len(classes) <= 1:
+            continue
+        code = next((c.get("@code") for c in classes
+                     if any(h in c.get("@name", "") for h in _TOTAL_HINTS)), None)
+        if code is None:
+            raise ValueError(f"「総数」相当のコードが見つからない分類軸: {cid}")
+        filters[_cd_param(cid)] = code
+    return filters
 
 
 def _values(data: dict) -> list[dict]:
@@ -63,11 +83,19 @@ def _values(data: dict) -> list[dict]:
 
 
 def _latest_by_time(values: list[dict]) -> dict | None:
-    def key(v: dict):
-        # @time は "2026000908" のような形式のことが多い（年+月コード等）。文字列比較で概ね時系列順になる。
-        return v.get("@time", "")
-    good = [v for v in values if v.get("$") not in (None, "", "-", "***")]
-    return max(good, key=key, default=None)
+    good = [v for v in values if v.get("$") not in (None, "", "-", "***", "X")]
+    return max(good, key=lambda v: v.get("@time", ""), default=None)
+
+
+def _scale(unit: str) -> int:
+    """単位表記から人数へのスケール（"万人"→10000 など）。"""
+    if "百万" in unit:
+        return 1_000_000
+    if "万" in unit:
+        return 10_000
+    if "千" in unit:
+        return 1_000
+    return 1
 
 
 # ---------------------------------------------------------------- 個別の統計
@@ -76,24 +104,18 @@ def _fetch_population(app_id: str) -> Observation | None:
     stats_data_id = "0003443838"  # 人口推計 各月1日現在人口（概算値）
     try:
         meta = _get("getMetaInfo", appId=app_id, statsDataId=stats_data_id)
-        cat01 = _code_by_name(meta, "cat01", ("総数", "男女計"))
-        area = _code_by_name(meta, "area", ("全国",))
-        filters = {"appId": app_id, "statsDataId": stats_data_id}
-        if cat01:
-            filters["cdCat01"] = cat01
-        if area:
-            filters["cdArea"] = area
+        filters = {"appId": app_id, "statsDataId": stats_data_id, "metaGetFlg": "N"}
+        filters.update(_total_filters(meta))
         data = _get("getStatsData", **filters)
         v = _latest_by_time(_values(data))
         if v is None:
             print("  ! estat population: 値が取れない")
             return None
-        value = float(v["$"])
         unit = v.get("@unit", "")
-        if "千人" in unit:
-            value *= 1000
+        value = float(v["$"]) * _scale(unit)
         return Observation(
-            "japan-population", round(value), now_jst().date().isoformat() + "T00:00:00+09:00",
+            "japan-population", round(value),
+            now_jst().date().isoformat() + "T00:00:00+09:00",
             {"time_code": v.get("@time"), "unit_raw": unit,
              "caption": "総務省統計局 人口推計（各月1日現在・概算値）"},
         )

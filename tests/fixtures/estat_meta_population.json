@@ -2,22 +2,29 @@
   "GET_META_INFO": {
     "RESULT": {"STATUS": 0, "ERROR_MSG": "正常終了。"},
     "METADATA_INF": {
-      "CLASS_OBJ": [
-        {"@id": "tab", "@name": "表章項目", "CLASS": {"@code": "020", "@name": "人口【総数】"}},
-        {"@id": "cat01", "@name": "男女", "CLASS": [
-          {"@code": "100", "@name": "総数"},
-          {"@code": "200", "@name": "男"},
-          {"@code": "300", "@name": "女"}
-        ]},
-        {"@id": "area", "@name": "地域", "CLASS": [
-          {"@code": "00000", "@name": "全国"},
-          {"@code": "01000", "@name": "北海道"}
-        ]},
-        {"@id": "time", "@name": "時間軸", "CLASS": [
-          {"@code": "2026070000", "@name": "2026年07月"},
-          {"@code": "2026080000", "@name": "2026年08月"}
-        ]}
-      ]
+      "TABLE_INF": {"@id": "0003443838"},
+      "CLASS_INF": {
+        "CLASS_OBJ": [
+          {"@id": "tab", "@name": "表章項目", "CLASS": {"@code": "001", "@name": "人口", "@unit": "万人"}},
+          {"@id": "cat01", "@name": "人口", "CLASS": {"@code": "001", "@name": "総人口"}},
+          {"@id": "cat02", "@name": "男女別", "CLASS": [
+            {"@code": "000", "@name": "男女計"},
+            {"@code": "001", "@name": "男"},
+            {"@code": "002", "@name": "女"}
+          ]},
+          {"@id": "cat03", "@name": "年齢5歳階級", "CLASS": [
+            {"@code": "01000", "@name": "総数"},
+            {"@code": "01001", "@name": "0～4歳"},
+            {"@code": "01002", "@name": "5～9歳"}
+          ]},
+          {"@id": "cat04", "@name": "概算値", "CLASS": {"@code": "01", "@name": "概算値"}},
+          {"@id": "area", "@name": "全国", "CLASS": {"@code": "00000", "@name": "全国"}},
+          {"@id": "time", "@name": "時間軸（年月日現在）", "CLASS": [
+            {"@code": "2026000707", "@name": "2026年7月"},
+            {"@code": "2026000808", "@name": "2026年8月"}
+          ]}
+        ]
+      }
     }
   }
 }

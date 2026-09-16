@@ -163,7 +163,10 @@ def _value_display(metric: dict, record: dict) -> str:
                   50: "5強", 55: "6弱", 60: "6強", 70: "7"}
         return "震度" + labels.get(int(round(record["value"])), "—")
     v = record["value"]
-    s = f"{v:g}"
+    if v == int(v) and abs(v) >= 1000:
+        s = f"{int(v):,}"  # 大きな整数は桁区切り（例: 122,680,000）
+    else:
+        s = f"{v:g}"
     return f"{s}{unit}" if unit else s
 
 
