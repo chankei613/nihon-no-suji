@@ -3,60 +3,289 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+(function(){
+  try {
+    var s = localStorage.getItem("nns-skin");
+    if (s && s !== "default") document.documentElement.setAttribute("data-skin", s);
+  } catch (e) {}
+})();
+</script>
 <title>日本の数字</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=DotGothic16&display=swap" rel="stylesheet">
 <style>
-  :root { --ink:#1a1a1a; --sub:#8a8a86; --bg:#faf8f4; --line:#e9e5dd;
-    --up:#4a2420; --down:#56646f; }
+  :root {
+    --ink:#1a1a1a; --sub:#8a8a86; --bg:#faf8f4; --line:#e9e5dd;
+    --up:#4a2420; --down:#56646f;
+    --na-color:var(--line);
+    --page-bg-image:none;
+    --surface-bg:var(--bg); --surface-blur:none;
+    --hover-bg:rgba(0,0,0,.05);
+    --card-padding:30px 0 26px; --card-first-padding-top:10px;
+    --card-border-top:1px solid var(--line); --card-border-x:none; --card-border-bottom:none;
+    --card-first-top:none; --card-radius:0px;
+    --card-shadow:none; --card-margin-bottom:0px;
+    --clock-padding:8px 0 26px; --clock-margin-bottom:0px;
+    --clock-border:none; --clock-radius:0px; --clock-shadow:none;
+    --menu-radius:12px;
+    --section-title-padding:34px 0 6px;
+    --value-font-size:44px; --footer-margin-top:40px;
+  }
+  :root[data-skin="neumorphism"] {
+    --ink:#3a362e; --sub:#8a8478; --bg:#eae7e0; --line:transparent;
+    --up:#4a2420; --down:#3f4d57;
+    --shadow-light:#ffffff; --shadow-dark:#c7c1b3;
+    --na-color:rgba(138,132,120,.4);
+    --card-padding:22px 22px 20px; --card-first-padding-top:22px;
+    --card-border-top:none; --card-radius:20px;
+    --card-shadow:8px 8px 16px var(--shadow-dark), -8px -8px 16px var(--shadow-light);
+    --card-margin-bottom:16px;
+    --clock-padding:22px 24px; --clock-margin-bottom:26px;
+    --clock-radius:24px;
+    --clock-shadow:inset 7px 7px 14px var(--shadow-dark), inset -7px -7px 14px var(--shadow-light);
+    --section-title-padding:8px 0 10px 4px;
+    --value-font-size:40px; --footer-margin-top:24px;
+  }
+  :root[data-skin="liquid-glass"] {
+    --ink:#1a1f2b; --sub:#5b6472; --bg:#eef1f6; --line:rgba(255,255,255,.6);
+    --up:#d1453d; --down:#2f6fb3;
+    --na-color:rgba(91,100,114,.4);
+    --page-bg-image:
+      radial-gradient(38% 30% at 12% 18%, rgba(255,138,178,.55), transparent 60%),
+      radial-gradient(45% 35% at 88% 12%, rgba(120,170,255,.55), transparent 60%),
+      radial-gradient(50% 40% at 25% 92%, rgba(150,255,210,.45), transparent 60%),
+      radial-gradient(42% 35% at 92% 88%, rgba(200,160,255,.5), transparent 60%);
+    --surface-bg:rgba(255,255,255,.4); --surface-blur:blur(20px) saturate(180%);
+    --card-padding:22px 22px 20px; --card-first-padding-top:22px;
+    --card-border-top:1px solid var(--line); --card-border-x:1px solid var(--line);
+    --card-border-bottom:1px solid var(--line); --card-first-top:1px solid var(--line);
+    --card-radius:26px; --card-shadow:0 8px 32px rgba(31,41,55,.15); --card-margin-bottom:16px;
+    --clock-padding:22px 24px; --clock-margin-bottom:26px;
+    --clock-border:1px solid var(--line); --clock-radius:26px;
+    --clock-shadow:0 8px 32px rgba(31,41,55,.12);
+    --menu-radius:18px;
+    --section-title-padding:8px 0 10px 4px;
+    --value-font-size:40px; --footer-margin-top:24px;
+  }
+  :root[data-skin="material"] {
+    --ink:#1c1b1f; --sub:#79747e; --bg:#fef7ff; --line:transparent;
+    --up:#b3261e; --down:#1a73e8;
+    --na-color:rgba(121,116,126,.4);
+    --surface-bg:#ffffff; --surface-blur:none;
+    --card-padding:20px 20px 18px; --card-first-padding-top:20px;
+    --card-border-top:none; --card-border-x:none; --card-border-bottom:none; --card-first-top:none;
+    --card-radius:16px;
+    --card-shadow:0 1px 2px rgba(0,0,0,.3), 0 1px 3px 1px rgba(0,0,0,.15);
+    --card-margin-bottom:12px;
+    --clock-padding:20px 22px; --clock-margin-bottom:22px;
+    --clock-border:none; --clock-radius:20px;
+    --clock-shadow:0 1px 2px rgba(0,0,0,.3), 0 2px 6px 2px rgba(0,0,0,.15);
+    --menu-radius:16px;
+    --section-title-padding:8px 0 10px 4px;
+    --value-font-size:40px; --footer-margin-top:24px;
+  }
+  :root[data-skin="ios"] {
+    --ink:#1c1c1e; --sub:#8e8e93; --bg:#f2f2f7; --line:rgba(60,60,67,.15);
+    --up:#ff3b30; --down:#007aff;
+    --na-color:rgba(142,142,147,.5);
+    --surface-bg:#ffffff; --surface-blur:none;
+    --card-padding:14px 16px; --card-first-padding-top:14px;
+    --card-border-top:none; --card-border-x:none; --card-border-bottom:none; --card-first-top:none;
+    --card-radius:14px;
+    --card-shadow:0 1px 2px rgba(0,0,0,.06);
+    --card-margin-bottom:10px;
+    --clock-padding:18px 20px; --clock-margin-bottom:20px;
+    --clock-border:none; --clock-radius:18px;
+    --clock-shadow:0 1px 3px rgba(0,0,0,.08);
+    --menu-radius:14px;
+    --section-title-padding:10px 0 8px 4px;
+    --value-font-size:38px; --footer-margin-top:22px;
+  }
+  :root[data-skin="space"] {
+    --ink:#eef0ff; --sub:#9aa3c9; --bg:#05060f; --line:rgba(255,255,255,.14);
+    --up:#ff7a59; --down:#4fd6ff;
+    --na-color:rgba(154,163,201,.4);
+    --hover-bg:rgba(255,255,255,.08);
+    --page-bg-image:
+      radial-gradient(45% 35% at 20% 15%, rgba(123,97,255,.35), transparent 60%),
+      radial-gradient(50% 40% at 85% 20%, rgba(56,189,248,.3), transparent 60%),
+      radial-gradient(55% 45% at 30% 85%, rgba(236,72,153,.22), transparent 60%),
+      radial-gradient(45% 35% at 88% 80%, rgba(99,102,241,.28), transparent 60%),
+      radial-gradient(1.5px 1.5px at 6% 10%, rgba(255,255,255,.9), transparent),
+      radial-gradient(1px 1px at 14% 42%, rgba(255,255,255,.7), transparent),
+      radial-gradient(1.5px 1.5px at 22% 78%, rgba(255,255,255,.85), transparent),
+      radial-gradient(1px 1px at 9% 90%, rgba(255,255,255,.6), transparent),
+      radial-gradient(1px 1px at 30% 15%, rgba(255,255,255,.8), transparent),
+      radial-gradient(1.5px 1.5px at 35% 55%, rgba(255,255,255,.9), transparent),
+      radial-gradient(1px 1px at 42% 8%, rgba(255,255,255,.65), transparent),
+      radial-gradient(1.5px 1.5px at 48% 33%, rgba(255,255,255,.75), transparent),
+      radial-gradient(1px 1px at 55% 70%, rgba(255,255,255,.8), transparent),
+      radial-gradient(1.5px 1.5px at 60% 20%, rgba(255,255,255,.9), transparent),
+      radial-gradient(1px 1px at 65% 48%, rgba(255,255,255,.6), transparent),
+      radial-gradient(1.5px 1.5px at 70% 85%, rgba(255,255,255,.85), transparent),
+      radial-gradient(1px 1px at 75% 12%, rgba(255,255,255,.7), transparent),
+      radial-gradient(1.5px 1.5px at 80% 60%, rgba(255,255,255,.9), transparent),
+      radial-gradient(1px 1px at 85% 35%, rgba(255,255,255,.65), transparent),
+      radial-gradient(1.5px 1.5px at 90% 78%, rgba(255,255,255,.8), transparent),
+      radial-gradient(1px 1px at 95% 15%, rgba(255,255,255,.75), transparent),
+      radial-gradient(1px 1px at 18% 25%, rgba(255,255,255,.6), transparent),
+      radial-gradient(1.5px 1.5px at 5% 60%, rgba(255,255,255,.85), transparent),
+      radial-gradient(1px 1px at 28% 95%, rgba(255,255,255,.7), transparent),
+      radial-gradient(1.5px 1.5px at 38% 72%, rgba(255,255,255,.8), transparent),
+      radial-gradient(1px 1px at 50% 90%, rgba(255,255,255,.65), transparent),
+      radial-gradient(1.5px 1.5px at 58% 5%, rgba(255,255,255,.9), transparent),
+      radial-gradient(1px 1px at 63% 62%, rgba(255,255,255,.7), transparent),
+      radial-gradient(1.5px 1.5px at 72% 38%, rgba(255,255,255,.85), transparent),
+      radial-gradient(1px 1px at 78% 92%, rgba(255,255,255,.6), transparent),
+      radial-gradient(1.5px 1.5px at 88% 10%, rgba(255,255,255,.8), transparent),
+      radial-gradient(1px 1px at 92% 50%, rgba(255,255,255,.75), transparent),
+      radial-gradient(1.5px 1.5px at 12% 68%, rgba(255,255,255,.9), transparent),
+      radial-gradient(1px 1px at 45% 45%, rgba(255,255,255,.6), transparent);
+    --surface-bg:rgba(20,22,45,.55); --surface-blur:blur(18px) saturate(160%);
+    --card-padding:22px 22px 20px; --card-first-padding-top:22px;
+    --card-border-top:1px solid var(--line); --card-border-x:1px solid var(--line);
+    --card-border-bottom:1px solid var(--line); --card-first-top:1px solid var(--line);
+    --card-radius:22px;
+    --card-shadow:0 0 24px rgba(120,140,255,.12), 0 8px 24px rgba(0,0,0,.4);
+    --card-margin-bottom:16px;
+    --clock-padding:22px 24px; --clock-margin-bottom:26px;
+    --clock-border:1px solid var(--line); --clock-radius:24px;
+    --clock-shadow:0 0 30px rgba(120,140,255,.18), 0 8px 24px rgba(0,0,0,.45);
+    --menu-radius:16px;
+    --section-title-padding:8px 0 10px 4px;
+    --value-font-size:40px; --footer-margin-top:24px;
+  }
   * { box-sizing:border-box; margin:0; padding:0; }
-  body { background:var(--bg); color:var(--ink);
-    font-family:-apple-system,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
-    -webkit-font-smoothing:antialiased; line-height:1.5; }
+  body { background-color:var(--bg); background-image:var(--page-bg-image); background-attachment:fixed;
+    background-size:cover; color:var(--ink);
+    font-family:"DotGothic16",-apple-system,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.5; transition:background .2s, color .2s; }
   .wrap { max-width:460px; margin:0 auto; padding:32px 22px 80px; }
-  .clock { font-family:"Outfit",-apple-system,sans-serif; font-size:34px; font-weight:600;
-    letter-spacing:.02em; font-variant-numeric:tabular-nums; }
-  header { padding:8px 0 26px; }
-  h1 { font-size:15px; font-weight:600; letter-spacing:.04em; }
-  .date { color:var(--sub); font-size:13px; margin-top:2px; }
-  .section-title { font-size:13px; font-weight:700; color:var(--ink); letter-spacing:.06em; padding:34px 0 6px; }
+  .skin-switcher { position:fixed; top:14px; right:14px; z-index:20; }
+  .skin-toggle { width:32px; height:32px; border-radius:50%;
+    background:var(--surface-bg); color:var(--sub); border:1px solid var(--line); box-shadow:var(--card-shadow);
+    backdrop-filter:var(--surface-blur); -webkit-backdrop-filter:var(--surface-blur);
+    line-height:1; cursor:pointer; display:flex; align-items:center; justify-content:center; }
+  .skin-menu { position:absolute; top:40px; right:0; min-width:160px; padding:6px;
+    background:var(--surface-bg); border:1px solid var(--line); border-radius:var(--menu-radius); box-shadow:var(--card-shadow);
+    backdrop-filter:var(--surface-blur); -webkit-backdrop-filter:var(--surface-blur); }
+  .skin-menu[hidden] { display:none; }
+  .skin-option { display:block; width:100%; padding:8px 10px; border:none; border-radius:8px;
+    background:none; color:var(--ink); font-family:"Outfit",-apple-system,sans-serif; font-size:13px;
+    text-align:left; cursor:pointer; }
+  .skin-option:hover { background:var(--hover-bg); }
+  .skin-option[aria-current="true"] { font-weight:700; }
+  .tagline { font-size:13px; color:var(--sub); letter-spacing:.04em; padding-bottom:14px; }
+  .clock { padding:var(--clock-padding); margin-bottom:var(--clock-margin-bottom);
+    border:var(--clock-border); border-radius:var(--clock-radius); box-shadow:var(--clock-shadow);
+    background:var(--surface-bg); backdrop-filter:var(--surface-blur); -webkit-backdrop-filter:var(--surface-blur);
+    font-family:"Outfit",-apple-system,sans-serif; }
+  .clock-date { font-size:14px; font-weight:500; color:var(--sub); letter-spacing:.04em;
+    font-variant-numeric:tabular-nums; margin-bottom:2px; }
+  .clock-time { font-size:34px; font-weight:600; letter-spacing:.02em; font-variant-numeric:tabular-nums; }
+  .section-title { font-size:13px; font-weight:700; color:var(--ink); letter-spacing:.06em;
+    padding:var(--section-title-padding); }
   .section:first-of-type .section-title { padding-top:0; }
-  .card { padding:30px 0 26px; border-top:1px solid var(--line); }
-  .card:first-of-type { border-top:none; }
-  .section .card:first-child { padding-top:10px; }
+  .card { padding:var(--card-padding); margin-bottom:var(--card-margin-bottom);
+    border-top:var(--card-border-top); border-left:var(--card-border-x); border-right:var(--card-border-x);
+    border-bottom:var(--card-border-bottom); border-radius:var(--card-radius);
+    box-shadow:var(--card-shadow); background:var(--surface-bg);
+    backdrop-filter:var(--surface-blur); -webkit-backdrop-filter:var(--surface-blur); }
+  .card:first-of-type { border-top:var(--card-first-top); }
+  .section .card:first-child { padding-top:var(--card-first-padding-top); }
   .name { font-size:13px; color:var(--sub); letter-spacing:.02em; }
   .row { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-top:10px; }
-  .value { font-family:"Outfit",-apple-system,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif; font-size:44px; font-weight:600; letter-spacing:-.01em; font-variant-numeric:tabular-nums; }
+  .value { font-family:"Outfit",-apple-system,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+    font-size:var(--value-font-size); font-weight:600; letter-spacing:-.01em; font-variant-numeric:tabular-nums; }
   .value .unit { font-size:0.6em; font-weight:bold; margin-left:0.1em; }
   .change { font-size:15px; white-space:nowrap; font-variant-numeric:tabular-nums; }
   .change.up { color:var(--up); }
   .change.down { color:var(--down); }
   .change.flat { color:var(--sub); }
-  .change.na { color:var(--line); }
-  .caption { margin-top:12px; font-size:13.5px; color:#5f5f5a; }
+  .change.na { color:var(--na-color); }
   .stale { font-size:11px; color:var(--sub); margin-left:6px; }
-  footer { margin-top:40px; font-size:11px; color:var(--sub); text-align:center; }
+  footer { margin-top:var(--footer-margin-top); font-size:11px; color:var(--sub); text-align:left; }
   a { color:inherit; }
 </style>
 </head>
 <body>
+<div class="skin-switcher">
+  <button class="skin-toggle" id="skin-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-label="デザインを切り替え">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+      <polyline points="2 17 12 22 22 17"></polyline>
+      <polyline points="2 12 12 17 22 12"></polyline>
+    </svg>
+  </button>
+  <div class="skin-menu" id="skin-menu" hidden></div>
+</div>
 <div class="wrap">
-  <div class="clock" id="clock">--:--:--</div>
-  <header>
-    <h1>日本の数字</h1>
-    <div class="date" id="date">読み込み中…</div>
-  </header>
+  <div class="tagline">昨日と今日の、あいだ。</div>
+  <div class="clock">
+    <div class="clock-date" id="clock-date">----/--/--</div>
+    <div class="clock-time" id="clock-time">--:--:--</div>
+  </div>
   <div id="cards"></div>
   <footer>
-    昨日から、日本はどう変わった？<br>
     出典：気象庁・東京電力パワーグリッド・P2P地震情報 ほか公開データ
   </footer>
 </div>
 <script>
+const SKINS = [
+  { id:"default", label:"Default" },
+  { id:"neumorphism", label:"Neumorphism" },
+  { id:"liquid-glass", label:"Liquid Glass" },
+  { id:"material", label:"Material" },
+  { id:"ios", label:"iOS" },
+  { id:"space", label:"Space" },
+];
+const skinToggle = document.getElementById("skin-toggle");
+const skinMenu = document.getElementById("skin-menu");
+
+function currentSkin() {
+  return document.documentElement.getAttribute("data-skin") || "default";
+}
+function renderSkinMenu() {
+  const current = currentSkin();
+  skinMenu.innerHTML = SKINS.map(s =>
+    `<button type="button" class="skin-option" data-id="${s.id}" aria-current="${s.id === current}">${s.label}</button>`
+  ).join("");
+}
+function setSkin(id) {
+  if (id === "default") document.documentElement.removeAttribute("data-skin");
+  else document.documentElement.setAttribute("data-skin", id);
+  try { localStorage.setItem("nns-skin", id); } catch (e) {}
+  renderSkinMenu();
+}
+function closeSkinMenu() {
+  skinMenu.hidden = true;
+  skinToggle.setAttribute("aria-expanded", "false");
+}
+renderSkinMenu();
+skinToggle.addEventListener("click", (e) => {
+  e.stopPropagation();
+  const willOpen = skinMenu.hidden;
+  skinMenu.hidden = !willOpen;
+  skinToggle.setAttribute("aria-expanded", String(willOpen));
+});
+skinMenu.addEventListener("click", (e) => {
+  const btn = e.target.closest(".skin-option");
+  if (!btn) return;
+  setSkin(btn.dataset.id);
+  closeSkinMenu();
+});
+document.addEventListener("click", (e) => {
+  if (!skinMenu.hidden && !e.target.closest(".skin-switcher")) closeSkinMenu();
+});
+
 function tickClock() {
-  document.getElementById("clock").textContent =
-    new Date().toLocaleTimeString("ja-JP", { timeZone:"Asia/Tokyo", hour12:false });
+  const now = new Date();
+  document.getElementById("clock-time").textContent =
+    now.toLocaleTimeString("ja-JP", { timeZone:"Asia/Tokyo", hour12:false });
+  document.getElementById("clock-date").textContent =
+    now.toLocaleDateString("en-CA", { timeZone:"Asia/Tokyo" }).replaceAll("-", "/");
 }
 tickClock();
 setInterval(tickClock, 1000);
@@ -64,8 +293,6 @@ setInterval(tickClock, 1000);
 const ARROW = { up:"↑", down:"↓", flat:"→" };
 const CATEGORY_ORDER = ["自然","インフラ","防災","こよみ","経済","社会"];
 fetch("api/today.json?" + Date.now()).then(r => r.json()).then(d => {
-  document.getElementById("date").textContent =
-    new Date(d.date).toLocaleDateString("ja-JP",{month:"long",day:"numeric",weekday:"short"}) + "の日本";
   const box = document.getElementById("cards");
 
   const groups = new Map();
@@ -98,14 +325,13 @@ fetch("api/today.json?" + Date.now()).then(r => r.json()).then(d => {
       el.innerHTML =
         `<div class="name">${m.name}${m.stale ? '<span class="stale">'+m.as_of+' 時点</span>' : ''}</div>
          <div class="row"><div class="value">${valueMain}${hasUnitSuffix ? '<span class="unit">'+unit+'</span>' : ''}</div>
-         <div class="change ${cls}">${chg}</div></div>
-         <div class="caption">${m.caption || ""}</div>`;
+         <div class="change ${cls}">${chg}</div></div>`;
       section.appendChild(el);
     }
     box.appendChild(section);
   }
 }).catch(e => {
-  document.getElementById("date").textContent = "データを読み込めませんでした";
+  document.getElementById("cards").textContent = "データを読み込めませんでした";
 });
 </script>
 </body>
