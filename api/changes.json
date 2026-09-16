@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-16T09:44:17+09:00",
+  "generated_at": "2026-09-16T14:01:37+09:00",
   "date": "2026-09-16",
   "changes": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "29℃",
+      "value_display": "32.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.2,
-        "display": "-5.2℃",
+        "value": -2.1,
+        "display": "-2.1℃",
         "direction": "down",
         "prev_value": 34.2,
         "prev_date": "2026-09-15"
       },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 5.31,
-      "z": 5.31,
-      "label": "かなり珍しい変化"
+      "caption": "鹿児島｜きょう日本でいちばん暑い",
+      "score": 1.44,
+      "z": 1.44,
+      "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
@@ -98,41 +98,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "208地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -188,
-        "display": "-188地点",
-        "direction": "down",
-        "prev_value": 396,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.28,
-      "z": 0.28,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "3%",
+      "value_display": "29%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -9.0,
-        "display": "-9.0pt",
+        "value": -11.0,
+        "display": "-11.0pt",
         "direction": "down",
-        "prev_value": 12.0,
+        "prev_value": 40.0,
         "prev_date": "2026-09-15"
       },
-      "caption": "きょうのピークで電力の3%を太陽光がまかなった",
-      "score": 0.17,
-      "z": 0.17,
+      "caption": "長沼｜全国でいちばん空気が乾いている",
+      "score": 0.5,
+      "z": 0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "gas-regular",
+      "name": "レギュラーガソリンの全国平均価格",
+      "category": "経済",
+      "value_display": "169.9円/L",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -0.1,
+        "display": "-0.1円/L",
+        "direction": "down",
+        "prev_value": 170.0,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "レギュラーガソリン全国平均（9月14日調査）",
+      "score": 0.1,
+      "z": 0.1,
       "label": "通常の範囲"
     },
     {
@@ -196,19 +196,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "2地点",
+      "value_display": "25地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -10,
-        "display": "-10地点",
-        "direction": "down",
+        "value": 13,
+        "display": "+13地点",
+        "direction": "up",
         "prev_value": 12,
         "prev_date": "2026-09-15"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -1.33,
+      "z": -1.17,
       "label": "通常の範囲"
     },
     {
@@ -231,22 +231,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-1h",
-      "name": "全国最大1時間降水量",
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "30.5mm",
+      "value_display": "287地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.0,
-        "display": "-6mm",
+        "value": -109,
+        "display": "-109地点",
+        "direction": "down",
+        "prev_value": 396,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "33.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.0,
+        "display": "-3mm",
         "direction": "down",
         "prev_value": 36.5,
         "prev_date": "2026-09-15"
       },
-      "caption": "阿蔵｜バケツをひっくり返したような雨",
+      "caption": "掛川｜バケツをひっくり返したような雨",
       "score": 0.0,
-      "z": -1.62,
+      "z": -2.38,
       "label": "通常の範囲"
     },
     {
@@ -295,15 +314,15 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
-        "direction": "down",
-        "prev_value": 28.0,
-        "prev_date": "2026-09-20"
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 27.0,
+        "prev_date": "2026-09-21"
       },
-      "caption": "9月21日ごろがいちばん暑くなりそう",
+      "caption": "9月22日ごろがいちばん暑くなりそう",
       "score": 0.0,
-      "z": 0.0,
+      "z": -2.0,
       "label": "通常の範囲"
     },
     {
@@ -348,38 +367,19 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "10.2m/s",
+      "value_display": "10.8m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.8,
-        "display": "-0.8m/s",
+        "value": -0.2,
+        "display": "-0.2m/s",
         "direction": "down",
         "prev_value": 11.0,
         "prev_date": "2026-09-15"
       },
-      "caption": "石田｜全国でいちばん風が強い（10分平均）",
+      "caption": "南鳥島｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
-      "z": -0.5,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "41%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 1.0,
-        "display": "+1.0pt",
-        "direction": "up",
-        "prev_value": 40.0,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "長沼｜全国でいちばん空気が乾いている",
-      "score": 0.0,
-      "z": -1.0,
+      "z": -1.11,
       "label": "通常の範囲"
     },
     {
@@ -399,25 +399,6 @@
       "caption": "夏でもひんやり",
       "score": 0.0,
       "z": -1.17,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "gas-regular",
-      "name": "レギュラーガソリンの全国平均価格",
-      "category": "経済",
-      "value_display": "170円/L",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0円/L",
-        "direction": "flat",
-        "prev_value": 170.0,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "レギュラーガソリン全国平均（9月7日調査）",
-      "score": 0.0,
-      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -519,17 +500,36 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "91%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
         "prev_value": 88.0,
         "prev_date": "2026-09-15"
       },
       "caption": "ピークは11:00〜12:00の見込み",
+      "score": 0.0,
+      "z": -0.33,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "4%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -8.0,
+        "display": "-8.0pt",
+        "direction": "down",
+        "prev_value": 12.0,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "きょうのピークで電力の4%を太陽光がまかなった",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"

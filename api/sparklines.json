@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-16T09:44:17+09:00",
+  "generated_at": "2026-09-16T14:01:37+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "29℃",
+      "value_display": "32.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.2,
-        "display": "-5.2℃",
+        "value": -2.1,
+        "display": "-2.1℃",
         "direction": "down",
         "prev_value": 34.2,
         "prev_date": "2026-09-15"
@@ -75,7 +75,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 29.0
+          "value": 32.1
         }
       ]
     },
@@ -388,13 +388,13 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "2地点",
+      "value_display": "25地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -10,
-        "display": "-10地点",
-        "direction": "down",
+        "value": 13,
+        "display": "+13地点",
+        "direction": "up",
         "prev_value": 12,
         "prev_date": "2026-09-15"
       },
@@ -453,7 +453,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 2
+          "value": 25
         }
       ]
     },
@@ -536,12 +536,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "208地点",
+      "value_display": "287地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -188,
-        "display": "-188地点",
+        "value": -109,
+        "display": "-109地点",
         "direction": "down",
         "prev_value": 396,
         "prev_date": "2026-09-15"
@@ -601,7 +601,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 208
+          "value": 287
         }
       ]
     },
@@ -610,12 +610,12 @@
       "name": "全国最大1時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "30.5mm",
+      "value_display": "33.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.0,
-        "display": "-6mm",
+        "value": -3.0,
+        "display": "-3mm",
         "direction": "down",
         "prev_value": 36.5,
         "prev_date": "2026-09-15"
@@ -675,7 +675,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 30.5
+          "value": 33.5
         }
       ]
     },
@@ -976,11 +976,11 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
-        "direction": "down",
-        "prev_value": 28.0,
-        "prev_date": "2026-09-20"
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 27.0,
+        "prev_date": "2026-09-21"
       },
       "points": [
         {
@@ -1005,6 +1005,10 @@
         },
         {
           "date": "2026-09-21",
+          "value": 27.0
+        },
+        {
+          "date": "2026-09-22",
           "value": 27.0
         }
       ]
@@ -1154,12 +1158,12 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "10.2m/s",
+      "value_display": "10.8m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.8,
-        "display": "-0.8m/s",
+        "value": -0.2,
+        "display": "-0.2m/s",
         "direction": "down",
         "prev_value": 11.0,
         "prev_date": "2026-09-15"
@@ -1219,7 +1223,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 10.2
+          "value": 10.8
         }
       ]
     },
@@ -1228,13 +1232,13 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "41%",
+      "value_display": "29%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 1.0,
-        "display": "+1.0pt",
-        "direction": "up",
+        "value": -11.0,
+        "display": "-11.0pt",
+        "direction": "down",
         "prev_value": 40.0,
         "prev_date": "2026-09-15"
       },
@@ -1293,7 +1297,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 41.0
+          "value": 29.0
         }
       ]
     },
@@ -1634,13 +1638,13 @@
       "name": "レギュラーガソリンの全国平均価格",
       "category": "経済",
       "unit": "円/L",
-      "value_display": "170円/L",
+      "value_display": "169.9円/L",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0円/L",
-        "direction": "flat",
+        "value": -0.1,
+        "display": "-0.1円/L",
+        "direction": "down",
         "prev_value": 170.0,
         "prev_date": "2026-09-15"
       },
@@ -1699,7 +1703,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 170.0
+          "value": 169.9
         }
       ]
     },
@@ -3438,12 +3442,12 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "91%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
         "prev_value": 88.0,
         "prev_date": "2026-09-15"
@@ -3507,7 +3511,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 91.0
+          "value": 90.0
         }
       ]
     },
@@ -3516,12 +3520,12 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "3%",
+      "value_display": "4%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -9.0,
-        "display": "-9.0pt",
+        "value": -8.0,
+        "display": "-8.0pt",
         "direction": "down",
         "prev_value": 12.0,
         "prev_date": "2026-09-15"
@@ -3581,7 +3585,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 3.0
+          "value": 4.0
         }
       ]
     },
