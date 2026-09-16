@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:58:44+09:00",
+  "generated_at": "2026-09-16T17:00:57+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -596,13 +596,13 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "373地点",
+      "value_display": "415地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -23,
-        "display": "-23地点",
-        "direction": "down",
+        "value": 19,
+        "display": "+19地点",
+        "direction": "up",
         "prev_value": 396,
         "prev_date": "2026-09-15"
       },
@@ -661,7 +661,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 373
+          "value": 415
         }
       ]
     },
@@ -962,12 +962,12 @@
       "name": "東京のあしたの最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "18℃",
+      "value_display": "19℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.0,
-        "display": "-3℃",
+        "value": -2.0,
+        "display": "-2℃",
         "direction": "down",
         "prev_value": 21.0,
         "prev_date": "2026-09-16"
@@ -1023,7 +1023,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 18.0
+          "value": 19.0
         }
       ]
     },
@@ -2080,6 +2080,46 @@
         {
           "date": "2026-09-16",
           "value": 0
+        }
+      ]
+    },
+    {
+      "slug": "sediment-warning-municipalities",
+      "name": "土砂災害警戒情報が出ている市町村数",
+      "category": "防災",
+      "unit": "市町村",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-16",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "slug": "volcano-alert-points",
+      "name": "噴火警戒レベル2以上の火山数",
+      "category": "防災",
+      "unit": "火山",
+      "value_display": "8火山",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-16",
+          "value": 8
         }
       ]
     },

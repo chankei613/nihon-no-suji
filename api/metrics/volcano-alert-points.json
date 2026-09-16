@@ -1,0 +1,72 @@
+{
+  "slug": "volcano-alert-points",
+  "name": "噴火警戒レベル2以上の火山数",
+  "unit": "火山",
+  "comparison_type": "absolute",
+  "value_type": "number",
+  "source": {
+    "name": "気象庁 噴火警報・予報",
+    "url": "https://www.jma.go.jp/bosai/volcano/"
+  },
+  "updated_at": "2026-09-16T17:00:57+09:00",
+  "summary": {
+    "count": 1,
+    "first_date": "2026-09-16",
+    "last_date": "2026-09-16",
+    "min_30d": 8,
+    "max_30d": 8,
+    "avg_30d": 8.0
+  },
+  "history": [
+    {
+      "date": "2026-09-16",
+      "value": 8
+    }
+  ],
+  "latest_detail": {
+    "volcanoes": [
+      {
+        "code": "108",
+        "name": "十勝岳",
+        "level": 3
+      },
+      {
+        "code": "506",
+        "name": "桜島",
+        "level": 3
+      },
+      {
+        "code": "105",
+        "name": "雌阿寒岳",
+        "level": 2
+      },
+      {
+        "code": "503",
+        "name": "阿蘇山",
+        "level": 2
+      },
+      {
+        "code": "508",
+        "name": "薩摩硫黄島",
+        "level": 2
+      },
+      {
+        "code": "509",
+        "name": "口永良部島",
+        "level": 2
+      },
+      {
+        "code": "511",
+        "name": "諏訪之瀬島",
+        "level": 2
+      },
+      {
+        "code": "551",
+        "name": "霧島山（新燃岳）",
+        "level": 2
+      }
+    ],
+    "checked": 41,
+    "caption": "十勝岳（レベル3）など8火山で警戒レベル2以上"
+  }
+}
