@@ -1,79 +1,41 @@
 {
-  "generated_at": "2026-09-16T06:42:03+09:00",
+  "generated_at": "2026-09-16T09:44:17+09:00",
   "date": "2026-09-16",
   "changes": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "28.3℃",
+      "value_display": "29℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.9,
-        "display": "-5.9℃",
+        "value": -5.2,
+        "display": "-5.2℃",
         "direction": "down",
         "prev_value": 34.2,
         "prev_date": "2026-09-15"
       },
       "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 6.19,
-      "z": 6.19,
+      "score": 5.31,
+      "z": 5.31,
       "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "12%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -23.0,
-        "display": "-23.0pt",
-        "direction": "down",
-        "prev_value": 35.0,
-        "prev_date": "2026-09-14"
-      },
-      "caption": "きょうのピークで電力の12%を太陽光がまかなった",
-      "score": 2.38,
-      "z": 2.38,
-      "label": "いつもより大きな変化"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "33mm",
+      "value_display": "50mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -71.5,
-        "display": "-71.5mm",
+        "value": -54.5,
+        "display": "-54.5mm",
         "direction": "down",
         "prev_value": 104.5,
         "prev_date": "2026-09-15"
       },
-      "caption": "南国日章｜この3時間でいちばん激しく降った",
-      "score": 1.83,
-      "z": 1.83,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "129地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -267,
-        "display": "-267地点",
-        "direction": "down",
-        "prev_value": 396,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "きょう雨が降った地点",
+      "caption": "阿蔵｜この3時間でいちばん激しく降った",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -98,44 +60,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "54%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 14.0,
-        "display": "+14.0pt",
-        "direction": "up",
-        "prev_value": 40.0,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "沓形｜全国でいちばん空気が乾いている",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "usd-jpy",
-      "name": "ドル円レート",
-      "category": "経済",
-      "value_display": "154.22円",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.81,
-        "display": "+0.81円",
-        "direction": "up",
-        "prev_value": 153.41,
-        "prev_date": "2026-09-10"
-      },
-      "caption": "1ドル＝154.22円（9月11日）",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
@@ -150,25 +74,6 @@
         "prev_date": "2026-09-15"
       },
       "caption": "いま気象警報は出ていない",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "8回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4,
-        "display": "+4回",
-        "direction": "up",
-        "prev_value": 4,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "最大は熊本県天草・芦北地方の震度4",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -190,6 +95,44 @@
       "caption": "きょうの東京の最高気温",
       "score": 0.67,
       "z": 0.67,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "208地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -188,
+        "display": "-188地点",
+        "direction": "down",
+        "prev_value": 396,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.28,
+      "z": 0.28,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "3%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -9.0,
+        "display": "-9.0pt",
+        "direction": "down",
+        "prev_value": 12.0,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "きょうのピークで電力の3%を太陽光がまかなった",
+      "score": 0.17,
+      "z": 0.17,
       "label": "通常の範囲"
     },
     {
@@ -253,19 +196,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "2地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -12,
-        "display": "-12地点",
+        "value": -10,
+        "display": "-10地点",
         "direction": "down",
         "prev_value": 12,
         "prev_date": "2026-09-15"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -1.22,
+      "z": -1.33,
       "label": "通常の範囲"
     },
     {
@@ -291,19 +234,19 @@
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "29.5mm",
+      "value_display": "30.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7.0,
-        "display": "-7mm",
+        "value": -6.0,
+        "display": "-6mm",
         "direction": "down",
         "prev_value": 36.5,
         "prev_date": "2026-09-15"
       },
-      "caption": "南国日章｜激しい雨",
+      "caption": "阿蔵｜バケツをひっくり返したような雨",
       "score": 0.0,
-      "z": -1.38,
+      "z": -1.62,
       "label": "通常の範囲"
     },
     {
@@ -405,38 +348,57 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "10.1m/s",
+      "value_display": "10.2m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.9,
-        "display": "-0.9m/s",
+        "value": -0.8,
+        "display": "-0.8m/s",
         "direction": "down",
         "prev_value": 11.0,
         "prev_date": "2026-09-15"
       },
-      "caption": "南鳥島｜全国でいちばん風が強い（10分平均）",
+      "caption": "石田｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
-      "z": -0.37,
+      "z": -0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "41%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 1.0,
+        "display": "+1.0pt",
+        "direction": "up",
+        "prev_value": 40.0,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "長沼｜全国でいちばん空気が乾いている",
+      "score": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "3.8℃",
+      "value_display": "4.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 0.3,
+        "display": "+0.3℃",
+        "direction": "up",
         "prev_value": 3.8,
         "prev_date": "2026-09-15"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.67,
+      "z": -1.17,
       "label": "通常の範囲"
     },
     {
@@ -456,6 +418,25 @@
       "caption": "レギュラーガソリン全国平均（9月7日調査）",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "usd-jpy",
+      "name": "ドル円レート",
+      "category": "経済",
+      "value_display": "154.4円",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.18,
+        "display": "+0.18円",
+        "direction": "up",
+        "prev_value": 154.22,
+        "prev_date": "2026-09-11"
+      },
+      "caption": "1ドル＝154.4円（9月14日）",
+      "score": 0.0,
+      "z": -2.17,
       "label": "通常の範囲"
     },
     {
@@ -538,19 +519,38 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "90%",
+      "value_display": "91%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.0,
-        "display": "+2.0pt",
+        "value": 3.0,
+        "display": "+3.0pt",
         "direction": "up",
         "prev_value": 88.0,
         "prev_date": "2026-09-15"
       },
       "caption": "ピークは11:00〜12:00の見込み",
       "score": 0.0,
-      "z": -0.33,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "6回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 2,
+        "display": "+2回",
+        "direction": "up",
+        "prev_value": 4,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "最大は熊本県天草・芦北地方の震度4",
+      "score": 0.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
