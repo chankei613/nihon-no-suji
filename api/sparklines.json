@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:00:57+09:00",
+  "generated_at": "2026-09-16T17:09:41+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -596,12 +596,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "415地点",
+      "value_display": "439地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 19,
-        "display": "+19地点",
+        "value": 43,
+        "display": "+43地点",
         "direction": "up",
         "prev_value": 396,
         "prev_date": "2026-09-15"
@@ -661,7 +661,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 415
+          "value": 439
         }
       ]
     },
@@ -1366,12 +1366,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "2.9℃",
+      "value_display": "2.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.9,
-        "display": "-0.9℃",
+        "value": -1.0,
+        "display": "-1℃",
         "direction": "down",
         "prev_value": 3.8,
         "prev_date": "2026-09-15"
@@ -1431,7 +1431,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 2.9
+          "value": 2.8
         }
       ]
     },
@@ -2120,6 +2120,46 @@
         {
           "date": "2026-09-16",
           "value": 8
+        }
+      ]
+    },
+    {
+      "slug": "sakura-kaika-points",
+      "name": "さくら開花地点数",
+      "category": "自然",
+      "unit": "地点",
+      "value_display": "58地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-16",
+          "value": 58
+        }
+      ]
+    },
+    {
+      "slug": "sakura-mankai-points",
+      "name": "さくら満開地点数",
+      "category": "自然",
+      "unit": "地点",
+      "value_display": "56地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-16",
+          "value": 56
         }
       ]
     },

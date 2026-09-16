@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:00:57+09:00",
+  "generated_at": "2026-09-16T17:09:41+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -306,6 +306,24 @@
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁 噴火警報・予報"
+    },
+    {
+      "slug": "sakura-kaika-points",
+      "name": "さくら開花地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 さくらの開花状況"
+    },
+    {
+      "slug": "sakura-mankai-points",
+      "name": "さくら満開地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 さくらの満開状況"
     },
     {
       "slug": "day-length-tokyo",
