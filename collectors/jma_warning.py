@@ -19,6 +19,8 @@ TIME_URL = "https://www.jma.go.jp/bosai/warning/data/r8/map_time.json"
 
 WARNING_CODES = {"02", "03", "04", "05", "06", "07", "08"}
 EMERGENCY_CODES = {"32", "33", "35", "36", "37", "38"}
+HEAVY_RAIN_CODE = "03"  # 大雨警報
+FLOOD_CODE = "04"       # 洪水警報
 NONE_STATUS = "発表警報・注意報はなし"
 ACTIVE_STATUS = {"発表", "継続"}
 
@@ -79,6 +81,16 @@ def collect() -> list[Observation]:
     else:
         caption = f"{n}市町村に気象警報"
 
+    heavy_rain = {a for a, codes in state.items() if HEAVY_RAIN_CODE in codes}
+    flood = {a for a, codes in state.items() if FLOOD_CODE in codes}
+
     observed_at = (latest or now_jst()).isoformat(timespec="seconds")
-    return [Observation("warned-municipalities", n, observed_at,
-                        {"emergency_count": len(emergency), "caption": caption})]
+    out = [Observation("warned-municipalities", n, observed_at,
+                       {"emergency_count": len(emergency), "caption": caption})]
+    out.append(Observation("heavy-rain-warned-municipalities", len(heavy_rain), observed_at, {
+        "caption": f"{len(heavy_rain)}市町村に大雨警報" if heavy_rain else "いま大雨警報は出ていない",
+    }))
+    out.append(Observation("flood-warned-municipalities", len(flood), observed_at, {
+        "caption": f"{len(flood)}市町村に洪水警報" if flood else "いま洪水警報は出ていない",
+    }))
+    return out

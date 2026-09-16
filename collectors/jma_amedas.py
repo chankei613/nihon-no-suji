@@ -82,6 +82,31 @@ def collect() -> list[Observation]:
         out.append(threshold_count("hot-points-30", hot30, "きょう30℃以上になった地点"))
         out.append(threshold_count("cold-points-0", cold0, "きょう0℃を下回った地点"))
 
+        # 真冬日（一度も0℃以上にならなかった地点）／熱帯夜（一度も25℃を下回らなかった地点）
+        # は「しきい値を破った地点」の逆なので、自分の detail に
+        # 破った地点の集合と観測した地点の集合を両方積み上げて差分を取る。
+        # ※ 暦日（0-24時JST）で区切っており、熱帯夜の本来の定義（夕方-翌朝）とは厳密には異なる近似。
+        def complement_count(slug: str, broke_key: str, seen_key: str,
+                             broke_now: set[str], seen_now: set[str], cap_yes: str, cap_no: str) -> Observation:
+            prior = store.today_detail(slug)
+            broke = sorted(set(prior.get(broke_key, [])) | broke_now)
+            seen = sorted(set(prior.get(seen_key, [])) | seen_now)
+            n = len(set(seen) - set(broke))
+            return Observation(slug, n, observed_at, {
+                broke_key: broke, seen_key: seen,
+                "caption": cap_yes if n else cap_no,
+            })
+
+        mild_now = {s for s, t in temps.items() if t >= 0.0}
+        out.append(complement_count("ice-day-points", "mild_station_ids", "reported_station_ids",
+                                    mild_now, set(temps.keys()),
+                                    "きょう一度も0℃以上にならなかった地点（真冬日）", "きょうは全地点が0℃以上になった"))
+
+        cool_now = {s for s, t in temps.items() if t < 25.0}
+        out.append(complement_count("tropical-night-points", "cool_station_ids", "reported_station_ids",
+                                    cool_now, set(temps.keys()),
+                                    "きょう一度も25℃を下回らなかった地点（熱帯夜）", "きょうは全地点が25℃を下回った"))
+
         # 気温差は「人が住む地点どうし」で見たいので山岳（標高1000m超）を除く
         def lowland(sid: str) -> bool:
             return ((table.get(sid) or {}).get("alt") or 0) <= 1000
@@ -137,6 +162,20 @@ def collect() -> list[Observation]:
         out.append(Observation("min-humidity", round(hums[hs], 0), observed_at, {
             "place": name(hs), "caption": f"{name(hs)}｜全国でいちばん空気が乾いている",
         }))
+
+    # --- 東京の日照時間（sun1h を当日ぶん積み上げ） ---
+    tokyo = obs_map.get("44132")
+    if tokyo is not None:
+        sun_h = _field(tokyo, "sun1h")
+        if sun_h is not None:
+            prior = store.today_detail("tokyo-sunshine-hours")
+            total_min = float(prior.get("total_minutes", 0.0))
+            if prior.get("last_observed_at") != observed_at:
+                total_min = round(total_min + sun_h * 60, 1)
+            out.append(Observation("tokyo-sunshine-hours", int(round(total_min)), observed_at, {
+                "total_minutes": total_min, "last_observed_at": observed_at,
+                "caption": "きょうはまだ日照なし" if total_min == 0 else "きょうの東京の日照時間（ここまでの積算）",
+            }))
 
     # --- 富士山頂の気温 ---
     if "50066" in temps:

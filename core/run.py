@@ -23,7 +23,7 @@ COLLECTORS = ["jma_rank", "jma_amedas", "jma_forecast", "jma_typhoon", "jma_warn
 # collector が正常なら「これ以上の数のメトリック」を返すはず、の目安。
 # これを下回ったら degraded 扱いにする（形式変更の早期検知）。
 EXPECTED_MIN = {
-    "jma_rank": 4, "jma_amedas": 5, "jma_forecast": 1, "jma_typhoon": 1, "jma_warning": 0,
+    "jma_rank": 4, "jma_amedas": 8, "jma_forecast": 1, "jma_typhoon": 1, "jma_warning": 0,
     "mlit_water": 2, "tepco_pg": 1, "p2pquake": 1, "enecho_gas": 1, "boj_fx": 1, "astro": 7,
     # ESTAT_APP_ID を secret 登録済み（2026-09-16）。japan-population が毎回1件返るはず。
     "estat": 1,
