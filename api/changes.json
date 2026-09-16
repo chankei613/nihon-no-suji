@@ -1,7 +1,45 @@
 {
-  "generated_at": "2026-09-16T17:18:44+09:00",
+  "generated_at": "2026-09-16T21:48:16+09:00",
   "date": "2026-09-16",
   "changes": [
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "1.1℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.7,
+        "display": "-2.7℃",
+        "direction": "down",
+        "prev_value": 3.8,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "夏でもひんやり",
+      "score": 2.6,
+      "z": 2.6,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "14.2m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.2,
+        "display": "+3.2m/s",
+        "direction": "up",
+        "prev_value": 11.0,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "南鳥島｜全国でいちばん風が強い（10分平均）",
+      "score": 1.8,
+      "z": 1.8,
+      "label": "いつもより大きな変化"
+    },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
@@ -234,19 +272,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "455地点",
+      "value_display": "459地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 59,
-        "display": "+59地点",
+        "value": 63,
+        "display": "+63地点",
         "direction": "up",
         "prev_value": 396,
         "prev_date": "2026-09-15"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.74,
+      "z": -0.68,
       "label": "通常の範囲"
     },
     {
@@ -380,44 +418,6 @@
       "caption": "日田｜全国でいちばん気圧が低い",
       "score": 0.0,
       "z": -1.27,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "12.1m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.1,
-        "display": "+1.1m/s",
-        "direction": "up",
-        "prev_value": 11.0,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "南鳥島｜全国でいちばん風が強い（10分平均）",
-      "score": 0.0,
-      "z": -0.12,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "2.7℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1.1,
-        "display": "-1.1℃",
-        "direction": "down",
-        "prev_value": 3.8,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "夏でもひんやり",
-      "score": 0.0,
-      "z": 0.0,
       "label": "通常の範囲"
     },
     {
