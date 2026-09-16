@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-09-16T14:01:37+09:00",
+  "generated_at": "2026-09-16T15:38:22+09:00",
   "date": "2026-09-16",
   "changes": [
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "32.1℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.1,
-        "display": "-2.1℃",
-        "direction": "down",
-        "prev_value": 34.2,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "鹿児島｜きょう日本でいちばん暑い",
-      "score": 1.44,
-      "z": 1.44,
-      "label": "通常の範囲"
-    },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
@@ -79,6 +60,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "32.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.4,
+        "display": "-1.4℃",
+        "direction": "down",
+        "prev_value": 34.2,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "鹿屋｜きょう日本でいちばん暑い",
+      "score": 0.75,
+      "z": 0.75,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
@@ -114,6 +114,25 @@
       "caption": "長沼｜全国でいちばん空気が乾いている",
       "score": 0.5,
       "z": 0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "7回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3,
+        "display": "+3回",
+        "direction": "up",
+        "prev_value": 4,
+        "prev_date": "2026-09-15"
+      },
+      "caption": "最大は熊本県天草・芦北地方の震度4",
+      "score": 0.33,
+      "z": 0.33,
       "label": "通常の範囲"
     },
     {
@@ -196,19 +215,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "25地点",
+      "value_display": "33地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 13,
-        "display": "+13地点",
+        "value": 21,
+        "display": "+21地点",
         "direction": "up",
         "prev_value": 12,
         "prev_date": "2026-09-15"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -1.17,
+      "z": -0.87,
       "label": "通常の範囲"
     },
     {
@@ -234,19 +253,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "287地点",
+      "value_display": "349地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -109,
-        "display": "-109地点",
+        "value": -47,
+        "display": "-47地点",
         "direction": "down",
         "prev_value": 396,
         "prev_date": "2026-09-15"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.94,
       "label": "通常の範囲"
     },
     {
@@ -348,19 +367,19 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1003.6hPa",
+      "value_display": "1003.2hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.5,
-        "display": "+0.5hPa",
+        "value": 0.1,
+        "display": "+0.1hPa",
         "direction": "up",
         "prev_value": 1003.1,
         "prev_date": "2026-09-15"
       },
-      "caption": "彦根｜全国でいちばん気圧が低い",
+      "caption": "日田｜全国でいちばん気圧が低い",
       "score": 0.0,
-      "z": -1.11,
+      "z": -1.27,
       "label": "通常の範囲"
     },
     {
@@ -386,19 +405,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "4.1℃",
+      "value_display": "3.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.3,
-        "display": "+0.3℃",
-        "direction": "up",
+        "value": -0.6,
+        "display": "-0.6℃",
+        "direction": "down",
         "prev_value": 3.8,
         "prev_date": "2026-09-15"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.17,
+      "z": -0.8,
       "label": "通常の範囲"
     },
     {
@@ -481,19 +500,19 @@
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "86.8%",
+      "value_display": "86.7%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.1,
-        "display": "+0.1pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 86.7,
         "prev_date": "2026-09-15"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": 0.0,
-      "z": -1.75,
+      "z": -2.0,
       "label": "通常の範囲"
     },
     {
@@ -530,25 +549,6 @@
         "prev_date": "2026-09-15"
       },
       "caption": "きょうのピークで電力の4%を太陽光がまかなった",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "6回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2,
-        "display": "+2回",
-        "direction": "up",
-        "prev_value": 4,
-        "prev_date": "2026-09-15"
-      },
-      "caption": "最大は熊本県天草・芦北地方の震度4",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"

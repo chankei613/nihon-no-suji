@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-16T14:01:37+09:00",
+  "generated_at": "2026-09-16T15:38:22+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "32.1℃",
+      "value_display": "32.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.1,
-        "display": "-2.1℃",
+        "value": -1.4,
+        "display": "-1.4℃",
         "direction": "down",
         "prev_value": 34.2,
         "prev_date": "2026-09-15"
@@ -75,7 +75,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 32.1
+          "value": 32.8
         }
       ]
     },
@@ -388,12 +388,12 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "25地点",
+      "value_display": "33地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 13,
-        "display": "+13地点",
+        "value": 21,
+        "display": "+21地点",
         "direction": "up",
         "prev_value": 12,
         "prev_date": "2026-09-15"
@@ -453,7 +453,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 25
+          "value": 33
         }
       ]
     },
@@ -536,12 +536,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "287地点",
+      "value_display": "349地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -109,
-        "display": "-109地点",
+        "value": -47,
+        "display": "-47地点",
         "direction": "down",
         "prev_value": 396,
         "prev_date": "2026-09-15"
@@ -601,7 +601,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 287
+          "value": 349
         }
       ]
     },
@@ -1088,12 +1088,12 @@
       "name": "全国の最低海面気圧",
       "category": "自然",
       "unit": "hPa",
-      "value_display": "1003.6hPa",
+      "value_display": "1003.2hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.5,
-        "display": "+0.5hPa",
+        "value": 0.1,
+        "display": "+0.1hPa",
         "direction": "up",
         "prev_value": 1003.1,
         "prev_date": "2026-09-15"
@@ -1149,7 +1149,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 1003.6
+          "value": 1003.2
         }
       ]
     },
@@ -1306,13 +1306,13 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "4.1℃",
+      "value_display": "3.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.3,
-        "display": "+0.3℃",
-        "direction": "up",
+        "value": -0.6,
+        "display": "-0.6℃",
+        "direction": "down",
         "prev_value": 3.8,
         "prev_date": "2026-09-15"
       },
@@ -1371,7 +1371,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 4.1
+          "value": 3.2
         }
       ]
     },
@@ -3360,13 +3360,13 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value_display": "86.8%",
+      "value_display": "86.7%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.1,
-        "display": "+0.1pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 86.7,
         "prev_date": "2026-09-15"
       },
@@ -3433,7 +3433,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 86.8
+          "value": 86.7
         }
       ]
     },
@@ -3594,12 +3594,12 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "6回",
+      "value_display": "7回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
+        "value": 3,
+        "display": "+3回",
         "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-09-15"
@@ -3663,7 +3663,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 6
+          "value": 7
         }
       ]
     },
