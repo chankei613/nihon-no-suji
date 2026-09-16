@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:38:22+09:00",
+  "generated_at": "2026-09-16T15:44:48+09:00",
   "date": "2026-09-16",
   "metrics": [
     {
@@ -1134,7 +1134,7 @@
       "unit": "個",
       "value": 0,
       "value_display": "0個",
-      "observed_at": "2026-09-16T15:38:00+09:00",
+      "observed_at": "2026-09-16T15:44:00+09:00",
       "as_of": "2026-09-16",
       "stale": false,
       "change": {
@@ -1165,7 +1165,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-09-16T15:36:27+09:00",
+      "observed_at": "2026-09-16T15:43:37+09:00",
       "as_of": "2026-09-16",
       "stale": false,
       "change": {
@@ -1344,6 +1344,36 @@
       "source": {
         "name": "自前天文計算",
         "url": "https://eco.mtk.nao.ac.jp/koyomi/"
+      }
+    },
+    {
+      "slug": "japan-population",
+      "name": "日本の総人口（推計）",
+      "category": "社会",
+      "unit": "人",
+      "value": 122680000,
+      "value_display": "122,680,000人",
+      "observed_at": "2026-09-16T00:00:00+09:00",
+      "as_of": "2026-09-16",
+      "stale": false,
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "総務省統計局 人口推計（各月1日現在・概算値）",
+      "highlight": false,
+      "highlight_reason": null,
+      "detail": {
+        "time_code": "2026000808",
+        "unit_raw": "万人",
+        "caption": "総務省統計局 人口推計（各月1日現在・概算値）"
+      },
+      "source": {
+        "name": "総務省統計局 人口推計",
+        "url": "https://www.e-stat.go.jp/dbview?sid=0003443838"
       }
     },
     {
@@ -1578,7 +1608,7 @@
       "unit": "回",
       "value": 7,
       "value_display": "7回",
-      "observed_at": "2026-09-16T15:38:00+09:00",
+      "observed_at": "2026-09-16T15:44:00+09:00",
       "as_of": "2026-09-16",
       "stale": false,
       "change": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:38:22+09:00",
+  "generated_at": "2026-09-16T15:44:48+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -3270,6 +3270,26 @@
         {
           "date": "2026-09-16",
           "value": 10
+        }
+      ]
+    },
+    {
+      "slug": "japan-population",
+      "name": "日本の総人口（推計）",
+      "category": "社会",
+      "unit": "人",
+      "value_display": "122,680,000人",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-16",
+          "value": 122680000
         }
       ]
     },
