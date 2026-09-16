@@ -6,15 +6,12 @@
 
 ## 1. 本番稼働（すぐ）
 
-- [ ] GitHub リポジトリに secret `ESTAT_APP_ID` を登録
-      （Settings → Secrets and variables → Actions → New repository secret）
-      値はローカルの `.env` の `ESTAT_APP_ID`。ワークフロー側の配線
-      （`.github/workflows/collect.yml` の `env: ESTAT_APP_ID`）は済み。
-- [ ] 登録後、最初の Actions 実行ログで `✓ japan-population` が出ることを確認
-- [ ] 確認できたら `core/run.py` の `EXPECTED_MIN["estat"]` を `0 → 1` に上げる
-      （形式変更の早期検知が効くようになる）
-- [ ] `api/today.json` で「社会」カテゴリに人口が並ぶこと、`value_display` が
-      `122,680,000人` の桁区切り表記になっていることを確認（iOS 側の見た目も）
+- [x] GitHub リポジトリに secret `ESTAT_APP_ID` を登録（2026-09-16）
+- [x] 登録後、最初の Actions 実行ログで `✓ japan-population` が出ることを確認
+      （2026-09-16 06:44 UTC の手動実行で `japan-population: 122680000` を確認）
+- [x] `core/run.py` の `EXPECTED_MIN["estat"]` を `0 → 1` に上げた
+- [x] `api/today.json` で「社会」カテゴリに人口が並び、`value_display` が
+      `122,680,000人` の桁区切り表記になっていることを確認（2026-09-16）。iOS 側は未確認
 
 ## 2. 挙動の詰め（人口が数日回ってから）
 
