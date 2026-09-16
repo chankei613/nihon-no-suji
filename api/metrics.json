@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:46:18+09:00",
+  "generated_at": "2026-09-16T15:58:44+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -63,6 +63,33 @@
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "ice-day-points",
+      "name": "真冬日（0℃以上にならなかった）地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "tropical-night-points",
+      "name": "熱帯夜（25℃を下回らなかった）地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "tokyo-sunshine-hours",
+      "name": "東京の日照時間",
+      "category": "自然",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "duration",
+      "source": "気象庁 アメダス実況（東京）"
     },
     {
       "slug": "rain-points",
@@ -238,6 +265,24 @@
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "unit": "市町村",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 気象警報・注意報"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "unit": "市町村",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 気象警報・注意報"
+    },
+    {
+      "slug": "flood-warned-municipalities",
+      "name": "洪水警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
       "comparison_type": "absolute",

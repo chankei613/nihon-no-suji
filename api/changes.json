@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:46:18+09:00",
+  "generated_at": "2026-09-16T15:58:44+09:00",
   "date": "2026-09-16",
   "changes": [
     {
@@ -253,19 +253,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "349地点",
+      "value_display": "373地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -47,
-        "display": "-47地点",
+        "value": -23,
+        "display": "-23地点",
         "direction": "down",
         "prev_value": 396,
         "prev_date": "2026-09-15"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.94,
+      "z": -1.21,
       "label": "通常の範囲"
     },
     {
@@ -405,19 +405,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "3.2℃",
+      "value_display": "2.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.6,
-        "display": "-0.6℃",
+        "value": -0.9,
+        "display": "-0.9℃",
         "direction": "down",
         "prev_value": 3.8,
         "prev_date": "2026-09-15"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -0.8,
+      "z": -0.2,
       "label": "通常の範囲"
     },
     {
@@ -554,6 +554,54 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "ice-day-points",
+      "name": "真冬日（0℃以上にならなかった）地点数",
+      "category": "自然",
+      "value_display": "0地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうは全地点が0℃以上になった",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "tropical-night-points",
+      "name": "熱帯夜（25℃を下回らなかった）地点数",
+      "category": "自然",
+      "value_display": "206地点",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょう一度も25℃を下回らなかった地点（熱帯夜）",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "tokyo-sunshine-hours",
+      "name": "東京の日照時間",
+      "category": "自然",
+      "value_display": "0時間00分",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "きょうはまだ日照なし",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
       "slug": "days-to-sekki",
       "name": "次の二十四節気まで",
       "category": "こよみ",
@@ -570,6 +618,38 @@
       "caption": "次の二十四節気「秋分」まで",
       "score": null,
       "label": "決まった動き"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "いま大雨警報は出ていない",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "flood-warned-municipalities",
+      "name": "洪水警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "いま洪水警報は出ていない",
+      "score": null,
+      "label": "前日データなし"
     },
     {
       "slug": "day-length-tokyo",
