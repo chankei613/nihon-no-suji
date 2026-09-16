@@ -1,0 +1,30 @@
+{
+  "slug": "cpi-yoy",
+  "name": "消費者物価指数（前年同月比）",
+  "unit": "%",
+  "comparison_type": "percentage_point",
+  "value_type": "number",
+  "source": {
+    "name": "総務省統計局 消費者物価指数",
+    "url": "https://www.e-stat.go.jp/dbview?sid=0004052037"
+  },
+  "updated_at": "2026-09-16T17:18:44+09:00",
+  "summary": {
+    "count": 1,
+    "first_date": "2026-09-16",
+    "last_date": "2026-09-16",
+    "min_30d": 1.9,
+    "max_30d": 1.9,
+    "avg_30d": 1.9
+  },
+  "history": [
+    {
+      "date": "2026-09-16",
+      "value": 1.9
+    }
+  ],
+  "latest_detail": {
+    "time_code": "2026000707",
+    "caption": "総務省統計局 消費者物価指数（生鮮食品を含む総合・前年同月比）"
+  }
+}

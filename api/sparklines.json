@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:09:41+09:00",
+  "generated_at": "2026-09-16T17:18:44+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -596,12 +596,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "439地点",
+      "value_display": "455地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 43,
-        "display": "+43地点",
+        "value": 59,
+        "display": "+59地点",
         "direction": "up",
         "prev_value": 396,
         "prev_date": "2026-09-15"
@@ -661,7 +661,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 439
+          "value": 455
         }
       ]
     },
@@ -1218,13 +1218,13 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "10.8m/s",
+      "value_display": "12.1m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.2,
-        "display": "-0.2m/s",
-        "direction": "down",
+        "value": 1.1,
+        "display": "+1.1m/s",
+        "direction": "up",
         "prev_value": 11.0,
         "prev_date": "2026-09-15"
       },
@@ -1283,7 +1283,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 10.8
+          "value": 12.1
         }
       ]
     },
@@ -1366,12 +1366,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "2.8℃",
+      "value_display": "2.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
+        "value": -1.1,
+        "display": "-1.1℃",
         "direction": "down",
         "prev_value": 3.8,
         "prev_date": "2026-09-15"
@@ -1431,7 +1431,7 @@
         },
         {
           "date": "2026-09-16",
-          "value": 2.8
+          "value": 2.7
         }
       ]
     },
@@ -3470,6 +3470,46 @@
         {
           "date": "2026-09-16",
           "value": 122680000
+        }
+      ]
+    },
+    {
+      "slug": "unemployment-rate",
+      "name": "完全失業率",
+      "category": "経済",
+      "unit": "%",
+      "value_display": "2.4%",
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-16",
+          "value": 2.4
+        }
+      ]
+    },
+    {
+      "slug": "cpi-yoy",
+      "name": "消費者物価指数（前年同月比）",
+      "category": "経済",
+      "unit": "%",
+      "value_display": "1.9%",
+      "change": {
+        "type": "percentage_point",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-16",
+          "value": 1.9
         }
       ]
     },
