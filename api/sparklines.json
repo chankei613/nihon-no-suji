@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-17T09:28:10+09:00",
+  "generated_at": "2026-09-17T09:51:49+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "29.5℃",
+      "value_display": "30.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.3,
-        "display": "-3.3℃",
+        "value": -2.5,
+        "display": "-2.5℃",
         "direction": "down",
         "prev_value": 32.8,
         "prev_date": "2026-09-16"
@@ -79,7 +79,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 29.5
+          "value": 30.3
         }
       ]
     },
@@ -170,12 +170,12 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "19.8℃",
+      "value_display": "20.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.8,
-        "display": "-2.8℃",
+        "value": -1.8,
+        "display": "-1.8℃",
         "direction": "down",
         "prev_value": 22.6,
         "prev_date": "2026-09-16"
@@ -239,7 +239,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 19.8
+          "value": 20.8
         }
       ]
     },
@@ -408,12 +408,12 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "1地点",
+      "value_display": "5地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -32,
-        "display": "-32地点",
+        "value": -28,
+        "display": "-28地点",
         "direction": "down",
         "prev_value": 33,
         "prev_date": "2026-09-16"
@@ -477,7 +477,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 1
+          "value": 5
         }
       ]
     },
@@ -616,13 +616,13 @@
       "name": "東京の日照時間",
       "category": "自然",
       "unit": "",
-      "value_display": "0時間00分",
+      "value_display": "0時間06分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0分",
-        "direction": "flat",
+        "value": 6,
+        "display": "+6分",
+        "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-09-16"
       },
@@ -633,7 +633,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 0
+          "value": 6
         }
       ]
     },
@@ -1374,12 +1374,12 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "48%",
+      "value_display": "45%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 19.0,
-        "display": "+19.0pt",
+        "value": 16.0,
+        "display": "+16.0pt",
         "direction": "up",
         "prev_value": 29.0,
         "prev_date": "2026-09-16"
@@ -1443,7 +1443,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 48.0
+          "value": 45.0
         }
       ]
     },
@@ -1452,12 +1452,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "3℃",
+      "value_display": "3.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.9,
-        "display": "+1.9℃",
+        "value": 2.2,
+        "display": "+2.2℃",
         "direction": "up",
         "prev_value": 1.1,
         "prev_date": "2026-09-16"
@@ -1521,7 +1521,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 3.0
+          "value": 3.3
         }
       ]
     },
@@ -3894,12 +3894,12 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "87%",
+      "value_display": "83%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -3.0,
-        "display": "-3.0pt",
+        "value": -7.0,
+        "display": "-7.0pt",
         "direction": "down",
         "prev_value": 90.0,
         "prev_date": "2026-09-16"
@@ -3967,7 +3967,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 87.0
+          "value": 83.0
         }
       ]
     },
@@ -3976,12 +3976,12 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "17%",
+      "value_display": "20%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 13.0,
-        "display": "+13.0pt",
+        "value": 16.0,
+        "display": "+16.0pt",
         "direction": "up",
         "prev_value": 4.0,
         "prev_date": "2026-09-16"
@@ -4045,7 +4045,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 17.0
+          "value": 20.0
         }
       ]
     },
