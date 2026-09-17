@@ -16,6 +16,8 @@ _total_filters() で自動判定できないので、各 _fetch_xxx() 内で明�
   2026-09-05  statsDataId=0003443838 人口推計
   2026-09-16  statsDataId=0003005865 労働力調査（完全失業率）
   2026-09-16  statsDataId=0004052037 消費者物価指数（2025年基準・前年同月比）
+  2026-09-17  statsDataId=0003446462 景気動向指数 個別系列（有効求人倍率）
+  2026-09-17  statsDataId=0003423633 住民基本台帳人口移動報告 月報（東京都転入超過数）
 """
 from __future__ import annotations
 
@@ -175,6 +177,53 @@ def _fetch_cpi_yoy(app_id: str) -> Observation | None:
         return None
 
 
+def _fetch_job_openings_ratio(app_id: str) -> Observation | None:
+    stats_data_id = "0003446462"  # 景気動向指数 個別系列の数値
+    # cat01=2090 (一致)_C9有効求人倍率(除学卒)。32系列が並ぶ一覧で「総数」の
+    # 手がかりが無いので明示指定。tabは選択肢1つ("200 系列の数値")のみ。
+    try:
+        filters = {"appId": app_id, "statsDataId": stats_data_id, "metaGetFlg": "N",
+                   "cdCat01": "2090"}
+        data = _get("getStatsData", **filters)
+        v = _latest_by_time(_values(data))
+        if v is None:
+            print("  ! estat job-openings: 値が取れない")
+            return None
+        return Observation(
+            "job-openings-ratio", round(float(v["$"]), 2),
+            now_jst().date().isoformat() + "T00:00:00+09:00",
+            {"time_code": v.get("@time"),
+             "caption": "厚生労働省 職業安定業務統計（有効求人倍率・季節調整値、除学卒）"},
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"  ! estat job-openings: {exc}")
+        return None
+
+
+def _fetch_tokyo_net_migration(app_id: str) -> Observation | None:
+    stats_data_id = "0003423633"  # 住民基本台帳人口移動報告 月報（年齢・男女別転入超過数）
+    # cat01=000 年齢総数、cat02=0 男女総数、cat03=60000 移動者（総数）、area=13000 東京都。
+    # cat03は「移動者」という名称で「総数」ヒントに一致せず、areaは「全国」ヒントに
+    # 引っ張られて東京都以外を拾ってしまうため、どちらも明示指定する。
+    try:
+        filters = {"appId": app_id, "statsDataId": stats_data_id, "metaGetFlg": "N",
+                   "cdCat01": "000", "cdCat02": "0", "cdCat03": "60000", "cdArea": "13000"}
+        data = _get("getStatsData", **filters)
+        v = _latest_by_time(_values(data))
+        if v is None:
+            print("  ! estat tokyo-migration: 値が取れない")
+            return None
+        return Observation(
+            "tokyo-net-migration", round(float(v["$"])),
+            now_jst().date().isoformat() + "T00:00:00+09:00",
+            {"time_code": v.get("@time"),
+             "caption": "総務省統計局 住民基本台帳人口移動報告（東京都・他都道府県との転入超過数）"},
+        )
+    except Exception as exc:  # noqa: BLE001
+        print(f"  ! estat tokyo-migration: {exc}")
+        return None
+
+
 def collect() -> list[Observation]:
     app_id = _app_id()
     if not app_id:
@@ -182,7 +231,8 @@ def collect() -> list[Observation]:
         return []
 
     out: list[Observation] = []
-    for fn in (_fetch_population, _fetch_unemployment_rate, _fetch_cpi_yoy):
+    for fn in (_fetch_population, _fetch_unemployment_rate, _fetch_cpi_yoy,
+               _fetch_job_openings_ratio, _fetch_tokyo_net_migration):
         obs = fn(app_id)
         if obs:
             out.append(obs)
