@@ -1,43 +1,24 @@
 {
-  "generated_at": "2026-09-17T15:37:12+09:00",
+  "generated_at": "2026-09-17T21:45:43+09:00",
   "date": "2026-09-17",
   "changes": [
     {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "73地点",
+      "value_display": "79地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -386,
-        "display": "-386地点",
+        "value": -380,
+        "display": "-380地点",
         "direction": "down",
         "prev_value": 459,
         "prev_date": "2026-09-16"
       },
       "caption": "きょう雨が降った地点",
-      "score": 2.92,
-      "z": 2.92,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "4.9℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 3.8,
-        "display": "+3.8℃",
-        "direction": "up",
-        "prev_value": 1.1,
-        "prev_date": "2026-09-16"
-      },
-      "caption": "夏でもひんやり",
-      "score": 2.88,
-      "z": 2.88,
+      "score": 2.85,
+      "z": 2.85,
       "label": "いつもより大きな変化"
     },
     {
@@ -63,20 +44,39 @@
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "40%",
+      "value_display": "30%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -40.0,
-        "display": "-40.0pt",
+        "value": -50.0,
+        "display": "-50.0pt",
         "direction": "down",
         "prev_value": 80.0,
         "prev_date": "2026-09-16"
       },
       "caption": "あすは所により雨",
-      "score": 1.5,
-      "z": 1.5,
+      "score": 2.5,
+      "z": 2.5,
       "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "value_display": "18℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.0,
+        "display": "-3℃",
+        "direction": "down",
+        "prev_value": 21.0,
+        "prev_date": "2026-09-16"
+      },
+      "caption": "あすの東京の最低気温の予想",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
     },
     {
       "slug": "typhoons-this-year",
@@ -149,7 +149,7 @@
         "prev_value": 90.0,
         "prev_date": "2026-09-16"
       },
-      "caption": "ピークは15:00〜16:00の見込み",
+      "caption": "ピークは16:00〜17:00の見込み",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -158,19 +158,19 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "33.7℃",
+      "value_display": "34.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.9,
-        "display": "+0.9℃",
+        "value": 1.4,
+        "display": "+1.4℃",
         "direction": "up",
         "prev_value": 32.8,
         "prev_date": "2026-09-16"
       },
       "caption": "牛深｜きょう日本でいちばん暑い",
-      "score": 0.0,
-      "z": 0.0,
+      "score": 0.8,
+      "z": 0.8,
       "label": "通常の範囲"
     },
     {
@@ -196,19 +196,19 @@
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "25.7℃",
+      "value_display": "26℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.1,
-        "display": "+3.1℃",
+        "value": 3.4,
+        "display": "+3.4℃",
         "direction": "up",
         "prev_value": 22.6,
         "prev_date": "2026-09-16"
       },
       "caption": "きょうの東京の最高気温",
       "score": 0.0,
-      "z": -0.24,
+      "z": -0.16,
       "label": "通常の範囲"
     },
     {
@@ -348,38 +348,19 @@
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "23℃",
+      "value_display": "24℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
-        "direction": "down",
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
         "prev_value": 24.0,
         "prev_date": "2026-09-16"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-min",
-      "name": "東京のあしたの最低気温",
-      "category": "自然",
-      "value_display": "19℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.0,
-        "display": "-2℃",
-        "direction": "down",
-        "prev_value": 21.0,
-        "prev_date": "2026-09-16"
-      },
-      "caption": "あすの東京の最低気温の予想",
-      "score": 0.0,
-      "z": 0.0,
+      "z": -2.0,
       "label": "通常の範囲"
     },
     {
@@ -437,6 +418,25 @@
       "caption": "長沼｜全国でいちばん空気が乾いている",
       "score": 0.0,
       "z": -1.27,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "1.4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.3,
+        "display": "+0.3℃",
+        "direction": "up",
+        "prev_value": 1.1,
+        "prev_date": "2026-09-16"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.0,
+      "z": -1.29,
       "label": "通常の範囲"
     },
     {
@@ -519,19 +519,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "9回",
+      "value_display": "8回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
+        "value": 1,
+        "display": "+1回",
         "direction": "up",
         "prev_value": 7,
         "prev_date": "2026-09-16"
       },
       "caption": "最大は茨城県南部の震度3",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
