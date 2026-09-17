@@ -75,6 +75,35 @@ class JmaAmedasTests(unittest.TestCase):
         self.assertIn("min-pressure", out)
         self.assertAlmostEqual(out["min-pressure"].value, 994.8, places=1)
         self.assertIn("名瀬", out["min-pressure"].detail["place"])
+        # 真冬日: 5地点中「テスト高地」(-2.0℃)だけが一度も0℃以上にならず → 1
+        self.assertIn("ice-day-points", out)
+        self.assertEqual(out["ice-day-points"].value, 1)
+        # 熱帯夜: 5地点中 東京36.5℃・47909 28.0℃ の2地点だけが一度も25℃を下回らず → 2
+        self.assertIn("tropical-night-points", out)
+        self.assertEqual(out["tropical-night-points"].value, 2)
+        # 東京の日照時間: sun1h=0.5時間 → 30分の積算
+        self.assertIn("tokyo-sunshine-hours", out)
+        self.assertEqual(out["tokyo-sunshine-hours"].value, 30)
+
+    def test_ice_and_tropical_night_are_mutually_exclusive_with_reported_total(self):
+        """真冬日/熱帯夜地点数は「観測地点数 - しきい値を破った地点数」の差分計算。
+        後から集計ロジックを変えたときに、この不変条件が壊れていないかを検証する。"""
+        from collectors import jma_amedas
+        urls = {
+            "latest_time.txt": "amedas_latest_time.txt",
+            "amedastable.json": "amedas_table.json",
+            "/map/": "amedas_map.json",
+        }
+        with patch_fetch("collectors.jma_amedas", urls):
+            out = {o.slug: o for o in jma_amedas.collect()}
+        ice = out["ice-day-points"]
+        reported = len(ice.detail["reported_station_ids"])
+        broke = len(ice.detail["mild_station_ids"])
+        self.assertEqual(ice.value, reported - broke)
+        tn = out["tropical-night-points"]
+        reported_tn = len(tn.detail["reported_station_ids"])
+        broke_tn = len(tn.detail["cool_station_ids"])
+        self.assertEqual(tn.value, reported_tn - broke_tn)
 
 
 class TepcoTests(unittest.TestCase):
@@ -170,6 +199,28 @@ class WarningTests(unittest.TestCase):
             out = jma_warning.collect()   # 3か月前の管理時刻 → 鮮度ガードで空
         self.assertEqual(out, [])
 
+    def test_heavy_rain_flood_sediment_codes_are_split_out(self):
+        """コード03(大雨警報)/04(洪水警報)/49(土砂災害警戒情報)を、
+        area毎に1つずつ用意したfixtureで、それぞれ正しい市町村数(=1)に
+        分類されることを検証する。土砂災害警戒情報(49)は気象警報・注意報の
+        集計(warned-municipalities)とは別枠なので、そちらを汚染しないことも確認する。"""
+        from collectors import jma_warning
+        mt = json.loads(fixture_bytes("warning_map_time.json"))
+        latest = datetime.fromisoformat(mt["latestControlDatetime"].replace("Z", "+00:00"))
+        fake_now = (latest + timedelta(hours=1)).astimezone(JST_TZ)
+        with patch_fetch("collectors.jma_warning",
+                         {"map_time.json": "warning_map_time.json",
+                          "r8/map.json": "warning_map_extra_codes.json"}), \
+             unittest.mock.patch("collectors.jma_warning.now_jst", return_value=fake_now):
+            out = {o.slug: o for o in jma_warning.collect()}
+
+        self.assertEqual(out["heavy-rain-warned-municipalities"].value, 1)
+        self.assertEqual(out["flood-warned-municipalities"].value, 1)
+        self.assertEqual(out["sediment-warning-municipalities"].value, 1)
+        # 大雨・洪水は通常の警報集計にも入るが、土砂災害警戒情報は入らない
+        # （9010100と9010200の2件のみが気象警報の集計対象 = areaは3件あるうち2件）
+        self.assertEqual(out["warned-municipalities"].value, 2)
+
 
 class JmaForecastTests(unittest.TestCase):
     def test_tomorrow_tokyo(self):
@@ -241,6 +292,89 @@ class EnechoGasTests(unittest.TestCase):
         self.assertGreater(p, 100)
         self.assertLess(p, 300)
         self.assertIn("survey_date", out["gas-regular"].detail)
+
+
+class VolcanoTests(unittest.TestCase):
+    def test_counts_level2_plus_and_skips_unreported(self):
+        """3火山のfixture: 桜島=レベル3(採用), 阿蘇山=レベル1(除外),
+        999=個別報告が無い(404相当・スキップ)。レベル2以上は桜島のみ → 1。"""
+        from collectors import jma_volcano
+        from core.http import FetchError
+
+        def fake_fetch(url, **_kw):
+            if "volcano_list" in url or "const/volcano_list.json" in url:
+                return fixture_bytes("volcano_list.json")
+            if "data/warning/506.json" in url:
+                return fixture_bytes("volcano_warning_506.json")
+            if "data/warning/503.json" in url:
+                return fixture_bytes("volcano_warning_503.json")
+            if "data/warning/999.json" in url:
+                raise FetchError(f"404: {url}")
+            raise AssertionError(f"想定外のURL: {url}")
+
+        with unittest.mock.patch("collectors.jma_volcano.fetch", side_effect=fake_fetch):
+            out = {o.slug: o for o in jma_volcano.collect()}
+
+        self.assertIn("volcano-alert-points", out)
+        v = out["volcano-alert-points"]
+        self.assertEqual(v.value, 1)
+        self.assertEqual(v.detail["checked"], 2)   # 999は404でチェック対象に入らない
+        names = [x["name"] for x in v.detail["volcanoes"]]
+        self.assertIn("桜島", names)
+        self.assertNotIn("阿蘇山", names)   # レベル1は対象外
+
+    def test_no_data_returns_empty(self):
+        from collectors import jma_volcano
+        with unittest.mock.patch("collectors.jma_volcano.fetch",
+                                 side_effect=Exception("network down")):
+            out = jma_volcano.collect()
+        self.assertEqual(out, [])
+
+
+class SakuraTests(unittest.TestCase):
+    def test_counts_stations_with_observed_date(self):
+        from collectors import jma_sakura
+        kaika_html = """
+        <table>
+        <tr class='mtx'><th colspan='7'>【関東甲信地方】</th></tr>
+        <tr class='mtx'><th>地点名</th><th>観測日</th><th>平年差(日)</th><th>平年日</th><th>昨年差(日)</th><th>昨年日</th><th>種類</th></tr>
+        <tr class='mtx'><th scope='row'>東京</th><td> 3月19日</td><td>-5</td><td> 3月24日</td><td>-5</td><td> 3月24日</td><td></td></tr>
+        <tr class='mtx'><th scope='row'>水戸</th><td> 3月25日</td><td>-5</td><td> 3月30日</td><td>-2</td><td> 3月27日</td><td></td></tr>
+        <tr class='mtx'><th scope='row'>未開花地点</th><td></td><td>--</td><td>--</td><td>--</td><td>--</td><td></td></tr>
+        </table>
+        """
+        mankai_html = kaika_html  # 簡易фixture: 満開も同じ構造で1地点少ない想定は別テストで見る
+
+        def fake_fetch(url, **_kw):
+            if "sakura_kaika" in url:
+                return kaika_html.encode("utf-8")
+            if "sakura_mankai" in url:
+                return mankai_html.encode("utf-8")
+            raise AssertionError(f"想定外のURL: {url}")
+
+        with unittest.mock.patch("collectors.jma_sakura.fetch", side_effect=fake_fetch):
+            out = {o.slug: o for o in jma_sakura.collect()}
+
+        self.assertIn("sakura-kaika-points", out)
+        # 「地点名」等のヘッダ行・区域見出し行・未開花(空欄)行はカウントしない → 2地点
+        self.assertEqual(out["sakura-kaika-points"].value, 2)
+        self.assertEqual(out["sakura-mankai-points"].value, 2)
+
+    def test_partial_failure_still_returns_the_other(self):
+        from collectors import jma_sakura
+
+        def fake_fetch(url, **_kw):
+            if "sakura_kaika" in url:
+                raise Exception("network down")
+            if "sakura_mankai" in url:
+                return "<tr class='mtx'><th scope='row'>東京</th><td> 4月1日</td></tr>".encode("utf-8")
+            raise AssertionError(f"想定外のURL: {url}")
+
+        with unittest.mock.patch("collectors.jma_sakura.fetch", side_effect=fake_fetch):
+            out = {o.slug: o for o in jma_sakura.collect()}
+        self.assertNotIn("sakura-kaika-points", out)
+        self.assertIn("sakura-mankai-points", out)
+        self.assertEqual(out["sakura-mankai-points"].value, 1)
 
 
 if __name__ == "__main__":

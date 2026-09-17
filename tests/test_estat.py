@@ -75,5 +75,74 @@ class EstatPopulationTests(unittest.TestCase):
             estat._total_filters(meta)
 
 
+class EstatAllMetricsTests(unittest.TestCase):
+    """collect() が呼ぶ5つの _fetch_xxx() すべてを、statsDataId ごとに
+    別のfixtureへ振り分けて検証する。population以外はgetMetaInfoを
+    呼ばず直接getStatsDataを叩く実装なので、patch_fetchの単純なURL部分一致
+    （1キー1fixture）では書けない。"""
+
+    def test_collect_returns_all_five_metrics_with_expected_values(self):
+        from collectors import estat
+        from tests.helpers import fixture_bytes
+
+        routes = {
+            "getMetaInfo": "estat_meta_population.json",
+            "statsDataId=0003443838": "estat_data_population.json",
+            "statsDataId=0003005865": "estat_data_unemployment.json",
+            "statsDataId=0004052037": "estat_data_cpi.json",
+            "statsDataId=0003446462": "estat_data_job_openings.json",
+            "statsDataId=0003423633": "estat_data_tokyo_migration.json",
+        }
+
+        def fake_fetch(url, **_kw):
+            for needle, fname in routes.items():
+                if needle in url:
+                    return fixture_bytes(fname)
+            raise AssertionError(f"想定外のURL: {url}")
+
+        with mock.patch("collectors.estat.fetch", side_effect=fake_fetch), \
+             mock.patch.dict(os.environ, {"ESTAT_APP_ID": "dummy"}, clear=True):
+            out = {o.slug: o for o in estat.collect()}
+
+        self.assertEqual(len(out), 5)
+        self.assertEqual(out["japan-population"].value, 122_680_000)
+        # 最新時点(2026年7月)の値を拾っていること（古い6月の値ではない）
+        self.assertEqual(out["unemployment-rate"].value, 2.4)
+        self.assertEqual(out["cpi-yoy"].value, 1.9)
+        self.assertEqual(out["job-openings-ratio"].value, 1.18)
+        self.assertEqual(out["tokyo-net-migration"].value, -801)
+
+    def test_one_metric_failing_does_not_break_the_others(self):
+        """有効求人倍率のテーブルだけ壊れていても、他の4件は正しく返る
+        （1メトリック1メトリック try/except で囲われていることの保証）。"""
+        from collectors import estat
+        from tests.helpers import fixture_bytes
+
+        routes = {
+            "getMetaInfo": "estat_meta_population.json",
+            "statsDataId=0003443838": "estat_data_population.json",
+            "statsDataId=0003005865": "estat_data_unemployment.json",
+            "statsDataId=0004052037": "estat_data_cpi.json",
+            "statsDataId=0003423633": "estat_data_tokyo_migration.json",
+        }
+
+        def fake_fetch(url, **_kw):
+            if "statsDataId=0003446462" in url:
+                raise Exception("network down")
+            for needle, fname in routes.items():
+                if needle in url:
+                    return fixture_bytes(fname)
+            raise AssertionError(f"想定外のURL: {url}")
+
+        with mock.patch("collectors.estat.fetch", side_effect=fake_fetch), \
+             mock.patch.dict(os.environ, {"ESTAT_APP_ID": "dummy"}, clear=True):
+            out = {o.slug: o for o in estat.collect()}
+
+        self.assertNotIn("job-openings-ratio", out)
+        self.assertEqual(len(out), 4)
+        self.assertIn("japan-population", out)
+        self.assertIn("tokyo-net-migration", out)
+
+
 if __name__ == "__main__":
     unittest.main()
