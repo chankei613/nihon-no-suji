@@ -1,0 +1,30 @@
+{
+  "slug": "job-openings-ratio",
+  "name": "有効求人倍率",
+  "unit": "倍",
+  "comparison_type": "absolute",
+  "value_type": "number",
+  "source": {
+    "name": "厚生労働省 職業安定業務統計",
+    "url": "https://www.e-stat.go.jp/dbview?sid=0003446462"
+  },
+  "updated_at": "2026-09-17T09:28:10+09:00",
+  "summary": {
+    "count": 1,
+    "first_date": "2026-09-17",
+    "last_date": "2026-09-17",
+    "min_30d": 1.18,
+    "max_30d": 1.18,
+    "avg_30d": 1.18
+  },
+  "history": [
+    {
+      "date": "2026-09-17",
+      "value": 1.18
+    }
+  ],
+  "latest_detail": {
+    "time_code": "2026000707",
+    "caption": "厚生労働省 職業安定業務統計（有効求人倍率・季節調整値、除学卒）"
+  }
+}

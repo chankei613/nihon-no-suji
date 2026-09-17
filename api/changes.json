@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-09-17T06:39:09+09:00",
+  "generated_at": "2026-09-17T09:28:10+09:00",
   "date": "2026-09-17",
   "changes": [
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "28.3℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.5,
-        "display": "-4.5℃",
-        "direction": "down",
-        "prev_value": 32.8,
-        "prev_date": "2026-09-16"
-      },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 4.37,
-      "z": 4.37,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "54%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 25.0,
-        "display": "+25.0pt",
-        "direction": "up",
-        "prev_value": 29.0,
-        "prev_date": "2026-09-16"
-      },
-      "caption": "八森｜全国でいちばん空気が乾いている",
-      "score": 3.44,
-      "z": 3.44,
-      "label": "かなり珍しい変化"
-    },
     {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "56地点",
+      "value_display": "59地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -403,
-        "display": "-403地点",
+        "value": -400,
+        "display": "-400地点",
         "direction": "down",
         "prev_value": 459,
         "prev_date": "2026-09-16"
       },
       "caption": "きょう雨が降った地点",
-      "score": 3.12,
-      "z": 3.12,
+      "score": 3.09,
+      "z": 3.09,
       "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "29.5℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.3,
+        "display": "-3.3℃",
+        "direction": "down",
+        "prev_value": 32.8,
+        "prev_date": "2026-09-16"
+      },
+      "caption": "父島｜きょう日本でいちばん暑い",
+      "score": 2.87,
+      "z": 2.87,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "48%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 19.0,
+        "display": "+19.0pt",
+        "direction": "up",
+        "prev_value": 29.0,
+        "prev_date": "2026-09-16"
+      },
+      "caption": "岩手松尾｜全国でいちばん空気が乾いている",
+      "score": 2.11,
+      "z": 2.11,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "tokyo-forecast-pop",
@@ -136,6 +136,44 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "17%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 13.0,
+        "display": "+13.0pt",
+        "direction": "up",
+        "prev_value": 4.0,
+        "prev_date": "2026-09-16"
+      },
+      "caption": "きょうのピークで電力の17%を太陽光がまかなった",
+      "score": 0.91,
+      "z": 0.91,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.9,
+        "display": "+1.9℃",
+        "direction": "up",
+        "prev_value": 1.1,
+        "prev_date": "2026-09-16"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.67,
+      "z": 0.67,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
@@ -158,38 +196,38 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "3.7℃",
+      "value_display": "3.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.4,
-        "display": "-0.4℃",
+        "value": -0.6,
+        "display": "-0.6℃",
         "direction": "down",
         "prev_value": 4.1,
         "prev_date": "2026-09-16"
       },
       "caption": "朱鞠内｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -1.42,
+      "z": -1.25,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "19.5℃",
+      "value_display": "19.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.1,
-        "display": "-3.1℃",
+        "value": -2.8,
+        "display": "-2.8℃",
         "direction": "down",
         "prev_value": 22.6,
         "prev_date": "2026-09-16"
       },
       "caption": "きょうの東京の最高気温",
       "score": 0.0,
-      "z": -0.24,
+      "z": -0.32,
       "label": "通常の範囲"
     },
     {
@@ -234,19 +272,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -33,
-        "display": "-33地点",
+        "value": -32,
+        "display": "-32地点",
         "direction": "down",
         "prev_value": 33,
         "prev_date": "2026-09-16"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -0.04,
+      "z": -0.08,
       "label": "通常の範囲"
     },
     {
@@ -402,25 +440,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "2.5℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.4,
-        "display": "+1.4℃",
-        "direction": "up",
-        "prev_value": 1.1,
-        "prev_date": "2026-09-16"
-      },
-      "caption": "夏でもひんやり",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "gas-regular",
       "name": "レギュラーガソリンの全国平均価格",
       "category": "経済",
@@ -443,19 +462,19 @@
       "slug": "usd-jpy",
       "name": "ドル円レート",
       "category": "経済",
-      "value_display": "154.4円",
+      "value_display": "154.89円",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.18,
-        "display": "+0.18円",
+        "value": 0.49,
+        "display": "+0.49円",
         "direction": "up",
-        "prev_value": 154.22,
-        "prev_date": "2026-09-11"
+        "prev_value": 154.4,
+        "prev_date": "2026-09-14"
       },
-      "caption": "1ドル＝154.4円（9月14日）",
+      "caption": "1ドル＝154.89円（9月15日）",
       "score": 0.0,
-      "z": -2.17,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -513,25 +532,6 @@
       "caption": "ピークは15:00〜16:00の見込み",
       "score": 0.0,
       "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "2%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -2.0,
-        "display": "-2.0pt",
-        "direction": "down",
-        "prev_value": 4.0,
-        "prev_date": "2026-09-16"
-      },
-      "caption": "きょうのピークで電力の2%を太陽光がまかなった",
-      "score": 0.0,
-      "z": -0.92,
       "label": "通常の範囲"
     },
     {
@@ -876,6 +876,38 @@
       "caption": "総務省統計局 消費者物価指数（生鮮食品を含む総合・前年同月比）",
       "score": null,
       "label": "データ蓄積中"
+    },
+    {
+      "slug": "job-openings-ratio",
+      "name": "有効求人倍率",
+      "category": "経済",
+      "value_display": "1.18倍",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "厚生労働省 職業安定業務統計（有効求人倍率・季節調整値、除学卒）",
+      "score": null,
+      "label": "前日データなし"
+    },
+    {
+      "slug": "tokyo-net-migration",
+      "name": "東京都の転入超過数",
+      "category": "社会",
+      "value_display": "-801人",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "caption": "総務省統計局 住民基本台帳人口移動報告（東京都・他都道府県との転入超過数）",
+      "score": null,
+      "label": "前日データなし"
     },
     {
       "slug": "max-shindo-7d",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T06:39:09+09:00",
+  "generated_at": "2026-09-17T09:28:10+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -396,6 +396,24 @@
       "comparison_type": "percentage_point",
       "value_type": "number",
       "source": "総務省統計局 消費者物価指数"
+    },
+    {
+      "slug": "job-openings-ratio",
+      "name": "有効求人倍率",
+      "category": "経済",
+      "unit": "倍",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "厚生労働省 職業安定業務統計"
+    },
+    {
+      "slug": "tokyo-net-migration",
+      "name": "東京都の転入超過数",
+      "category": "社会",
+      "unit": "人",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "総務省統計局 住民基本台帳人口移動報告"
     },
     {
       "slug": "biwako-level",

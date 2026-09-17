@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-17T06:39:09+09:00",
+  "generated_at": "2026-09-17T09:28:10+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "28.3℃",
+      "value_display": "29.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.5,
-        "display": "-4.5℃",
+        "value": -3.3,
+        "display": "-3.3℃",
         "direction": "down",
         "prev_value": 32.8,
         "prev_date": "2026-09-16"
@@ -79,7 +79,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 28.3
+          "value": 29.5
         }
       ]
     },
@@ -88,12 +88,12 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "3.7℃",
+      "value_display": "3.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.4,
-        "display": "-0.4℃",
+        "value": -0.6,
+        "display": "-0.6℃",
         "direction": "down",
         "prev_value": 4.1,
         "prev_date": "2026-09-16"
@@ -161,7 +161,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 3.7
+          "value": 3.5
         }
       ]
     },
@@ -170,12 +170,12 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "19.5℃",
+      "value_display": "19.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.1,
-        "display": "-3.1℃",
+        "value": -2.8,
+        "display": "-2.8℃",
         "direction": "down",
         "prev_value": 22.6,
         "prev_date": "2026-09-16"
@@ -239,7 +239,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 19.5
+          "value": 19.8
         }
       ]
     },
@@ -408,12 +408,12 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "0地点",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -33,
-        "display": "-33地点",
+        "value": -32,
+        "display": "-32地点",
         "direction": "down",
         "prev_value": 33,
         "prev_date": "2026-09-16"
@@ -477,7 +477,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -642,12 +642,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "56地点",
+      "value_display": "59地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -403,
-        "display": "-403地点",
+        "value": -400,
+        "display": "-400地点",
         "direction": "down",
         "prev_value": 459,
         "prev_date": "2026-09-16"
@@ -711,7 +711,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 56
+          "value": 59
         }
       ]
     },
@@ -1374,12 +1374,12 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "54%",
+      "value_display": "48%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 25.0,
-        "display": "+25.0pt",
+        "value": 19.0,
+        "display": "+19.0pt",
         "direction": "up",
         "prev_value": 29.0,
         "prev_date": "2026-09-16"
@@ -1443,7 +1443,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 54.0
+          "value": 48.0
         }
       ]
     },
@@ -1452,12 +1452,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "2.5℃",
+      "value_display": "3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.4,
-        "display": "+1.4℃",
+        "value": 1.9,
+        "display": "+1.9℃",
         "direction": "up",
         "prev_value": 1.1,
         "prev_date": "2026-09-16"
@@ -1521,7 +1521,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 2.5
+          "value": 3.0
         }
       ]
     },
@@ -1866,15 +1866,15 @@
       "name": "ドル円レート",
       "category": "経済",
       "unit": "円",
-      "value_display": "154.4円",
+      "value_display": "154.89円",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.18,
-        "display": "+0.18円",
+        "value": 0.49,
+        "display": "+0.49円",
         "direction": "up",
-        "prev_value": 154.22,
-        "prev_date": "2026-09-11"
+        "prev_value": 154.4,
+        "prev_date": "2026-09-14"
       },
       "points": [
         {
@@ -1912,6 +1912,10 @@
         {
           "date": "2026-09-14",
           "value": 154.4
+        },
+        {
+          "date": "2026-09-15",
+          "value": 154.89
         }
       ]
     },
@@ -3674,6 +3678,46 @@
       ]
     },
     {
+      "slug": "job-openings-ratio",
+      "name": "有効求人倍率",
+      "category": "経済",
+      "unit": "倍",
+      "value_display": "1.18倍",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-17",
+          "value": 1.18
+        }
+      ]
+    },
+    {
+      "slug": "tokyo-net-migration",
+      "name": "東京都の転入超過数",
+      "category": "社会",
+      "unit": "人",
+      "value_display": "-801人",
+      "change": {
+        "type": "absolute",
+        "available": false,
+        "direction": "flat",
+        "display": "—",
+        "note": "前日データなし"
+      },
+      "points": [
+        {
+          "date": "2026-09-17",
+          "value": -801
+        }
+      ]
+    },
+    {
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
@@ -3932,13 +3976,13 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "2%",
+      "value_display": "17%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -2.0,
-        "display": "-2.0pt",
-        "direction": "down",
+        "value": 13.0,
+        "display": "+13.0pt",
+        "direction": "up",
         "prev_value": 4.0,
         "prev_date": "2026-09-16"
       },
@@ -4001,7 +4045,7 @@
         },
         {
           "date": "2026-09-17",
-          "value": 2.0
+          "value": 17.0
         }
       ]
     },
