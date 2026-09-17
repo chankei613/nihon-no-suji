@@ -191,9 +191,14 @@ class JmaForecastTests(unittest.TestCase):
         self.assertGreater(wk.value, -20)
         self.assertLess(wk.value, 45)
         self.assertIn("for_date", wk.detail)
-        # 観測時刻は「あした」の日付
-        self.assertGreater(out["tokyo-forecast-max"].observed_at,
-                           out["tokyo-forecast-max"].fetched_at[:4])
+        # 観測時刻（=履歴の日付キー）は「取得した今日」。予報対象日はdetail["for_date"]側に持つ
+        # （ここを対象日にすると、翌日以降のあすの予報が毎回stale判定されるバグがあった）。
+        from core.models import now_jst
+        today = now_jst().date().isoformat()
+        self.assertEqual(out["tokyo-forecast-max"].date, today)
+        for_date = out["tokyo-forecast-max"].detail.get("for_date")
+        self.assertRegex(for_date, r"^\d{4}-\d{2}-\d{2}$")
+        self.assertNotEqual(for_date, today)  # 対象日は「今日」の観測時刻とは別物
 
 
 class BojFxTests(unittest.TestCase):
