@@ -186,13 +186,14 @@
     font-variant-numeric:tabular-nums; margin-bottom:2px; }
   .clock-time { font-size:34px; font-weight:600; letter-spacing:.02em; font-variant-numeric:tabular-nums; }
   .section-title { font-size:13px; font-weight:700; color:var(--ink); letter-spacing:.06em;
-    padding:var(--section-title-padding); }
+    padding:var(--section-title-padding); break-after:avoid-column; }
   .section:first-of-type .section-title { padding-top:0; }
   .card { padding:var(--card-padding); margin-bottom:var(--card-margin-bottom);
     border-top:var(--card-border-top); border-left:var(--card-border-x); border-right:var(--card-border-x);
     border-bottom:var(--card-border-bottom); border-radius:var(--card-radius);
     box-shadow:var(--card-shadow); background:var(--surface-bg);
-    backdrop-filter:var(--surface-blur); -webkit-backdrop-filter:var(--surface-blur); }
+    backdrop-filter:var(--surface-blur); -webkit-backdrop-filter:var(--surface-blur);
+    break-inside:avoid; }
   .card:first-of-type { border-top:var(--card-first-top); }
   .section .card:first-child { padding-top:var(--card-first-padding-top); }
   .name { font-size:13px; color:var(--sub); letter-spacing:.02em; }
@@ -208,6 +209,20 @@
   .stale { font-size:11px; color:var(--sub); margin-left:6px; }
   footer { margin-top:var(--footer-margin-top); font-size:11px; color:var(--sub); text-align:left; }
   a { color:inherit; }
+
+  @media (min-width:700px) {
+    /* PC: 通常スキン（flat divider）の時だけカードをタイル化する。
+       他スキンは既にradius/shadow付きなので、そのまま複数カラムに流し込むだけでよい。
+       ここは:root（無印）にしか勝てないので、[data-skin="…"]側の値は上書きされない。 */
+    :root {
+      --card-padding:20px 20px 18px; --card-first-padding-top:20px;
+      --card-radius:14px; --card-shadow:0 1px 3px rgba(0,0,0,.08);
+      --card-border-top:none; --card-first-top:none; --card-margin-bottom:18px;
+    }
+    .wrap { max-width:1400px; }
+    .tagline, .clock, footer { max-width:460px; margin-left:auto; margin-right:auto; }
+    #cards { column-width:300px; column-gap:22px; }
+  }
 </style>
 </head>
 <body>
