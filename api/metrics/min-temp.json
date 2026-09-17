@@ -8,16 +8,16 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-17T21:45:43+09:00",
+  "updated_at": "2026-09-18T02:44:59+09:00",
   "summary": {
-    "count": 16,
+    "count": 17,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-17",
+    "last_date": "2026-09-18",
     "min_30d": 2.8,
     "max_30d": 12.3,
-    "avg_30d": 6.33,
-    "record_1st": -35.8,
-    "year_extreme": true,
+    "avg_30d": 6.28,
+    "record_1st": -34.0,
+    "year_extreme": false,
     "all_time_record": false
   },
   "history": [
@@ -84,16 +84,18 @@
     {
       "date": "2026-09-17",
       "value": 3.5
+    },
+    {
+      "date": "2026-09-18",
+      "value": 5.6
     }
   ],
   "latest_detail": {
-    "place": "朱鞠内",
-    "pref": "北海道上川地方",
-    "caption": "朱鞠内｜きょう日本でいちばん寒い",
-    "normal_diff": -4.5,
-    "station_prev_diff": -0.6,
-    "record_1st": -35.8,
-    "year_extreme": true,
+    "place": "川湯",
+    "pref": "北海道釧路地方",
+    "caption": "川湯｜きょう日本でいちばん寒い",
+    "record_1st": -34.0,
+    "year_extreme": false,
     "all_time_record": false
   }
 }
