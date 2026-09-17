@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-09-17T15:04:14+09:00",
+  "generated_at": "2026-09-17T15:37:12+09:00",
   "date": "2026-09-17",
   "changes": [
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "5.3℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4.2,
-        "display": "+4.2℃",
-        "direction": "up",
-        "prev_value": 1.1,
-        "prev_date": "2026-09-16"
-      },
-      "caption": "夏でもひんやり",
-      "score": 3.38,
-      "z": 3.38,
-      "label": "かなり珍しい変化"
-    },
     {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "66地点",
+      "value_display": "73地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -393,
-        "display": "-393地点",
+        "value": -386,
+        "display": "-386地点",
         "direction": "down",
         "prev_value": 459,
         "prev_date": "2026-09-16"
       },
       "caption": "きょう雨が降った地点",
-      "score": 3.01,
-      "z": 3.01,
-      "label": "かなり珍しい変化"
+      "score": 2.92,
+      "z": 2.92,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "4.9℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.8,
+        "display": "+3.8℃",
+        "direction": "up",
+        "prev_value": 1.1,
+        "prev_date": "2026-09-16"
+      },
+      "caption": "夏でもひんやり",
+      "score": 2.88,
+      "z": 2.88,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "solar-share-tokyo",
@@ -253,19 +253,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "47地点",
+      "value_display": "51地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 14,
-        "display": "+14地点",
+        "value": 18,
+        "display": "+18地点",
         "direction": "up",
         "prev_value": 33,
         "prev_date": "2026-09-16"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -1.24,
+      "z": -1.04,
       "label": "通常の範囲"
     },
     {
@@ -310,19 +310,19 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "30mm",
+      "value_display": "32mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -20.0,
-        "display": "-20mm",
+        "value": -18.0,
+        "display": "-18mm",
         "direction": "down",
         "prev_value": 50.0,
         "prev_date": "2026-09-16"
       },
       "caption": "串間｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.87,
+      "z": -0.93,
       "label": "通常の範囲"
     },
     {
@@ -386,19 +386,19 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1004.7hPa",
+      "value_display": "1004.6hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.5,
-        "display": "+1.5hPa",
+        "value": 1.4,
+        "display": "+1.4hPa",
         "direction": "up",
         "prev_value": 1003.2,
         "prev_date": "2026-09-16"
       },
       "caption": "日田｜全国でいちばん気圧が低い",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.08,
       "label": "通常の範囲"
     },
     {
@@ -574,12 +574,12 @@
       "slug": "tokyo-sunshine-hours",
       "name": "東京の日照時間",
       "category": "自然",
-      "value_display": "0時間54分",
+      "value_display": "1時間48分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 54,
-        "display": "+54分",
+        "value": 108,
+        "display": "+108分",
         "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-09-16"
