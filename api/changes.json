@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T01:41:44+09:00",
+  "generated_at": "2026-09-19T04:56:42+09:00",
   "date": "2026-09-19",
   "changes": [
     {
@@ -25,39 +25,39 @@
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "21mm",
+      "value_display": "35mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -36.5,
-        "display": "-36.5mm",
+        "value": -22.5,
+        "display": "-22.5mm",
         "direction": "down",
         "prev_value": 57.5,
         "prev_date": "2026-09-18"
       },
-      "caption": "母島｜激しい雨",
-      "score": 3.83,
-      "z": 3.83,
-      "label": "かなり珍しい変化"
+      "caption": "油津｜バケツをひっくり返したような雨",
+      "score": 1.5,
+      "z": 1.5,
+      "label": "いつもより大きな変化"
     },
     {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "40.5mm",
+      "value_display": "80%",
       "change": {
-        "type": "absolute",
+        "type": "percentage_point",
         "available": true,
-        "value": -74.0,
-        "display": "-74mm",
-        "direction": "down",
-        "prev_value": 114.5,
+        "value": 30.0,
+        "display": "+30.0pt",
+        "direction": "up",
+        "prev_value": 50.0,
         "prev_date": "2026-09-18"
       },
-      "caption": "油津｜この3時間でいちばん激しく降った",
-      "score": 1.63,
-      "z": 1.63,
-      "label": "いつもより大きな変化"
+      "caption": "あすは雨の可能性が高い",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
     },
     {
       "slug": "biwako-level",
@@ -76,6 +76,44 @@
       "caption": "基準水位(B.S.L.)より29cm低い",
       "score": 1.0,
       "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "value_display": "58.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -56.0,
+        "display": "-56mm",
+        "direction": "down",
+        "prev_value": 114.5,
+        "prev_date": "2026-09-18"
+      },
+      "caption": "油津｜この3時間でいちばん激しく降った",
+      "score": 0.82,
+      "z": 0.82,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "382mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 121.5,
+        "display": "+121.5mm",
+        "direction": "up",
+        "prev_value": 260.5,
+        "prev_date": "2026-09-18"
+      },
+      "caption": "油津｜この24時間でいちばん降った",
+      "score": 0.75,
+      "z": 0.75,
       "label": "通常の範囲"
     },
     {
@@ -155,25 +193,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "333mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 72.5,
-        "display": "+72.5mm",
-        "direction": "up",
-        "prev_value": 260.5,
-        "prev_date": "2026-09-18"
-      },
-      "caption": "油津｜この24時間でいちばん降った",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "hot-points-35",
       "name": "35℃以上になった地点数",
       "category": "自然",
@@ -234,76 +253,76 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "60地点",
+      "value_display": "79地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -70,
-        "display": "-70地点",
+        "value": -51,
+        "display": "-51地点",
         "direction": "down",
         "prev_value": 130,
         "prev_date": "2026-09-18"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.46,
+      "z": -0.76,
       "label": "通常の範囲"
     },
     {
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "23℃",
+      "value_display": "24℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.4,
-        "display": "-0.4℃",
-        "direction": "down",
+        "value": 0.6,
+        "display": "+0.6℃",
+        "direction": "up",
         "prev_value": 23.4,
         "prev_date": "2026-09-18"
       },
-      "caption": "父島28.2℃ と 沼川5.2℃ の差",
+      "caption": "南鳥島28.1℃ と 沼川4.1℃ の差",
       "score": 0.0,
-      "z": -1.05,
+      "z": -0.94,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "26℃",
+      "value_display": "24℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -2.0,
+        "display": "-2℃",
+        "direction": "down",
         "prev_value": 26.0,
         "prev_date": "2026-09-18"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": 0.0,
-      "z": -2.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "19℃",
+      "value_display": "21℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 2.0,
+        "display": "+2℃",
+        "direction": "up",
         "prev_value": 19.0,
         "prev_date": "2026-09-18"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
-      "z": -3.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -323,25 +342,6 @@
       "caption": "9月22日ごろがいちばん暑くなりそう",
       "score": 0.0,
       "z": -4.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
-      "category": "自然",
-      "value_display": "50%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
-        "prev_value": 50.0,
-        "prev_date": "2026-09-18"
-      },
-      "caption": "あすは所により雨",
-      "score": 0.0,
-      "z": -2.0,
       "label": "通常の範囲"
     },
     {
@@ -367,19 +367,19 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "17m/s",
+      "value_display": "17.3m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.4,
-        "display": "-0.4m/s",
+        "value": -0.1,
+        "display": "-0.1m/s",
         "direction": "down",
         "prev_value": 17.4,
         "prev_date": "2026-09-18"
       },
       "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
-      "z": -1.0,
+      "z": -1.33,
       "label": "通常の範囲"
     },
     {
@@ -472,7 +472,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-18"
       },
-      "caption": "台風25号「ドゥージェン」が父島の南南西約190km",
+      "caption": "台風25号「ドゥージェン」が父島の南西約190km",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
