@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T04:56:42+09:00",
+  "generated_at": "2026-09-19T07:47:59+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -272,12 +272,12 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "382mm",
+      "value_display": "397.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 121.5,
-        "display": "+121.5mm",
+        "value": 137.0,
+        "display": "+137mm",
         "direction": "up",
         "prev_value": 260.5,
         "prev_date": "2026-09-18"
@@ -353,7 +353,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 382.0
+          "value": 397.5
         }
       ]
     },
@@ -722,12 +722,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "79地点",
+      "value_display": "99地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -51,
-        "display": "-51地点",
+        "value": -31,
+        "display": "-31地点",
         "direction": "down",
         "prev_value": 130,
         "prev_date": "2026-09-18"
@@ -799,7 +799,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 79
+          "value": 99
         }
       ]
     },
@@ -1600,12 +1600,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "4.5℃",
+      "value_display": "5.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.3,
-        "display": "+0.3℃",
+        "value": 1.3,
+        "display": "+1.3℃",
         "direction": "up",
         "prev_value": 4.2,
         "prev_date": "2026-09-18"
@@ -1677,7 +1677,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 4.5
+          "value": 5.5
         }
       ]
     },
@@ -2418,12 +2418,12 @@
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "2市町村",
+      "value_display": "1市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1市町村",
+        "value": -2,
+        "display": "-2市町村",
         "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-09-18"
@@ -2443,7 +2443,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 2
+          "value": 1
         }
       ]
     },
@@ -4006,15 +4006,15 @@
       "name": "琵琶湖の水位",
       "category": "自然",
       "unit": "cm",
-      "value_display": "-29cm",
+      "value_display": "-30cm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.0,
-        "display": "-2cm",
+        "value": -1.0,
+        "display": "-1cm",
         "direction": "down",
-        "prev_value": -27.0,
-        "prev_date": "2026-09-17"
+        "prev_value": -29.0,
+        "prev_date": "2026-09-18"
       },
       "points": [
         {
@@ -4088,6 +4088,10 @@
         {
           "date": "2026-09-18",
           "value": -29.0
+        },
+        {
+          "date": "2026-09-19",
+          "value": -30.0
         }
       ]
     },
@@ -4096,15 +4100,15 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value_display": "86.3%",
+      "value_display": "86.6%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.1,
-        "display": "+0.1pt",
+        "value": 0.3,
+        "display": "+0.3pt",
         "direction": "up",
-        "prev_value": 86.2,
-        "prev_date": "2026-09-17"
+        "prev_value": 86.3,
+        "prev_date": "2026-09-18"
       },
       "points": [
         {
@@ -4178,6 +4182,10 @@
         {
           "date": "2026-09-18",
           "value": 86.3
+        },
+        {
+          "date": "2026-09-19",
+          "value": 86.6
         }
       ]
     },
@@ -4276,15 +4284,15 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "25%",
+      "value_display": "11%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -4.0,
-        "display": "-4.0pt",
+        "value": -14.0,
+        "display": "-14.0pt",
         "direction": "down",
-        "prev_value": 29.0,
-        "prev_date": "2026-09-17"
+        "prev_value": 25.0,
+        "prev_date": "2026-09-18"
       },
       "points": [
         {
@@ -4350,6 +4358,10 @@
         {
           "date": "2026-09-18",
           "value": 25.0
+        },
+        {
+          "date": "2026-09-19",
+          "value": 11.0
         }
       ]
     },
@@ -4358,13 +4370,13 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "5回",
+      "value_display": "7回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 7,
         "prev_date": "2026-09-18"
       },
@@ -4439,7 +4451,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 5
+          "value": 7
         }
       ]
     },
