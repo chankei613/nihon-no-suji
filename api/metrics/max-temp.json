@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-18T09:45:09+09:00",
+  "updated_at": "2026-09-18T15:33:30+09:00",
   "summary": {
     "count": 17,
     "first_date": "2026-09-02",
     "last_date": "2026-09-18",
-    "min_30d": 29.4,
+    "min_30d": 32.0,
     "max_30d": 37.9,
-    "avg_30d": 33.84,
-    "record_1st": 35.1,
+    "avg_30d": 33.99,
+    "record_1st": 35.3,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -87,14 +87,16 @@
     },
     {
       "date": "2026-09-18",
-      "value": 29.4
+      "value": 32.1
     }
   ],
   "latest_detail": {
-    "place": "北大東",
+    "place": "久米島",
     "pref": "沖縄県",
-    "caption": "北大東｜きょう日本でいちばん暑い",
-    "record_1st": 35.1,
+    "caption": "久米島｜きょう日本でいちばん暑い",
+    "normal_diff": 1.8,
+    "station_prev_diff": 1.1,
+    "record_1st": 35.3,
     "year_extreme": false,
     "all_time_record": false
   }
