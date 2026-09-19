@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-19T15:31:41+09:00",
+  "generated_at": "2026-09-19T20:26:32+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "33.1℃",
+      "value_display": "33.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
+        "value": 1.2,
+        "display": "+1.2℃",
         "direction": "up",
         "prev_value": 32.1,
         "prev_date": "2026-09-18"
@@ -87,7 +87,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 33.1
+          "value": 33.3
         }
       ]
     },
@@ -722,13 +722,13 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "117地点",
+      "value_display": "130地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -13,
-        "display": "-13地点",
-        "direction": "down",
+        "value": 0,
+        "display": "±0地点",
+        "direction": "flat",
         "prev_value": 130,
         "prev_date": "2026-09-18"
       },
@@ -799,7 +799,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 117
+          "value": 130
         }
       ]
     },
@@ -1600,13 +1600,13 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "6.9℃",
+      "value_display": "4.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.7,
-        "display": "+2.7℃",
-        "direction": "up",
+        "value": -0.1,
+        "display": "-0.1℃",
+        "direction": "down",
         "prev_value": 4.2,
         "prev_date": "2026-09-18"
       },
@@ -1677,7 +1677,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 6.9
+          "value": 4.1
         }
       ]
     },
@@ -4194,13 +4194,13 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "89%",
+      "value_display": "87%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 1.0,
-        "display": "+1.0pt",
-        "direction": "up",
+        "value": -1.0,
+        "display": "-1.0pt",
+        "direction": "down",
         "prev_value": 88.0,
         "prev_date": "2026-09-18"
       },
@@ -4275,7 +4275,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 89.0
+          "value": 87.0
         }
       ]
     },

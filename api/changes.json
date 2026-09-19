@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:31:41+09:00",
+  "generated_at": "2026-09-19T20:26:32+09:00",
   "date": "2026-09-19",
   "changes": [
     {
@@ -39,25 +39,6 @@
       "score": 1.5,
       "z": 1.5,
       "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "6.9℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2.7,
-        "display": "+2.7℃",
-        "direction": "up",
-        "prev_value": 4.2,
-        "prev_date": "2026-09-18"
-      },
-      "caption": "夏でもひんやり",
-      "score": 1.2,
-      "z": 1.2,
-      "label": "通常の範囲"
     },
     {
       "slug": "max-precip-24h",
@@ -158,17 +139,17 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "33.1℃",
+      "value_display": "33.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
+        "value": 1.2,
+        "display": "+1.2℃",
         "direction": "up",
         "prev_value": 32.1,
         "prev_date": "2026-09-18"
       },
-      "caption": "京都｜きょう日本でいちばん暑い",
+      "caption": "福崎｜きょう日本でいちばん暑い",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -253,19 +234,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "117地点",
+      "value_display": "130地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -13,
-        "display": "-13地点",
-        "direction": "down",
+        "value": 0,
+        "display": "±0地点",
+        "direction": "flat",
         "prev_value": 130,
         "prev_date": "2026-09-18"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.31,
+      "z": -1.51,
       "label": "通常の範囲"
     },
     {
@@ -383,6 +364,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "4.1℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -0.1,
+        "display": "-0.1℃",
+        "direction": "down",
+        "prev_value": 4.2,
+        "prev_date": "2026-09-18"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.0,
+      "z": -1.57,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "gas-regular",
       "name": "レギュラーガソリンの全国平均価格",
       "category": "経済",
@@ -453,7 +453,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-18"
       },
-      "caption": "台風25号「ドゥージェン」が父島の西約270km",
+      "caption": "台風25号「ドゥージェン」が日本の南",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -500,13 +500,13 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "89%",
+      "value_display": "87%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 1.0,
-        "display": "+1.0pt",
-        "direction": "up",
+        "value": -1.0,
+        "display": "-1.0pt",
+        "direction": "down",
         "prev_value": 88.0,
         "prev_date": "2026-09-18"
       },
