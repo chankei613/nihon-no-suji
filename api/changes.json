@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-20T03:12:16+09:00",
+  "generated_at": "2026-09-20T05:57:33+09:00",
   "date": "2026-09-20",
   "changes": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "28.2℃",
+      "value_display": "28.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.1,
-        "display": "-5.1℃",
+        "value": -4.7,
+        "display": "-4.7℃",
         "direction": "down",
         "prev_value": 33.3,
         "prev_date": "2026-09-19"
       },
-      "caption": "北原｜きょう日本でいちばん暑い",
-      "score": 5.5,
-      "z": 5.5,
+      "caption": "尾之間｜きょう日本でいちばん暑い",
+      "score": 4.93,
+      "z": 4.93,
       "label": "かなり珍しい変化"
     },
     {
@@ -63,57 +63,19 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "10.6℃",
+      "value_display": "10℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 7.3,
-        "display": "+7.3℃",
+        "value": 6.7,
+        "display": "+6.7℃",
         "direction": "up",
         "prev_value": 3.3,
         "prev_date": "2026-09-19"
       },
       "caption": "沼川｜きょう日本でいちばん寒い",
-      "score": 3.52,
-      "z": 3.52,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
-      "category": "自然",
-      "value_display": "1002.1hPa",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 7.2,
-        "display": "+7.2hPa",
-        "direction": "up",
-        "prev_value": 994.9,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "父島｜全国でいちばん気圧が低い",
-      "score": 3.47,
-      "z": 3.47,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "66%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 24.0,
-        "display": "+24.0pt",
-        "direction": "up",
-        "prev_value": 42.0,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "後免｜全国でいちばん空気が乾いている",
-      "score": 3.0,
-      "z": 3.0,
+      "score": 3.13,
+      "z": 3.13,
       "label": "かなり珍しい変化"
     },
     {
@@ -133,6 +95,44 @@
       "caption": "きょう30℃以上になった地点",
       "score": 2.69,
       "z": 2.69,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "value_display": "1000.5hPa",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 5.6,
+        "display": "+5.6hPa",
+        "direction": "up",
+        "prev_value": 994.9,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "潮岬｜全国でいちばん気圧が低い",
+      "score": 2.4,
+      "z": 2.4,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "60%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 18.0,
+        "display": "+18.0pt",
+        "direction": "up",
+        "prev_value": 42.0,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "海陽｜全国でいちばん空気が乾いている",
+      "score": 1.8,
+      "z": 1.8,
       "label": "いつもより大きな変化"
     },
     {
@@ -193,34 +193,15 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "4.8℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.6,
-        "display": "+1.6℃",
-        "direction": "up",
-        "prev_value": 3.2,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "夏でもひんやり",
-      "score": 0.4,
-      "z": 0.4,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "22.4℃",
+      "value_display": "22.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.9,
-        "display": "-2.9℃",
+        "value": -2.8,
+        "display": "-2.8℃",
         "direction": "down",
         "prev_value": 25.3,
         "prev_date": "2026-09-19"
@@ -272,57 +253,57 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "69地点",
+      "value_display": "150地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -103,
-        "display": "-103地点",
+        "value": -22,
+        "display": "-22地点",
         "direction": "down",
         "prev_value": 172,
         "prev_date": "2026-09-19"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.11,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "28.5mm",
+      "value_display": "44.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -30.0,
-        "display": "-30mm",
+        "value": -14.0,
+        "display": "-14mm",
         "direction": "down",
         "prev_value": 58.5,
         "prev_date": "2026-09-19"
       },
-      "caption": "青ヶ島｜この3時間でいちばん激しく降った",
+      "caption": "八丈島｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.49,
+      "z": -1.36,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "24℃",
+      "value_display": "26℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 2.0,
+        "display": "+2℃",
+        "direction": "up",
         "prev_value": 24.0,
         "prev_date": "2026-09-19"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": 0.0,
-      "z": -2.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -367,19 +348,38 @@
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "80%",
+      "value_display": "100%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": 20.0,
+        "display": "+20.0pt",
+        "direction": "up",
         "prev_value": 80.0,
         "prev_date": "2026-09-19"
       },
       "caption": "あすは雨の可能性が高い",
       "score": 0.0,
-      "z": -2.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.8,
+        "display": "+0.8℃",
+        "direction": "up",
+        "prev_value": 3.2,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.0,
+      "z": -0.33,
       "label": "通常の範囲"
     },
     {
@@ -538,19 +538,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "10回",
+      "value_display": "9回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
+        "value": -2,
+        "display": "-2回",
         "direction": "down",
         "prev_value": 11,
         "prev_date": "2026-09-19"
       },
       "caption": "最大は天草灘の震度3",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
