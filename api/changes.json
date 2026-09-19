@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-19T07:47:59+09:00",
+  "generated_at": "2026-09-19T10:31:23+09:00",
   "date": "2026-09-19",
   "changes": [
     {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "61%",
+      "value_display": "52%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 33.0,
-        "display": "+33.0pt",
+        "value": 24.0,
+        "display": "+24.0pt",
         "direction": "up",
         "prev_value": 28.0,
         "prev_date": "2026-09-18"
       },
-      "caption": "八森｜全国でいちばん空気が乾いている",
-      "score": 4.17,
-      "z": 4.17,
-      "label": "かなり珍しい変化"
+      "caption": "増毛｜全国でいちばん空気が乾いている",
+      "score": 2.67,
+      "z": 2.67,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "max-precip-1h",
@@ -79,20 +79,20 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "11%",
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "1市町村",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": -14.0,
-        "display": "-14.0pt",
+        "value": -3,
+        "display": "-3市町村",
         "direction": "down",
-        "prev_value": 25.0,
+        "prev_value": 4,
         "prev_date": "2026-09-18"
       },
-      "caption": "きょうのピークで電力の11%を太陽光がまかなった",
+      "caption": "1市町村に気象警報",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -117,22 +117,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "2市町村",
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "6.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2市町村",
-        "direction": "down",
-        "prev_value": 4,
+        "value": 2.0,
+        "display": "+2℃",
+        "direction": "up",
+        "prev_value": 4.2,
         "prev_date": "2026-09-18"
       },
-      "caption": "2市町村に気象警報",
-      "score": 0.33,
-      "z": 0.33,
+      "caption": "夏でもひんやり",
+      "score": 0.63,
+      "z": 0.63,
       "label": "通常の範囲"
     },
     {
@@ -215,19 +215,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "16地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -23,
-        "display": "-23地点",
+        "value": -7,
+        "display": "-7地点",
         "direction": "down",
         "prev_value": 23,
         "prev_date": "2026-09-18"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -0.57,
+      "z": -2.0,
       "label": "通常の範囲"
     },
     {
@@ -253,19 +253,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "99地点",
+      "value_display": "107地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -31,
-        "display": "-31地点",
+        "value": -23,
+        "display": "-23地点",
         "direction": "down",
         "prev_value": 130,
         "prev_date": "2026-09-18"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.04,
+      "z": -1.16,
       "label": "通常の範囲"
     },
     {
@@ -383,25 +383,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "5.5℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.3,
-        "display": "+1.3℃",
-        "direction": "up",
-        "prev_value": 4.2,
-        "prev_date": "2026-09-18"
-      },
-      "caption": "夏でもひんやり",
-      "score": 0.0,
-      "z": -0.07,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "gas-regular",
       "name": "レギュラーガソリンの全国平均価格",
       "category": "経済",
@@ -472,7 +453,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-18"
       },
-      "caption": "台風25号「ドゥージェン」が父島の西南西約230km",
+      "caption": "台風25号「ドゥージェン」が父島の西南西約250km",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -535,6 +516,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "24%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -1.0,
+        "display": "-1.0pt",
+        "direction": "down",
+        "prev_value": 25.0,
+        "prev_date": "2026-09-18"
+      },
+      "caption": "きょうのピークで電力の24%を太陽光がまかなった",
+      "score": 0.0,
+      "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
@@ -548,7 +548,7 @@
         "prev_value": 7,
         "prev_date": "2026-09-18"
       },
-      "caption": "最大は日向灘の震度2",
+      "caption": "最大は熊本県熊本地方の震度2",
       "score": 0.0,
       "z": -2.0,
       "label": "通常の範囲"
@@ -629,17 +629,17 @@
       "slug": "heavy-rain-warned-municipalities",
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
-      "value_display": "1市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2市町村",
+        "value": -3,
+        "display": "-3市町村",
         "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-09-18"
       },
-      "caption": "1市町村に大雨警報",
+      "caption": "いま大雨警報は出ていない",
       "score": null,
       "label": "データ蓄積中"
     },
@@ -665,17 +665,17 @@
       "slug": "sediment-warning-municipalities",
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
-      "value_display": "1市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2市町村",
+        "value": -3,
+        "display": "-3市町村",
         "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-09-18"
       },
-      "caption": "1市町村に土砂災害警戒情報",
+      "caption": "いま土砂災害警戒情報は出ていない",
       "score": null,
       "label": "データ蓄積中"
     },

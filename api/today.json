@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:47:59+09:00",
+  "generated_at": "2026-09-19T10:31:23+09:00",
   "date": "2026-09-19",
   "metrics": [
     {
@@ -184,16 +184,16 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 0,
-      "value_display": "0地点",
-      "observed_at": "2026-09-19T01:30:00+09:00",
+      "value": 16,
+      "value_display": "16地点",
+      "observed_at": "2026-09-19T10:20:00+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -23,
-        "display": "-23地点",
+        "value": -7,
+        "display": "-7地点",
         "direction": "down",
         "prev_value": 23,
         "prev_date": "2026-09-18"
@@ -202,8 +202,25 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "station_ids": [],
-        "now": 0,
+        "station_ids": [
+          "44356",
+          "60051",
+          "60196",
+          "61326",
+          "62051",
+          "63518",
+          "74182",
+          "88821",
+          "88931",
+          "91107",
+          "91141",
+          "91146",
+          "91236",
+          "92006",
+          "92011",
+          "92012"
+        ],
+        "now": 16,
         "caption": "きょう30℃以上になった地点"
       },
       "source": {
@@ -3938,7 +3955,7 @@
       "unit": "",
       "value": 0,
       "value_display": "0時間00分",
-      "observed_at": "2026-09-19T07:40:00+09:00",
+      "observed_at": "2026-09-19T10:20:00+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
@@ -3955,7 +3972,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 0.0,
-        "last_observed_at": "2026-09-19T07:40:00+09:00",
+        "last_observed_at": "2026-09-19T10:20:00+09:00",
         "caption": "きょうはまだ日照なし"
       },
       "source": {
@@ -3968,16 +3985,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 99,
-      "value_display": "99地点",
-      "observed_at": "2026-09-19T07:40:00+09:00",
+      "value": 107,
+      "value_display": "107地点",
+      "observed_at": "2026-09-19T10:20:00+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -31,
-        "display": "-31地点",
+        "value": -23,
+        "display": "-23地点",
         "direction": "down",
         "prev_value": 130,
         "prev_date": "2026-09-18"
@@ -3991,6 +4008,7 @@
           "18256",
           "19281",
           "19301",
+          "20506",
           "31111",
           "31121",
           "31321",
@@ -3999,11 +4017,13 @@
           "31411",
           "31506",
           "31586",
+          "31602",
           "31671",
           "32626",
           "33006",
           "33026",
           "33071",
+          "33086",
           "33136",
           "33146",
           "33176",
@@ -4014,8 +4034,11 @@
           "33472",
           "34262",
           "36307",
+          "44301",
           "44316",
+          "45331",
           "46106",
+          "50427",
           "56052",
           "68181",
           "68421",
@@ -4058,6 +4081,7 @@
           "87141",
           "87251",
           "87301",
+          "87331",
           "87346",
           "87352",
           "87361",
@@ -4085,9 +4109,10 @@
           "88536",
           "88551",
           "88621",
-          "88666"
+          "88666",
+          "93051"
         ],
-        "now": 33,
+        "now": 18,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4386,26 +4411,26 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value": 61.0,
-      "value_display": "61%",
-      "observed_at": "2026-09-19T01:30:00+09:00",
+      "value": 52.0,
+      "value_display": "52%",
+      "observed_at": "2026-09-19T10:20:00+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 33.0,
-        "display": "+33.0pt",
+        "value": 24.0,
+        "display": "+24.0pt",
         "direction": "up",
         "prev_value": 28.0,
         "prev_date": "2026-09-18"
       },
-      "caption": "八森｜全国でいちばん空気が乾いている",
+      "caption": "増毛｜全国でいちばん空気が乾いている",
       "highlight": true,
-      "highlight_reason": "かなり珍しい変化",
+      "highlight_reason": "いつもより大きな変化",
       "detail": {
-        "place": "八森",
-        "caption": "八森｜全国でいちばん空気が乾いている"
+        "place": "増毛",
+        "caption": "増毛｜全国でいちばん空気が乾いている"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4417,16 +4442,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 5.5,
-      "value_display": "5.5℃",
-      "observed_at": "2026-09-19T07:40:00+09:00",
+      "value": 6.2,
+      "value_display": "6.2℃",
+      "observed_at": "2026-09-19T10:20:00+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.3,
-        "display": "+1.3℃",
+        "value": 2.0,
+        "display": "+2℃",
         "direction": "up",
         "prev_value": 4.2,
         "prev_date": "2026-09-18"
@@ -4574,7 +4599,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-09-19T07:46:00+09:00",
+      "observed_at": "2026-09-19T10:30:00+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
@@ -4586,7 +4611,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-18"
       },
-      "caption": "台風25号「ドゥージェン」が父島の西南西約230km",
+      "caption": "台風25号「ドゥージェン」が父島の西南西約250km",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
@@ -4596,12 +4621,12 @@
             "name": "ドゥージェン",
             "category": "STS",
             "pressure": "975",
-            "location": "父島の西南西約230km",
-            "course": "西北西",
+            "location": "父島の西南西約250km",
+            "course": "西",
             "typhoon_number": "2625"
           }
         ],
-        "caption": "台風25号「ドゥージェン」が父島の西南西約230km"
+        "caption": "台風25号「ドゥージェン」が父島の西南西約250km"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -4613,26 +4638,26 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 2,
-      "value_display": "2市町村",
-      "observed_at": "2026-09-19T07:42:26+09:00",
+      "value": 1,
+      "value_display": "1市町村",
+      "observed_at": "2026-09-19T10:28:32+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2市町村",
+        "value": -3,
+        "display": "-3市町村",
         "direction": "down",
         "prev_value": 4,
         "prev_date": "2026-09-18"
       },
-      "caption": "2市町村に気象警報",
+      "caption": "1市町村に気象警報",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "emergency_count": 0,
-        "caption": "2市町村に気象警報"
+        "caption": "1市町村に気象警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -4644,25 +4669,25 @@
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 1,
-      "value_display": "1市町村",
-      "observed_at": "2026-09-19T07:42:26+09:00",
+      "value": 0,
+      "value_display": "0市町村",
+      "observed_at": "2026-09-19T10:28:32+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2市町村",
+        "value": -3,
+        "display": "-3市町村",
         "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-09-18"
       },
-      "caption": "1市町村に大雨警報",
+      "caption": "いま大雨警報は出ていない",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "1市町村に大雨警報"
+        "caption": "いま大雨警報は出ていない"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -4676,7 +4701,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-09-19T07:42:26+09:00",
+      "observed_at": "2026-09-19T10:28:32+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
@@ -4704,25 +4729,25 @@
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 1,
-      "value_display": "1市町村",
-      "observed_at": "2026-09-19T07:42:26+09:00",
+      "value": 0,
+      "value_display": "0市町村",
+      "observed_at": "2026-09-19T10:28:32+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2市町村",
+        "value": -3,
+        "display": "-3市町村",
         "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-09-18"
       },
-      "caption": "1市町村に土砂災害警戒情報",
+      "caption": "いま土砂災害警戒情報は出ていない",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "1市町村に土砂災害警戒情報"
+        "caption": "いま土砂災害警戒情報は出ていない"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -4736,7 +4761,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-09-19T07:46:57+09:00",
+      "observed_at": "2026-09-19T10:30:10+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
@@ -4809,7 +4834,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-09-19T07:47:43+09:00",
+      "observed_at": "2026-09-19T10:31:09+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
@@ -4839,7 +4864,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-09-19T07:47:43+09:00",
+      "observed_at": "2026-09-19T10:31:09+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
@@ -5337,7 +5362,7 @@
       "unit": "%",
       "value": 89.0,
       "value_display": "89%",
-      "observed_at": "2026-09-19T07:10:00+09:00",
+      "observed_at": "2026-09-19T10:10:00+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
@@ -5353,12 +5378,12 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "reserve_rate": 12.0,
-        "peak_supply_10MW": 3299.0,
-        "forecast_peak_demand_10MW": 2954.0,
-        "current_demand_10MW": 2204.0,
-        "current_demand_time": "6:00",
-        "current_usage_rate": 78.0,
+        "reserve_rate": 11.0,
+        "peak_supply_10MW": 3301.0,
+        "forecast_peak_demand_10MW": 2964.0,
+        "current_demand_10MW": 2641.0,
+        "current_demand_time": "9:00",
+        "current_usage_rate": 76.0,
         "peak_timeband": "18:00〜19:00",
         "area": "東京",
         "caption": "ピークは18:00〜19:00の見込み"
@@ -5373,27 +5398,27 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value": 11.0,
-      "value_display": "11%",
-      "observed_at": "2026-09-19T07:10:00+09:00",
+      "value": 24.0,
+      "value_display": "24%",
+      "observed_at": "2026-09-19T10:10:00+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -14.0,
-        "display": "-14.0pt",
+        "value": -1.0,
+        "display": "-1.0pt",
         "direction": "down",
         "prev_value": 25.0,
         "prev_date": "2026-09-18"
       },
-      "caption": "きょうのピークで電力の11%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の24%を太陽光がまかなった",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "peak_output_10MW": 255.0,
+        "peak_output_10MW": 654.0,
         "area": "東京",
-        "caption": "きょうのピークで電力の11%を太陽光がまかなった"
+        "caption": "きょうのピークで電力の24%を太陽光がまかなった"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -5407,7 +5432,7 @@
       "unit": "回",
       "value": 7,
       "value_display": "7回",
-      "observed_at": "2026-09-19T07:47:00+09:00",
+      "observed_at": "2026-09-19T10:31:00+09:00",
       "as_of": "2026-09-19",
       "stale": false,
       "change": {
@@ -5419,26 +5444,26 @@
         "prev_value": 7,
         "prev_date": "2026-09-18"
       },
-      "caption": "最大は日向灘の震度2",
+      "caption": "最大は熊本県熊本地方の震度2",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "最大は日向灘の震度2",
+        "caption": "最大は熊本県熊本地方の震度2",
         "window_hours": 24,
-        "max_magnitude": 4.3,
+        "max_magnitude": 4.2,
         "strongest": {
-          "time": "2026-09-18T10:07:00+09:00",
+          "time": "2026-09-19T01:59:00+09:00",
           "scale": 20,
-          "name": "日向灘",
-          "magnitude": 4.3,
-          "depth": 20
+          "name": "熊本県熊本地方",
+          "magnitude": 2.8,
+          "depth": 10
         },
         "latest": {
-          "time": "2026-09-19T06:58:00+09:00",
+          "time": "2026-09-19T09:29:00+09:00",
           "scale": 10,
-          "name": "熊本県熊本地方",
-          "magnitude": 2.5,
-          "depth": 10
+          "name": "日向灘",
+          "magnitude": 4,
+          "depth": 0
         },
         "capped": false
       },
