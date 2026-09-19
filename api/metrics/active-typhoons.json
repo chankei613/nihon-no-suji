@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-09-19T23:44:07+09:00",
+  "updated_at": "2026-09-20T03:12:16+09:00",
   "summary": {
-    "count": 17,
+    "count": 18,
     "first_date": "2026-09-03",
-    "last_date": "2026-09-19",
+    "last_date": "2026-09-20",
     "min_30d": 0,
     "max_30d": 2,
-    "avg_30d": 0.47
+    "avg_30d": 0.5
   },
   "history": [
     {
@@ -85,6 +85,10 @@
     {
       "date": "2026-09-19",
       "value": 1
+    },
+    {
+      "date": "2026-09-20",
+      "value": 1
     }
   ],
   "latest_detail": {
@@ -95,7 +99,7 @@
         "category": "TY",
         "pressure": "970",
         "location": "日本の南",
-        "course": "北北西",
+        "course": "北西",
         "typhoon_number": "2625"
       }
     ],

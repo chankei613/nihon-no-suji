@@ -8,16 +8,16 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-19T23:44:07+09:00",
+  "updated_at": "2026-09-20T03:12:16+09:00",
   "summary": {
-    "count": 18,
+    "count": 19,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-19",
+    "last_date": "2026-09-20",
     "min_30d": 2.8,
     "max_30d": 12.3,
-    "avg_30d": 5.99,
-    "record_1st": -27.6,
-    "year_extreme": true,
+    "avg_30d": 6.23,
+    "record_1st": -34.4,
+    "year_extreme": false,
     "all_time_record": false
   },
   "history": [
@@ -92,16 +92,18 @@
     {
       "date": "2026-09-19",
       "value": 3.3
+    },
+    {
+      "date": "2026-09-20",
+      "value": 10.6
     }
   ],
   "latest_detail": {
-    "place": "厚床",
-    "pref": "北海道根室地方",
-    "caption": "厚床｜きょう日本でいちばん寒い",
-    "normal_diff": -7.0,
-    "station_prev_diff": -2.9,
-    "record_1st": -27.6,
-    "year_extreme": true,
+    "place": "沼川",
+    "pref": "北海道宗谷地方",
+    "caption": "沼川｜きょう日本でいちばん寒い",
+    "record_1st": -34.4,
+    "year_extreme": false,
     "all_time_record": false
   }
 }

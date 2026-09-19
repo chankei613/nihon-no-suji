@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-09-19T23:44:07+09:00",
+  "updated_at": "2026-09-20T03:12:16+09:00",
   "summary": {
-    "count": 18,
+    "count": 19,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-19",
-    "min_30d": 83.5,
+    "last_date": "2026-09-20",
+    "min_30d": 79.5,
     "max_30d": 581.5,
-    "avg_30d": 255.67,
-    "record_1st": 427.0,
+    "avg_30d": 246.39,
+    "record_1st": 473.0,
     "all_time_record": false
   },
   "history": [
@@ -91,13 +91,17 @@
     {
       "date": "2026-09-19",
       "value": 397.5
+    },
+    {
+      "date": "2026-09-20",
+      "value": 79.5
     }
   ],
   "latest_detail": {
-    "place": "油津",
+    "place": "酒谷",
     "pref": "宮崎県",
-    "caption": "油津｜この24時間でいちばん降った",
-    "record_1st": 427.0,
+    "caption": "酒谷｜この24時間でいちばん降った",
+    "record_1st": 473.0,
     "all_time_record": false
   }
 }
