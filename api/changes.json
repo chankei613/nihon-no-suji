@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-09-19T20:26:32+09:00",
+  "generated_at": "2026-09-19T23:44:07+09:00",
   "date": "2026-09-19",
   "changes": [
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "11回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 4,
+        "display": "+4回",
+        "direction": "up",
+        "prev_value": 7,
+        "prev_date": "2026-09-18"
+      },
+      "caption": "最大は天草灘の震度3",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
     {
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
@@ -234,19 +253,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "130地点",
+      "value_display": "172地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0地点",
-        "direction": "flat",
+        "value": 42,
+        "display": "+42地点",
+        "direction": "up",
         "prev_value": 130,
         "prev_date": "2026-09-18"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.51,
+      "z": -0.91,
       "label": "通常の範囲"
     },
     {
@@ -367,19 +386,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "4.1℃",
+      "value_display": "3.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.1,
-        "display": "-0.1℃",
+        "value": -1.0,
+        "display": "-1℃",
         "direction": "down",
         "prev_value": 4.2,
         "prev_date": "2026-09-18"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.57,
+      "z": -0.29,
       "label": "通常の範囲"
     },
     {
@@ -532,25 +551,6 @@
       "caption": "きょうのピークで電力の25%を太陽光がまかなった",
       "score": 0.0,
       "z": -1.15,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "9回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2,
-        "display": "+2回",
-        "direction": "up",
-        "prev_value": 7,
-        "prev_date": "2026-09-18"
-      },
-      "caption": "最大は熊本県熊本地方の震度2",
-      "score": 0.0,
-      "z": 0.0,
       "label": "通常の範囲"
     },
     {

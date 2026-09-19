@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T20:26:32+09:00",
+  "generated_at": "2026-09-19T23:44:07+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -722,13 +722,13 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "130地点",
+      "value_display": "172地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0地点",
-        "direction": "flat",
+        "value": 42,
+        "display": "+42地点",
+        "direction": "up",
         "prev_value": 130,
         "prev_date": "2026-09-18"
       },
@@ -799,7 +799,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 130
+          "value": 172
         }
       ]
     },
@@ -1600,12 +1600,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "4.1℃",
+      "value_display": "3.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.1,
-        "display": "-0.1℃",
+        "value": -1.0,
+        "display": "-1℃",
         "direction": "down",
         "prev_value": 4.2,
         "prev_date": "2026-09-18"
@@ -1677,7 +1677,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 4.1
+          "value": 3.2
         }
       ]
     },
@@ -4370,12 +4370,12 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "9回",
+      "value_display": "11回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
+        "value": 4,
+        "display": "+4回",
         "direction": "up",
         "prev_value": 7,
         "prev_date": "2026-09-18"
@@ -4451,7 +4451,7 @@
         },
         {
           "date": "2026-09-19",
-          "value": 9
+          "value": 11
         }
       ]
     },
