@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-19T10:31:23+09:00",
+  "updated_at": "2026-09-19T15:31:41+09:00",
   "summary": {
     "count": 18,
     "first_date": "2026-09-02",
     "last_date": "2026-09-19",
     "min_30d": 2,
     "max_30d": 12,
-    "avg_30d": 6.39
+    "avg_30d": 6.5
   },
   "history": [
     {
@@ -88,7 +88,7 @@
     },
     {
       "date": "2026-09-19",
-      "value": 7
+      "value": 9
     }
   ],
   "latest_detail": {
@@ -103,11 +103,11 @@
       "depth": 10
     },
     "latest": {
-      "time": "2026-09-19T09:29:00+09:00",
+      "time": "2026-09-19T14:04:00+09:00",
       "scale": 10,
-      "name": "日向灘",
-      "magnitude": 4,
-      "depth": 0
+      "name": "熊本県熊本地方",
+      "magnitude": 2.7,
+      "depth": 10
     },
     "capped": false
   }
