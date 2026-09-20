@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T00:45:06+09:00",
+  "generated_at": "2026-09-21T01:28:42+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -10,11 +10,11 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.4,
-        "display": "+1.4℃",
-        "direction": "up",
-        "prev_value": 33.3,
-        "prev_date": "2026-09-19"
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 34.7,
+        "prev_date": "2026-09-20"
       },
       "points": [
         {
@@ -92,6 +92,10 @@
         {
           "date": "2026-09-20",
           "value": 34.7
+        },
+        {
+          "date": "2026-09-21",
+          "value": 34.7
         }
       ]
     },
@@ -104,11 +108,11 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4.4,
-        "display": "+4.4℃",
-        "direction": "up",
-        "prev_value": 3.3,
-        "prev_date": "2026-09-19"
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 7.7,
+        "prev_date": "2026-09-20"
       },
       "points": [
         {
@@ -186,6 +190,10 @@
         {
           "date": "2026-09-20",
           "value": 7.7
+        },
+        {
+          "date": "2026-09-21",
+          "value": 7.7
         }
       ]
     },
@@ -198,11 +206,11 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.7,
-        "display": "-1.7℃",
-        "direction": "down",
-        "prev_value": 25.3,
-        "prev_date": "2026-09-19"
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 23.6,
+        "prev_date": "2026-09-20"
       },
       "points": [
         {
@@ -276,6 +284,10 @@
         {
           "date": "2026-09-20",
           "value": 23.6
+        },
+        {
+          "date": "2026-09-21",
+          "value": 23.6
         }
       ]
     },
@@ -284,12 +296,12 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "242.5mm",
+      "value_display": "252mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 35.0,
-        "display": "+35mm",
+        "value": 44.5,
+        "display": "+44.5mm",
         "direction": "up",
         "prev_value": 207.5,
         "prev_date": "2026-09-20"
@@ -373,7 +385,7 @@
         },
         {
           "date": "2026-09-21",
-          "value": 242.5
+          "value": 252.0
         }
       ]
     },
@@ -790,12 +802,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "192地点",
+      "value_display": "256地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -174,
-        "display": "-174地点",
+        "value": -110,
+        "display": "-110地点",
         "direction": "down",
         "prev_value": 366,
         "prev_date": "2026-09-20"
@@ -875,7 +887,7 @@
         },
         {
           "date": "2026-09-21",
-          "value": 192
+          "value": 256
         }
       ]
     },
@@ -1478,12 +1490,12 @@
       "name": "全国の最低海面気圧",
       "category": "自然",
       "unit": "hPa",
-      "value_display": "992.6hPa",
+      "value_display": "991.4hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.7,
-        "display": "-2.7hPa",
+        "value": -3.9,
+        "display": "-3.9hPa",
         "direction": "down",
         "prev_value": 995.3,
         "prev_date": "2026-09-20"
@@ -1559,7 +1571,7 @@
         },
         {
           "date": "2026-09-21",
-          "value": 992.6
+          "value": 991.4
         }
       ]
     },
@@ -1568,12 +1580,12 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "10.4m/s",
+      "value_display": "11.3m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.2,
-        "display": "-5.2m/s",
+        "value": -4.3,
+        "display": "-4.3m/s",
         "direction": "down",
         "prev_value": 15.6,
         "prev_date": "2026-09-20"
@@ -1653,7 +1665,7 @@
         },
         {
           "date": "2026-09-21",
-          "value": 10.4
+          "value": 11.3
         }
       ]
     },
@@ -2452,12 +2464,12 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "83市町村",
+      "value_display": "75市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 35,
-        "display": "+35市町村",
+        "value": 27,
+        "display": "+27市町村",
         "direction": "up",
         "prev_value": 48,
         "prev_date": "2026-09-20"
@@ -2537,7 +2549,7 @@
         },
         {
           "date": "2026-09-21",
-          "value": 83
+          "value": 75
         }
       ]
     },
@@ -2546,12 +2558,12 @@
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "44市町村",
+      "value_display": "41市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 34,
-        "display": "+34市町村",
+        "value": 31,
+        "display": "+31市町村",
         "direction": "up",
         "prev_value": 10,
         "prev_date": "2026-09-20"
@@ -2579,7 +2591,7 @@
         },
         {
           "date": "2026-09-21",
-          "value": 44
+          "value": 41
         }
       ]
     },
@@ -2630,12 +2642,12 @@
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "9市町村",
+      "value_display": "20市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 9,
-        "display": "+9市町村",
+        "value": 20,
+        "display": "+20市町村",
         "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-09-20"
@@ -2663,7 +2675,7 @@
         },
         {
           "date": "2026-09-21",
-          "value": 9
+          "value": 20
         }
       ]
     },

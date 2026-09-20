@@ -1,79 +1,98 @@
 {
-  "generated_at": "2026-09-21T00:45:06+09:00",
+  "generated_at": "2026-09-21T01:28:42+09:00",
   "date": "2026-09-21",
   "changes": [
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "83市町村",
+      "value_display": "75市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 35,
-        "display": "+35市町村",
+        "value": 27,
+        "display": "+27市町村",
         "direction": "up",
         "prev_value": 48,
         "prev_date": "2026-09-20"
       },
-      "caption": "83市町村に気象警報",
-      "score": 13.0,
-      "z": 13.0,
+      "caption": "75市町村に気象警報",
+      "score": 9.8,
+      "z": 9.8,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "heavy-rain-warned-municipalities",
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
-      "value_display": "44市町村",
+      "value_display": "41市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 34,
-        "display": "+34市町村",
+        "value": 31,
+        "display": "+31市町村",
         "direction": "up",
         "prev_value": 10,
         "prev_date": "2026-09-20"
       },
-      "caption": "44市町村に大雨警報",
-      "score": 10.33,
-      "z": 10.33,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "10.4m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -5.2,
-        "display": "-5.2m/s",
-        "direction": "down",
-        "prev_value": 15.6,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "御前崎｜全国でいちばん風が強い（10分平均）",
-      "score": 3.48,
-      "z": 3.48,
+      "caption": "41市町村に大雨警報",
+      "score": 9.33,
+      "z": 9.33,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "sediment-warning-municipalities",
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
-      "value_display": "9市町村",
+      "value_display": "20市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 9,
-        "display": "+9市町村",
+        "value": 20,
+        "display": "+20市町村",
         "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-09-20"
       },
-      "caption": "9市町村に土砂災害警戒情報",
+      "caption": "20市町村に土砂災害警戒情報",
+      "score": 5.67,
+      "z": 5.67,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "11.3m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4.3,
+        "display": "-4.3m/s",
+        "direction": "down",
+        "prev_value": 15.6,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "関空島｜全国でいちばん風が強い（10分平均）",
+      "score": 2.62,
+      "z": 2.62,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "value_display": "991.4hPa",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.9,
+        "display": "-3.9hPa",
+        "direction": "down",
+        "prev_value": 995.3,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "潮岬｜全国でいちばん気圧が低い",
       "score": 2.0,
       "z": 2.0,
       "label": "いつもより大きな変化"
@@ -117,25 +136,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
-      "category": "自然",
-      "value_display": "7.7℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4.4,
-        "display": "+4.4℃",
-        "direction": "up",
-        "prev_value": 3.3,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "天塩｜きょう日本でいちばん寒い",
-      "score": 1.65,
-      "z": 1.65,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
@@ -152,63 +152,6 @@
       "caption": "きょうのピークで電力の9%を太陽光がまかなった",
       "score": 1.14,
       "z": 1.14,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
-      "category": "自然",
-      "value_display": "992.6hPa",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.7,
-        "display": "-2.7hPa",
-        "direction": "down",
-        "prev_value": 995.3,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "潮岬｜全国でいちばん気圧が低い",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "192地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -174,
-        "display": "-174地点",
-        "direction": "down",
-        "prev_value": 366,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.5,
-      "z": 0.5,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "34.7℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.4,
-        "display": "+1.4℃",
-        "direction": "up",
-        "prev_value": 33.3,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "肝付前田｜きょう日本でいちばん暑い",
-      "score": 0.25,
-      "z": 0.25,
       "label": "通常の範囲"
     },
     {
@@ -231,6 +174,63 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "256地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -110,
+        "display": "-110地点",
+        "direction": "down",
+        "prev_value": 366,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.04,
+      "z": 0.04,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "34.7℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 34.7,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "肝付前田｜きょう日本でいちばん暑い",
+      "score": 0.0,
+      "z": -1.71,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "7.7℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 7.7,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "天塩｜きょう日本でいちばん寒い",
+      "score": 0.0,
+      "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
@@ -238,34 +238,34 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.7,
-        "display": "-1.7℃",
-        "direction": "down",
-        "prev_value": 25.3,
-        "prev_date": "2026-09-19"
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 23.6,
+        "prev_date": "2026-09-20"
       },
       "caption": "きょうの東京の最高気温",
       "score": 0.0,
-      "z": -0.11,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "242.5mm",
+      "value_display": "252mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 35.0,
-        "display": "+35mm",
+        "value": 44.5,
+        "display": "+44.5mm",
         "direction": "up",
         "prev_value": 207.5,
         "prev_date": "2026-09-20"
       },
       "caption": "大島｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -0.79,
+      "z": -0.62,
       "label": "通常の範囲"
     },
     {
