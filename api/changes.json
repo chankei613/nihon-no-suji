@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T08:28:07+09:00",
+  "generated_at": "2026-09-20T10:32:56+09:00",
   "date": "2026-09-20",
   "changes": [
     {
@@ -25,38 +25,19 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "79.5mm",
+      "value_display": "92mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -318.0,
-        "display": "-318mm",
+        "value": -305.5,
+        "display": "-305.5mm",
         "direction": "down",
         "prev_value": 397.5,
         "prev_date": "2026-09-19"
       },
-      "caption": "酒谷｜この24時間でいちばん降った",
-      "score": 4.1,
-      "z": 4.1,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "29.2℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.1,
-        "display": "-4.1℃",
-        "direction": "down",
-        "prev_value": 33.3,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "尾之間｜きょう日本でいちばん暑い",
-      "score": 4.07,
-      "z": 4.07,
+      "caption": "勝浦｜この24時間でいちばん降った",
+      "score": 3.89,
+      "z": 3.89,
       "label": "かなり珍しい変化"
     },
     {
@@ -79,79 +60,79 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "hot-points-30",
-      "name": "30℃以上になった地点数",
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "6.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -77,
-        "display": "-77地点",
-        "direction": "down",
-        "prev_value": 77,
+        "value": 3.6,
+        "display": "+3.6℃",
+        "direction": "up",
+        "prev_value": 3.2,
         "prev_date": "2026-09-19"
       },
-      "caption": "きょう30℃以上になった地点",
-      "score": 2.69,
-      "z": 2.69,
+      "caption": "夏でもひんやり",
+      "score": 2.44,
+      "z": 2.44,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "30.4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.9,
+        "display": "-2.9℃",
+        "direction": "down",
+        "prev_value": 33.3,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "須崎｜きょう日本でいちばん暑い",
+      "score": 2.36,
+      "z": 2.36,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "5回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -6,
+        "display": "-6回",
+        "direction": "down",
+        "prev_value": 11,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "最大は天草灘の震度3",
+      "score": 2.33,
+      "z": 2.33,
       "label": "いつもより大きな変化"
     },
     {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "3%",
+      "value_display": "4%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -22.0,
-        "display": "-22.0pt",
+        "value": -21.0,
+        "display": "-21.0pt",
         "direction": "down",
         "prev_value": 25.0,
         "prev_date": "2026-09-19"
       },
-      "caption": "きょうのピークで電力の3%を太陽光がまかなった",
-      "score": 2.0,
-      "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
-      "category": "自然",
-      "value_display": "999.7hPa",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4.8,
-        "display": "+4.8hPa",
-        "direction": "up",
-        "prev_value": 994.9,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "潮岬｜全国でいちばん気圧が低い",
-      "score": 1.87,
-      "z": 1.87,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "14.2m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -3.1,
-        "display": "-3.1m/s",
-        "direction": "down",
-        "prev_value": 17.3,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "父島｜全国でいちばん風が強い（10分平均）",
-      "score": 1.7,
-      "z": 1.7,
+      "caption": "きょうのピークで電力の4%を太陽光がまかなった",
+      "score": 1.86,
+      "z": 1.86,
       "label": "いつもより大きな変化"
     },
     {
@@ -174,72 +155,72 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "6回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -5,
-        "display": "-5回",
-        "direction": "down",
-        "prev_value": 11,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "最大は天草灘の震度3",
-      "score": 1.67,
-      "z": 1.67,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "5.6℃",
+      "value_display": "998.9hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.4,
-        "display": "+2.4℃",
+        "value": 4.0,
+        "display": "+4hPa",
         "direction": "up",
-        "prev_value": 3.2,
+        "prev_value": 994.9,
         "prev_date": "2026-09-19"
       },
-      "caption": "夏でもひんやり",
-      "score": 1.11,
-      "z": 1.11,
+      "caption": "潮岬｜全国でいちばん気圧が低い",
+      "score": 1.33,
+      "z": 1.33,
       "label": "通常の範囲"
     },
     {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "54%",
+      "value_display": "14.6m/s",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": 12.0,
-        "display": "+12.0pt",
-        "direction": "up",
-        "prev_value": 42.0,
+        "value": -2.7,
+        "display": "-2.7m/s",
+        "direction": "down",
+        "prev_value": 17.3,
         "prev_date": "2026-09-19"
       },
-      "caption": "熊野新鹿｜全国でいちばん空気が乾いている",
-      "score": 0.6,
-      "z": 0.6,
+      "caption": "三宅島｜全国でいちばん風が強い（10分平均）",
+      "score": 1.3,
+      "z": 1.3,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "value_display": "23地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -54,
+        "display": "-54地点",
+        "direction": "down",
+        "prev_value": 77,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "score": 1.25,
+      "z": 1.25,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "22.6℃",
+      "value_display": "22.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.7,
-        "display": "-2.7℃",
+        "value": -2.6,
+        "display": "-2.6℃",
         "direction": "down",
         "prev_value": 25.3,
         "prev_date": "2026-09-19"
@@ -291,19 +272,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "227地点",
+      "value_display": "274地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 55,
-        "display": "+55地点",
+        "value": 102,
+        "display": "+102地点",
         "direction": "up",
         "prev_value": 172,
         "prev_date": "2026-09-19"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.68,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -329,19 +310,19 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "55.5mm",
+      "value_display": "63mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.0,
-        "display": "-3mm",
-        "direction": "down",
+        "value": 4.5,
+        "display": "+4.5mm",
+        "direction": "up",
         "prev_value": 58.5,
         "prev_date": "2026-09-19"
       },
-      "caption": "浦河｜この3時間でいちばん激しく降った",
+      "caption": "勝浦｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -1.97,
+      "z": -1.89,
       "label": "通常の範囲"
     },
     {
@@ -418,6 +399,25 @@
       "caption": "あすは雨の可能性が高い",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "47%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 5.0,
+        "display": "+5.0pt",
+        "direction": "up",
+        "prev_value": 42.0,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "須崎｜全国でいちばん空気が乾いている",
+      "score": 0.0,
+      "z": -0.33,
       "label": "通常の範囲"
     },
     {
