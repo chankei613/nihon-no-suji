@@ -1,4 +1,4 @@
-# 日本の数字 — iOS アプリ（v0.1 スケルトン）
+# 日本の数字 — iOS アプリ（v1.0・App Store 審査提出済み）
 
 SwiftUI。企画書 Phase 3 の「今日 / 変化 / 数字」3画面。
 UIは「静かな観測」（`docs/日本の数字_UIデザインレビュー_改善方針.md`）。
@@ -19,9 +19,15 @@ xcodebuild -scheme NihonNoSuji -sdk iphonesimulator -destination 'id=<simulator 
 ## データの取り込み
 
 - `NihonNoSuji/Resources/*.sample.json` … 本体パイプラインの `api/*.json` のコピー（オフライン初期表示・プレビュー用）
-- `DataStore.swift` の `Config.apiBaseURL` … **公開API配信先が決まったら URL を入れるだけ**。
-  それまでは `nil` でバンドルのサンプルで動作する。
-- 配信先が決まったら、サンプルを最新化する仕組み（Actions で ios/Resources へコピー等）も入れる。
+- `DataStore.swift` の `Config.apiBaseURL` … GitHub Pages（`collect.yml` の deploy ジョブが毎時配信）。
+  取得できないときはバンドルのサンプルにフォールバックする。
+- サンプルの最新化は手動（リリース前に `api/*.json` を `Resources/*.sample.json` へコピーし、テストでデコード確認）。
+
+## リリース
+
+- 署名: 署名なしで archive → `-exportArchive -allowProvisioningUpdates` で署名（`ios-app-factory/tools/appstore` の手順）。
+- 掲載文・審査メモ: `store/listing.json`。スクショ: `NihonNoSujiScreenshots` スキームで撮影 → `store/compose_screenshots.py` で合成。
+- バージョンを上げるときは `project.yml` の `MARKETING_VERSION` / `CURRENT_PROJECT_VERSION` / `CFBundleVersion`。
 
 ## 構成
 
@@ -44,8 +50,7 @@ NihonNoSujiTests/             デコードのテスト
 
 ## まだやっていない
 
-- 公開API配信先の決定・接続
-- お気に入り（企画書「わたしの日本」）
 - ウィジェット
-- アイコン（`Assets.xcassets/AppIcon` は空）
-- レビュー導線・クロスプロモ（`ios-app-factory` の marketing-playbook 準拠で標準搭載する）
+- オンボーディング、通知
+- クロスプロモ（同じレーンのアプリが無いため保留）
+- アイコンは暫定版（`Assets.xcassets/AppIcon`）
