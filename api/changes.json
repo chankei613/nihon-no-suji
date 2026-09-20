@@ -1,62 +1,43 @@
 {
-  "generated_at": "2026-09-20T15:55:23+09:00",
+  "generated_at": "2026-09-20T21:36:49+09:00",
   "date": "2026-09-20",
   "changes": [
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "48市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 47,
+        "display": "+47市町村",
+        "direction": "up",
+        "prev_value": 1,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "48市町村に気象警報",
+      "score": 22.5,
+      "z": 22.5,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "17.2℃",
+      "value_display": "17.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.8,
-        "display": "-6.8℃",
+        "value": -6.1,
+        "display": "-6.1℃",
         "direction": "down",
         "prev_value": 24.0,
         "prev_date": "2026-09-19"
       },
-      "caption": "北大東28.2℃ と 沼川11℃ の差",
-      "score": 4.73,
-      "z": 4.73,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "3回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -8,
-        "display": "-8回",
-        "direction": "down",
-        "prev_value": 11,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "最大は天草灘の震度3",
-      "score": 3.67,
-      "z": 3.67,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "121mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -276.5,
-        "display": "-276.5mm",
-        "direction": "down",
-        "prev_value": 397.5,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "勝浦｜この24時間でいちばん降った",
-      "score": 3.38,
-      "z": 3.38,
+      "caption": "父島28.2℃ と 天塩10.3℃ の差",
+      "score": 4.09,
+      "z": 4.09,
       "label": "かなり珍しい変化"
     },
     {
@@ -79,20 +60,20 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "9市町村",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 8,
-        "display": "+8市町村",
-        "direction": "up",
-        "prev_value": 1,
+        "value": -7,
+        "display": "-7回",
+        "direction": "down",
+        "prev_value": 11,
         "prev_date": "2026-09-19"
       },
-      "caption": "9市町村に気象警報",
+      "caption": "最大は奄美大島近海の震度3",
       "score": 3.0,
       "z": 3.0,
       "label": "かなり珍しい変化"
@@ -101,20 +82,58 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "6.5℃",
+      "value_display": "6.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.3,
-        "display": "+3.3℃",
+        "value": 3.2,
+        "display": "+3.2℃",
         "direction": "up",
         "prev_value": 3.2,
         "prev_date": "2026-09-19"
       },
       "caption": "夏でもひんやり",
-      "score": 2.11,
-      "z": 2.11,
+      "score": 2.0,
+      "z": 2.0,
       "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "207.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -190.0,
+        "display": "-190mm",
+        "direction": "down",
+        "prev_value": 397.5,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "大島｜この24時間でいちばん降った",
+      "score": 1.87,
+      "z": 1.87,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "366地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 194,
+        "display": "+194地点",
+        "direction": "up",
+        "prev_value": 172,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 1.41,
+      "z": 1.41,
+      "label": "通常の範囲"
     },
     {
       "slug": "solar-share-tokyo",
@@ -136,60 +155,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "91%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 4.0,
-        "display": "+4.0pt",
-        "direction": "up",
-        "prev_value": 87.0,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "ピークは18:00〜19:00の見込み",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "15.4m/s",
+      "value_display": "15.6m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.9,
-        "display": "-1.9m/s",
+        "value": -1.7,
+        "display": "-1.7m/s",
         "direction": "down",
         "prev_value": 17.3,
         "prev_date": "2026-09-19"
       },
-      "caption": "三宅坪田｜全国でいちばん風が強い（10分平均）",
-      "score": 0.63,
-      "z": 0.63,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "297地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 125,
-        "display": "+125地点",
-        "direction": "up",
-        "prev_value": 172,
-        "prev_date": "2026-09-19"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.32,
-      "z": 0.32,
+      "caption": "雲仙岳｜全国でいちばん風が強い（10分平均）",
+      "score": 0.38,
+      "z": 0.38,
       "label": "通常の範囲"
     },
     {
@@ -405,19 +386,19 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "995.4hPa",
+      "value_display": "995.3hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.5,
-        "display": "+0.5hPa",
+        "value": 0.4,
+        "display": "+0.4hPa",
         "direction": "up",
         "prev_value": 994.9,
         "prev_date": "2026-09-19"
       },
       "caption": "潮岬｜全国でいちばん気圧が低い",
       "score": 0.0,
-      "z": -0.83,
+      "z": -0.91,
       "label": "通常の範囲"
     },
     {
@@ -554,6 +535,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "89%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 2.0,
+        "display": "+2.0pt",
+        "direction": "up",
+        "prev_value": 87.0,
+        "prev_date": "2026-09-19"
+      },
+      "caption": "ピークは18:00〜19:00の見込み",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "ice-day-points",
       "name": "真冬日（0℃以上にならなかった）地点数",
       "category": "自然",
@@ -629,17 +629,17 @@
       "slug": "heavy-rain-warned-municipalities",
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
-      "value_display": "0市町村",
+      "value_display": "10市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0市町村",
-        "direction": "flat",
+        "value": 10,
+        "display": "+10市町村",
+        "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-09-19"
       },
-      "caption": "いま大雨警報は出ていない",
+      "caption": "10市町村に大雨警報",
       "score": null,
       "label": "データ蓄積中"
     },
