@@ -42,6 +42,18 @@ targets:
       base:
         SWIFT_VERSION: "6.0"
         GENERATE_INFOPLIST_FILE: YES
+  NihonNoSujiUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - NihonNoSujiUITests
+    dependencies:
+      - target: NihonNoSuji
+    settings:
+      base:
+        SWIFT_VERSION: "6.0"
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_TARGET_NAME: NihonNoSuji
 schemes:
   NihonNoSuji:
     build:
@@ -53,3 +65,11 @@ schemes:
       config: Debug
       targets:
         - NihonNoSujiTests
+  NihonNoSujiScreenshots:
+    build:
+      targets:
+        NihonNoSuji: all
+    test:
+      config: Debug
+      targets:
+        - NihonNoSujiUITests
