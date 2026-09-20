@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:05:29+09:00",
+  "generated_at": "2026-09-21T00:45:06+09:00",
   "metrics": [
     {
       "slug": "max-temp",
@@ -65,6 +65,33 @@
       "source": "気象庁 アメダス実況"
     },
     {
+      "slug": "ice-day-points",
+      "name": "真冬日（0℃以上にならなかった）地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "tropical-night-points",
+      "name": "熱帯夜（25℃を下回らなかった）地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "tokyo-sunshine-hours",
+      "name": "東京の日照時間",
+      "category": "自然",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "duration",
+      "source": "気象庁 アメダス実況（東京）"
+    },
+    {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
@@ -96,6 +123,51 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 アメダス実況"
+    },
+    {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 天気予報"
+    },
+    {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 天気予報"
+    },
+    {
+      "slug": "tokyo-week-max-forecast",
+      "name": "今週いちばん暑くなりそうな日の予想最高気温",
+      "category": "自然",
+      "unit": "℃",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 天気予報（週間）"
+    },
+    {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "気象庁 天気予報"
+    },
+    {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "unit": "hPa",
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁 アメダス実況"
@@ -164,6 +236,15 @@
       "source": "資源エネルギー庁 石油製品価格調査"
     },
     {
+      "slug": "usd-jpy",
+      "name": "ドル円レート",
+      "category": "経済",
+      "unit": "円",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "日本銀行 時系列統計データ（東京市場・17時時点）"
+    },
+    {
       "slug": "typhoons-this-year",
       "name": "今年の台風発生数",
       "category": "防災",
@@ -189,6 +270,60 @@
       "comparison_type": "absolute",
       "value_type": "number",
       "source": "気象庁 気象警報・注意報"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "unit": "市町村",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 気象警報・注意報"
+    },
+    {
+      "slug": "flood-warned-municipalities",
+      "name": "洪水警報が出ている市町村数",
+      "category": "防災",
+      "unit": "市町村",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 気象警報・注意報"
+    },
+    {
+      "slug": "sediment-warning-municipalities",
+      "name": "土砂災害警戒情報が出ている市町村数",
+      "category": "防災",
+      "unit": "市町村",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 気象警報・注意報"
+    },
+    {
+      "slug": "volcano-alert-points",
+      "name": "噴火警戒レベル2以上の火山数",
+      "category": "防災",
+      "unit": "火山",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 噴火警報・予報"
+    },
+    {
+      "slug": "sakura-kaika-points",
+      "name": "さくら開花地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 さくらの開花状況"
+    },
+    {
+      "slug": "sakura-mankai-points",
+      "name": "さくら満開地点数",
+      "category": "自然",
+      "unit": "地点",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "気象庁 さくらの満開状況"
     },
     {
       "slug": "day-length-tokyo",
@@ -236,6 +371,51 @@
       "source": "自前天文計算"
     },
     {
+      "slug": "japan-population",
+      "name": "日本の総人口（推計）",
+      "category": "社会",
+      "unit": "人",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "総務省統計局 人口推計"
+    },
+    {
+      "slug": "unemployment-rate",
+      "name": "完全失業率",
+      "category": "経済",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "総務省統計局 労働力調査"
+    },
+    {
+      "slug": "cpi-yoy",
+      "name": "消費者物価指数（前年同月比）",
+      "category": "経済",
+      "unit": "%",
+      "comparison_type": "percentage_point",
+      "value_type": "number",
+      "source": "総務省統計局 消費者物価指数"
+    },
+    {
+      "slug": "job-openings-ratio",
+      "name": "有効求人倍率",
+      "category": "経済",
+      "unit": "倍",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "厚生労働省 職業安定業務統計"
+    },
+    {
+      "slug": "tokyo-net-migration",
+      "name": "東京都の転入超過数",
+      "category": "社会",
+      "unit": "人",
+      "comparison_type": "absolute",
+      "value_type": "number",
+      "source": "総務省統計局 住民基本台帳人口移動報告"
+    },
+    {
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
@@ -278,6 +458,15 @@
       "unit": "回",
       "comparison_type": "absolute",
       "value_type": "number",
+      "source": "P2P地震情報 API（元データ：気象庁）"
+    },
+    {
+      "slug": "max-shindo-7d",
+      "name": "この1週間の最大震度",
+      "category": "防災",
+      "unit": "",
+      "comparison_type": "absolute",
+      "value_type": "shindo",
       "source": "P2P地震情報 API（元データ：気象庁）"
     },
     {
