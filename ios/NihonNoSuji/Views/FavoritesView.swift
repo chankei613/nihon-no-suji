@@ -4,6 +4,7 @@ import SwiftUI
 struct FavoritesView: View {
     @Environment(DataStore.self) private var store
     @Environment(FavoritesStore.self) private var favorites
+    @State private var showAbout = false
 
     var body: some View {
         NavigationStack {
@@ -22,6 +23,13 @@ struct FavoritesView: View {
             .navigationTitle("わたしの数字")
             .navigationBarTitleDisplayMode(.inline)
             .navigationDestination(for: Metric.self) { MetricDetailView(metric: $0) }
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button { showAbout = true } label: { Image(systemName: "info.circle") }
+                        .accessibilityLabel("このアプリについて")
+                }
+            }
+            .sheet(isPresented: $showAbout) { AboutView() }
         }
     }
 

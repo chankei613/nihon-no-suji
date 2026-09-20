@@ -64,3 +64,35 @@ jobs:
             echo "retry $i"; sleep $(( (RANDOM % 8) + 3 ))
           done
           echo "::error::push に5回失敗"; exit 1
+
+  # api/ と静的ページを GitHub Pages に配信する。
+  # bot の push（GITHUB_TOKEN）では他のワークフローが起動しないので、同じワークフロー内で配信する。
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Assemble site
+        run: |
+          mkdir _site
+          cp -r api _site/api
+          cp index.html _site/
+          cp site/* _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

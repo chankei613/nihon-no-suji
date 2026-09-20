@@ -1,10 +1,12 @@
 import Charts
+import StoreKit
 import SwiftUI
 
 struct MetricDetailView: View {
     let metric: Metric
     @Environment(DataStore.self) private var store
     @Environment(FavoritesStore.self) private var favorites
+    @Environment(\.requestReview) private var requestReview
     @State private var detail: MetricDetail?
 
     private var history: [MetricDetail.Point] {
@@ -37,7 +39,12 @@ struct MetricDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
-                Button { favorites.toggle(metric.slug) } label: {
+                Button {
+                    favorites.toggle(metric.slug)
+                    if favorites.isFavorite(metric.slug) {
+                        ReviewRequester.recordSuccess(requestReview: requestReview)
+                    }
+                } label: {
                     Image(systemName: favorites.isFavorite(metric.slug) ? "star.fill" : "star")
                 }
                 .accessibilityLabel(favorites.isFavorite(metric.slug) ? "わたしから外す" : "わたしに追加")

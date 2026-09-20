@@ -2,9 +2,11 @@ import Foundation
 import Observation
 
 enum Config {
-    /// 公開APIのベースURL。未配信の間は nil（バンドルのサンプルで動く）。
-    /// 配信先が決まったら `URL(string: "https://.../")` を入れるだけ。
-    static let apiBaseURL: URL? = nil
+    /// 公開APIのベースURL（GitHub Pages。collect.yml が毎時 api/ を配信する）。
+    /// nil にするとバンドルのサンプルだけで動く。
+    static let apiBaseURL: URL? = URL(string: "https://chankei613.github.io/nihon-no-suji/api/")
+    static let supportURL = URL(string: "https://chankei613.github.io/nihon-no-suji/support.html")!
+    static let privacyURL = URL(string: "https://chankei613.github.io/nihon-no-suji/privacy.html")!
 }
 
 enum LoadState<T> {
