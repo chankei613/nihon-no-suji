@@ -1,62 +1,81 @@
 {
-  "generated_at": "2026-09-21T04:01:30+09:00",
+  "generated_at": "2026-09-21T06:46:57+09:00",
   "date": "2026-09-21",
   "changes": [
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "88市町村",
+      "value_display": "116市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 40,
-        "display": "+40市町村",
+        "value": 68,
+        "display": "+68市町村",
         "direction": "up",
         "prev_value": 48,
         "prev_date": "2026-09-20"
       },
-      "caption": "88市町村に気象警報",
-      "score": 15.0,
-      "z": 15.0,
+      "caption": "116市町村に気象警報",
+      "score": 26.2,
+      "z": 26.2,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "heavy-rain-warned-municipalities",
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
-      "value_display": "51市町村",
+      "value_display": "47市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 41,
-        "display": "+41市町村",
+        "value": 37,
+        "display": "+37市町村",
         "direction": "up",
         "prev_value": 10,
         "prev_date": "2026-09-20"
       },
-      "caption": "51市町村に大雨警報",
-      "score": 12.67,
-      "z": 12.67,
+      "caption": "47市町村に大雨警報",
+      "score": 11.33,
+      "z": 11.33,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "value_display": "20%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -80.0,
+        "display": "-80.0pt",
+        "direction": "down",
+        "prev_value": 100.0,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "あすは雨の心配は少ない",
+      "score": 11.0,
+      "z": 11.0,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "sediment-warning-municipalities",
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
-      "value_display": "25市町村",
+      "value_display": "32市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 25,
-        "display": "+25市町村",
+        "value": 32,
+        "display": "+32市町村",
         "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-09-20"
       },
-      "caption": "25市町村に土砂災害警戒情報",
-      "score": 7.33,
-      "z": 7.33,
+      "caption": "32市町村に土砂災害警戒情報",
+      "score": 9.67,
+      "z": 9.67,
       "label": "かなり珍しい変化"
     },
     {
@@ -117,22 +136,60 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "9%",
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "387.5mm",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": -16.0,
-        "display": "-16.0pt",
-        "direction": "down",
-        "prev_value": 25.0,
-        "prev_date": "2026-09-19"
+        "value": 180.0,
+        "display": "+180mm",
+        "direction": "up",
+        "prev_value": 207.5,
+        "prev_date": "2026-09-20"
       },
-      "caption": "きょうのピークで電力の9%を太陽光がまかなった",
-      "score": 1.14,
-      "z": 1.14,
+      "caption": "大島｜この24時間でいちばん降った",
+      "score": 1.48,
+      "z": 1.48,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "value_display": "29℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.0,
+        "display": "+3℃",
+        "direction": "up",
+        "prev_value": 26.0,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "あすの東京の最高気温の予想",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "value_display": "24℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.0,
+        "display": "+3℃",
+        "direction": "up",
+        "prev_value": 21.0,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "あすの東京の最低気温の予想",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -155,41 +212,41 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "87.1%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 0.7,
+        "display": "+0.7pt",
+        "direction": "up",
+        "prev_value": 86.4,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
+      "score": 0.57,
+      "z": 0.57,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "8.1℃",
+      "value_display": "8.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.7,
-        "display": "+1.7℃",
+        "value": 1.9,
+        "display": "+1.9℃",
         "direction": "up",
         "prev_value": 6.4,
         "prev_date": "2026-09-20"
       },
       "caption": "夏でもひんやり",
-      "score": 0.25,
-      "z": 0.25,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "300.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 93.0,
-        "display": "+93mm",
-        "direction": "up",
-        "prev_value": 207.5,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "大島｜この24時間でいちばん降った",
-      "score": 0.14,
-      "z": 0.14,
+      "score": 0.5,
+      "z": 0.5,
       "label": "通常の範囲"
     },
     {
@@ -367,57 +424,57 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "316地点",
+      "value_display": "349地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -50,
-        "display": "-50地点",
+        "value": -17,
+        "display": "-17地点",
         "direction": "down",
         "prev_value": 366,
         "prev_date": "2026-09-20"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.78,
+      "z": -1.25,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "44.5mm",
+      "value_display": "46.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 9.0,
-        "display": "+9mm",
+        "value": 11.0,
+        "display": "+11mm",
         "direction": "up",
         "prev_value": 35.5,
         "prev_date": "2026-09-20"
       },
-      "caption": "大多喜｜バケツをひっくり返したような雨",
+      "caption": "坂畑｜バケツをひっくり返したような雨",
       "score": 0.0,
-      "z": -0.32,
+      "z": -0.12,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "90mm",
+      "value_display": "96mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 27.0,
-        "display": "+27mm",
+        "value": 33.0,
+        "display": "+33mm",
         "direction": "up",
         "prev_value": 63.0,
         "prev_date": "2026-09-20"
       },
-      "caption": "大多喜｜この3時間でいちばん激しく降った",
+      "caption": "大島｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.4,
+      "z": -0.14,
       "label": "通常の範囲"
     },
     {
@@ -440,44 +497,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-forecast-max",
-      "name": "東京のあしたの最高気温",
-      "category": "自然",
-      "value_display": "26℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 26.0,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "あすの東京の最高気温の予想",
-      "score": 0.0,
-      "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-min",
-      "name": "東京のあしたの最低気温",
-      "category": "自然",
-      "value_display": "21℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 21.0,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "あすの東京の最低気温の予想",
-      "score": 0.0,
-      "z": -3.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
@@ -494,25 +513,6 @@
       "caption": "9月22日ごろがいちばん暑くなりそう",
       "score": 0.0,
       "z": -4.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
-      "category": "自然",
-      "value_display": "100%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
-        "prev_value": 100.0,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "あすは雨の可能性が高い",
-      "score": 0.0,
-      "z": -2.0,
       "label": "通常の範囲"
     },
     {
@@ -586,7 +586,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-20"
       },
-      "caption": "台風25号「ドゥージェン」が八丈島の南西約260km",
+      "caption": "台風25号「ドゥージェン」が八丈島の南西約220km",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -732,34 +732,34 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1cm",
-        "direction": "up",
-        "prev_value": -30.0,
-        "prev_date": "2026-09-19"
+        "value": 0.0,
+        "display": "±0cm",
+        "direction": "flat",
+        "prev_value": -29.0,
+        "prev_date": "2026-09-20"
       },
       "caption": "基準水位(B.S.L.)より29cm低い",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
-      "slug": "dam-storage",
-      "name": "主要ダムの貯水率",
-      "category": "自然",
-      "value_display": "86.4%",
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "1%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -0.2,
-        "display": "-0.2pt",
+        "value": -8.0,
+        "display": "-8.0pt",
         "direction": "down",
-        "prev_value": 86.6,
-        "prev_date": "2026-09-19"
+        "prev_value": 9.0,
+        "prev_date": "2026-09-20"
       },
-      "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
+      "caption": "きょうのピークで電力の1%を太陽光がまかなった",
       "score": 0.0,
-      "z": -0.75,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
