@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-21T20:03:09+09:00",
+  "updated_at": "2026-09-22T02:11:06+09:00",
   "summary": {
-    "count": 20,
+    "count": 21,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-21",
+    "last_date": "2026-09-22",
     "min_30d": 2,
     "max_30d": 12,
-    "avg_30d": 6.45
+    "avg_30d": 6.71
   },
   "history": [
     {
@@ -97,25 +97,29 @@
     {
       "date": "2026-09-21",
       "value": 6
+    },
+    {
+      "date": "2026-09-22",
+      "value": 12
     }
   ],
   "latest_detail": {
-    "caption": "最大は根室半島南東沖の震度2",
+    "caption": "最大は日向灘の震度3",
     "window_hours": 24,
-    "max_magnitude": 4.7,
+    "max_magnitude": 4.8,
     "strongest": {
-      "time": "2026-09-21T08:25:00+09:00",
-      "scale": 20,
-      "name": "根室半島南東沖",
-      "magnitude": 4.7,
-      "depth": 50
+      "time": "2026-09-21T22:38:00+09:00",
+      "scale": 30,
+      "name": "日向灘",
+      "magnitude": 4.8,
+      "depth": 30
     },
     "latest": {
-      "time": "2026-09-21T19:42:00+09:00",
-      "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 2.2,
-      "depth": 10
+      "time": "2026-09-22T01:39:00+09:00",
+      "scale": 30,
+      "name": "",
+      "magnitude": -1,
+      "depth": -1
     },
     "capped": false
   }

@@ -8,14 +8,14 @@
     "name": "東京電力パワーグリッド でんき予報",
     "url": "https://www.tepco.co.jp/forecast/html/images/juyo-s1-j.csv"
   },
-  "updated_at": "2026-09-21T20:03:09+09:00",
+  "updated_at": "2026-09-22T02:11:06+09:00",
   "summary": {
-    "count": 20,
+    "count": 21,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-21",
+    "last_date": "2026-09-22",
     "min_30d": 83.0,
     "max_30d": 91.0,
-    "avg_30d": 87.45
+    "avg_30d": 87.52
   },
   "history": [
     {
@@ -97,17 +97,21 @@
     {
       "date": "2026-09-21",
       "value": 84.0
+    },
+    {
+      "date": "2026-09-22",
+      "value": 89.0
     }
   ],
   "latest_detail": {
-    "reserve_rate": 19.0,
-    "peak_supply_10MW": 3763.0,
-    "forecast_peak_demand_10MW": 3168.0,
-    "current_demand_10MW": 3049.0,
-    "current_demand_time": "18:00",
-    "current_usage_rate": 81.0,
-    "peak_timeband": "18:00〜19:00",
+    "reserve_rate": 12.0,
+    "peak_supply_10MW": 3924.0,
+    "forecast_peak_demand_10MW": 3498.0,
+    "current_demand_10MW": 2251.0,
+    "current_demand_time": "1:00",
+    "current_usage_rate": 89.0,
+    "peak_timeband": "13:00〜14:00",
     "area": "東京",
-    "caption": "ピークは18:00〜19:00の見込み"
+    "caption": "ピークは13:00〜14:00の見込み"
   }
 }
