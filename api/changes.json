@@ -1,43 +1,62 @@
 {
-  "generated_at": "2026-09-22T02:11:06+09:00",
+  "generated_at": "2026-09-22T06:14:02+09:00",
   "date": "2026-09-22",
   "changes": [
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "41市町村",
+      "value_display": "4市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -77,
-        "display": "-77市町村",
+        "value": -114,
+        "display": "-114市町村",
         "direction": "down",
         "prev_value": 118,
         "prev_date": "2026-09-21"
       },
-      "caption": "41市町村に気象警報",
-      "score": 24.67,
-      "z": 24.67,
+      "caption": "4市町村に気象警報",
+      "score": 37.0,
+      "z": 37.0,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "sediment-warning-municipalities",
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
-      "value_display": "19市町村",
+      "value_display": "21市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -54,
-        "display": "-54市町村",
+        "value": -52,
+        "display": "-52市町村",
         "direction": "down",
         "prev_value": 73,
         "prev_date": "2026-09-21"
       },
-      "caption": "19市町村に土砂災害警戒情報",
-      "score": 17.0,
-      "z": 17.0,
+      "caption": "21市町村に土砂災害警戒情報",
+      "score": 16.33,
+      "z": 16.33,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "4市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -53,
+        "display": "-53市町村",
+        "direction": "down",
+        "prev_value": 57,
+        "prev_date": "2026-09-21"
+      },
+      "caption": "4市町村に大雨警報",
+      "score": 9.3,
+      "z": 9.3,
       "label": "かなり珍しい変化"
     },
     {
@@ -60,44 +79,6 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "heavy-rain-warned-municipalities",
-      "name": "大雨警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "9市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -48,
-        "display": "-48市町村",
-        "direction": "down",
-        "prev_value": 57,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "9市町村に大雨警報",
-      "score": 8.3,
-      "z": 8.3,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "11.1m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -10.1,
-        "display": "-10.1m/s",
-        "direction": "down",
-        "prev_value": 21.2,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "松浜｜全国でいちばん風が強い（10分平均）",
-      "score": 7.0,
-      "z": 7.0,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
@@ -114,6 +95,25 @@
       "caption": "石廊崎｜きょう日本でいちばん暑い",
       "score": 6.79,
       "z": 6.79,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "12.5m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -8.7,
+        "display": "-8.7m/s",
+        "direction": "down",
+        "prev_value": 21.2,
+        "prev_date": "2026-09-21"
+      },
+      "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
+      "score": 5.83,
+      "z": 5.83,
       "label": "かなり珍しい変化"
     },
     {
@@ -158,20 +158,39 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "23地点",
+      "value_display": "24地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -424,
-        "display": "-424地点",
+        "value": -423,
+        "display": "-423地点",
         "direction": "down",
         "prev_value": 447,
         "prev_date": "2026-09-21"
       },
       "caption": "きょう雨が降った地点",
-      "score": 5.06,
-      "z": 5.06,
+      "score": 5.05,
+      "z": 5.05,
       "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "90%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 6.0,
+        "display": "+6.0pt",
+        "direction": "up",
+        "prev_value": 84.0,
+        "prev_date": "2026-09-21"
+      },
+      "caption": "ピークは13:00〜14:00の見込み",
+      "score": 2.33,
+      "z": 2.33,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "quakes-24h",
@@ -193,22 +212,41 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "89%",
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "value_display": "25℃",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": 5.0,
-        "display": "+5.0pt",
-        "direction": "up",
-        "prev_value": 84.0,
+        "value": -4.0,
+        "display": "-4℃",
+        "direction": "down",
+        "prev_value": 29.0,
         "prev_date": "2026-09-21"
       },
-      "caption": "ピークは13:00〜14:00の見込み",
-      "score": 1.67,
-      "z": 1.67,
+      "caption": "あすの東京の最高気温の予想",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "value_display": "21℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4.0,
+        "display": "-4℃",
+        "direction": "down",
+        "prev_value": 25.0,
+        "prev_date": "2026-09-21"
+      },
+      "caption": "あすの東京の最低気温の予想",
+      "score": 2.0,
+      "z": 2.0,
       "label": "いつもより大きな変化"
     },
     {
@@ -288,22 +326,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "8.6℃",
+      "value_display": "20.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.9,
-        "display": "+0.9℃",
+        "value": 1.7,
+        "display": "+1.7℃",
         "direction": "up",
+        "prev_value": 18.9,
+        "prev_date": "2026-09-21"
+      },
+      "caption": "南鳥島28.4℃ と 上川7.8℃ の差",
+      "score": 0.1,
+      "z": 0.1,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "7.1℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -0.6,
+        "display": "-0.6℃",
+        "direction": "down",
         "prev_value": 7.7,
         "prev_date": "2026-09-21"
       },
-      "caption": "朱鞠内｜きょう日本でいちばん寒い",
+      "caption": "喜茂別｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -0.44,
+      "z": -0.62,
       "label": "通常の範囲"
     },
     {
@@ -402,63 +459,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "19.1℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.2,
-        "display": "+0.2℃",
-        "direction": "up",
-        "prev_value": 18.9,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "父島27.3℃ と 朱鞠内8.2℃ の差",
-      "score": 0.0,
-      "z": -1.22,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-max",
-      "name": "東京のあしたの最高気温",
-      "category": "自然",
-      "value_display": "29℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 29.0,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "あすの東京の最高気温の予想",
-      "score": 0.0,
-      "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-min",
-      "name": "東京のあしたの最低気温",
-      "category": "自然",
-      "value_display": "25℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 25.0,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "あすは熱帯夜の予想",
-      "score": 0.0,
-      "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
@@ -481,19 +481,19 @@
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "20%",
+      "value_display": "30%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": 10.0,
+        "display": "+10.0pt",
+        "direction": "up",
         "prev_value": 20.0,
         "prev_date": "2026-09-21"
       },
-      "caption": "あすは雨の心配は少ない",
+      "caption": "あすは所により雨",
       "score": 0.0,
-      "z": -2.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -519,19 +519,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "6℃",
+      "value_display": "5.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.3,
-        "display": "+0.3℃",
-        "direction": "up",
+        "value": -0.6,
+        "display": "-0.6℃",
+        "direction": "down",
         "prev_value": 5.7,
         "prev_date": "2026-09-21"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.17,
+      "z": -0.67,
       "label": "通常の範囲"
     },
     {
@@ -605,7 +605,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-21"
       },
-      "caption": "台風25号「ドゥージェン」が銚子市の東約220km",
+      "caption": "台風25号「ドゥージェン」が日本の東",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -804,19 +804,19 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "4%",
+      "value_display": "1%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -5.0,
-        "display": "-5.0pt",
+        "value": -3.0,
+        "display": "-3.0pt",
         "direction": "down",
-        "prev_value": 9.0,
-        "prev_date": "2026-09-20"
+        "prev_value": 4.0,
+        "prev_date": "2026-09-21"
       },
-      "caption": "きょうのピークで電力の4%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の1%を太陽光がまかなった",
       "score": 0.0,
-      "z": -0.38,
+      "z": -0.67,
       "label": "通常の範囲"
     },
     {

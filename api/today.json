@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T02:11:06+09:00",
+  "generated_at": "2026-09-22T06:14:02+09:00",
   "date": "2026-09-22",
   "metrics": [
     {
@@ -42,28 +42,28 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 8.6,
-      "value_display": "8.6℃",
-      "observed_at": "2026-09-22T01:00:00+09:00",
+      "value": 7.1,
+      "value_display": "7.1℃",
+      "observed_at": "2026-09-22T05:00:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.9,
-        "display": "+0.9℃",
-        "direction": "up",
+        "value": -0.6,
+        "display": "-0.6℃",
+        "direction": "down",
         "prev_value": 7.7,
         "prev_date": "2026-09-21"
       },
-      "caption": "朱鞠内｜きょう日本でいちばん寒い",
+      "caption": "喜茂別｜きょう日本でいちばん寒い",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "朱鞠内",
-        "pref": "北海道上川地方",
-        "caption": "朱鞠内｜きょう日本でいちばん寒い",
-        "record_1st": -35.8,
+        "place": "喜茂別",
+        "pref": "北海道後志地方",
+        "caption": "喜茂別｜きょう日本でいちばん寒い",
+        "record_1st": -31.9,
         "year_extreme": false,
         "all_time_record": false
       },
@@ -3917,7 +3917,7 @@
       "unit": "",
       "value": 0,
       "value_display": "0時間00分",
-      "observed_at": "2026-09-22T02:00:00+09:00",
+      "observed_at": "2026-09-22T06:00:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
@@ -3934,7 +3934,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 0.0,
-        "last_observed_at": "2026-09-22T02:00:00+09:00",
+        "last_observed_at": "2026-09-22T06:00:00+09:00",
         "caption": "きょうはまだ日照なし"
       },
       "source": {
@@ -3947,16 +3947,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 23,
-      "value_display": "23地点",
-      "observed_at": "2026-09-22T02:00:00+09:00",
+      "value": 24,
+      "value_display": "24地点",
+      "observed_at": "2026-09-22T06:00:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -424,
-        "display": "-424地点",
+        "value": -423,
+        "display": "-423地点",
         "direction": "down",
         "prev_value": 447,
         "prev_date": "2026-09-21"
@@ -3988,9 +3988,10 @@
           "54841",
           "55156",
           "55166",
-          "55217"
+          "55217",
+          "55267"
         ],
-        "now": 23,
+        "now": 3,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4065,33 +4066,33 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value": 19.1,
-      "value_display": "19.1℃",
-      "observed_at": "2026-09-22T02:00:00+09:00",
+      "value": 20.6,
+      "value_display": "20.6℃",
+      "observed_at": "2026-09-22T06:00:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.2,
-        "display": "+0.2℃",
+        "value": 1.7,
+        "display": "+1.7℃",
         "direction": "up",
         "prev_value": 18.9,
         "prev_date": "2026-09-21"
       },
-      "caption": "父島27.3℃ と 朱鞠内8.2℃ の差",
+      "caption": "南鳥島28.4℃ と 上川7.8℃ の差",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "hot": {
-          "place": "父島",
-          "temp": 27.3
+          "place": "南鳥島",
+          "temp": 28.4
         },
         "cold": {
-          "place": "朱鞠内",
-          "temp": 8.2
+          "place": "上川",
+          "temp": 7.8
         },
-        "caption": "父島27.3℃ と 朱鞠内8.2℃ の差"
+        "caption": "南鳥島28.4℃ と 上川7.8℃ の差"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4103,25 +4104,25 @@
       "name": "東京のあしたの最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 29.0,
-      "value_display": "29℃",
+      "value": 25.0,
+      "value_display": "25℃",
       "observed_at": "2026-09-22T05:00:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -4.0,
+        "display": "-4℃",
+        "direction": "down",
         "prev_value": 29.0,
         "prev_date": "2026-09-21"
       },
       "caption": "あすの東京の最高気温の予想",
-      "highlight": false,
-      "highlight_reason": null,
+      "highlight": true,
+      "highlight_reason": "いつもより大きな変化",
       "detail": {
-        "for_date": "2026-09-22",
+        "for_date": "2026-09-23",
         "caption": "あすの東京の最高気温の予想"
       },
       "source": {
@@ -4134,26 +4135,26 @@
       "name": "東京のあしたの最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 25.0,
-      "value_display": "25℃",
+      "value": 21.0,
+      "value_display": "21℃",
       "observed_at": "2026-09-22T05:00:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -4.0,
+        "display": "-4℃",
+        "direction": "down",
         "prev_value": 25.0,
         "prev_date": "2026-09-21"
       },
-      "caption": "あすは熱帯夜の予想",
-      "highlight": false,
-      "highlight_reason": null,
+      "caption": "あすの東京の最低気温の予想",
+      "highlight": true,
+      "highlight_reason": "いつもより大きな変化",
       "detail": {
-        "for_date": "2026-09-22",
-        "caption": "あすは熱帯夜の予想"
+        "for_date": "2026-09-23",
+        "caption": "あすの東京の最低気温の予想"
       },
       "source": {
         "name": "気象庁 天気予報",
@@ -4196,26 +4197,26 @@
       "name": "東京のあしたの降水確率",
       "category": "自然",
       "unit": "%",
-      "value": 20.0,
-      "value_display": "20%",
+      "value": 30.0,
+      "value_display": "30%",
       "observed_at": "2026-09-22T05:00:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": 10.0,
+        "display": "+10.0pt",
+        "direction": "up",
         "prev_value": 20.0,
         "prev_date": "2026-09-21"
       },
-      "caption": "あすは雨の心配は少ない",
+      "caption": "あすは所により雨",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "for_date": "2026-09-22",
-        "caption": "あすは雨の心配は少ない"
+        "for_date": "2026-09-23",
+        "caption": "あすは所により雨"
       },
       "source": {
         "name": "気象庁 天気予報",
@@ -4258,26 +4259,26 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value": 11.1,
-      "value_display": "11.1m/s",
-      "observed_at": "2026-09-22T02:00:00+09:00",
+      "value": 12.5,
+      "value_display": "12.5m/s",
+      "observed_at": "2026-09-22T06:00:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -10.1,
-        "display": "-10.1m/s",
+        "value": -8.7,
+        "display": "-8.7m/s",
         "direction": "down",
         "prev_value": 21.2,
         "prev_date": "2026-09-21"
       },
-      "caption": "松浜｜全国でいちばん風が強い（10分平均）",
+      "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
-        "place": "松浜",
-        "caption": "松浜｜全国でいちばん風が強い（10分平均）"
+        "place": "えりも岬",
+        "caption": "えりも岬｜全国でいちばん風が強い（10分平均）"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4320,17 +4321,17 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 6.0,
-      "value_display": "6℃",
-      "observed_at": "2026-09-22T02:00:00+09:00",
+      "value": 5.1,
+      "value_display": "5.1℃",
+      "observed_at": "2026-09-22T06:00:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.3,
-        "display": "+0.3℃",
-        "direction": "up",
+        "value": -0.6,
+        "display": "-0.6℃",
+        "direction": "down",
         "prev_value": 5.7,
         "prev_date": "2026-09-21"
       },
@@ -4477,7 +4478,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-09-22T02:09:00+09:00",
+      "observed_at": "2026-09-22T06:12:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
@@ -4489,7 +4490,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-21"
       },
-      "caption": "台風25号「ドゥージェン」が銚子市の東約220km",
+      "caption": "台風25号「ドゥージェン」が日本の東",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
@@ -4498,13 +4499,13 @@
             "number": "2625",
             "name": "ドゥージェン",
             "category": "TY",
-            "pressure": "965",
-            "location": "銚子市の東約220km",
+            "pressure": "970",
+            "location": "日本の東",
             "course": "北東",
             "typhoon_number": "2625"
           }
         ],
-        "caption": "台風25号「ドゥージェン」が銚子市の東約220km"
+        "caption": "台風25号「ドゥージェン」が日本の東"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -4516,26 +4517,26 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 41,
-      "value_display": "41市町村",
-      "observed_at": "2026-09-22T01:15:17+09:00",
+      "value": 4,
+      "value_display": "4市町村",
+      "observed_at": "2026-09-22T06:05:23+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -77,
-        "display": "-77市町村",
+        "value": -114,
+        "display": "-114市町村",
         "direction": "down",
         "prev_value": 118,
         "prev_date": "2026-09-21"
       },
-      "caption": "41市町村に気象警報",
+      "caption": "4市町村に気象警報",
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
         "emergency_count": 0,
-        "caption": "41市町村に気象警報"
+        "caption": "4市町村に気象警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -4547,25 +4548,25 @@
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 9,
-      "value_display": "9市町村",
-      "observed_at": "2026-09-22T01:15:17+09:00",
+      "value": 4,
+      "value_display": "4市町村",
+      "observed_at": "2026-09-22T06:05:23+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -48,
-        "display": "-48市町村",
+        "value": -53,
+        "display": "-53市町村",
         "direction": "down",
         "prev_value": 57,
         "prev_date": "2026-09-21"
       },
-      "caption": "9市町村に大雨警報",
+      "caption": "4市町村に大雨警報",
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
-        "caption": "9市町村に大雨警報"
+        "caption": "4市町村に大雨警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -4579,7 +4580,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-09-22T01:15:17+09:00",
+      "observed_at": "2026-09-22T06:05:23+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
@@ -4607,25 +4608,25 @@
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 19,
-      "value_display": "19市町村",
-      "observed_at": "2026-09-22T01:15:17+09:00",
+      "value": 21,
+      "value_display": "21市町村",
+      "observed_at": "2026-09-22T06:05:23+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -54,
-        "display": "-54市町村",
+        "value": -52,
+        "display": "-52市町村",
         "direction": "down",
         "prev_value": 73,
         "prev_date": "2026-09-21"
       },
-      "caption": "19市町村に土砂災害警戒情報",
+      "caption": "21市町村に土砂災害警戒情報",
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
-        "caption": "19市町村に土砂災害警戒情報"
+        "caption": "21市町村に土砂災害警戒情報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -4639,7 +4640,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-09-22T02:09:57+09:00",
+      "observed_at": "2026-09-22T06:12:48+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
@@ -4712,7 +4713,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-09-22T02:10:55+09:00",
+      "observed_at": "2026-09-22T06:13:46+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
@@ -4742,7 +4743,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-09-22T02:10:55+09:00",
+      "observed_at": "2026-09-22T06:13:46+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
@@ -5238,29 +5239,29 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value": 89.0,
-      "value_display": "89%",
-      "observed_at": "2026-09-22T01:40:00+09:00",
+      "value": 90.0,
+      "value_display": "90%",
+      "observed_at": "2026-09-22T05:40:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 5.0,
-        "display": "+5.0pt",
+        "value": 6.0,
+        "display": "+6.0pt",
         "direction": "up",
         "prev_value": 84.0,
         "prev_date": "2026-09-21"
       },
       "caption": "ピークは13:00〜14:00の見込み",
-      "highlight": false,
-      "highlight_reason": null,
+      "highlight": true,
+      "highlight_reason": "いつもより大きな変化",
       "detail": {
-        "reserve_rate": 12.0,
-        "peak_supply_10MW": 3924.0,
-        "forecast_peak_demand_10MW": 3498.0,
-        "current_demand_10MW": 2251.0,
-        "current_demand_time": "1:00",
+        "reserve_rate": 11.0,
+        "peak_supply_10MW": 3993.0,
+        "forecast_peak_demand_10MW": 3597.0,
+        "current_demand_10MW": 2238.0,
+        "current_demand_time": "5:00",
         "current_usage_rate": 89.0,
         "peak_timeband": "13:00〜14:00",
         "area": "東京",
@@ -5276,27 +5277,27 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value": 4.0,
-      "value_display": "4%",
-      "observed_at": "2026-09-21T14:10:00+09:00",
-      "as_of": "2026-09-21",
-      "stale": true,
+      "value": 1.0,
+      "value_display": "1%",
+      "observed_at": "2026-09-22T05:40:00+09:00",
+      "as_of": "2026-09-22",
+      "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -5.0,
-        "display": "-5.0pt",
+        "value": -3.0,
+        "display": "-3.0pt",
         "direction": "down",
-        "prev_value": 9.0,
-        "prev_date": "2026-09-20"
+        "prev_value": 4.0,
+        "prev_date": "2026-09-21"
       },
-      "caption": "きょうのピークで電力の4%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の1%を太陽光がまかなった",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "peak_output_10MW": 116.0,
+        "peak_output_10MW": 30.0,
         "area": "東京",
-        "caption": "きょうのピークで電力の4%を太陽光がまかなった"
+        "caption": "きょうのピークで電力の1%を太陽光がまかなった"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -5310,7 +5311,7 @@
       "unit": "回",
       "value": 12,
       "value_display": "12回",
-      "observed_at": "2026-09-22T02:10:00+09:00",
+      "observed_at": "2026-09-22T06:13:00+09:00",
       "as_of": "2026-09-22",
       "stale": false,
       "change": {
