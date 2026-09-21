@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-21T14:23:07+09:00",
+  "updated_at": "2026-09-21T20:03:09+09:00",
   "summary": {
     "count": 20,
     "first_date": "2026-09-02",
     "last_date": "2026-09-21",
     "min_30d": 2,
     "max_30d": 12,
-    "avg_30d": 6.55
+    "avg_30d": 6.45
   },
   "history": [
     {
@@ -96,25 +96,25 @@
     },
     {
       "date": "2026-09-21",
-      "value": 8
+      "value": 6
     }
   ],
   "latest_detail": {
-    "caption": "最大は奄美大島近海の震度3",
+    "caption": "最大は根室半島南東沖の震度2",
     "window_hours": 24,
-    "max_magnitude": 5,
+    "max_magnitude": 4.7,
     "strongest": {
-      "time": "2026-09-20T16:28:00+09:00",
-      "scale": 30,
-      "name": "奄美大島近海",
-      "magnitude": 5,
-      "depth": 60
+      "time": "2026-09-21T08:25:00+09:00",
+      "scale": 20,
+      "name": "根室半島南東沖",
+      "magnitude": 4.7,
+      "depth": 50
     },
     "latest": {
-      "time": "2026-09-21T08:49:00+09:00",
-      "scale": 20,
-      "name": "岡山県北部",
-      "magnitude": 3.3,
+      "time": "2026-09-21T19:42:00+09:00",
+      "scale": 10,
+      "name": "熊本県天草・芦北地方",
+      "magnitude": 2.2,
       "depth": 10
     },
     "capped": false

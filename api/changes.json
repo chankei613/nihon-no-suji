@@ -1,62 +1,43 @@
 {
-  "generated_at": "2026-09-21T14:23:07+09:00",
+  "generated_at": "2026-09-21T20:03:09+09:00",
   "date": "2026-09-21",
   "changes": [
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "125市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 77,
-        "display": "+77市町村",
-        "direction": "up",
-        "prev_value": 48,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "125市町村に気象警報",
-      "score": 29.8,
-      "z": 29.8,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "heavy-rain-warned-municipalities",
-      "name": "大雨警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "80市町村",
+      "value_display": "118市町村",
       "change": {
         "type": "absolute",
         "available": true,
         "value": 70,
         "display": "+70市町村",
         "direction": "up",
-        "prev_value": 10,
+        "prev_value": 48,
         "prev_date": "2026-09-20"
       },
-      "caption": "80市町村に大雨警報",
-      "score": 22.33,
-      "z": 22.33,
+      "caption": "118市町村に気象警報",
+      "score": 27.0,
+      "z": 27.0,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "sediment-warning-municipalities",
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
-      "value_display": "63市町村",
+      "value_display": "73市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 63,
-        "display": "+63市町村",
+        "value": 73,
+        "display": "+73市町村",
         "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-09-20"
       },
-      "caption": "63市町村に土砂災害警戒情報",
-      "score": 20.0,
-      "z": 20.0,
+      "caption": "73市町村に土砂災害警戒情報",
+      "score": 23.33,
+      "z": 23.33,
       "label": "かなり珍しい変化"
     },
     {
@@ -76,6 +57,25 @@
       "caption": "三宅島｜台風や発達した低気圧が近い",
       "score": 15.08,
       "z": 15.08,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "57市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 47,
+        "display": "+47市町村",
+        "direction": "up",
+        "prev_value": 10,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "57市町村に大雨警報",
+      "score": 14.67,
+      "z": 14.67,
       "label": "かなり珍しい変化"
     },
     {
@@ -101,19 +101,19 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "600mm",
+      "value_display": "686.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 392.5,
-        "display": "+392.5mm",
+        "value": 479.0,
+        "display": "+479mm",
         "direction": "up",
         "prev_value": 207.5,
         "prev_date": "2026-09-20"
       },
       "caption": "大島｜この24時間でいちばん降った",
-      "score": 4.83,
-      "z": 4.83,
+      "score": 6.19,
+      "z": 6.19,
       "label": "かなり珍しい変化"
     },
     {
@@ -155,6 +155,25 @@
       "label": "かなり珍しい変化"
     },
     {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "84%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -5.0,
+        "display": "-5.0pt",
+        "direction": "down",
+        "prev_value": 89.0,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "ピークは18:00〜19:00の見込み",
+      "score": 3.0,
+      "z": 3.0,
+      "label": "かなり珍しい変化"
+    },
+    {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
@@ -171,6 +190,25 @@
       "caption": "天城山｜バケツをひっくり返したような雨",
       "score": 2.06,
       "z": 2.06,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "value_display": "25℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 4.0,
+        "display": "+4℃",
+        "direction": "up",
+        "prev_value": 21.0,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "あすは熱帯夜の予想",
+      "score": 2.0,
+      "z": 2.0,
       "label": "いつもより大きな変化"
     },
     {
@@ -193,25 +231,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-forecast-min",
-      "name": "東京のあしたの最低気温",
-      "category": "自然",
-      "value_display": "24℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 3.0,
-        "display": "+3℃",
-        "direction": "up",
-        "prev_value": 21.0,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "あすの東京の最低気温の予想",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
@@ -228,25 +247,6 @@
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": 0.57,
       "z": 0.57,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "8回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4,
-        "display": "+4回",
-        "direction": "up",
-        "prev_value": 4,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "最大は奄美大島近海の震度3",
-      "score": 0.5,
-      "z": 0.5,
       "label": "通常の範囲"
     },
     {
@@ -424,19 +424,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "423地点",
+      "value_display": "447地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 57,
-        "display": "+57地点",
+        "value": 81,
+        "display": "+81地点",
         "direction": "up",
         "prev_value": 366,
         "prev_date": "2026-09-20"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.67,
+      "z": -0.29,
       "label": "通常の範囲"
     },
     {
@@ -500,19 +500,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "5.2℃",
+      "value_display": "5.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.2,
-        "display": "-1.2℃",
+        "value": -0.7,
+        "display": "-0.7℃",
         "direction": "down",
         "prev_value": 6.4,
         "prev_date": "2026-09-20"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -0.14,
+      "z": -0.71,
       "label": "通常の範囲"
     },
     {
@@ -586,7 +586,7 @@
         "prev_value": 1,
         "prev_date": "2026-09-20"
       },
-      "caption": "台風25号「ドゥージェン」が八丈島の西約50km",
+      "caption": "台風25号「ドゥージェン」が勝浦市の東南東約100km",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -744,25 +744,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "88%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -1.0,
-        "display": "-1.0pt",
-        "direction": "down",
-        "prev_value": 89.0,
-        "prev_date": "2026-09-20"
-      },
-      "caption": "ピークは18:00〜19:00の見込み",
-      "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
@@ -779,6 +760,25 @@
       "caption": "きょうのピークで電力の4%を太陽光がまかなった",
       "score": 0.0,
       "z": -0.38,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "6回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 2,
+        "display": "+2回",
+        "direction": "up",
+        "prev_value": 4,
+        "prev_date": "2026-09-20"
+      },
+      "caption": "最大は根室半島南東沖の震度2",
+      "score": 0.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
