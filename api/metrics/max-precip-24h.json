@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-09-23T00:09:36+09:00",
+  "updated_at": "2026-09-23T04:04:45+09:00",
   "summary": {
-    "count": 21,
+    "count": 22,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-22",
-    "min_30d": 83.5,
+    "last_date": "2026-09-23",
+    "min_30d": 24.5,
     "max_30d": 686.5,
-    "avg_30d": 289.86,
-    "record_1st": 824.0,
+    "avg_30d": 277.8,
+    "record_1st": 485.0,
     "all_time_record": false
   },
   "history": [
@@ -103,13 +103,17 @@
     {
       "date": "2026-09-22",
       "value": 591.0
+    },
+    {
+      "date": "2026-09-23",
+      "value": 24.5
     }
   ],
   "latest_detail": {
-    "place": "大島",
+    "place": "新島",
     "pref": "東京都",
-    "caption": "大島｜この24時間でいちばん降った",
-    "record_1st": 824.0,
+    "caption": "新島｜この24時間でいちばん降った",
+    "record_1st": 485.0,
     "all_time_record": false
   }
 }

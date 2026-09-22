@@ -8,16 +8,16 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-23T00:09:36+09:00",
+  "updated_at": "2026-09-23T04:04:45+09:00",
   "summary": {
-    "count": 21,
+    "count": 22,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-22",
+    "last_date": "2026-09-23",
     "min_30d": 2.8,
     "max_30d": 12.3,
-    "avg_30d": 6.06,
-    "record_1st": -30.6,
-    "year_extreme": false,
+    "avg_30d": 5.91,
+    "record_1st": -34.4,
+    "year_extreme": true,
     "all_time_record": false
   },
   "history": [
@@ -104,16 +104,18 @@
     {
       "date": "2026-09-22",
       "value": 4.0
+    },
+    {
+      "date": "2026-09-23",
+      "value": 2.9
     }
   ],
   "latest_detail": {
-    "place": "天塩",
-    "pref": "北海道留萌地方",
-    "caption": "天塩｜きょう日本でいちばん寒い",
-    "normal_diff": -5.1,
-    "station_prev_diff": -4.2,
-    "record_1st": -30.6,
-    "year_extreme": false,
+    "place": "沼川",
+    "pref": "北海道宗谷地方",
+    "caption": "沼川｜きょう日本でいちばん寒い",
+    "record_1st": -34.4,
+    "year_extreme": true,
     "all_time_record": false
   }
 }

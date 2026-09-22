@@ -1,62 +1,43 @@
 {
-  "generated_at": "2026-09-23T00:09:36+09:00",
+  "generated_at": "2026-09-23T04:04:45+09:00",
   "date": "2026-09-23",
   "changes": [
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "0市町村",
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "27.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -118,
-        "display": "-118市町村",
+        "value": -7.0,
+        "display": "-7℃",
         "direction": "down",
-        "prev_value": 118,
-        "prev_date": "2026-09-21"
+        "prev_value": 34.4,
+        "prev_date": "2026-09-22"
       },
-      "caption": "いま気象警報は出ていない",
-      "score": 38.33,
-      "z": 38.33,
+      "caption": "北大東｜きょう日本でいちばん暑い",
+      "score": 8.29,
+      "z": 8.29,
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "sediment-warning-municipalities",
-      "name": "土砂災害警戒情報が出ている市町村数",
-      "category": "防災",
-      "value_display": "0市町村",
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "24.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -73,
-        "display": "-73市町村",
+        "value": -566.5,
+        "display": "-566.5mm",
         "direction": "down",
-        "prev_value": 73,
-        "prev_date": "2026-09-21"
+        "prev_value": 591.0,
+        "prev_date": "2026-09-22"
       },
-      "caption": "いま土砂災害警戒情報は出ていない",
-      "score": 23.33,
-      "z": 23.33,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "heavy-rain-warned-municipalities",
-      "name": "大雨警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "0市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -57,
-        "display": "-57市町村",
-        "direction": "down",
-        "prev_value": 57,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "いま大雨警報は出ていない",
-      "score": 10.1,
-      "z": 10.1,
+      "caption": "新島｜この24時間でいちばん降った",
+      "score": 7.56,
+      "z": 7.56,
       "label": "かなり珍しい変化"
     },
     {
@@ -82,19 +63,19 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1,006hPa",
+      "value_display": "1005.4hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 13.1,
-        "display": "+13.1hPa",
+        "value": 12.5,
+        "display": "+12.5hPa",
         "direction": "up",
         "prev_value": 992.9,
         "prev_date": "2026-09-22"
       },
       "caption": "彦根｜全国でいちばん気圧が低い",
-      "score": 5.05,
-      "z": 5.05,
+      "score": 4.76,
+      "z": 4.76,
       "label": "かなり珍しい変化"
     },
     {
@@ -117,23 +98,23 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "31.6℃",
+      "value_display": "24.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 8.0,
-        "display": "+8℃",
+        "value": 4.3,
+        "display": "+4.3℃",
         "direction": "up",
-        "prev_value": 23.6,
-        "prev_date": "2026-09-21"
+        "prev_value": 20.6,
+        "prev_date": "2026-09-22"
       },
-      "caption": "真夏日",
-      "score": 3.21,
-      "z": 3.21,
-      "label": "かなり珍しい変化"
+      "caption": "南鳥島27.7℃ と 沼川2.8℃ の差",
+      "score": 2.41,
+      "z": 2.41,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "dam-storage",
@@ -155,42 +136,42 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "23.7℃",
+      "value_display": "2.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.1,
-        "display": "+3.1℃",
-        "direction": "up",
-        "prev_value": 20.6,
+        "value": -2.7,
+        "display": "-2.7℃",
+        "direction": "down",
+        "prev_value": 5.6,
         "prev_date": "2026-09-22"
       },
-      "caption": "南鳥島27.8℃ と 沼川4.1℃ の差",
-      "score": 1.32,
-      "z": 1.32,
-      "label": "通常の範囲"
+      "caption": "夏でもひんやり",
+      "score": 2.14,
+      "z": 2.14,
+      "label": "いつもより大きな変化"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "4℃",
+      "value_display": "24.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.7,
-        "display": "-3.7℃",
+        "value": -7.0,
+        "display": "-7℃",
         "direction": "down",
-        "prev_value": 7.7,
-        "prev_date": "2026-09-21"
+        "prev_value": 31.6,
+        "prev_date": "2026-09-22"
       },
-      "caption": "天塩｜きょう日本でいちばん寒い",
-      "score": 1.06,
-      "z": 1.06,
-      "label": "通常の範囲"
+      "caption": "きょうの東京の最高気温",
+      "score": 1.89,
+      "z": 1.89,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "active-typhoons",
@@ -207,6 +188,25 @@
         "prev_date": "2026-09-22"
       },
       "caption": "いま発生している台風はない",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "8回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -5,
+        "display": "-5回",
+        "direction": "down",
+        "prev_value": 13,
+        "prev_date": "2026-09-22"
+      },
+      "caption": "最大は茨城県南部の震度3",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -250,60 +250,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "9回",
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "2.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4,
-        "display": "-4回",
+        "value": -1.1,
+        "display": "-1.1℃",
         "direction": "down",
-        "prev_value": 13,
+        "prev_value": 4.0,
         "prev_date": "2026-09-22"
       },
-      "caption": "最大は茨城県南部の震度3",
-      "score": 0.5,
-      "z": 0.5,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "591mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -95.5,
-        "display": "-95.5mm",
-        "direction": "down",
-        "prev_value": 686.5,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "大島｜この24時間でいちばん降った",
-      "score": 0.13,
-      "z": 0.13,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "34.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -0.3,
-        "display": "-0.3℃",
-        "direction": "down",
-        "prev_value": 34.7,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "天竜｜きょう日本でいちばん暑い",
+      "caption": "沼川｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -1.14,
+      "z": -0.31,
       "label": "通常の範囲"
     },
     {
@@ -405,57 +367,57 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "4地点",
+      "value_display": "20地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -22,
-        "display": "-22地点",
+        "value": -6,
+        "display": "-6地点",
         "direction": "down",
         "prev_value": 26,
         "prev_date": "2026-09-22"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.17,
+      "z": -1.42,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "8mm",
+      "value_display": "16mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.5,
-        "display": "+0.5mm",
+        "value": 8.5,
+        "display": "+8.5mm",
         "direction": "up",
         "prev_value": 7.5,
         "prev_date": "2026-09-22"
       },
-      "caption": "網代｜この1時間でいちばん降った",
+      "caption": "新島｜この1時間でいちばん降った",
       "score": 0.0,
-      "z": -1.41,
+      "z": -0.65,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "11.5mm",
+      "value_display": "21.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -10.5,
-        "display": "-10.5mm",
+        "value": -0.5,
+        "display": "-0.5mm",
         "direction": "down",
         "prev_value": 22.0,
         "prev_date": "2026-09-22"
       },
-      "caption": "網代｜この3時間でいちばん激しく降った",
+      "caption": "新島｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -1.44,
+      "z": -1.9,
       "label": "通常の範囲"
     },
     {
@@ -535,25 +497,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "5.3℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -0.3,
-        "display": "-0.3℃",
-        "direction": "down",
-        "prev_value": 5.6,
-        "prev_date": "2026-09-22"
-      },
-      "caption": "夏でもひんやり",
-      "score": 0.0,
-      "z": -1.17,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "gas-regular",
       "name": "レギュラーガソリンの全国平均価格",
       "category": "経済",
@@ -611,6 +554,44 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
+        "prev_value": 0,
+        "prev_date": "2026-09-22"
+      },
+      "caption": "いま気象警報は出ていない",
+      "score": 0.0,
+      "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
+        "prev_value": 0,
+        "prev_date": "2026-09-22"
+      },
+      "caption": "いま大雨警報は出ていない",
+      "score": 0.0,
+      "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "flood-warned-municipalities",
       "name": "洪水警報が出ている市町村数",
       "category": "防災",
@@ -622,11 +603,30 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-09-21"
+        "prev_date": "2026-09-22"
       },
       "caption": "いま洪水警報は出ていない",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "sediment-warning-municipalities",
+      "name": "土砂災害警戒情報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
+        "prev_value": 0,
+        "prev_date": "2026-09-22"
+      },
+      "caption": "いま土砂災害警戒情報は出ていない",
+      "score": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -804,19 +804,19 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "86%",
+      "value_display": "85%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.0,
-        "display": "+2.0pt",
-        "direction": "up",
-        "prev_value": 84.0,
-        "prev_date": "2026-09-21"
+        "value": -1.0,
+        "display": "-1.0pt",
+        "direction": "down",
+        "prev_value": 86.0,
+        "prev_date": "2026-09-22"
       },
-      "caption": "ピークは12:00〜13:00の見込み",
+      "caption": "ピークは16:00〜17:00の見込み",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
