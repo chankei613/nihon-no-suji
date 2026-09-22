@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-22T14:20:20+09:00",
+  "updated_at": "2026-09-22T19:16:44+09:00",
   "summary": {
     "count": 21,
     "first_date": "2026-09-02",
     "last_date": "2026-09-22",
     "min_30d": 2,
-    "max_30d": 12,
-    "avg_30d": 6.67
+    "max_30d": 13,
+    "avg_30d": 6.76
   },
   "history": [
     {
@@ -100,7 +100,7 @@
     },
     {
       "date": "2026-09-22",
-      "value": 11
+      "value": 13
     }
   ],
   "latest_detail": {
@@ -115,10 +115,10 @@
       "depth": 30
     },
     "latest": {
-      "time": "2026-09-22T08:27:00+09:00",
+      "time": "2026-09-22T18:49:00+09:00",
       "scale": 10,
-      "name": "熊本県熊本地方",
-      "magnitude": 3,
+      "name": "奄美大島近海",
+      "magnitude": 3.4,
       "depth": 10
     },
     "capped": false

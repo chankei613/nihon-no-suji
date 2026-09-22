@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-22T14:20:20+09:00",
+  "generated_at": "2026-09-22T19:16:44+09:00",
   "date": "2026-09-22",
   "changes": [
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "3市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -115,
-        "display": "-115市町村",
+        "value": -118,
+        "display": "-118市町村",
         "direction": "down",
         "prev_value": 118,
         "prev_date": "2026-09-21"
       },
-      "caption": "3市町村に気象警報",
-      "score": 37.33,
-      "z": 37.33,
+      "caption": "いま気象警報は出ていない",
+      "score": 38.33,
+      "z": 38.33,
       "label": "かなり珍しい変化"
     },
     {
@@ -44,19 +44,19 @@
       "slug": "heavy-rain-warned-municipalities",
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
-      "value_display": "3市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -54,
-        "display": "-54市町村",
+        "value": -57,
+        "display": "-57市町村",
         "direction": "down",
         "prev_value": 57,
         "prev_date": "2026-09-21"
       },
-      "caption": "3市町村に大雨警報",
-      "score": 9.5,
-      "z": 9.5,
+      "caption": "いま大雨警報は出ていない",
+      "score": 10.1,
+      "z": 10.1,
       "label": "かなり珍しい変化"
     },
     {
@@ -139,19 +139,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "25地点",
+      "value_display": "26地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -422,
-        "display": "-422地点",
+        "value": -421,
+        "display": "-421地点",
         "direction": "down",
         "prev_value": 447,
         "prev_date": "2026-09-21"
       },
       "caption": "きょう雨が降った地点",
-      "score": 5.03,
-      "z": 5.03,
+      "score": 5.02,
+      "z": 5.02,
       "label": "かなり珍しい変化"
     },
     {
@@ -212,6 +212,25 @@
       "label": "かなり珍しい変化"
     },
     {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "13回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 7,
+        "display": "+7回",
+        "direction": "up",
+        "prev_value": 6,
+        "prev_date": "2026-09-21"
+      },
+      "caption": "最大は日向灘の震度3",
+      "score": 3.0,
+      "z": 3.0,
+      "label": "かなり珍しい変化"
+    },
+    {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
@@ -250,25 +269,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "tokyo-forecast-min",
-      "name": "東京のあしたの最低気温",
-      "category": "自然",
-      "value_display": "21℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.0,
-        "display": "-4℃",
-        "direction": "down",
-        "prev_value": 25.0,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "あすの東京の最低気温の予想",
-      "score": 2.0,
-      "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
@@ -288,23 +288,23 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "11回",
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "value_display": "22℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5,
-        "display": "+5回",
-        "direction": "up",
-        "prev_value": 6,
+        "value": -3.0,
+        "display": "-3℃",
+        "direction": "down",
+        "prev_value": 25.0,
         "prev_date": "2026-09-21"
       },
-      "caption": "最大は日向灘の震度3",
-      "score": 1.67,
-      "z": 1.67,
-      "label": "いつもより大きな変化"
+      "caption": "あすの東京の最低気温の予想",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
     },
     {
       "slug": "tokyo-sunshine-hours",
@@ -519,19 +519,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "6.5℃",
+      "value_display": "5.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.8,
-        "display": "+0.8℃",
-        "direction": "up",
+        "value": -0.1,
+        "display": "-0.1℃",
+        "direction": "down",
         "prev_value": 5.7,
         "prev_date": "2026-09-21"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -0.33,
+      "z": -1.5,
       "label": "通常の範囲"
     },
     {
