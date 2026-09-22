@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-22T19:16:44+09:00",
+  "updated_at": "2026-09-23T00:09:36+09:00",
   "summary": {
     "count": 21,
     "first_date": "2026-09-02",
     "last_date": "2026-09-22",
     "min_30d": 2.8,
     "max_30d": 12.3,
-    "avg_30d": 6.2,
-    "record_1st": -31.9,
+    "avg_30d": 6.06,
+    "record_1st": -30.6,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -103,14 +103,16 @@
     },
     {
       "date": "2026-09-22",
-      "value": 7.1
+      "value": 4.0
     }
   ],
   "latest_detail": {
-    "place": "喜茂別",
-    "pref": "北海道後志地方",
-    "caption": "喜茂別｜きょう日本でいちばん寒い",
-    "record_1st": -31.9,
+    "place": "天塩",
+    "pref": "北海道留萌地方",
+    "caption": "天塩｜きょう日本でいちばん寒い",
+    "normal_diff": -5.1,
+    "station_prev_diff": -4.2,
+    "record_1st": -30.6,
     "year_extreme": false,
     "all_time_record": false
   }
