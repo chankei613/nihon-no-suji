@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T09:16:23+09:00",
+  "generated_at": "2026-09-22T14:20:20+09:00",
   "date": "2026-09-22",
   "changes": [
     {
@@ -25,19 +25,19 @@
       "slug": "sediment-warning-municipalities",
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
-      "value_display": "15市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -58,
-        "display": "-58市町村",
+        "value": -73,
+        "display": "-73市町村",
         "direction": "down",
         "prev_value": 73,
         "prev_date": "2026-09-21"
       },
-      "caption": "15市町村に土砂災害警戒情報",
-      "score": 18.33,
-      "z": 18.33,
+      "caption": "いま土砂災害警戒情報は出ていない",
+      "score": 23.33,
+      "z": 23.33,
       "label": "かなり珍しい変化"
     },
     {
@@ -76,25 +76,6 @@
       "caption": "大島｜全国でいちばん気圧が低い",
       "score": 8.94,
       "z": 8.94,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "28.8℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -5.9,
-        "display": "-5.9℃",
-        "direction": "down",
-        "prev_value": 34.7,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "練馬｜きょう日本でいちばん暑い",
-      "score": 6.64,
-      "z": 6.64,
       "label": "かなり珍しい変化"
     },
     {
@@ -177,19 +158,57 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "36%",
+      "value_display": "40%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 32.0,
-        "display": "+32.0pt",
+        "value": 36.0,
+        "display": "+36.0pt",
         "direction": "up",
         "prev_value": 4.0,
         "prev_date": "2026-09-21"
       },
-      "caption": "きょうのピークで電力の36%を太陽光がまかなった",
-      "score": 3.43,
-      "z": 3.43,
+      "caption": "きょうのピークで電力の40%を太陽光がまかなった",
+      "score": 4.0,
+      "z": 4.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "value_display": "107地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 70,
+        "display": "+70地点",
+        "direction": "up",
+        "prev_value": 37,
+        "prev_date": "2026-09-21"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "score": 3.33,
+      "z": 3.33,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "31.6℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 8.0,
+        "display": "+8℃",
+        "direction": "up",
+        "prev_value": 23.6,
+        "prev_date": "2026-09-21"
+      },
+      "caption": "真夏日",
+      "score": 3.21,
+      "z": 3.21,
       "label": "かなり珍しい変化"
     },
     {
@@ -250,20 +269,20 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "89%",
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "23%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 5.0,
-        "display": "+5.0pt",
-        "direction": "up",
-        "prev_value": 84.0,
+        "value": -17.0,
+        "display": "-17.0pt",
+        "direction": "down",
+        "prev_value": 40.0,
         "prev_date": "2026-09-21"
       },
-      "caption": "ピークは13:00〜14:00の見込み",
+      "caption": "さいたま｜全国でいちばん空気が乾いている",
       "score": 1.67,
       "z": 1.67,
       "label": "いつもより大きな変化"
@@ -288,79 +307,22 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "27.6℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4.0,
-        "display": "+4℃",
-        "direction": "up",
-        "prev_value": 23.6,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 1.11,
-      "z": 1.11,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-sunshine-hours",
       "name": "東京の日照時間",
       "category": "自然",
-      "value_display": "1時間00分",
+      "value_display": "1時間30分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 60,
-        "display": "+60分",
+        "value": 90,
+        "display": "+90分",
         "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-09-21"
       },
       "caption": "きょうの東京の日照時間（ここまでの積算）",
-      "score": 0.82,
-      "z": 0.82,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "29%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -11.0,
-        "display": "-11.0pt",
-        "direction": "down",
-        "prev_value": 40.0,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "さいたま｜全国でいちばん空気が乾いている",
-      "score": 0.8,
-      "z": 0.8,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "hot-points-30",
-      "name": "30℃以上になった地点数",
-      "category": "自然",
-      "value_display": "2地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -35,
-        "display": "-35地点",
-        "direction": "down",
-        "prev_value": 37,
-        "prev_date": "2026-09-21"
-      },
-      "caption": "きょう30℃以上になった地点",
-      "score": 0.45,
-      "z": 0.45,
+      "score": 0.88,
+      "z": 0.88,
       "label": "通常の範囲"
     },
     {
@@ -418,6 +380,25 @@
       "caption": "南鳥島28.4℃ と 上川7.8℃ の差",
       "score": 0.1,
       "z": 0.1,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "34.4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -0.3,
+        "display": "-0.3℃",
+        "direction": "down",
+        "prev_value": 34.7,
+        "prev_date": "2026-09-21"
+      },
+      "caption": "天竜｜きょう日本でいちばん暑い",
+      "score": 0.0,
+      "z": -1.14,
       "label": "通常の範囲"
     },
     {
@@ -538,19 +519,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "5.7℃",
+      "value_display": "6.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 0.8,
+        "display": "+0.8℃",
+        "direction": "up",
         "prev_value": 5.7,
         "prev_date": "2026-09-21"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.67,
+      "z": -0.33,
       "label": "通常の範囲"
     },
     {
@@ -815,6 +796,25 @@
         "prev_date": "2026-09-21"
       },
       "caption": "基準水位(B.S.L.)より30cm低い",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "86%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 2.0,
+        "display": "+2.0pt",
+        "direction": "up",
+        "prev_value": 84.0,
+        "prev_date": "2026-09-21"
+      },
+      "caption": "ピークは12:00〜13:00の見込み",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
