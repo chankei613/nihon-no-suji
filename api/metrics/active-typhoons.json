@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-09-23T21:58:53+09:00",
+  "updated_at": "2026-09-24T02:57:41+09:00",
   "summary": {
-    "count": 21,
+    "count": 22,
     "first_date": "2026-09-03",
-    "last_date": "2026-09-23",
+    "last_date": "2026-09-24",
     "min_30d": 0,
     "max_30d": 2,
-    "avg_30d": 0.52
+    "avg_30d": 0.55
   },
   "history": [
     {
@@ -101,10 +101,24 @@
     {
       "date": "2026-09-23",
       "value": 0
+    },
+    {
+      "date": "2026-09-24",
+      "value": 1
     }
   ],
   "latest_detail": {
-    "typhoons": [],
-    "caption": "いま発生している台風はない"
+    "typhoons": [
+      {
+        "number": "2626",
+        "name": "スリゲ",
+        "category": "TS",
+        "pressure": "1004",
+        "location": "フィリピンの東",
+        "course": "北西",
+        "typhoon_number": "2626"
+      }
+    ],
+    "caption": "台風26号「スリゲ」がフィリピンの東"
   }
 }
