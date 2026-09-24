@@ -8,14 +8,14 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-24T06:44:07+09:00",
+  "updated_at": "2026-09-24T09:50:53+09:00",
   "summary": {
     "count": 23,
     "first_date": "2026-09-02",
     "last_date": "2026-09-24",
     "min_30d": 1.8,
     "max_30d": 12.3,
-    "avg_30d": 5.78,
+    "avg_30d": 5.77,
     "record_1st": -28.6,
     "year_extreme": false,
     "all_time_record": false
@@ -111,13 +111,15 @@
     },
     {
       "date": "2026-09-24",
-      "value": 4.0
+      "value": 3.7
     }
   ],
   "latest_detail": {
     "place": "上川",
     "pref": "北海道上川地方",
     "caption": "上川｜きょう日本でいちばん寒い",
+    "normal_diff": -2.8,
+    "station_prev_diff": -0.7,
     "record_1st": -28.6,
     "year_extreme": false,
     "all_time_record": false
