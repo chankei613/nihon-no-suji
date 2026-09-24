@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:41:44+09:00",
+  "generated_at": "2026-09-24T21:52:54+09:00",
   "date": "2026-09-24",
   "changes": [
     {
@@ -60,25 +60,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "4.3℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2.6,
-        "display": "+2.6℃",
-        "direction": "up",
-        "prev_value": 1.7,
-        "prev_date": "2026-09-23"
-      },
-      "caption": "夏でもひんやり",
-      "score": 1.33,
-      "z": 1.33,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
@@ -93,6 +74,25 @@
         "prev_date": "2026-09-23"
       },
       "caption": "あすの東京の最高気温の予想",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "value_display": "20%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -30.0,
+        "display": "-30.0pt",
+        "direction": "down",
+        "prev_value": 50.0,
+        "prev_date": "2026-09-23"
+      },
+      "caption": "あすは雨の心配は少ない",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -155,22 +155,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "22.6℃",
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "7回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.3,
-        "display": "-2.3℃",
-        "direction": "down",
-        "prev_value": 24.9,
+        "value": 4,
+        "display": "+4回",
+        "direction": "up",
+        "prev_value": 3,
         "prev_date": "2026-09-23"
       },
-      "caption": "北大東27.6℃ と 占冠5℃ の差",
-      "score": 0.55,
-      "z": 0.55,
+      "caption": "最大は宮城県沖の震度2",
+      "score": 0.5,
+      "z": 0.5,
       "label": "通常の範囲"
     },
     {
@@ -402,6 +402,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "25.3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.4,
+        "display": "+0.4℃",
+        "direction": "up",
+        "prev_value": 24.9,
+        "prev_date": "2026-09-23"
+      },
+      "caption": "南鳥島28.5℃ と 沼川3.2℃ の差",
+      "score": 0.0,
+      "z": -1.09,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
@@ -437,25 +456,6 @@
       "caption": "9月28日ごろがいちばん暑くなりそう",
       "score": 0.0,
       "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
-      "category": "自然",
-      "value_display": "30%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -20.0,
-        "display": "-20.0pt",
-        "direction": "down",
-        "prev_value": 50.0,
-        "prev_date": "2026-09-23"
-      },
-      "caption": "あすは所により雨",
-      "score": 0.0,
-      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -513,6 +513,25 @@
       "caption": "加計｜全国でいちばん空気が乾いている",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "2.2℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.5,
+        "display": "+0.5℃",
+        "direction": "up",
+        "prev_value": 1.7,
+        "prev_date": "2026-09-23"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.0,
+      "z": -0.83,
       "label": "通常の範囲"
     },
     {
@@ -798,25 +817,6 @@
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": 0.0,
       "z": -0.67,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "5回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2,
-        "display": "+2回",
-        "direction": "up",
-        "prev_value": 3,
-        "prev_date": "2026-09-23"
-      },
-      "caption": "最大は岩手県沖の震度2",
-      "score": 0.0,
-      "z": -0.33,
       "label": "通常の範囲"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:41:44+09:00",
+  "generated_at": "2026-09-24T21:52:54+09:00",
   "date": "2026-09-24",
   "metrics": [
     {
@@ -4010,7 +4010,7 @@
       "unit": "",
       "value": 96,
       "value_display": "1時間36分",
-      "observed_at": "2026-09-24T15:30:00+09:00",
+      "observed_at": "2026-09-24T21:40:00+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
@@ -4027,7 +4027,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 96.0,
-        "last_observed_at": "2026-09-24T15:30:00+09:00",
+        "last_observed_at": "2026-09-24T21:40:00+09:00",
         "caption": "きょうの東京の日照時間（ここまでの積算）"
       },
       "source": {
@@ -4227,33 +4227,33 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value": 22.6,
-      "value_display": "22.6℃",
-      "observed_at": "2026-09-24T02:40:00+09:00",
+      "value": 25.3,
+      "value_display": "25.3℃",
+      "observed_at": "2026-09-24T21:40:00+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.3,
-        "display": "-2.3℃",
-        "direction": "down",
+        "value": 0.4,
+        "display": "+0.4℃",
+        "direction": "up",
         "prev_value": 24.9,
         "prev_date": "2026-09-23"
       },
-      "caption": "北大東27.6℃ と 占冠5℃ の差",
+      "caption": "南鳥島28.5℃ と 沼川3.2℃ の差",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "hot": {
-          "place": "北大東",
-          "temp": 27.6
+          "place": "南鳥島",
+          "temp": 28.5
         },
         "cold": {
-          "place": "占冠",
-          "temp": 5.0
+          "place": "沼川",
+          "temp": 3.2
         },
-        "caption": "北大東27.6℃ と 占冠5℃ の差"
+        "caption": "南鳥島28.5℃ と 沼川3.2℃ の差"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4358,26 +4358,26 @@
       "name": "東京のあしたの降水確率",
       "category": "自然",
       "unit": "%",
-      "value": 30.0,
-      "value_display": "30%",
+      "value": 20.0,
+      "value_display": "20%",
       "observed_at": "2026-09-24T05:00:00+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -20.0,
-        "display": "-20.0pt",
+        "value": -30.0,
+        "display": "-30.0pt",
         "direction": "down",
         "prev_value": 50.0,
         "prev_date": "2026-09-23"
       },
-      "caption": "あすは所により雨",
+      "caption": "あすは雨の心配は少ない",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "for_date": "2026-09-25",
-        "caption": "あすは所により雨"
+        "caption": "あすは雨の心配は少ない"
       },
       "source": {
         "name": "気象庁 天気予報",
@@ -4482,16 +4482,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 4.3,
-      "value_display": "4.3℃",
-      "observed_at": "2026-09-24T15:30:00+09:00",
+      "value": 2.2,
+      "value_display": "2.2℃",
+      "observed_at": "2026-09-24T21:40:00+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.6,
-        "display": "+2.6℃",
+        "value": 0.5,
+        "display": "+0.5℃",
         "direction": "up",
         "prev_value": 1.7,
         "prev_date": "2026-09-23"
@@ -4639,7 +4639,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-09-24T15:40:00+09:00",
+      "observed_at": "2026-09-24T21:51:00+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
@@ -4660,9 +4660,9 @@
             "number": "2626",
             "name": "スリゲ",
             "category": "TS",
-            "pressure": "1000",
+            "pressure": "1002",
             "location": "フィリピンの東",
-            "course": "西北西",
+            "course": "北西",
             "typhoon_number": "2626"
           }
         ],
@@ -4680,7 +4680,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-09-24T15:29:19+09:00",
+      "observed_at": "2026-09-24T21:42:55+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
@@ -4711,7 +4711,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-09-24T15:29:19+09:00",
+      "observed_at": "2026-09-24T21:42:55+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
@@ -4741,7 +4741,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-09-24T15:29:19+09:00",
+      "observed_at": "2026-09-24T21:42:55+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
@@ -4771,7 +4771,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-09-24T15:29:19+09:00",
+      "observed_at": "2026-09-24T21:42:55+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
@@ -4801,7 +4801,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-09-24T15:40:36+09:00",
+      "observed_at": "2026-09-24T21:51:42+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
@@ -4874,7 +4874,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-09-24T15:41:30+09:00",
+      "observed_at": "2026-09-24T21:52:41+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
@@ -4904,7 +4904,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-09-24T15:41:30+09:00",
+      "observed_at": "2026-09-24T21:52:41+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
@@ -5299,7 +5299,7 @@
         "dam_count": 17,
         "region_means": {
           "近畿": 85.8,
-          "関東": 92.4
+          "関東": 92.2
         },
         "dams": [
           {
@@ -5324,7 +5324,7 @@
           },
           {
             "name": "多摩川水系 小河内ダム",
-            "rate": 86.0,
+            "rate": 88.0,
             "region": "関東"
           },
           {
@@ -5333,12 +5333,17 @@
             "region": "関東"
           },
           {
-            "name": "相模川水系3ダム",
-            "rate": 94.0,
+            "name": "荒川水系4ダム",
+            "rate": 92.0,
             "region": "関東"
           },
           {
-            "name": "荒川水系4ダム",
+            "name": "利根川水系上流9ダム",
+            "rate": 95.0,
+            "region": "関東"
+          },
+          {
+            "name": "相模川水系3ダム",
             "rate": 95.0,
             "region": "関東"
           },
@@ -5351,11 +5356,6 @@
             "name": "室生ダム",
             "rate": 95.6,
             "region": "近畿"
-          },
-          {
-            "name": "利根川水系上流9ダム",
-            "rate": 96.0,
-            "region": "関東"
           },
           {
             "name": "布目ダム",
@@ -5402,7 +5402,7 @@
       "unit": "%",
       "value": 85.0,
       "value_display": "85%",
-      "observed_at": "2026-09-24T15:10:00+09:00",
+      "observed_at": "2026-09-24T21:40:00+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
@@ -5421,8 +5421,8 @@
         "reserve_rate": 17.0,
         "peak_supply_10MW": 4555.0,
         "forecast_peak_demand_10MW": 3903.0,
-        "current_demand_10MW": 3864.0,
-        "current_demand_time": "14:00",
+        "current_demand_10MW": 3244.0,
+        "current_demand_time": "20:00",
         "current_usage_rate": 80.0,
         "peak_timeband": "15:00〜16:00",
         "area": "東京",
@@ -5470,40 +5470,40 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 5,
-      "value_display": "5回",
-      "observed_at": "2026-09-24T15:41:00+09:00",
+      "value": 7,
+      "value_display": "7回",
+      "observed_at": "2026-09-24T21:52:00+09:00",
       "as_of": "2026-09-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
+        "value": 4,
+        "display": "+4回",
         "direction": "up",
         "prev_value": 3,
         "prev_date": "2026-09-23"
       },
-      "caption": "最大は岩手県沖の震度2",
+      "caption": "最大は宮城県沖の震度2",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "最大は岩手県沖の震度2",
+        "caption": "最大は宮城県沖の震度2",
         "window_hours": 24,
-        "max_magnitude": 3.8,
+        "max_magnitude": 4.1,
         "strongest": {
-          "time": "2026-09-24T06:35:00+09:00",
+          "time": "2026-09-24T21:30:00+09:00",
           "scale": 20,
-          "name": "岩手県沖",
-          "magnitude": 3.8,
+          "name": "宮城県沖",
+          "magnitude": 4.1,
           "depth": 50
         },
         "latest": {
-          "time": "2026-09-24T12:39:00+09:00",
-          "scale": 10,
-          "name": "岐阜県美濃東部",
-          "magnitude": 3,
-          "depth": 10
+          "time": "2026-09-24T21:30:00+09:00",
+          "scale": 20,
+          "name": "宮城県沖",
+          "magnitude": 4.1,
+          "depth": 50
         },
         "capped": false
       },

@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-24T15:41:44+09:00",
+  "updated_at": "2026-09-24T21:52:54+09:00",
   "summary": {
     "count": 23,
     "first_date": "2026-09-02",
     "last_date": "2026-09-24",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.52
+    "avg_30d": 6.61
   },
   "history": [
     {
@@ -108,26 +108,26 @@
     },
     {
       "date": "2026-09-24",
-      "value": 5
+      "value": 7
     }
   ],
   "latest_detail": {
-    "caption": "最大は岩手県沖の震度2",
+    "caption": "最大は宮城県沖の震度2",
     "window_hours": 24,
-    "max_magnitude": 3.8,
+    "max_magnitude": 4.1,
     "strongest": {
-      "time": "2026-09-24T06:35:00+09:00",
+      "time": "2026-09-24T21:30:00+09:00",
       "scale": 20,
-      "name": "岩手県沖",
-      "magnitude": 3.8,
+      "name": "宮城県沖",
+      "magnitude": 4.1,
       "depth": 50
     },
     "latest": {
-      "time": "2026-09-24T12:39:00+09:00",
-      "scale": 10,
-      "name": "岐阜県美濃東部",
-      "magnitude": 3,
-      "depth": 10
+      "time": "2026-09-24T21:30:00+09:00",
+      "scale": 20,
+      "name": "宮城県沖",
+      "magnitude": 4.1,
+      "depth": 50
     },
     "capped": false
   }
