@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-25T15:33:58+09:00",
+  "generated_at": "2026-09-25T21:09:28+09:00",
   "date": "2026-09-25",
   "changes": [
     {
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "70%",
+      "value_display": "80%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 50.0,
-        "display": "+50.0pt",
+        "value": 60.0,
+        "display": "+60.0pt",
         "direction": "up",
         "prev_value": 20.0,
         "prev_date": "2026-09-24"
       },
       "caption": "あすは雨の可能性が高い",
-      "score": 5.0,
-      "z": 5.0,
+      "score": 7.0,
+      "z": 7.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -79,6 +79,25 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-0.3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.5,
+        "display": "-2.5℃",
+        "direction": "down",
+        "prev_value": 2.2,
+        "prev_date": "2026-09-24"
+      },
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 1.86,
+      "z": 1.86,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
@@ -114,25 +133,6 @@
       "caption": "きょう0℃を下回った地点",
       "score": 1.0,
       "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "0.8℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1.4,
-        "display": "-1.4℃",
-        "direction": "down",
-        "prev_value": 2.2,
-        "prev_date": "2026-09-24"
-      },
-      "caption": "夏でもひんやり",
-      "score": 0.29,
-      "z": 0.29,
       "label": "通常の範囲"
     },
     {
@@ -215,19 +215,19 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "113.5mm",
+      "value_display": "115mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 61.5,
-        "display": "+61.5mm",
+        "value": 63.0,
+        "display": "+63mm",
         "direction": "up",
         "prev_value": 52.0,
         "prev_date": "2026-09-24"
       },
       "caption": "三宅島｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -0.39,
+      "z": -0.36,
       "label": "通常の範囲"
     },
     {
@@ -329,57 +329,57 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "14地点",
+      "value_display": "20地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -78,
-        "display": "-78地点",
+        "value": -72,
+        "display": "-72地点",
         "direction": "down",
         "prev_value": 92,
         "prev_date": "2026-09-24"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.17,
+      "z": -0.28,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "10mm",
+      "value_display": "20.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.0,
-        "display": "-5mm",
-        "direction": "down",
+        "value": 5.5,
+        "display": "+5.5mm",
+        "direction": "up",
         "prev_value": 15.0,
         "prev_date": "2026-09-24"
       },
-      "caption": "酒田｜この1時間でいちばん降った",
+      "caption": "中津川｜激しい雨",
       "score": 0.0,
-      "z": -0.8,
+      "z": -0.73,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "11mm",
+      "value_display": "31.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -13.5,
-        "display": "-13.5mm",
-        "direction": "down",
+        "value": 7.0,
+        "display": "+7mm",
+        "direction": "up",
         "prev_value": 24.5,
         "prev_date": "2026-09-24"
       },
-      "caption": "鼠ケ関｜この3時間でいちばん激しく降った",
+      "caption": "恵那｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.92,
+      "z": -1.09,
       "label": "通常の範囲"
     },
     {
