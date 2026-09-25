@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-25T06:45:20+09:00",
+  "updated_at": "2026-09-25T09:45:27+09:00",
   "summary": {
     "count": 24,
     "first_date": "2026-09-02",
     "last_date": "2026-09-25",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.58
+    "avg_30d": 6.67
   },
   "history": [
     {
@@ -112,7 +112,7 @@
     },
     {
       "date": "2026-09-25",
-      "value": 6
+      "value": 8
     }
   ],
   "latest_detail": {
@@ -127,10 +127,10 @@
       "depth": 50
     },
     "latest": {
-      "time": "2026-09-24T22:46:00+09:00",
-      "scale": 10,
-      "name": "熊本県熊本地方",
-      "magnitude": 2.7,
+      "time": "2026-09-25T08:53:00+09:00",
+      "scale": 20,
+      "name": "熊本県天草・芦北地方",
+      "magnitude": 2.8,
       "depth": 10
     },
     "capped": false
