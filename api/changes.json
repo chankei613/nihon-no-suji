@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T02:30:46+09:00",
+  "generated_at": "2026-09-26T05:43:14+09:00",
   "date": "2026-09-26",
   "changes": [
     {
@@ -60,6 +60,44 @@
       "label": "かなり珍しい変化"
     },
     {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "value_display": "20%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -60.0,
+        "display": "-60.0pt",
+        "direction": "down",
+        "prev_value": 80.0,
+        "prev_date": "2026-09-25"
+      },
+      "caption": "あすは雨の心配は少ない",
+      "score": 3.0,
+      "z": 3.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "value_display": "26℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 5.0,
+        "display": "+5℃",
+        "direction": "up",
+        "prev_value": 21.0,
+        "prev_date": "2026-09-25"
+      },
+      "caption": "あすの東京の最高気温の予想",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
@@ -76,6 +114,25 @@
       "caption": "北大東｜全国でいちばん風が強い（10分平均）",
       "score": 1.38,
       "z": 1.38,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "199地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 179,
+        "display": "+179地点",
+        "direction": "up",
+        "prev_value": 20,
+        "prev_date": "2026-09-25"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 1.31,
+      "z": 1.31,
       "label": "通常の範囲"
     },
     {
@@ -136,22 +193,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "1.7℃",
+      "value_display": "71mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.1,
-        "display": "+2.1℃",
+        "value": 39.5,
+        "display": "+39.5mm",
+        "direction": "up",
+        "prev_value": 31.5,
+        "prev_date": "2026-09-25"
+      },
+      "caption": "真岡｜この3時間でいちばん激しく降った",
+      "score": 0.04,
+      "z": 0.04,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "0.5℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.9,
+        "display": "+0.9℃",
         "direction": "up",
         "prev_value": -0.4,
         "prev_date": "2026-09-25"
       },
-      "caption": "ぬかびら源泉郷｜きょう日本でいちばん寒い",
+      "caption": "陸別｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.71,
       "label": "通常の範囲"
     },
     {
@@ -250,117 +326,60 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "104地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 84,
-        "display": "+84地点",
-        "direction": "up",
-        "prev_value": 20,
-        "prev_date": "2026-09-25"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "16.5mm",
+      "value_display": "27.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.0,
-        "display": "-4mm",
-        "direction": "down",
+        "value": 7.0,
+        "display": "+7mm",
+        "direction": "up",
         "prev_value": 20.5,
         "prev_date": "2026-09-25"
       },
-      "caption": "水戸｜この1時間でいちばん降った",
+      "caption": "柿岡｜激しい雨",
       "score": 0.0,
-      "z": -0.85,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
-      "category": "自然",
-      "value_display": "44.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 13.0,
-        "display": "+13mm",
-        "direction": "up",
-        "prev_value": 31.5,
-        "prev_date": "2026-09-25"
-      },
-      "caption": "足尾｜この3時間でいちばん激しく降った",
-      "score": 0.0,
-      "z": -0.76,
+      "z": -0.38,
       "label": "通常の範囲"
     },
     {
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "27.7℃",
+      "value_display": "27.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.5,
-        "display": "+0.5℃",
+        "value": 0.7,
+        "display": "+0.7℃",
         "direction": "up",
         "prev_value": 27.2,
         "prev_date": "2026-09-25"
       },
-      "caption": "北大東28.5℃ と 陸別0.8℃ の差",
+      "caption": "南鳥島28.3℃ と ぬかびら源泉郷0.4℃ の差",
       "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-max",
-      "name": "東京のあしたの最高気温",
-      "category": "自然",
-      "value_display": "21℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 21.0,
-        "prev_date": "2026-09-25"
-      },
-      "caption": "あすの東京の最高気温の予想",
-      "score": 0.0,
-      "z": -2.0,
+      "z": -0.9,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "19℃",
+      "value_display": "18℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
         "prev_value": 19.0,
         "prev_date": "2026-09-25"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
-      "z": -2.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -383,53 +402,34 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
-      "category": "自然",
-      "value_display": "80%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
-        "prev_value": 80.0,
-        "prev_date": "2026-09-25"
-      },
-      "caption": "あすは雨の可能性が高い",
-      "score": 0.0,
-      "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1002.3hPa",
+      "value_display": "1001.7hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.5,
-        "display": "-0.5hPa",
+        "value": -1.1,
+        "display": "-1.1hPa",
         "direction": "down",
         "prev_value": 1002.8,
         "prev_date": "2026-09-25"
       },
-      "caption": "彦根｜全国でいちばん気圧が低い",
+      "caption": "日田｜全国でいちばん気圧が低い",
       "score": 0.0,
-      "z": -0.83,
+      "z": -0.3,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-1.6℃",
+      "value_display": "-1.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.3,
-        "display": "-1.3℃",
+        "value": -1.0,
+        "display": "-1℃",
         "direction": "down",
         "prev_value": -0.3,
         "prev_date": "2026-09-25"
@@ -804,19 +804,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "4回",
+      "value_display": "5回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3回",
+        "value": -2,
+        "display": "-2回",
         "direction": "down",
         "prev_value": 7,
         "prev_date": "2026-09-25"
       },
       "caption": "最大は熊本県天草・芦北地方の震度2",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.33,
       "label": "通常の範囲"
     },
     {
