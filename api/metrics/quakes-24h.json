@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-27T03:42:20+09:00",
+  "updated_at": "2026-09-27T07:10:47+09:00",
   "summary": {
     "count": 26,
     "first_date": "2026-09-02",
     "last_date": "2026-09-27",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.96
+    "avg_30d": 6.92
   },
   "history": [
     {
@@ -120,13 +120,13 @@
     },
     {
       "date": "2026-09-27",
-      "value": 12
+      "value": 11
     }
   ],
   "latest_detail": {
     "caption": "最大は熊本県熊本地方の震度4",
     "window_hours": 24,
-    "max_magnitude": 7,
+    "max_magnitude": 4.5,
     "strongest": {
       "time": "2026-09-26T10:31:00+09:00",
       "scale": 40,

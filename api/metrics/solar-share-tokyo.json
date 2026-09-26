@@ -8,14 +8,14 @@
     "name": "東京電力パワーグリッド でんき予報",
     "url": "https://www.tepco.co.jp/forecast/html/images/juyo-s1-j.csv"
   },
-  "updated_at": "2026-09-27T03:42:20+09:00",
+  "updated_at": "2026-09-27T07:10:47+09:00",
   "summary": {
-    "count": 24,
+    "count": 25,
     "first_date": "2026-09-03",
-    "last_date": "2026-09-26",
-    "min_30d": 4.0,
+    "last_date": "2026-09-27",
+    "min_30d": 3.0,
     "max_30d": 40.0,
-    "avg_30d": 18.58
+    "avg_30d": 17.96
   },
   "history": [
     {
@@ -113,11 +113,15 @@
     {
       "date": "2026-09-26",
       "value": 7.0
+    },
+    {
+      "date": "2026-09-27",
+      "value": 3.0
     }
   ],
   "latest_detail": {
-    "peak_output_10MW": 195.0,
+    "peak_output_10MW": 61.0,
     "area": "東京",
-    "caption": "きょうのピークで電力の7%を太陽光がまかなった"
+    "caption": "きょうのピークで電力の3%を太陽光がまかなった"
   }
 }
