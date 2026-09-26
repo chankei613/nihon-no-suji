@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-26T14:23:17+09:00",
+  "generated_at": "2026-09-26T19:10:38+09:00",
   "date": "2026-09-26",
   "changes": [
     {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "420地点",
+      "value_display": "503地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 400,
-        "display": "+400地点",
+        "value": 483,
+        "display": "+483地点",
         "direction": "up",
         "prev_value": 20,
         "prev_date": "2026-09-25"
       },
       "caption": "きょう雨が降った地点",
-      "score": 4.71,
-      "z": 4.71,
+      "score": 5.98,
+      "z": 5.98,
       "label": "かなり珍しい変化"
     },
     {
@@ -79,41 +79,41 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "tokyo-forecast-max",
-      "name": "東京のあしたの最高気温",
-      "category": "自然",
-      "value_display": "26℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 5.0,
-        "display": "+5℃",
-        "direction": "up",
-        "prev_value": 21.0,
-        "prev_date": "2026-09-25"
-      },
-      "caption": "あすの東京の最高気温の予想",
-      "score": 2.0,
-      "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "2.9℃",
+      "value_display": "2.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.2,
-        "display": "+3.2℃",
+        "value": 3.0,
+        "display": "+3℃",
         "direction": "up",
         "prev_value": -0.3,
         "prev_date": "2026-09-25"
       },
       "caption": "夏でもひんやり",
-      "score": 2.0,
-      "z": 2.0,
+      "score": 1.78,
+      "z": 1.78,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "87%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -6.0,
+        "display": "-6.0pt",
+        "direction": "down",
+        "prev_value": 93.0,
+        "prev_date": "2026-09-25"
+      },
+      "caption": "ピークは18:00〜19:00の見込み",
+      "score": 1.67,
+      "z": 1.67,
       "label": "いつもより大きな変化"
     },
     {
@@ -136,6 +136,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "value_display": "999.9hPa",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.9,
+        "display": "-2.9hPa",
+        "direction": "down",
+        "prev_value": 1002.8,
+        "prev_date": "2026-09-25"
+      },
+      "caption": "日田｜全国でいちばん気圧が低い",
+      "score": 0.64,
+      "z": 0.64,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
@@ -152,44 +171,6 @@
       "caption": "きょうの東京の最高気温",
       "score": 0.6,
       "z": 0.6,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
-      "category": "自然",
-      "value_display": "1000.4hPa",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.4,
-        "display": "-2.4hPa",
-        "direction": "down",
-        "prev_value": 1002.8,
-        "prev_date": "2026-09-25"
-      },
-      "caption": "日田｜全国でいちばん気圧が低い",
-      "score": 0.33,
-      "z": 0.33,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "89%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -4.0,
-        "display": "-4.0pt",
-        "direction": "down",
-        "prev_value": 93.0,
-        "prev_date": "2026-09-25"
-      },
-      "caption": "ピークは18:00〜19:00の見込み",
-      "score": 0.33,
-      "z": 0.33,
       "label": "通常の範囲"
     },
     {
@@ -215,19 +196,19 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "32.6℃",
+      "value_display": "32.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.8,
-        "display": "-0.8℃",
+        "value": -0.5,
+        "display": "-0.5℃",
         "direction": "down",
         "prev_value": 33.4,
         "prev_date": "2026-09-25"
       },
-      "caption": "水俣｜きょう日本でいちばん暑い",
+      "caption": "宮崎｜きょう日本でいちばん暑い",
       "score": 0.0,
-      "z": -0.43,
+      "z": -0.86,
       "label": "通常の範囲"
     },
     {
@@ -402,6 +383,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "value_display": "24℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.0,
+        "display": "+3℃",
+        "direction": "up",
+        "prev_value": 21.0,
+        "prev_date": "2026-09-25"
+      },
+      "caption": "あすの東京の最高気温の予想",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
@@ -538,38 +538,38 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "1市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1市町村",
-        "direction": "up",
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
         "prev_value": 0,
         "prev_date": "2026-09-25"
       },
-      "caption": "1市町村に気象警報",
+      "caption": "いま気象警報は出ていない",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "heavy-rain-warned-municipalities",
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
-      "value_display": "1市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1市町村",
-        "direction": "up",
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
         "prev_value": 0,
         "prev_date": "2026-09-25"
       },
-      "caption": "1市町村に大雨警報",
+      "caption": "いま大雨警報は出ていない",
       "score": 0.0,
-      "z": -0.5,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
