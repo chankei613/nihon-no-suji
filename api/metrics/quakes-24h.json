@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-26T05:43:14+09:00",
+  "updated_at": "2026-09-26T09:08:10+09:00",
   "summary": {
     "count": 25,
     "first_date": "2026-09-02",
     "last_date": "2026-09-26",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.56
+    "avg_30d": 6.48
   },
   "history": [
     {
@@ -116,18 +116,18 @@
     },
     {
       "date": "2026-09-26",
-      "value": 5
+      "value": 3
     }
   ],
   "latest_detail": {
-    "caption": "最大は熊本県天草・芦北地方の震度2",
+    "caption": "最大は沖縄本島近海の震度1",
     "window_hours": 24,
-    "max_magnitude": 3.8,
+    "max_magnitude": 7,
     "strongest": {
-      "time": "2026-09-25T08:53:00+09:00",
-      "scale": 20,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 2.8,
+      "time": "2026-09-26T04:14:00+09:00",
+      "scale": 10,
+      "name": "沖縄本島近海",
+      "magnitude": 3.8,
       "depth": 10
     },
     "latest": {
