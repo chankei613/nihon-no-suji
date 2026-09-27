@@ -8,14 +8,14 @@
     "name": "国土交通省 近畿・関東地方整備局",
     "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
   },
-  "updated_at": "2026-09-28T02:57:03+09:00",
+  "updated_at": "2026-09-28T06:33:44+09:00",
   "summary": {
-    "count": 27,
+    "count": 28,
     "first_date": "2026-09-01",
-    "last_date": "2026-09-27",
+    "last_date": "2026-09-28",
     "min_30d": 77.6,
     "max_30d": 88.5,
-    "avg_30d": 84.11
+    "avg_30d": 84.25
   },
   "history": [
     {
@@ -125,33 +125,32 @@
     {
       "date": "2026-09-27",
       "value": 88.0
+    },
+    {
+      "date": "2026-09-28",
+      "value": 87.8
     }
   ],
   "latest_detail": {
     "dam_count": 17,
     "region_means": {
-      "近畿": 86.4,
+      "近畿": 86.1,
       "関東": 91.8
     },
     "dams": [
       {
         "name": "九頭竜ダム",
-        "rate": 38.1,
-        "region": "近畿"
-      },
-      {
-        "name": "猿谷ダム",
-        "rate": 64.5,
+        "rate": 38.6,
         "region": "近畿"
       },
       {
         "name": "天ヶ瀬ダム",
-        "rate": 75.2,
+        "rate": 66.3,
         "region": "近畿"
       },
       {
-        "name": "真名川ダム",
-        "rate": 87.2,
+        "name": "猿谷ダム",
+        "rate": 66.3,
         "region": "近畿"
       },
       {
@@ -175,13 +174,18 @@
         "region": "関東"
       },
       {
+        "name": "真名川ダム",
+        "rate": 91.1,
+        "region": "近畿"
+      },
+      {
         "name": "利根川水系上流9ダム",
         "rate": 94.0,
         "region": "関東"
       },
       {
         "name": "布目ダム",
-        "rate": 94.8,
+        "rate": 94.9,
         "region": "近畿"
       },
       {
@@ -190,18 +194,18 @@
         "region": "関東"
       },
       {
-        "name": "大滝ダム",
-        "rate": 95.3,
+        "name": "室生ダム",
+        "rate": 95.1,
         "region": "近畿"
       },
       {
-        "name": "室生ダム",
-        "rate": 96.4,
+        "name": "大滝ダム",
+        "rate": 95.5,
         "region": "近畿"
       },
       {
         "name": "比奈知ダム",
-        "rate": 97.2,
+        "rate": 97.4,
         "region": "近畿"
       },
       {
