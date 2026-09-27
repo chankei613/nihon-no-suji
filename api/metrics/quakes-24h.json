@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-27T22:16:10+09:00",
+  "updated_at": "2026-09-28T02:57:03+09:00",
   "summary": {
-    "count": 26,
+    "count": 27,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-27",
+    "last_date": "2026-09-28",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.69
+    "avg_30d": 6.59
   },
   "history": [
     {
@@ -121,6 +121,10 @@
     {
       "date": "2026-09-27",
       "value": 5
+    },
+    {
+      "date": "2026-09-28",
+      "value": 4
     }
   ],
   "latest_detail": {
@@ -135,10 +139,10 @@
       "depth": 50
     },
     "latest": {
-      "time": "2026-09-27T17:37:00+09:00",
+      "time": "2026-09-28T01:59:00+09:00",
       "scale": 10,
-      "name": "沖縄本島近海",
-      "magnitude": 3.5,
+      "name": "千葉県北東部",
+      "magnitude": 2.7,
       "depth": 40
     },
     "capped": false
