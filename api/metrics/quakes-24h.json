@@ -8,7 +8,7 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-28T14:47:25+09:00",
+  "updated_at": "2026-09-28T23:24:26+09:00",
   "summary": {
     "count": 27,
     "first_date": "2026-09-02",
@@ -128,22 +128,22 @@
     }
   ],
   "latest_detail": {
-    "caption": "最大は浦河沖の震度1",
+    "caption": "最大は宮城県沖の震度1",
     "window_hours": 24,
     "max_magnitude": 3.5,
     "strongest": {
-      "time": "2026-09-27T16:25:00+09:00",
+      "time": "2026-09-28T21:04:00+09:00",
       "scale": 10,
-      "name": "浦河沖",
+      "name": "宮城県沖",
       "magnitude": 3.5,
-      "depth": 60
+      "depth": 50
     },
     "latest": {
-      "time": "2026-09-28T11:05:00+09:00",
+      "time": "2026-09-28T21:04:00+09:00",
       "scale": 10,
-      "name": "岩手県沖",
-      "magnitude": 3.3,
-      "depth": 40
+      "name": "宮城県沖",
+      "magnitude": 3.5,
+      "depth": 50
     },
     "capped": false
   }
