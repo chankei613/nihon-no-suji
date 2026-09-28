@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-28T08:56:58+09:00",
+  "updated_at": "2026-09-28T14:47:25+09:00",
   "summary": {
     "count": 27,
     "first_date": "2026-09-02",
     "last_date": "2026-09-28",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.63
+    "avg_30d": 6.67
   },
   "history": [
     {
@@ -124,26 +124,26 @@
     },
     {
       "date": "2026-09-28",
-      "value": 5
+      "value": 6
     }
   ],
   "latest_detail": {
-    "caption": "最大は千葉県北東部の震度1",
+    "caption": "最大は浦河沖の震度1",
     "window_hours": 24,
-    "max_magnitude": 3.8,
+    "max_magnitude": 3.5,
     "strongest": {
-      "time": "2026-09-27T09:45:00+09:00",
+      "time": "2026-09-27T16:25:00+09:00",
       "scale": 10,
-      "name": "千葉県北東部",
-      "magnitude": 3.8,
-      "depth": 50
+      "name": "浦河沖",
+      "magnitude": 3.5,
+      "depth": 60
     },
     "latest": {
-      "time": "2026-09-28T06:29:00+09:00",
+      "time": "2026-09-28T11:05:00+09:00",
       "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 2.8,
-      "depth": 10
+      "name": "岩手県沖",
+      "magnitude": 3.3,
+      "depth": 40
     },
     "capped": false
   }
