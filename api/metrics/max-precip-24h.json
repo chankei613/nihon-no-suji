@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-09-29T23:18:12+09:00",
+  "updated_at": "2026-09-30T04:36:43+09:00",
   "summary": {
-    "count": 28,
+    "count": 29,
     "first_date": "2026-09-02",
-    "last_date": "2026-09-29",
+    "last_date": "2026-09-30",
     "min_30d": 52.0,
     "max_30d": 686.5,
-    "avg_30d": 254.46,
-    "record_1st": 309.5,
+    "avg_30d": 248.84,
+    "record_1st": 537.0,
     "all_time_record": false
   },
   "history": [
@@ -131,13 +131,17 @@
     {
       "date": "2026-09-29",
       "value": 157.0
+    },
+    {
+      "date": "2026-09-30",
+      "value": 91.5
     }
   ],
   "latest_detail": {
-    "place": "呉",
-    "pref": "広島県",
-    "caption": "呉｜この24時間でいちばん降った",
-    "record_1st": 309.5,
+    "place": "井川",
+    "pref": "静岡県",
+    "caption": "井川｜この24時間でいちばん降った",
+    "record_1st": 537.0,
     "all_time_record": false
   }
 }
