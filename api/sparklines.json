@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-29T10:13:49+09:00",
+  "generated_at": "2026-09-29T16:28:22+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "30.6℃",
+      "value_display": "33.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.2,
-        "display": "-4.2℃",
+        "value": -1.6,
+        "display": "-1.6℃",
         "direction": "down",
         "prev_value": 34.8,
         "prev_date": "2026-09-28"
@@ -127,7 +127,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": 30.6
+          "value": 33.2
         }
       ]
     },
@@ -266,12 +266,12 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "21.3℃",
+      "value_display": "21.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.7,
-        "display": "-3.7℃",
+        "value": -3.2,
+        "display": "-3.2℃",
         "direction": "down",
         "prev_value": 25.0,
         "prev_date": "2026-09-28"
@@ -383,7 +383,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": 21.3
+          "value": 21.8
         }
       ]
     },
@@ -648,12 +648,12 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "14地点",
+      "value_display": "24地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -16,
-        "display": "-16地点",
+        "value": -6,
+        "display": "-6地点",
         "direction": "down",
         "prev_value": 30,
         "prev_date": "2026-09-28"
@@ -765,7 +765,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": 14
+          "value": 24
         }
       ]
     },
@@ -1122,12 +1122,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "397地点",
+      "value_display": "496地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -171,
-        "display": "-171地点",
+        "value": -72,
+        "display": "-72地点",
         "direction": "down",
         "prev_value": 568,
         "prev_date": "2026-09-28"
@@ -1239,7 +1239,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": 397
+          "value": 496
         }
       ]
     },
@@ -1374,12 +1374,12 @@
       "name": "全国最大3時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "24.5mm",
+      "value_display": "48mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -58.0,
-        "display": "-58mm",
+        "value": -34.5,
+        "display": "-34.5mm",
         "direction": "down",
         "prev_value": 82.5,
         "prev_date": "2026-09-28"
@@ -1491,7 +1491,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": 24.5
+          "value": 48.0
         }
       ]
     },
@@ -1500,12 +1500,12 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value_display": "19.5℃",
+      "value_display": "20.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.7,
-        "display": "+0.7℃",
+        "value": 1.3,
+        "display": "+1.3℃",
         "direction": "up",
         "prev_value": 18.8,
         "prev_date": "2026-09-28"
@@ -1617,7 +1617,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": 19.5
+          "value": 20.1
         }
       ]
     },
@@ -1862,13 +1862,13 @@
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "26℃",
+      "value_display": "27℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 26.0,
         "prev_date": "2026-09-28"
       },
@@ -1939,7 +1939,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": 26.0
+          "value": 27.0
         }
       ]
     },
@@ -2314,13 +2314,13 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "45%",
+      "value_display": "41%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": -4.0,
+        "display": "-4.0pt",
+        "direction": "down",
         "prev_value": 45.0,
         "prev_date": "2026-09-28"
       },
@@ -2431,7 +2431,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": 45.0
+          "value": 41.0
         }
       ]
     },
@@ -2440,12 +2440,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "4.7℃",
+      "value_display": "4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.4,
-        "display": "+1.4℃",
+        "value": 0.7,
+        "display": "+0.7℃",
         "direction": "up",
         "prev_value": 3.3,
         "prev_date": "2026-09-28"
@@ -2557,7 +2557,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": 4.7
+          "value": 4.0
         }
       ]
     },
@@ -5432,13 +5432,13 @@
       "name": "東京都の転入超過数",
       "category": "社会",
       "unit": "人",
-      "value_display": "-801人",
+      "value_display": "1,044人",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0人",
-        "direction": "flat",
+        "value": 1845,
+        "display": "+1845人",
+        "direction": "up",
         "prev_value": -801,
         "prev_date": "2026-09-28"
       },
@@ -5493,7 +5493,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": -801
+          "value": 1044
         }
       ]
     },
@@ -6026,13 +6026,13 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "8回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
-        "direction": "up",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 6,
         "prev_date": "2026-09-28"
       },
@@ -6147,7 +6147,7 @@
         },
         {
           "date": "2026-09-29",
-          "value": 8
+          "value": 6
         }
       ]
     },

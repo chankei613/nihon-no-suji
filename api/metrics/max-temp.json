@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-29T10:13:49+09:00",
+  "updated_at": "2026-09-29T16:28:22+09:00",
   "summary": {
     "count": 28,
     "first_date": "2026-09-02",
     "last_date": "2026-09-29",
-    "min_30d": 30.6,
+    "min_30d": 32.0,
     "max_30d": 37.9,
-    "avg_30d": 33.76,
-    "record_1st": 35.7,
+    "avg_30d": 33.86,
+    "record_1st": 35.1,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -131,14 +131,16 @@
     },
     {
       "date": "2026-09-29",
-      "value": 30.6
+      "value": 33.2
     }
   ],
   "latest_detail": {
-    "place": "波照間",
+    "place": "盛山",
     "pref": "沖縄県",
-    "caption": "波照間｜きょう日本でいちばん暑い",
-    "record_1st": 35.7,
+    "caption": "盛山｜きょう日本でいちばん暑い",
+    "normal_diff": 3.2,
+    "station_prev_diff": 0.6,
+    "record_1st": 35.1,
     "year_extreme": false,
     "all_time_record": false
   }

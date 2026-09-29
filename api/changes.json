@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-09-29T10:13:49+09:00",
+  "generated_at": "2026-09-29T16:28:22+09:00",
   "date": "2026-09-29",
   "changes": [
+    {
+      "slug": "tokyo-net-migration",
+      "name": "東京都の転入超過数",
+      "category": "社会",
+      "value_display": "1,044人",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1845,
+        "display": "+1845人",
+        "direction": "up",
+        "prev_value": -801,
+        "prev_date": "2026-09-28"
+      },
+      "caption": "総務省統計局 住民基本台帳人口移動報告（東京都・他都道府県との転入超過数）",
+      "score": 1845.0,
+      "z": 1845.0,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
@@ -41,25 +60,6 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "30.6℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.2,
-        "display": "-4.2℃",
-        "direction": "down",
-        "prev_value": 34.8,
-        "prev_date": "2026-09-28"
-      },
-      "caption": "波照間｜きょう日本でいちばん暑い",
-      "score": 3.75,
-      "z": 3.75,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
@@ -79,60 +79,41 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "24.5mm",
+      "value_display": "33.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -58.0,
-        "display": "-58mm",
+        "value": -1.6,
+        "display": "-1.6℃",
         "direction": "down",
-        "prev_value": 82.5,
+        "prev_value": 34.8,
         "prev_date": "2026-09-28"
       },
-      "caption": "津南｜この3時間でいちばん激しく降った",
-      "score": 0.95,
-      "z": 0.95,
+      "caption": "盛山｜きょう日本でいちばん暑い",
+      "score": 0.57,
+      "z": 0.57,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "21.3℃",
+      "value_display": "21.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.7,
-        "display": "-3.7℃",
+        "value": -3.2,
+        "display": "-3.2℃",
         "direction": "down",
         "prev_value": 25.0,
         "prev_date": "2026-09-28"
       },
       "caption": "きょうの東京の最高気温",
-      "score": 0.54,
-      "z": 0.54,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "397地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -171,
-        "display": "-171地点",
-        "direction": "down",
-        "prev_value": 568,
-        "prev_date": "2026-09-28"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.4,
-      "z": 0.4,
+      "score": 0.35,
+      "z": 0.35,
       "label": "通常の範囲"
     },
     {
@@ -196,19 +177,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "14地点",
+      "value_display": "24地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -16,
-        "display": "-16地点",
+        "value": -6,
+        "display": "-6地点",
         "direction": "down",
         "prev_value": 30,
         "prev_date": "2026-09-28"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -0.95,
+      "z": -1.62,
       "label": "通常の範囲"
     },
     {
@@ -288,22 +269,60 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "19.5℃",
+      "value_display": "496地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.7,
-        "display": "+0.7℃",
+        "value": -72,
+        "display": "-72地点",
+        "direction": "down",
+        "prev_value": 568,
+        "prev_date": "2026-09-28"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.0,
+      "z": -0.42,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "value_display": "48mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -34.5,
+        "display": "-34.5mm",
+        "direction": "down",
+        "prev_value": 82.5,
+        "prev_date": "2026-09-28"
+      },
+      "caption": "三宅坪田｜この3時間でいちばん激しく降った",
+      "score": 0.0,
+      "z": -0.1,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "20.1℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.3,
+        "display": "+1.3℃",
         "direction": "up",
         "prev_value": 18.8,
         "prev_date": "2026-09-28"
       },
-      "caption": "波照間31.2℃ と 酸ケ湯11.7℃ の差",
+      "caption": "大原31.4℃ と 酸ケ湯11.3℃ の差",
       "score": 0.0,
-      "z": -0.86,
+      "z": -0.32,
       "label": "通常の範囲"
     },
     {
@@ -348,19 +367,19 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "26℃",
+      "value_display": "27℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 26.0,
         "prev_date": "2026-09-28"
       },
-      "caption": "10月2日ごろがいちばん暑くなりそう",
+      "caption": "10月1日ごろがいちばん暑くなりそう",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -424,38 +443,38 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "45%",
+      "value_display": "41%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": -4.0,
+        "display": "-4.0pt",
+        "direction": "down",
         "prev_value": 45.0,
         "prev_date": "2026-09-28"
       },
-      "caption": "更別｜全国でいちばん空気が乾いている",
+      "caption": "岩手松尾｜全国でいちばん空気が乾いている",
       "score": 0.0,
-      "z": -1.4,
+      "z": -0.6,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "4.7℃",
+      "value_display": "4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.4,
-        "display": "+1.4℃",
+        "value": 0.7,
+        "display": "+0.7℃",
         "direction": "up",
         "prev_value": 3.3,
         "prev_date": "2026-09-28"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.71,
       "label": "通常の範囲"
     },
     {
@@ -744,25 +763,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-net-migration",
-      "name": "東京都の転入超過数",
-      "category": "社会",
-      "value_display": "-801人",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0人",
-        "direction": "flat",
-        "prev_value": -801,
-        "prev_date": "2026-09-28"
-      },
-      "caption": "総務省統計局 住民基本台帳人口移動報告（東京都・他都道府県との転入超過数）",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
@@ -776,7 +776,7 @@
         "prev_value": 89.0,
         "prev_date": "2026-09-28"
       },
-      "caption": "ピークは10:00〜11:00の見込み",
+      "caption": "ピークは11:00〜12:00の見込み",
       "score": 0.0,
       "z": -2.0,
       "label": "通常の範囲"
@@ -804,19 +804,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "8回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
-        "direction": "up",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 6,
         "prev_date": "2026-09-28"
       },
       "caption": "最大は茨城県南部の震度4",
       "score": 0.0,
-      "z": -0.5,
+      "z": -1.5,
       "label": "通常の範囲"
     },
     {
