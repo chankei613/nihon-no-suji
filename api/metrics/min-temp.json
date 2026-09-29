@@ -8,16 +8,16 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-29T16:28:22+09:00",
+  "updated_at": "2026-09-29T23:18:12+09:00",
   "summary": {
     "count": 28,
     "first_date": "2026-09-02",
     "last_date": "2026-09-29",
     "min_30d": -0.4,
     "max_30d": 12.3,
-    "avg_30d": 5.59,
-    "record_1st": -31.8,
-    "year_extreme": false,
+    "avg_30d": 5.42,
+    "record_1st": -27.6,
+    "year_extreme": true,
     "all_time_record": false
   },
   "history": [
@@ -131,17 +131,17 @@
     },
     {
       "date": "2026-09-29",
-      "value": 10.0
+      "value": 5.1
     }
   ],
   "latest_detail": {
-    "place": "糠内",
-    "pref": "北海道十勝地方",
-    "caption": "糠内｜きょう日本でいちばん寒い",
-    "normal_diff": 3.3,
-    "station_prev_diff": -2.3,
-    "record_1st": -31.8,
-    "year_extreme": false,
+    "place": "薮川",
+    "pref": "岩手県",
+    "caption": "薮川｜きょう日本でいちばん寒い",
+    "normal_diff": -1.1,
+    "station_prev_diff": -8.2,
+    "record_1st": -27.6,
+    "year_extreme": true,
     "all_time_record": false
   }
 }
