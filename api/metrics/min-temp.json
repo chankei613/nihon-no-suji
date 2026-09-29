@@ -8,14 +8,14 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-09-30T04:36:43+09:00",
+  "updated_at": "2026-09-30T08:56:48+09:00",
   "summary": {
     "count": 29,
     "first_date": "2026-09-02",
     "last_date": "2026-09-30",
     "min_30d": -0.4,
     "max_30d": 12.3,
-    "avg_30d": 5.34,
+    "avg_30d": 5.3,
     "record_1st": -27.6,
     "year_extreme": true,
     "all_time_record": false
@@ -135,13 +135,15 @@
     },
     {
       "date": "2026-09-30",
-      "value": 3.3
+      "value": 2.1
     }
   ],
   "latest_detail": {
     "place": "薮川",
     "pref": "岩手県",
     "caption": "薮川｜きょう日本でいちばん寒い",
+    "normal_diff": -3.9,
+    "station_prev_diff": -2.1,
     "record_1st": -27.6,
     "year_extreme": true,
     "all_time_record": false

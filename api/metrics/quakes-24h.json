@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-30T04:36:43+09:00",
+  "updated_at": "2026-09-30T08:56:48+09:00",
   "summary": {
     "count": 29,
     "first_date": "2026-09-02",
     "last_date": "2026-09-30",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.69
+    "avg_30d": 6.55
   },
   "history": [
     {
@@ -132,19 +132,19 @@
     },
     {
       "date": "2026-09-30",
-      "value": 7
+      "value": 3
     }
   ],
   "latest_detail": {
-    "caption": "最大は茨城県南部の震度4",
+    "caption": "最大は山口県北部の震度1",
     "window_hours": 24,
-    "max_magnitude": 4.9,
+    "max_magnitude": 3.2,
     "strongest": {
-      "time": "2026-09-29T04:45:00+09:00",
-      "scale": 40,
-      "name": "茨城県南部",
-      "magnitude": 4.9,
-      "depth": 50
+      "time": "2026-09-29T18:12:00+09:00",
+      "scale": 10,
+      "name": "山口県北部",
+      "magnitude": 3.2,
+      "depth": 10
     },
     "latest": {
       "time": "2026-09-29T22:48:00+09:00",
