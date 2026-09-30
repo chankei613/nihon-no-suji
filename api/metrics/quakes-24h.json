@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-09-30T08:56:48+09:00",
+  "updated_at": "2026-09-30T14:54:46+09:00",
   "summary": {
     "count": 29,
     "first_date": "2026-09-02",
     "last_date": "2026-09-30",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.55
+    "avg_30d": 6.59
   },
   "history": [
     {
@@ -132,26 +132,26 @@
     },
     {
       "date": "2026-09-30",
-      "value": 3
+      "value": 4
     }
   ],
   "latest_detail": {
-    "caption": "最大は山口県北部の震度1",
+    "caption": "最大は与那国島近海の震度3",
     "window_hours": 24,
-    "max_magnitude": 3.2,
+    "max_magnitude": 6,
     "strongest": {
-      "time": "2026-09-29T18:12:00+09:00",
-      "scale": 10,
-      "name": "山口県北部",
-      "magnitude": 3.2,
+      "time": "2026-09-30T14:00:00+09:00",
+      "scale": 30,
+      "name": "与那国島近海",
+      "magnitude": 6,
       "depth": 10
     },
     "latest": {
-      "time": "2026-09-29T22:48:00+09:00",
-      "scale": 10,
-      "name": "千葉県北東部",
-      "magnitude": 3,
-      "depth": 50
+      "time": "2026-09-30T14:00:00+09:00",
+      "scale": 30,
+      "name": "",
+      "magnitude": -1,
+      "depth": -1
     },
     "capped": false
   }
