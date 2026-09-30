@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-01T03:33:41+09:00",
+  "updated_at": "2026-10-01T07:34:29+09:00",
   "summary": {
     "count": 30,
     "first_date": "2026-09-02",
     "last_date": "2026-10-01",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.57
+    "avg_30d": 6.6
   },
   "history": [
     {
@@ -136,7 +136,7 @@
     },
     {
       "date": "2026-10-01",
-      "value": 5
+      "value": 6
     }
   ],
   "latest_detail": {
@@ -151,11 +151,11 @@
       "depth": 10
     },
     "latest": {
-      "time": "2026-10-01T00:58:00+09:00",
-      "scale": 10,
-      "name": "福島県会津",
-      "magnitude": 2.9,
-      "depth": 0
+      "time": "2026-10-01T06:17:00+09:00",
+      "scale": 20,
+      "name": "千葉県北東部",
+      "magnitude": 3.5,
+      "depth": 50
     },
     "capped": false
   }
