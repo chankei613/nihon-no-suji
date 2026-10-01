@@ -1,81 +1,100 @@
 {
-  "generated_at": "2026-10-02T00:38:14+09:00",
+  "generated_at": "2026-10-02T06:16:42+09:00",
   "date": "2026-10-02",
   "changes": [
     {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "82.9%",
+      "value_display": "78.4%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -6.7,
-        "display": "-6.7pt",
+        "value": -4.5,
+        "display": "-4.5pt",
         "direction": "down",
-        "prev_value": 89.6,
-        "prev_date": "2026-09-30"
+        "prev_value": 82.9,
+        "prev_date": "2026-10-01"
       },
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
-      "score": 20.67,
-      "z": 20.67,
+      "score": 13.33,
+      "z": 13.33,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "0.9℃",
+      "value_display": "-0.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.9,
-        "display": "-4.9℃",
+        "value": -6.1,
+        "display": "-6.1℃",
         "direction": "down",
         "prev_value": 5.8,
         "prev_date": "2026-10-01"
       },
-      "caption": "夏でもひんやり",
-      "score": 4.5,
-      "z": 4.5,
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 6.0,
+      "z": 6.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "28.4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4.7,
+        "display": "-4.7℃",
+        "direction": "down",
+        "prev_value": 33.1,
+        "prev_date": "2026-10-01"
+      },
+      "caption": "那覇｜きょう日本でいちばん暑い",
+      "score": 5.14,
+      "z": 5.14,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "14回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 9,
+        "display": "+9回",
+        "direction": "up",
+        "prev_value": 5,
+        "prev_date": "2026-10-01"
+      },
+      "caption": "最大は千葉県北東部の震度3",
+      "score": 4.33,
+      "z": 4.33,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "30℃",
+      "value_display": "23.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 9.2,
-        "display": "+9.2℃",
-        "direction": "up",
-        "prev_value": 20.8,
-        "prev_date": "2026-09-30"
-      },
-      "caption": "真夏日",
-      "score": 3.59,
-      "z": 3.59,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "46%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 21.0,
-        "display": "+21.0pt",
-        "direction": "up",
-        "prev_value": 25.0,
+        "value": -6.9,
+        "display": "-6.9℃",
+        "direction": "down",
+        "prev_value": 30.0,
         "prev_date": "2026-10-01"
       },
-      "caption": "能代｜全国でいちばん空気が乾いている",
-      "score": 2.8,
-      "z": 2.8,
+      "caption": "きょうの東京の最高気温",
+      "score": 1.61,
+      "z": 1.61,
       "label": "いつもより大きな変化"
     },
     {
@@ -98,39 +117,58 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "biwako-level",
-      "name": "琵琶湖の水位",
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "-16cm",
+      "value_display": "38%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 13.0,
+        "display": "+13.0pt",
+        "direction": "up",
+        "prev_value": 25.0,
+        "prev_date": "2026-10-01"
+      },
+      "caption": "日高門別｜全国でいちばん空気が乾いている",
+      "score": 1.2,
+      "z": 1.2,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.0,
-        "display": "+2cm",
+        "value": 1,
+        "display": "+1地点",
         "direction": "up",
-        "prev_value": -18.0,
-        "prev_date": "2026-09-30"
+        "prev_value": 0,
+        "prev_date": "2026-10-01"
       },
-      "caption": "基準水位(B.S.L.)より16cm低い",
+      "caption": "きょう0℃を下回った地点",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
       "category": "防災",
-      "value_display": "9回",
+      "value_display": "1個",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4,
-        "display": "+4回",
-        "direction": "up",
-        "prev_value": 5,
+        "value": -1,
+        "display": "-1個",
+        "direction": "down",
+        "prev_value": 2,
         "prev_date": "2026-10-01"
       },
-      "caption": "最大は千葉県北東部の震度3",
+      "caption": "台風27号「チョーイワン」がマリアナ諸島",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -155,41 +193,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "4.7℃",
+      "value_display": "25.6℃",
       "change": {
         "type": "absolute",
         "available": true,
         "value": 2.6,
         "display": "+2.6℃",
         "direction": "up",
-        "prev_value": 2.1,
-        "prev_date": "2026-09-30"
+        "prev_value": 23.0,
+        "prev_date": "2026-10-01"
       },
-      "caption": "大滝｜きょう日本でいちばん寒い",
-      "score": 0.25,
-      "z": 0.25,
+      "caption": "南鳥島29.2℃ と 占冠3.6℃ の差",
+      "score": 0.31,
+      "z": 0.31,
       "label": "通常の範囲"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
+      "slug": "min-temp",
+      "name": "全国最低気温",
       "category": "自然",
-      "value_display": "33.1℃",
+      "value_display": "2.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.6,
-        "display": "+0.6℃",
-        "direction": "up",
-        "prev_value": 32.5,
-        "prev_date": "2026-09-30"
+        "value": -1.9,
+        "display": "-1.9℃",
+        "direction": "down",
+        "prev_value": 4.7,
+        "prev_date": "2026-10-01"
       },
-      "caption": "桐生｜きょう日本でいちばん暑い",
+      "caption": "標茶｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -0.67,
+      "z": -0.16,
       "label": "通常の範囲"
     },
     {
@@ -250,25 +288,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "cold-points-0",
-      "name": "0℃を下回った地点数",
-      "category": "自然",
-      "value_display": "0地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0地点",
-        "direction": "flat",
-        "prev_value": 0,
-        "prev_date": "2026-10-01"
-      },
-      "caption": "きょう0℃を下回った地点",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "ice-day-points",
       "name": "真冬日（0℃以上にならなかった）地点数",
       "category": "自然",
@@ -310,19 +329,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "13地点",
+      "value_display": "27地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -81,
-        "display": "-81地点",
+        "value": -67,
+        "display": "-67地点",
         "direction": "down",
         "prev_value": 94,
         "prev_date": "2026-10-01"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.2,
+      "z": -0.42,
       "label": "通常の範囲"
     },
     {
@@ -364,60 +383,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "23.3℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.3,
-        "display": "+0.3℃",
-        "direction": "up",
-        "prev_value": 23.0,
-        "prev_date": "2026-10-01"
-      },
-      "caption": "南鳥島28.7℃ と 阿寒湖畔5.4℃ の差",
-      "score": 0.0,
-      "z": -1.23,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "22℃",
+      "value_display": "25℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 3.0,
+        "display": "+3℃",
+        "direction": "up",
         "prev_value": 22.0,
         "prev_date": "2026-10-01"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": 0.0,
-      "z": -3.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "20℃",
+      "value_display": "18℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -2.0,
+        "display": "-2℃",
+        "direction": "down",
         "prev_value": 20.0,
         "prev_date": "2026-10-01"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
-      "z": -2.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -443,17 +443,17 @@
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "50%",
+      "value_display": "0%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 20.0,
-        "display": "+20.0pt",
-        "direction": "up",
+        "value": -30.0,
+        "display": "-30.0pt",
+        "direction": "down",
         "prev_value": 30.0,
         "prev_date": "2026-10-01"
       },
-      "caption": "あすは所により雨",
+      "caption": "あすは雨の心配は少ない",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -481,19 +481,19 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "14.9m/s",
+      "value_display": "15.3m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.7,
-        "display": "+0.7m/s",
+        "value": 1.1,
+        "display": "+1.1m/s",
         "direction": "up",
         "prev_value": 14.2,
         "prev_date": "2026-10-01"
       },
-      "caption": "浜益｜全国でいちばん風が強い（10分平均）",
+      "caption": "奥尻｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
-      "z": -0.64,
+      "z": -0.27,
       "label": "通常の範囲"
     },
     {
@@ -554,25 +554,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "active-typhoons",
-      "name": "発生中の台風の数",
-      "category": "防災",
-      "value_display": "2個",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
-        "prev_value": 2,
-        "prev_date": "2026-10-01"
-      },
-      "caption": "台風27・26号が発生中",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
@@ -584,7 +565,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-09-30"
+        "prev_date": "2026-10-01"
       },
       "caption": "いま気象警報は出ていない",
       "score": 0.0,
@@ -603,7 +584,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-09-30"
+        "prev_date": "2026-10-01"
       },
       "caption": "いま大雨警報は出ていない",
       "score": 0.0,
@@ -622,7 +603,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-09-30"
+        "prev_date": "2026-10-01"
       },
       "caption": "いま洪水警報は出ていない",
       "score": 0.0,
@@ -641,7 +622,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-09-30"
+        "prev_date": "2026-10-01"
       },
       "caption": "いま土砂災害警戒情報は出ていない",
       "score": 0.0,
@@ -801,22 +782,41 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "biwako-level",
+      "name": "琵琶湖の水位",
+      "category": "自然",
+      "value_display": "-16cm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.0,
+        "display": "±0cm",
+        "direction": "flat",
+        "prev_value": -16.0,
+        "prev_date": "2026-10-01"
+      },
+      "caption": "基準水位(B.S.L.)より16cm低い",
+      "score": 0.0,
+      "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "89%",
+      "value_display": "88%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 1.0,
-        "display": "+1.0pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 88.0,
         "prev_date": "2026-10-01"
       },
       "caption": "ピークは11:00〜12:00の見込み",
       "score": 0.0,
-      "z": -1.0,
+      "z": -1.67,
       "label": "通常の範囲"
     },
     {

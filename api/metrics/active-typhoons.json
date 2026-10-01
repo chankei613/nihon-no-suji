@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-10-02T00:38:14+09:00",
+  "updated_at": "2026-10-02T06:16:42+09:00",
   "summary": {
     "count": 30,
     "first_date": "2026-09-03",
     "last_date": "2026-10-02",
     "min_30d": 0,
     "max_30d": 2,
-    "avg_30d": 0.73
+    "avg_30d": 0.7
   },
   "history": [
     {
@@ -136,7 +136,7 @@
     },
     {
       "date": "2026-10-02",
-      "value": 2
+      "value": 1
     }
   ],
   "latest_detail": {
@@ -145,21 +145,12 @@
         "number": "2627",
         "name": "チョーイワン",
         "category": "TS",
-        "pressure": "994",
+        "pressure": "990",
         "location": "マリアナ諸島",
         "course": "西",
         "typhoon_number": "2627"
-      },
-      {
-        "number": "2626",
-        "name": "スリゲ",
-        "category": "TS",
-        "pressure": "1002",
-        "location": "日本の東",
-        "course": "北東",
-        "typhoon_number": "2626"
       }
     ],
-    "caption": "台風27・26号が発生中"
+    "caption": "台風27号「チョーイワン」がマリアナ諸島"
   }
 }
