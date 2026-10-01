@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-10-01T16:43:28+09:00",
+  "updated_at": "2026-10-02T00:38:14+09:00",
   "summary": {
-    "count": 30,
+    "count": 31,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-01",
-    "min_30d": 52.0,
+    "last_date": "2026-10-02",
+    "min_30d": 37.0,
     "max_30d": 686.5,
-    "avg_30d": 245.83,
-    "record_1st": 364.5,
+    "avg_30d": 237.08,
+    "record_1st": 226.0,
     "all_time_record": false
   },
   "history": [
@@ -139,13 +139,17 @@
     {
       "date": "2026-10-01",
       "value": 117.0
+    },
+    {
+      "date": "2026-10-02",
+      "value": 37.0
     }
   ],
   "latest_detail": {
-    "place": "八丈島",
-    "pref": "東京都",
-    "caption": "八丈島｜この24時間でいちばん降った",
-    "record_1st": 364.5,
+    "place": "今金",
+    "pref": "北海道檜山地方",
+    "caption": "今金｜この24時間でいちばん降った",
+    "record_1st": 226.0,
     "all_time_record": false
   }
 }
