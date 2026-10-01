@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-01T10:32:16+09:00",
+  "updated_at": "2026-10-01T16:43:28+09:00",
   "summary": {
     "count": 30,
     "first_date": "2026-09-02",
     "last_date": "2026-10-01",
-    "min_30d": 30.3,
+    "min_30d": 32.0,
     "max_30d": 37.9,
-    "avg_30d": 33.69,
-    "record_1st": 35.7,
+    "avg_30d": 33.79,
+    "record_1st": 41.2,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -139,14 +139,16 @@
     },
     {
       "date": "2026-10-01",
-      "value": 30.3
+      "value": 33.1
     }
   ],
   "latest_detail": {
-    "place": "波照間",
-    "pref": "沖縄県",
-    "caption": "波照間｜きょう日本でいちばん暑い",
-    "record_1st": 35.7,
+    "place": "桐生",
+    "pref": "群馬県",
+    "caption": "桐生｜きょう日本でいちばん暑い",
+    "normal_diff": 8.7,
+    "station_prev_diff": 10.3,
+    "record_1st": 41.2,
     "year_extreme": false,
     "all_time_record": false
   }
