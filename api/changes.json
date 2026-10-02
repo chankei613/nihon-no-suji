@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:29:28+09:00",
+  "generated_at": "2026-10-02T23:05:11+09:00",
   "date": "2026-10-02",
   "changes": [
     {
@@ -22,60 +22,60 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "14回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 9,
-        "display": "+9回",
-        "direction": "up",
-        "prev_value": 5,
-        "prev_date": "2026-10-01"
-      },
-      "caption": "最大は千葉県北東部の震度3",
-      "score": 4.33,
-      "z": 4.33,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "1.9℃",
+      "value_display": "0℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.9,
-        "display": "-3.9℃",
+        "value": -5.8,
+        "display": "-5.8℃",
         "direction": "down",
         "prev_value": 5.8,
         "prev_date": "2026-10-01"
       },
-      "caption": "夏でもひんやり",
-      "score": 3.25,
-      "z": 3.25,
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 5.62,
+      "z": 5.62,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "18.4m/s",
+      "value_display": "19.1m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4.2,
-        "display": "+4.2m/s",
+        "value": 4.9,
+        "display": "+4.9m/s",
         "direction": "up",
         "prev_value": 14.2,
         "prev_date": "2026-10-01"
       },
-      "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）",
-      "score": 1.79,
-      "z": 1.79,
+      "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
+      "score": 2.29,
+      "z": 2.29,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "10回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 5,
+        "display": "+5回",
+        "direction": "up",
+        "prev_value": 5,
+        "prev_date": "2026-10-01"
+      },
+      "caption": "最大はトカラ列島近海の震度3",
+      "score": 1.67,
+      "z": 1.67,
       "label": "いつもより大きな変化"
     },
     {
@@ -348,19 +348,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "52地点",
+      "value_display": "62地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -42,
-        "display": "-42地点",
+        "value": -32,
+        "display": "-32地点",
         "direction": "down",
         "prev_value": 94,
         "prev_date": "2026-10-01"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.8,
+      "z": -0.95,
       "label": "通常の範囲"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:29:28+09:00",
+  "generated_at": "2026-10-02T23:05:11+09:00",
   "date": "2026-10-02",
   "metrics": [
     {
@@ -3953,7 +3953,7 @@
       "unit": "",
       "value": 0,
       "value_display": "0時間00分",
-      "observed_at": "2026-10-02T16:20:00+09:00",
+      "observed_at": "2026-10-02T22:50:00+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
@@ -3970,7 +3970,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 0.0,
-        "last_observed_at": "2026-10-02T16:20:00+09:00",
+        "last_observed_at": "2026-10-02T22:50:00+09:00",
         "caption": "きょうはまだ日照なし"
       },
       "source": {
@@ -3983,16 +3983,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 52,
-      "value_display": "52地点",
-      "observed_at": "2026-10-02T16:20:00+09:00",
+      "value": 62,
+      "value_display": "62地点",
+      "observed_at": "2026-10-02T22:50:00+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -42,
-        "display": "-42地点",
+        "value": -32,
+        "display": "-32地点",
         "direction": "down",
         "prev_value": 94,
         "prev_date": "2026-10-01"
@@ -4005,6 +4005,7 @@
           "11061",
           "11176",
           "11276",
+          "11291",
           "12066",
           "12141",
           "12181",
@@ -4013,6 +4014,8 @@
           "12261",
           "12396",
           "12411",
+          "12451",
+          "12457",
           "12471",
           "12501",
           "12626",
@@ -4020,12 +4023,16 @@
           "14026",
           "14071",
           "14191",
+          "15216",
           "15231",
           "15241",
+          "15247",
           "15276",
           "15311",
           "15321",
           "16091",
+          "16206",
+          "16217",
           "16272",
           "16281",
           "17196",
@@ -4040,6 +4047,7 @@
           "32266",
           "32407",
           "32551",
+          "32571",
           "32581",
           "32681",
           "35257",
@@ -4051,11 +4059,13 @@
           "54671",
           "54836",
           "66056",
+          "69161",
           "69246",
+          "93051",
           "94011",
           "94017"
         ],
-        "now": 18,
+        "now": 12,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4323,26 +4333,26 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value": 18.4,
-      "value_display": "18.4m/s",
-      "observed_at": "2026-10-02T16:20:00+09:00",
+      "value": 19.1,
+      "value_display": "19.1m/s",
+      "observed_at": "2026-10-02T22:50:00+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4.2,
-        "display": "+4.2m/s",
+        "value": 4.9,
+        "display": "+4.9m/s",
         "direction": "up",
         "prev_value": 14.2,
         "prev_date": "2026-10-01"
       },
-      "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）",
-      "highlight": false,
-      "highlight_reason": null,
+      "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
+      "highlight": true,
+      "highlight_reason": "いつもより大きな変化",
       "detail": {
-        "place": "宗谷岬",
-        "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）"
+        "place": "えりも岬",
+        "caption": "えりも岬｜全国でいちばん風が強い（10分平均）"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4385,26 +4395,26 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 1.9,
-      "value_display": "1.9℃",
-      "observed_at": "2026-10-02T16:20:00+09:00",
+      "value": 0.0,
+      "value_display": "0℃",
+      "observed_at": "2026-10-02T22:50:00+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.9,
-        "display": "-3.9℃",
+        "value": -5.8,
+        "display": "-5.8℃",
         "direction": "down",
         "prev_value": 5.8,
         "prev_date": "2026-10-01"
       },
-      "caption": "夏でもひんやり",
+      "caption": "氷点下。街とはまるで別世界",
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
         "place": "富士山（標高3775m）",
-        "caption": "夏でもひんやり"
+        "caption": "氷点下。街とはまるで別世界"
       },
       "source": {
         "name": "気象庁 アメダス実況（富士山）",
@@ -4542,7 +4552,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-10-02T16:28:00+09:00",
+      "observed_at": "2026-10-02T23:04:00+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
@@ -4563,9 +4573,9 @@
             "number": "2627",
             "name": "チョーイワン",
             "category": "STS",
-            "pressure": "985",
+            "pressure": "980",
             "location": "マリアナ諸島",
-            "course": "北北西",
+            "course": "北",
             "typhoon_number": "2627"
           }
         ],
@@ -4583,7 +4593,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-02T16:24:27+09:00",
+      "observed_at": "2026-10-02T22:30:24+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
@@ -4614,7 +4624,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-02T16:24:27+09:00",
+      "observed_at": "2026-10-02T22:30:24+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
@@ -4644,7 +4654,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-02T16:24:27+09:00",
+      "observed_at": "2026-10-02T22:30:24+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
@@ -4674,7 +4684,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-02T16:24:27+09:00",
+      "observed_at": "2026-10-02T22:30:24+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
@@ -4704,7 +4714,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-02T16:28:18+09:00",
+      "observed_at": "2026-10-02T23:04:02+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
@@ -4777,7 +4787,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-02T16:29:15+09:00",
+      "observed_at": "2026-10-02T23:04:57+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
@@ -4807,7 +4817,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-02T16:29:15+09:00",
+      "observed_at": "2026-10-02T23:04:57+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
@@ -5305,7 +5315,7 @@
       "unit": "%",
       "value": 87.0,
       "value_display": "87%",
-      "observed_at": "2026-10-02T16:10:00+09:00",
+      "observed_at": "2026-10-02T22:40:00+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
@@ -5324,9 +5334,9 @@
         "reserve_rate": 14.0,
         "peak_supply_10MW": 3790.0,
         "forecast_peak_demand_10MW": 3315.0,
-        "current_demand_10MW": 3251.0,
-        "current_demand_time": "15:00",
-        "current_usage_rate": 85.0,
+        "current_demand_10MW": 2742.0,
+        "current_demand_time": "21:00",
+        "current_usage_rate": 76.0,
         "peak_timeband": "10:00〜11:00",
         "area": "東京",
         "caption": "ピークは10:00〜11:00の見込み"
@@ -5373,40 +5383,40 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 14,
-      "value_display": "14回",
-      "observed_at": "2026-10-02T16:29:00+09:00",
+      "value": 10,
+      "value_display": "10回",
+      "observed_at": "2026-10-02T23:05:00+09:00",
       "as_of": "2026-10-02",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 9,
-        "display": "+9回",
+        "value": 5,
+        "display": "+5回",
         "direction": "up",
         "prev_value": 5,
         "prev_date": "2026-10-01"
       },
-      "caption": "最大は千葉県北東部の震度3",
-      "highlight": true,
-      "highlight_reason": "かなり珍しい変化",
+      "caption": "最大はトカラ列島近海の震度3",
+      "highlight": false,
+      "highlight_reason": null,
       "detail": {
-        "caption": "最大は千葉県北東部の震度3",
+        "caption": "最大はトカラ列島近海の震度3",
         "window_hours": 24,
-        "max_magnitude": 5.1,
+        "max_magnitude": 5,
         "strongest": {
-          "time": "2026-10-01T21:27:00+09:00",
+          "time": "2026-10-02T04:05:00+09:00",
           "scale": 30,
-          "name": "千葉県北東部",
-          "magnitude": 5.1,
-          "depth": 50
+          "name": "トカラ列島近海",
+          "magnitude": 3.3,
+          "depth": 10
         },
         "latest": {
-          "time": "2026-10-02T15:41:00+09:00",
-          "scale": 20,
-          "name": "熊本県天草・芦北地方",
-          "magnitude": 3.5,
-          "depth": 10
+          "time": "2026-10-02T17:39:00+09:00",
+          "scale": 30,
+          "name": "",
+          "magnitude": -1,
+          "depth": -1
         },
         "capped": false
       },
