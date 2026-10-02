@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-10-02T23:05:11+09:00",
+  "updated_at": "2026-10-03T04:29:44+09:00",
   "summary": {
-    "count": 30,
+    "count": 31,
     "first_date": "2026-09-03",
-    "last_date": "2026-10-02",
+    "last_date": "2026-10-03",
     "min_30d": 0,
     "max_30d": 2,
-    "avg_30d": 0.7
+    "avg_30d": 0.67
   },
   "history": [
     {
@@ -137,6 +137,10 @@
     {
       "date": "2026-10-02",
       "value": 1
+    },
+    {
+      "date": "2026-10-03",
+      "value": 1
     }
   ],
   "latest_detail": {
@@ -144,8 +148,8 @@
       {
         "number": "2627",
         "name": "チョーイワン",
-        "category": "STS",
-        "pressure": "980",
+        "category": "TY",
+        "pressure": "970",
         "location": "マリアナ諸島",
         "course": "北",
         "typhoon_number": "2627"
