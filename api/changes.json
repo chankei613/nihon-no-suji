@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T06:16:42+09:00",
+  "generated_at": "2026-10-02T10:04:28+09:00",
   "date": "2026-10-02",
   "changes": [
     {
@@ -25,57 +25,57 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-0.3℃",
+      "value_display": "-0.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.1,
-        "display": "-6.1℃",
+        "value": -6.2,
+        "display": "-6.2℃",
         "direction": "down",
         "prev_value": 5.8,
         "prev_date": "2026-10-01"
       },
       "caption": "氷点下。街とはまるで別世界",
-      "score": 6.0,
-      "z": 6.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "28.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.7,
-        "display": "-4.7℃",
-        "direction": "down",
-        "prev_value": 33.1,
-        "prev_date": "2026-10-01"
-      },
-      "caption": "那覇｜きょう日本でいちばん暑い",
-      "score": 5.14,
-      "z": 5.14,
+      "score": 6.12,
+      "z": 6.12,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "14回",
+      "value_display": "13回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 9,
-        "display": "+9回",
+        "value": 8,
+        "display": "+8回",
         "direction": "up",
         "prev_value": 5,
         "prev_date": "2026-10-01"
       },
       "caption": "最大は千葉県北東部の震度3",
-      "score": 4.33,
-      "z": 4.33,
+      "score": 3.67,
+      "z": 3.67,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "29.6℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.5,
+        "display": "-3.5℃",
+        "direction": "down",
+        "prev_value": 33.1,
+        "prev_date": "2026-10-01"
+      },
+      "caption": "北原｜きょう日本でいちばん暑い",
+      "score": 3.43,
+      "z": 3.43,
       "label": "かなり珍しい変化"
     },
     {
@@ -117,22 +117,22 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "38%",
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "13%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 13.0,
-        "display": "+13.0pt",
-        "direction": "up",
-        "prev_value": 25.0,
+        "value": -24.0,
+        "display": "-24.0pt",
+        "direction": "down",
+        "prev_value": 37.0,
         "prev_date": "2026-10-01"
       },
-      "caption": "日高門別｜全国でいちばん空気が乾いている",
-      "score": 1.2,
-      "z": 1.2,
+      "caption": "きょうのピークで電力の13%を太陽光がまかなった",
+      "score": 1.11,
+      "z": 1.11,
       "label": "通常の範囲"
     },
     {
@@ -174,22 +174,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "37%",
+      "slug": "volcano-alert-points",
+      "name": "噴火警戒レベル2以上の火山数",
+      "category": "防災",
+      "value_display": "8火山",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": 17.0,
-        "display": "+17.0pt",
+        "value": 1,
+        "display": "+1火山",
         "direction": "up",
-        "prev_value": 20.0,
-        "prev_date": "2026-09-30"
+        "prev_value": 7,
+        "prev_date": "2026-10-01"
       },
-      "caption": "きょうのピークで電力の37%を太陽光がまかなった",
-      "score": 0.41,
-      "z": 0.41,
+      "caption": "十勝岳（レベル3）など8火山で警戒レベル2以上",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "16.5m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 2.3,
+        "display": "+2.3m/s",
+        "direction": "up",
+        "prev_value": 14.2,
+        "prev_date": "2026-10-01"
+      },
+      "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）",
+      "score": 0.46,
+      "z": 0.46,
       "label": "通常の範囲"
     },
     {
@@ -212,22 +231,41 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "unemployment-rate",
+      "name": "完全失業率",
+      "category": "経済",
+      "value_display": "2.6%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 0.2,
+        "display": "+0.2pt",
+        "direction": "up",
+        "prev_value": 2.4,
+        "prev_date": "2026-10-01"
+      },
+      "caption": "総務省統計局 労働力調査（完全失業率）",
+      "score": 0.2,
+      "z": 0.2,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "2.8℃",
+      "value_display": "2.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.9,
-        "display": "-1.9℃",
+        "value": -2.1,
+        "display": "-2.1℃",
         "direction": "down",
         "prev_value": 4.7,
         "prev_date": "2026-10-01"
       },
-      "caption": "標茶｜きょう日本でいちばん寒い",
+      "caption": "占冠｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -0.16,
+      "z": -0.03,
       "label": "通常の範囲"
     },
     {
@@ -272,19 +310,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "4地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -15,
-        "display": "-15地点",
+        "value": -11,
+        "display": "-11地点",
         "direction": "down",
         "prev_value": 15,
         "prev_date": "2026-10-01"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -0.58,
+      "z": -0.92,
       "label": "通常の範囲"
     },
     {
@@ -329,57 +367,57 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "27地点",
+      "value_display": "40地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -67,
-        "display": "-67地点",
+        "value": -54,
+        "display": "-54地点",
         "direction": "down",
         "prev_value": 94,
         "prev_date": "2026-10-01"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.42,
+      "z": -0.62,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "6mm",
+      "value_display": "9.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -12.0,
-        "display": "-12mm",
+        "value": -8.5,
+        "display": "-8.5mm",
         "direction": "down",
         "prev_value": 18.0,
         "prev_date": "2026-10-01"
       },
-      "caption": "香住｜この1時間でいちばん降った",
+      "caption": "父島｜この1時間でいちばん降った",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.33,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "10.5mm",
+      "value_display": "12mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -14.5,
-        "display": "-14.5mm",
+        "value": -13.0,
+        "display": "-13mm",
         "direction": "down",
         "prev_value": 25.0,
         "prev_date": "2026-10-01"
       },
-      "caption": "立山芦峅｜この3時間でいちばん激しく降った",
+      "caption": "美唄｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.76,
+      "z": -0.82,
       "label": "通常の範囲"
     },
     {
@@ -478,22 +516,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "15.3m/s",
+      "value_display": "27%",
       "change": {
-        "type": "absolute",
+        "type": "percentage_point",
         "available": true,
-        "value": 1.1,
-        "display": "+1.1m/s",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
-        "prev_value": 14.2,
+        "prev_value": 25.0,
         "prev_date": "2026-10-01"
       },
-      "caption": "奥尻｜全国でいちばん風が強い（10分平均）",
+      "caption": "大垣｜全国でいちばん空気が乾いている",
       "score": 0.0,
-      "z": -0.27,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -519,19 +557,19 @@
       "slug": "usd-jpy",
       "name": "ドル円レート",
       "category": "経済",
-      "value_display": "157.38円",
+      "value_display": "156.91円",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.15,
-        "display": "+0.15円",
-        "direction": "up",
-        "prev_value": 157.23,
-        "prev_date": "2026-09-28"
+        "value": -0.47,
+        "display": "-0.47円",
+        "direction": "down",
+        "prev_value": 157.38,
+        "prev_date": "2026-09-29"
       },
-      "caption": "1ドル＝157.38円（9月29日）",
+      "caption": "1ドル＝156.91円（9月30日）",
       "score": 0.0,
-      "z": -1.73,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -630,25 +668,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "volcano-alert-points",
-      "name": "噴火警戒レベル2以上の火山数",
-      "category": "防災",
-      "value_display": "7火山",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0火山",
-        "direction": "flat",
-        "prev_value": 7,
-        "prev_date": "2026-10-01"
-      },
-      "caption": "十勝岳（レベル3）など7火山で警戒レベル2以上",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "sakura-kaika-points",
       "name": "さくら開花地点数",
       "category": "自然",
@@ -701,25 +720,6 @@
         "prev_date": "2026-10-01"
       },
       "caption": "総務省統計局 人口推計（各月1日現在・概算値）",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "unemployment-rate",
-      "name": "完全失業率",
-      "category": "経済",
-      "value_display": "2.4%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
-        "prev_value": 2.4,
-        "prev_date": "2026-10-01"
-      },
-      "caption": "総務省統計局 労働力調査（完全失業率）",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -804,19 +804,19 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "88%",
+      "value_display": "87%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1.0pt",
+        "direction": "down",
         "prev_value": 88.0,
         "prev_date": "2026-10-01"
       },
       "caption": "ピークは11:00〜12:00の見込み",
       "score": 0.0,
-      "z": -1.67,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
