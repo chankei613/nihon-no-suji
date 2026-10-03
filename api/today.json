@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:32:09+09:00",
+  "generated_at": "2026-10-03T22:40:17+09:00",
   "date": "2026-10-03",
   "metrics": [
     {
@@ -3962,7 +3962,7 @@
       "unit": "",
       "value": 114,
       "value_display": "1時間54分",
-      "observed_at": "2026-10-03T17:20:00+09:00",
+      "observed_at": "2026-10-03T22:30:00+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
@@ -3979,7 +3979,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 114.0,
-        "last_observed_at": "2026-10-03T17:20:00+09:00",
+        "last_observed_at": "2026-10-03T22:30:00+09:00",
         "caption": "きょうの東京の日照時間（ここまでの積算）"
       },
       "source": {
@@ -3992,16 +3992,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 34,
-      "value_display": "34地点",
-      "observed_at": "2026-10-03T17:20:00+09:00",
+      "value": 39,
+      "value_display": "39地点",
+      "observed_at": "2026-10-03T22:30:00+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -28,
-        "display": "-28地点",
+        "value": -23,
+        "display": "-23地点",
         "direction": "down",
         "prev_value": 62,
         "prev_date": "2026-10-02"
@@ -4023,6 +4023,7 @@
           "15076",
           "15116",
           "15197",
+          "15311",
           "15356",
           "16061",
           "16126",
@@ -4031,6 +4032,7 @@
           "16321",
           "17166",
           "17306",
+          "18311",
           "19281",
           "21226",
           "23226",
@@ -4041,12 +4043,15 @@
           "31366",
           "31482",
           "35056",
+          "53378",
+          "65311",
           "88706",
           "88901",
+          "93062",
           "94036",
           "94062"
         ],
-        "now": 6,
+        "now": 5,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4283,26 +4288,26 @@
       "name": "全国の最低海面気圧",
       "category": "自然",
       "unit": "hPa",
-      "value": 1006.9,
-      "value_display": "1006.9hPa",
-      "observed_at": "2026-10-03T17:20:00+09:00",
+      "value": 1006.5,
+      "value_display": "1006.5hPa",
+      "observed_at": "2026-10-03T22:30:00+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 7.0,
-        "display": "+7hPa",
+        "value": 6.6,
+        "display": "+6.6hPa",
         "direction": "up",
         "prev_value": 999.9,
         "prev_date": "2026-10-02"
       },
-      "caption": "日田｜全国でいちばん気圧が低い",
+      "caption": "父島｜全国でいちばん気圧が低い",
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
-        "place": "日田",
-        "caption": "日田｜全国でいちばん気圧が低い"
+        "place": "父島",
+        "caption": "父島｜全国でいちばん気圧が低い"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4376,16 +4381,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 2.2,
-      "value_display": "2.2℃",
-      "observed_at": "2026-10-03T17:20:00+09:00",
+      "value": 1.6,
+      "value_display": "1.6℃",
+      "observed_at": "2026-10-03T22:30:00+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.2,
-        "display": "+2.2℃",
+        "value": 1.6,
+        "display": "+1.6℃",
         "direction": "up",
         "prev_value": 0.0,
         "prev_date": "2026-10-02"
@@ -4533,7 +4538,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-10-03T17:30:00+09:00",
+      "observed_at": "2026-10-03T22:39:00+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
@@ -4545,7 +4550,7 @@
         "prev_value": 1,
         "prev_date": "2026-10-02"
       },
-      "caption": "台風27号「チョーイワン」がマリアナ諸島",
+      "caption": "台風27号「チョーイワン」が小笠原近海",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
@@ -4555,12 +4560,12 @@
             "name": "チョーイワン",
             "category": "TY",
             "pressure": "960",
-            "location": "マリアナ諸島",
+            "location": "小笠原近海",
             "course": "北北東",
             "typhoon_number": "2627"
           }
         ],
-        "caption": "台風27号「チョーイワン」がマリアナ諸島"
+        "caption": "台風27号「チョーイワン」が小笠原近海"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -4574,7 +4579,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-03T16:14:12+09:00",
+      "observed_at": "2026-10-03T21:44:32+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
@@ -4605,7 +4610,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-03T16:14:12+09:00",
+      "observed_at": "2026-10-03T21:44:32+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
@@ -4635,7 +4640,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-03T16:14:12+09:00",
+      "observed_at": "2026-10-03T21:44:32+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
@@ -4665,7 +4670,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-03T16:14:12+09:00",
+      "observed_at": "2026-10-03T21:44:32+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
@@ -4695,7 +4700,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-03T17:31:00+09:00",
+      "observed_at": "2026-10-03T22:39:04+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
@@ -4768,7 +4773,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-03T17:31:56+09:00",
+      "observed_at": "2026-10-03T22:40:04+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
@@ -4798,7 +4803,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-03T17:31:56+09:00",
+      "observed_at": "2026-10-03T22:40:04+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
@@ -5296,7 +5301,7 @@
       "unit": "%",
       "value": 84.0,
       "value_display": "84%",
-      "observed_at": "2026-10-03T17:10:00+09:00",
+      "observed_at": "2026-10-03T22:10:00+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
@@ -5315,9 +5320,9 @@
         "reserve_rate": 19.0,
         "peak_supply_10MW": 3374.0,
         "forecast_peak_demand_10MW": 2841.0,
-        "current_demand_10MW": 2733.0,
-        "current_demand_time": "16:00",
-        "current_usage_rate": 91.0,
+        "current_demand_10MW": 2511.0,
+        "current_demand_time": "21:00",
+        "current_usage_rate": 85.0,
         "peak_timeband": "13:00〜14:00",
         "area": "東京",
         "caption": "ピークは13:00〜14:00の見込み"
@@ -5364,33 +5369,33 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 13,
-      "value_display": "13回",
-      "observed_at": "2026-10-03T17:32:00+09:00",
+      "value": 11,
+      "value_display": "11回",
+      "observed_at": "2026-10-03T22:40:00+09:00",
       "as_of": "2026-10-03",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3,
-        "display": "+3回",
+        "value": 1,
+        "display": "+1回",
         "direction": "up",
         "prev_value": 10,
         "prev_date": "2026-10-02"
       },
-      "caption": "最大は熊本県熊本地方の震度3",
+      "caption": "最大は三陸沖の震度2",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "最大は熊本県熊本地方の震度3",
+        "caption": "最大は三陸沖の震度2",
         "window_hours": 24,
         "max_magnitude": 4.5,
         "strongest": {
-          "time": "2026-10-02T17:39:00+09:00",
-          "scale": 30,
-          "name": "熊本県熊本地方",
-          "magnitude": 3.1,
-          "depth": 0
+          "time": "2026-10-03T05:34:00+09:00",
+          "scale": 20,
+          "name": "三陸沖",
+          "magnitude": 4.3,
+          "depth": 10
         },
         "latest": {
           "time": "2026-10-03T17:17:00+09:00",

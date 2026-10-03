@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T17:32:09+09:00",
+  "generated_at": "2026-10-03T22:40:17+09:00",
   "date": "2026-10-03",
   "changes": [
     {
@@ -25,19 +25,19 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1006.9hPa",
+      "value_display": "1006.5hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 7.0,
-        "display": "+7hPa",
+        "value": 6.6,
+        "display": "+6.6hPa",
         "direction": "up",
         "prev_value": 999.9,
         "prev_date": "2026-10-02"
       },
-      "caption": "日田｜全国でいちばん気圧が低い",
-      "score": 3.27,
-      "z": 3.27,
+      "caption": "父島｜全国でいちばん気圧が低い",
+      "score": 3.0,
+      "z": 3.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -136,25 +136,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "2.2℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2.2,
-        "display": "+2.2℃",
-        "direction": "up",
-        "prev_value": 0.0,
-        "prev_date": "2026-10-02"
-      },
-      "caption": "夏でもひんやり",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
@@ -171,6 +152,25 @@
       "caption": "陸別｜きょう日本でいちばん寒い",
       "score": 0.31,
       "z": 0.31,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "1.6℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.6,
+        "display": "+1.6℃",
+        "direction": "up",
+        "prev_value": 0.0,
+        "prev_date": "2026-10-02"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.29,
+      "z": 0.29,
       "label": "通常の範囲"
     },
     {
@@ -329,19 +329,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "34地点",
+      "value_display": "39地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -28,
-        "display": "-28地点",
+        "value": -23,
+        "display": "-23地点",
         "direction": "down",
         "prev_value": 62,
         "prev_date": "2026-10-02"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.01,
+      "z": -1.05,
       "label": "通常の範囲"
     },
     {
@@ -529,7 +529,7 @@
         "prev_value": 1,
         "prev_date": "2026-10-02"
       },
-      "caption": "台風27号「チョーイワン」がマリアナ諸島",
+      "caption": "台風27号「チョーイワン」が小笠原近海",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -804,19 +804,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "13回",
+      "value_display": "11回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3,
-        "display": "+3回",
+        "value": 1,
+        "display": "+1回",
         "direction": "up",
         "prev_value": 10,
         "prev_date": "2026-10-02"
       },
-      "caption": "最大は熊本県熊本地方の震度3",
+      "caption": "最大は三陸沖の震度2",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.5,
       "label": "通常の範囲"
     },
     {
