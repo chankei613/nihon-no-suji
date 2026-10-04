@@ -8,14 +8,14 @@
     "name": "国土交通省 近畿・関東地方整備局",
     "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
   },
-  "updated_at": "2026-10-05T03:46:21+09:00",
+  "updated_at": "2026-10-05T07:29:33+09:00",
   "summary": {
-    "count": 34,
+    "count": 35,
     "first_date": "2026-09-01",
-    "last_date": "2026-10-04",
-    "min_30d": 78.1,
+    "last_date": "2026-10-05",
+    "min_30d": 78.0,
     "max_30d": 89.6,
-    "avg_30d": 84.78
+    "avg_30d": 84.77
   },
   "history": [
     {
@@ -153,23 +153,27 @@
     {
       "date": "2026-10-04",
       "value": 78.9
+    },
+    {
+      "date": "2026-10-05",
+      "value": 78.0
     }
   ],
   "latest_detail": {
     "dam_count": 17,
     "region_means": {
-      "近畿": 82.1,
+      "近畿": 80.8,
       "関東": 71.2
     },
     "dams": [
       {
         "name": "真名川ダム",
-        "rate": 19.0,
+        "rate": 19.7,
         "region": "近畿"
       },
       {
         "name": "九頭竜ダム",
-        "rate": 42.1,
+        "rate": 42.7,
         "region": "近畿"
       },
       {
@@ -183,6 +187,11 @@
         "region": "関東"
       },
       {
+        "name": "天ヶ瀬ダム",
+        "rate": 62.8,
+        "region": "近畿"
+      },
+      {
         "name": "猿谷ダム",
         "rate": 68.9,
         "region": "近畿"
@@ -193,23 +202,18 @@
         "region": "関東"
       },
       {
-        "name": "天ヶ瀬ダム",
-        "rate": 77.9,
-        "region": "近畿"
-      },
-      {
         "name": "多摩川水系 小河内ダム",
         "rate": 88.0,
         "region": "関東"
       },
       {
         "name": "高山ダム",
-        "rate": 93.4,
+        "rate": 91.3,
         "region": "近畿"
       },
       {
         "name": "大滝ダム",
-        "rate": 95.1,
+        "rate": 94.7,
         "region": "近畿"
       },
       {
@@ -219,17 +223,17 @@
       },
       {
         "name": "布目ダム",
-        "rate": 96.3,
+        "rate": 96.8,
         "region": "近畿"
       },
       {
         "name": "室生ダム",
-        "rate": 97.6,
+        "rate": 97.3,
         "region": "近畿"
       },
       {
         "name": "比奈知ダム",
-        "rate": 97.6,
+        "rate": 97.4,
         "region": "近畿"
       },
       {
