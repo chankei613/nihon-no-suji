@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-04T23:58:10+09:00",
+  "generated_at": "2026-10-05T03:46:21+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "32.9℃",
+      "value_display": "28.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
-        "direction": "up",
-        "prev_value": 31.9,
-        "prev_date": "2026-10-03"
+        "value": -4.1,
+        "display": "-4.1℃",
+        "direction": "down",
+        "prev_value": 32.9,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -148,6 +148,10 @@
         {
           "date": "2026-10-04",
           "value": 32.9
+        },
+        {
+          "date": "2026-10-05",
+          "value": 28.8
         }
       ]
     },
@@ -156,15 +160,15 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "-0.8℃",
+      "value_display": "1.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.7,
-        "display": "-0.7℃",
-        "direction": "down",
-        "prev_value": -0.1,
-        "prev_date": "2026-10-03"
+        "value": 2.0,
+        "display": "+2℃",
+        "direction": "up",
+        "prev_value": -0.8,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -298,6 +302,10 @@
         {
           "date": "2026-10-04",
           "value": -0.8
+        },
+        {
+          "date": "2026-10-05",
+          "value": 1.2
         }
       ]
     },
@@ -306,15 +314,15 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "22.8℃",
+      "value_display": "18.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.1,
-        "display": "-1.1℃",
+        "value": -4.0,
+        "display": "-4℃",
         "direction": "down",
-        "prev_value": 23.9,
-        "prev_date": "2026-10-03"
+        "prev_value": 22.8,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -444,6 +452,10 @@
         {
           "date": "2026-10-04",
           "value": 22.8
+        },
+        {
+          "date": "2026-10-05",
+          "value": 18.8
         }
       ]
     },
@@ -452,15 +464,15 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "61.5mm",
+      "value_display": "69.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 22.5,
-        "display": "+22.5mm",
+        "value": 8.0,
+        "display": "+8mm",
         "direction": "up",
-        "prev_value": 39.0,
-        "prev_date": "2026-10-03"
+        "prev_value": 61.5,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -594,6 +606,10 @@
         {
           "date": "2026-10-04",
           "value": 61.5
+        },
+        {
+          "date": "2026-10-05",
+          "value": 69.5
         }
       ]
     },
@@ -610,7 +626,7 @@
         "display": "±0地点",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -740,6 +756,10 @@
         {
           "date": "2026-10-04",
           "value": 0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 0
         }
       ]
     },
@@ -748,15 +768,15 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "9地点",
+      "value_display": "0地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0地点",
-        "direction": "flat",
+        "value": -9,
+        "display": "-9地点",
+        "direction": "down",
         "prev_value": 9,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -886,6 +906,10 @@
         {
           "date": "2026-10-04",
           "value": 9
+        },
+        {
+          "date": "2026-10-05",
+          "value": 0
         }
       ]
     },
@@ -898,11 +922,11 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1地点",
-        "direction": "down",
-        "prev_value": 1,
-        "prev_date": "2026-10-03"
+        "value": 0,
+        "display": "±0地点",
+        "direction": "flat",
+        "prev_value": 0,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -1032,6 +1056,10 @@
         {
           "date": "2026-10-04",
           "value": 0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 0
         }
       ]
     },
@@ -1044,11 +1072,11 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1地点",
-        "direction": "down",
-        "prev_value": 1,
-        "prev_date": "2026-10-03"
+        "value": 0,
+        "display": "±0地点",
+        "direction": "flat",
+        "prev_value": 0,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -1126,6 +1154,10 @@
         {
           "date": "2026-10-04",
           "value": 0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 0
         }
       ]
     },
@@ -1134,15 +1166,15 @@
       "name": "熱帯夜（25℃を下回らなかった）地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "31地点",
+      "value_display": "25地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0地点",
-        "direction": "flat",
+        "value": -6,
+        "display": "-6地点",
+        "direction": "down",
         "prev_value": 31,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -1220,6 +1252,10 @@
         {
           "date": "2026-10-04",
           "value": 31
+        },
+        {
+          "date": "2026-10-05",
+          "value": 25
         }
       ]
     },
@@ -1228,15 +1264,15 @@
       "name": "東京の日照時間",
       "category": "自然",
       "unit": "",
-      "value_display": "0時間30分",
+      "value_display": "0時間00分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -84,
-        "display": "-84分",
+        "value": -30,
+        "display": "-30分",
         "direction": "down",
-        "prev_value": 114,
-        "prev_date": "2026-10-03"
+        "prev_value": 30,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -1314,6 +1350,10 @@
         {
           "date": "2026-10-04",
           "value": 30
+        },
+        {
+          "date": "2026-10-05",
+          "value": 0
         }
       ]
     },
@@ -1322,15 +1362,15 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "169地点",
+      "value_display": "37地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 130,
-        "display": "+130地点",
-        "direction": "up",
-        "prev_value": 39,
-        "prev_date": "2026-10-03"
+        "value": -132,
+        "display": "-132地点",
+        "direction": "down",
+        "prev_value": 169,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -1460,6 +1500,10 @@
         {
           "date": "2026-10-04",
           "value": 169
+        },
+        {
+          "date": "2026-10-05",
+          "value": 37
         }
       ]
     },
@@ -1468,15 +1512,15 @@
       "name": "全国最大1時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "8mm",
+      "value_display": "4.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -23.5,
-        "display": "-23.5mm",
+        "value": -3.5,
+        "display": "-3.5mm",
         "direction": "down",
-        "prev_value": 31.5,
-        "prev_date": "2026-10-03"
+        "prev_value": 8.0,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -1606,6 +1650,10 @@
         {
           "date": "2026-10-04",
           "value": 8.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 4.5
         }
       ]
     },
@@ -1614,15 +1662,15 @@
       "name": "全国最大3時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "25.5mm",
+      "value_display": "9mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -9.0,
-        "display": "-9mm",
+        "value": -16.5,
+        "display": "-16.5mm",
         "direction": "down",
-        "prev_value": 34.5,
-        "prev_date": "2026-10-03"
+        "prev_value": 25.5,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -1752,6 +1800,10 @@
         {
           "date": "2026-10-04",
           "value": 25.5
+        },
+        {
+          "date": "2026-10-05",
+          "value": 9.0
         }
       ]
     },
@@ -1760,15 +1812,15 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value_display": "28℃",
+      "value_display": "27.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.2,
-        "display": "-0.2℃",
+        "value": -0.6,
+        "display": "-0.6℃",
         "direction": "down",
-        "prev_value": 28.2,
-        "prev_date": "2026-10-03"
+        "prev_value": 28.0,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -1898,6 +1950,10 @@
         {
           "date": "2026-10-04",
           "value": 28.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 27.4
         }
       ]
     },
@@ -1914,7 +1970,7 @@
         "display": "±0℃",
         "direction": "flat",
         "prev_value": 23.0,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -2036,6 +2092,10 @@
         {
           "date": "2026-10-04",
           "value": 23.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 23.0
         }
       ]
     },
@@ -2048,11 +2108,11 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
-        "direction": "up",
-        "prev_value": 16.0,
-        "prev_date": "2026-10-03"
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 17.0,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -2174,6 +2234,10 @@
         {
           "date": "2026-10-04",
           "value": 17.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 17.0
         }
       ]
     },
@@ -2186,11 +2250,11 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
-        "direction": "up",
-        "prev_value": 28.0,
-        "prev_date": "2026-10-03"
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 29.0,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -2280,6 +2344,10 @@
         {
           "date": "2026-10-04",
           "value": 29.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 29.0
         }
       ]
     },
@@ -2292,11 +2360,11 @@
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 20.0,
-        "display": "+20.0pt",
-        "direction": "up",
-        "prev_value": 10.0,
-        "prev_date": "2026-10-03"
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
+        "prev_value": 30.0,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -2418,6 +2486,10 @@
         {
           "date": "2026-10-04",
           "value": 30.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 30.0
         }
       ]
     },
@@ -2426,15 +2498,15 @@
       "name": "全国の最低海面気圧",
       "category": "自然",
       "unit": "hPa",
-      "value_display": "999.7hPa",
+      "value_display": "997.7hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.8,
-        "display": "-6.8hPa",
+        "value": -2.0,
+        "display": "-2hPa",
         "direction": "down",
-        "prev_value": 1006.5,
-        "prev_date": "2026-10-03"
+        "prev_value": 999.7,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -2560,6 +2632,10 @@
         {
           "date": "2026-10-04",
           "value": 999.7
+        },
+        {
+          "date": "2026-10-05",
+          "value": 997.7
         }
       ]
     },
@@ -2568,15 +2644,15 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "13.9m/s",
+      "value_display": "13m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.7,
-        "display": "+2.7m/s",
-        "direction": "up",
-        "prev_value": 11.2,
-        "prev_date": "2026-10-03"
+        "value": -0.9,
+        "display": "-0.9m/s",
+        "direction": "down",
+        "prev_value": 13.9,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -2706,6 +2782,10 @@
         {
           "date": "2026-10-04",
           "value": 13.9
+        },
+        {
+          "date": "2026-10-05",
+          "value": 13.0
         }
       ]
     },
@@ -2714,15 +2794,15 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "9%",
+      "value_display": "61%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 1.0,
-        "display": "+1.0pt",
+        "value": 52.0,
+        "display": "+52.0pt",
         "direction": "up",
-        "prev_value": 8.0,
-        "prev_date": "2026-10-03"
+        "prev_value": 9.0,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -2852,6 +2932,10 @@
         {
           "date": "2026-10-04",
           "value": 9.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 61.0
         }
       ]
     },
@@ -2860,15 +2944,15 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "1.5℃",
+      "value_display": "1.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.1,
-        "display": "-0.1℃",
+        "value": -0.4,
+        "display": "-0.4℃",
         "direction": "down",
-        "prev_value": 1.6,
-        "prev_date": "2026-10-03"
+        "prev_value": 1.5,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -2998,6 +3082,10 @@
         {
           "date": "2026-10-04",
           "value": 1.5
+        },
+        {
+          "date": "2026-10-05",
+          "value": 1.1
         }
       ]
     },
@@ -3006,21 +3094,17 @@
       "name": "次の二十四節気まで",
       "category": "こよみ",
       "unit": "日",
-      "value_display": "4日",
+      "value_display": "3日",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1,
         "display": "-1日",
         "direction": "down",
-        "prev_value": 5,
-        "prev_date": "2026-10-03"
+        "prev_value": 4,
+        "prev_date": "2026-10-04"
       },
       "points": [
-        {
-          "date": "2026-08-06",
-          "value": 1
-        },
         {
           "date": "2026-08-07",
           "value": 16
@@ -3256,6 +3340,10 @@
         {
           "date": "2026-10-04",
           "value": 4
+        },
+        {
+          "date": "2026-10-05",
+          "value": 3
         }
       ]
     },
@@ -3272,7 +3360,7 @@
         "display": "±0円/L",
         "direction": "flat",
         "prev_value": 170.2,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -3401,6 +3489,10 @@
         },
         {
           "date": "2026-10-04",
+          "value": 170.2
+        },
+        {
+          "date": "2026-10-05",
           "value": 170.2
         }
       ]
@@ -3508,7 +3600,7 @@
         "display": "±0個",
         "direction": "flat",
         "prev_value": 27,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -3637,6 +3729,10 @@
         },
         {
           "date": "2026-10-04",
+          "value": 27
+        },
+        {
+          "date": "2026-10-05",
           "value": 27
         }
       ]
@@ -3654,7 +3750,7 @@
         "display": "±0個",
         "direction": "flat",
         "prev_value": 1,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -3784,6 +3880,10 @@
         {
           "date": "2026-10-04",
           "value": 1
+        },
+        {
+          "date": "2026-10-05",
+          "value": 1
         }
       ]
     },
@@ -3796,11 +3896,11 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1市町村",
-        "direction": "up",
-        "prev_value": 0,
-        "prev_date": "2026-10-03"
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
+        "prev_value": 1,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -3930,6 +4030,10 @@
         {
           "date": "2026-10-04",
           "value": 1
+        },
+        {
+          "date": "2026-10-05",
+          "value": 1
         }
       ]
     },
@@ -3946,7 +4050,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -4024,6 +4128,10 @@
         {
           "date": "2026-10-04",
           "value": 0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 0
         }
       ]
     },
@@ -4040,7 +4148,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -4118,6 +4226,10 @@
         {
           "date": "2026-10-04",
           "value": 0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 0
         }
       ]
     },
@@ -4134,7 +4246,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -4212,6 +4324,10 @@
         {
           "date": "2026-10-04",
           "value": 0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 0
         }
       ]
     },
@@ -4228,7 +4344,7 @@
         "display": "±0火山",
         "direction": "flat",
         "prev_value": 8,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -4305,6 +4421,10 @@
         },
         {
           "date": "2026-10-04",
+          "value": 8
+        },
+        {
+          "date": "2026-10-05",
           "value": 8
         }
       ]
@@ -4322,7 +4442,7 @@
         "display": "±0地点",
         "direction": "flat",
         "prev_value": 58,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -4399,6 +4519,10 @@
         },
         {
           "date": "2026-10-04",
+          "value": 58
+        },
+        {
+          "date": "2026-10-05",
           "value": 58
         }
       ]
@@ -4416,7 +4540,7 @@
         "display": "±0地点",
         "direction": "flat",
         "prev_value": 56,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -4494,6 +4618,10 @@
         {
           "date": "2026-10-04",
           "value": 56
+        },
+        {
+          "date": "2026-10-05",
+          "value": 56
         }
       ]
     },
@@ -4502,21 +4630,17 @@
       "name": "東京の昼の長さ",
       "category": "こよみ",
       "unit": "",
-      "value_display": "11時間44分",
+      "value_display": "11時間42分",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -2,
         "display": "-2分",
         "direction": "down",
-        "prev_value": 706.2,
-        "prev_date": "2026-10-03"
+        "prev_value": 704.0,
+        "prev_date": "2026-10-04"
       },
       "points": [
-        {
-          "date": "2026-08-06",
-          "value": 829.0
-        },
         {
           "date": "2026-08-07",
           "value": 827.2
@@ -4752,6 +4876,10 @@
         {
           "date": "2026-10-04",
           "value": 704.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 701.8
         }
       ]
     },
@@ -4760,21 +4888,17 @@
       "name": "今年の残り日数",
       "category": "こよみ",
       "unit": "日",
-      "value_display": "88日",
+      "value_display": "87日",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1,
         "display": "-1日",
         "direction": "down",
-        "prev_value": 89,
-        "prev_date": "2026-10-03"
+        "prev_value": 88,
+        "prev_date": "2026-10-04"
       },
       "points": [
-        {
-          "date": "2026-08-06",
-          "value": 147
-        },
         {
           "date": "2026-08-07",
           "value": 146
@@ -5010,6 +5134,10 @@
         {
           "date": "2026-10-04",
           "value": 88
+        },
+        {
+          "date": "2026-10-05",
+          "value": 87
         }
       ]
     },
@@ -5276,21 +5404,17 @@
       "name": "東京の月の入り",
       "category": "こよみ",
       "unit": "",
-      "value_display": "13:35",
+      "value_display": "14:18",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 52,
-        "display": "52分遅く",
+        "value": 43,
+        "display": "43分遅く",
         "direction": "up",
-        "prev_value": 762.9,
-        "prev_date": "2026-10-03"
+        "prev_value": 814.9,
+        "prev_date": "2026-10-04"
       },
       "points": [
-        {
-          "date": "2026-08-04",
-          "value": 610.9
-        },
         {
           "date": "2026-08-05",
           "value": 677.5
@@ -5526,6 +5650,10 @@
         {
           "date": "2026-10-04",
           "value": 814.9
+        },
+        {
+          "date": "2026-10-05",
+          "value": 857.7
         }
       ]
     },
@@ -5534,21 +5662,17 @@
       "name": "次の満月まで",
       "category": "こよみ",
       "unit": "日",
-      "value_display": "22日",
+      "value_display": "21日",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1,
         "display": "-1日",
         "direction": "down",
-        "prev_value": 23,
-        "prev_date": "2026-10-03"
+        "prev_value": 22,
+        "prev_date": "2026-10-04"
       },
       "points": [
-        {
-          "date": "2026-08-06",
-          "value": 22
-        },
         {
           "date": "2026-08-07",
           "value": 21
@@ -5784,6 +5908,10 @@
         {
           "date": "2026-10-04",
           "value": 22
+        },
+        {
+          "date": "2026-10-05",
+          "value": 21
         }
       ]
     },
@@ -5800,7 +5928,7 @@
         "display": "±0人",
         "direction": "flat",
         "prev_value": 122650000,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -5877,6 +6005,10 @@
         },
         {
           "date": "2026-10-04",
+          "value": 122650000
+        },
+        {
+          "date": "2026-10-05",
           "value": 122650000
         }
       ]
@@ -5894,7 +6026,7 @@
         "display": "+0.0pt",
         "direction": "flat",
         "prev_value": 2.6,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -5971,6 +6103,10 @@
         },
         {
           "date": "2026-10-04",
+          "value": 2.6
+        },
+        {
+          "date": "2026-10-05",
           "value": 2.6
         }
       ]
@@ -5988,7 +6124,7 @@
         "display": "+0.0pt",
         "direction": "flat",
         "prev_value": 1.9,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -6066,6 +6202,10 @@
         {
           "date": "2026-10-04",
           "value": 1.9
+        },
+        {
+          "date": "2026-10-05",
+          "value": 1.9
         }
       ]
     },
@@ -6082,7 +6222,7 @@
         "display": "±0倍",
         "direction": "flat",
         "prev_value": 1.18,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -6155,6 +6295,10 @@
         },
         {
           "date": "2026-10-04",
+          "value": 1.18
+        },
+        {
+          "date": "2026-10-05",
           "value": 1.18
         }
       ]
@@ -6172,7 +6316,7 @@
         "display": "±0人",
         "direction": "flat",
         "prev_value": 1044,
-        "prev_date": "2026-10-03"
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -6245,6 +6389,10 @@
         },
         {
           "date": "2026-10-04",
+          "value": 1044
+        },
+        {
+          "date": "2026-10-05",
           "value": 1044
         }
       ]
@@ -6566,11 +6714,11 @@
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 5.0,
-        "display": "+5.0pt",
-        "direction": "up",
-        "prev_value": 84.0,
-        "prev_date": "2026-10-03"
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
+        "prev_value": 89.0,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -6703,6 +6851,10 @@
         },
         {
           "date": "2026-10-04",
+          "value": 89.0
+        },
+        {
+          "date": "2026-10-05",
           "value": 89.0
         }
       ]
@@ -6858,15 +7010,15 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "8回",
+      "value_display": "7回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3回",
+        "value": -1,
+        "display": "-1回",
         "direction": "down",
-        "prev_value": 11,
-        "prev_date": "2026-10-03"
+        "prev_value": 8,
+        "prev_date": "2026-10-04"
       },
       "points": [
         {
@@ -7000,6 +7152,10 @@
         {
           "date": "2026-10-04",
           "value": 8
+        },
+        {
+          "date": "2026-10-05",
+          "value": 7
         }
       ]
     },
@@ -7139,6 +7295,10 @@
         {
           "date": "2026-10-04",
           "value": 40.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 40.0
         }
       ]
     },
@@ -7147,21 +7307,17 @@
       "name": "東京の日の入り時刻",
       "category": "こよみ",
       "unit": "",
-      "value_display": "17:22",
+      "value_display": "17:20",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1,
         "display": "1分早く",
         "direction": "down",
-        "prev_value": 1043.1,
-        "prev_date": "2026-10-03"
+        "prev_value": 1041.7,
+        "prev_date": "2026-10-04"
       },
       "points": [
-        {
-          "date": "2026-08-06",
-          "value": 1121.2
-        },
         {
           "date": "2026-08-07",
           "value": 1120.2
@@ -7397,6 +7553,10 @@
         {
           "date": "2026-10-04",
           "value": 1041.7
+        },
+        {
+          "date": "2026-10-05",
+          "value": 1040.3
         }
       ]
     },
@@ -7412,14 +7572,10 @@
         "value": 1,
         "display": "1分遅く",
         "direction": "up",
-        "prev_value": 336.9,
-        "prev_date": "2026-10-03"
+        "prev_value": 337.7,
+        "prev_date": "2026-10-04"
       },
       "points": [
-        {
-          "date": "2026-08-06",
-          "value": 292.2
-        },
         {
           "date": "2026-08-07",
           "value": 293.0
@@ -7655,6 +7811,10 @@
         {
           "date": "2026-10-04",
           "value": 337.7
+        },
+        {
+          "date": "2026-10-05",
+          "value": 338.5
         }
       ]
     },
@@ -7663,21 +7823,17 @@
       "name": "月齢",
       "category": "こよみ",
       "unit": "",
-      "value_display": "月齢 22.4",
+      "value_display": "月齢 23.4",
       "change": {
         "type": "absolute",
         "available": true,
         "value": 1.0,
         "display": "+1.0",
         "direction": "up",
-        "prev_value": 21.4,
-        "prev_date": "2026-10-03"
+        "prev_value": 22.4,
+        "prev_date": "2026-10-04"
       },
       "points": [
-        {
-          "date": "2026-08-06",
-          "value": 22.5
-        },
         {
           "date": "2026-08-07",
           "value": 23.5
@@ -7913,6 +8069,10 @@
         {
           "date": "2026-10-04",
           "value": 22.4
+        },
+        {
+          "date": "2026-10-05",
+          "value": 23.4
         }
       ]
     }

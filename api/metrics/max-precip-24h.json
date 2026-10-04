@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-10-04T23:58:10+09:00",
+  "updated_at": "2026-10-05T03:46:21+09:00",
   "summary": {
-    "count": 33,
+    "count": 34,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-04",
+    "last_date": "2026-10-05",
     "min_30d": 37.0,
     "max_30d": 686.5,
-    "avg_30d": 219.8,
-    "record_1st": 528.5,
+    "avg_30d": 205.77,
+    "record_1st": 423.0,
     "all_time_record": false
   },
   "history": [
@@ -151,13 +151,17 @@
     {
       "date": "2026-10-04",
       "value": 61.5
+    },
+    {
+      "date": "2026-10-05",
+      "value": 69.5
     }
   ],
   "latest_detail": {
-    "place": "窪川",
+    "place": "清水",
     "pref": "高知県",
-    "caption": "窪川｜この24時間でいちばん降った",
-    "record_1st": 528.5,
+    "caption": "清水｜この24時間でいちばん降った",
+    "record_1st": 423.0,
     "all_time_record": false
   }
 }
