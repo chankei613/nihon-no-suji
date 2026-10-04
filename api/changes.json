@@ -1,43 +1,24 @@
 {
-  "generated_at": "2026-10-04T10:58:27+09:00",
+  "generated_at": "2026-10-04T17:43:38+09:00",
   "date": "2026-10-04",
   "changes": [
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "7.6℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 6.0,
-        "display": "+6℃",
-        "direction": "up",
-        "prev_value": 1.6,
-        "prev_date": "2026-10-03"
-      },
-      "caption": "夏でもひんやり",
-      "score": 5.11,
-      "z": 5.11,
-      "label": "かなり珍しい変化"
-    },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "7mm",
+      "value_display": "8mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -24.5,
-        "display": "-24.5mm",
+        "value": -23.5,
+        "display": "-23.5mm",
         "direction": "down",
         "prev_value": 31.5,
         "prev_date": "2026-10-03"
       },
-      "caption": "清水｜この1時間でいちばん降った",
-      "score": 2.33,
-      "z": 2.33,
+      "caption": "池川｜この1時間でいちばん降った",
+      "score": 2.17,
+      "z": 2.17,
       "label": "いつもより大きな変化"
     },
     {
@@ -60,23 +41,61 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "6回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -5,
+        "display": "-5回",
+        "direction": "down",
+        "prev_value": 11,
+        "prev_date": "2026-10-03"
+      },
+      "caption": "最大は宮古島近海の震度2",
+      "score": 1.67,
+      "z": 1.67,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "value_display": "1001.7hPa",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4.8,
+        "display": "-4.8hPa",
+        "direction": "down",
+        "prev_value": 1006.5,
+        "prev_date": "2026-10-03"
+      },
+      "caption": "父島｜全国でいちばん気圧が低い",
+      "score": 1.43,
+      "z": 1.43,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "90%",
+      "value_display": "89%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 6.0,
-        "display": "+6.0pt",
+        "value": 5.0,
+        "display": "+5.0pt",
         "direction": "up",
         "prev_value": 84.0,
         "prev_date": "2026-10-03"
       },
       "caption": "ピークは18:00〜19:00の見込み",
-      "score": 2.0,
-      "z": 2.0,
-      "label": "いつもより大きな変化"
+      "score": 1.33,
+      "z": 1.33,
+      "label": "通常の範囲"
     },
     {
       "slug": "cold-points-0",
@@ -117,22 +136,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "30.7℃",
+      "value_display": "13.9m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.2,
-        "display": "-1.2℃",
-        "direction": "down",
-        "prev_value": 31.9,
+        "value": 2.7,
+        "display": "+2.7m/s",
+        "direction": "up",
+        "prev_value": 11.2,
         "prev_date": "2026-10-03"
       },
-      "caption": "波照間｜きょう日本でいちばん暑い",
-      "score": 0.45,
-      "z": 0.45,
+      "caption": "室戸岬｜全国でいちばん風が強い（10分平均）",
+      "score": 0.71,
+      "z": 0.71,
       "label": "通常の範囲"
     },
     {
@@ -155,22 +174,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "1004.2hPa",
+      "value_display": "143地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.3,
-        "display": "-2.3hPa",
-        "direction": "down",
-        "prev_value": 1006.5,
+        "value": 104,
+        "display": "+104地点",
+        "direction": "up",
+        "prev_value": 39,
         "prev_date": "2026-10-03"
       },
-      "caption": "父島｜全国でいちばん気圧が低い",
-      "score": 0.07,
-      "z": 0.07,
+      "caption": "きょう雨が降った地点",
+      "score": 0.15,
+      "z": 0.15,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "32.9℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
+        "prev_value": 31.9,
+        "prev_date": "2026-10-03"
+      },
+      "caption": "波照間｜きょう日本でいちばん暑い",
+      "score": 0.09,
+      "z": 0.09,
       "label": "通常の範囲"
     },
     {
@@ -196,38 +234,38 @@
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "21℃",
+      "value_display": "22.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.9,
-        "display": "-2.9℃",
+        "value": -1.1,
+        "display": "-1.1℃",
         "direction": "down",
         "prev_value": 23.9,
         "prev_date": "2026-10-03"
       },
       "caption": "きょうの東京の最高気温",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.42,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "39mm",
+      "value_display": "44mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0mm",
-        "direction": "flat",
+        "value": 5.0,
+        "display": "+5mm",
+        "direction": "up",
         "prev_value": 39.0,
         "prev_date": "2026-10-03"
       },
-      "caption": "西表島｜この24時間でいちばん降った",
+      "caption": "窪川｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -1.21,
+      "z": -1.13,
       "label": "通常の範囲"
     },
     {
@@ -288,41 +326,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "63地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 24,
-        "display": "+24地点",
-        "direction": "up",
-        "prev_value": 39,
-        "prev_date": "2026-10-03"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "13.5mm",
+      "value_display": "18mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -21.0,
-        "display": "-21mm",
+        "value": -16.5,
+        "display": "-16.5mm",
         "direction": "down",
         "prev_value": 34.5,
         "prev_date": "2026-10-03"
       },
-      "caption": "大栃｜この3時間でいちばん激しく降った",
+      "caption": "宇和島｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.44,
+      "z": -0.65,
       "label": "通常の範囲"
     },
     {
@@ -348,19 +367,19 @@
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "22℃",
+      "value_display": "23℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
-        "direction": "down",
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
         "prev_value": 23.0,
         "prev_date": "2026-10-03"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": 0.0,
-      "z": -2.0,
+      "z": -3.0,
       "label": "通常の範囲"
     },
     {
@@ -421,25 +440,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "12.3m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.1,
-        "display": "+1.1m/s",
-        "direction": "up",
-        "prev_value": 11.2,
-        "prev_date": "2026-10-03"
-      },
-      "caption": "室戸岬｜全国でいちばん風が強い（10分平均）",
-      "score": 0.0,
-      "z": -0.43,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
@@ -456,6 +456,25 @@
       "caption": "富士山｜全国でいちばん空気が乾いている",
       "score": 0.0,
       "z": -1.2,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "1.4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -0.2,
+        "display": "-0.2℃",
+        "direction": "down",
+        "prev_value": 1.6,
+        "prev_date": "2026-10-03"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.0,
+      "z": -1.37,
       "label": "通常の範囲"
     },
     {
@@ -538,17 +557,17 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "0市町村",
+      "value_display": "1市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0市町村",
-        "direction": "flat",
+        "value": 1,
+        "display": "+1市町村",
+        "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-10-03"
       },
-      "caption": "いま気象警報は出ていない",
+      "caption": "1市町村に気象警報",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -798,25 +817,6 @@
       "caption": "きょうのピークで電力の34%を太陽光がまかなった",
       "score": 0.0,
       "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "10回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1,
-        "display": "-1回",
-        "direction": "down",
-        "prev_value": 11,
-        "prev_date": "2026-10-03"
-      },
-      "caption": "最大は宮古島近海の震度2",
-      "score": 0.0,
-      "z": -0.67,
       "label": "通常の範囲"
     },
     {

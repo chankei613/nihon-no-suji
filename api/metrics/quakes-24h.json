@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-04T10:58:27+09:00",
+  "updated_at": "2026-10-04T17:43:38+09:00",
   "summary": {
     "count": 33,
     "first_date": "2026-09-02",
     "last_date": "2026-10-04",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.7
+    "avg_30d": 6.57
   },
   "history": [
     {
@@ -148,13 +148,13 @@
     },
     {
       "date": "2026-10-04",
-      "value": 10
+      "value": 6
     }
   ],
   "latest_detail": {
     "caption": "最大は宮古島近海の震度2",
     "window_hours": 24,
-    "max_magnitude": 4.5,
+    "max_magnitude": 3.9,
     "strongest": {
       "time": "2026-10-04T08:45:00+09:00",
       "scale": 20,
@@ -163,11 +163,11 @@
       "depth": 50
     },
     "latest": {
-      "time": "2026-10-04T09:52:00+09:00",
+      "time": "2026-10-04T13:19:00+09:00",
       "scale": 10,
-      "name": "石川県能登地方",
-      "magnitude": 2.9,
-      "depth": 10
+      "name": "伊豆大島近海",
+      "magnitude": 2.1,
+      "depth": 0
     },
     "capped": false
   }
