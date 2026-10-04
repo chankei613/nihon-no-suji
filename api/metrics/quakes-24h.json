@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-04T06:43:11+09:00",
+  "updated_at": "2026-10-04T10:58:27+09:00",
   "summary": {
     "count": 33,
     "first_date": "2026-09-02",
     "last_date": "2026-10-04",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.63
+    "avg_30d": 6.7
   },
   "history": [
     {
@@ -148,26 +148,26 @@
     },
     {
       "date": "2026-10-04",
-      "value": 8
+      "value": 10
     }
   ],
   "latest_detail": {
-    "caption": "最大は熊本県天草・芦北地方の震度2",
+    "caption": "最大は宮古島近海の震度2",
     "window_hours": 24,
     "max_magnitude": 4.5,
     "strongest": {
-      "time": "2026-10-03T13:26:00+09:00",
+      "time": "2026-10-04T08:45:00+09:00",
       "scale": 20,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 3.5,
-      "depth": 0
+      "name": "宮古島近海",
+      "magnitude": 3.9,
+      "depth": 50
     },
     "latest": {
-      "time": "2026-10-04T03:40:00+09:00",
+      "time": "2026-10-04T09:52:00+09:00",
       "scale": 10,
-      "name": "宮崎県北部平野部",
-      "magnitude": 2.8,
-      "depth": 60
+      "name": "石川県能登地方",
+      "magnitude": 2.9,
+      "depth": 10
     },
     "capped": false
   }
