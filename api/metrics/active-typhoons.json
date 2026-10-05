@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-10-05T07:29:33+09:00",
+  "updated_at": "2026-10-05T10:12:08+09:00",
   "summary": {
     "count": 33,
     "first_date": "2026-09-03",
     "last_date": "2026-10-05",
     "min_30d": 0,
     "max_30d": 2,
-    "avg_30d": 0.67
+    "avg_30d": 0.7
   },
   "history": [
     {
@@ -148,21 +148,30 @@
     },
     {
       "date": "2026-10-05",
-      "value": 1
+      "value": 2
     }
   ],
   "latest_detail": {
     "typhoons": [
+      {
+        "number": "2628",
+        "name": "ノロ",
+        "category": "TY",
+        "pressure": "960",
+        "location": "ミッドウェー諸島近海",
+        "course": "西",
+        "typhoon_number": "2628"
+      },
       {
         "number": "2627",
         "name": "チョーイワン",
         "category": "TY",
         "pressure": "925",
         "location": "小笠原近海",
-        "course": "北",
+        "course": "北北西",
         "typhoon_number": "2627"
       }
     ],
-    "caption": "台風27号「チョーイワン」が小笠原近海"
+    "caption": "台風28・27号が発生中"
   }
 }
