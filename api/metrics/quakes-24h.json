@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-05T16:39:00+09:00",
+  "updated_at": "2026-10-06T02:22:01+09:00",
   "summary": {
-    "count": 34,
+    "count": 35,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-05",
+    "last_date": "2026-10-06",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.73
+    "avg_30d": 6.83
   },
   "history": [
     {
@@ -153,25 +153,29 @@
     {
       "date": "2026-10-05",
       "value": 7
+    },
+    {
+      "date": "2026-10-06",
+      "value": 8
     }
   ],
   "latest_detail": {
-    "caption": "最大はトカラ列島近海の震度1",
+    "caption": "最大は石垣島北西沖の震度1",
     "window_hours": 24,
-    "max_magnitude": 3.8,
+    "max_magnitude": 4.6,
     "strongest": {
-      "time": "2026-10-05T08:39:00+09:00",
+      "time": "2026-10-05T22:31:00+09:00",
       "scale": 10,
-      "name": "トカラ列島近海",
-      "magnitude": 3.8,
-      "depth": 90
+      "name": "石垣島北西沖",
+      "magnitude": 4.6,
+      "depth": 150
     },
     "latest": {
-      "time": "2026-10-05T12:39:00+09:00",
+      "time": "2026-10-05T22:31:00+09:00",
       "scale": 10,
-      "name": "鹿児島県薩摩地方",
-      "magnitude": 2,
-      "depth": 0
+      "name": "石垣島北西沖",
+      "magnitude": 4.6,
+      "depth": 150
     },
     "capped": false
   }
