@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-06T08:20:50+09:00",
+  "updated_at": "2026-10-06T12:18:07+09:00",
   "summary": {
     "count": 35,
     "first_date": "2026-09-02",
     "last_date": "2026-10-06",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.77
+    "avg_30d": 6.73
   },
   "history": [
     {
@@ -156,7 +156,7 @@
     },
     {
       "date": "2026-10-06",
-      "value": 6
+      "value": 5
     }
   ],
   "latest_detail": {
@@ -171,11 +171,11 @@
       "depth": 150
     },
     "latest": {
-      "time": "2026-10-05T22:31:00+09:00",
+      "time": "2026-10-06T10:48:00+09:00",
       "scale": 10,
-      "name": "石垣島北西沖",
-      "magnitude": 4.6,
-      "depth": 150
+      "name": "浦河沖",
+      "magnitude": 3.6,
+      "depth": 70
     },
     "capped": false
   }
