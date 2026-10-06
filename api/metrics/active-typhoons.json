@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-10-06T19:44:32+09:00",
+  "updated_at": "2026-10-07T02:23:50+09:00",
   "summary": {
-    "count": 34,
+    "count": 35,
     "first_date": "2026-09-03",
-    "last_date": "2026-10-06",
+    "last_date": "2026-10-07",
     "min_30d": 0,
     "max_30d": 3,
-    "avg_30d": 0.8
+    "avg_30d": 0.9
   },
   "history": [
     {
@@ -153,6 +153,10 @@
     {
       "date": "2026-10-06",
       "value": 3
+    },
+    {
+      "date": "2026-10-07",
+      "value": 3
     }
   ],
   "latest_detail": {
@@ -161,16 +165,16 @@
         "number": "2629",
         "name": "コグマ",
         "category": "TS",
-        "pressure": "998",
+        "pressure": "996",
         "location": "マーシャル諸島",
-        "course": "北西",
+        "course": "西北西",
         "typhoon_number": "2629"
       },
       {
         "number": "2628",
         "name": "ノロ",
         "category": "TY",
-        "pressure": "965",
+        "pressure": "960",
         "location": "ウェーク島近海",
         "course": "西",
         "typhoon_number": "2628"
@@ -179,7 +183,7 @@
         "number": "2627",
         "name": "チョーイワン",
         "category": "TY",
-        "pressure": "965",
+        "pressure": "970",
         "location": "日本の東",
         "course": "北北東",
         "typhoon_number": "2627"
