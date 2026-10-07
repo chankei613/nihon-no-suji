@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-10-07T18:11:17+09:00",
+  "updated_at": "2026-10-08T07:14:44+09:00",
   "summary": {
-    "count": 35,
+    "count": 36,
     "first_date": "2026-09-03",
-    "last_date": "2026-10-07",
+    "last_date": "2026-10-08",
     "min_30d": 0,
     "max_30d": 3,
-    "avg_30d": 0.9
+    "avg_30d": 0.97
   },
   "history": [
     {
@@ -157,6 +157,10 @@
     {
       "date": "2026-10-07",
       "value": 3
+    },
+    {
+      "date": "2026-10-08",
+      "value": 2
     }
   ],
   "latest_detail": {
@@ -167,28 +171,19 @@
         "category": "STS",
         "pressure": "990",
         "location": "ウェーク島近海",
-        "course": "西",
+        "course": "北北西",
         "typhoon_number": "2629"
       },
       {
         "number": "2628",
         "name": "ノロ",
-        "category": "TY",
-        "pressure": "975",
-        "location": "ウェーク島近海",
+        "category": "STS",
+        "pressure": "985",
+        "location": "南鳥島近海",
         "course": "西",
         "typhoon_number": "2628"
-      },
-      {
-        "number": "2627",
-        "name": "チョーイワン",
-        "category": "STS",
-        "pressure": "965",
-        "location": "日本のはるか東",
-        "course": "北東",
-        "typhoon_number": "2627"
       }
     ],
-    "caption": "台風29・28・27号が発生中"
+    "caption": "台風29・28号が発生中"
   }
 }

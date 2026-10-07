@@ -8,14 +8,14 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-07T18:11:17+09:00",
+  "updated_at": "2026-10-08T07:14:44+09:00",
   "summary": {
-    "count": 35,
+    "count": 36,
     "first_date": "2026-09-03",
-    "last_date": "2026-10-07",
-    "min_30d": 20.8,
+    "last_date": "2026-10-08",
+    "min_30d": 18.4,
     "max_30d": 32.2,
-    "avg_30d": 25.59,
+    "avg_30d": 25.19,
     "record_1st": 39.5,
     "year_extreme": false,
     "all_time_record": false
@@ -160,14 +160,16 @@
     {
       "date": "2026-10-07",
       "value": 26.6
+    },
+    {
+      "date": "2026-10-08",
+      "value": 18.4
     }
   ],
   "latest_detail": {
     "place": "東京",
     "pref": "東京都",
     "caption": "きょうの東京の最高気温",
-    "normal_diff": 3.1,
-    "station_prev_diff": -0.8,
     "record_1st": 39.5,
     "year_extreme": false,
     "all_time_record": false

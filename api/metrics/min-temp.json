@@ -8,16 +8,16 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-07T18:11:17+09:00",
+  "updated_at": "2026-10-08T07:14:44+09:00",
   "summary": {
-    "count": 36,
+    "count": 37,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-07",
+    "last_date": "2026-10-08",
     "min_30d": -0.8,
     "max_30d": 11.7,
-    "avg_30d": 4.19,
-    "record_1st": -30.8,
-    "year_extreme": false,
+    "avg_30d": 3.97,
+    "record_1st": -26.0,
+    "year_extreme": true,
     "all_time_record": false
   },
   "history": [
@@ -164,16 +164,20 @@
     {
       "date": "2026-10-07",
       "value": 1.3
+    },
+    {
+      "date": "2026-10-08",
+      "value": -0.6
     }
   ],
   "latest_detail": {
-    "place": "ぬかびら源泉郷",
-    "pref": "北海道十勝地方",
-    "caption": "ぬかびら源泉郷｜きょう日本でいちばん寒い",
-    "normal_diff": -1.6,
-    "station_prev_diff": -2.7,
-    "record_1st": -30.8,
-    "year_extreme": false,
+    "place": "野辺山",
+    "pref": "長野県",
+    "caption": "野辺山｜きょう日本でいちばん寒い",
+    "normal_diff": -7.1,
+    "station_prev_diff": -1.9,
+    "record_1st": -26.0,
+    "year_extreme": true,
     "all_time_record": false
   }
 }

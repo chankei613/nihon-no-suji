@@ -8,14 +8,14 @@
     "name": "気象庁 アメダス実況（東京）",
     "url": "https://www.jma.go.jp/bosai/amedas/"
   },
-  "updated_at": "2026-10-07T18:11:17+09:00",
+  "updated_at": "2026-10-08T07:14:44+09:00",
   "summary": {
-    "count": 22,
+    "count": 23,
     "first_date": "2026-09-16",
-    "last_date": "2026-10-07",
+    "last_date": "2026-10-08",
     "min_30d": 0,
     "max_30d": 120,
-    "avg_30d": 31.36
+    "avg_30d": 31.83
   },
   "history": [
     {
@@ -105,11 +105,15 @@
     {
       "date": "2026-10-07",
       "value": 0
+    },
+    {
+      "date": "2026-10-08",
+      "value": 42
     }
   ],
   "latest_detail": {
-    "total_minutes": 0.0,
-    "last_observed_at": "2026-10-07T18:00:00+09:00",
-    "caption": "きょうはまだ日照なし"
+    "total_minutes": 42.0,
+    "last_observed_at": "2026-10-08T07:00:00+09:00",
+    "caption": "きょうの東京の日照時間（ここまでの積算）"
   }
 }
