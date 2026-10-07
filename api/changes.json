@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-10-07T06:52:33+09:00",
+  "generated_at": "2026-10-07T10:46:54+09:00",
   "date": "2026-10-07",
   "changes": [
-    {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "63市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 39,
-        "display": "+39市町村",
-        "direction": "up",
-        "prev_value": 24,
-        "prev_date": "2026-10-06"
-      },
-      "caption": "63市町村に気象警報",
-      "score": 38.0,
-      "z": 38.0,
-      "label": "かなり珍しい変化"
-    },
     {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
@@ -41,22 +22,22 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "27.7℃",
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "29市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.1,
-        "display": "-4.1℃",
-        "direction": "down",
-        "prev_value": 31.8,
+        "value": 5,
+        "display": "+5市町村",
+        "direction": "up",
+        "prev_value": 24,
         "prev_date": "2026-10-06"
       },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 6.4,
-      "z": 6.4,
+      "caption": "29市町村に気象警報",
+      "score": 4.0,
+      "z": 4.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -117,6 +98,25 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "29.9℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.9,
+        "display": "-1.9℃",
+        "direction": "down",
+        "prev_value": 31.8,
+        "prev_date": "2026-10-06"
+      },
+      "caption": "父島｜きょう日本でいちばん暑い",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
@@ -134,25 +134,6 @@
       "score": 1.92,
       "z": 1.92,
       "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "4%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -25.0,
-        "display": "-25.0pt",
-        "direction": "down",
-        "prev_value": 29.0,
-        "prev_date": "2026-10-06"
-      },
-      "caption": "きょうのピークで電力の4%を太陽光がまかなった",
-      "score": 1.35,
-      "z": 1.35,
-      "label": "通常の範囲"
     },
     {
       "slug": "cold-points-0",
@@ -215,19 +196,38 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "90%",
+      "value_display": "89%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 5.0,
-        "display": "+5.0pt",
+        "value": 4.0,
+        "display": "+4.0pt",
         "direction": "up",
         "prev_value": 85.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "ピークは16:00〜17:00の見込み",
+      "caption": "ピークは15:00〜16:00の見込み",
       "score": 1.0,
       "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "0.4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.2,
+        "display": "-2.2℃",
+        "direction": "down",
+        "prev_value": 2.6,
+        "prev_date": "2026-10-06"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.89,
+      "z": 0.89,
       "label": "通常の範囲"
     },
     {
@@ -247,44 +247,6 @@
       "caption": "きょう一度も25℃を下回らなかった地点（熱帯夜）",
       "score": 0.75,
       "z": 0.75,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "37%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 10.0,
-        "display": "+10.0pt",
-        "direction": "up",
-        "prev_value": 27.0,
-        "prev_date": "2026-10-06"
-      },
-      "caption": "北茨城｜全国でいちばん空気が乾いている",
-      "score": 0.6,
-      "z": 0.6,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "usd-jpy",
-      "name": "ドル円レート",
-      "category": "経済",
-      "value_display": "157.58円",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -0.81,
-        "display": "-0.81円",
-        "direction": "down",
-        "prev_value": 158.39,
-        "prev_date": "2026-10-01"
-      },
-      "caption": "1ドル＝157.58円（10月2日）",
-      "score": 0.31,
-      "z": 0.31,
       "label": "通常の範囲"
     },
     {
@@ -329,19 +291,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2地点",
+        "value": -1,
+        "display": "-1地点",
         "direction": "down",
         "prev_value": 2,
         "prev_date": "2026-10-06"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -1.33,
+      "z": -1.41,
       "label": "通常の範囲"
     },
     {
@@ -367,19 +329,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "6地点",
+      "value_display": "8地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -81,
-        "display": "-81地点",
+        "value": -79,
+        "display": "-79地点",
         "direction": "down",
         "prev_value": 87,
         "prev_date": "2026-10-06"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.02,
       "label": "通常の範囲"
     },
     {
@@ -405,19 +367,19 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "5mm",
+      "value_display": "5.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -29.0,
-        "display": "-29mm",
+        "value": -28.5,
+        "display": "-28.5mm",
         "direction": "down",
         "prev_value": 34.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "大田｜この3時間でいちばん激しく降った",
+      "caption": "斐川｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.02,
+      "z": -0.04,
       "label": "通常の範囲"
     },
     {
@@ -462,19 +424,19 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "26℃",
+      "value_display": "27℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 26.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "10月9日ごろがいちばん暑くなりそう",
+      "caption": "10月11日ごろがいちばん暑くなりそう",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -516,22 +478,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "3℃",
+      "value_display": "29%",
       "change": {
-        "type": "absolute",
+        "type": "percentage_point",
         "available": true,
-        "value": 0.4,
-        "display": "+0.4℃",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
-        "prev_value": 2.6,
+        "prev_value": 27.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "夏でもひんやり",
+      "caption": "豊橋｜全国でいちばん空気が乾いている",
       "score": 0.0,
-      "z": -1.12,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -551,6 +513,25 @@
       "caption": "レギュラーガソリン全国平均（9月28日調査）",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "usd-jpy",
+      "name": "ドル円レート",
+      "category": "経済",
+      "value_display": "157.66円",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.08,
+        "display": "+0.08円",
+        "direction": "up",
+        "prev_value": 157.58,
+        "prev_date": "2026-10-02"
+      },
+      "caption": "1ドル＝157.66円（10月5日）",
+      "score": 0.0,
+      "z": -1.88,
       "label": "通常の範囲"
     },
     {
@@ -586,7 +567,7 @@
         "prev_value": 3,
         "prev_date": "2026-10-06"
       },
-      "caption": "台風27・29・28号が発生中",
+      "caption": "台風29・28・27号が発生中",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -801,15 +782,34 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "35%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 6.0,
+        "display": "+6.0pt",
+        "direction": "up",
+        "prev_value": 29.0,
+        "prev_date": "2026-10-06"
+      },
+      "caption": "きょうのピークで電力の35%を太陽光がまかなった",
+      "score": 0.0,
+      "z": -0.88,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "6回",
+      "value_display": "7回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
+        "value": 3,
+        "display": "+3回",
         "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-10-06"

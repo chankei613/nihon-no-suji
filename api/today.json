@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:52:33+09:00",
+  "generated_at": "2026-10-07T10:46:54+09:00",
   "date": "2026-10-07",
   "metrics": [
     {
@@ -7,23 +7,23 @@
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 27.7,
-      "value_display": "27.7℃",
-      "observed_at": "2026-10-07T01:00:00+09:00",
+      "value": 29.9,
+      "value_display": "29.9℃",
+      "observed_at": "2026-10-07T09:00:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.1,
-        "display": "-4.1℃",
+        "value": -1.9,
+        "display": "-1.9℃",
         "direction": "down",
         "prev_value": 31.8,
         "prev_date": "2026-10-06"
       },
       "caption": "父島｜きょう日本でいちばん暑い",
       "highlight": true,
-      "highlight_reason": "かなり珍しい変化",
+      "highlight_reason": "いつもより大きな変化",
       "detail": {
         "place": "父島",
         "pref": "東京都",
@@ -180,16 +180,16 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 0,
-      "value_display": "0地点",
-      "observed_at": "2026-10-07T02:10:00+09:00",
+      "value": 1,
+      "value_display": "1地点",
+      "observed_at": "2026-10-07T10:30:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2地点",
+        "value": -1,
+        "display": "-1地点",
         "direction": "down",
         "prev_value": 2,
         "prev_date": "2026-10-06"
@@ -198,8 +198,10 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "station_ids": [],
-        "now": 0,
+        "station_ids": [
+          "44356"
+        ],
+        "now": 1,
         "caption": "きょう30℃以上になった地点"
       },
       "source": {
@@ -3958,7 +3960,7 @@
       "unit": "",
       "value": 0,
       "value_display": "0時間00分",
-      "observed_at": "2026-10-07T06:40:00+09:00",
+      "observed_at": "2026-10-07T10:30:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
@@ -3975,7 +3977,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 0.0,
-        "last_observed_at": "2026-10-07T06:40:00+09:00",
+        "last_observed_at": "2026-10-07T10:30:00+09:00",
         "caption": "きょうはまだ日照なし"
       },
       "source": {
@@ -3988,16 +3990,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 6,
-      "value_display": "6地点",
-      "observed_at": "2026-10-07T06:40:00+09:00",
+      "value": 8,
+      "value_display": "8地点",
+      "observed_at": "2026-10-07T10:30:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -81,
-        "display": "-81地点",
+        "value": -79,
+        "display": "-79地点",
         "direction": "down",
         "prev_value": 87,
         "prev_date": "2026-10-06"
@@ -4008,13 +4010,15 @@
       "detail": {
         "station_ids": [
           "35056",
+          "50536",
+          "54541",
           "54836",
           "67136",
           "68156",
           "68246",
           "68436"
         ],
-        "now": 4,
+        "now": 2,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4058,26 +4062,26 @@
       "name": "全国最大3時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value": 5.0,
-      "value_display": "5mm",
-      "observed_at": "2026-10-07T06:40:00+09:00",
+      "value": 5.5,
+      "value_display": "5.5mm",
+      "observed_at": "2026-10-07T10:30:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -29.0,
-        "display": "-29mm",
+        "value": -28.5,
+        "display": "-28.5mm",
         "direction": "down",
         "prev_value": 34.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "大田｜この3時間でいちばん激しく降った",
+      "caption": "斐川｜この3時間でいちばん激しく降った",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "大田",
-        "caption": "大田｜この3時間でいちばん激しく降った"
+        "place": "斐川",
+        "caption": "斐川｜この3時間でいちばん激しく降った"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4189,26 +4193,26 @@
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 26.0,
-      "value_display": "26℃",
+      "value": 27.0,
+      "value_display": "27℃",
       "observed_at": "2026-10-07T05:00:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 26.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "10月9日ごろがいちばん暑くなりそう",
+      "caption": "10月11日ごろがいちばん暑くなりそう",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "for_date": "2026-10-09",
-        "caption": "10月9日ごろがいちばん暑くなりそう"
+        "for_date": "2026-10-11",
+        "caption": "10月11日ごろがいちばん暑くなりそう"
       },
       "source": {
         "name": "気象庁 天気予報（週間）",
@@ -4313,26 +4317,26 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value": 37.0,
-      "value_display": "37%",
-      "observed_at": "2026-10-07T06:40:00+09:00",
+      "value": 29.0,
+      "value_display": "29%",
+      "observed_at": "2026-10-07T10:30:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 10.0,
-        "display": "+10.0pt",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
         "prev_value": 27.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "北茨城｜全国でいちばん空気が乾いている",
+      "caption": "豊橋｜全国でいちばん空気が乾いている",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "北茨城",
-        "caption": "北茨城｜全国でいちばん空気が乾いている"
+        "place": "豊橋",
+        "caption": "豊橋｜全国でいちばん空気が乾いている"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4344,17 +4348,17 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 3.0,
-      "value_display": "3℃",
-      "observed_at": "2026-10-07T06:40:00+09:00",
+      "value": 0.4,
+      "value_display": "0.4℃",
+      "observed_at": "2026-10-07T10:30:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.4,
-        "display": "+0.4℃",
-        "direction": "up",
+        "value": -2.2,
+        "display": "-2.2℃",
+        "direction": "down",
         "prev_value": 2.6,
         "prev_date": "2026-10-06"
       },
@@ -4437,27 +4441,27 @@
       "name": "ドル円レート",
       "category": "経済",
       "unit": "円",
-      "value": 157.58,
-      "value_display": "157.58円",
-      "observed_at": "2026-10-02T17:00:00+09:00",
-      "as_of": "2026-10-02",
+      "value": 157.66,
+      "value_display": "157.66円",
+      "observed_at": "2026-10-05T17:00:00+09:00",
+      "as_of": "2026-10-05",
       "stale": true,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.81,
-        "display": "-0.81円",
-        "direction": "down",
-        "prev_value": 158.39,
-        "prev_date": "2026-10-01"
+        "value": 0.08,
+        "display": "+0.08円",
+        "direction": "up",
+        "prev_value": 157.58,
+        "prev_date": "2026-10-02"
       },
-      "caption": "1ドル＝157.58円（10月2日）",
+      "caption": "1ドル＝157.66円（10月5日）",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "market": "東京市場・17時時点",
-        "as_of": "2026/10/02",
-        "caption": "1ドル＝157.58円（10月2日）"
+        "as_of": "2026/10/05",
+        "caption": "1ドル＝157.66円（10月5日）"
       },
       "source": {
         "name": "日本銀行 時系列統計データ（東京市場・17時時点）",
@@ -4501,7 +4505,7 @@
       "unit": "個",
       "value": 3,
       "value_display": "3個",
-      "observed_at": "2026-10-07T06:51:00+09:00",
+      "observed_at": "2026-10-07T10:45:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
@@ -4513,40 +4517,40 @@
         "prev_value": 3,
         "prev_date": "2026-10-06"
       },
-      "caption": "台風27・29・28号が発生中",
+      "caption": "台風29・28・27号が発生中",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "typhoons": [
           {
-            "number": "2627",
-            "name": "チョーイワン",
-            "category": "TY",
-            "pressure": "970",
-            "location": "日本の東",
-            "course": "北東",
-            "typhoon_number": "2627"
-          },
-          {
             "number": "2629",
             "name": "コグマ",
-            "category": "TS",
-            "pressure": "994",
-            "location": "マーシャル諸島",
-            "course": "西北西",
+            "category": "STS",
+            "pressure": "990",
+            "location": "ウェーク島近海",
+            "course": "西",
             "typhoon_number": "2629"
           },
           {
             "number": "2628",
             "name": "ノロ",
             "category": "TY",
-            "pressure": "970",
+            "pressure": "975",
             "location": "ウェーク島近海",
             "course": "西",
             "typhoon_number": "2628"
+          },
+          {
+            "number": "2627",
+            "name": "チョーイワン",
+            "category": "STS",
+            "pressure": "975",
+            "location": "日本の東",
+            "course": "北北東",
+            "typhoon_number": "2627"
           }
         ],
-        "caption": "台風27・29・28号が発生中"
+        "caption": "台風29・28・27号が発生中"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -4558,26 +4562,26 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 63,
-      "value_display": "63市町村",
-      "observed_at": "2026-10-07T06:14:08+09:00",
+      "value": 29,
+      "value_display": "29市町村",
+      "observed_at": "2026-10-07T10:27:40+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 39,
-        "display": "+39市町村",
+        "value": 5,
+        "display": "+5市町村",
         "direction": "up",
         "prev_value": 24,
         "prev_date": "2026-10-06"
       },
-      "caption": "63市町村に気象警報",
+      "caption": "29市町村に気象警報",
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
         "emergency_count": 0,
-        "caption": "63市町村に気象警報"
+        "caption": "29市町村に気象警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -4591,7 +4595,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-07T06:14:08+09:00",
+      "observed_at": "2026-10-07T10:27:40+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
@@ -4621,7 +4625,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-07T06:14:08+09:00",
+      "observed_at": "2026-10-07T10:27:40+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
@@ -4651,7 +4655,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-07T06:14:08+09:00",
+      "observed_at": "2026-10-07T10:27:40+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
@@ -4681,7 +4685,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-07T06:51:36+09:00",
+      "observed_at": "2026-10-07T10:45:58+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
@@ -4754,7 +4758,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-07T06:52:20+09:00",
+      "observed_at": "2026-10-07T10:46:43+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
@@ -4784,7 +4788,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-07T06:52:20+09:00",
+      "observed_at": "2026-10-07T10:46:43+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
@@ -5275,33 +5279,33 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value": 90.0,
-      "value_display": "90%",
-      "observed_at": "2026-10-07T06:40:00+09:00",
+      "value": 89.0,
+      "value_display": "89%",
+      "observed_at": "2026-10-07T10:10:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 5.0,
-        "display": "+5.0pt",
+        "value": 4.0,
+        "display": "+4.0pt",
         "direction": "up",
         "prev_value": 85.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "ピークは16:00〜17:00の見込み",
+      "caption": "ピークは15:00〜16:00の見込み",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "reserve_rate": 11.0,
-        "peak_supply_10MW": 3618.0,
-        "forecast_peak_demand_10MW": 3263.0,
-        "current_demand_10MW": 2311.0,
-        "current_demand_time": "5:00",
-        "current_usage_rate": 88.0,
-        "peak_timeband": "16:00〜17:00",
+        "peak_supply_10MW": 3613.0,
+        "forecast_peak_demand_10MW": 3250.0,
+        "current_demand_10MW": 3058.0,
+        "current_demand_time": "9:00",
+        "current_usage_rate": 84.0,
+        "peak_timeband": "15:00〜16:00",
         "area": "東京",
-        "caption": "ピークは16:00〜17:00の見込み"
+        "caption": "ピークは15:00〜16:00の見込み"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -5313,27 +5317,27 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value": 4.0,
-      "value_display": "4%",
-      "observed_at": "2026-10-07T06:40:00+09:00",
+      "value": 35.0,
+      "value_display": "35%",
+      "observed_at": "2026-10-07T10:10:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -25.0,
-        "display": "-25.0pt",
-        "direction": "down",
+        "value": 6.0,
+        "display": "+6.0pt",
+        "direction": "up",
         "prev_value": 29.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "きょうのピークで電力の4%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の35%を太陽光がまかなった",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "peak_output_10MW": 106.0,
+        "peak_output_10MW": 1110.0,
         "area": "東京",
-        "caption": "きょうのピークで電力の4%を太陽光がまかなった"
+        "caption": "きょうのピークで電力の35%を太陽光がまかなった"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -5345,16 +5349,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 6,
-      "value_display": "6回",
-      "observed_at": "2026-10-07T06:52:00+09:00",
+      "value": 7,
+      "value_display": "7回",
+      "observed_at": "2026-10-07T10:46:00+09:00",
       "as_of": "2026-10-07",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
+        "value": 3,
+        "display": "+3回",
         "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-10-06"
@@ -5374,11 +5378,11 @@
           "depth": 10
         },
         "latest": {
-          "time": "2026-10-07T02:47:00+09:00",
+          "time": "2026-10-07T09:22:00+09:00",
           "scale": 20,
-          "name": "北海道東方沖",
-          "magnitude": 4.6,
-          "depth": 10
+          "name": "福島県沖",
+          "magnitude": 4.1,
+          "depth": 60
         },
         "capped": false
       },
