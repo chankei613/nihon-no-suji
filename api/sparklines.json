@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-07T10:46:54+09:00",
+  "generated_at": "2026-10-07T18:11:17+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "29.9℃",
+      "value_display": "30.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.9,
-        "display": "-1.9℃",
+        "value": -1.6,
+        "display": "-1.6℃",
         "direction": "down",
         "prev_value": 31.8,
         "prev_date": "2026-10-06"
@@ -159,7 +159,7 @@
         },
         {
           "date": "2026-10-07",
-          "value": 29.9
+          "value": 30.2
         }
       ]
     },
@@ -330,12 +330,12 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "21.3℃",
+      "value_display": "26.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.1,
-        "display": "-6.1℃",
+        "value": -0.8,
+        "display": "-0.8℃",
         "direction": "down",
         "prev_value": 27.4,
         "prev_date": "2026-10-06"
@@ -479,7 +479,7 @@
         },
         {
           "date": "2026-10-07",
-          "value": 21.3
+          "value": 26.6
         }
       ]
     },
@@ -3112,12 +3112,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "0.4℃",
+      "value_display": "-4.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.2,
-        "display": "-2.2℃",
+        "value": -7.5,
+        "display": "-7.5℃",
         "direction": "down",
         "prev_value": 2.6,
         "prev_date": "2026-10-06"
@@ -3261,7 +3261,7 @@
         },
         {
           "date": "2026-10-07",
-          "value": 0.4
+          "value": -4.9
         }
       ]
     },
@@ -4104,13 +4104,13 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "29市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5,
-        "display": "+5市町村",
-        "direction": "up",
+        "value": -24,
+        "display": "-24市町村",
+        "direction": "down",
         "prev_value": 24,
         "prev_date": "2026-10-06"
       },
@@ -4253,7 +4253,7 @@
         },
         {
           "date": "2026-10-07",
-          "value": 29
+          "value": 0
         }
       ]
     },
@@ -6876,12 +6876,12 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value_display": "81.3%",
+      "value_display": "81.5%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.4,
-        "display": "+3.4pt",
+        "value": 3.6,
+        "display": "+3.6pt",
         "direction": "up",
         "prev_value": 77.9,
         "prev_date": "2026-10-06"
@@ -7033,7 +7033,7 @@
         },
         {
           "date": "2026-10-07",
-          "value": 81.3
+          "value": 81.5
         }
       ]
     },
@@ -7204,12 +7204,12 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "35%",
+      "value_display": "39%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 6.0,
-        "display": "+6.0pt",
+        "value": 10.0,
+        "display": "+10.0pt",
         "direction": "up",
         "prev_value": 29.0,
         "prev_date": "2026-10-06"
@@ -7353,7 +7353,7 @@
         },
         {
           "date": "2026-10-07",
-          "value": 35.0
+          "value": 39.0
         }
       ]
     },
@@ -7362,12 +7362,12 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "7回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3,
-        "display": "+3回",
+        "value": 2,
+        "display": "+2回",
         "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-10-06"
@@ -7515,7 +7515,7 @@
         },
         {
           "date": "2026-10-07",
-          "value": 7
+          "value": 6
         }
       ]
     },

@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-07T10:46:54+09:00",
+  "updated_at": "2026-10-07T18:11:17+09:00",
   "summary": {
     "count": 36,
     "first_date": "2026-09-02",
     "last_date": "2026-10-07",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.83
+    "avg_30d": 6.8
   },
   "history": [
     {
@@ -160,7 +160,7 @@
     },
     {
       "date": "2026-10-07",
-      "value": 7
+      "value": 6
     }
   ],
   "latest_detail": {
@@ -175,10 +175,10 @@
       "depth": 10
     },
     "latest": {
-      "time": "2026-10-07T09:22:00+09:00",
-      "scale": 20,
-      "name": "福島県沖",
-      "magnitude": 4.1,
+      "time": "2026-10-07T16:03:00+09:00",
+      "scale": 10,
+      "name": "奄美大島北東沖",
+      "magnitude": 3.5,
       "depth": 60
     },
     "capped": false

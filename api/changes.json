@@ -1,43 +1,62 @@
 {
-  "generated_at": "2026-10-07T10:46:54+09:00",
+  "generated_at": "2026-10-07T18:11:17+09:00",
   "date": "2026-10-07",
   "changes": [
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -24,
+        "display": "-24市町村",
+        "direction": "down",
+        "prev_value": 24,
+        "prev_date": "2026-10-06"
+      },
+      "caption": "いま気象警報は出ていない",
+      "score": 23.0,
+      "z": 23.0,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "81.3%",
+      "value_display": "81.5%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.4,
-        "display": "+3.4pt",
+        "value": 3.6,
+        "display": "+3.6pt",
         "direction": "up",
         "prev_value": 77.9,
         "prev_date": "2026-10-06"
       },
       "caption": "主要16ダムの平均貯水率（おおむね平年並み）",
-      "score": 9.67,
-      "z": 9.67,
+      "score": 10.33,
+      "z": 10.33,
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "29市町村",
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-4.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5,
-        "display": "+5市町村",
-        "direction": "up",
-        "prev_value": 24,
+        "value": -7.5,
+        "display": "-7.5℃",
+        "direction": "down",
+        "prev_value": 2.6,
         "prev_date": "2026-10-06"
       },
-      "caption": "29市町村に気象警報",
-      "score": 4.0,
-      "z": 4.0,
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 6.78,
+      "z": 6.78,
       "label": "かなり珍しい変化"
     },
     {
@@ -101,39 +120,20 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "29.9℃",
+      "value_display": "30.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.9,
-        "display": "-1.9℃",
+        "value": -1.6,
+        "display": "-1.6℃",
         "direction": "down",
         "prev_value": 31.8,
         "prev_date": "2026-10-06"
       },
       "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 2.0,
-      "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "21.3℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -6.1,
-        "display": "-6.1℃",
-        "direction": "down",
-        "prev_value": 27.4,
-        "prev_date": "2026-10-06"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 1.92,
-      "z": 1.92,
-      "label": "いつもより大きな変化"
+      "score": 1.4,
+      "z": 1.4,
+      "label": "通常の範囲"
     },
     {
       "slug": "cold-points-0",
@@ -206,28 +206,9 @@
         "prev_value": 85.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "ピークは15:00〜16:00の見込み",
+      "caption": "ピークは14:00〜15:00の見込み",
       "score": 1.0,
       "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "0.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.2,
-        "display": "-2.2℃",
-        "direction": "down",
-        "prev_value": 2.6,
-        "prev_date": "2026-10-06"
-      },
-      "caption": "夏でもひんやり",
-      "score": 0.89,
-      "z": 0.89,
       "label": "通常の範囲"
     },
     {
@@ -247,6 +228,25 @@
       "caption": "きょう一度も25℃を下回らなかった地点（熱帯夜）",
       "score": 0.75,
       "z": 0.75,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "26.6℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -0.8,
+        "display": "-0.8℃",
+        "direction": "down",
+        "prev_value": 27.4,
+        "prev_date": "2026-10-06"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 0.0,
+      "z": -0.57,
       "label": "通常の範囲"
     },
     {
@@ -510,7 +510,7 @@
         "prev_value": 170.2,
         "prev_date": "2026-10-06"
       },
-      "caption": "レギュラーガソリン全国平均（9月28日調査）",
+      "caption": "レギュラーガソリン全国平均（10月5日調査）",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -785,31 +785,31 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "35%",
+      "value_display": "39%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 6.0,
-        "display": "+6.0pt",
+        "value": 10.0,
+        "display": "+10.0pt",
         "direction": "up",
         "prev_value": 29.0,
         "prev_date": "2026-10-06"
       },
-      "caption": "きょうのピークで電力の35%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の39%を太陽光がまかなった",
       "score": 0.0,
-      "z": -0.88,
+      "z": -0.38,
       "label": "通常の範囲"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "7回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3,
-        "display": "+3回",
+        "value": 2,
+        "display": "+2回",
         "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-10-06"
