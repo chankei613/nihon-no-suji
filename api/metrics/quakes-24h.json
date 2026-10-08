@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-08T18:25:35+09:00",
+  "updated_at": "2026-10-09T01:52:01+09:00",
   "summary": {
-    "count": 37,
+    "count": 38,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-08",
+    "last_date": "2026-10-09",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.93
+    "avg_30d": 7.17
   },
   "history": [
     {
@@ -165,6 +165,10 @@
     {
       "date": "2026-10-08",
       "value": 11
+    },
+    {
+      "date": "2026-10-09",
+      "value": 13
     }
   ],
   "latest_detail": {
@@ -179,11 +183,11 @@
       "depth": 50
     },
     "latest": {
-      "time": "2026-10-08T18:14:00+09:00",
+      "time": "2026-10-09T00:31:00+09:00",
       "scale": 10,
-      "name": "岩手県沖",
-      "magnitude": 3.6,
-      "depth": 40
+      "name": "新島・神津島近海",
+      "magnitude": 2.2,
+      "depth": 10
     },
     "capped": false
   }

@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-10-08T18:25:35+09:00",
+  "updated_at": "2026-10-09T01:52:01+09:00",
   "summary": {
-    "count": 36,
+    "count": 37,
     "first_date": "2026-09-03",
-    "last_date": "2026-10-08",
+    "last_date": "2026-10-09",
     "min_30d": 0,
     "max_30d": 3,
-    "avg_30d": 0.97
+    "avg_30d": 1.03
   },
   "history": [
     {
@@ -161,6 +161,10 @@
     {
       "date": "2026-10-08",
       "value": 2
+    },
+    {
+      "date": "2026-10-09",
+      "value": 2
     }
   ],
   "latest_detail": {
@@ -168,9 +172,9 @@
       {
         "number": "2629",
         "name": "コグマ",
-        "category": "STS",
-        "pressure": "990",
-        "location": "ウェーク島近海",
+        "category": "TY",
+        "pressure": "980",
+        "location": "南鳥島近海",
         "course": "西北西",
         "typhoon_number": "2629"
       },
@@ -178,9 +182,9 @@
         "number": "2628",
         "name": "ノロ",
         "category": "STS",
-        "pressure": "985",
+        "pressure": "990",
         "location": "南鳥島近海",
-        "course": "西北西",
+        "course": "西",
         "typhoon_number": "2628"
       }
     ],
