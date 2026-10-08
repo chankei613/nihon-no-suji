@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-08T11:14:45+09:00",
+  "updated_at": "2026-10-08T18:25:35+09:00",
   "summary": {
     "count": 37,
     "first_date": "2026-09-02",
     "last_date": "2026-10-08",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.83
+    "avg_30d": 6.93
   },
   "history": [
     {
@@ -164,7 +164,7 @@
     },
     {
       "date": "2026-10-08",
-      "value": 8
+      "value": 11
     }
   ],
   "latest_detail": {
@@ -179,11 +179,11 @@
       "depth": 50
     },
     "latest": {
-      "time": "2026-10-08T07:14:00+09:00",
-      "scale": 30,
-      "name": "",
-      "magnitude": -1,
-      "depth": -1
+      "time": "2026-10-08T18:14:00+09:00",
+      "scale": 10,
+      "name": "岩手県沖",
+      "magnitude": 3.6,
+      "depth": 40
     },
     "capped": false
   }

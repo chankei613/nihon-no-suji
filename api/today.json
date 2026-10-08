@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:14:45+09:00",
+  "generated_at": "2026-10-08T18:25:35+09:00",
   "date": "2026-10-08",
   "metrics": [
     {
@@ -7,28 +7,30 @@
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 29.0,
-      "value_display": "29℃",
-      "observed_at": "2026-10-08T10:00:00+09:00",
+      "value": 30.8,
+      "value_display": "30.8℃",
+      "observed_at": "2026-10-08T17:00:00+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.2,
-        "display": "-1.2℃",
-        "direction": "down",
+        "value": 0.6,
+        "display": "+0.6℃",
+        "direction": "up",
         "prev_value": 30.2,
         "prev_date": "2026-10-07"
       },
-      "caption": "父島｜きょう日本でいちばん暑い",
+      "caption": "波照間｜きょう日本でいちばん暑い",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "父島",
-        "pref": "東京都",
-        "caption": "父島｜きょう日本でいちばん暑い",
-        "record_1st": 34.4,
+        "place": "波照間",
+        "pref": "沖縄県",
+        "caption": "波照間｜きょう日本でいちばん暑い",
+        "normal_diff": 1.7,
+        "station_prev_diff": 2.0,
+        "record_1st": 35.7,
         "year_extreme": false,
         "all_time_record": false
       },
@@ -79,16 +81,16 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 22.5,
-      "value_display": "22.5℃",
-      "observed_at": "2026-10-08T10:00:00+09:00",
+      "value": 25.0,
+      "value_display": "25℃",
+      "observed_at": "2026-10-08T17:00:00+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.1,
-        "display": "-4.1℃",
+        "value": -1.6,
+        "display": "-1.6℃",
         "direction": "down",
         "prev_value": 26.6,
         "prev_date": "2026-10-07"
@@ -100,6 +102,8 @@
         "place": "東京",
         "pref": "東京都",
         "caption": "きょうの東京の最高気温",
+        "normal_diff": 1.6,
+        "station_prev_diff": -1.6,
         "record_1st": 39.5,
         "year_extreme": false,
         "all_time_record": false
@@ -3963,7 +3967,7 @@
       "unit": "",
       "value": 102,
       "value_display": "1時間42分",
-      "observed_at": "2026-10-08T11:00:00+09:00",
+      "observed_at": "2026-10-08T18:10:00+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
@@ -3980,7 +3984,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 102.0,
-        "last_observed_at": "2026-10-08T11:00:00+09:00",
+        "last_observed_at": "2026-10-08T18:10:00+09:00",
         "caption": "きょうの東京の日照時間（ここまでの積算）"
       },
       "source": {
@@ -4160,17 +4164,17 @@
       "name": "東京のあしたの最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 16.0,
-      "value_display": "16℃",
+      "value": 15.0,
+      "value_display": "15℃",
       "observed_at": "2026-10-08T05:00:00+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
         "prev_value": 16.0,
         "prev_date": "2026-10-07"
       },
@@ -4346,16 +4350,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 6.6,
-      "value_display": "6.6℃",
-      "observed_at": "2026-10-08T11:00:00+09:00",
+      "value": 4.0,
+      "value_display": "4℃",
+      "observed_at": "2026-10-08T18:10:00+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 11.5,
-        "display": "+11.5℃",
+        "value": 8.9,
+        "display": "+8.9℃",
         "direction": "up",
         "prev_value": -4.9,
         "prev_date": "2026-10-07"
@@ -4503,7 +4507,7 @@
       "unit": "個",
       "value": 2,
       "value_display": "2個",
-      "observed_at": "2026-10-08T11:13:00+09:00",
+      "observed_at": "2026-10-08T18:24:00+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
@@ -4526,7 +4530,7 @@
             "category": "STS",
             "pressure": "990",
             "location": "ウェーク島近海",
-            "course": "北北西",
+            "course": "西北西",
             "typhoon_number": "2629"
           },
           {
@@ -4553,7 +4557,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-08T10:22:07+09:00",
+      "observed_at": "2026-10-08T16:23:08+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
@@ -4584,7 +4588,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-08T10:22:07+09:00",
+      "observed_at": "2026-10-08T16:23:08+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
@@ -4614,7 +4618,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-08T10:22:07+09:00",
+      "observed_at": "2026-10-08T16:23:08+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
@@ -4644,7 +4648,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-08T10:22:07+09:00",
+      "observed_at": "2026-10-08T16:23:08+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
@@ -4674,7 +4678,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-08T11:13:39+09:00",
+      "observed_at": "2026-10-08T18:24:24+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
@@ -4747,7 +4751,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-08T11:14:34+09:00",
+      "observed_at": "2026-10-08T18:25:21+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
@@ -4777,7 +4781,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-08T11:14:34+09:00",
+      "observed_at": "2026-10-08T18:25:21+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
@@ -5207,12 +5211,12 @@
           },
           {
             "name": "利根川水系上流9ダム",
-            "rate": 69.0,
+            "rate": 70.0,
             "region": "関東"
           },
           {
             "name": "多摩川水系 小河内ダム",
-            "rate": 87.0,
+            "rate": 86.0,
             "region": "関東"
           },
           {
@@ -5273,16 +5277,16 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value": 86.0,
-      "value_display": "86%",
-      "observed_at": "2026-10-08T10:40:00+09:00",
+      "value": 87.0,
+      "value_display": "87%",
+      "observed_at": "2026-10-08T18:10:00+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -3.0,
-        "display": "-3.0pt",
+        "value": -2.0,
+        "display": "-2.0pt",
         "direction": "down",
         "prev_value": 89.0,
         "prev_date": "2026-10-07"
@@ -5292,11 +5296,11 @@
       "highlight_reason": null,
       "detail": {
         "reserve_rate": 15.0,
-        "peak_supply_10MW": 3842.0,
-        "forecast_peak_demand_10MW": 3329.0,
-        "current_demand_10MW": 3213.0,
-        "current_demand_time": "10:00",
-        "current_usage_rate": 82.0,
+        "peak_supply_10MW": 3820.0,
+        "forecast_peak_demand_10MW": 3334.0,
+        "current_demand_10MW": 3245.0,
+        "current_demand_time": "17:00",
+        "current_usage_rate": 91.0,
         "peak_timeband": "14:00〜15:00",
         "area": "東京",
         "caption": "ピークは14:00〜15:00の見込み"
@@ -5343,16 +5347,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 8,
-      "value_display": "8回",
-      "observed_at": "2026-10-08T11:14:00+09:00",
+      "value": 11,
+      "value_display": "11回",
+      "observed_at": "2026-10-08T18:25:00+09:00",
       "as_of": "2026-10-08",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
+        "value": 5,
+        "display": "+5回",
         "direction": "up",
         "prev_value": 6,
         "prev_date": "2026-10-07"
@@ -5372,11 +5376,11 @@
           "depth": 50
         },
         "latest": {
-          "time": "2026-10-08T07:14:00+09:00",
-          "scale": 30,
-          "name": "",
-          "magnitude": -1,
-          "depth": -1
+          "time": "2026-10-08T18:14:00+09:00",
+          "scale": 10,
+          "name": "岩手県沖",
+          "magnitude": 3.6,
+          "depth": 40
         },
         "capped": false
       },
