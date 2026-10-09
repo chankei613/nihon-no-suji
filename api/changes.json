@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T01:32:07+09:00",
+  "generated_at": "2026-10-10T06:12:00+09:00",
   "date": "2026-10-10",
   "changes": [
     {
@@ -20,25 +20,6 @@
       "score": 3.33,
       "z": 3.33,
       "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "53%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 23.0,
-        "display": "+23.0pt",
-        "direction": "up",
-        "prev_value": 30.0,
-        "prev_date": "2026-10-09"
-      },
-      "caption": "古江｜全国でいちばん空気が乾いている",
-      "score": 2.67,
-      "z": 2.67,
-      "label": "いつもより大きな変化"
     },
     {
       "slug": "tokyo-sunshine-hours",
@@ -76,6 +57,44 @@
       "caption": "きょう一度も25℃を下回らなかった地点（熱帯夜）",
       "score": 0.75,
       "z": 0.75,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "102mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 83.5,
+        "display": "+83.5mm",
+        "direction": "up",
+        "prev_value": 18.5,
+        "prev_date": "2026-10-09"
+      },
+      "caption": "尾之間｜この24時間でいちばん降った",
+      "score": 0.59,
+      "z": 0.59,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "20.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 11.0,
+        "display": "+11mm",
+        "direction": "up",
+        "prev_value": 9.5,
+        "prev_date": "2026-10-09"
+      },
+      "caption": "屋久島｜激しい雨",
+      "score": 0.08,
+      "z": 0.08,
       "label": "通常の範囲"
     },
     {
@@ -133,25 +152,6 @@
       "caption": "きょうの東京の最高気温",
       "score": 0.0,
       "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "59mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 40.5,
-        "display": "+40.5mm",
-        "direction": "up",
-        "prev_value": 18.5,
-        "prev_date": "2026-10-09"
-      },
-      "caption": "屋久島｜この24時間でいちばん降った",
-      "score": 0.0,
-      "z": -0.41,
       "label": "通常の範囲"
     },
     {
@@ -234,89 +234,70 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "7地点",
+      "value_display": "14地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3地点",
-        "direction": "down",
+        "value": 4,
+        "display": "+4地点",
+        "direction": "up",
         "prev_value": 10,
         "prev_date": "2026-10-09"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.4,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-1h",
-      "name": "全国最大1時間降水量",
-      "category": "自然",
-      "value_display": "12.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 3.0,
-        "display": "+3mm",
-        "direction": "up",
-        "prev_value": 9.5,
-        "prev_date": "2026-10-09"
-      },
-      "caption": "上中｜この1時間でいちばん降った",
-      "score": 0.0,
-      "z": -1.25,
+      "z": -1.38,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "27mm",
+      "value_display": "42.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 11.0,
-        "display": "+11mm",
+        "value": 26.5,
+        "display": "+26.5mm",
         "direction": "up",
         "prev_value": 16.0,
         "prev_date": "2026-10-09"
       },
       "caption": "尾之間｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.68,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "26.4℃",
+      "value_display": "28.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.1,
-        "display": "+0.1℃",
+        "value": 1.8,
+        "display": "+1.8℃",
         "direction": "up",
         "prev_value": 26.3,
         "prev_date": "2026-10-09"
       },
-      "caption": "南鳥島28.6℃ と 薮川2.2℃ の差",
+      "caption": "南鳥島29.1℃ と 薮川1℃ の差",
       "score": 0.0,
-      "z": -1.29,
+      "z": -0.08,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "26℃",
+      "value_display": "27℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 26.0,
         "prev_date": "2026-10-09"
       },
@@ -421,22 +402,41 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "25%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -5.0,
+        "display": "-5.0pt",
+        "direction": "down",
+        "prev_value": 30.0,
+        "prev_date": "2026-10-09"
+      },
+      "caption": "富士山｜全国でいちばん空気が乾いている",
+      "score": 0.0,
+      "z": -0.4,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "1.8℃",
+      "value_display": "2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.2,
-        "display": "-1.2℃",
+        "value": -1.0,
+        "display": "-1℃",
         "direction": "down",
         "prev_value": 3.0,
         "prev_date": "2026-10-09"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -0.22,
+      "z": -0.44,
       "label": "通常の範囲"
     },
     {
@@ -804,19 +804,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "3回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 6,
         "prev_date": "2026-10-09"
       },
-      "caption": "最大は熊本県天草・芦北地方の震度2",
+      "caption": "最大は根室半島南東沖の震度2",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.67,
       "label": "通常の範囲"
     },
     {

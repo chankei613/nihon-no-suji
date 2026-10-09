@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T01:32:07+09:00",
+  "generated_at": "2026-10-10T06:12:00+09:00",
   "date": "2026-10-10",
   "metrics": [
     {
@@ -118,28 +118,28 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value": 59.0,
-      "value_display": "59mm",
-      "observed_at": "2026-10-10T01:00:00+09:00",
+      "value": 102.0,
+      "value_display": "102mm",
+      "observed_at": "2026-10-10T05:40:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 40.5,
-        "display": "+40.5mm",
+        "value": 83.5,
+        "display": "+83.5mm",
         "direction": "up",
         "prev_value": 18.5,
         "prev_date": "2026-10-09"
       },
-      "caption": "屋久島｜この24時間でいちばん降った",
+      "caption": "尾之間｜この24時間でいちばん降った",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "屋久島",
+        "place": "尾之間",
         "pref": "鹿児島県",
-        "caption": "屋久島｜この24時間でいちばん降った",
-        "record_1st": 484.0,
+        "caption": "尾之間｜この24時間でいちばん降った",
+        "record_1st": 490.5,
         "all_time_record": false
       },
       "source": {
@@ -3946,7 +3946,7 @@
       "unit": "",
       "value": 0,
       "value_display": "0時間00分",
-      "observed_at": "2026-10-10T01:20:00+09:00",
+      "observed_at": "2026-10-10T06:00:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
@@ -3963,7 +3963,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 0.0,
-        "last_observed_at": "2026-10-10T01:20:00+09:00",
+        "last_observed_at": "2026-10-10T06:00:00+09:00",
         "caption": "きょうはまだ日照なし"
       },
       "source": {
@@ -3976,17 +3976,17 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 7,
-      "value_display": "7地点",
-      "observed_at": "2026-10-10T01:20:00+09:00",
+      "value": 14,
+      "value_display": "14地点",
+      "observed_at": "2026-10-10T06:00:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3地点",
-        "direction": "down",
+        "value": 4,
+        "display": "+4地点",
+        "direction": "up",
         "prev_value": 10,
         "prev_date": "2026-10-09"
       },
@@ -3995,15 +3995,22 @@
       "highlight_reason": null,
       "detail": {
         "station_ids": [
+          "87346",
+          "87361",
+          "88151",
+          "88211",
           "88612",
           "88621",
           "88666",
           "88686",
           "88706",
+          "88746",
+          "88776",
+          "88781",
           "88821",
           "88956"
         ],
-        "now": 7,
+        "now": 9,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4016,26 +4023,26 @@
       "name": "全国最大1時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value": 12.5,
-      "value_display": "12.5mm",
-      "observed_at": "2026-10-10T01:20:00+09:00",
+      "value": 20.5,
+      "value_display": "20.5mm",
+      "observed_at": "2026-10-10T06:00:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.0,
-        "display": "+3mm",
+        "value": 11.0,
+        "display": "+11mm",
         "direction": "up",
         "prev_value": 9.5,
         "prev_date": "2026-10-09"
       },
-      "caption": "上中｜この1時間でいちばん降った",
+      "caption": "屋久島｜激しい雨",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "上中",
-        "caption": "上中｜この1時間でいちばん降った"
+        "place": "屋久島",
+        "caption": "屋久島｜激しい雨"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4047,16 +4054,16 @@
       "name": "全国最大3時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value": 27.0,
-      "value_display": "27mm",
-      "observed_at": "2026-10-10T01:20:00+09:00",
+      "value": 42.5,
+      "value_display": "42.5mm",
+      "observed_at": "2026-10-10T06:00:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 11.0,
-        "display": "+11mm",
+        "value": 26.5,
+        "display": "+26.5mm",
         "direction": "up",
         "prev_value": 16.0,
         "prev_date": "2026-10-09"
@@ -4078,33 +4085,33 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value": 26.4,
-      "value_display": "26.4℃",
-      "observed_at": "2026-10-10T01:20:00+09:00",
+      "value": 28.1,
+      "value_display": "28.1℃",
+      "observed_at": "2026-10-10T06:00:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.1,
-        "display": "+0.1℃",
+        "value": 1.8,
+        "display": "+1.8℃",
         "direction": "up",
         "prev_value": 26.3,
         "prev_date": "2026-10-09"
       },
-      "caption": "南鳥島28.6℃ と 薮川2.2℃ の差",
+      "caption": "南鳥島29.1℃ と 薮川1℃ の差",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "hot": {
           "place": "南鳥島",
-          "temp": 28.6
+          "temp": 29.1
         },
         "cold": {
           "place": "薮川",
-          "temp": 2.2
+          "temp": 1.0
         },
-        "caption": "南鳥島28.6℃ と 薮川2.2℃ の差"
+        "caption": "南鳥島29.1℃ と 薮川1℃ の差"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4116,17 +4123,17 @@
       "name": "東京のあしたの最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 26.0,
-      "value_display": "26℃",
+      "value": 27.0,
+      "value_display": "27℃",
       "observed_at": "2026-10-10T05:00:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 26.0,
         "prev_date": "2026-10-09"
       },
@@ -4134,7 +4141,7 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "for_date": "2026-10-10",
+        "for_date": "2026-10-11",
         "caption": "あすの東京の最高気温の予想"
       },
       "source": {
@@ -4165,7 +4172,7 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "for_date": "2026-10-10",
+        "for_date": "2026-10-11",
         "caption": "あすの東京の最低気温の予想"
       },
       "source": {
@@ -4227,7 +4234,7 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "for_date": "2026-10-10",
+        "for_date": "2026-10-11",
         "caption": "あすは雨の心配は少ない"
       },
       "source": {
@@ -4302,26 +4309,26 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value": 53.0,
-      "value_display": "53%",
-      "observed_at": "2026-10-10T01:20:00+09:00",
+      "value": 25.0,
+      "value_display": "25%",
+      "observed_at": "2026-10-10T06:00:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 23.0,
-        "display": "+23.0pt",
-        "direction": "up",
+        "value": -5.0,
+        "display": "-5.0pt",
+        "direction": "down",
         "prev_value": 30.0,
         "prev_date": "2026-10-09"
       },
-      "caption": "古江｜全国でいちばん空気が乾いている",
-      "highlight": true,
-      "highlight_reason": "いつもより大きな変化",
+      "caption": "富士山｜全国でいちばん空気が乾いている",
+      "highlight": false,
+      "highlight_reason": null,
       "detail": {
-        "place": "古江",
-        "caption": "古江｜全国でいちばん空気が乾いている"
+        "place": "富士山",
+        "caption": "富士山｜全国でいちばん空気が乾いている"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4333,16 +4340,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 1.8,
-      "value_display": "1.8℃",
-      "observed_at": "2026-10-10T01:20:00+09:00",
+      "value": 2.0,
+      "value_display": "2℃",
+      "observed_at": "2026-10-10T06:00:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.2,
-        "display": "-1.2℃",
+        "value": -1.0,
+        "display": "-1℃",
         "direction": "down",
         "prev_value": 3.0,
         "prev_date": "2026-10-09"
@@ -4490,7 +4497,7 @@
       "unit": "個",
       "value": 2,
       "value_display": "2個",
-      "observed_at": "2026-10-10T01:30:00+09:00",
+      "observed_at": "2026-10-10T06:10:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
@@ -4540,7 +4547,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-10T00:45:48+09:00",
+      "observed_at": "2026-10-10T06:09:16+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
@@ -4571,7 +4578,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-10T00:45:48+09:00",
+      "observed_at": "2026-10-10T06:09:16+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
@@ -4601,7 +4608,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-10T00:45:48+09:00",
+      "observed_at": "2026-10-10T06:09:16+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
@@ -4631,7 +4638,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-10T00:45:48+09:00",
+      "observed_at": "2026-10-10T06:09:16+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
@@ -4661,7 +4668,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-10T01:30:49+09:00",
+      "observed_at": "2026-10-10T06:11:01+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
@@ -4734,7 +4741,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-10T01:31:52+09:00",
+      "observed_at": "2026-10-10T06:11:48+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
@@ -4764,7 +4771,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-10T01:31:52+09:00",
+      "observed_at": "2026-10-10T06:11:48+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
@@ -5262,7 +5269,7 @@
       "unit": "%",
       "value": 84.0,
       "value_display": "84%",
-      "observed_at": "2026-10-10T01:10:00+09:00",
+      "observed_at": "2026-10-10T05:40:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
@@ -5278,12 +5285,12 @@
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
-        "reserve_rate": 19.0,
-        "peak_supply_10MW": 3357.0,
-        "forecast_peak_demand_10MW": 2824.0,
-        "current_demand_10MW": 2282.0,
-        "current_demand_time": "0:00",
-        "current_usage_rate": 87.0,
+        "reserve_rate": 18.0,
+        "peak_supply_10MW": 3367.0,
+        "forecast_peak_demand_10MW": 2855.0,
+        "current_demand_10MW": 2176.0,
+        "current_demand_time": "5:00",
+        "current_usage_rate": 89.0,
         "peak_timeband": "13:00〜14:00",
         "area": "東京",
         "caption": "ピークは13:00〜14:00の見込み"
@@ -5330,40 +5337,40 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 3,
-      "value_display": "3回",
-      "observed_at": "2026-10-10T01:31:00+09:00",
+      "value": 6,
+      "value_display": "6回",
+      "observed_at": "2026-10-10T06:11:00+09:00",
       "as_of": "2026-10-10",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 6,
         "prev_date": "2026-10-09"
       },
-      "caption": "最大は熊本県天草・芦北地方の震度2",
+      "caption": "最大は根室半島南東沖の震度2",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "最大は熊本県天草・芦北地方の震度2",
+        "caption": "最大は根室半島南東沖の震度2",
         "window_hours": 24,
-        "max_magnitude": 4.1,
+        "max_magnitude": 8,
         "strongest": {
-          "time": "2026-10-09T11:12:00+09:00",
+          "time": "2026-10-10T01:46:00+09:00",
           "scale": 20,
-          "name": "熊本県天草・芦北地方",
-          "magnitude": 3.5,
-          "depth": 10
+          "name": "根室半島南東沖",
+          "magnitude": 3.7,
+          "depth": 60
         },
         "latest": {
-          "time": "2026-10-09T11:12:00+09:00",
-          "scale": 20,
+          "time": "2026-10-10T04:27:00+09:00",
+          "scale": 10,
           "name": "熊本県天草・芦北地方",
-          "magnitude": 3.5,
-          "depth": 10
+          "magnitude": 1.8,
+          "depth": 0
         },
         "capped": false
       },
