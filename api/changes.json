@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-10T16:42:41+09:00",
+  "generated_at": "2026-10-10T23:40:49+09:00",
   "date": "2026-10-10",
   "changes": [
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "146.5mm",
+      "value_display": "151.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 128.0,
-        "display": "+128mm",
+        "value": 133.0,
+        "display": "+133mm",
         "direction": "up",
         "prev_value": 18.5,
         "prev_date": "2026-10-09"
       },
       "caption": "尾之間｜この24時間でいちばん降った",
-      "score": 1.63,
-      "z": 1.63,
+      "score": 1.75,
+      "z": 1.75,
       "label": "いつもより大きな変化"
     },
     {
@@ -272,19 +272,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "21地点",
+      "value_display": "22地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 11,
-        "display": "+11地点",
+        "value": 12,
+        "display": "+12地点",
         "direction": "up",
         "prev_value": 10,
         "prev_date": "2026-10-09"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.25,
+      "z": -1.23,
       "label": "通常の範囲"
     },
     {
@@ -443,19 +443,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "3℃",
+      "value_display": "3.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 0.2,
+        "display": "+0.2℃",
+        "direction": "up",
         "prev_value": 3.0,
         "prev_date": "2026-10-09"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.56,
+      "z": -1.33,
       "label": "通常の範囲"
     },
     {
@@ -804,19 +804,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "8回",
+      "value_display": "9回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
+        "value": 3,
+        "display": "+3回",
         "direction": "up",
         "prev_value": 6,
         "prev_date": "2026-10-09"
       },
       "caption": "最大は根室半島南東沖の震度2",
       "score": 0.0,
-      "z": -0.33,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
