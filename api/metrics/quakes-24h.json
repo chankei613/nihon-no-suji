@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-10T23:40:49+09:00",
+  "updated_at": "2026-10-11T04:29:33+09:00",
   "summary": {
-    "count": 39,
+    "count": 40,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-10",
+    "last_date": "2026-10-11",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 7.03
+    "avg_30d": 7.0
   },
   "history": [
     {
@@ -173,18 +173,22 @@
     {
       "date": "2026-10-10",
       "value": 9
+    },
+    {
+      "date": "2026-10-11",
+      "value": 5
     }
   ],
   "latest_detail": {
-    "caption": "最大は根室半島南東沖の震度2",
+    "caption": "最大は熊本県天草・芦北地方の震度2",
     "window_hours": 24,
-    "max_magnitude": 8,
+    "max_magnitude": 3.5,
     "strongest": {
-      "time": "2026-10-10T01:46:00+09:00",
+      "time": "2026-10-10T07:43:00+09:00",
       "scale": 20,
-      "name": "根室半島南東沖",
-      "magnitude": 3.7,
-      "depth": 60
+      "name": "熊本県天草・芦北地方",
+      "magnitude": 2.2,
+      "depth": 10
     },
     "latest": {
       "time": "2026-10-10T19:00:00+09:00",
