@@ -8,14 +8,14 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-11T04:29:33+09:00",
+  "updated_at": "2026-10-11T07:53:39+09:00",
   "summary": {
     "count": 40,
     "first_date": "2026-09-02",
     "last_date": "2026-10-11",
     "min_30d": -0.8,
     "max_30d": 11.7,
-    "avg_30d": 3.62,
+    "avg_30d": 3.58,
     "record_1st": -26.0,
     "year_extreme": false,
     "all_time_record": false
@@ -179,13 +179,15 @@
     },
     {
       "date": "2026-10-11",
-      "value": 1.6
+      "value": 0.5
     }
   ],
   "latest_detail": {
     "place": "野辺山",
     "pref": "長野県",
     "caption": "野辺山｜きょう日本でいちばん寒い",
+    "normal_diff": -5.2,
+    "station_prev_diff": -2.5,
     "record_1st": -26.0,
     "year_extreme": false,
     "all_time_record": false
