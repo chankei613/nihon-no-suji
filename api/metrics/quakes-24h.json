@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-10T06:12:00+09:00",
+  "updated_at": "2026-10-10T10:11:19+09:00",
   "summary": {
     "count": 39,
     "first_date": "2026-09-02",
     "last_date": "2026-10-10",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.93
+    "avg_30d": 6.97
   },
   "history": [
     {
@@ -172,7 +172,7 @@
     },
     {
       "date": "2026-10-10",
-      "value": 6
+      "value": 7
     }
   ],
   "latest_detail": {
@@ -187,11 +187,11 @@
       "depth": 60
     },
     "latest": {
-      "time": "2026-10-10T04:27:00+09:00",
-      "scale": 10,
+      "time": "2026-10-10T07:43:00+09:00",
+      "scale": 20,
       "name": "熊本県天草・芦北地方",
-      "magnitude": 1.8,
-      "depth": 0
+      "magnitude": 2.2,
+      "depth": 10
     },
     "capped": false
   }
