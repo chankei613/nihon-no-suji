@@ -8,7 +8,7 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-11T11:08:06+09:00",
+  "updated_at": "2026-10-11T18:15:26+09:00",
   "summary": {
     "count": 40,
     "first_date": "2026-09-02",
@@ -180,21 +180,21 @@
     }
   ],
   "latest_detail": {
-    "caption": "最大は熊本県天草・芦北地方の震度1",
+    "caption": "最大は長野県南部の震度1",
     "window_hours": 24,
-    "max_magnitude": 3.1,
+    "max_magnitude": 2.8,
     "strongest": {
-      "time": "2026-10-10T12:16:00+09:00",
-      "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 3.1,
-      "depth": 10
-    },
-    "latest": {
       "time": "2026-10-11T10:12:00+09:00",
       "scale": 10,
       "name": "長野県南部",
       "magnitude": 2.8,
+      "depth": 10
+    },
+    "latest": {
+      "time": "2026-10-11T15:49:00+09:00",
+      "scale": 10,
+      "name": "宮崎県南部平野部",
+      "magnitude": 2.3,
       "depth": 10
     },
     "capped": false

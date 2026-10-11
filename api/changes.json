@@ -1,37 +1,18 @@
 {
-  "generated_at": "2026-10-11T11:08:06+09:00",
+  "generated_at": "2026-10-11T18:15:26+09:00",
   "date": "2026-10-11",
   "changes": [
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "9.1℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 5.9,
-        "display": "+5.9℃",
-        "direction": "up",
-        "prev_value": 3.2,
-        "prev_date": "2026-10-10"
-      },
-      "caption": "夏でもひんやり",
-      "score": 4.74,
-      "z": 4.74,
-      "label": "かなり珍しい変化"
-    },
     {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "35%",
+      "value_display": "9%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 13.0,
-        "display": "+13.0pt",
-        "direction": "up",
+        "value": -13.0,
+        "display": "-13.0pt",
+        "direction": "down",
         "prev_value": 22.0,
         "prev_date": "2026-10-10"
       },
@@ -41,20 +22,20 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "30.1℃",
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "value_display": "1個",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.4,
-        "display": "-1.4℃",
+        "value": -1,
+        "display": "-1個",
         "direction": "down",
-        "prev_value": 31.5,
+        "prev_value": 2,
         "prev_date": "2026-10-10"
       },
-      "caption": "北原｜きょう日本でいちばん暑い",
+      "caption": "台風29号「コグマ」が小笠原近海",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -79,25 +60,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "91%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 4.0,
-        "display": "+4.0pt",
-        "direction": "up",
-        "prev_value": 87.0,
-        "prev_date": "2026-10-10"
-      },
-      "caption": "ピークは18:00〜19:00の見込み",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
@@ -111,9 +73,28 @@
         "prev_value": 9,
         "prev_date": "2026-10-10"
       },
-      "caption": "最大は熊本県天草・芦北地方の震度1",
+      "caption": "最大は長野県南部の震度1",
       "score": 1.0,
       "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "value_display": "89mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 46.5,
+        "display": "+46.5mm",
+        "direction": "up",
+        "prev_value": 42.5,
+        "prev_date": "2026-10-10"
+      },
+      "caption": "宝島｜この3時間でいちばん激しく降った",
+      "score": 0.99,
+      "z": 0.99,
       "label": "通常の範囲"
     },
     {
@@ -155,22 +136,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "24℃",
+      "value_display": "31.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.5,
-        "display": "-2.5℃",
+        "value": -0.2,
+        "display": "-0.2℃",
         "direction": "down",
-        "prev_value": 26.5,
+        "prev_value": 31.5,
         "prev_date": "2026-10-10"
       },
-      "caption": "きょうの東京の最高気温",
-      "score": 0.48,
-      "z": 0.48,
+      "caption": "加計｜きょう日本でいちばん暑い",
+      "score": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -190,6 +171,25 @@
       "caption": "野辺山｜きょう日本でいちばん寒い",
       "score": 0.0,
       "z": -1.27,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "27.5℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
+        "prev_value": 26.5,
+        "prev_date": "2026-10-10"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 0.0,
+      "z": -0.44,
       "label": "通常の範囲"
     },
     {
@@ -310,57 +310,38 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "15地点",
+      "value_display": "20地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7,
-        "display": "-7地点",
+        "value": -2,
+        "display": "-2地点",
         "direction": "down",
         "prev_value": 22,
         "prev_date": "2026-10-10"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.27,
+      "z": -1.37,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "14mm",
+      "value_display": "20.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.5,
-        "display": "-6.5mm",
-        "direction": "down",
+        "value": 0.0,
+        "display": "±0mm",
+        "direction": "flat",
         "prev_value": 20.5,
         "prev_date": "2026-10-10"
       },
-      "caption": "喜界島｜この1時間でいちばん降った",
+      "caption": "小宝島｜激しい雨",
       "score": 0.0,
-      "z": -0.7,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
-      "category": "自然",
-      "value_display": "16.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -26.0,
-        "display": "-26mm",
-        "direction": "down",
-        "prev_value": 42.5,
-        "prev_date": "2026-10-10"
-      },
-      "caption": "喜界島｜この3時間でいちばん激しく降った",
-      "score": 0.0,
-      "z": -0.01,
+      "z": -1.75,
       "label": "通常の範囲"
     },
     {
@@ -443,19 +424,19 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1008.7hPa",
+      "value_display": "1007.4hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.9,
-        "display": "+1.9hPa",
+        "value": 0.6,
+        "display": "+0.6hPa",
         "direction": "up",
         "prev_value": 1006.8,
         "prev_date": "2026-10-10"
       },
       "caption": "日田｜全国でいちばん気圧が低い",
       "score": 0.0,
-      "z": -0.13,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -475,6 +456,25 @@
       "caption": "三宅坪田｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
       "z": -0.12,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "4.2℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
+        "prev_value": 3.2,
+        "prev_date": "2026-10-10"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.0,
+      "z": -0.41,
       "label": "通常の範囲"
     },
     {
@@ -530,25 +530,6 @@
         "prev_date": "2026-10-10"
       },
       "caption": "今年はこれまでに29個の台風が発生",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "active-typhoons",
-      "name": "発生中の台風の数",
-      "category": "防災",
-      "value_display": "2個",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
-        "prev_value": 2,
-        "prev_date": "2026-10-10"
-      },
-      "caption": "台風29・28号が発生中",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -798,6 +779,25 @@
       "caption": "主要17ダムの平均貯水率（おおむね平年並み）",
       "score": 0.0,
       "z": -1.67,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "86%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -1.0,
+        "display": "-1.0pt",
+        "direction": "down",
+        "prev_value": 87.0,
+        "prev_date": "2026-10-10"
+      },
+      "caption": "ピークは18:00〜19:00の見込み",
+      "score": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
