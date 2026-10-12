@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-12T08:55:21+09:00",
+  "updated_at": "2026-10-12T15:26:48+09:00",
   "summary": {
     "count": 41,
     "first_date": "2026-09-02",
     "last_date": "2026-10-12",
     "min_30d": 3,
     "max_30d": 13,
-    "avg_30d": 7.03
+    "avg_30d": 7.07
   },
   "history": [
     {
@@ -180,13 +180,13 @@
     },
     {
       "date": "2026-10-12",
-      "value": 4
+      "value": 5
     }
   ],
   "latest_detail": {
     "caption": "最大は千葉県東方沖の震度2",
     "window_hours": 24,
-    "max_magnitude": 4.3,
+    "max_magnitude": 5,
     "strongest": {
       "time": "2026-10-12T01:24:00+09:00",
       "scale": 20,
@@ -195,11 +195,11 @@
       "depth": 50
     },
     "latest": {
-      "time": "2026-10-12T05:05:00+09:00",
-      "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 1.9,
-      "depth": 10
+      "time": "2026-10-12T12:45:00+09:00",
+      "scale": 20,
+      "name": "釧路沖",
+      "magnitude": 4,
+      "depth": 70
     },
     "capped": false
   }
