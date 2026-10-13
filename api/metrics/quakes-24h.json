@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-14T04:30:29+09:00",
+  "updated_at": "2026-10-14T08:25:10+09:00",
   "summary": {
     "count": 43,
     "first_date": "2026-09-02",
     "last_date": "2026-10-14",
     "min_30d": 3,
     "max_30d": 13,
-    "avg_30d": 6.8
+    "avg_30d": 6.87
   },
   "history": [
     {
@@ -188,7 +188,7 @@
     },
     {
       "date": "2026-10-14",
-      "value": 4
+      "value": 6
     }
   ],
   "latest_detail": {
@@ -203,11 +203,11 @@
       "depth": 40
     },
     "latest": {
-      "time": "2026-10-13T22:05:00+09:00",
+      "time": "2026-10-14T07:56:00+09:00",
       "scale": 10,
-      "name": "宮城県沖",
-      "magnitude": 3.5,
-      "depth": 60
+      "name": "熊本県天草・芦北地方",
+      "magnitude": 2.8,
+      "depth": 10
     },
     "capped": false
   }
