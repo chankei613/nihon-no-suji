@@ -8,16 +8,16 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-15T03:51:06+09:00",
+  "updated_at": "2026-10-15T07:34:10+09:00",
   "summary": {
     "count": 44,
     "first_date": "2026-09-02",
     "last_date": "2026-10-15",
     "min_30d": -0.8,
     "max_30d": 9.2,
-    "avg_30d": 2.93,
+    "avg_30d": 2.87,
     "record_1st": -22.0,
-    "year_extreme": false,
+    "year_extreme": true,
     "all_time_record": false
   },
   "history": [
@@ -195,15 +195,17 @@
     },
     {
       "date": "2026-10-15",
-      "value": 2.8
+      "value": 1.2
     }
   ],
   "latest_detail": {
     "place": "開田高原",
     "pref": "長野県",
     "caption": "開田高原｜きょう日本でいちばん寒い",
+    "normal_diff": -2.7,
+    "station_prev_diff": -4.4,
     "record_1st": -22.0,
-    "year_extreme": false,
+    "year_extreme": true,
     "all_time_record": false
   }
 }
