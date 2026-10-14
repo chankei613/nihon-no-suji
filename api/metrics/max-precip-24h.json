@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-10-14T22:59:47+09:00",
+  "updated_at": "2026-10-15T03:51:06+09:00",
   "summary": {
-    "count": 43,
+    "count": 44,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-14",
+    "last_date": "2026-10-15",
     "min_30d": 7.0,
     "max_30d": 686.5,
-    "avg_30d": 156.45,
-    "record_1st": 648.0,
+    "avg_30d": 153.8,
+    "record_1st": 352.0,
     "all_time_record": false
   },
   "history": [
@@ -191,13 +191,17 @@
     {
       "date": "2026-10-14",
       "value": 57.0
+    },
+    {
+      "date": "2026-10-15",
+      "value": 56.5
     }
   ],
   "latest_detail": {
-    "place": "名瀬",
-    "pref": "鹿児島県",
-    "caption": "名瀬｜この24時間でいちばん降った",
-    "record_1st": 648.0,
+    "place": "美浜",
+    "pref": "福井県",
+    "caption": "美浜｜この24時間でいちばん降った",
+    "record_1st": 352.0,
     "all_time_record": false
   }
 }

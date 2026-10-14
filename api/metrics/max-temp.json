@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-14T22:59:47+09:00",
+  "updated_at": "2026-10-15T03:51:06+09:00",
   "summary": {
-    "count": 43,
+    "count": 44,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-14",
-    "min_30d": 30.2,
+    "last_date": "2026-10-15",
+    "min_30d": 26.5,
     "max_30d": 34.8,
-    "avg_30d": 32.68,
-    "record_1st": 35.7,
+    "avg_30d": 32.43,
+    "record_1st": 35.2,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -192,15 +192,17 @@
     {
       "date": "2026-10-14",
       "value": 31.4
+    },
+    {
+      "date": "2026-10-15",
+      "value": 26.5
     }
   ],
   "latest_detail": {
-    "place": "波照間",
+    "place": "所野",
     "pref": "沖縄県",
-    "caption": "波照間｜きょう日本でいちばん暑い",
-    "normal_diff": 2.9,
-    "station_prev_diff": 1.6,
-    "record_1st": 35.7,
+    "caption": "所野｜きょう日本でいちばん暑い",
+    "record_1st": 35.2,
     "year_extreme": false,
     "all_time_record": false
   }

@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-14T22:59:47+09:00",
+  "updated_at": "2026-10-15T03:51:06+09:00",
   "summary": {
-    "count": 43,
+    "count": 44,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-14",
+    "last_date": "2026-10-15",
     "min_30d": 3,
     "max_30d": 13,
-    "avg_30d": 6.8
+    "avg_30d": 6.87
   },
   "history": [
     {
@@ -189,6 +189,10 @@
     {
       "date": "2026-10-14",
       "value": 4
+    },
+    {
+      "date": "2026-10-15",
+      "value": 6
     }
   ],
   "latest_detail": {
@@ -203,11 +207,11 @@
       "depth": 50
     },
     "latest": {
-      "time": "2026-10-14T22:19:00+09:00",
-      "scale": 20,
-      "name": "宮城県沖",
-      "magnitude": 4.1,
-      "depth": 50
+      "time": "2026-10-15T02:02:00+09:00",
+      "scale": 10,
+      "name": "宮崎県南部山沿い",
+      "magnitude": 2.6,
+      "depth": 0
     },
     "capped": false
   }
