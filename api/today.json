@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:59:14+09:00",
+  "generated_at": "2026-10-14T22:59:47+09:00",
   "date": "2026-10-14",
   "metrics": [
     {
@@ -44,28 +44,30 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 7.9,
-      "value_display": "7.9℃",
-      "observed_at": "2026-10-14T03:00:00+09:00",
+      "value": 5.6,
+      "value_display": "5.6℃",
+      "observed_at": "2026-10-14T22:00:00+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 6.0,
-        "display": "+6℃",
+        "value": 3.7,
+        "display": "+3.7℃",
         "direction": "up",
         "prev_value": 1.9,
         "prev_date": "2026-10-13"
       },
-      "caption": "白滝｜きょう日本でいちばん寒い",
-      "highlight": true,
-      "highlight_reason": "いつもより大きな変化",
+      "caption": "喜茂別｜きょう日本でいちばん寒い",
+      "highlight": false,
+      "highlight_reason": null,
       "detail": {
-        "place": "白滝",
-        "pref": "北海道網走・北見・紋別地方",
-        "caption": "白滝｜きょう日本でいちばん寒い",
-        "record_1st": -24.2,
+        "place": "喜茂別",
+        "pref": "北海道後志地方",
+        "caption": "喜茂別｜きょう日本でいちばん寒い",
+        "normal_diff": 3.2,
+        "station_prev_diff": 1.5,
+        "record_1st": -31.9,
         "year_extreme": false,
         "all_time_record": false
       },
@@ -3962,7 +3964,7 @@
       "unit": "",
       "value": 48,
       "value_display": "0時間48分",
-      "observed_at": "2026-10-14T16:50:00+09:00",
+      "observed_at": "2026-10-14T22:50:00+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
@@ -3979,7 +3981,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 48.0,
-        "last_observed_at": "2026-10-14T16:50:00+09:00",
+        "last_observed_at": "2026-10-14T22:50:00+09:00",
         "caption": "きょうの東京の日照時間（ここまでの積算）"
       },
       "source": {
@@ -3992,16 +3994,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 372,
-      "value_display": "372地点",
-      "observed_at": "2026-10-14T16:50:00+09:00",
+      "value": 381,
+      "value_display": "381地点",
+      "observed_at": "2026-10-14T22:50:00+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 350,
-        "display": "+350地点",
+        "value": 359,
+        "display": "+359地点",
         "direction": "up",
         "prev_value": 22,
         "prev_date": "2026-10-13"
@@ -4015,9 +4017,11 @@
           "11046",
           "11091",
           "11151",
+          "11176",
           "11276",
           "12011",
           "12066",
+          "12217",
           "12231",
           "12261",
           "12266",
@@ -4026,6 +4030,7 @@
           "12411",
           "12471",
           "12512",
+          "12551",
           "12632",
           "12686",
           "12691",
@@ -4050,9 +4055,11 @@
           "15231",
           "15247",
           "15311",
+          "15321",
           "15451",
           "15491",
           "16026",
+          "16061",
           "16076",
           "16091",
           "16126",
@@ -4100,6 +4107,7 @@
           "22391",
           "23166",
           "23206",
+          "23326",
           "24051",
           "24101",
           "24166",
@@ -4176,6 +4184,7 @@
           "34096",
           "34111",
           "34171",
+          "34471",
           "34506",
           "35002",
           "35052",
@@ -4220,6 +4229,7 @@
           "44262",
           "44263",
           "48031",
+          "48097",
           "48141",
           "48146",
           "48172",
@@ -4314,6 +4324,7 @@
           "54666",
           "54711",
           "54761",
+          "54816",
           "54876",
           "55041",
           "55063",
@@ -4384,7 +4395,7 @@
           "82261",
           "92012"
         ],
-        "now": 22,
+        "now": 18,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4459,33 +4470,33 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value": 19.6,
-      "value_display": "19.6℃",
-      "observed_at": "2026-10-14T16:50:00+09:00",
+      "value": 22.0,
+      "value_display": "22℃",
+      "observed_at": "2026-10-14T22:50:00+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.8,
-        "display": "-3.8℃",
+        "value": -1.4,
+        "display": "-1.4℃",
         "direction": "down",
         "prev_value": 23.4,
         "prev_date": "2026-10-13"
       },
-      "caption": "石垣島28.8℃ と 酸ケ湯9.2℃ の差",
+      "caption": "南鳥島28.3℃ と 酸ケ湯6.3℃ の差",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "hot": {
-          "place": "石垣島",
-          "temp": 28.8
+          "place": "南鳥島",
+          "temp": 28.3
         },
         "cold": {
           "place": "酸ケ湯",
-          "temp": 9.2
+          "temp": 6.3
         },
-        "caption": "石垣島28.8℃ と 酸ケ湯9.2℃ の差"
+        "caption": "南鳥島28.3℃ と 酸ケ湯6.3℃ の差"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4652,26 +4663,26 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value": 16.3,
-      "value_display": "16.3m/s",
-      "observed_at": "2026-10-14T10:50:00+09:00",
+      "value": 22.0,
+      "value_display": "22m/s",
+      "observed_at": "2026-10-14T22:50:00+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.7,
-        "display": "+2.7m/s",
+        "value": 8.4,
+        "display": "+8.4m/s",
         "direction": "up",
         "prev_value": 13.6,
         "prev_date": "2026-10-13"
       },
-      "caption": "焼尻｜全国でいちばん風が強い（10分平均）",
-      "highlight": false,
-      "highlight_reason": null,
+      "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
+      "highlight": true,
+      "highlight_reason": "かなり珍しい変化",
       "detail": {
-        "place": "焼尻",
-        "caption": "焼尻｜全国でいちばん風が強い（10分平均）"
+        "place": "えりも岬",
+        "caption": "えりも岬｜全国でいちばん風が強い（10分平均）"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4714,16 +4725,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": -1.4,
-      "value_display": "-1.4℃",
-      "observed_at": "2026-10-14T16:50:00+09:00",
+      "value": -2.6,
+      "value_display": "-2.6℃",
+      "observed_at": "2026-10-14T22:50:00+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.4,
-        "display": "-1.4℃",
+        "value": -2.6,
+        "display": "-2.6℃",
         "direction": "down",
         "prev_value": 0.0,
         "prev_date": "2026-10-13"
@@ -4871,7 +4882,7 @@
       "unit": "個",
       "value": 0,
       "value_display": "0個",
-      "observed_at": "2026-10-14T16:58:00+09:00",
+      "observed_at": "2026-10-14T22:58:00+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
@@ -4902,7 +4913,7 @@
       "unit": "市町村",
       "value": 17,
       "value_display": "17市町村",
-      "observed_at": "2026-10-14T16:28:53+09:00",
+      "observed_at": "2026-10-14T21:55:17+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
@@ -4933,7 +4944,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-14T16:28:53+09:00",
+      "observed_at": "2026-10-14T21:55:17+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
@@ -4963,7 +4974,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-14T16:28:53+09:00",
+      "observed_at": "2026-10-14T21:55:17+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
@@ -4993,7 +5004,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-14T16:28:53+09:00",
+      "observed_at": "2026-10-14T21:55:17+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
@@ -5023,7 +5034,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-14T16:58:03+09:00",
+      "observed_at": "2026-10-14T22:58:34+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
@@ -5096,7 +5107,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-14T16:59:01+09:00",
+      "observed_at": "2026-10-14T22:59:32+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
@@ -5126,7 +5137,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-14T16:59:01+09:00",
+      "observed_at": "2026-10-14T22:59:32+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
@@ -5624,7 +5635,7 @@
       "unit": "%",
       "value": 88.0,
       "value_display": "88%",
-      "observed_at": "2026-10-14T16:40:00+09:00",
+      "observed_at": "2026-10-14T22:40:00+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
@@ -5643,9 +5654,9 @@
         "reserve_rate": 13.0,
         "peak_supply_10MW": 3857.0,
         "forecast_peak_demand_10MW": 3402.0,
-        "current_demand_10MW": 3413.0,
-        "current_demand_time": "15:00",
-        "current_usage_rate": 88.0,
+        "current_demand_10MW": 2742.0,
+        "current_demand_time": "21:00",
+        "current_usage_rate": 76.0,
         "peak_timeband": "11:00〜12:00",
         "area": "東京",
         "caption": "ピークは11:00〜12:00の見込み"
@@ -5692,40 +5703,40 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 6,
-      "value_display": "6回",
-      "observed_at": "2026-10-14T16:59:00+09:00",
+      "value": 4,
+      "value_display": "4回",
+      "observed_at": "2026-10-14T22:59:00+09:00",
       "as_of": "2026-10-14",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
-        "direction": "up",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 4,
         "prev_date": "2026-10-13"
       },
-      "caption": "最大は紀伊水道の震度2",
+      "caption": "最大は宮城県沖の震度2",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "最大は紀伊水道の震度2",
+        "caption": "最大は宮城県沖の震度2",
         "window_hours": 24,
-        "max_magnitude": 3.8,
+        "max_magnitude": 4.1,
         "strongest": {
-          "time": "2026-10-13T20:44:00+09:00",
+          "time": "2026-10-14T22:19:00+09:00",
           "scale": 20,
-          "name": "紀伊水道",
-          "magnitude": 3.8,
-          "depth": 40
+          "name": "宮城県沖",
+          "magnitude": 4.1,
+          "depth": 50
         },
         "latest": {
-          "time": "2026-10-14T16:07:00+09:00",
-          "scale": 10,
-          "name": "熊本県天草・芦北地方",
-          "magnitude": 1.4,
-          "depth": 10
+          "time": "2026-10-14T22:19:00+09:00",
+          "scale": 20,
+          "name": "宮城県沖",
+          "magnitude": 4.1,
+          "depth": 50
         },
         "capped": false
       },

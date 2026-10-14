@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-14T16:59:14+09:00",
+  "updated_at": "2026-10-14T22:59:47+09:00",
   "summary": {
     "count": 43,
     "first_date": "2026-09-02",
     "last_date": "2026-10-14",
     "min_30d": 3,
     "max_30d": 13,
-    "avg_30d": 6.87
+    "avg_30d": 6.8
   },
   "history": [
     {
@@ -188,26 +188,26 @@
     },
     {
       "date": "2026-10-14",
-      "value": 6
+      "value": 4
     }
   ],
   "latest_detail": {
-    "caption": "最大は紀伊水道の震度2",
+    "caption": "最大は宮城県沖の震度2",
     "window_hours": 24,
-    "max_magnitude": 3.8,
+    "max_magnitude": 4.1,
     "strongest": {
-      "time": "2026-10-13T20:44:00+09:00",
+      "time": "2026-10-14T22:19:00+09:00",
       "scale": 20,
-      "name": "紀伊水道",
-      "magnitude": 3.8,
-      "depth": 40
+      "name": "宮城県沖",
+      "magnitude": 4.1,
+      "depth": 50
     },
     "latest": {
-      "time": "2026-10-14T16:07:00+09:00",
-      "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 1.4,
-      "depth": 10
+      "time": "2026-10-14T22:19:00+09:00",
+      "scale": 20,
+      "name": "宮城県沖",
+      "magnitude": 4.1,
+      "depth": 50
     },
     "capped": false
   }

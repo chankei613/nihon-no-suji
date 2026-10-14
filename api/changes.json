@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:59:14+09:00",
+  "generated_at": "2026-10-14T22:59:47+09:00",
   "date": "2026-10-14",
   "changes": [
     {
@@ -25,19 +25,38 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "372地点",
+      "value_display": "381地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 350,
-        "display": "+350地点",
+        "value": 359,
+        "display": "+359地点",
         "direction": "up",
         "prev_value": 22,
         "prev_date": "2026-10-13"
       },
       "caption": "きょう雨が降った地点",
-      "score": 4.96,
-      "z": 4.96,
+      "score": 5.12,
+      "z": 5.12,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "22m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 8.4,
+        "display": "+8.4m/s",
+        "direction": "up",
+        "prev_value": 13.6,
+        "prev_date": "2026-10-13"
+      },
+      "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
+      "score": 4.79,
+      "z": 4.79,
       "label": "かなり珍しい変化"
     },
     {
@@ -60,41 +79,41 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "7.9℃",
+      "value_display": "-2.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 6.0,
-        "display": "+6℃",
+        "value": -2.6,
+        "display": "-2.6℃",
+        "direction": "down",
+        "prev_value": 0.0,
+        "prev_date": "2026-10-13"
+      },
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 1.33,
+      "z": 1.33,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "5.6℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.7,
+        "display": "+3.7℃",
         "direction": "up",
         "prev_value": 1.9,
         "prev_date": "2026-10-13"
       },
-      "caption": "白滝｜きょう日本でいちばん寒い",
-      "score": 2.52,
-      "z": 2.52,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "19.6℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -3.8,
-        "display": "-3.8℃",
-        "direction": "down",
-        "prev_value": 23.4,
-        "prev_date": "2026-10-13"
-      },
-      "caption": "石垣島28.8℃ と 酸ケ湯9.2℃ の差",
-      "score": 1.36,
-      "z": 1.36,
+      "caption": "喜茂別｜きょう日本でいちばん寒い",
+      "score": 1.03,
+      "z": 1.03,
       "label": "通常の範囲"
     },
     {
@@ -152,25 +171,6 @@
       "caption": "いま発生している台風はない",
       "score": 1.0,
       "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "16.3m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2.7,
-        "display": "+2.7m/s",
-        "direction": "up",
-        "prev_value": 13.6,
-        "prev_date": "2026-10-13"
-      },
-      "caption": "焼尻｜全国でいちばん風が強い（10分平均）",
-      "score": 0.77,
-      "z": 0.77,
       "label": "通常の範囲"
     },
     {
@@ -402,6 +402,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "22℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.4,
+        "display": "-1.4℃",
+        "direction": "down",
+        "prev_value": 23.4,
+        "prev_date": "2026-10-13"
+      },
+      "caption": "南鳥島28.3℃ と 酸ケ湯6.3℃ の差",
+      "score": 0.0,
+      "z": -0.31,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
@@ -475,25 +494,6 @@
       "caption": "島原｜全国でいちばん空気が乾いている",
       "score": 0.0,
       "z": -1.2,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "-1.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1.4,
-        "display": "-1.4℃",
-        "direction": "down",
-        "prev_value": 0.0,
-        "prev_date": "2026-10-13"
-      },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 0.0,
-      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -804,19 +804,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "6回",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
-        "direction": "up",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 4,
         "prev_date": "2026-10-13"
       },
-      "caption": "最大は紀伊水道の震度2",
+      "caption": "最大は宮城県沖の震度2",
       "score": 0.0,
-      "z": -0.33,
+      "z": -1.67,
       "label": "通常の範囲"
     },
     {
