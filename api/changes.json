@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:22:15+09:00",
+  "generated_at": "2026-10-15T21:00:29+09:00",
   "date": "2026-10-15",
   "changes": [
     {
@@ -25,19 +25,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "15地点",
+      "value_display": "25地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -366,
-        "display": "-366地点",
+        "value": -356,
+        "display": "-356地点",
         "direction": "down",
         "prev_value": 381,
         "prev_date": "2026-10-14"
       },
       "caption": "きょう雨が降った地点",
-      "score": 5.11,
-      "z": 5.11,
+      "score": 4.94,
+      "z": 4.94,
       "label": "かなり珍しい変化"
     },
     {
@@ -58,25 +58,6 @@
       "score": 3.95,
       "z": 3.95,
       "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-precip-1h",
-      "name": "全国最大1時間降水量",
-      "category": "自然",
-      "value_display": "5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -20.0,
-        "display": "-20mm",
-        "direction": "down",
-        "prev_value": 25.0,
-        "prev_date": "2026-10-14"
-      },
-      "caption": "深浦｜この1時間でいちばん降った",
-      "score": 1.58,
-      "z": 1.58,
-      "label": "いつもより大きな変化"
     },
     {
       "slug": "min-temp",
@@ -155,6 +136,44 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "typhoons-this-year",
+      "name": "今年の台風発生数",
+      "category": "防災",
+      "value_display": "30個",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "+1個",
+        "direction": "up",
+        "prev_value": 29,
+        "prev_date": "2026-10-14"
+      },
+      "caption": "今年はこれまでに30個の台風が発生",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "value_display": "1個",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "+1個",
+        "direction": "up",
+        "prev_value": 0,
+        "prev_date": "2026-10-14"
+      },
+      "caption": "台風30号「チャンパー」がマーシャル諸島",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
@@ -171,25 +190,6 @@
       "caption": "きょうのピークで電力の37%を太陽光がまかなった",
       "score": 1.0,
       "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "22.7℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.8,
-        "display": "-2.8℃",
-        "direction": "down",
-        "prev_value": 25.5,
-        "prev_date": "2026-10-14"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 0.79,
-      "z": 0.79,
       "label": "通常の範囲"
     },
     {
@@ -212,22 +212,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "8回",
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "22.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4,
-        "display": "+4回",
-        "direction": "up",
-        "prev_value": 4,
+        "value": -2.6,
+        "display": "-2.6℃",
+        "direction": "down",
+        "prev_value": 25.5,
         "prev_date": "2026-10-14"
       },
-      "caption": "最大は宮城県沖の震度2",
-      "score": 0.5,
-      "z": 0.5,
+      "caption": "きょうの東京の最高気温",
+      "score": 0.64,
+      "z": 0.64,
       "label": "通常の範囲"
     },
     {
@@ -247,25 +247,6 @@
       "caption": "長沼｜全国でいちばん空気が乾いている",
       "score": 0.45,
       "z": 0.45,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "-0.7℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.9,
-        "display": "+1.9℃",
-        "direction": "up",
-        "prev_value": -2.6,
-        "prev_date": "2026-10-14"
-      },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 0.4,
-      "z": 0.4,
       "label": "通常の範囲"
     },
     {
@@ -304,6 +285,25 @@
       "caption": "レギュラーガソリン全国平均（10月13日調査）",
       "score": 0.1,
       "z": 0.1,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "14mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -11.0,
+        "display": "-11mm",
+        "direction": "down",
+        "prev_value": 25.0,
+        "prev_date": "2026-10-14"
+      },
+      "caption": "三宅島｜この1時間でいちばん降った",
+      "score": 0.08,
+      "z": 0.08,
       "label": "通常の範囲"
     },
     {
@@ -443,19 +443,19 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "5.5mm",
+      "value_display": "16.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -27.0,
-        "display": "-27mm",
+        "value": -16.0,
+        "display": "-16mm",
         "direction": "down",
         "prev_value": 32.5,
         "prev_date": "2026-10-14"
       },
-      "caption": "深浦｜この3時間でいちばん激しく降った",
+      "caption": "三宅島｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.04,
+      "z": -0.61,
       "label": "通常の範囲"
     },
     {
@@ -516,6 +516,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-3.2℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -0.6,
+        "display": "-0.6℃",
+        "direction": "down",
+        "prev_value": -2.6,
+        "prev_date": "2026-10-14"
+      },
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 0.0,
+      "z": -0.89,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "usd-jpy",
       "name": "ドル円レート",
       "category": "経済",
@@ -532,44 +551,6 @@
       "caption": "1ドル＝158.22円（10月13日）",
       "score": 0.0,
       "z": -1.09,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "typhoons-this-year",
-      "name": "今年の台風発生数",
-      "category": "防災",
-      "value_display": "29個",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
-        "prev_value": 29,
-        "prev_date": "2026-10-14"
-      },
-      "caption": "今年はこれまでに29個の台風が発生",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "active-typhoons",
-      "name": "発生中の台風の数",
-      "category": "防災",
-      "value_display": "0個",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
-        "prev_value": 0,
-        "prev_date": "2026-10-14"
-      },
-      "caption": "いま発生している台風はない",
-      "score": 0.0,
-      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -817,6 +798,25 @@
       "caption": "ピークは16:00〜17:00の見込み",
       "score": 0.0,
       "z": -1.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "7回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3,
+        "display": "+3回",
+        "direction": "up",
+        "prev_value": 4,
+        "prev_date": "2026-10-14"
+      },
+      "caption": "最大は宮城県沖の震度2",
+      "score": 0.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {

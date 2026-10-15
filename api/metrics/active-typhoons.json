@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-10-15T15:22:15+09:00",
+  "updated_at": "2026-10-15T21:00:29+09:00",
   "summary": {
     "count": 43,
     "first_date": "2026-09-03",
     "last_date": "2026-10-15",
     "min_30d": 0,
     "max_30d": 3,
-    "avg_30d": 1.2
+    "avg_30d": 1.23
   },
   "history": [
     {
@@ -188,11 +188,21 @@
     },
     {
       "date": "2026-10-15",
-      "value": 0
+      "value": 1
     }
   ],
   "latest_detail": {
-    "typhoons": [],
-    "caption": "いま発生している台風はない"
+    "typhoons": [
+      {
+        "number": "2630",
+        "name": "チャンパー",
+        "category": "TS",
+        "pressure": "1000",
+        "location": "マーシャル諸島",
+        "course": "西北西",
+        "typhoon_number": "2630"
+      }
+    ],
+    "caption": "台風30号「チャンパー」がマーシャル諸島"
   }
 }

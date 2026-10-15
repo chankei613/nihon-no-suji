@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:22:15+09:00",
+  "generated_at": "2026-10-15T21:00:29+09:00",
   "date": "2026-10-15",
   "metrics": [
     {
@@ -81,16 +81,16 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 22.7,
-      "value_display": "22.7℃",
-      "observed_at": "2026-10-15T14:00:00+09:00",
+      "value": 22.9,
+      "value_display": "22.9℃",
+      "observed_at": "2026-10-15T20:00:00+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.8,
-        "display": "-2.8℃",
+        "value": -2.6,
+        "display": "-2.6℃",
         "direction": "down",
         "prev_value": 25.5,
         "prev_date": "2026-10-14"
@@ -102,8 +102,8 @@
         "place": "東京",
         "pref": "東京都",
         "caption": "きょうの東京の最高気温",
-        "normal_diff": 0.6,
-        "station_prev_diff": -2.8,
+        "normal_diff": 0.8,
+        "station_prev_diff": -2.6,
         "record_1st": 39.5,
         "year_extreme": false,
         "all_time_record": false
@@ -3964,7 +3964,7 @@
       "unit": "",
       "value": 72,
       "value_display": "1時間12分",
-      "observed_at": "2026-10-15T15:10:00+09:00",
+      "observed_at": "2026-10-15T20:50:00+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
@@ -3981,7 +3981,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 72.0,
-        "last_observed_at": "2026-10-15T15:10:00+09:00",
+        "last_observed_at": "2026-10-15T20:50:00+09:00",
         "caption": "きょうの東京の日照時間（ここまでの積算）"
       },
       "source": {
@@ -3994,16 +3994,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 15,
-      "value_display": "15地点",
-      "observed_at": "2026-10-15T15:10:00+09:00",
+      "value": 25,
+      "value_display": "25地点",
+      "observed_at": "2026-10-15T20:50:00+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -366,
-        "display": "-366地点",
+        "value": -356,
+        "display": "-356地点",
         "direction": "down",
         "prev_value": 381,
         "prev_date": "2026-10-14"
@@ -4013,6 +4013,7 @@
       "highlight_reason": "かなり珍しい変化",
       "detail": {
         "station_ids": [
+          "11001",
           "12626",
           "16286",
           "20047",
@@ -4027,6 +4028,15 @@
           "32126",
           "32136",
           "32181",
+          "32581",
+          "32681",
+          "32701",
+          "35052",
+          "35056",
+          "35071",
+          "35086",
+          "44226",
+          "45361",
           "55151"
         ],
         "now": 10,
@@ -4042,26 +4052,26 @@
       "name": "全国最大1時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value": 5.0,
-      "value_display": "5mm",
-      "observed_at": "2026-10-15T15:10:00+09:00",
+      "value": 14.0,
+      "value_display": "14mm",
+      "observed_at": "2026-10-15T20:50:00+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -20.0,
-        "display": "-20mm",
+        "value": -11.0,
+        "display": "-11mm",
         "direction": "down",
         "prev_value": 25.0,
         "prev_date": "2026-10-14"
       },
-      "caption": "深浦｜この1時間でいちばん降った",
+      "caption": "三宅島｜この1時間でいちばん降った",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "深浦",
-        "caption": "深浦｜この1時間でいちばん降った"
+        "place": "三宅島",
+        "caption": "三宅島｜この1時間でいちばん降った"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4073,26 +4083,26 @@
       "name": "全国最大3時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value": 5.5,
-      "value_display": "5.5mm",
-      "observed_at": "2026-10-15T15:10:00+09:00",
+      "value": 16.5,
+      "value_display": "16.5mm",
+      "observed_at": "2026-10-15T20:50:00+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -27.0,
-        "display": "-27mm",
+        "value": -16.0,
+        "display": "-16mm",
         "direction": "down",
         "prev_value": 32.5,
         "prev_date": "2026-10-14"
       },
-      "caption": "深浦｜この3時間でいちばん激しく降った",
+      "caption": "三宅島｜この3時間でいちばん激しく降った",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "深浦",
-        "caption": "深浦｜この3時間でいちばん激しく降った"
+        "place": "三宅島",
+        "caption": "三宅島｜この3時間でいちばん激しく降った"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4359,17 +4369,17 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": -0.7,
-      "value_display": "-0.7℃",
-      "observed_at": "2026-10-15T15:10:00+09:00",
+      "value": -3.2,
+      "value_display": "-3.2℃",
+      "observed_at": "2026-10-15T20:50:00+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.9,
-        "display": "+1.9℃",
-        "direction": "up",
+        "value": -0.6,
+        "display": "-0.6℃",
+        "direction": "down",
         "prev_value": -2.6,
         "prev_date": "2026-10-14"
       },
@@ -4484,25 +4494,25 @@
       "name": "今年の台風発生数",
       "category": "防災",
       "unit": "個",
-      "value": 29,
-      "value_display": "29個",
-      "observed_at": "2026-10-15T03:49:00+09:00",
+      "value": 30,
+      "value_display": "30個",
+      "observed_at": "2026-10-15T20:59:00+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
+        "value": 1,
+        "display": "+1個",
+        "direction": "up",
         "prev_value": 29,
         "prev_date": "2026-10-14"
       },
-      "caption": "今年はこれまでに29個の台風が発生",
+      "caption": "今年はこれまでに30個の台風が発生",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "今年はこれまでに29個の台風が発生"
+        "caption": "今年はこれまでに30個の台風が発生"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -4514,26 +4524,36 @@
       "name": "発生中の台風の数",
       "category": "防災",
       "unit": "個",
-      "value": 0,
-      "value_display": "0個",
-      "observed_at": "2026-10-15T15:21:00+09:00",
+      "value": 1,
+      "value_display": "1個",
+      "observed_at": "2026-10-15T20:59:00+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
+        "value": 1,
+        "display": "+1個",
+        "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-10-14"
       },
-      "caption": "いま発生している台風はない",
+      "caption": "台風30号「チャンパー」がマーシャル諸島",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "typhoons": [],
-        "caption": "いま発生している台風はない"
+        "typhoons": [
+          {
+            "number": "2630",
+            "name": "チャンパー",
+            "category": "TS",
+            "pressure": "1000",
+            "location": "マーシャル諸島",
+            "course": "西北西",
+            "typhoon_number": "2630"
+          }
+        ],
+        "caption": "台風30号「チャンパー」がマーシャル諸島"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -4547,7 +4567,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-15T14:36:45+09:00",
+      "observed_at": "2026-10-15T20:26:36+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
@@ -4578,7 +4598,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-15T14:36:45+09:00",
+      "observed_at": "2026-10-15T20:26:36+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
@@ -4608,7 +4628,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-15T14:36:45+09:00",
+      "observed_at": "2026-10-15T20:26:36+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
@@ -4638,7 +4658,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-15T14:36:45+09:00",
+      "observed_at": "2026-10-15T20:26:36+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
@@ -4668,7 +4688,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-15T15:21:18+09:00",
+      "observed_at": "2026-10-15T20:59:16+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
@@ -4741,7 +4761,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-15T15:22:03+09:00",
+      "observed_at": "2026-10-15T21:00:15+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
@@ -4771,7 +4791,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-15T15:22:03+09:00",
+      "observed_at": "2026-10-15T21:00:15+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
@@ -5269,7 +5289,7 @@
       "unit": "%",
       "value": 88.0,
       "value_display": "88%",
-      "observed_at": "2026-10-15T15:10:00+09:00",
+      "observed_at": "2026-10-15T20:40:00+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
@@ -5287,10 +5307,10 @@
       "detail": {
         "reserve_rate": 13.0,
         "peak_supply_10MW": 3674.0,
-        "forecast_peak_demand_10MW": 3260.0,
-        "current_demand_10MW": 3243.0,
-        "current_demand_time": "14:00",
-        "current_usage_rate": 85.0,
+        "forecast_peak_demand_10MW": 3254.0,
+        "current_demand_10MW": 3001.0,
+        "current_demand_time": "19:00",
+        "current_usage_rate": 82.0,
         "peak_timeband": "16:00〜17:00",
         "area": "東京",
         "caption": "ピークは16:00〜17:00の見込み"
@@ -5337,16 +5357,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 8,
-      "value_display": "8回",
-      "observed_at": "2026-10-15T15:22:00+09:00",
+      "value": 7,
+      "value_display": "7回",
+      "observed_at": "2026-10-15T21:00:00+09:00",
       "as_of": "2026-10-15",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4,
-        "display": "+4回",
+        "value": 3,
+        "display": "+3回",
         "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-10-14"
