@@ -8,14 +8,14 @@
     "name": "国土交通省 近畿・関東地方整備局",
     "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
   },
-  "updated_at": "2026-10-16T10:37:54+09:00",
+  "updated_at": "2026-10-16T16:29:31+09:00",
   "summary": {
     "count": 46,
     "first_date": "2026-09-01",
     "last_date": "2026-10-16",
-    "min_30d": 54.5,
+    "min_30d": 53.3,
     "max_30d": 89.6,
-    "avg_30d": 82.2
+    "avg_30d": 82.16
   },
   "history": [
     {
@@ -200,14 +200,14 @@
     },
     {
       "date": "2026-10-16",
-      "value": 54.5
+      "value": 53.3
     }
   ],
   "latest_detail": {
     "dam_count": 17,
     "region_means": {
       "近畿": 46.9,
-      "関東": 72.8
+      "関東": 68.8
     },
     "dams": [
       {
@@ -281,18 +281,18 @@
         "region": "関東"
       },
       {
+        "name": "相模川水系3ダム",
+        "rate": 78.0,
+        "region": "関東"
+      },
+      {
         "name": "青蓮寺ダム",
         "rate": 79.5,
         "region": "近畿"
       },
       {
         "name": "多摩川水系 小河内ダム",
-        "rate": 83.0,
-        "region": "関東"
-      },
-      {
-        "name": "相模川水系3ダム",
-        "rate": 97.0,
+        "rate": 82.0,
         "region": "関東"
       }
     ],
