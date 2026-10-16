@@ -8,16 +8,16 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-17T02:40:45+09:00",
+  "updated_at": "2026-10-17T06:38:12+09:00",
   "summary": {
     "count": 46,
     "first_date": "2026-09-02",
     "last_date": "2026-10-17",
-    "min_30d": -1.0,
+    "min_30d": -1.2,
     "max_30d": 9.2,
-    "avg_30d": 2.59,
-    "record_1st": -29.5,
-    "year_extreme": false,
+    "avg_30d": 2.54,
+    "record_1st": -35.9,
+    "year_extreme": true,
     "all_time_record": false
   },
   "history": [
@@ -203,15 +203,15 @@
     },
     {
       "date": "2026-10-17",
-      "value": 0.3
+      "value": -1.2
     }
   ],
   "latest_detail": {
-    "place": "標茶",
-    "pref": "北海道釧路地方",
-    "caption": "標茶｜きょう日本でいちばん寒い",
-    "record_1st": -29.5,
-    "year_extreme": false,
+    "place": "中頓別",
+    "pref": "北海道宗谷地方",
+    "caption": "中頓別｜きょう日本でいちばん寒い",
+    "record_1st": -35.9,
+    "year_extreme": true,
     "all_time_record": false
   }
 }
