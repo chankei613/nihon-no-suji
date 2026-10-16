@@ -8,7 +8,7 @@
     "name": "気象庁 噴火警報・予報",
     "url": "https://www.jma.go.jp/bosai/volcano/"
   },
-  "updated_at": "2026-10-16T08:14:57+09:00",
+  "updated_at": "2026-10-16T10:37:54+09:00",
   "summary": {
     "count": 31,
     "first_date": "2026-09-16",
@@ -146,11 +146,6 @@
   "latest_detail": {
     "volcanoes": [
       {
-        "code": "108",
-        "name": "十勝岳",
-        "level": 3
-      },
-      {
         "code": "506",
         "name": "桜島",
         "level": 3
@@ -158,6 +153,11 @@
       {
         "code": "105",
         "name": "雌阿寒岳",
+        "level": 2
+      },
+      {
+        "code": "108",
+        "name": "十勝岳",
         "level": 2
       },
       {
@@ -187,6 +187,6 @@
       }
     ],
     "checked": 42,
-    "caption": "十勝岳（レベル3）など8火山で警戒レベル2以上"
+    "caption": "桜島（レベル3）など8火山で警戒レベル2以上"
   }
 }
