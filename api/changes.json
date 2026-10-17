@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-17T15:04:48+09:00",
+  "generated_at": "2026-10-17T20:08:07+09:00",
   "date": "2026-10-17",
   "changes": [
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "value_display": "4地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 2,
+        "display": "+2地点",
+        "direction": "up",
+        "prev_value": 2,
+        "prev_date": "2026-10-16"
+      },
+      "caption": "きょう0℃を下回った地点",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
     {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
@@ -22,25 +41,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "0.5℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2.9,
-        "display": "+2.9℃",
-        "direction": "up",
-        "prev_value": -2.4,
-        "prev_date": "2026-10-16"
-      },
-      "caption": "夏でもひんやり",
-      "score": 1.67,
-      "z": 1.67,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
@@ -57,25 +57,6 @@
       "caption": "網走｜全国でいちばん気圧が低い",
       "score": 1.38,
       "z": 1.38,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "cold-points-0",
-      "name": "0℃を下回った地点数",
-      "category": "自然",
-      "value_display": "3地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1,
-        "display": "+1地点",
-        "direction": "up",
-        "prev_value": 2,
-        "prev_date": "2026-10-16"
-      },
-      "caption": "きょう0℃を下回った地点",
-      "score": 1.0,
-      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -171,6 +152,25 @@
       "caption": "ピークは13:00〜14:00の見込み",
       "score": 0.5,
       "z": 0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-0.9℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.5,
+        "display": "+1.5℃",
+        "direction": "up",
+        "prev_value": -2.4,
+        "prev_date": "2026-10-16"
+      },
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 0.11,
+      "z": 0.11,
       "label": "通常の範囲"
     },
     {
@@ -310,19 +310,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "2地点",
+      "value_display": "4地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -65,
-        "display": "-65地点",
+        "value": -63,
+        "display": "-63地点",
         "direction": "down",
         "prev_value": 67,
         "prev_date": "2026-10-16"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.07,
+      "z": -0.09,
       "label": "通常の範囲"
     },
     {
@@ -367,19 +367,19 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "28.9℃",
+      "value_display": "29℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.3,
-        "display": "-0.3℃",
+        "value": -0.2,
+        "display": "-0.2℃",
         "direction": "down",
         "prev_value": 29.2,
         "prev_date": "2026-10-16"
       },
-      "caption": "南鳥島28.6℃ と 中頓別-0.3℃ の差",
+      "caption": "石垣島28.6℃ と 中頓別-0.4℃ の差",
       "score": 0.0,
-      "z": -1.15,
+      "z": -1.22,
       "label": "通常の範囲"
     },
     {
@@ -814,7 +814,7 @@
         "prev_value": 3,
         "prev_date": "2026-10-16"
       },
-      "caption": "最大は紀伊水道の震度1",
+      "caption": "最大は和歌山県北部の震度1",
       "score": 0.0,
       "z": -1.0,
       "label": "通常の範囲"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:04:48+09:00",
+  "generated_at": "2026-10-17T20:08:07+09:00",
   "date": "2026-10-17",
   "metrics": [
     {
@@ -221,25 +221,26 @@
       "name": "0℃を下回った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 3,
-      "value_display": "3地点",
-      "observed_at": "2026-10-17T06:20:00+09:00",
+      "value": 4,
+      "value_display": "4地点",
+      "observed_at": "2026-10-17T19:50:00+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1地点",
+        "value": 2,
+        "display": "+2地点",
         "direction": "up",
         "prev_value": 2,
         "prev_date": "2026-10-16"
       },
       "caption": "きょう0℃を下回った地点",
-      "highlight": false,
-      "highlight_reason": null,
+      "highlight": true,
+      "highlight_reason": "いつもより大きな変化",
       "detail": {
         "station_ids": [
+          "11121",
           "11276",
           "19261",
           "50066"
@@ -3961,7 +3962,7 @@
       "unit": "",
       "value": 126,
       "value_display": "2時間06分",
-      "observed_at": "2026-10-17T14:50:00+09:00",
+      "observed_at": "2026-10-17T19:50:00+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -3978,7 +3979,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 126.0,
-        "last_observed_at": "2026-10-17T14:50:00+09:00",
+        "last_observed_at": "2026-10-17T19:50:00+09:00",
         "caption": "きょうの東京の日照時間（ここまでの積算）"
       },
       "source": {
@@ -3991,16 +3992,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 2,
-      "value_display": "2地点",
-      "observed_at": "2026-10-17T09:30:00+09:00",
+      "value": 4,
+      "value_display": "4地点",
+      "observed_at": "2026-10-17T19:50:00+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -65,
-        "display": "-65地点",
+        "value": -63,
+        "display": "-63地点",
         "direction": "down",
         "prev_value": 67,
         "prev_date": "2026-10-16"
@@ -4011,9 +4012,11 @@
       "detail": {
         "station_ids": [
           "31136",
-          "35231"
+          "35231",
+          "94011",
+          "94017"
         ],
-        "now": 1,
+        "now": 2,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4088,33 +4091,33 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value": 28.9,
-      "value_display": "28.9℃",
-      "observed_at": "2026-10-17T06:20:00+09:00",
+      "value": 29.0,
+      "value_display": "29℃",
+      "observed_at": "2026-10-17T19:50:00+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.3,
-        "display": "-0.3℃",
+        "value": -0.2,
+        "display": "-0.2℃",
         "direction": "down",
         "prev_value": 29.2,
         "prev_date": "2026-10-16"
       },
-      "caption": "南鳥島28.6℃ と 中頓別-0.3℃ の差",
+      "caption": "石垣島28.6℃ と 中頓別-0.4℃ の差",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "hot": {
-          "place": "南鳥島",
+          "place": "石垣島",
           "temp": 28.6
         },
         "cold": {
           "place": "中頓別",
-          "temp": -0.3
+          "temp": -0.4
         },
-        "caption": "南鳥島28.6℃ と 中頓別-0.3℃ の差"
+        "caption": "石垣島28.6℃ と 中頓別-0.4℃ の差"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4343,26 +4346,26 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 0.5,
-      "value_display": "0.5℃",
-      "observed_at": "2026-10-17T14:50:00+09:00",
+      "value": -0.9,
+      "value_display": "-0.9℃",
+      "observed_at": "2026-10-17T19:50:00+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.9,
-        "display": "+2.9℃",
+        "value": 1.5,
+        "display": "+1.5℃",
         "direction": "up",
         "prev_value": -2.4,
         "prev_date": "2026-10-16"
       },
-      "caption": "夏でもひんやり",
+      "caption": "氷点下。街とはまるで別世界",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "place": "富士山（標高3775m）",
-        "caption": "夏でもひんやり"
+        "caption": "氷点下。街とはまるで別世界"
       },
       "source": {
         "name": "気象庁 アメダス実況（富士山）",
@@ -4500,7 +4503,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-10-17T15:03:00+09:00",
+      "observed_at": "2026-10-17T20:06:00+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -4521,9 +4524,9 @@
             "number": "2630",
             "name": "チャンパー",
             "category": "TY",
-            "pressure": "970",
+            "pressure": "955",
             "location": "マリアナ諸島",
-            "course": "西北西",
+            "course": "西",
             "typhoon_number": "2630"
           }
         ],
@@ -4541,7 +4544,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-17T14:54:11+09:00",
+      "observed_at": "2026-10-17T20:02:58+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -4572,7 +4575,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-17T14:54:11+09:00",
+      "observed_at": "2026-10-17T20:02:58+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -4602,7 +4605,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-17T14:54:11+09:00",
+      "observed_at": "2026-10-17T20:02:58+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -4632,7 +4635,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-17T14:54:11+09:00",
+      "observed_at": "2026-10-17T20:02:58+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -4662,7 +4665,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-17T15:03:52+09:00",
+      "observed_at": "2026-10-17T20:06:55+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -4735,7 +4738,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-17T15:04:35+09:00",
+      "observed_at": "2026-10-17T20:07:53+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -4765,7 +4768,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-17T15:04:35+09:00",
+      "observed_at": "2026-10-17T20:07:53+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -5263,7 +5266,7 @@
       "unit": "%",
       "value": 83.0,
       "value_display": "83%",
-      "observed_at": "2026-10-17T14:40:00+09:00",
+      "observed_at": "2026-10-17T19:40:00+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -5282,9 +5285,9 @@
         "reserve_rate": 20.0,
         "peak_supply_10MW": 3360.0,
         "forecast_peak_demand_10MW": 2804.0,
-        "current_demand_10MW": 2766.0,
-        "current_demand_time": "13:00",
-        "current_usage_rate": 82.0,
+        "current_demand_10MW": 2665.0,
+        "current_demand_time": "19:00",
+        "current_usage_rate": 85.0,
         "peak_timeband": "13:00〜14:00",
         "area": "東京",
         "caption": "ピークは13:00〜14:00の見込み"
@@ -5333,7 +5336,7 @@
       "unit": "回",
       "value": 2,
       "value_display": "2回",
-      "observed_at": "2026-10-17T15:04:00+09:00",
+      "observed_at": "2026-10-17T20:07:00+09:00",
       "as_of": "2026-10-17",
       "stale": false,
       "change": {
@@ -5345,25 +5348,25 @@
         "prev_value": 3,
         "prev_date": "2026-10-16"
       },
-      "caption": "最大は紀伊水道の震度1",
+      "caption": "最大は和歌山県北部の震度1",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "caption": "最大は紀伊水道の震度1",
+        "caption": "最大は和歌山県北部の震度1",
         "window_hours": 24,
-        "max_magnitude": 2.6,
+        "max_magnitude": 2.8,
         "strongest": {
-          "time": "2026-10-17T11:54:00+09:00",
+          "time": "2026-10-17T17:42:00+09:00",
           "scale": 10,
-          "name": "紀伊水道",
-          "magnitude": 2.6,
+          "name": "和歌山県北部",
+          "magnitude": 2.8,
           "depth": 10
         },
         "latest": {
-          "time": "2026-10-17T11:54:00+09:00",
+          "time": "2026-10-17T17:42:00+09:00",
           "scale": 10,
-          "name": "紀伊水道",
-          "magnitude": 2.6,
+          "name": "和歌山県北部",
+          "magnitude": 2.8,
           "depth": 10
         },
         "capped": false
