@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-17T06:38:12+09:00",
+  "generated_at": "2026-10-17T09:45:21+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "27.4℃",
+      "value_display": "28.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.2,
-        "display": "-4.2℃",
+        "value": -3.4,
+        "display": "-3.4℃",
         "direction": "down",
         "prev_value": 31.6,
         "prev_date": "2026-10-16"
@@ -199,7 +199,7 @@
         },
         {
           "date": "2026-10-17",
-          "value": 27.4
+          "value": 28.2
         }
       ]
     },
@@ -1008,13 +1008,13 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "0地点",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1地点",
-        "direction": "down",
+        "value": 0,
+        "display": "±0地点",
+        "direction": "flat",
         "prev_value": 1,
         "prev_date": "2026-10-16"
       },
@@ -1197,7 +1197,7 @@
         },
         {
           "date": "2026-10-17",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -1696,12 +1696,12 @@
       "name": "東京の日照時間",
       "category": "自然",
       "unit": "",
-      "value_display": "0時間06分",
+      "value_display": "1時間06分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -114,
-        "display": "-114分",
+        "value": -54,
+        "display": "-54分",
         "direction": "down",
         "prev_value": 120,
         "prev_date": "2026-10-16"
@@ -1833,7 +1833,7 @@
         },
         {
           "date": "2026-10-17",
-          "value": 6
+          "value": 66
         }
       ]
     },
@@ -1842,12 +1842,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "1地点",
+      "value_display": "2地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -66,
-        "display": "-66地点",
+        "value": -65,
+        "display": "-65地点",
         "direction": "down",
         "prev_value": 67,
         "prev_date": "2026-10-16"
@@ -2031,7 +2031,7 @@
         },
         {
           "date": "2026-10-17",
-          "value": 1
+          "value": 2
         }
       ]
     },
@@ -3556,12 +3556,12 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "13.1m/s",
+      "value_display": "14.1m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.9,
-        "display": "-3.9m/s",
+        "value": -2.9,
+        "display": "-2.9m/s",
         "direction": "down",
         "prev_value": 17.0,
         "prev_date": "2026-10-16"
@@ -3745,7 +3745,7 @@
         },
         {
           "date": "2026-10-17",
-          "value": 13.1
+          "value": 14.1
         }
       ]
     },
@@ -3754,12 +3754,12 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "34%",
+      "value_display": "22%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 19.0,
-        "display": "+19.0pt",
+        "value": 7.0,
+        "display": "+7.0pt",
         "direction": "up",
         "prev_value": 15.0,
         "prev_date": "2026-10-16"
@@ -3943,7 +3943,7 @@
         },
         {
           "date": "2026-10-17",
-          "value": 34.0
+          "value": 22.0
         }
       ]
     },
@@ -3952,12 +3952,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "-2.3℃",
+      "value_display": "-0.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.1,
-        "display": "+0.1℃",
+        "value": 1.5,
+        "display": "+1.5℃",
         "direction": "up",
         "prev_value": -2.4,
         "prev_date": "2026-10-16"
@@ -4141,7 +4141,7 @@
         },
         {
           "date": "2026-10-17",
-          "value": -2.3
+          "value": -0.9
         }
       ]
     },
@@ -8828,13 +8828,13 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "3%",
+      "value_display": "47%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -39.0,
-        "display": "-39.0pt",
-        "direction": "down",
+        "value": 5.0,
+        "display": "+5.0pt",
+        "direction": "up",
         "prev_value": 42.0,
         "prev_date": "2026-10-16"
       },
@@ -9017,7 +9017,7 @@
         },
         {
           "date": "2026-10-17",
-          "value": 3.0
+          "value": 47.0
         }
       ]
     },
