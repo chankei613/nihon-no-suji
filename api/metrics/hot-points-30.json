@@ -8,14 +8,14 @@
     "name": "気象庁 アメダス実況",
     "url": "https://www.jma.go.jp/bosai/amedas/"
   },
-  "updated_at": "2026-10-17T09:45:21+09:00",
+  "updated_at": "2026-10-17T15:04:48+09:00",
   "summary": {
     "count": 45,
     "first_date": "2026-09-03",
     "last_date": "2026-10-17",
     "min_30d": 0,
     "max_30d": 107,
-    "avg_30d": 20.37
+    "avg_30d": 20.53
   },
   "history": [
     {
@@ -196,14 +196,19 @@
     },
     {
       "date": "2026-10-17",
-      "value": 1
+      "value": 6
     }
   ],
   "latest_detail": {
     "station_ids": [
-      "94086"
+      "93012",
+      "93062",
+      "94062",
+      "94081",
+      "94086",
+      "94101"
     ],
-    "now": 1,
+    "now": 5,
     "caption": "きょう30℃以上になった地点"
   }
 }
