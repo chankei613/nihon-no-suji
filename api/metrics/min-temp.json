@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-17T20:08:07+09:00",
+  "updated_at": "2026-10-17T23:23:18+09:00",
   "summary": {
     "count": 46,
     "first_date": "2026-09-02",
     "last_date": "2026-10-17",
-    "min_30d": -1.2,
+    "min_30d": -1.5,
     "max_30d": 9.2,
-    "avg_30d": 2.54,
-    "record_1st": -35.9,
+    "avg_30d": 2.53,
+    "record_1st": -35.6,
     "year_extreme": true,
     "all_time_record": false
   },
@@ -203,14 +203,16 @@
     },
     {
       "date": "2026-10-17",
-      "value": -1.2
+      "value": -1.5
     }
   ],
   "latest_detail": {
-    "place": "中頓別",
-    "pref": "北海道宗谷地方",
-    "caption": "中頓別｜きょう日本でいちばん寒い",
-    "record_1st": -35.9,
+    "place": "中川",
+    "pref": "北海道上川地方",
+    "caption": "中川｜きょう日本でいちばん寒い",
+    "normal_diff": -4.3,
+    "station_prev_diff": -6.4,
+    "record_1st": -35.6,
     "year_extreme": true,
     "all_time_record": false
   }
