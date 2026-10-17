@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-18T02:31:02+09:00",
+  "generated_at": "2026-10-18T04:40:54+09:00",
   "date": "2026-10-18",
   "changes": [
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "value_display": "54地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 42,
+        "display": "+42地点",
+        "direction": "up",
+        "prev_value": 12,
+        "prev_date": "2026-10-17"
+      },
+      "caption": "きょう0℃を下回った地点",
+      "score": 42.0,
+      "z": 42.0,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "ice-day-points",
       "name": "真冬日（0℃以上にならなかった）地点数",
@@ -22,41 +41,22 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "cold-points-0",
-      "name": "0℃を下回った地点数",
-      "category": "自然",
-      "value_display": "31地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 19,
-        "display": "+19地点",
-        "direction": "up",
-        "prev_value": 12,
-        "prev_date": "2026-10-17"
-      },
-      "caption": "きょう0℃を下回った地点",
-      "score": 19.0,
-      "z": 19.0,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "28℃",
+      "value_display": "28.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.9,
-        "display": "-3.9℃",
+        "value": -3.8,
+        "display": "-3.8℃",
         "direction": "down",
         "prev_value": 31.9,
         "prev_date": "2026-10-17"
       },
       "caption": "石垣島｜きょう日本でいちばん暑い",
-      "score": 6.4,
-      "z": 6.4,
+      "score": 6.2,
+      "z": 6.2,
       "label": "かなり珍しい変化"
     },
     {
@@ -77,25 +77,6 @@
       "score": 4.53,
       "z": 4.53,
       "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "32%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 19.0,
-        "display": "+19.0pt",
-        "direction": "up",
-        "prev_value": 13.0,
-        "prev_date": "2026-10-17"
-      },
-      "caption": "鷲倉｜全国でいちばん空気が乾いている",
-      "score": 2.4,
-      "z": 2.4,
-      "label": "いつもより大きな変化"
     },
     {
       "slug": "elec-usage-tokyo",
@@ -155,6 +136,25 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "28%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 15.0,
+        "display": "+15.0pt",
+        "direction": "up",
+        "prev_value": 13.0,
+        "prev_date": "2026-10-17"
+      },
+      "caption": "鷲倉｜全国でいちばん空気が乾いている",
+      "score": 1.6,
+      "z": 1.6,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
@@ -171,6 +171,44 @@
       "caption": "北大東｜全国でいちばん風が強い（10分平均）",
       "score": 1.43,
       "z": 1.43,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "value_display": "27℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.0,
+        "display": "+3℃",
+        "direction": "up",
+        "prev_value": 24.0,
+        "prev_date": "2026-10-17"
+      },
+      "caption": "あすの東京の最高気温の予想",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "value_display": "17℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.0,
+        "display": "+3℃",
+        "direction": "up",
+        "prev_value": 14.0,
+        "prev_date": "2026-10-17"
+      },
+      "caption": "あすの東京の最低気温の予想",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -196,19 +234,19 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "-2.3℃",
+      "value_display": "-2.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.8,
-        "display": "-0.8℃",
+        "value": -1.4,
+        "display": "-1.4℃",
         "direction": "down",
         "prev_value": -1.5,
         "prev_date": "2026-10-17"
       },
-      "caption": "歌登｜きょう日本でいちばん寒い",
+      "caption": "占冠｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -0.81,
+      "z": -0.44,
       "label": "通常の範囲"
     },
     {
@@ -272,38 +310,38 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4,
-        "display": "-4地点",
+        "value": -3,
+        "display": "-3地点",
         "direction": "down",
         "prev_value": 4,
         "prev_date": "2026-10-17"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.26,
+      "z": -1.28,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "9.5mm",
+      "value_display": "0.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7.5,
-        "display": "-7.5mm",
+        "value": -9.0,
+        "display": "-9mm",
         "direction": "down",
-        "prev_value": 17.0,
-        "prev_date": "2026-10-16"
+        "prev_value": 9.5,
+        "prev_date": "2026-10-17"
       },
-      "caption": "伊仙｜この1時間でいちばん降った",
+      "caption": "朝日｜この1時間でいちばん降った",
       "score": 0.0,
-      "z": -0.43,
+      "z": -0.1,
       "label": "通常の範囲"
     },
     {
@@ -329,57 +367,19 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "30.5℃",
+      "value_display": "31.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.7,
-        "display": "+0.7℃",
+        "value": 1.5,
+        "display": "+1.5℃",
         "direction": "up",
         "prev_value": 29.8,
         "prev_date": "2026-10-17"
       },
-      "caption": "南鳥島28.1℃ と 占冠-2.4℃ の差",
+      "caption": "南鳥島28℃ と 陸別-3.3℃ の差",
       "score": 0.0,
-      "z": -0.85,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-max",
-      "name": "東京のあしたの最高気温",
-      "category": "自然",
-      "value_display": "24℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 24.0,
-        "prev_date": "2026-10-17"
-      },
-      "caption": "あすの東京の最高気温の予想",
-      "score": 0.0,
-      "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-min",
-      "name": "東京のあしたの最低気温",
-      "category": "自然",
-      "value_display": "14℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 14.0,
-        "prev_date": "2026-10-17"
-      },
-      "caption": "あすの東京の最低気温の予想",
-      "score": 0.0,
-      "z": -2.0,
+      "z": -0.23,
       "label": "通常の範囲"
     },
     {
@@ -405,57 +405,57 @@
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "0%",
+      "value_display": "20%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": 20.0,
+        "display": "+20.0pt",
+        "direction": "up",
         "prev_value": 0.0,
         "prev_date": "2026-10-17"
       },
       "caption": "あすは雨の心配は少ない",
       "score": 0.0,
-      "z": -2.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1,013hPa",
+      "value_display": "1012.5hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.5,
-        "display": "+0.5hPa",
-        "direction": "up",
+        "value": 0.0,
+        "display": "±0hPa",
+        "direction": "flat",
         "prev_value": 1012.5,
         "prev_date": "2026-10-17"
       },
       "caption": "宮古島｜全国でいちばん気圧が低い",
       "score": 0.0,
-      "z": -1.02,
+      "z": -1.24,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "0.1℃",
+      "value_display": "0.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.6,
-        "display": "+0.6℃",
+        "value": 1.1,
+        "display": "+1.1℃",
         "direction": "up",
         "prev_value": -0.5,
         "prev_date": "2026-10-17"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -0.89,
+      "z": -0.33,
       "label": "通常の範囲"
     },
     {
