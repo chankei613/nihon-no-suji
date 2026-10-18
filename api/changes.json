@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-18T15:31:56+09:00",
+  "generated_at": "2026-10-18T20:38:37+09:00",
   "date": "2026-10-18",
   "changes": [
     {
       "slug": "cold-points-0",
       "name": "0℃を下回った地点数",
       "category": "自然",
-      "value_display": "54地点",
+      "value_display": "55地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 42,
-        "display": "+42地点",
+        "value": 43,
+        "display": "+43地点",
         "direction": "up",
         "prev_value": 12,
         "prev_date": "2026-10-17"
       },
       "caption": "きょう0℃を下回った地点",
-      "score": 42.0,
-      "z": 42.0,
+      "score": 43.0,
+      "z": 43.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -38,25 +38,6 @@
       "caption": "きょう一度も0℃以上にならなかった地点（真冬日）",
       "score": 30.0,
       "z": 30.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "4.3℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4.8,
-        "display": "+4.8℃",
-        "direction": "up",
-        "prev_value": -0.5,
-        "prev_date": "2026-10-17"
-      },
-      "caption": "夏でもひんやり",
-      "score": 3.78,
-      "z": 3.78,
       "label": "かなり珍しい変化"
     },
     {
@@ -98,25 +79,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "11m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -3.1,
-        "display": "-3.1m/s",
-        "direction": "down",
-        "prev_value": 14.1,
-        "prev_date": "2026-10-17"
-      },
-      "caption": "武蔵｜全国でいちばん風が強い（10分平均）",
-      "score": 0.93,
-      "z": 0.93,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
@@ -136,25 +98,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "17.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -45.5,
-        "display": "-45.5mm",
-        "direction": "down",
-        "prev_value": 63.0,
-        "prev_date": "2026-10-17"
-      },
-      "caption": "鳥形山｜この24時間でいちばん降った",
-      "score": 0.32,
-      "z": 0.32,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
@@ -171,6 +114,25 @@
       "caption": "日田｜全国でいちばん気圧が低い",
       "score": 0.28,
       "z": 0.28,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "22.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -40.5,
+        "display": "-40.5mm",
+        "direction": "down",
+        "prev_value": 63.0,
+        "prev_date": "2026-10-17"
+      },
+      "caption": "鳥形山｜この24時間でいちばん降った",
+      "score": 0.15,
+      "z": 0.15,
       "label": "通常の範囲"
     },
     {
@@ -291,57 +253,57 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "18地点",
+      "value_display": "28地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 14,
-        "display": "+14地点",
+        "value": 24,
+        "display": "+24地点",
         "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-10-17"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.04,
+      "z": -0.91,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "5.5mm",
+      "value_display": "13mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.0,
-        "display": "-4mm",
-        "direction": "down",
+        "value": 3.5,
+        "display": "+3.5mm",
+        "direction": "up",
         "prev_value": 9.5,
         "prev_date": "2026-10-17"
       },
-      "caption": "油津｜この1時間でいちばん降った",
+      "caption": "都農｜この1時間でいちばん降った",
       "score": 0.0,
-      "z": -1.0,
+      "z": -1.09,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "9.5mm",
+      "value_display": "20.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.5,
-        "display": "-4.5mm",
-        "direction": "down",
+        "value": 6.5,
+        "display": "+6.5mm",
+        "direction": "up",
         "prev_value": 14.0,
         "prev_date": "2026-10-17"
       },
-      "caption": "蒲江｜この3時間でいちばん激しく降った",
+      "caption": "城辺｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -1.15,
+      "z": -1.03,
       "label": "通常の範囲"
     },
     {
@@ -402,6 +364,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "14.7m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.6,
+        "display": "+0.6m/s",
+        "direction": "up",
+        "prev_value": 14.1,
+        "prev_date": "2026-10-17"
+      },
+      "caption": "奥尻｜全国でいちばん風が強い（10分平均）",
+      "score": 0.0,
+      "z": -0.85,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
@@ -418,6 +399,25 @@
       "caption": "鷲倉｜全国でいちばん空気が乾いている",
       "score": 0.0,
       "z": -0.2,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-0.3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.2,
+        "display": "+0.2℃",
+        "direction": "up",
+        "prev_value": -0.5,
+        "prev_date": "2026-10-17"
+      },
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 0.0,
+      "z": -1.33,
       "label": "通常の範囲"
     },
     {
