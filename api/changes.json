@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T01:06:46+09:00",
+  "generated_at": "2026-10-19T03:52:24+09:00",
   "date": "2026-10-19",
   "changes": [
     {
@@ -82,38 +82,76 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "38%",
+      "value_display": "36%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 19.0,
-        "display": "+19.0pt",
+        "value": 17.0,
+        "display": "+17.0pt",
         "direction": "up",
         "prev_value": 19.0,
         "prev_date": "2026-10-18"
       },
-      "caption": "魚津｜全国でいちばん空気が乾いている",
-      "score": 2.4,
-      "z": 2.4,
+      "caption": "鼠ケ関｜全国でいちばん空気が乾いている",
+      "score": 2.0,
+      "z": 2.0,
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "11.7m/s",
+      "value_display": "90.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.0,
-        "display": "-3m/s",
-        "direction": "down",
-        "prev_value": 14.7,
+        "value": 68.0,
+        "display": "+68mm",
+        "direction": "up",
+        "prev_value": 22.5,
         "prev_date": "2026-10-18"
       },
-      "caption": "奥尻｜全国でいちばん風が強い（10分平均）",
-      "score": 0.86,
-      "z": 0.86,
+      "caption": "都農｜この24時間でいちばん降った",
+      "score": 1.07,
+      "z": 1.07,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "1市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "+1市町村",
+        "direction": "up",
+        "prev_value": 0,
+        "prev_date": "2026-10-18"
+      },
+      "caption": "1市町村に気象警報",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "1市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "+1市町村",
+        "direction": "up",
+        "prev_value": 0,
+        "prev_date": "2026-10-18"
+      },
+      "caption": "1市町村に大雨警報",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -133,6 +171,44 @@
       "caption": "きょう一度も25℃を下回らなかった地点（熱帯夜）",
       "score": 0.75,
       "z": 0.75,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "value_display": "1005.2hPa",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.9,
+        "display": "-3.9hPa",
+        "direction": "down",
+        "prev_value": 1009.1,
+        "prev_date": "2026-10-18"
+      },
+      "caption": "深浦｜全国でいちばん気圧が低い",
+      "score": 0.48,
+      "z": 0.48,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "value_display": "51mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 30.5,
+        "display": "+30.5mm",
+        "direction": "up",
+        "prev_value": 20.5,
+        "prev_date": "2026-10-18"
+      },
+      "caption": "都農｜この3時間でいちばん激しく降った",
+      "score": 0.44,
+      "z": 0.44,
       "label": "通常の範囲"
     },
     {
@@ -193,25 +269,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "52.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 30.0,
-        "display": "+30mm",
-        "direction": "up",
-        "prev_value": 22.5,
-        "prev_date": "2026-10-18"
-      },
-      "caption": "西都｜この24時間でいちばん降った",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "hot-points-35",
       "name": "35℃以上になった地点数",
       "category": "自然",
@@ -253,57 +310,38 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "23地点",
+      "value_display": "85地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5,
-        "display": "-5地点",
-        "direction": "down",
+        "value": 57,
+        "display": "+57地点",
+        "direction": "up",
         "prev_value": 28,
         "prev_date": "2026-10-18"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.23,
+      "z": -0.14,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "16mm",
+      "value_display": "17.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.0,
-        "display": "+3mm",
+        "value": 4.5,
+        "display": "+4.5mm",
         "direction": "up",
         "prev_value": 13.0,
         "prev_date": "2026-10-18"
       },
-      "caption": "延岡｜この1時間でいちばん降った",
+      "caption": "古江｜この1時間でいちばん降った",
       "score": 0.0,
-      "z": -1.09,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
-      "category": "自然",
-      "value_display": "29.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 9.0,
-        "display": "+9mm",
-        "direction": "up",
-        "prev_value": 20.5,
-        "prev_date": "2026-10-18"
-      },
-      "caption": "都農｜この3時間でいちばん激しく降った",
-      "score": 0.0,
-      "z": -0.87,
+      "z": -0.9,
       "label": "通常の範囲"
     },
     {
@@ -383,41 +421,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "1008.3hPa",
+      "value_display": "13.8m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.8,
-        "display": "-0.8hPa",
+        "value": -0.9,
+        "display": "-0.9m/s",
         "direction": "down",
-        "prev_value": 1009.1,
+        "prev_value": 14.7,
         "prev_date": "2026-10-18"
       },
-      "caption": "深浦｜全国でいちばん気圧が低い",
+      "caption": "焼尻｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
-      "z": -0.9,
+      "z": -0.62,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "0.6℃",
+      "value_display": "0℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.9,
-        "display": "+0.9℃",
+        "value": 0.3,
+        "display": "+0.3℃",
         "direction": "up",
         "prev_value": -0.3,
         "prev_date": "2026-10-18"
       },
-      "caption": "夏でもひんやり",
+      "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -0.5,
+      "z": -1.25,
       "label": "通常の範囲"
     },
     {
@@ -492,44 +530,6 @@
         "prev_date": "2026-10-18"
       },
       "caption": "台風30号「チャンパー」がマリアナ諸島",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "0市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0市町村",
-        "direction": "flat",
-        "prev_value": 0,
-        "prev_date": "2026-10-18"
-      },
-      "caption": "いま気象警報は出ていない",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "heavy-rain-warned-municipalities",
-      "name": "大雨警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "0市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0市町村",
-        "direction": "flat",
-        "prev_value": 0,
-        "prev_date": "2026-10-18"
-      },
-      "caption": "いま大雨警報は出ていない",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
