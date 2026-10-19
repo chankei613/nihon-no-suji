@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-19T06:46:53+09:00",
+  "updated_at": "2026-10-19T09:26:29+09:00",
   "summary": {
     "count": 48,
     "first_date": "2026-09-02",
     "last_date": "2026-10-19",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.3
+    "avg_30d": 6.33
   },
   "history": [
     {
@@ -208,26 +208,26 @@
     },
     {
       "date": "2026-10-19",
-      "value": 7
+      "value": 8
     }
   ],
   "latest_detail": {
-    "caption": "最大は熊本県天草・芦北地方の震度2",
+    "caption": "最大は福島県中通りの震度1",
     "window_hours": 24,
     "max_magnitude": 3.3,
     "strongest": {
-      "time": "2026-10-18T08:16:00+09:00",
-      "scale": 20,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 2.9,
-      "depth": 10
+      "time": "2026-10-18T21:58:00+09:00",
+      "scale": 10,
+      "name": "福島県中通り",
+      "magnitude": 3.3,
+      "depth": 80
     },
     "latest": {
-      "time": "2026-10-19T04:15:00+09:00",
+      "time": "2026-10-19T08:20:00+09:00",
       "scale": 10,
-      "name": "和歌山県北部",
-      "magnitude": 2.2,
-      "depth": 0
+      "name": "石川県能登地方",
+      "magnitude": 2.6,
+      "depth": 10
     },
     "capped": false
   }
