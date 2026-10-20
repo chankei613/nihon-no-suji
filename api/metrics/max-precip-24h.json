@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-10-20T22:49:57+09:00",
+  "updated_at": "2026-10-21T03:41:21+09:00",
   "summary": {
-    "count": 49,
+    "count": 50,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-20",
+    "last_date": "2026-10-21",
     "min_30d": 7.0,
-    "max_30d": 686.5,
-    "avg_30d": 130.33,
-    "record_1st": 229.5,
+    "max_30d": 591.0,
+    "avg_30d": 110.75,
+    "record_1st": 281.5,
     "all_time_record": false
   },
   "history": [
@@ -215,13 +215,17 @@
     {
       "date": "2026-10-20",
       "value": 130.5
+    },
+    {
+      "date": "2026-10-21",
+      "value": 99.0
     }
   ],
   "latest_detail": {
-    "place": "門前",
-    "pref": "石川県",
-    "caption": "門前｜この24時間でいちばん降った",
-    "record_1st": 229.5,
+    "place": "西郷",
+    "pref": "島根県",
+    "caption": "西郷｜この24時間でいちばん降った",
+    "record_1st": 281.5,
     "all_time_record": false
   }
 }

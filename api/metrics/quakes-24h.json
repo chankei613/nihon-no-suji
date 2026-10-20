@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-20T22:49:57+09:00",
+  "updated_at": "2026-10-21T03:41:21+09:00",
   "summary": {
-    "count": 49,
+    "count": 50,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-20",
+    "last_date": "2026-10-21",
     "min_30d": 2,
     "max_30d": 13,
-    "avg_30d": 6.3
+    "avg_30d": 6.2
   },
   "history": [
     {
@@ -213,6 +213,10 @@
     {
       "date": "2026-10-20",
       "value": 2
+    },
+    {
+      "date": "2026-10-21",
+      "value": 3
     }
   ],
   "latest_detail": {
@@ -227,11 +231,11 @@
       "depth": 30
     },
     "latest": {
-      "time": "2026-10-20T20:48:00+09:00",
+      "time": "2026-10-21T02:40:00+09:00",
       "scale": 10,
-      "name": "徳島県南部",
-      "magnitude": 2.7,
-      "depth": 20
+      "name": "神奈川県西部",
+      "magnitude": 2.3,
+      "depth": 0
     },
     "capped": false
   }
