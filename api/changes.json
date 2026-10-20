@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:54:46+09:00",
+  "generated_at": "2026-10-20T22:49:57+09:00",
   "date": "2026-10-20",
   "changes": [
     {
@@ -22,25 +22,6 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "9.8m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -10.2,
-        "display": "-10.2m/s",
-        "direction": "down",
-        "prev_value": 20.0,
-        "prev_date": "2026-10-19"
-      },
-      "caption": "南鳥島｜全国でいちばん風が強い（10分平均）",
-      "score": 5.53,
-      "z": 5.53,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
@@ -60,6 +41,25 @@
       "label": "かなり珍しい変化"
     },
     {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "13.3m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -6.7,
+        "display": "-6.7m/s",
+        "direction": "down",
+        "prev_value": 20.0,
+        "prev_date": "2026-10-19"
+      },
+      "caption": "友ケ島｜全国でいちばん風が強い（10分平均）",
+      "score": 3.2,
+      "z": 3.2,
+      "label": "かなり珍しい変化"
+    },
+    {
       "slug": "tropical-night-points",
       "name": "熱帯夜（25℃を下回らなかった）地点数",
       "category": "自然",
@@ -76,25 +76,6 @@
       "caption": "きょう一度も25℃を下回らなかった地点（熱帯夜）",
       "score": 2.14,
       "z": 2.14,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "205地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -159,
-        "display": "-159地点",
-        "direction": "down",
-        "prev_value": 364,
-        "prev_date": "2026-10-19"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 2.04,
-      "z": 2.04,
       "label": "いつもより大きな変化"
     },
     {
@@ -133,6 +114,25 @@
       "caption": "沼川｜きょう日本でいちばん寒い",
       "score": 1.87,
       "z": 1.87,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "220地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -144,
+        "display": "-144地点",
+        "direction": "down",
+        "prev_value": 364,
+        "prev_date": "2026-10-19"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 1.72,
+      "z": 1.72,
       "label": "いつもより大きな変化"
     },
     {
@@ -231,25 +231,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "-0.2℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.3,
-        "display": "-2.3℃",
-        "direction": "down",
-        "prev_value": 2.1,
-        "prev_date": "2026-10-19"
-      },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
@@ -285,6 +266,25 @@
       "caption": "斜里｜全国でいちばん空気が乾いている",
       "score": 0.6,
       "z": 0.6,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "25.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 2.4,
+        "display": "+2.4℃",
+        "direction": "up",
+        "prev_value": 23.4,
+        "prev_date": "2026-10-19"
+      },
+      "caption": "南鳥島28℃ と 江丹別2.2℃ の差",
+      "score": 0.38,
+      "z": 0.38,
       "label": "通常の範囲"
     },
     {
@@ -421,25 +421,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "24.7℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.3,
-        "display": "+1.3℃",
-        "direction": "up",
-        "prev_value": 23.4,
-        "prev_date": "2026-10-19"
-      },
-      "caption": "南鳥島28.1℃ と 沼川3.4℃ の差",
-      "score": 0.0,
-      "z": -0.38,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
@@ -494,6 +475,25 @@
       "caption": "あすは雨の心配は少ない",
       "score": 0.0,
       "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "2.4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.3,
+        "display": "+0.3℃",
+        "direction": "up",
+        "prev_value": 2.1,
+        "prev_date": "2026-10-19"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.0,
+      "z": -1.1,
       "label": "通常の範囲"
     },
     {
