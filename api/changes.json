@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-10-20T07:36:25+09:00",
+  "generated_at": "2026-10-20T11:02:59+09:00",
   "date": "2026-10-20",
   "changes": [
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "28℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.9,
-        "display": "-4.9℃",
-        "direction": "down",
-        "prev_value": 32.9,
-        "prev_date": "2026-10-19"
-      },
-      "caption": "石垣島｜きょう日本でいちばん暑い",
-      "score": 10.75,
-      "z": 10.75,
-      "label": "かなり珍しい変化"
-    },
     {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
@@ -41,98 +22,41 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "20.8℃",
+      "value_display": "30.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.8,
-        "display": "-6.8℃",
+        "value": -2.3,
+        "display": "-2.3℃",
         "direction": "down",
-        "prev_value": 27.6,
+        "prev_value": 32.9,
         "prev_date": "2026-10-19"
       },
-      "caption": "きょうの東京の最高気温",
+      "caption": "与那国島｜きょう日本でいちばん暑い",
       "score": 4.25,
       "z": 4.25,
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
+      "slug": "tokyo-week-max-forecast",
+      "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "138地点",
+      "value_display": "24℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -226,
-        "display": "-226地点",
+        "value": -5.0,
+        "display": "-5℃",
         "direction": "down",
-        "prev_value": 364,
+        "prev_value": 29.0,
         "prev_date": "2026-10-19"
       },
-      "caption": "きょう雨が降った地点",
-      "score": 3.47,
-      "z": 3.47,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "60%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 24.0,
-        "display": "+24.0pt",
-        "direction": "up",
-        "prev_value": 36.0,
-        "prev_date": "2026-10-19"
-      },
-      "caption": "奥尻｜全国でいちばん空気が乾いている",
-      "score": 3.4,
-      "z": 3.4,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "3市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 3,
-        "display": "+3市町村",
-        "direction": "up",
-        "prev_value": 0,
-        "prev_date": "2026-10-19"
-      },
-      "caption": "3市町村に気象警報",
-      "score": 3.0,
-      "z": 3.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "heavy-rain-warned-municipalities",
-      "name": "大雨警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "3市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 3,
-        "display": "+3市町村",
-        "direction": "up",
-        "prev_value": 0,
-        "prev_date": "2026-10-19"
-      },
-      "caption": "3市町村に大雨警報",
-      "score": 3.0,
-      "z": 3.0,
+      "caption": "10月22日ごろがいちばん暑くなりそう",
+      "score": 4.0,
+      "z": 4.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -155,22 +79,22 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "1.1℃",
+      "value_display": "203地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.4,
-        "display": "+5.4℃",
-        "direction": "up",
-        "prev_value": -4.3,
+        "value": -161,
+        "display": "-161地点",
+        "direction": "down",
+        "prev_value": 364,
         "prev_date": "2026-10-19"
       },
-      "caption": "沼川｜きょう日本でいちばん寒い",
-      "score": 2.06,
-      "z": 2.06,
+      "caption": "きょう雨が降った地点",
+      "score": 2.09,
+      "z": 2.09,
       "label": "いつもより大きな変化"
     },
     {
@@ -193,23 +117,61 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "23.6℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4.0,
+        "display": "-4℃",
+        "direction": "down",
+        "prev_value": 27.6,
+        "prev_date": "2026-10-19"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 1.92,
+      "z": 1.92,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "0.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 5.1,
+        "display": "+5.1℃",
+        "direction": "up",
+        "prev_value": -4.3,
+        "prev_date": "2026-10-19"
+      },
+      "caption": "沼川｜きょう日本でいちばん寒い",
+      "score": 1.87,
+      "z": 1.87,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "7%",
+      "value_display": "11%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -27.0,
-        "display": "-27.0pt",
+        "value": -23.0,
+        "display": "-23.0pt",
         "direction": "down",
         "prev_value": 34.0,
         "prev_date": "2026-10-19"
       },
-      "caption": "きょうのピークで電力の7%を太陽光がまかなった",
-      "score": 1.75,
-      "z": 1.75,
-      "label": "いつもより大きな変化"
+      "caption": "きょうのピークで電力の11%を太陽光がまかなった",
+      "score": 1.25,
+      "z": 1.25,
+      "label": "通常の範囲"
     },
     {
       "slug": "tokyo-sunshine-hours",
@@ -253,57 +215,76 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "5回",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4,
-        "display": "-4回",
+        "value": -5,
+        "display": "-5回",
         "direction": "down",
         "prev_value": 9,
         "prev_date": "2026-10-19"
       },
       "caption": "最大は釧路沖の震度2",
-      "score": 0.5,
-      "z": 0.5,
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
-      "slug": "hot-points-30",
-      "name": "30℃以上になった地点数",
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "46%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 10.0,
+        "display": "+10.0pt",
+        "direction": "up",
+        "prev_value": 36.0,
+        "prev_date": "2026-10-19"
+      },
+      "caption": "斜里｜全国でいちばん空気が乾いている",
+      "score": 0.6,
+      "z": 0.6,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "3.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -14,
-        "display": "-14地点",
-        "direction": "down",
-        "prev_value": 14,
+        "value": 1.5,
+        "display": "+1.5℃",
+        "direction": "up",
+        "prev_value": 2.1,
         "prev_date": "2026-10-19"
       },
-      "caption": "きょう30℃以上になった地点",
-      "score": 0.44,
-      "z": 0.44,
+      "caption": "夏でもひんやり",
+      "score": 0.11,
+      "z": 0.11,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "122mm",
+      "value_display": "129mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 22.0,
-        "display": "+22mm",
+        "value": 29.0,
+        "display": "+29mm",
         "direction": "up",
         "prev_value": 100.0,
         "prev_date": "2026-10-19"
       },
       "caption": "門前｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -0.29,
+      "z": -0.02,
       "label": "通常の範囲"
     },
     {
@@ -323,6 +304,25 @@
       "caption": "きょう35℃以上になった地点",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "hot-points-30",
+      "name": "30℃以上になった地点数",
+      "category": "自然",
+      "value_display": "10地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4,
+        "display": "-4地点",
+        "direction": "down",
+        "prev_value": 14,
+        "prev_date": "2026-10-19"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "score": 0.0,
+      "z": -0.67,
       "label": "通常の範囲"
     },
     {
@@ -459,25 +459,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-week-max-forecast",
-      "name": "今週いちばん暑くなりそうな日の予想最高気温",
-      "category": "自然",
-      "value_display": "29℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 29.0,
-        "prev_date": "2026-10-19"
-      },
-      "caption": "10月21日ごろがいちばん暑くなりそう",
-      "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
@@ -494,25 +475,6 @@
       "caption": "あすは雨の心配は少ない",
       "score": 0.0,
       "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "3.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.3,
-        "display": "+1.3℃",
-        "direction": "up",
-        "prev_value": 2.1,
-        "prev_date": "2026-10-19"
-      },
-      "caption": "夏でもひんやり",
-      "score": 0.0,
-      "z": -0.11,
       "label": "通常の範囲"
     },
     {
@@ -538,19 +500,19 @@
       "slug": "usd-jpy",
       "name": "ドル円レート",
       "category": "経済",
-      "value_display": "157.87円",
+      "value_display": "158.01円",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.48,
-        "display": "-0.48円",
-        "direction": "down",
-        "prev_value": 158.35,
-        "prev_date": "2026-10-14"
+        "value": 0.14,
+        "display": "+0.14円",
+        "direction": "up",
+        "prev_value": 157.87,
+        "prev_date": "2026-10-15"
       },
-      "caption": "1ドル＝157.87円（10月15日）",
+      "caption": "1ドル＝158.01円（10月16日）",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -587,6 +549,44 @@
         "prev_date": "2026-10-19"
       },
       "caption": "台風30号「チャンパー」がフィリピンの東",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
+        "prev_value": 0,
+        "prev_date": "2026-10-19"
+      },
+      "caption": "いま気象警報は出ていない",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
+        "prev_value": 0,
+        "prev_date": "2026-10-19"
+      },
+      "caption": "いま大雨警報は出ていない",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
