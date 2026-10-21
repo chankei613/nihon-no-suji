@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-21T21:16:53+09:00",
+  "updated_at": "2026-10-22T02:37:09+09:00",
   "summary": {
-    "count": 48,
+    "count": 49,
     "first_date": "2026-09-04",
-    "last_date": "2026-10-21",
+    "last_date": "2026-10-22",
     "min_30d": 20.0,
     "max_30d": 40.0,
-    "avg_30d": 35.0
+    "avg_30d": 34.33
   },
   "history": [
     {
@@ -209,13 +209,17 @@
     {
       "date": "2026-10-21",
       "value": 20.0
+    },
+    {
+      "date": "2026-10-22",
+      "value": 20.0
     }
   ],
   "latest_detail": {
     "label": "2",
-    "place": "釧路沖",
-    "at": "2026-10-20T05:50:00+09:00",
+    "place": "日高地方中部",
+    "at": "2026-10-21T23:41:00+09:00",
     "capped": true,
-    "caption": "釧路沖（10/20）"
+    "caption": "日高地方中部（10/21）"
   }
 }

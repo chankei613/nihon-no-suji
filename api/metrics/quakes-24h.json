@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-21T21:16:53+09:00",
+  "updated_at": "2026-10-22T02:37:09+09:00",
   "summary": {
-    "count": 50,
+    "count": 51,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-21",
+    "last_date": "2026-10-22",
     "min_30d": 2,
-    "max_30d": 13,
-    "avg_30d": 6.17
+    "max_30d": 11,
+    "avg_30d": 5.87
   },
   "history": [
     {
@@ -217,25 +217,29 @@
     {
       "date": "2026-10-21",
       "value": 2
+    },
+    {
+      "date": "2026-10-22",
+      "value": 4
     }
   ],
   "latest_detail": {
-    "caption": "最大は千葉県北西部の震度2",
+    "caption": "最大は日高地方中部の震度2",
     "window_hours": 24,
-    "max_magnitude": 4,
+    "max_magnitude": 4.2,
     "strongest": {
-      "time": "2026-10-21T10:04:00+09:00",
+      "time": "2026-10-21T23:41:00+09:00",
       "scale": 20,
-      "name": "千葉県北西部",
-      "magnitude": 4,
-      "depth": 70
+      "name": "日高地方中部",
+      "magnitude": 4.2,
+      "depth": 100
     },
     "latest": {
-      "time": "2026-10-21T10:04:00+09:00",
-      "scale": 20,
-      "name": "千葉県北西部",
-      "magnitude": 4,
-      "depth": 70
+      "time": "2026-10-22T02:10:00+09:00",
+      "scale": 10,
+      "name": "浦河沖",
+      "magnitude": 3.3,
+      "depth": 50
     },
     "capped": false
   }
