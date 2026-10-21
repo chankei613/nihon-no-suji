@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-21T15:30:55+09:00",
+  "generated_at": "2026-10-21T21:16:53+09:00",
   "date": "2026-10-21",
   "changes": [
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "11市町村",
+      "value_display": "17市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 11,
-        "display": "+11市町村",
+        "value": 17,
+        "display": "+17市町村",
         "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-10-20"
       },
-      "caption": "11市町村に気象警報",
-      "score": 11.0,
-      "z": 11.0,
+      "caption": "17市町村に気象警報",
+      "score": 17.0,
+      "z": 17.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -44,39 +44,39 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "992hPa",
+      "value_display": "991.3hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -13.9,
-        "display": "-13.9hPa",
+        "value": -14.6,
+        "display": "-14.6hPa",
         "direction": "down",
         "prev_value": 1005.9,
         "prev_date": "2026-10-20"
       },
-      "caption": "岩見沢｜全国でいちばん気圧が低い",
-      "score": 4.04,
-      "z": 4.04,
+      "caption": "網走｜全国でいちばん気圧が低い",
+      "score": 4.31,
+      "z": 4.31,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "29.8℃",
+      "value_display": "30.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.2,
-        "display": "+5.2℃",
+        "value": 5.7,
+        "display": "+5.7℃",
         "direction": "up",
         "prev_value": 24.6,
         "prev_date": "2026-10-20"
       },
-      "caption": "きょうの東京の最高気温",
-      "score": 2.92,
-      "z": 2.92,
-      "label": "いつもより大きな変化"
+      "caption": "真夏日",
+      "score": 3.33,
+      "z": 3.33,
+      "label": "かなり珍しい変化"
     },
     {
       "slug": "min-humidity",
@@ -98,6 +98,25 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "401地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 181,
+        "display": "+181地点",
+        "direction": "up",
+        "prev_value": 220,
+        "prev_date": "2026-10-20"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 2.51,
+      "z": 2.51,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
@@ -114,44 +133,6 @@
       "caption": "あすの東京の最高気温の予想",
       "score": 2.0,
       "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "heavy-rain-warned-municipalities",
-      "name": "大雨警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "2市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2,
-        "display": "+2市町村",
-        "direction": "up",
-        "prev_value": 0,
-        "prev_date": "2026-10-20"
-      },
-      "caption": "2市町村に大雨警報",
-      "score": 2.0,
-      "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "362地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 142,
-        "display": "+142地点",
-        "direction": "up",
-        "prev_value": 220,
-        "prev_date": "2026-10-20"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 1.68,
-      "z": 1.68,
       "label": "いつもより大きな変化"
     },
     {
@@ -190,6 +171,25 @@
       "caption": "きょうの東京の日照時間（ここまでの積算）",
       "score": 1.12,
       "z": 1.12,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "17.1m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.8,
+        "display": "+3.8m/s",
+        "direction": "up",
+        "prev_value": 13.3,
+        "prev_date": "2026-10-20"
+      },
+      "caption": "所野｜全国でいちばん風が強い（10分平均）",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -250,22 +250,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "0.6℃",
+      "value_display": "33.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.8,
-        "display": "-1.8℃",
-        "direction": "down",
-        "prev_value": 2.4,
+        "value": 0.7,
+        "display": "+0.7℃",
+        "direction": "up",
+        "prev_value": 32.9,
         "prev_date": "2026-10-20"
       },
-      "caption": "夏でもひんやり",
-      "score": 0.4,
-      "z": 0.4,
+      "caption": "日向｜きょう日本でいちばん暑い",
+      "score": 0.25,
+      "z": 0.25,
       "label": "通常の範囲"
     },
     {
@@ -285,25 +285,6 @@
       "caption": "レギュラーガソリン全国平均（10月19日調査）",
       "score": 0.1,
       "z": 0.1,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "32.6℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -0.3,
-        "display": "-0.3℃",
-        "direction": "down",
-        "prev_value": 32.9,
-        "prev_date": "2026-10-20"
-      },
-      "caption": "尾鷲｜きょう日本でいちばん暑い",
-      "score": 0.0,
-      "z": -0.75,
       "label": "通常の範囲"
     },
     {
@@ -329,19 +310,19 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "126.5mm",
+      "value_display": "155.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.0,
-        "display": "-4mm",
-        "direction": "down",
+        "value": 25.0,
+        "display": "+25mm",
+        "direction": "up",
         "prev_value": 130.5,
         "prev_date": "2026-10-20"
       },
-      "caption": "七尾｜この24時間でいちばん降った",
+      "caption": "酒田大沢｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -1.0,
+      "z": -0.18,
       "label": "通常の範囲"
     },
     {
@@ -497,22 +478,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "14.9m/s",
+      "value_display": "3.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.6,
-        "display": "+1.6m/s",
+        "value": 0.8,
+        "display": "+0.8℃",
         "direction": "up",
-        "prev_value": 13.3,
+        "prev_value": 2.4,
         "prev_date": "2026-10-20"
       },
-      "caption": "友ケ島｜全国でいちばん風が強い（10分平均）",
+      "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -0.2,
+      "z": -0.6,
       "label": "通常の範囲"
     },
     {
@@ -568,6 +549,25 @@
         "prev_date": "2026-10-20"
       },
       "caption": "台風30号「チャンパー」がフィリピンの東",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
+        "prev_value": 0,
+        "prev_date": "2026-10-20"
+      },
+      "caption": "いま大雨警報は出ていない",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -804,19 +804,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "3回",
+      "value_display": "2回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1回",
-        "direction": "up",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 2,
         "prev_date": "2026-10-20"
       },
       "caption": "最大は千葉県北西部の震度2",
       "score": 0.0,
-      "z": -1.0,
+      "z": -1.5,
       "label": "通常の範囲"
     },
     {
