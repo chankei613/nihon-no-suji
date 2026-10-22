@@ -1,26 +1,7 @@
 {
-  "generated_at": "2026-10-22T09:52:07+09:00",
+  "generated_at": "2026-10-22T15:33:22+09:00",
   "date": "2026-10-22",
   "changes": [
-    {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "41市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 24,
-        "display": "+24市町村",
-        "direction": "up",
-        "prev_value": 17,
-        "prev_date": "2026-10-21"
-      },
-      "caption": "41市町村に気象警報",
-      "score": 24.0,
-      "z": 24.0,
-      "label": "かなり珍しい変化"
-    },
     {
       "slug": "max-temp",
       "name": "全国最高気温",
@@ -41,22 +22,41 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "112地点",
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "8市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -289,
-        "display": "-289地点",
+        "value": -9,
+        "display": "-9市町村",
+        "direction": "down",
+        "prev_value": 17,
+        "prev_date": "2026-10-21"
+      },
+      "caption": "8市町村に気象警報",
+      "score": 9.0,
+      "z": 9.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "132地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -269,
+        "display": "-269地点",
         "direction": "down",
         "prev_value": 401,
         "prev_date": "2026-10-21"
       },
       "caption": "きょう雨が降った地点",
-      "score": 4.61,
-      "z": 4.61,
+      "score": 4.2,
+      "z": 4.2,
       "label": "かなり珍しい変化"
     },
     {
@@ -117,22 +117,41 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "-0.9℃",
+      "value_display": "28.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.1,
-        "display": "-4.1℃",
+        "value": 4.3,
+        "display": "+4.3℃",
+        "direction": "up",
+        "prev_value": 24.5,
+        "prev_date": "2026-10-21"
+      },
+      "caption": "南大東29.6℃ と 白滝0.8℃ の差",
+      "score": 1.85,
+      "z": 1.85,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "0℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.2,
+        "display": "-3.2℃",
         "direction": "down",
         "prev_value": 3.2,
         "prev_date": "2026-10-21"
       },
       "caption": "氷点下。街とはまるで別世界",
-      "score": 2.7,
-      "z": 2.7,
+      "score": 1.8,
+      "z": 1.8,
       "label": "いつもより大きな変化"
     },
     {
@@ -155,25 +174,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "max-precip-1h",
-      "name": "全国最大1時間降水量",
-      "category": "自然",
-      "value_display": "5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -17.0,
-        "display": "-17mm",
-        "direction": "down",
-        "prev_value": 22.0,
-        "prev_date": "2026-10-21"
-      },
-      "caption": "共和｜この1時間でいちばん降った",
-      "score": 1.5,
-      "z": 1.5,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "ice-day-points",
       "name": "真冬日（0℃以上にならなかった）地点数",
       "category": "自然",
@@ -188,25 +188,6 @@
         "prev_date": "2026-10-21"
       },
       "caption": "きょう一度も0℃以上にならなかった地点（真冬日）",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "27.7℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 3.2,
-        "display": "+3.2℃",
-        "direction": "up",
-        "prev_value": 24.5,
-        "prev_date": "2026-10-21"
-      },
-      "caption": "南大東29℃ と 喜茂別1.3℃ の差",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -247,25 +228,6 @@
       "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
       "score": 1.0,
       "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
-      "category": "自然",
-      "value_display": "12mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -33.5,
-        "display": "-33.5mm",
-        "direction": "down",
-        "prev_value": 45.5,
-        "prev_date": "2026-10-21"
-      },
-      "caption": "能生｜この3時間でいちばん激しく降った",
-      "score": 0.76,
-      "z": 0.76,
       "label": "通常の範囲"
     },
     {
@@ -367,19 +329,57 @@
       "slug": "tokyo-sunshine-hours",
       "name": "東京の日照時間",
       "category": "自然",
-      "value_display": "1時間12分",
+      "value_display": "2時間06分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -36,
-        "display": "-36分",
-        "direction": "down",
+        "value": 18,
+        "display": "+18分",
+        "direction": "up",
         "prev_value": 108,
         "prev_date": "2026-10-21"
       },
       "caption": "きょうの東京の日照時間（ここまでの積算）",
       "score": 0.0,
-      "z": -0.27,
+      "z": -0.67,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "13mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -9.0,
+        "display": "-9mm",
+        "direction": "down",
+        "prev_value": 22.0,
+        "prev_date": "2026-10-21"
+      },
+      "caption": "奥｜この1時間でいちばん降った",
+      "score": 0.0,
+      "z": -0.1,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "value_display": "25mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -20.5,
+        "display": "-20.5mm",
+        "direction": "down",
+        "prev_value": 45.5,
+        "prev_date": "2026-10-21"
+      },
+      "caption": "奥｜この3時間でいちばん激しく降った",
+      "score": 0.0,
+      "z": -0.04,
       "label": "通常の範囲"
     },
     {
@@ -424,19 +424,19 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "32%",
+      "value_display": "28%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 6.0,
-        "display": "+6.0pt",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
         "prev_value": 26.0,
         "prev_date": "2026-10-21"
       },
-      "caption": "岩手松尾｜全国でいちばん空気が乾いている",
+      "caption": "岐阜｜全国でいちばん空気が乾いている",
       "score": 0.0,
-      "z": -0.2,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -766,57 +766,57 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "86%",
+      "value_display": "87%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.0,
-        "display": "+2.0pt",
+        "value": 3.0,
+        "display": "+3.0pt",
         "direction": "up",
         "prev_value": 84.0,
         "prev_date": "2026-10-21"
       },
-      "caption": "ピークは11:00〜12:00の見込み",
+      "caption": "ピークは13:00〜14:00の見込み",
       "score": 0.0,
-      "z": -0.5,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "27%",
+      "value_display": "36%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 4.0,
-        "display": "+4.0pt",
+        "value": 13.0,
+        "display": "+13.0pt",
         "direction": "up",
         "prev_value": 23.0,
         "prev_date": "2026-10-21"
       },
-      "caption": "きょうのピークで電力の27%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の36%を太陽光がまかなった",
       "score": 0.0,
-      "z": -1.14,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "5回",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3,
-        "display": "+3回",
+        "value": 2,
+        "display": "+2回",
         "direction": "up",
         "prev_value": 2,
         "prev_date": "2026-10-21"
       },
       "caption": "最大は日高地方中部の震度2",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.5,
       "label": "通常の範囲"
     },
     {
