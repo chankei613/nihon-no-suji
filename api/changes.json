@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-23T02:33:49+09:00",
+  "generated_at": "2026-10-23T05:46:11+09:00",
   "date": "2026-10-23",
   "changes": [
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "value_display": "44地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 38,
+        "display": "+38地点",
+        "direction": "up",
+        "prev_value": 6,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "きょう0℃を下回った地点",
+      "score": 38.0,
+      "z": 38.0,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "ice-day-points",
       "name": "真冬日（0℃以上にならなかった）地点数",
@@ -22,41 +41,60 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "cold-points-0",
-      "name": "0℃を下回った地点数",
-      "category": "自然",
-      "value_display": "34地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 28,
-        "display": "+28地点",
-        "direction": "up",
-        "prev_value": 6,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "きょう0℃を下回った地点",
-      "score": 28.0,
-      "z": 28.0,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "16.1℃",
+      "value_display": "16.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -8.9,
-        "display": "-8.9℃",
+        "value": -8.8,
+        "display": "-8.8℃",
         "direction": "down",
         "prev_value": 25.0,
         "prev_date": "2026-10-22"
       },
       "caption": "きょうの東京の最高気温",
-      "score": 5.54,
-      "z": 5.54,
+      "score": 5.46,
+      "z": 5.46,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "value_display": "70%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 70.0,
+        "display": "+70.0pt",
+        "direction": "up",
+        "prev_value": 0.0,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "あすは雨の可能性が高い",
+      "score": 5.0,
+      "z": 5.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -5,
+        "display": "-5市町村",
+        "direction": "down",
+        "prev_value": 5,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "いま大雨警報は出ていない",
+      "score": 5.0,
+      "z": 5.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -98,60 +136,22 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "17市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2,
-        "display": "+2市町村",
-        "direction": "up",
-        "prev_value": 15,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "17市町村に気象警報",
-      "score": 2.0,
-      "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "heavy-rain-warned-municipalities",
-      "name": "大雨警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "3市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2,
-        "display": "-2市町村",
-        "direction": "down",
-        "prev_value": 5,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "3市町村に大雨警報",
-      "score": 2.0,
-      "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "45mm",
+      "value_display": "17℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -49.0,
-        "display": "-49mm",
+        "value": -4.0,
+        "display": "-4℃",
         "direction": "down",
-        "prev_value": 94.0,
+        "prev_value": 21.0,
         "prev_date": "2026-10-22"
       },
-      "caption": "下地島｜この3時間でいちばん激しく降った",
-      "score": 1.71,
-      "z": 1.71,
+      "caption": "あすは涼しい予想",
+      "score": 2.0,
+      "z": 2.0,
       "label": "いつもより大きな変化"
     },
     {
@@ -174,6 +174,25 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "value_display": "49mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -45.0,
+        "display": "-45mm",
+        "direction": "down",
+        "prev_value": 94.0,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "川平｜この3時間でいちばん激しく降った",
+      "score": 1.45,
+      "z": 1.45,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
@@ -190,6 +209,101 @@
       "caption": "南伊勢｜全国でいちばん空気が乾いている",
       "score": 1.4,
       "z": 1.4,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "215.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 58.0,
+        "display": "+58mm",
+        "direction": "up",
+        "prev_value": 157.5,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "鏡原｜この24時間でいちばん降った",
+      "score": 1.32,
+      "z": 1.32,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "33.9℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.5,
+        "display": "+3.5℃",
+        "direction": "up",
+        "prev_value": 30.4,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "北原28.4℃ と 陸別-5.5℃ の差",
+      "score": 1.23,
+      "z": 1.23,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "-5℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.8,
+        "display": "-3.8℃",
+        "direction": "down",
+        "prev_value": -1.2,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "陸別｜きょう日本でいちばん寒い",
+      "score": 1.06,
+      "z": 1.06,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "16市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "+1市町村",
+        "direction": "up",
+        "prev_value": 15,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "16市町村に気象警報",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "sediment-warning-municipalities",
+      "name": "土砂災害警戒情報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1,
+        "display": "-1市町村",
+        "direction": "down",
+        "prev_value": 1,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "いま土砂災害警戒情報は出ていない",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -212,79 +326,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "206.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 49.0,
-        "display": "+49mm",
-        "direction": "up",
-        "prev_value": 157.5,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "鏡原｜この24時間でいちばん降った",
-      "score": 0.98,
-      "z": 0.98,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "20地点",
+      "value_display": "27地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -121,
-        "display": "-121地点",
+        "value": -114,
+        "display": "-114地点",
         "direction": "down",
         "prev_value": 141,
         "prev_date": "2026-10-22"
       },
       "caption": "きょう雨が降った地点",
-      "score": 0.84,
-      "z": 0.84,
+      "score": 0.72,
+      "z": 0.72,
       "label": "通常の範囲"
     },
     {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "32.4℃",
+      "value_display": "991.3hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.0,
-        "display": "+2℃",
-        "direction": "up",
-        "prev_value": 30.4,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "安次嶺28.2℃ と 陸別-4.2℃ の差",
-      "score": 0.08,
-      "z": 0.08,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-temp",
-      "name": "全国最低気温",
-      "category": "自然",
-      "value_display": "-3.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.2,
-        "display": "-2.2℃",
+        "value": -4.7,
+        "display": "-4.7hPa",
         "direction": "down",
-        "prev_value": -1.2,
+        "prev_value": 996.0,
         "prev_date": "2026-10-22"
       },
-      "caption": "陸別｜きょう日本でいちばん寒い",
-      "score": 0.07,
-      "z": 0.07,
+      "caption": "石垣島｜全国でいちばん気圧が低い",
+      "score": 0.21,
+      "z": 0.21,
       "label": "通常の範囲"
     },
     {
@@ -345,41 +421,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-forecast-max",
-      "name": "東京のあしたの最高気温",
-      "category": "自然",
-      "value_display": "21℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 21.0,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "あすの東京の最高気温の予想",
-      "score": 0.0,
-      "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "14℃",
+      "value_display": "16℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 2.0,
+        "display": "+2℃",
+        "direction": "up",
         "prev_value": 14.0,
         "prev_date": "2026-10-22"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
-      "z": -2.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -399,44 +456,6 @@
       "caption": "10月25日ごろがいちばん暑くなりそう",
       "score": 0.0,
       "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
-      "category": "自然",
-      "value_display": "0%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
-        "prev_value": 0.0,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "あすは雨の心配は少ない",
-      "score": 0.0,
-      "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
-      "category": "自然",
-      "value_display": "995.3hPa",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -0.7,
-        "display": "-0.7hPa",
-        "direction": "down",
-        "prev_value": 996.0,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "石垣島｜全国でいちばん気圧が低い",
-      "score": 0.0,
-      "z": -1.08,
       "label": "通常の範囲"
     },
     {
@@ -568,25 +587,6 @@
         "prev_date": "2026-10-22"
       },
       "caption": "いま洪水警報は出ていない",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "sediment-warning-municipalities",
-      "name": "土砂災害警戒情報が出ている市町村数",
-      "category": "防災",
-      "value_display": "1市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0市町村",
-        "direction": "flat",
-        "prev_value": 1,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "1市町村に土砂災害警戒情報",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -804,19 +804,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "3回",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 4,
         "prev_date": "2026-10-22"
       },
       "caption": "最大は択捉島付近の震度2",
       "score": 0.0,
-      "z": -1.0,
+      "z": -2.0,
       "label": "通常の範囲"
     },
     {
