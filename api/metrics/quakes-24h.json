@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-23T14:16:35+09:00",
+  "updated_at": "2026-10-23T19:27:46+09:00",
   "summary": {
     "count": 52,
     "first_date": "2026-09-02",
     "last_date": "2026-10-23",
     "min_30d": 2,
     "max_30d": 11,
-    "avg_30d": 5.93
+    "avg_30d": 5.97
   },
   "history": [
     {
@@ -224,7 +224,7 @@
     },
     {
       "date": "2026-10-23",
-      "value": 5
+      "value": 6
     }
   ],
   "latest_detail": {
@@ -239,11 +239,11 @@
       "depth": 70
     },
     "latest": {
-      "time": "2026-10-23T11:17:00+09:00",
-      "scale": 20,
-      "name": "父島近海",
-      "magnitude": 4.6,
-      "depth": 20
+      "time": "2026-10-23T16:03:00+09:00",
+      "scale": 10,
+      "name": "熊本県天草・芦北地方",
+      "magnitude": 2.7,
+      "depth": 10
     },
     "capped": false
   }
