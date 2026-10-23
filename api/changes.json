@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:46:11+09:00",
+  "generated_at": "2026-10-23T09:07:54+09:00",
   "date": "2026-10-23",
   "changes": [
     {
@@ -38,6 +38,25 @@
       "caption": "きょう一度も0℃以上にならなかった地点（真冬日）",
       "score": 33.0,
       "z": 33.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "22市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 7,
+        "display": "+7市町村",
+        "direction": "up",
+        "prev_value": 15,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "22市町村に気象警報",
+      "score": 7.0,
+      "z": 7.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -120,19 +139,19 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "28.4℃",
+      "value_display": "28.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.6,
-        "display": "-1.6℃",
+        "value": -1.4,
+        "display": "-1.4℃",
         "direction": "down",
         "prev_value": 30.0,
         "prev_date": "2026-10-22"
       },
-      "caption": "北大東｜きょう日本でいちばん暑い",
-      "score": 2.5,
-      "z": 2.5,
+      "caption": "北原｜きょう日本でいちばん暑い",
+      "score": 2.0,
+      "z": 2.0,
       "label": "いつもより大きな変化"
     },
     {
@@ -155,22 +174,41 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "tokyo-sunshine-hours",
-      "name": "東京の日照時間",
+      "slug": "min-temp",
+      "name": "全国最低気温",
       "category": "自然",
-      "value_display": "0時間00分",
+      "value_display": "-5.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -126,
-        "display": "-126分",
+        "value": -4.7,
+        "display": "-4.7℃",
         "direction": "down",
-        "prev_value": 126,
+        "prev_value": -1.2,
         "prev_date": "2026-10-22"
       },
-      "caption": "きょうはまだ日照なし",
-      "score": 1.62,
-      "z": 1.62,
+      "caption": "陸別｜きょう日本でいちばん寒い",
+      "score": 1.63,
+      "z": 1.63,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "222mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 64.5,
+        "display": "+64.5mm",
+        "direction": "up",
+        "prev_value": 157.5,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "鏡原｜この24時間でいちばん降った",
+      "score": 1.6,
+      "z": 1.6,
       "label": "いつもより大きな変化"
     },
     {
@@ -212,25 +250,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "215.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 58.0,
-        "display": "+58mm",
-        "direction": "up",
-        "prev_value": 157.5,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "鏡原｜この24時間でいちばん降った",
-      "score": 1.32,
-      "z": 1.32,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
@@ -250,39 +269,39 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "-5℃",
+      "value_display": "988.8hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.8,
-        "display": "-3.8℃",
+        "value": -7.2,
+        "display": "-7.2hPa",
         "direction": "down",
-        "prev_value": -1.2,
+        "prev_value": 996.0,
         "prev_date": "2026-10-22"
       },
-      "caption": "陸別｜きょう日本でいちばん寒い",
-      "score": 1.06,
-      "z": 1.06,
+      "caption": "石垣島｜台風や発達した低気圧が近い",
+      "score": 1.07,
+      "z": 1.07,
       "label": "通常の範囲"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "16市町村",
+      "slug": "tokyo-sunshine-hours",
+      "name": "東京の日照時間",
+      "category": "自然",
+      "value_display": "0時間30分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1市町村",
-        "direction": "up",
-        "prev_value": 15,
+        "value": -96,
+        "display": "-96分",
+        "direction": "down",
+        "prev_value": 126,
         "prev_date": "2026-10-22"
       },
-      "caption": "16市町村に気象警報",
+      "caption": "きょうの東京の日照時間（ここまでの積算）",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -329,38 +348,38 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "27地点",
+      "value_display": "50地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -114,
-        "display": "-114地点",
+        "value": -91,
+        "display": "-91地点",
         "direction": "down",
         "prev_value": 141,
         "prev_date": "2026-10-22"
       },
       "caption": "きょう雨が降った地点",
-      "score": 0.72,
-      "z": 0.72,
+      "score": 0.33,
+      "z": 0.33,
       "label": "通常の範囲"
     },
     {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
-      "category": "自然",
-      "value_display": "991.3hPa",
+      "slug": "cpi-yoy",
+      "name": "消費者物価指数（前年同月比）",
+      "category": "経済",
+      "value_display": "2.1%",
       "change": {
-        "type": "absolute",
+        "type": "percentage_point",
         "available": true,
-        "value": -4.7,
-        "display": "-4.7hPa",
-        "direction": "down",
-        "prev_value": 996.0,
+        "value": 0.2,
+        "display": "+0.2pt",
+        "direction": "up",
+        "prev_value": 1.9,
         "prev_date": "2026-10-22"
       },
-      "caption": "石垣島｜全国でいちばん気圧が低い",
-      "score": 0.21,
-      "z": 0.21,
+      "caption": "総務省統計局 消費者物価指数（生鮮食品を含む総合・前年同月比）",
+      "score": 0.2,
+      "z": 0.2,
       "label": "通常の範囲"
     },
     {
@@ -462,38 +481,38 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "23.2m/s",
+      "value_display": "23.3m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.6,
-        "display": "+1.6m/s",
+        "value": 1.7,
+        "display": "+1.7m/s",
         "direction": "up",
         "prev_value": 21.6,
         "prev_date": "2026-10-22"
       },
       "caption": "所野｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
-      "z": -0.29,
+      "z": -0.24,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-0.7℃",
+      "value_display": "-0.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.6,
-        "display": "+0.6℃",
+        "value": 1.1,
+        "display": "+1.1℃",
         "direction": "up",
         "prev_value": -1.3,
         "prev_date": "2026-10-22"
       },
       "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -0.8,
+      "z": -0.3,
       "label": "通常の範囲"
     },
     {
@@ -519,19 +538,19 @@
       "slug": "usd-jpy",
       "name": "ドル円レート",
       "category": "経済",
-      "value_display": "158.08円",
+      "value_display": "158.13円",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.09,
-        "display": "-0.09円",
-        "direction": "down",
-        "prev_value": 158.17,
-        "prev_date": "2026-10-19"
+        "value": 0.05,
+        "display": "+0.05円",
+        "direction": "up",
+        "prev_value": 158.08,
+        "prev_date": "2026-10-20"
       },
-      "caption": "1ドル＝158.08円（10月20日）",
+      "caption": "1ドル＝158.13円（10月21日）",
       "score": 0.0,
-      "z": -1.14,
+      "z": -1.24,
       "label": "通常の範囲"
     },
     {
@@ -687,25 +706,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "cpi-yoy",
-      "name": "消費者物価指数（前年同月比）",
-      "category": "経済",
-      "value_display": "1.9%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
-        "prev_value": 1.9,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "総務省統計局 消費者物価指数（生鮮食品を含む総合・前年同月比）",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "job-openings-ratio",
       "name": "有効求人倍率",
       "category": "経済",
@@ -747,17 +747,17 @@
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
-      "value_display": "-36cm",
+      "value_display": "-37cm",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1.0,
         "display": "-1cm",
         "direction": "down",
-        "prev_value": -35.0,
-        "prev_date": "2026-10-21"
+        "prev_value": -36.0,
+        "prev_date": "2026-10-22"
       },
-      "caption": "基準水位(B.S.L.)より36cm低い",
+      "caption": "基準水位(B.S.L.)より37cm低い",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -766,15 +766,15 @@
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "54.4%",
+      "value_display": "53.9%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -0.6,
-        "display": "-0.6pt",
+        "value": -0.5,
+        "display": "-0.5pt",
         "direction": "down",
-        "prev_value": 55.0,
-        "prev_date": "2026-10-21"
+        "prev_value": 54.4,
+        "prev_date": "2026-10-22"
       },
       "caption": "主要17ダムの平均貯水率（少なめ）",
       "score": 0.0,
@@ -785,38 +785,38 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "36%",
+      "value_display": "31%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 13.0,
-        "display": "+13.0pt",
-        "direction": "up",
-        "prev_value": 23.0,
-        "prev_date": "2026-10-21"
+        "value": -5.0,
+        "display": "-5.0pt",
+        "direction": "down",
+        "prev_value": 36.0,
+        "prev_date": "2026-10-22"
       },
-      "caption": "きょうのピークで電力の36%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の31%を太陽光がまかなった",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "4回",
+      "value_display": "3回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": -1,
+        "display": "-1回",
+        "direction": "down",
         "prev_value": 4,
         "prev_date": "2026-10-22"
       },
       "caption": "最大は択捉島付近の震度2",
       "score": 0.0,
-      "z": -2.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {

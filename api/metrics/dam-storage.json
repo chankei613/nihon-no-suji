@@ -8,14 +8,14 @@
     "name": "国土交通省 近畿・関東地方整備局",
     "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
   },
-  "updated_at": "2026-10-23T05:46:11+09:00",
+  "updated_at": "2026-10-23T09:07:54+09:00",
   "summary": {
-    "count": 52,
+    "count": 53,
     "first_date": "2026-09-01",
-    "last_date": "2026-10-22",
+    "last_date": "2026-10-23",
     "min_30d": 53.3,
     "max_30d": 89.6,
-    "avg_30d": 75.68
+    "avg_30d": 74.55
   },
   "history": [
     {
@@ -225,43 +225,47 @@
     {
       "date": "2026-10-22",
       "value": 54.4
+    },
+    {
+      "date": "2026-10-23",
+      "value": 53.9
     }
   ],
   "latest_detail": {
     "dam_count": 17,
     "region_means": {
-      "近畿": 48.1,
+      "近畿": 47.5,
       "関東": 69.4
     },
     "dams": [
       {
         "name": "真名川ダム",
-        "rate": 24.7,
-        "region": "近畿"
-      },
-      {
-        "name": "大滝ダム",
-        "rate": 29.8,
-        "region": "近畿"
-      },
-      {
-        "name": "高山ダム",
-        "rate": 33.3,
+        "rate": 25.1,
         "region": "近畿"
       },
       {
         "name": "天ヶ瀬ダム",
-        "rate": 37.2,
+        "rate": 30.8,
+        "region": "近畿"
+      },
+      {
+        "name": "大滝ダム",
+        "rate": 30.9,
+        "region": "近畿"
+      },
+      {
+        "name": "高山ダム",
+        "rate": 34.2,
         "region": "近畿"
       },
       {
         "name": "猿谷ダム",
-        "rate": 39.2,
+        "rate": 36.0,
         "region": "近畿"
       },
       {
         "name": "九頭竜ダム",
-        "rate": 45.5,
+        "rate": 45.4,
         "region": "近畿"
       },
       {
@@ -276,7 +280,7 @@
       },
       {
         "name": "日吉ダム",
-        "rate": 52.8,
+        "rate": 52.6,
         "region": "近畿"
       },
       {
@@ -291,7 +295,7 @@
       },
       {
         "name": "比奈知ダム",
-        "rate": 62.5,
+        "rate": 62.7,
         "region": "近畿"
       },
       {
