@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-24T00:25:56+09:00",
+  "generated_at": "2026-10-24T04:31:31+09:00",
   "date": "2026-10-24",
   "changes": [
     {
       "slug": "cold-points-0",
       "name": "0℃を下回った地点数",
       "category": "自然",
-      "value_display": "4地点",
+      "value_display": "6地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -40,
-        "display": "-40地点",
+        "value": -38,
+        "display": "-38地点",
         "direction": "down",
         "prev_value": 44,
         "prev_date": "2026-10-23"
       },
       "caption": "きょう0℃を下回った地点",
-      "score": 40.0,
-      "z": 40.0,
+      "score": 38.0,
+      "z": 38.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -60,41 +60,41 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "348mm",
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "8市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 190.5,
-        "display": "+190.5mm",
-        "direction": "up",
-        "prev_value": 157.5,
-        "prev_date": "2026-10-22"
+        "value": -4,
+        "display": "-4市町村",
+        "direction": "down",
+        "prev_value": 12,
+        "prev_date": "2026-10-23"
       },
-      "caption": "鏡原｜この24時間でいちばん降った",
-      "score": 6.96,
-      "z": 6.96,
+      "caption": "8市町村に気象警報",
+      "score": 4.0,
+      "z": 4.0,
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-precip-1h",
-      "name": "全国最大1時間降水量",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "21mm",
+      "value_display": "28.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -28.0,
-        "display": "-28mm",
+        "value": -2.0,
+        "display": "-2℃",
         "direction": "down",
-        "prev_value": 49.0,
+        "prev_value": 30.4,
         "prev_date": "2026-10-23"
       },
-      "caption": "紀伊長島｜激しい雨",
-      "score": 3.7,
-      "z": 3.7,
+      "caption": "北原｜きょう日本でいちばん暑い",
+      "score": 3.5,
+      "z": 3.5,
       "label": "かなり珍しい変化"
     },
     {
@@ -117,6 +117,25 @@
       "label": "かなり珍しい変化"
     },
     {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "1市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2,
+        "display": "-2市町村",
+        "direction": "down",
+        "prev_value": 3,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "1市町村に大雨警報",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
@@ -136,136 +155,155 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "21℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.0,
-        "display": "-4℃",
-        "direction": "down",
-        "prev_value": 25.0,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 1.77,
-      "z": 1.77,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "min-temp",
-      "name": "全国最低気温",
-      "category": "自然",
-      "value_display": "-5.9℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.7,
-        "display": "-4.7℃",
-        "direction": "down",
-        "prev_value": -1.2,
-        "prev_date": "2026-10-22"
-      },
-      "caption": "陸別｜きょう日本でいちばん寒い",
-      "score": 1.63,
-      "z": 1.63,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
-      "category": "自然",
-      "value_display": "45mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -42.5,
-        "display": "-42.5mm",
-        "direction": "down",
-        "prev_value": 87.5,
-        "prev_date": "2026-10-23"
-      },
-      "caption": "御浜｜この3時間でいちばん激しく降った",
-      "score": 1.54,
-      "z": 1.54,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "91%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 6.0,
-        "display": "+6.0pt",
-        "direction": "up",
-        "prev_value": 85.0,
-        "prev_date": "2026-10-23"
-      },
-      "caption": "ピークは18:00〜19:00の見込み",
-      "score": 1.5,
-      "z": 1.5,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
+      "slug": "typhoons-this-year",
+      "name": "今年の台風発生数",
       "category": "防災",
-      "value_display": "11市町村",
+      "value_display": "31個",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "+1個",
+        "direction": "up",
+        "prev_value": 30,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "今年はこれまでに31個の台風が発生",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "value_display": "2個",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "+1個",
+        "direction": "up",
+        "prev_value": 1,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "台風31・30号が発生中",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "sediment-warning-municipalities",
+      "name": "土砂災害警戒情報が出ている市町村数",
+      "category": "防災",
+      "value_display": "2市町村",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1,
         "display": "-1市町村",
         "direction": "down",
-        "prev_value": 12,
-        "prev_date": "2026-10-23"
-      },
-      "caption": "11市町村に気象警報",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "heavy-rain-warned-municipalities",
-      "name": "大雨警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "4市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1,
-        "display": "+1市町村",
-        "direction": "up",
         "prev_value": 3,
         "prev_date": "2026-10-23"
       },
-      "caption": "4市町村に大雨警報",
+      "caption": "2市町村に土砂災害警戒情報",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "30.4℃",
+      "value_display": "300地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.4,
-        "display": "+0.4℃",
+        "value": 116,
+        "display": "+116地点",
         "direction": "up",
-        "prev_value": 30.0,
-        "prev_date": "2026-10-22"
+        "prev_value": 184,
+        "prev_date": "2026-10-23"
       },
-      "caption": "南大東）｜きょう日本でいちばん暑い",
+      "caption": "きょう雨が降った地点",
+      "score": 0.76,
+      "z": 0.76,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "18.3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.7,
+        "display": "-2.7℃",
+        "direction": "down",
+        "prev_value": 21.0,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 0.67,
+      "z": 0.67,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "36.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -12.5,
+        "display": "-12.5mm",
+        "direction": "down",
+        "prev_value": 49.0,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "尾鷲｜バケツをひっくり返したような雨",
+      "score": 0.6,
+      "z": 0.6,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "-3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 2.9,
+        "display": "+2.9℃",
+        "direction": "up",
+        "prev_value": -5.9,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "標茶｜きょう日本でいちばん寒い",
+      "score": 0.5,
+      "z": 0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "322mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -26.0,
+        "display": "-26mm",
+        "direction": "down",
+        "prev_value": 348.0,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "西表島｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -0.5,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -310,19 +348,19 @@
       "slug": "tropical-night-points",
       "name": "熱帯夜（25℃を下回らなかった）地点数",
       "category": "自然",
-      "value_display": "39地点",
+      "value_display": "40地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5,
-        "display": "+5地点",
+        "value": 6,
+        "display": "+6地点",
         "direction": "up",
         "prev_value": 34,
         "prev_date": "2026-10-23"
       },
       "caption": "きょう一度も25℃を下回らなかった地点（熱帯夜）",
       "score": 0.0,
-      "z": -0.88,
+      "z": -0.62,
       "label": "通常の範囲"
     },
     {
@@ -345,22 +383,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "196地点",
+      "value_display": "77mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 12,
-        "display": "+12地点",
-        "direction": "up",
-        "prev_value": 184,
+        "value": -10.5,
+        "display": "-10.5mm",
+        "direction": "down",
+        "prev_value": 87.5,
         "prev_date": "2026-10-23"
       },
-      "caption": "きょう雨が降った地点",
+      "caption": "宮川｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -1.0,
+      "z": -0.6,
       "label": "通常の範囲"
     },
     {
@@ -462,19 +500,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "1.1℃",
+      "value_display": "1.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.4,
-        "display": "-1.4℃",
+        "value": -1.1,
+        "display": "-1.1℃",
         "direction": "down",
         "prev_value": 2.5,
         "prev_date": "2026-10-23"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.3,
       "label": "通常の範囲"
     },
     {
@@ -516,44 +554,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "typhoons-this-year",
-      "name": "今年の台風発生数",
-      "category": "防災",
-      "value_display": "30個",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
-        "prev_value": 30,
-        "prev_date": "2026-10-23"
-      },
-      "caption": "今年はこれまでに30個の台風が発生",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "active-typhoons",
-      "name": "発生中の台風の数",
-      "category": "防災",
-      "value_display": "1個",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
-        "prev_value": 1,
-        "prev_date": "2026-10-23"
-      },
-      "caption": "台風30号「チャンパー」が与那国島の北西約80km",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "flood-warned-municipalities",
       "name": "洪水警報が出ている市町村数",
       "category": "防災",
@@ -568,25 +568,6 @@
         "prev_date": "2026-10-23"
       },
       "caption": "いま洪水警報は出ていない",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "sediment-warning-municipalities",
-      "name": "土砂災害警戒情報が出ている市町村数",
-      "category": "防災",
-      "value_display": "3市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0市町村",
-        "direction": "flat",
-        "prev_value": 3,
-        "prev_date": "2026-10-23"
-      },
-      "caption": "3市町村に土砂災害警戒情報",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -782,6 +763,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "86%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 1.0,
+        "display": "+1.0pt",
+        "direction": "up",
+        "prev_value": 85.0,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "ピークは18:00〜19:00の見込み",
+      "score": 0.0,
+      "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
@@ -804,19 +804,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "6回",
+      "value_display": "8回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": 2,
+        "display": "+2回",
+        "direction": "up",
         "prev_value": 6,
         "prev_date": "2026-10-23"
       },
-      "caption": "最大は択捉島付近の震度2",
+      "caption": "最大は岩手県沖の震度3",
       "score": 0.0,
-      "z": -2.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -931,14 +931,14 @@
       "slug": "max-shindo-7d",
       "name": "この1週間の最大震度",
       "category": "防災",
-      "value_display": "震度2",
+      "value_display": "震度3",
       "change": {
         "type": "absolute",
         "available": false,
         "direction": "flat",
         "display": ""
       },
-      "caption": "父島近海（10/23）",
+      "caption": "岩手県沖（10/24）",
       "score": null,
       "label": "前日データなし"
     },

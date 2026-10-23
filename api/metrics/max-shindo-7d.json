@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-24T00:25:56+09:00",
+  "updated_at": "2026-10-24T04:31:31+09:00",
   "summary": {
     "count": 51,
     "first_date": "2026-09-04",
     "last_date": "2026-10-24",
     "min_30d": 20.0,
     "max_30d": 40.0,
-    "avg_30d": 33.33
+    "avg_30d": 33.67
   },
   "history": [
     {
@@ -220,14 +220,14 @@
     },
     {
       "date": "2026-10-24",
-      "value": 20.0
+      "value": 30.0
     }
   ],
   "latest_detail": {
-    "label": "2",
-    "place": "父島近海",
-    "at": "2026-10-23T11:17:00+09:00",
+    "label": "3",
+    "place": "岩手県沖",
+    "at": "2026-10-24T01:07:00+09:00",
     "capped": true,
-    "caption": "父島近海（10/23）"
+    "caption": "岩手県沖（10/24）"
   }
 }

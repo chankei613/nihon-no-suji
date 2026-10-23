@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-24T00:25:56+09:00",
+  "updated_at": "2026-10-24T04:31:31+09:00",
   "summary": {
     "count": 53,
     "first_date": "2026-09-02",
     "last_date": "2026-10-24",
     "min_30d": 2,
     "max_30d": 11,
-    "avg_30d": 5.93
+    "avg_30d": 6.0
   },
   "history": [
     {
@@ -228,26 +228,26 @@
     },
     {
       "date": "2026-10-24",
-      "value": 6
+      "value": 8
     }
   ],
   "latest_detail": {
-    "caption": "最大は択捉島付近の震度2",
+    "caption": "最大は岩手県沖の震度3",
     "window_hours": 24,
-    "max_magnitude": 4.8,
+    "max_magnitude": 5,
     "strongest": {
-      "time": "2026-10-23T02:21:00+09:00",
-      "scale": 20,
-      "name": "択捉島付近",
-      "magnitude": 4.8,
-      "depth": 70
+      "time": "2026-10-24T01:07:00+09:00",
+      "scale": 30,
+      "name": "岩手県沖",
+      "magnitude": 5,
+      "depth": 20
     },
     "latest": {
-      "time": "2026-10-23T16:03:00+09:00",
+      "time": "2026-10-24T02:31:00+09:00",
       "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 2.7,
-      "depth": 10
+      "name": "浦河沖",
+      "magnitude": 3.7,
+      "depth": 90
     },
     "capped": false
   }
