@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-23T19:27:46+09:00",
+  "updated_at": "2026-10-24T00:25:56+09:00",
   "summary": {
-    "count": 50,
+    "count": 51,
     "first_date": "2026-09-04",
-    "last_date": "2026-10-23",
+    "last_date": "2026-10-24",
     "min_30d": 20.0,
     "max_30d": 40.0,
-    "avg_30d": 33.67
+    "avg_30d": 33.33
   },
   "history": [
     {
@@ -217,13 +217,17 @@
     {
       "date": "2026-10-23",
       "value": 20.0
+    },
+    {
+      "date": "2026-10-24",
+      "value": 20.0
     }
   ],
   "latest_detail": {
     "label": "2",
-    "place": "択捉島付近",
-    "at": "2026-10-23T02:21:00+09:00",
+    "place": "父島近海",
+    "at": "2026-10-23T11:17:00+09:00",
     "capped": true,
-    "caption": "択捉島付近（10/23）"
+    "caption": "父島近海（10/23）"
   }
 }
