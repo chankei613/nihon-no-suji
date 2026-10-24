@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:02:06+09:00",
+  "generated_at": "2026-10-24T15:23:09+09:00",
   "date": "2026-10-24",
   "changes": [
     {
@@ -79,60 +79,60 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "8市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4,
-        "display": "-4市町村",
-        "direction": "down",
-        "prev_value": 12,
-        "prev_date": "2026-10-23"
-      },
-      "caption": "8市町村に気象警報",
-      "score": 4.0,
-      "z": 4.0,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "448地点",
+      "value_display": "516地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 264,
-        "display": "+264地点",
+        "value": 332,
+        "display": "+332地点",
         "direction": "up",
         "prev_value": 184,
         "prev_date": "2026-10-23"
       },
       "caption": "きょう雨が降った地点",
-      "score": 3.31,
-      "z": 3.31,
+      "score": 4.48,
+      "z": 4.48,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "9市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3,
+        "display": "-3市町村",
+        "direction": "down",
+        "prev_value": 12,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "9市町村に気象警報",
+      "score": 3.0,
+      "z": 3.0,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "7%",
+      "value_display": "8%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -35.0,
-        "display": "-35.0pt",
+        "value": -34.0,
+        "display": "-34.0pt",
         "direction": "down",
         "prev_value": 42.0,
         "prev_date": "2026-10-23"
       },
-      "caption": "きょうのピークで電力の7%を太陽光がまかなった",
-      "score": 3.14,
-      "z": 3.14,
+      "caption": "きょうのピークで電力の8%を太陽光がまかなった",
+      "score": 3.0,
+      "z": 3.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -174,6 +174,25 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "1市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2,
+        "display": "-2市町村",
+        "direction": "down",
+        "prev_value": 3,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "1市町村に大雨警報",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
@@ -191,6 +210,25 @@
       "score": 1.85,
       "z": 1.85,
       "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "402mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 54.0,
+        "display": "+54mm",
+        "direction": "up",
+        "prev_value": 348.0,
+        "prev_date": "2026-10-23"
+      },
+      "caption": "西表島｜この24時間でいちばん降った",
+      "score": 1.15,
+      "z": 1.15,
+      "label": "通常の範囲"
     },
     {
       "slug": "typhoons-this-year",
@@ -231,25 +269,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "heavy-rain-warned-municipalities",
-      "name": "大雨警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "2市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1,
-        "display": "-1市町村",
-        "direction": "down",
-        "prev_value": 3,
-        "prev_date": "2026-10-23"
-      },
-      "caption": "2市町村に大雨警報",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "sediment-warning-municipalities",
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
@@ -266,25 +285,6 @@
       "caption": "2市町村に土砂災害警戒情報",
       "score": 1.0,
       "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "29.5℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -0.9,
-        "display": "-0.9℃",
-        "direction": "down",
-        "prev_value": 30.4,
-        "prev_date": "2026-10-23"
-      },
-      "caption": "北大東｜きょう日本でいちばん暑い",
-      "score": 0.75,
-      "z": 0.75,
       "label": "通常の範囲"
     },
     {
@@ -345,22 +345,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "332mm",
+      "value_display": "30.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -16.0,
-        "display": "-16mm",
-        "direction": "down",
-        "prev_value": 348.0,
+        "value": 0.5,
+        "display": "+0.5℃",
+        "direction": "up",
+        "prev_value": 30.4,
         "prev_date": "2026-10-23"
       },
-      "caption": "西表島｜この24時間でいちばん降った",
+      "caption": "安次嶺｜きょう日本でいちばん暑い",
       "score": 0.0,
-      "z": -0.44,
+      "z": -0.25,
       "label": "通常の範囲"
     },
     {
@@ -405,19 +405,19 @@
       "slug": "tropical-night-points",
       "name": "熱帯夜（25℃を下回らなかった）地点数",
       "category": "自然",
-      "value_display": "40地点",
+      "value_display": "41地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 6,
-        "display": "+6地点",
+        "value": 7,
+        "display": "+7地点",
         "direction": "up",
         "prev_value": 34,
         "prev_date": "2026-10-23"
       },
       "caption": "きょう一度も25℃を下回らなかった地点（熱帯夜）",
       "score": 0.0,
-      "z": -0.62,
+      "z": -0.38,
       "label": "通常の範囲"
     },
     {
@@ -462,19 +462,19 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "23℃",
+      "value_display": "24℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 23.0,
         "prev_date": "2026-10-23"
       },
-      "caption": "10月25日ごろがいちばん暑くなりそう",
+      "caption": "10月31日ごろがいちばん暑くなりそう",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -519,19 +519,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "2.7℃",
+      "value_display": "3.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.2,
-        "display": "+0.2℃",
+        "value": 0.9,
+        "display": "+0.9℃",
         "direction": "up",
         "prev_value": 2.5,
         "prev_date": "2026-10-23"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -1.2,
+      "z": -0.5,
       "label": "通常の範囲"
     },
     {
@@ -785,38 +785,38 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "85%",
+      "value_display": "84%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1.0pt",
+        "direction": "down",
         "prev_value": 85.0,
         "prev_date": "2026-10-23"
       },
-      "caption": "ピークは18:00〜19:00の見込み",
+      "caption": "ピークは17:00〜18:00の見込み",
       "score": 0.0,
-      "z": -1.5,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "6回",
+      "value_display": "5回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": -1,
+        "display": "-1回",
+        "direction": "down",
         "prev_value": 6,
         "prev_date": "2026-10-23"
       },
       "caption": "最大は岩手県沖の震度3",
       "score": 0.0,
-      "z": -2.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
