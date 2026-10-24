@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T20:30:32+09:00",
+  "generated_at": "2026-10-24T23:48:28+09:00",
   "date": "2026-10-24",
   "metrics": [
     {
@@ -3939,7 +3939,7 @@
       "unit": "",
       "value": 0,
       "value_display": "0時間00分",
-      "observed_at": "2026-10-24T20:20:00+09:00",
+      "observed_at": "2026-10-24T23:30:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -3956,7 +3956,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 0.0,
-        "last_observed_at": "2026-10-24T20:20:00+09:00",
+        "last_observed_at": "2026-10-24T23:30:00+09:00",
         "caption": "きょうはまだ日照なし"
       },
       "source": {
@@ -3969,16 +3969,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 546,
-      "value_display": "546地点",
-      "observed_at": "2026-10-24T20:20:00+09:00",
+      "value": 559,
+      "value_display": "559地点",
+      "observed_at": "2026-10-24T23:30:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 362,
-        "display": "+362地点",
+        "value": 375,
+        "display": "+375地点",
         "direction": "up",
         "prev_value": 184,
         "prev_date": "2026-10-23"
@@ -3988,19 +3988,30 @@
       "highlight_reason": "かなり珍しい変化",
       "detail": {
         "station_ids": [
+          "31586",
+          "32096",
+          "32476",
           "32681",
+          "32691",
           "33526",
           "33576",
           "33711",
           "33726",
+          "33911",
           "34012",
           "34206",
+          "34241",
           "34276",
+          "34296",
           "34392",
           "34436",
           "34462",
           "35002",
+          "35052",
+          "35056",
+          "35116",
           "35141",
+          "35146",
           "35176",
           "35201",
           "35231",
@@ -4459,6 +4470,8 @@
           "74101",
           "74166",
           "74271",
+          "74436",
+          "74456",
           "74516",
           "81011",
           "81071",
@@ -4535,7 +4548,7 @@
           "94101",
           "94116"
         ],
-        "now": 49,
+        "now": 27,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4865,23 +4878,23 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": -1.6,
-      "value_display": "-1.6℃",
-      "observed_at": "2026-10-24T20:20:00+09:00",
+      "value": -0.9,
+      "value_display": "-0.9℃",
+      "observed_at": "2026-10-24T23:30:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.1,
-        "display": "-4.1℃",
+        "value": -3.4,
+        "display": "-3.4℃",
         "direction": "down",
         "prev_value": 2.5,
         "prev_date": "2026-10-23"
       },
       "caption": "氷点下。街とはまるで別世界",
-      "highlight": true,
-      "highlight_reason": "いつもより大きな変化",
+      "highlight": false,
+      "highlight_reason": null,
       "detail": {
         "place": "富士山（標高3775m）",
         "caption": "氷点下。街とはまるで別世界"
@@ -5022,7 +5035,7 @@
       "unit": "個",
       "value": 2,
       "value_display": "2個",
-      "observed_at": "2026-10-24T20:29:00+09:00",
+      "observed_at": "2026-10-24T23:47:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5043,16 +5056,16 @@
             "number": "2631",
             "name": "インファ",
             "category": "TS",
-            "pressure": "1002",
+            "pressure": "1000",
             "location": "マーシャル諸島",
-            "course": "西",
+            "course": "北",
             "typhoon_number": "2631"
           },
           {
             "number": "2630",
             "name": "チャンパー",
             "category": "STS",
-            "pressure": "985",
+            "pressure": "990",
             "location": "東シナ海",
             "course": "北",
             "typhoon_number": "2630"
@@ -5070,26 +5083,26 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 36,
-      "value_display": "36市町村",
-      "observed_at": "2026-10-24T20:14:15+09:00",
+      "value": 34,
+      "value_display": "34市町村",
+      "observed_at": "2026-10-24T23:41:46+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 24,
-        "display": "+24市町村",
+        "value": 22,
+        "display": "+22市町村",
         "direction": "up",
         "prev_value": 12,
         "prev_date": "2026-10-23"
       },
-      "caption": "36市町村に気象警報",
+      "caption": "34市町村に気象警報",
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
         "emergency_count": 0,
-        "caption": "36市町村に気象警報"
+        "caption": "34市町村に気象警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -5103,7 +5116,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-24T20:14:15+09:00",
+      "observed_at": "2026-10-24T23:41:46+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5133,7 +5146,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-24T20:14:15+09:00",
+      "observed_at": "2026-10-24T23:41:46+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5161,25 +5174,25 @@
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 1,
-      "value_display": "1市町村",
-      "observed_at": "2026-10-24T20:14:15+09:00",
+      "value": 0,
+      "value_display": "0市町村",
+      "observed_at": "2026-10-24T23:41:46+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2市町村",
+        "value": -3,
+        "display": "-3市町村",
         "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-10-23"
       },
-      "caption": "1市町村に土砂災害警戒情報",
+      "caption": "いま土砂災害警戒情報は出ていない",
       "highlight": true,
-      "highlight_reason": "いつもより大きな変化",
+      "highlight_reason": "かなり珍しい変化",
       "detail": {
-        "caption": "1市町村に土砂災害警戒情報"
+        "caption": "いま土砂災害警戒情報は出ていない"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -5193,7 +5206,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-24T20:29:21+09:00",
+      "observed_at": "2026-10-24T23:47:20+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5266,7 +5279,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-24T20:30:19+09:00",
+      "observed_at": "2026-10-24T23:48:15+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5296,7 +5309,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-24T20:30:19+09:00",
+      "observed_at": "2026-10-24T23:48:15+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5794,7 +5807,7 @@
       "unit": "%",
       "value": 81.0,
       "value_display": "81%",
-      "observed_at": "2026-10-24T20:10:00+09:00",
+      "observed_at": "2026-10-24T23:10:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5813,9 +5826,9 @@
         "reserve_rate": 23.0,
         "peak_supply_10MW": 3431.0,
         "forecast_peak_demand_10MW": 2797.0,
-        "current_demand_10MW": 2702.0,
-        "current_demand_time": "19:00",
-        "current_usage_rate": 77.0,
+        "current_demand_10MW": 2407.0,
+        "current_demand_time": "22:00",
+        "current_usage_rate": 71.0,
         "peak_timeband": "17:00〜18:00",
         "area": "東京",
         "caption": "ピークは17:00〜18:00の見込み"
@@ -5862,16 +5875,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 4,
-      "value_display": "4回",
-      "observed_at": "2026-10-24T20:30:00+09:00",
+      "value": 5,
+      "value_display": "5回",
+      "observed_at": "2026-10-24T23:48:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2回",
+        "value": -1,
+        "display": "-1回",
         "direction": "down",
         "prev_value": 6,
         "prev_date": "2026-10-23"
@@ -5891,11 +5904,11 @@
           "depth": 20
         },
         "latest": {
-          "time": "2026-10-24T12:44:00+09:00",
+          "time": "2026-10-24T21:08:00+09:00",
           "scale": 10,
-          "name": "陸奥湾",
-          "magnitude": 2.9,
-          "depth": 10
+          "name": "薩摩半島西方沖",
+          "magnitude": 3.6,
+          "depth": 0
         },
         "capped": false
       },
