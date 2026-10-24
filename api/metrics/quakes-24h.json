@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-25T06:08:32+09:00",
+  "updated_at": "2026-10-25T08:37:23+09:00",
   "summary": {
     "count": 54,
     "first_date": "2026-09-02",
     "last_date": "2026-10-25",
     "min_30d": 2,
     "max_30d": 11,
-    "avg_30d": 5.73
+    "avg_30d": 5.77
   },
   "history": [
     {
@@ -232,7 +232,7 @@
     },
     {
       "date": "2026-10-25",
-      "value": 2
+      "value": 3
     }
   ],
   "latest_detail": {
@@ -247,11 +247,11 @@
       "depth": 0
     },
     "latest": {
-      "time": "2026-10-24T21:08:00+09:00",
+      "time": "2026-10-25T07:53:00+09:00",
       "scale": 10,
-      "name": "薩摩半島西方沖",
-      "magnitude": 3.6,
-      "depth": 0
+      "name": "熊本県熊本地方",
+      "magnitude": 2.1,
+      "depth": 10
     },
     "capped": false
   }
