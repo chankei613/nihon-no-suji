@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T15:23:09+09:00",
+  "generated_at": "2026-10-24T20:30:32+09:00",
   "date": "2026-10-24",
   "metrics": [
     {
@@ -214,16 +214,16 @@
       "name": "0℃を下回った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 6,
-      "value_display": "6地点",
-      "observed_at": "2026-10-24T04:20:00+09:00",
+      "value": 7,
+      "value_display": "7地点",
+      "observed_at": "2026-10-24T20:20:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -38,
-        "display": "-38地点",
+        "value": -37,
+        "display": "-37地点",
         "direction": "down",
         "prev_value": 44,
         "prev_date": "2026-10-23"
@@ -238,9 +238,10 @@
           "19021",
           "19151",
           "19261",
-          "20146"
+          "20146",
+          "50066"
         ],
-        "now": 3,
+        "now": 1,
         "caption": "きょう0℃を下回った地点"
       },
       "source": {
@@ -3938,7 +3939,7 @@
       "unit": "",
       "value": 0,
       "value_display": "0時間00分",
-      "observed_at": "2026-10-24T15:10:00+09:00",
+      "observed_at": "2026-10-24T20:20:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -3955,7 +3956,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 0.0,
-        "last_observed_at": "2026-10-24T15:10:00+09:00",
+        "last_observed_at": "2026-10-24T20:20:00+09:00",
         "caption": "きょうはまだ日照なし"
       },
       "source": {
@@ -3968,16 +3969,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 516,
-      "value_display": "516地点",
-      "observed_at": "2026-10-24T15:10:00+09:00",
+      "value": 546,
+      "value_display": "546地点",
+      "observed_at": "2026-10-24T20:20:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 332,
-        "display": "+332地点",
+        "value": 362,
+        "display": "+362地点",
         "direction": "up",
         "prev_value": 184,
         "prev_date": "2026-10-23"
@@ -3988,10 +3989,22 @@
       "detail": {
         "station_ids": [
           "32681",
+          "33526",
+          "33576",
+          "33711",
+          "33726",
           "34012",
+          "34206",
           "34276",
+          "34392",
+          "34436",
+          "34462",
+          "35002",
+          "35141",
           "35176",
+          "35201",
           "35231",
+          "35246",
           "35257",
           "35361",
           "35376",
@@ -4029,6 +4042,7 @@
           "40181",
           "40201",
           "40221",
+          "40311",
           "40391",
           "41011",
           "41166",
@@ -4068,13 +4082,25 @@
           "44191",
           "44207",
           "44226",
+          "44228",
           "45116",
+          "45121",
+          "45181",
+          "45212",
+          "45261",
+          "45282",
+          "45291",
+          "45326",
           "45331",
+          "45346",
+          "45361",
+          "45371",
           "46046",
           "46076",
           "46091",
           "46136",
           "46161",
+          "48066",
           "48097",
           "48141",
           "48146",
@@ -4205,6 +4231,7 @@
           "53378",
           "53401",
           "53416",
+          "54041",
           "54086",
           "54097",
           "54421",
@@ -4431,6 +4458,7 @@
           "74071",
           "74101",
           "74166",
+          "74271",
           "74516",
           "81011",
           "81071",
@@ -4490,6 +4518,9 @@
           "88392",
           "91146",
           "91151",
+          "91161",
+          "91236",
+          "91241",
           "93012",
           "93041",
           "93042",
@@ -4504,7 +4535,7 @@
           "94101",
           "94116"
         ],
-        "now": 98,
+        "now": 49,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4648,16 +4679,16 @@
       "name": "東京のあしたの最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 17.0,
-      "value_display": "17℃",
+      "value": 16.0,
+      "value_display": "16℃",
       "observed_at": "2026-10-24T05:00:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.0,
-        "display": "+2℃",
+        "value": 1.0,
+        "display": "+1℃",
         "direction": "up",
         "prev_value": 15.0,
         "prev_date": "2026-10-23"
@@ -4834,26 +4865,26 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 3.4,
-      "value_display": "3.4℃",
-      "observed_at": "2026-10-24T15:10:00+09:00",
+      "value": -1.6,
+      "value_display": "-1.6℃",
+      "observed_at": "2026-10-24T20:20:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.9,
-        "display": "+0.9℃",
-        "direction": "up",
+        "value": -4.1,
+        "display": "-4.1℃",
+        "direction": "down",
         "prev_value": 2.5,
         "prev_date": "2026-10-23"
       },
-      "caption": "夏でもひんやり",
-      "highlight": false,
-      "highlight_reason": null,
+      "caption": "氷点下。街とはまるで別世界",
+      "highlight": true,
+      "highlight_reason": "いつもより大きな変化",
       "detail": {
         "place": "富士山（標高3775m）",
-        "caption": "夏でもひんやり"
+        "caption": "氷点下。街とはまるで別世界"
       },
       "source": {
         "name": "気象庁 アメダス実況（富士山）",
@@ -4991,7 +5022,7 @@
       "unit": "個",
       "value": 2,
       "value_display": "2個",
-      "observed_at": "2026-10-24T15:22:00+09:00",
+      "observed_at": "2026-10-24T20:29:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5003,31 +5034,31 @@
         "prev_value": 1,
         "prev_date": "2026-10-23"
       },
-      "caption": "台風30・31号が発生中",
+      "caption": "台風31・30号が発生中",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "typhoons": [
           {
+            "number": "2631",
+            "name": "インファ",
+            "category": "TS",
+            "pressure": "1002",
+            "location": "マーシャル諸島",
+            "course": "西",
+            "typhoon_number": "2631"
+          },
+          {
             "number": "2630",
             "name": "チャンパー",
             "category": "STS",
             "pressure": "985",
-            "location": "与那国島の北約210km",
-            "course": "北北東",
+            "location": "東シナ海",
+            "course": "北",
             "typhoon_number": "2630"
-          },
-          {
-            "number": "2631",
-            "name": "インファ",
-            "category": "TS",
-            "pressure": "1000",
-            "location": "マーシャル諸島",
-            "course": "北西",
-            "typhoon_number": "2631"
           }
         ],
-        "caption": "台風30・31号が発生中"
+        "caption": "台風31・30号が発生中"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -5039,26 +5070,26 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 9,
-      "value_display": "9市町村",
-      "observed_at": "2026-10-24T15:20:46+09:00",
+      "value": 36,
+      "value_display": "36市町村",
+      "observed_at": "2026-10-24T20:14:15+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3市町村",
-        "direction": "down",
+        "value": 24,
+        "display": "+24市町村",
+        "direction": "up",
         "prev_value": 12,
         "prev_date": "2026-10-23"
       },
-      "caption": "9市町村に気象警報",
+      "caption": "36市町村に気象警報",
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
         "emergency_count": 0,
-        "caption": "9市町村に気象警報"
+        "caption": "36市町村に気象警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -5070,25 +5101,25 @@
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 1,
-      "value_display": "1市町村",
-      "observed_at": "2026-10-24T15:20:46+09:00",
+      "value": 0,
+      "value_display": "0市町村",
+      "observed_at": "2026-10-24T20:14:15+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2市町村",
+        "value": -3,
+        "display": "-3市町村",
         "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-10-23"
       },
-      "caption": "1市町村に大雨警報",
+      "caption": "いま大雨警報は出ていない",
       "highlight": true,
-      "highlight_reason": "いつもより大きな変化",
+      "highlight_reason": "かなり珍しい変化",
       "detail": {
-        "caption": "1市町村に大雨警報"
+        "caption": "いま大雨警報は出ていない"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -5102,7 +5133,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-24T15:20:46+09:00",
+      "observed_at": "2026-10-24T20:14:15+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5130,25 +5161,25 @@
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 2,
-      "value_display": "2市町村",
-      "observed_at": "2026-10-24T15:20:46+09:00",
+      "value": 1,
+      "value_display": "1市町村",
+      "observed_at": "2026-10-24T20:14:15+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1市町村",
+        "value": -2,
+        "display": "-2市町村",
         "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-10-23"
       },
-      "caption": "2市町村に土砂災害警戒情報",
-      "highlight": false,
-      "highlight_reason": null,
+      "caption": "1市町村に土砂災害警戒情報",
+      "highlight": true,
+      "highlight_reason": "いつもより大きな変化",
       "detail": {
-        "caption": "2市町村に土砂災害警戒情報"
+        "caption": "1市町村に土砂災害警戒情報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -5162,7 +5193,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-24T15:22:13+09:00",
+      "observed_at": "2026-10-24T20:29:21+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5235,7 +5266,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-24T15:22:55+09:00",
+      "observed_at": "2026-10-24T20:30:19+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5265,7 +5296,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-24T15:22:55+09:00",
+      "observed_at": "2026-10-24T20:30:19+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
@@ -5761,16 +5792,16 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value": 84.0,
-      "value_display": "84%",
-      "observed_at": "2026-10-24T15:10:00+09:00",
+      "value": 81.0,
+      "value_display": "81%",
+      "observed_at": "2026-10-24T20:10:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -1.0,
-        "display": "-1.0pt",
+        "value": -4.0,
+        "display": "-4.0pt",
         "direction": "down",
         "prev_value": 85.0,
         "prev_date": "2026-10-23"
@@ -5779,12 +5810,12 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "reserve_rate": 19.0,
-        "peak_supply_10MW": 3334.0,
-        "forecast_peak_demand_10MW": 2802.0,
-        "current_demand_10MW": 2639.0,
-        "current_demand_time": "14:00",
-        "current_usage_rate": 85.0,
+        "reserve_rate": 23.0,
+        "peak_supply_10MW": 3431.0,
+        "forecast_peak_demand_10MW": 2797.0,
+        "current_demand_10MW": 2702.0,
+        "current_demand_time": "19:00",
+        "current_usage_rate": 77.0,
         "peak_timeband": "17:00〜18:00",
         "area": "東京",
         "caption": "ピークは17:00〜18:00の見込み"
@@ -5831,16 +5862,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 5,
-      "value_display": "5回",
-      "observed_at": "2026-10-24T15:23:00+09:00",
+      "value": 4,
+      "value_display": "4回",
+      "observed_at": "2026-10-24T20:30:00+09:00",
       "as_of": "2026-10-24",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
+        "value": -2,
+        "display": "-2回",
         "direction": "down",
         "prev_value": 6,
         "prev_date": "2026-10-23"
