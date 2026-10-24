@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-24T07:35:02+09:00",
+  "generated_at": "2026-10-24T10:02:06+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "28.4℃",
+      "value_display": "29.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.0,
-        "display": "-2℃",
+        "value": -0.9,
+        "display": "-0.9℃",
         "direction": "down",
         "prev_value": 30.4,
         "prev_date": "2026-10-23"
@@ -227,7 +227,7 @@
         },
         {
           "date": "2026-10-24",
-          "value": 28.4
+          "value": 29.5
         }
       ]
     },
@@ -692,12 +692,12 @@
       "name": "全国最大24時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "322mm",
+      "value_display": "332mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -26.0,
-        "display": "-26mm",
+        "value": -16.0,
+        "display": "-16mm",
         "direction": "down",
         "prev_value": 348.0,
         "prev_date": "2026-10-23"
@@ -913,7 +913,7 @@
         },
         {
           "date": "2026-10-24",
-          "value": 322.0
+          "value": 332.0
         }
       ]
     },
@@ -1148,13 +1148,13 @@
       "name": "30℃以上になった地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "0地点",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0地点",
-        "direction": "flat",
+        "value": 1,
+        "display": "+1地点",
+        "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-10-23"
       },
@@ -1365,7 +1365,7 @@
         },
         {
           "date": "2026-10-24",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -2122,12 +2122,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "390地点",
+      "value_display": "448地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 206,
-        "display": "+206地点",
+        "value": 264,
+        "display": "+264地点",
         "direction": "up",
         "prev_value": 184,
         "prev_date": "2026-10-23"
@@ -2339,7 +2339,7 @@
         },
         {
           "date": "2026-10-24",
-          "value": 390
+          "value": 448
         }
       ]
     },
@@ -4088,12 +4088,12 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "20.8m/s",
+      "value_display": "22.4m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -8.0,
-        "display": "-8m/s",
+        "value": -6.4,
+        "display": "-6.4m/s",
         "direction": "down",
         "prev_value": 28.8,
         "prev_date": "2026-10-23"
@@ -4305,7 +4305,7 @@
         },
         {
           "date": "2026-10-24",
-          "value": 20.8
+          "value": 22.4
         }
       ]
     },
@@ -4540,13 +4540,13 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "1.5℃",
+      "value_display": "2.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
-        "direction": "down",
+        "value": 0.2,
+        "display": "+0.2℃",
+        "direction": "up",
         "prev_value": 2.5,
         "prev_date": "2026-10-23"
       },
@@ -4757,7 +4757,7 @@
         },
         {
           "date": "2026-10-24",
-          "value": 1.5
+          "value": 2.7
         }
       ]
     },
@@ -5848,13 +5848,13 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "12市町村",
+      "value_display": "8市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0市町村",
-        "direction": "flat",
+        "value": -4,
+        "display": "-4市町村",
+        "direction": "down",
         "prev_value": 12,
         "prev_date": "2026-10-23"
       },
@@ -6065,7 +6065,7 @@
         },
         {
           "date": "2026-10-24",
-          "value": 12
+          "value": 8
         }
       ]
     },
@@ -6074,13 +6074,13 @@
       "name": "大雨警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "5市町村",
+      "value_display": "2市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2市町村",
-        "direction": "up",
+        "value": -1,
+        "display": "-1市町村",
+        "direction": "down",
         "prev_value": 3,
         "prev_date": "2026-10-23"
       },
@@ -6239,7 +6239,7 @@
         },
         {
           "date": "2026-10-24",
-          "value": 5
+          "value": 2
         }
       ]
     },
@@ -9738,13 +9738,13 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "87%",
+      "value_display": "85%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.0,
-        "display": "+2.0pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 85.0,
         "prev_date": "2026-10-23"
       },
@@ -9959,7 +9959,7 @@
         },
         {
           "date": "2026-10-24",
-          "value": 87.0
+          "value": 85.0
         }
       ]
     },
@@ -9968,12 +9968,12 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "1%",
+      "value_display": "7%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -41.0,
-        "display": "-41.0pt",
+        "value": -35.0,
+        "display": "-35.0pt",
         "direction": "down",
         "prev_value": 42.0,
         "prev_date": "2026-10-23"
@@ -10185,7 +10185,7 @@
         },
         {
           "date": "2026-10-24",
-          "value": 1.0
+          "value": 7.0
         }
       ]
     },
