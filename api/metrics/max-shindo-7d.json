@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-25T23:33:24+09:00",
+  "updated_at": "2026-10-26T02:49:41+09:00",
   "summary": {
-    "count": 52,
+    "count": 53,
     "first_date": "2026-09-04",
-    "last_date": "2026-10-25",
+    "last_date": "2026-10-26",
     "min_30d": 20.0,
     "max_30d": 40.0,
-    "avg_30d": 33.67
+    "avg_30d": 33.33
   },
   "history": [
     {
@@ -225,13 +225,17 @@
     {
       "date": "2026-10-25",
       "value": 30.0
+    },
+    {
+      "date": "2026-10-26",
+      "value": 30.0
     }
   ],
   "latest_detail": {
     "label": "3",
-    "place": "岩手県沖",
-    "at": "2026-10-24T01:07:00+09:00",
+    "place": "小笠原諸島西方沖",
+    "at": "2026-10-25T11:10:00+09:00",
     "capped": true,
-    "caption": "岩手県沖（10/24）"
+    "caption": "小笠原諸島西方沖（10/25）"
   }
 }
