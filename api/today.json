@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T19:05:28+09:00",
+  "generated_at": "2026-10-25T23:33:24+09:00",
   "date": "2026-10-25",
   "metrics": [
     {
@@ -44,28 +44,30 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 2.3,
-      "value_display": "2.3℃",
-      "observed_at": "2026-10-25T02:00:00+09:00",
+      "value": 1.0,
+      "value_display": "1℃",
+      "observed_at": "2026-10-25T22:00:00+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.3,
-        "display": "+5.3℃",
+        "value": 4.0,
+        "display": "+4℃",
         "direction": "up",
         "prev_value": -3.0,
         "prev_date": "2026-10-24"
       },
-      "caption": "陸別｜きょう日本でいちばん寒い",
-      "highlight": true,
-      "highlight_reason": "いつもより大きな変化",
+      "caption": "江丹別｜きょう日本でいちばん寒い",
+      "highlight": false,
+      "highlight_reason": null,
       "detail": {
-        "place": "陸別",
-        "pref": "北海道十勝地方",
-        "caption": "陸別｜きょう日本でいちばん寒い",
-        "record_1st": -33.2,
+        "place": "江丹別",
+        "pref": "北海道上川地方",
+        "caption": "江丹別｜きょう日本でいちばん寒い",
+        "normal_diff": 0.2,
+        "station_prev_diff": 0.9,
+        "record_1st": -38.1,
         "year_extreme": false,
         "all_time_record": false
       },
@@ -3908,7 +3910,7 @@
       "unit": "",
       "value": 0,
       "value_display": "0時間00分",
-      "observed_at": "2026-10-25T18:50:00+09:00",
+      "observed_at": "2026-10-25T23:20:00+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
@@ -3925,7 +3927,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 0.0,
-        "last_observed_at": "2026-10-25T18:50:00+09:00",
+        "last_observed_at": "2026-10-25T23:20:00+09:00",
         "caption": "きょうはまだ日照なし"
       },
       "source": {
@@ -3938,16 +3940,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 445,
-      "value_display": "445地点",
-      "observed_at": "2026-10-25T18:50:00+09:00",
+      "value": 469,
+      "value_display": "469地点",
+      "observed_at": "2026-10-25T23:20:00+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -114,
-        "display": "-114地点",
+        "value": -90,
+        "display": "-90地点",
         "direction": "down",
         "prev_value": 559,
         "prev_date": "2026-10-24"
@@ -4091,18 +4093,29 @@
           "40046",
           "40061",
           "40066",
+          "40126",
           "41116",
+          "41211",
+          "41277",
+          "41311",
           "42091",
           "42106",
+          "42186",
+          "42221",
+          "42241",
           "43126",
           "43151",
           "43156",
           "43241",
           "43256",
+          "44112",
           "44173",
           "44216",
           "44226",
+          "44228",
           "45061",
+          "45106",
+          "45116",
           "45148",
           "45282",
           "45291",
@@ -4114,7 +4127,12 @@
           "48061",
           "48097",
           "48141",
+          "48172",
           "48191",
+          "48331",
+          "48346",
+          "48363",
+          "48436",
           "48466",
           "48516",
           "48536",
@@ -4146,6 +4164,7 @@
           "50476",
           "50477",
           "50506",
+          "50536",
           "50561",
           "51226",
           "51241",
@@ -4156,6 +4175,7 @@
           "52111",
           "52137",
           "52173",
+          "52181",
           "52221",
           "52331",
           "53196",
@@ -4261,6 +4281,7 @@
           "65276",
           "65306",
           "65311",
+          "65356",
           "66046",
           "66091",
           "66276",
@@ -4317,6 +4338,7 @@
           "69111",
           "69122",
           "69152",
+          "69161",
           "69222",
           "69271",
           "71087",
@@ -4374,6 +4396,7 @@
           "82272",
           "82317",
           "83096",
+          "83431",
           "84012",
           "84072",
           "84076",
@@ -4396,6 +4419,9 @@
           "85142",
           "85161",
           "85166",
+          "87136",
+          "87181",
+          "87251",
           "87461",
           "87501",
           "88686",
@@ -4403,7 +4429,7 @@
           "91146",
           "93041"
         ],
-        "now": 85,
+        "now": 71,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4478,33 +4504,33 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value": 25.4,
-      "value_display": "25.4℃",
-      "observed_at": "2026-10-25T05:50:00+09:00",
+      "value": 27.8,
+      "value_display": "27.8℃",
+      "observed_at": "2026-10-25T23:20:00+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.2,
-        "display": "-4.2℃",
+        "value": -1.8,
+        "display": "-1.8℃",
         "direction": "down",
         "prev_value": 29.6,
         "prev_date": "2026-10-24"
       },
-      "caption": "北大東27.9℃ と 陸別2.5℃ の差",
+      "caption": "名瀬27.8℃ と 占冠0℃ の差",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "hot": {
-          "place": "北大東",
-          "temp": 27.9
+          "place": "名瀬",
+          "temp": 27.8
         },
         "cold": {
-          "place": "陸別",
-          "temp": 2.5
+          "place": "占冠",
+          "temp": 0.0
         },
-        "caption": "北大東27.9℃ と 陸別2.5℃ の差"
+        "caption": "名瀬27.8℃ と 占冠0℃ の差"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4671,26 +4697,26 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value": 15.3,
-      "value_display": "15.3m/s",
-      "observed_at": "2026-10-25T05:50:00+09:00",
+      "value": 15.6,
+      "value_display": "15.6m/s",
+      "observed_at": "2026-10-25T23:20:00+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7.1,
-        "display": "-7.1m/s",
+        "value": -6.8,
+        "display": "-6.8m/s",
         "direction": "down",
         "prev_value": 22.4,
         "prev_date": "2026-10-24"
       },
-      "caption": "友ケ島｜全国でいちばん風が強い（10分平均）",
+      "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）",
       "highlight": true,
       "highlight_reason": "いつもより大きな変化",
       "detail": {
-        "place": "友ケ島",
-        "caption": "友ケ島｜全国でいちばん風が強い（10分平均）"
+        "place": "宗谷岬",
+        "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -4735,7 +4761,7 @@
       "unit": "℃",
       "value": 1.7,
       "value_display": "1.7℃",
-      "observed_at": "2026-10-25T18:50:00+09:00",
+      "observed_at": "2026-10-25T23:20:00+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
@@ -4888,45 +4914,36 @@
       "name": "発生中の台風の数",
       "category": "防災",
       "unit": "個",
-      "value": 2,
-      "value_display": "2個",
-      "observed_at": "2026-10-25T19:04:00+09:00",
+      "value": 1,
+      "value_display": "1個",
+      "observed_at": "2026-10-25T23:32:00+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
+        "value": -1,
+        "display": "-1個",
+        "direction": "down",
         "prev_value": 2,
         "prev_date": "2026-10-24"
       },
-      "caption": "台風30・31号が発生中",
+      "caption": "台風31号「インファ」がマーシャル諸島",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "typhoons": [
-          {
-            "number": "2630",
-            "name": "チャンパー",
-            "category": "TS",
-            "pressure": "996",
-            "location": "東シナ海",
-            "course": "北北東",
-            "typhoon_number": "2630"
-          },
           {
             "number": "2631",
             "name": "インファ",
             "category": "STS",
             "pressure": "992",
             "location": "マーシャル諸島",
-            "course": "北",
+            "course": "北北西",
             "typhoon_number": "2631"
           }
         ],
-        "caption": "台風30・31号が発生中"
+        "caption": "台風31号「インファ」がマーシャル諸島"
       },
       "source": {
         "name": "気象庁 台風情報",
@@ -4938,26 +4955,26 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value": 0,
-      "value_display": "0市町村",
-      "observed_at": "2026-10-25T18:18:33+09:00",
+      "value": 10,
+      "value_display": "10市町村",
+      "observed_at": "2026-10-25T22:37:14+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -34,
-        "display": "-34市町村",
+        "value": -24,
+        "display": "-24市町村",
         "direction": "down",
         "prev_value": 34,
         "prev_date": "2026-10-24"
       },
-      "caption": "いま気象警報は出ていない",
+      "caption": "10市町村に気象警報",
       "highlight": true,
       "highlight_reason": "かなり珍しい変化",
       "detail": {
         "emergency_count": 0,
-        "caption": "いま気象警報は出ていない"
+        "caption": "10市町村に気象警報"
       },
       "source": {
         "name": "気象庁 気象警報・注意報",
@@ -4971,7 +4988,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-25T18:18:33+09:00",
+      "observed_at": "2026-10-25T22:37:14+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
@@ -5001,7 +5018,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-25T18:18:33+09:00",
+      "observed_at": "2026-10-25T22:37:14+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
@@ -5031,7 +5048,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-25T18:18:33+09:00",
+      "observed_at": "2026-10-25T22:37:14+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
@@ -5061,7 +5078,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-25T19:04:17+09:00",
+      "observed_at": "2026-10-25T23:32:14+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
@@ -5134,7 +5151,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-25T19:05:15+09:00",
+      "observed_at": "2026-10-25T23:33:12+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
@@ -5164,7 +5181,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-25T19:05:15+09:00",
+      "observed_at": "2026-10-25T23:33:12+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
@@ -5662,7 +5679,7 @@
       "unit": "%",
       "value": 78.0,
       "value_display": "78%",
-      "observed_at": "2026-10-25T18:40:00+09:00",
+      "observed_at": "2026-10-25T23:10:00+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
@@ -5681,9 +5698,9 @@
         "reserve_rate": 27.0,
         "peak_supply_10MW": 3615.0,
         "forecast_peak_demand_10MW": 2851.0,
-        "current_demand_10MW": 2848.0,
-        "current_demand_time": "18:00",
-        "current_usage_rate": 78.0,
+        "current_demand_10MW": 2453.0,
+        "current_demand_time": "22:00",
+        "current_usage_rate": 73.0,
         "peak_timeband": "18:00〜19:00",
         "area": "東京",
         "caption": "ピークは18:00〜19:00の見込み"
@@ -5732,7 +5749,7 @@
       "unit": "回",
       "value": 9,
       "value_display": "9回",
-      "observed_at": "2026-10-25T19:05:00+09:00",
+      "observed_at": "2026-10-25T23:33:00+09:00",
       "as_of": "2026-10-25",
       "stale": false,
       "change": {
@@ -5759,11 +5776,11 @@
           "depth": 470
         },
         "latest": {
-          "time": "2026-10-25T15:04:00+09:00",
-          "scale": 20,
-          "name": "福島県沖",
-          "magnitude": 4.2,
-          "depth": 40
+          "time": "2026-10-25T19:14:00+09:00",
+          "scale": 10,
+          "name": "茨城県北部",
+          "magnitude": 3.8,
+          "depth": 90
         },
         "capped": false
       },

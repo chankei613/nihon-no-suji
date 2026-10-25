@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-10-25T19:05:28+09:00",
+  "updated_at": "2026-10-25T23:33:24+09:00",
   "summary": {
     "count": 53,
     "first_date": "2026-09-03",
     "last_date": "2026-10-25",
     "min_30d": 0,
     "max_30d": 3,
-    "avg_30d": 1.37
+    "avg_30d": 1.33
   },
   "history": [
     {
@@ -228,30 +228,21 @@
     },
     {
       "date": "2026-10-25",
-      "value": 2
+      "value": 1
     }
   ],
   "latest_detail": {
     "typhoons": [
-      {
-        "number": "2630",
-        "name": "チャンパー",
-        "category": "TS",
-        "pressure": "996",
-        "location": "東シナ海",
-        "course": "北北東",
-        "typhoon_number": "2630"
-      },
       {
         "number": "2631",
         "name": "インファ",
         "category": "STS",
         "pressure": "992",
         "location": "マーシャル諸島",
-        "course": "北",
+        "course": "北北西",
         "typhoon_number": "2631"
       }
     ],
-    "caption": "台風30・31号が発生中"
+    "caption": "台風31号「インファ」がマーシャル諸島"
   }
 }

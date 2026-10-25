@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T19:05:28+09:00",
+  "generated_at": "2026-10-25T23:33:24+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -240,12 +240,12 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "2.3℃",
+      "value_display": "1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.3,
-        "display": "+5.3℃",
+        "value": 4.0,
+        "display": "+4℃",
         "direction": "up",
         "prev_value": -3.0,
         "prev_date": "2026-10-24"
@@ -465,7 +465,7 @@
         },
         {
           "date": "2026-10-25",
-          "value": 2.3
+          "value": 1.0
         }
       ]
     },
@@ -2162,12 +2162,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "445地点",
+      "value_display": "469地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -114,
-        "display": "-114地点",
+        "value": -90,
+        "display": "-90地点",
         "direction": "down",
         "prev_value": 559,
         "prev_date": "2026-10-24"
@@ -2383,7 +2383,7 @@
         },
         {
           "date": "2026-10-25",
-          "value": 445
+          "value": 469
         }
       ]
     },
@@ -2852,12 +2852,12 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value_display": "25.4℃",
+      "value_display": "27.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.2,
-        "display": "-4.2℃",
+        "value": -1.8,
+        "display": "-1.8℃",
         "direction": "down",
         "prev_value": 29.6,
         "prev_date": "2026-10-24"
@@ -3073,7 +3073,7 @@
         },
         {
           "date": "2026-10-25",
-          "value": 25.4
+          "value": 27.8
         }
       ]
     },
@@ -4164,12 +4164,12 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "15.3m/s",
+      "value_display": "15.6m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7.1,
-        "display": "-7.1m/s",
+        "value": -6.8,
+        "display": "-6.8m/s",
         "direction": "down",
         "prev_value": 22.4,
         "prev_date": "2026-10-24"
@@ -4385,7 +4385,7 @@
         },
         {
           "date": "2026-10-25",
-          "value": 15.3
+          "value": 15.6
         }
       ]
     },
@@ -5718,13 +5718,13 @@
       "name": "発生中の台風の数",
       "category": "防災",
       "unit": "個",
-      "value_display": "2個",
+      "value_display": "1個",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
+        "value": -1,
+        "display": "-1個",
+        "direction": "down",
         "prev_value": 2,
         "prev_date": "2026-10-24"
       },
@@ -5939,7 +5939,7 @@
         },
         {
           "date": "2026-10-25",
-          "value": 2
+          "value": 1
         }
       ]
     },
@@ -5948,12 +5948,12 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "0市町村",
+      "value_display": "10市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -34,
-        "display": "-34市町村",
+        "value": -24,
+        "display": "-24市町村",
         "direction": "down",
         "prev_value": 34,
         "prev_date": "2026-10-24"
@@ -6169,7 +6169,7 @@
         },
         {
           "date": "2026-10-25",
-          "value": 0
+          "value": 10
         }
       ]
     },

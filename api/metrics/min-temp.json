@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-25T19:05:28+09:00",
+  "updated_at": "2026-10-25T23:33:24+09:00",
   "summary": {
     "count": 54,
     "first_date": "2026-09-02",
     "last_date": "2026-10-25",
     "min_30d": -5.9,
     "max_30d": 9.2,
-    "avg_30d": 1.05,
-    "record_1st": -33.2,
+    "avg_30d": 1.01,
+    "record_1st": -38.1,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -235,14 +235,16 @@
     },
     {
       "date": "2026-10-25",
-      "value": 2.3
+      "value": 1.0
     }
   ],
   "latest_detail": {
-    "place": "陸別",
-    "pref": "北海道十勝地方",
-    "caption": "陸別｜きょう日本でいちばん寒い",
-    "record_1st": -33.2,
+    "place": "江丹別",
+    "pref": "北海道上川地方",
+    "caption": "江丹別｜きょう日本でいちばん寒い",
+    "normal_diff": 0.2,
+    "station_prev_diff": 0.9,
+    "record_1st": -38.1,
     "year_extreme": false,
     "all_time_record": false
   }

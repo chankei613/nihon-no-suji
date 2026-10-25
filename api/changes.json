@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-25T19:05:28+09:00",
+  "generated_at": "2026-10-25T23:33:24+09:00",
   "date": "2026-10-25",
   "changes": [
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "0市町村",
+      "value_display": "10市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -34,
-        "display": "-34市町村",
+        "value": -24,
+        "display": "-24市町村",
         "direction": "down",
         "prev_value": 34,
         "prev_date": "2026-10-24"
       },
-      "caption": "いま気象警報は出ていない",
-      "score": 34.0,
-      "z": 34.0,
+      "caption": "10市町村に気象警報",
+      "score": 24.0,
+      "z": 24.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -196,57 +196,57 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "15.3m/s",
+      "value_display": "15.6m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7.1,
-        "display": "-7.1m/s",
+        "value": -6.8,
+        "display": "-6.8m/s",
         "direction": "down",
         "prev_value": 22.4,
         "prev_date": "2026-10-24"
       },
-      "caption": "友ケ島｜全国でいちばん風が強い（10分平均）",
-      "score": 2.72,
-      "z": 2.72,
+      "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）",
+      "score": 2.56,
+      "z": 2.56,
       "label": "いつもより大きな変化"
     },
     {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "2.3℃",
+      "value_display": "1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.3,
-        "display": "+5.3℃",
+        "value": 4.0,
+        "display": "+4℃",
         "direction": "up",
         "prev_value": -3.0,
         "prev_date": "2026-10-24"
       },
-      "caption": "陸別｜きょう日本でいちばん寒い",
-      "score": 1.94,
-      "z": 1.94,
-      "label": "いつもより大きな変化"
+      "caption": "江丹別｜きょう日本でいちばん寒い",
+      "score": 1.12,
+      "z": 1.12,
+      "label": "通常の範囲"
     },
     {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "25.4℃",
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "value_display": "1個",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.2,
-        "display": "-4.2℃",
+        "value": -1,
+        "display": "-1個",
         "direction": "down",
-        "prev_value": 29.6,
+        "prev_value": 2,
         "prev_date": "2026-10-24"
       },
-      "caption": "北大東27.9℃ と 陸別2.5℃ の差",
-      "score": 1.13,
-      "z": 1.13,
+      "caption": "台風31号「インファ」がマーシャル諸島",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -285,25 +285,6 @@
       "caption": "きょう30℃以上になった地点",
       "score": 0.75,
       "z": 0.75,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "445地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -114,
-        "display": "-114地点",
-        "direction": "down",
-        "prev_value": 559,
-        "prev_date": "2026-10-24"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.72,
-      "z": 0.72,
       "label": "通常の範囲"
     },
     {
@@ -364,6 +345,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "469地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -90,
+        "display": "-90地点",
+        "direction": "down",
+        "prev_value": 559,
+        "prev_date": "2026-10-24"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.31,
+      "z": 0.31,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
@@ -418,6 +418,25 @@
       "caption": "きょうはまだ日照なし",
       "score": 0.0,
       "z": -1.14,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "27.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.8,
+        "display": "-1.8℃",
+        "direction": "down",
+        "prev_value": 29.6,
+        "prev_date": "2026-10-24"
+      },
+      "caption": "名瀬27.8℃ と 占冠0℃ の差",
+      "score": 0.0,
+      "z": -0.08,
       "label": "通常の範囲"
     },
     {
@@ -530,25 +549,6 @@
         "prev_date": "2026-10-24"
       },
       "caption": "今年はこれまでに31個の台風が発生",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "active-typhoons",
-      "name": "発生中の台風の数",
-      "category": "防災",
-      "value_display": "2個",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
-        "prev_value": 2,
-        "prev_date": "2026-10-24"
-      },
-      "caption": "台風30・31号が発生中",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
