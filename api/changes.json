@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:10:53+09:00",
+  "generated_at": "2026-10-26T08:30:58+09:00",
   "date": "2026-10-26",
   "changes": [
     {
@@ -25,19 +25,19 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "27.8℃",
+      "value_display": "28.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.3,
-        "display": "-5.3℃",
+        "value": -4.8,
+        "display": "-4.8℃",
         "direction": "down",
         "prev_value": 33.1,
         "prev_date": "2026-10-25"
       },
-      "caption": "八代｜きょう日本でいちばん暑い",
-      "score": 11.75,
-      "z": 11.75,
+      "caption": "屋久島｜きょう日本でいちばん暑い",
+      "score": 10.5,
+      "z": 10.5,
       "label": "かなり珍しい変化"
     },
     {
@@ -98,22 +98,22 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "90%",
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "57.1%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 12.0,
-        "display": "+12.0pt",
+        "value": 2.1,
+        "display": "+2.1pt",
         "direction": "up",
-        "prev_value": 78.0,
+        "prev_value": 55.0,
         "prev_date": "2026-10-25"
       },
-      "caption": "ピークは17:00〜18:00の見込み",
-      "score": 4.5,
-      "z": 4.5,
+      "caption": "主要17ダムの平均貯水率（やや少なめ）",
+      "score": 5.33,
+      "z": 5.33,
       "label": "かなり珍しい変化"
     },
     {
@@ -131,6 +131,25 @@
         "prev_date": "2026-10-25"
       },
       "caption": "きょう一度も0℃以上にならなかった地点（真冬日）",
+      "score": 4.0,
+      "z": 4.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "89%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 11.0,
+        "display": "+11.0pt",
+        "direction": "up",
+        "prev_value": 78.0,
+        "prev_date": "2026-10-25"
+      },
+      "caption": "ピークは16:00〜17:00の見込み",
       "score": 4.0,
       "z": 4.0,
       "label": "かなり珍しい変化"
@@ -177,19 +196,19 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "-3.6℃",
+      "value_display": "-3.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.6,
-        "display": "-4.6℃",
+        "value": -4.8,
+        "display": "-4.8℃",
         "direction": "down",
         "prev_value": 1.0,
         "prev_date": "2026-10-25"
       },
       "caption": "占冠｜きょう日本でいちばん寒い",
-      "score": 1.5,
-      "z": 1.5,
+      "score": 1.62,
+      "z": 1.62,
       "label": "いつもより大きな変化"
     },
     {
@@ -212,22 +231,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "dam-storage",
-      "name": "主要ダムの貯水率",
-      "category": "自然",
-      "value_display": "55%",
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "2%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.7,
-        "display": "+0.7pt",
-        "direction": "up",
-        "prev_value": 54.3,
-        "prev_date": "2026-10-24"
+        "value": -18.0,
+        "display": "-18.0pt",
+        "direction": "down",
+        "prev_value": 20.0,
+        "prev_date": "2026-10-25"
       },
-      "caption": "主要17ダムの平均貯水率（少なめ）",
-      "score": 0.67,
-      "z": 0.67,
+      "caption": "きょうのピークで電力の2%を太陽光がまかなった",
+      "score": 0.71,
+      "z": 0.71,
       "label": "通常の範囲"
     },
     {
@@ -253,19 +272,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "371地点",
+      "value_display": "573地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -98,
-        "display": "-98地点",
-        "direction": "down",
+        "value": 104,
+        "display": "+104地点",
+        "direction": "up",
         "prev_value": 469,
         "prev_date": "2026-10-25"
       },
       "caption": "きょう雨が降った地点",
-      "score": 0.46,
-      "z": 0.46,
+      "score": 0.57,
+      "z": 0.57,
       "label": "通常の範囲"
     },
     {
@@ -443,38 +462,38 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "30%",
+      "value_display": "24%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 6.0,
-        "display": "+6.0pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 24.0,
         "prev_date": "2026-10-25"
       },
-      "caption": "芽室｜全国でいちばん空気が乾いている",
+      "caption": "興部｜全国でいちばん空気が乾いている",
       "score": 0.0,
-      "z": -0.2,
+      "z": -1.4,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "2.4℃",
+      "value_display": "2.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.7,
-        "display": "+0.7℃",
+        "value": 0.6,
+        "display": "+0.6℃",
         "direction": "up",
         "prev_value": 1.7,
         "prev_date": "2026-10-25"
       },
       "caption": "夏でもひんやり",
       "score": 0.0,
-      "z": -0.9,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -766,57 +785,38 @@
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
-      "value_display": "-35cm",
+      "value_display": "-36cm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1cm",
-        "direction": "up",
-        "prev_value": -36.0,
-        "prev_date": "2026-10-24"
+        "value": -1.0,
+        "display": "-1cm",
+        "direction": "down",
+        "prev_value": -35.0,
+        "prev_date": "2026-10-25"
       },
-      "caption": "基準水位(B.S.L.)より35cm低い",
+      "caption": "基準水位(B.S.L.)より36cm低い",
       "score": 0.0,
       "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "20%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 12.0,
-        "display": "+12.0pt",
-        "direction": "up",
-        "prev_value": 8.0,
-        "prev_date": "2026-10-24"
-      },
-      "caption": "きょうのピークで電力の20%を太陽光がまかなった",
-      "score": 0.0,
-      "z": -0.14,
       "label": "通常の範囲"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "9回",
+      "value_display": "10回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": 1,
+        "display": "+1回",
+        "direction": "up",
         "prev_value": 9,
         "prev_date": "2026-10-25"
       },
       "caption": "最大は小笠原諸島西方沖の震度3",
       "score": 0.0,
-      "z": -1.5,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {

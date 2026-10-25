@@ -8,14 +8,14 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-26T06:10:53+09:00",
+  "updated_at": "2026-10-26T08:30:58+09:00",
   "summary": {
     "count": 55,
     "first_date": "2026-09-02",
     "last_date": "2026-10-26",
     "min_30d": -5.9,
     "max_30d": 9.2,
-    "avg_30d": 0.88,
+    "avg_30d": 0.87,
     "record_1st": -35.8,
     "year_extreme": true,
     "all_time_record": false
@@ -239,13 +239,15 @@
     },
     {
       "date": "2026-10-26",
-      "value": -3.6
+      "value": -3.8
     }
   ],
   "latest_detail": {
     "place": "占冠",
     "pref": "北海道上川地方",
     "caption": "占冠｜きょう日本でいちばん寒い",
+    "normal_diff": -3.9,
+    "station_prev_diff": -2.8,
     "record_1st": -35.8,
     "year_extreme": true,
     "all_time_record": false
