@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T15:55:43+09:00",
+  "generated_at": "2026-10-26T23:31:45+09:00",
   "date": "2026-10-26",
   "metrics": [
     {
@@ -3933,7 +3933,7 @@
       "unit": "",
       "value": 0,
       "value_display": "0時間00分",
-      "observed_at": "2026-10-26T15:40:00+09:00",
+      "observed_at": "2026-10-26T23:20:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
@@ -3950,7 +3950,7 @@
       "highlight_reason": null,
       "detail": {
         "total_minutes": 0.0,
-        "last_observed_at": "2026-10-26T15:40:00+09:00",
+        "last_observed_at": "2026-10-26T23:20:00+09:00",
         "caption": "きょうはまだ日照なし"
       },
       "source": {
@@ -3963,16 +3963,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 695,
-      "value_display": "695地点",
-      "observed_at": "2026-10-26T15:40:00+09:00",
+      "value": 704,
+      "value_display": "704地点",
+      "observed_at": "2026-10-26T23:20:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 226,
-        "display": "+226地点",
+        "value": 235,
+        "display": "+235地点",
         "direction": "up",
         "prev_value": 469,
         "prev_date": "2026-10-25"
@@ -3982,6 +3982,7 @@
       "highlight_reason": "いつもより大きな変化",
       "detail": {
         "station_ids": [
+          "12011",
           "34262",
           "35537",
           "36151",
@@ -4010,6 +4011,7 @@
           "40076",
           "40091",
           "40126",
+          "40136",
           "40181",
           "40191",
           "40201",
@@ -4548,10 +4550,12 @@
           "74237",
           "74238",
           "74271",
+          "74336",
           "74361",
           "74372",
           "74391",
           "74436",
+          "74447",
           "74456",
           "81011",
           "81071",
@@ -4669,16 +4673,21 @@
           "87231",
           "87251",
           "87346",
+          "87371",
+          "87406",
           "87461",
+          "87501",
           "88081",
           "88101",
           "88107",
           "88211",
           "88317",
+          "88406",
           "88621",
+          "88666",
           "88901"
         ],
-        "now": 294,
+        "now": 60,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4791,23 +4800,23 @@
       "name": "東京のあしたの最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 21.0,
-      "value_display": "21℃",
+      "value": 24.0,
+      "value_display": "24℃",
       "observed_at": "2026-10-26T05:00:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.0,
-        "display": "+3℃",
+        "value": 6.0,
+        "display": "+6℃",
         "direction": "up",
         "prev_value": 18.0,
         "prev_date": "2026-10-25"
       },
       "caption": "あすの東京の最高気温の予想",
-      "highlight": false,
-      "highlight_reason": null,
+      "highlight": true,
+      "highlight_reason": "かなり珍しい変化",
       "detail": {
         "for_date": "2026-10-27",
         "caption": "あすの東京の最高気温の予想"
@@ -4822,16 +4831,16 @@
       "name": "東京のあしたの最低気温",
       "category": "自然",
       "unit": "℃",
-      "value": 15.0,
-      "value_display": "15℃",
+      "value": 16.0,
+      "value_display": "16℃",
       "observed_at": "2026-10-26T05:00:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.0,
-        "display": "-2℃",
+        "value": -1.0,
+        "display": "-1℃",
         "direction": "down",
         "prev_value": 17.0,
         "prev_date": "2026-10-25"
@@ -4884,26 +4893,26 @@
       "name": "東京のあしたの降水確率",
       "category": "自然",
       "unit": "%",
-      "value": 70.0,
-      "value_display": "70%",
+      "value": 50.0,
+      "value_display": "50%",
       "observed_at": "2026-10-26T05:00:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -10.0,
-        "display": "-10.0pt",
+        "value": -30.0,
+        "display": "-30.0pt",
         "direction": "down",
         "prev_value": 80.0,
         "prev_date": "2026-10-25"
       },
-      "caption": "あすは雨の可能性が高い",
+      "caption": "あすは所により雨",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
         "for_date": "2026-10-27",
-        "caption": "あすは雨の可能性が高い"
+        "caption": "あすは所により雨"
       },
       "source": {
         "name": "気象庁 天気予報",
@@ -4915,26 +4924,26 @@
       "name": "全国の最低海面気圧",
       "category": "自然",
       "unit": "hPa",
-      "value": 1001.0,
-      "value_display": "1,001hPa",
-      "observed_at": "2026-10-26T15:40:00+09:00",
+      "value": 1000.8,
+      "value_display": "1000.8hPa",
+      "observed_at": "2026-10-26T23:20:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.2,
-        "display": "-2.2hPa",
+        "value": -2.4,
+        "display": "-2.4hPa",
         "direction": "down",
         "prev_value": 1003.2,
         "prev_date": "2026-10-25"
       },
-      "caption": "日田｜全国でいちばん気圧が低い",
+      "caption": "彦根｜全国でいちばん気圧が低い",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "日田",
-        "caption": "日田｜全国でいちばん気圧が低い"
+        "place": "彦根",
+        "caption": "彦根｜全国でいちばん気圧が低い"
       },
       "source": {
         "name": "気象庁 アメダス実況",
@@ -5008,16 +5017,16 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": 4.1,
-      "value_display": "4.1℃",
-      "observed_at": "2026-10-26T15:40:00+09:00",
+      "value": 4.2,
+      "value_display": "4.2℃",
+      "observed_at": "2026-10-26T23:20:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.4,
-        "display": "+2.4℃",
+        "value": 2.5,
+        "display": "+2.5℃",
         "direction": "up",
         "prev_value": 1.7,
         "prev_date": "2026-10-25"
@@ -5165,7 +5174,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-10-26T15:54:00+09:00",
+      "observed_at": "2026-10-26T23:30:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
@@ -5186,7 +5195,7 @@
             "number": "2631",
             "name": "インファ",
             "category": "TY",
-            "pressure": "970",
+            "pressure": "965",
             "location": "マーシャル諸島",
             "course": "西北西",
             "typhoon_number": "2631"
@@ -5206,7 +5215,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-26T15:52:11+09:00",
+      "observed_at": "2026-10-26T23:09:59+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
@@ -5237,7 +5246,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-26T15:52:11+09:00",
+      "observed_at": "2026-10-26T23:09:59+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
@@ -5267,7 +5276,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-26T15:52:11+09:00",
+      "observed_at": "2026-10-26T23:09:59+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
@@ -5297,7 +5306,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-10-26T15:52:11+09:00",
+      "observed_at": "2026-10-26T23:09:59+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
@@ -5327,7 +5336,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-10-26T15:54:29+09:00",
+      "observed_at": "2026-10-26T23:30:36+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
@@ -5400,7 +5409,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-10-26T15:55:30+09:00",
+      "observed_at": "2026-10-26T23:31:33+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
@@ -5430,7 +5439,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-10-26T15:55:30+09:00",
+      "observed_at": "2026-10-26T23:31:33+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
@@ -5804,16 +5813,16 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value": 57.1,
-      "value_display": "57.1%",
+      "value": 57.3,
+      "value_display": "57.3%",
       "observed_at": "2026-10-26T06:00:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.1,
-        "display": "+2.1pt",
+        "value": 2.3,
+        "display": "+2.3pt",
         "direction": "up",
         "prev_value": 55.0,
         "prev_date": "2026-10-25"
@@ -5825,7 +5834,7 @@
         "dam_count": 17,
         "region_means": {
           "近畿": 51.9,
-          "関東": 69.8
+          "関東": 70.2
         },
         "dams": [
           {
@@ -5860,7 +5869,7 @@
           },
           {
             "name": "荒川水系4ダム",
-            "rate": 51.0,
+            "rate": 52.0,
             "region": "関東"
           },
           {
@@ -5880,7 +5889,7 @@
           },
           {
             "name": "利根川水系鬼怒川4ダム",
-            "rate": 60.0,
+            "rate": 61.0,
             "region": "関東"
           },
           {
@@ -5889,18 +5898,18 @@
             "region": "近畿"
           },
           {
-            "name": "利根川水系上流9ダム",
-            "rate": 76.0,
-            "region": "関東"
-          },
-          {
             "name": "布目ダム",
             "rate": 76.6,
             "region": "近畿"
           },
           {
+            "name": "利根川水系上流9ダム",
+            "rate": 77.0,
+            "region": "関東"
+          },
+          {
             "name": "多摩川水系 小河内ダム",
-            "rate": 81.0,
+            "rate": 80.0,
             "region": "関東"
           },
           {
@@ -5928,7 +5937,7 @@
       "unit": "%",
       "value": 88.0,
       "value_display": "88%",
-      "observed_at": "2026-10-26T15:40:00+09:00",
+      "observed_at": "2026-10-26T23:10:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
@@ -5947,9 +5956,9 @@
         "reserve_rate": 13.0,
         "peak_supply_10MW": 3685.0,
         "forecast_peak_demand_10MW": 3268.0,
-        "current_demand_10MW": 3219.0,
-        "current_demand_time": "14:00",
-        "current_usage_rate": 91.0,
+        "current_demand_10MW": 2644.0,
+        "current_demand_time": "22:00",
+        "current_usage_rate": 72.0,
         "peak_timeband": "16:00〜17:00",
         "area": "東京",
         "caption": "ピークは16:00〜17:00の見込み"
@@ -5996,16 +6005,16 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value": 6,
-      "value_display": "6回",
-      "observed_at": "2026-10-26T15:55:00+09:00",
+      "value": 7,
+      "value_display": "7回",
+      "observed_at": "2026-10-26T23:31:00+09:00",
       "as_of": "2026-10-26",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3回",
+        "value": -2,
+        "display": "-2回",
         "direction": "down",
         "prev_value": 9,
         "prev_date": "2026-10-25"
@@ -6025,11 +6034,11 @@
           "depth": 0
         },
         "latest": {
-          "time": "2026-10-26T13:37:00+09:00",
-          "scale": 10,
-          "name": "千葉県北東部",
-          "magnitude": 3.1,
-          "depth": 50
+          "time": "2026-10-26T23:11:00+09:00",
+          "scale": 20,
+          "name": "山口県東部",
+          "magnitude": 3.2,
+          "depth": 20
         },
         "capped": false
       },
