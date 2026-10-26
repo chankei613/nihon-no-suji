@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-26T10:35:39+09:00",
+  "updated_at": "2026-10-26T15:55:43+09:00",
   "summary": {
     "count": 55,
     "first_date": "2026-09-02",
     "last_date": "2026-10-26",
     "min_30d": 2,
     "max_30d": 11,
-    "avg_30d": 5.87
+    "avg_30d": 5.83
   },
   "history": [
     {
@@ -236,26 +236,26 @@
     },
     {
       "date": "2026-10-26",
-      "value": 7
+      "value": 6
     }
   ],
   "latest_detail": {
-    "caption": "最大は小笠原諸島西方沖の震度3",
+    "caption": "最大は福島県会津の震度2",
     "window_hours": 24,
-    "max_magnitude": 7,
+    "max_magnitude": 5.6,
     "strongest": {
-      "time": "2026-10-25T11:10:00+09:00",
-      "scale": 30,
-      "name": "小笠原諸島西方沖",
-      "magnitude": 7,
-      "depth": 470
+      "time": "2026-10-26T06:46:00+09:00",
+      "scale": 20,
+      "name": "福島県会津",
+      "magnitude": 3.2,
+      "depth": 0
     },
     "latest": {
-      "time": "2026-10-26T07:15:00+09:00",
+      "time": "2026-10-26T13:37:00+09:00",
       "scale": 10,
-      "name": "小笠原諸島西方沖",
-      "magnitude": 5.6,
-      "depth": 500
+      "name": "千葉県北東部",
+      "magnitude": 3.1,
+      "depth": 50
     },
     "capped": false
   }
