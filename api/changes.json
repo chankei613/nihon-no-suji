@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-10-27T05:07:29+09:00",
+  "generated_at": "2026-10-27T09:03:31+09:00",
   "date": "2026-10-27",
   "changes": [
+    {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "61.5%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 4.2,
+        "display": "+4.2pt",
+        "direction": "up",
+        "prev_value": 57.3,
+        "prev_date": "2026-10-26"
+      },
+      "caption": "主要17ダムの平均貯水率（やや少なめ）",
+      "score": 12.33,
+      "z": 12.33,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "23地点",
+      "value_display": "32地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -681,
-        "display": "-681地点",
+        "value": -672,
+        "display": "-672地点",
         "direction": "down",
         "prev_value": 704,
         "prev_date": "2026-10-26"
       },
       "caption": "きょう雨が降った地点",
-      "score": 10.5,
-      "z": 10.5,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "26.6℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.2,
-        "display": "-4.2℃",
-        "direction": "down",
-        "prev_value": 30.8,
-        "prev_date": "2026-10-26"
-      },
-      "caption": "南大東）｜きょう日本でいちばん暑い",
-      "score": 9.0,
-      "z": 9.0,
+      "score": 10.34,
+      "z": 10.34,
       "label": "かなり珍しい変化"
     },
     {
@@ -60,22 +60,41 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "dam-storage",
-      "name": "主要ダムの貯水率",
+      "slug": "biwako-level",
+      "name": "琵琶湖の水位",
       "category": "自然",
-      "value_display": "57.3%",
+      "value_display": "-28cm",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": 2.3,
-        "display": "+2.3pt",
+        "value": 8.0,
+        "display": "+8cm",
         "direction": "up",
-        "prev_value": 55.0,
-        "prev_date": "2026-10-25"
+        "prev_value": -36.0,
+        "prev_date": "2026-10-26"
       },
-      "caption": "主要17ダムの平均貯水率（やや少なめ）",
-      "score": 6.0,
-      "z": 6.0,
+      "caption": "基準水位(B.S.L.)より28cm低い",
+      "score": 7.0,
+      "z": 7.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "27.5℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.3,
+        "display": "-3.3℃",
+        "direction": "down",
+        "prev_value": 30.8,
+        "prev_date": "2026-10-26"
+      },
+      "caption": "旧東｜きょう日本でいちばん暑い",
+      "score": 6.75,
+      "z": 6.75,
       "label": "かなり珍しい変化"
     },
     {
@@ -139,57 +158,19 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "40%",
+      "value_display": "31%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 22.0,
-        "display": "+22.0pt",
+        "value": 13.0,
+        "display": "+13.0pt",
         "direction": "up",
         "prev_value": 18.0,
         "prev_date": "2026-10-26"
       },
-      "caption": "松前｜全国でいちばん空気が乾いている",
-      "score": 3.0,
-      "z": 3.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "usd-jpy",
-      "name": "ドル円レート",
-      "category": "経済",
-      "value_display": "157.23円",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -0.9,
-        "display": "-0.9円",
-        "direction": "down",
-        "prev_value": 158.13,
-        "prev_date": "2026-10-21"
-      },
-      "caption": "1ドル＝157.23円（10月22日）",
-      "score": 1.28,
-      "z": 1.28,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "15.9℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.4,
-        "display": "-4.4℃",
-        "direction": "down",
-        "prev_value": 20.3,
-        "prev_date": "2026-10-26"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 1.0,
-      "z": 1.0,
+      "caption": "興部｜全国でいちばん空気が乾いている",
+      "score": 1.2,
+      "z": 1.2,
       "label": "通常の範囲"
     },
     {
@@ -250,22 +231,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "12回",
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "16.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5,
-        "display": "+5回",
-        "direction": "up",
-        "prev_value": 7,
+        "value": -4.1,
+        "display": "-4.1℃",
+        "direction": "down",
+        "prev_value": 20.3,
         "prev_date": "2026-10-26"
       },
-      "caption": "最大は熊本県天草・芦北地方の震度3",
-      "score": 1.0,
-      "z": 1.0,
+      "caption": "きょうの東京の最高気温",
+      "score": 0.83,
+      "z": 0.83,
       "label": "通常の範囲"
     },
     {
@@ -288,60 +269,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "1.5℃",
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "11回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.7,
-        "display": "-2.7℃",
-        "direction": "down",
-        "prev_value": 4.2,
+        "value": 4,
+        "display": "+4回",
+        "direction": "up",
+        "prev_value": 7,
         "prev_date": "2026-10-26"
       },
-      "caption": "夏でもひんやり",
-      "score": 0.67,
-      "z": 0.67,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "3%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -17.0,
-        "display": "-17.0pt",
-        "direction": "down",
-        "prev_value": 20.0,
-        "prev_date": "2026-10-25"
-      },
-      "caption": "きょうのピークで電力の3%を太陽光がまかなった",
-      "score": 0.57,
-      "z": 0.57,
+      "caption": "最大は熊本県天草・芦北地方の震度3",
+      "score": 0.5,
+      "z": 0.5,
       "label": "通常の範囲"
     },
     {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "-1.3℃",
+      "value_display": "-2.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.5,
-        "display": "+2.5℃",
+        "value": 1.2,
+        "display": "+1.2℃",
         "direction": "up",
         "prev_value": -3.8,
         "prev_date": "2026-10-26"
       },
       "caption": "滝上｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.63,
       "label": "通常の範囲"
     },
     {
@@ -497,6 +459,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "2.3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.9,
+        "display": "-1.9℃",
+        "direction": "down",
+        "prev_value": 4.2,
+        "prev_date": "2026-10-26"
+      },
+      "caption": "夏でもひんやり",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "gas-regular",
       "name": "レギュラーガソリンの全国平均価格",
       "category": "経済",
@@ -513,6 +494,25 @@
       "caption": "レギュラーガソリン全国平均（10月19日調査）",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "usd-jpy",
+      "name": "ドル円レート",
+      "category": "経済",
+      "value_display": "156.96円",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -0.27,
+        "display": "-0.27円",
+        "direction": "down",
+        "prev_value": 157.23,
+        "prev_date": "2026-10-22"
+      },
+      "caption": "1ドル＝156.96円（10月23日）",
+      "score": 0.0,
+      "z": -0.58,
       "label": "通常の範囲"
     },
     {
@@ -782,39 +782,39 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "biwako-level",
-      "name": "琵琶湖の水位",
-      "category": "自然",
-      "value_display": "-36cm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1.0,
-        "display": "-1cm",
-        "direction": "down",
-        "prev_value": -35.0,
-        "prev_date": "2026-10-25"
-      },
-      "caption": "基準水位(B.S.L.)より36cm低い",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "87%",
+      "value_display": "86%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -1.0,
-        "display": "-1.0pt",
+        "value": -2.0,
+        "display": "-2.0pt",
         "direction": "down",
         "prev_value": 88.0,
         "prev_date": "2026-10-26"
       },
       "caption": "ピークは16:00〜17:00の見込み",
+      "score": 0.0,
+      "z": -0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "9%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 6.0,
+        "display": "+6.0pt",
+        "direction": "up",
+        "prev_value": 3.0,
+        "prev_date": "2026-10-26"
+      },
+      "caption": "きょうのピークで電力の9%を太陽光がまかなった",
       "score": 0.0,
       "z": -1.0,
       "label": "通常の範囲"
