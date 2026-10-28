@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-28T23:24:42+09:00",
+  "updated_at": "2026-10-29T04:49:52+09:00",
   "summary": {
-    "count": 57,
+    "count": 58,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-28",
-    "min_30d": -5.9,
+    "last_date": "2026-10-29",
+    "min_30d": -6.3,
     "max_30d": 7.8,
-    "avg_30d": 0.16,
-    "record_1st": -35.1,
+    "avg_30d": -0.22,
+    "record_1st": -29.8,
     "year_extreme": true,
     "all_time_record": false
   },
@@ -248,15 +248,17 @@
     {
       "date": "2026-10-28",
       "value": -4.7
+    },
+    {
+      "date": "2026-10-29",
+      "value": -6.3
     }
   ],
   "latest_detail": {
-    "place": "士別",
-    "pref": "北海道上川地方",
-    "caption": "士別｜きょう日本でいちばん寒い",
-    "normal_diff": -6.7,
-    "station_prev_diff": -4.6,
-    "record_1st": -35.1,
+    "place": "大樹",
+    "pref": "北海道十勝地方",
+    "caption": "大樹｜きょう日本でいちばん寒い",
+    "record_1st": -29.8,
     "year_extreme": true,
     "all_time_record": false
   }

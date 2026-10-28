@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-28T23:24:42+09:00",
+  "updated_at": "2026-10-29T04:49:52+09:00",
   "summary": {
-    "count": 57,
+    "count": 58,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-28",
+    "last_date": "2026-10-29",
     "min_30d": 2,
     "max_30d": 11,
-    "avg_30d": 5.97
+    "avg_30d": 6.1
   },
   "history": [
     {
@@ -245,25 +245,29 @@
     {
       "date": "2026-10-28",
       "value": 4
+    },
+    {
+      "date": "2026-10-29",
+      "value": 11
     }
   ],
   "latest_detail": {
-    "caption": "最大は福島県沖の震度2",
+    "caption": "最大は千葉県北東部の震度5弱",
     "window_hours": 24,
-    "max_magnitude": 4,
+    "max_magnitude": 5.4,
     "strongest": {
-      "time": "2026-10-28T00:28:00+09:00",
-      "scale": 20,
-      "name": "福島県沖",
-      "magnitude": 4,
-      "depth": 80
+      "time": "2026-10-29T00:07:00+09:00",
+      "scale": 45,
+      "name": "千葉県北東部",
+      "magnitude": 5.4,
+      "depth": 50
     },
     "latest": {
-      "time": "2026-10-28T17:17:00+09:00",
-      "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 2.7,
-      "depth": 10
+      "time": "2026-10-29T03:32:00+09:00",
+      "scale": 20,
+      "name": "千葉県北東部",
+      "magnitude": 4.4,
+      "depth": 50
     },
     "capped": false
   }
