@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-10-28T16:18:48+09:00",
+  "generated_at": "2026-10-28T23:24:42+09:00",
   "date": "2026-10-28",
   "changes": [
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "value_display": "56地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 41,
+        "display": "+41地点",
+        "direction": "up",
+        "prev_value": 15,
+        "prev_date": "2026-10-27"
+      },
+      "caption": "きょう0℃を下回った地点",
+      "score": 41.0,
+      "z": 41.0,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
@@ -63,76 +82,76 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-9.9℃",
+      "value_display": "-10.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -8.5,
-        "display": "-8.5℃",
+        "value": -8.8,
+        "display": "-8.8℃",
         "direction": "down",
         "prev_value": -1.4,
         "prev_date": "2026-10-27"
       },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 5.08,
-      "z": 5.08,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "cold-points-0",
-      "name": "0℃を下回った地点数",
-      "category": "自然",
-      "value_display": "20地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 5,
-        "display": "+5地点",
-        "direction": "up",
-        "prev_value": 15,
-        "prev_date": "2026-10-27"
-      },
-      "caption": "きょう0℃を下回った地点",
-      "score": 5.0,
-      "z": 5.0,
+      "caption": "真冬並みの厳しい寒さ",
+      "score": 5.31,
+      "z": 5.31,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "92%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 9.0,
-        "display": "+9.0pt",
+        "value": 7.0,
+        "display": "+7.0pt",
         "direction": "up",
         "prev_value": 83.0,
         "prev_date": "2026-10-27"
       },
       "caption": "ピークは17:00〜18:00の見込み",
-      "score": 3.0,
-      "z": 3.0,
-      "label": "かなり珍しい変化"
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "61.5mm",
+      "value_display": "63mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -76.0,
-        "display": "-76mm",
+        "value": -74.5,
+        "display": "-74.5mm",
         "direction": "down",
         "prev_value": 137.5,
         "prev_date": "2026-10-27"
       },
       "caption": "肘折｜この24時間でいちばん降った",
-      "score": 1.86,
-      "z": 1.86,
+      "score": 1.8,
+      "z": 1.8,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "4回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -6,
+        "display": "-6回",
+        "direction": "down",
+        "prev_value": 10,
+        "prev_date": "2026-10-27"
+      },
+      "caption": "最大は福島県沖の震度2",
+      "score": 1.5,
+      "z": 1.5,
       "label": "いつもより大きな変化"
     },
     {
@@ -212,25 +231,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "5回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -5,
-        "display": "-5回",
-        "direction": "down",
-        "prev_value": 10,
-        "prev_date": "2026-10-27"
-      },
-      "caption": "最大は福島県沖の震度2",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
@@ -291,19 +291,19 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "-3.8℃",
+      "value_display": "-4.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.2,
-        "display": "-1.2℃",
+        "value": -2.1,
+        "display": "-2.1℃",
         "direction": "down",
         "prev_value": -2.6,
         "prev_date": "2026-10-27"
       },
-      "caption": "酸ケ湯｜きょう日本でいちばん寒い",
+      "caption": "士別｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -0.63,
+      "z": -0.06,
       "label": "通常の範囲"
     },
     {
@@ -386,19 +386,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "167地点",
+      "value_display": "170地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 15,
-        "display": "+15地点",
+        "value": 18,
+        "display": "+18地点",
         "direction": "up",
         "prev_value": 152,
         "prev_date": "2026-10-27"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.98,
+      "z": -0.92,
       "label": "通常の範囲"
     },
     {
