@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T09:19:48+09:00",
+  "generated_at": "2026-10-29T15:22:29+09:00",
   "date": "2026-10-29",
   "changes": [
     {
@@ -41,79 +41,22 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "26.2℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -3.4,
-        "display": "-3.4℃",
-        "direction": "down",
-        "prev_value": 29.6,
-        "prev_date": "2026-10-28"
-      },
-      "caption": "南大東）｜きょう日本でいちばん暑い",
-      "score": 7.0,
-      "z": 7.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "12.8℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -9.3,
-        "display": "-9.3℃",
-        "direction": "down",
-        "prev_value": 22.1,
-        "prev_date": "2026-10-28"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 5.36,
-      "z": 5.36,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1014.1hPa",
+      "value_display": "1010.7hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 24.3,
-        "display": "+24.3hPa",
+        "value": 20.9,
+        "display": "+20.9hPa",
         "direction": "up",
         "prev_value": 989.8,
         "prev_date": "2026-10-28"
       },
-      "caption": "彦根｜全国でいちばん気圧が低い",
-      "score": 5.03,
-      "z": 5.03,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "13回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 9,
-        "display": "+9回",
-        "direction": "up",
-        "prev_value": 4,
-        "prev_date": "2026-10-28"
-      },
-      "caption": "最大は千葉県北東部の震度5弱",
-      "score": 3.0,
-      "z": 3.0,
+      "caption": "日田｜全国でいちばん気圧が低い",
+      "score": 4.13,
+      "z": 4.13,
       "label": "かなり珍しい変化"
     },
     {
@@ -136,22 +79,41 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "1地点",
+      "value_display": "16.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -169,
-        "display": "-169地点",
+        "value": -5.3,
+        "display": "-5.3℃",
         "direction": "down",
-        "prev_value": 170,
+        "prev_value": 22.1,
         "prev_date": "2026-10-28"
       },
-      "caption": "きょう雨が降った地点",
-      "score": 2.16,
-      "z": 2.16,
+      "caption": "きょうの東京の最高気温",
+      "score": 2.5,
+      "z": 2.5,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "12回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 8,
+        "display": "+8回",
+        "direction": "up",
+        "prev_value": 4,
+        "prev_date": "2026-10-28"
+      },
+      "caption": "最大は千葉県北東部の震度5弱",
+      "score": 2.5,
+      "z": 2.5,
       "label": "いつもより大きな変化"
     },
     {
@@ -174,20 +136,39 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "19%",
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "12地点",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": -27.0,
-        "display": "-27.0pt",
+        "value": -158,
+        "display": "-158地点",
         "direction": "down",
-        "prev_value": 46.0,
+        "prev_value": 170,
         "prev_date": "2026-10-28"
       },
-      "caption": "きょうのピークで電力の19%を太陽光がまかなった",
+      "caption": "きょう雨が降った地点",
+      "score": 1.94,
+      "z": 1.94,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-5.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 4.4,
+        "display": "+4.4℃",
+        "direction": "up",
+        "prev_value": -10.2,
+        "prev_date": "2026-10-28"
+      },
+      "caption": "氷点下。街とはまるで別世界",
       "score": 1.71,
       "z": 1.71,
       "label": "いつもより大きな変化"
@@ -231,25 +212,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "-6.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 3.8,
-        "display": "+3.8℃",
-        "direction": "up",
-        "prev_value": -10.2,
-        "prev_date": "2026-10-28"
-      },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 1.29,
-      "z": 1.29,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "usd-jpy",
       "name": "ドル円レート",
       "category": "経済",
@@ -266,6 +228,25 @@
       "caption": "1ドル＝157.87円（10月27日）",
       "score": 0.87,
       "z": 0.87,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "27%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -19.0,
+        "display": "-19.0pt",
+        "direction": "down",
+        "prev_value": 46.0,
+        "prev_date": "2026-10-28"
+      },
+      "caption": "きょうのピークで電力の27%を太陽光がまかなった",
+      "score": 0.57,
+      "z": 0.57,
       "label": "通常の範囲"
     },
     {
@@ -288,22 +269,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "33%",
+      "value_display": "29.5℃",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": 8.0,
-        "display": "+8.0pt",
-        "direction": "up",
-        "prev_value": 25.0,
+        "value": -0.1,
+        "display": "-0.1℃",
+        "direction": "down",
+        "prev_value": 29.6,
         "prev_date": "2026-10-28"
       },
-      "caption": "ぬかびら源泉郷｜全国でいちばん空気が乾いている",
-      "score": 0.2,
-      "z": 0.2,
+      "caption": "安次嶺｜きょう日本でいちばん暑い",
+      "score": 0.0,
+      "z": -1.25,
       "label": "通常の範囲"
     },
     {
@@ -405,38 +386,38 @@
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "1.5mm",
+      "value_display": "9mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -9.5,
-        "display": "-9.5mm",
+        "value": -2.0,
+        "display": "-2mm",
         "direction": "down",
         "prev_value": 11.0,
         "prev_date": "2026-10-28"
       },
-      "caption": "鹿島｜この1時間でいちばん降った",
+      "caption": "遠別｜この1時間でいちばん降った",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.5,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "4.5mm",
+      "value_display": "21mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -14.0,
-        "display": "-14mm",
-        "direction": "down",
+        "value": 2.5,
+        "display": "+2.5mm",
+        "direction": "up",
         "prev_value": 18.5,
         "prev_date": "2026-10-28"
       },
-      "caption": "鹿島｜この3時間でいちばん激しく降った",
+      "caption": "遠別｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.5,
+      "z": -1.28,
       "label": "通常の範囲"
     },
     {
@@ -532,6 +513,25 @@
       "caption": "あすは雨の心配は少ない",
       "score": 0.0,
       "z": -2.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "29%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 4.0,
+        "display": "+4.0pt",
+        "direction": "up",
+        "prev_value": 25.0,
+        "prev_date": "2026-10-28"
+      },
+      "caption": "穂高｜全国でいちばん空気が乾いている",
+      "score": 0.0,
+      "z": -0.6,
       "label": "通常の範囲"
     },
     {
