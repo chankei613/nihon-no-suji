@@ -8,14 +8,14 @@
     "name": "気象庁 アメダス実況",
     "url": "https://www.jma.go.jp/bosai/amedas/"
   },
-  "updated_at": "2026-10-29T04:49:52+09:00",
+  "updated_at": "2026-10-29T09:19:48+09:00",
   "summary": {
     "count": 57,
     "first_date": "2026-09-03",
     "last_date": "2026-10-29",
-    "min_30d": 0,
+    "min_30d": 1,
     "max_30d": 704,
-    "avg_30d": 153.7
+    "avg_30d": 153.73
   },
   "history": [
     {
@@ -244,12 +244,14 @@
     },
     {
       "date": "2026-10-29",
-      "value": 0
+      "value": 1
     }
   ],
   "latest_detail": {
-    "station_ids": [],
-    "now": 0,
+    "station_ids": [
+      "15356"
+    ],
+    "now": 1,
     "caption": "きょう雨が降った地点"
   }
 }

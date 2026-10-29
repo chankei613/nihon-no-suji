@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T04:49:52+09:00",
+  "generated_at": "2026-10-29T09:19:48+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -2322,12 +2322,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "0地点",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -170,
-        "display": "-170地点",
+        "value": -169,
+        "display": "-169地点",
         "direction": "down",
         "prev_value": 170,
         "prev_date": "2026-10-28"
@@ -2559,7 +2559,7 @@
         },
         {
           "date": "2026-10-29",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -4714,12 +4714,12 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "42%",
+      "value_display": "33%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 17.0,
-        "display": "+17.0pt",
+        "value": 8.0,
+        "display": "+8.0pt",
         "direction": "up",
         "prev_value": 25.0,
         "prev_date": "2026-10-28"
@@ -4951,7 +4951,7 @@
         },
         {
           "date": "2026-10-29",
-          "value": 42.0
+          "value": 33.0
         }
       ]
     },
@@ -4960,13 +4960,13 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "-10.5℃",
+      "value_display": "-6.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.3,
-        "display": "-0.3℃",
-        "direction": "down",
+        "value": 3.8,
+        "display": "+3.8℃",
+        "direction": "up",
         "prev_value": -10.2,
         "prev_date": "2026-10-28"
       },
@@ -5197,7 +5197,7 @@
         },
         {
           "date": "2026-10-29",
-          "value": -10.5
+          "value": -6.4
         }
       ]
     },
@@ -5710,15 +5710,15 @@
       "name": "ドル円レート",
       "category": "経済",
       "unit": "円",
-      "value_display": "157.13円",
+      "value_display": "157.87円",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.17,
-        "display": "+0.17円",
+        "value": 0.74,
+        "display": "+0.74円",
         "direction": "up",
-        "prev_value": 156.96,
-        "prev_date": "2026-10-23"
+        "prev_value": 157.13,
+        "prev_date": "2026-10-26"
       },
       "points": [
         {
@@ -5860,6 +5860,10 @@
         {
           "date": "2026-10-26",
           "value": 157.13
+        },
+        {
+          "date": "2026-10-27",
+          "value": 157.87
         }
       ]
     },
@@ -10022,15 +10026,15 @@
       "name": "琵琶湖の水位",
       "category": "自然",
       "unit": "cm",
-      "value_display": "-27cm",
+      "value_display": "-28cm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1cm",
-        "direction": "up",
-        "prev_value": -28.0,
-        "prev_date": "2026-10-27"
+        "value": -1.0,
+        "display": "-1cm",
+        "direction": "down",
+        "prev_value": -27.0,
+        "prev_date": "2026-10-28"
       },
       "points": [
         {
@@ -10264,6 +10268,10 @@
         {
           "date": "2026-10-28",
           "value": -27.0
+        },
+        {
+          "date": "2026-10-29",
+          "value": -28.0
         }
       ]
     },
@@ -10272,15 +10280,15 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value_display": "63.7%",
+      "value_display": "64.7%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.1,
-        "display": "+2.1pt",
+        "value": 1.0,
+        "display": "+1.0pt",
         "direction": "up",
-        "prev_value": 61.6,
-        "prev_date": "2026-10-27"
+        "prev_value": 63.7,
+        "prev_date": "2026-10-28"
       },
       "points": [
         {
@@ -10514,6 +10522,10 @@
         {
           "date": "2026-10-28",
           "value": 63.7
+        },
+        {
+          "date": "2026-10-29",
+          "value": 64.7
         }
       ]
     },
@@ -10522,12 +10534,12 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "87%",
+      "value_display": "86%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -3.0,
-        "display": "-3.0pt",
+        "value": -4.0,
+        "display": "-4.0pt",
         "direction": "down",
         "prev_value": 90.0,
         "prev_date": "2026-10-28"
@@ -10763,7 +10775,7 @@
         },
         {
           "date": "2026-10-29",
-          "value": 87.0
+          "value": 86.0
         }
       ]
     },
@@ -10772,15 +10784,15 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "46%",
+      "value_display": "19%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 23.0,
-        "display": "+23.0pt",
-        "direction": "up",
-        "prev_value": 23.0,
-        "prev_date": "2026-10-27"
+        "value": -27.0,
+        "display": "-27.0pt",
+        "direction": "down",
+        "prev_value": 46.0,
+        "prev_date": "2026-10-28"
       },
       "points": [
         {
@@ -11006,6 +11018,10 @@
         {
           "date": "2026-10-28",
           "value": 46.0
+        },
+        {
+          "date": "2026-10-29",
+          "value": 19.0
         }
       ]
     },
@@ -11014,12 +11030,12 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "11回",
+      "value_display": "13回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 7,
-        "display": "+7回",
+        "value": 9,
+        "display": "+9回",
         "direction": "up",
         "prev_value": 4,
         "prev_date": "2026-10-28"
@@ -11255,7 +11271,7 @@
         },
         {
           "date": "2026-10-29",
-          "value": 11
+          "value": 13
         }
       ]
     },
