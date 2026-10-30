@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-30T09:13:50+09:00",
+  "updated_at": "2026-10-30T15:21:06+09:00",
   "summary": {
     "count": 59,
     "first_date": "2026-09-02",
     "last_date": "2026-10-30",
-    "min_30d": 1,
+    "min_30d": 2,
     "max_30d": 11,
-    "avg_30d": 5.97
+    "avg_30d": 6.03
   },
   "history": [
     {
@@ -252,26 +252,26 @@
     },
     {
       "date": "2026-10-30",
-      "value": 1
+      "value": 3
     }
   ],
   "latest_detail": {
-    "caption": "最大は岐阜県飛騨地方の震度1",
+    "caption": "最大は宮城県沖の震度2",
     "window_hours": 24,
-    "max_magnitude": 2.3,
+    "max_magnitude": 4.1,
     "strongest": {
-      "time": "2026-10-30T01:06:00+09:00",
-      "scale": 10,
-      "name": "岐阜県飛騨地方",
-      "magnitude": 2.3,
-      "depth": 10
+      "time": "2026-10-30T13:24:00+09:00",
+      "scale": 20,
+      "name": "宮城県沖",
+      "magnitude": 4.1,
+      "depth": 50
     },
     "latest": {
-      "time": "2026-10-30T01:06:00+09:00",
+      "time": "2026-10-30T13:58:00+09:00",
       "scale": 10,
-      "name": "岐阜県飛騨地方",
-      "magnitude": 2.3,
-      "depth": 10
+      "name": "岩手県沖",
+      "magnitude": 4.1,
+      "depth": 40
     },
     "capped": false
   }
