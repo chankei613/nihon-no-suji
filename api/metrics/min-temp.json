@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-10-30T04:49:12+09:00",
+  "updated_at": "2026-10-30T09:13:50+09:00",
   "summary": {
     "count": 59,
     "first_date": "2026-09-02",
     "last_date": "2026-10-30",
     "min_30d": -6.3,
     "max_30d": 7.8,
-    "avg_30d": -0.3,
-    "record_1st": -35.2,
+    "avg_30d": -0.34,
+    "record_1st": -37.9,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -255,14 +255,16 @@
     },
     {
       "date": "2026-10-30",
-      "value": -0.2
+      "value": -1.4
     }
   ],
   "latest_detail": {
-    "place": "滝上",
-    "pref": "北海道網走・北見・紋別地方",
-    "caption": "滝上｜きょう日本でいちばん寒い",
-    "record_1st": -35.2,
+    "place": "歌登",
+    "pref": "北海道宗谷地方",
+    "caption": "歌登｜きょう日本でいちばん寒い",
+    "normal_diff": -2.3,
+    "station_prev_diff": 0.0,
+    "record_1st": -37.9,
     "year_extreme": false,
     "all_time_record": false
   }

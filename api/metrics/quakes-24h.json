@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-10-30T04:49:12+09:00",
+  "updated_at": "2026-10-30T09:13:50+09:00",
   "summary": {
     "count": 59,
     "first_date": "2026-09-02",
     "last_date": "2026-10-30",
-    "min_30d": 2,
+    "min_30d": 1,
     "max_30d": 11,
-    "avg_30d": 6.03
+    "avg_30d": 5.97
   },
   "history": [
     {
@@ -252,19 +252,19 @@
     },
     {
       "date": "2026-10-30",
-      "value": 3
+      "value": 1
     }
   ],
   "latest_detail": {
-    "caption": "最大は釧路地方中南部の震度2",
+    "caption": "最大は岐阜県飛騨地方の震度1",
     "window_hours": 24,
-    "max_magnitude": 4.4,
+    "max_magnitude": 2.3,
     "strongest": {
-      "time": "2026-10-29T08:14:00+09:00",
-      "scale": 20,
-      "name": "釧路地方中南部",
-      "magnitude": 4.4,
-      "depth": 120
+      "time": "2026-10-30T01:06:00+09:00",
+      "scale": 10,
+      "name": "岐阜県飛騨地方",
+      "magnitude": 2.3,
+      "depth": 10
     },
     "latest": {
       "time": "2026-10-30T01:06:00+09:00",

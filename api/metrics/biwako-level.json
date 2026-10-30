@@ -8,14 +8,14 @@
     "name": "国土交通省 近畿地方整備局",
     "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
   },
-  "updated_at": "2026-10-30T04:49:12+09:00",
+  "updated_at": "2026-10-30T09:13:50+09:00",
   "summary": {
-    "count": 59,
+    "count": 60,
     "first_date": "2026-09-01",
-    "last_date": "2026-10-29",
+    "last_date": "2026-10-30",
     "min_30d": -37.0,
     "max_30d": -16.0,
-    "avg_30d": -29.07
+    "avg_30d": -29.4
   },
   "history": [
     {
@@ -253,12 +253,16 @@
     {
       "date": "2026-10-29",
       "value": -28.0
+    },
+    {
+      "date": "2026-10-30",
+      "value": -28.0
     }
   ],
   "latest_detail": {
     "unit": "cm",
     "basis": "B.S.L.（琵琶湖基準水位）",
-    "station_diff": -1.0,
+    "station_diff": 0.0,
     "caption": "基準水位(B.S.L.)より28cm低い"
   }
 }
