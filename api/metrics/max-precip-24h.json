@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-10-30T22:27:23+09:00",
+  "updated_at": "2026-10-31T03:48:51+09:00",
   "summary": {
-    "count": 59,
+    "count": 60,
     "first_date": "2026-09-02",
-    "last_date": "2026-10-30",
+    "last_date": "2026-10-31",
     "min_30d": 7.0,
     "max_30d": 402.0,
-    "avg_30d": 113.63,
-    "record_1st": 332.5,
+    "avg_30d": 112.48,
+    "record_1st": 188.5,
     "all_time_record": false
   },
   "history": [
@@ -255,13 +255,17 @@
     {
       "date": "2026-10-30",
       "value": 74.5
+    },
+    {
+      "date": "2026-10-31",
+      "value": 82.5
     }
   ],
   "latest_detail": {
-    "place": "仁別",
+    "place": "秋田",
     "pref": "秋田県",
-    "caption": "仁別｜この24時間でいちばん降った",
-    "record_1st": 332.5,
+    "caption": "秋田｜この24時間でいちばん降った",
+    "record_1st": 188.5,
     "all_time_record": false
   }
 }
