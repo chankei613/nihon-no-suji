@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-01T00:51:27+09:00",
+  "generated_at": "2026-11-01T05:15:37+09:00",
   "date": "2026-11-01",
   "changes": [
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "value_display": "14地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 13,
+        "display": "+13地点",
+        "direction": "up",
+        "prev_value": 1,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "きょう0℃を下回った地点",
+      "score": 13.0,
+      "z": 13.0,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
@@ -22,6 +41,25 @@
       "label": "かなり珍しい変化"
     },
     {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "value_display": "70%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 60.0,
+        "display": "+60.0pt",
+        "direction": "up",
+        "prev_value": 10.0,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "あすは雨の可能性が高い",
+      "score": 4.0,
+      "z": 4.0,
+      "label": "かなり珍しい変化"
+    },
+    {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
@@ -39,6 +77,25 @@
       "score": 3.43,
       "z": 3.43,
       "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "22.6m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 8.1,
+        "display": "+8.1m/s",
+        "direction": "up",
+        "prev_value": 14.5,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
+      "score": 2.26,
+      "z": 2.26,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "dam-storage",
@@ -79,6 +136,44 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "17%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -13.0,
+        "display": "-13.0pt",
+        "direction": "down",
+        "prev_value": 30.0,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "富士山｜全国でいちばん空気が乾いている",
+      "score": 1.2,
+      "z": 1.2,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-5.3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3.9,
+        "display": "+3.9℃",
+        "direction": "up",
+        "prev_value": -9.2,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
@@ -98,41 +193,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "19.5m/s",
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "5回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.0,
-        "display": "+5m/s",
-        "direction": "up",
-        "prev_value": 14.5,
+        "value": -5,
+        "display": "-5回",
+        "direction": "down",
+        "prev_value": 10,
         "prev_date": "2026-10-31"
       },
-      "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
-      "score": 0.95,
-      "z": 0.95,
+      "caption": "最大は種子島近海の震度2",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "10地点",
+      "value_display": "12地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -97,
-        "display": "-97地点",
+        "value": -95,
+        "display": "-95地点",
         "direction": "down",
         "prev_value": 107,
         "prev_date": "2026-10-31"
       },
       "caption": "きょう雨が降った地点",
-      "score": 0.29,
-      "z": 0.29,
+      "score": 0.25,
+      "z": 0.25,
       "label": "通常の範囲"
     },
     {
@@ -158,19 +253,19 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "-0.6℃",
+      "value_display": "-2.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.2,
-        "display": "-0.2℃",
+        "value": -2.2,
+        "display": "-2.2℃",
         "direction": "down",
         "prev_value": -0.4,
         "prev_date": "2026-10-31"
       },
-      "caption": "留辺蘂｜きょう日本でいちばん寒い",
+      "caption": "野辺山｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -1.19,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -247,25 +342,6 @@
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
       "z": -0.8,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "cold-points-0",
-      "name": "0℃を下回った地点数",
-      "category": "自然",
-      "value_display": "1地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0地点",
-        "direction": "flat",
-        "prev_value": 1,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "きょう0℃を下回った地点",
-      "score": 0.0,
-      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -348,38 +424,38 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "27.1℃",
+      "value_display": "29.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.4,
-        "display": "-0.4℃",
-        "direction": "down",
+        "value": 2.0,
+        "display": "+2℃",
+        "direction": "up",
         "prev_value": 27.5,
         "prev_date": "2026-10-31"
       },
-      "caption": "南鳥島27.7℃ と 美深0.6℃ の差",
+      "caption": "南鳥島27.5℃ と 標茶-2℃ の差",
       "score": 0.0,
-      "z": -1.15,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "22℃",
+      "value_display": "21℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
         "prev_value": 22.0,
         "prev_date": "2026-10-31"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": 0.0,
-      "z": -3.0,
+      "z": -2.0,
       "label": "通常の範囲"
     },
     {
@@ -421,25 +497,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
-      "category": "自然",
-      "value_display": "10%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
-        "prev_value": 10.0,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "あすは雨の心配は少ない",
-      "score": 0.0,
-      "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
@@ -456,44 +513,6 @@
       "caption": "網走｜全国でいちばん気圧が低い",
       "score": 0.0,
       "z": -0.83,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "32%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 2.0,
-        "display": "+2.0pt",
-        "direction": "up",
-        "prev_value": 30.0,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "本別｜全国でいちばん空気が乾いている",
-      "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "-9.1℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.1,
-        "display": "+0.1℃",
-        "direction": "up",
-        "prev_value": -9.2,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 0.0,
-      "z": -1.43,
       "label": "通常の範囲"
     },
     {
@@ -584,7 +603,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "いま気象警報は出ていない",
       "score": 0.0,
@@ -603,7 +622,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "いま大雨警報は出ていない",
       "score": 0.0,
@@ -622,7 +641,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "いま洪水警報は出ていない",
       "score": 0.0,
@@ -641,7 +660,7 @@
         "display": "±0市町村",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "いま土砂災害警戒情報は出ていない",
       "score": 0.0,
@@ -801,55 +820,40 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "8回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2,
-        "display": "-2回",
-        "direction": "down",
-        "prev_value": 10,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "最大は熊本県熊本地方の震度3",
-      "score": 0.0,
-      "z": -0.5,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "snow-points",
       "name": "雪が積もっている地点数",
       "category": "自然",
-      "value_display": "3地点",
+      "value_display": "4地点",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": 1,
+        "display": "+1地点",
+        "direction": "up",
+        "prev_value": 3,
+        "prev_date": "2026-10-30"
       },
       "caption": "雪が積もっている地点",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "max-snow",
       "name": "全国最深積雪",
       "category": "自然",
-      "value_display": "4cm",
+      "value_display": "8cm",
       "change": {
         "type": "absolute",
-        "available": false,
-        "direction": "flat",
-        "display": "—",
-        "note": "前日データなし"
+        "available": true,
+        "value": 4.0,
+        "display": "+4cm",
+        "direction": "up",
+        "prev_value": 4.0,
+        "prev_date": "2026-10-30"
       },
-      "caption": "中頓別｜全国でいちばん雪が深い",
+      "caption": "音威子府｜全国でいちばん雪が深い",
       "score": null,
-      "label": "前日データなし"
+      "label": "データ蓄積中"
     },
     {
       "slug": "days-to-sekki",
