@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T05:15:37+09:00",
+  "generated_at": "2026-11-01T08:39:17+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -264,12 +264,12 @@
       "name": "全国最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "-2.6℃",
+      "value_display": "-3.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.2,
-        "display": "-2.2℃",
+        "value": -2.8,
+        "display": "-2.8℃",
         "direction": "down",
         "prev_value": -0.4,
         "prev_date": "2026-10-31"
@@ -513,7 +513,7 @@
         },
         {
           "date": "2026-11-01",
-          "value": -2.6
+          "value": -3.2
         }
       ]
     },
@@ -2224,12 +2224,12 @@
       "name": "東京の日照時間",
       "category": "自然",
       "unit": "",
-      "value_display": "0時間00分",
+      "value_display": "0時間18分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -120,
-        "display": "-120分",
+        "value": -102,
+        "display": "-102分",
         "direction": "down",
         "prev_value": 120,
         "prev_date": "2026-10-31"
@@ -2421,7 +2421,7 @@
         },
         {
           "date": "2026-11-01",
-          "value": 0
+          "value": 18
         }
       ]
     },
@@ -3204,12 +3204,12 @@
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
       "unit": "℃",
-      "value_display": "29.5℃",
+      "value_display": "30.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.0,
-        "display": "+2℃",
+        "value": 3.2,
+        "display": "+3.2℃",
         "direction": "up",
         "prev_value": 27.5,
         "prev_date": "2026-10-31"
@@ -3453,7 +3453,7 @@
         },
         {
           "date": "2026-11-01",
-          "value": 29.5
+          "value": 30.7
         }
       ]
     },
@@ -4684,12 +4684,12 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "22.6m/s",
+      "value_display": "25.4m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 8.1,
-        "display": "+8.1m/s",
+        "value": 10.9,
+        "display": "+10.9m/s",
         "direction": "up",
         "prev_value": 14.5,
         "prev_date": "2026-10-31"
@@ -4933,7 +4933,7 @@
         },
         {
           "date": "2026-11-01",
-          "value": 22.6
+          "value": 25.4
         }
       ]
     },
@@ -5252,12 +5252,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "-5.3℃",
+      "value_display": "-2.3℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3.9,
-        "display": "+3.9℃",
+        "value": 6.9,
+        "display": "+6.9℃",
         "direction": "up",
         "prev_value": -9.2,
         "prev_date": "2026-10-31"
@@ -5501,7 +5501,7 @@
         },
         {
           "date": "2026-11-01",
-          "value": -5.3
+          "value": -2.3
         }
       ]
     },
@@ -10514,21 +10514,17 @@
       "name": "琵琶湖の水位",
       "category": "自然",
       "unit": "cm",
-      "value_display": "-26cm",
+      "value_display": "-24cm",
       "change": {
         "type": "absolute",
         "available": true,
         "value": 2.0,
         "display": "+2cm",
         "direction": "up",
-        "prev_value": -28.0,
-        "prev_date": "2026-10-30"
+        "prev_value": -26.0,
+        "prev_date": "2026-10-31"
       },
       "points": [
-        {
-          "date": "2026-09-02",
-          "value": -46.0
-        },
         {
           "date": "2026-09-03",
           "value": -48.0
@@ -10764,6 +10760,10 @@
         {
           "date": "2026-10-31",
           "value": -26.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": -24.0
         }
       ]
     },
@@ -10772,21 +10772,17 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value_display": "66%",
+      "value_display": "67.4%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 1.1,
-        "display": "+1.1pt",
+        "value": 1.4,
+        "display": "+1.4pt",
         "direction": "up",
-        "prev_value": 64.9,
-        "prev_date": "2026-10-30"
+        "prev_value": 66.0,
+        "prev_date": "2026-10-31"
       },
       "points": [
-        {
-          "date": "2026-09-02",
-          "value": 78.7
-        },
         {
           "date": "2026-09-03",
           "value": 77.6
@@ -11022,6 +11018,10 @@
         {
           "date": "2026-10-31",
           "value": 66.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 67.4
         }
       ]
     },
@@ -11288,15 +11288,15 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "51%",
+      "value_display": "28%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 39.0,
-        "display": "+39.0pt",
-        "direction": "up",
-        "prev_value": 12.0,
-        "prev_date": "2026-10-30"
+        "value": -23.0,
+        "display": "-23.0pt",
+        "direction": "down",
+        "prev_value": 51.0,
+        "prev_date": "2026-10-31"
       },
       "points": [
         {
@@ -11534,6 +11534,10 @@
         {
           "date": "2026-10-31",
           "value": 51.0
+        },
+        {
+          "date": "2026-11-01",
+          "value": 28.0
         }
       ]
     },
@@ -11542,12 +11546,12 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "5回",
+      "value_display": "6回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5,
-        "display": "-5回",
+        "value": -4,
+        "display": "-4回",
         "direction": "down",
         "prev_value": 10,
         "prev_date": "2026-10-31"
@@ -11791,7 +11795,7 @@
         },
         {
           "date": "2026-11-01",
-          "value": 5
+          "value": 6
         }
       ]
     },

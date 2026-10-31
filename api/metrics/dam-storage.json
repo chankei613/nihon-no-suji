@@ -8,14 +8,14 @@
     "name": "国土交通省 近畿・関東地方整備局",
     "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
   },
-  "updated_at": "2026-11-01T05:15:37+09:00",
+  "updated_at": "2026-11-01T08:39:17+09:00",
   "summary": {
-    "count": 61,
+    "count": 62,
     "first_date": "2026-09-01",
-    "last_date": "2026-10-31",
+    "last_date": "2026-11-01",
     "min_30d": 53.3,
     "max_30d": 81.5,
-    "avg_30d": 67.48
+    "avg_30d": 67.11
   },
   "history": [
     {
@@ -261,28 +261,32 @@
     {
       "date": "2026-10-31",
       "value": 66.0
+    },
+    {
+      "date": "2026-11-01",
+      "value": 67.4
     }
   ],
   "latest_detail": {
     "dam_count": 17,
     "region_means": {
-      "近畿": 64.1,
+      "近畿": 66.1,
       "関東": 70.6
     },
     "dams": [
       {
         "name": "真名川ダム",
-        "rate": 25.7,
+        "rate": 25.9,
         "region": "近畿"
       },
       {
         "name": "猿谷ダム",
-        "rate": 38.9,
+        "rate": 33.9,
         "region": "近畿"
       },
       {
         "name": "九頭竜ダム",
-        "rate": 48.4,
+        "rate": 48.6,
         "region": "近畿"
       },
       {
@@ -292,7 +296,7 @@
       },
       {
         "name": "大滝ダム",
-        "rate": 53.9,
+        "rate": 55.9,
         "region": "近畿"
       },
       {
@@ -302,27 +306,22 @@
       },
       {
         "name": "一庫ダム",
-        "rate": 63.0,
+        "rate": 64.3,
         "region": "近畿"
       },
       {
         "name": "高山ダム",
-        "rate": 63.2,
-        "region": "近畿"
-      },
-      {
-        "name": "天ヶ瀬ダム",
-        "rate": 66.5,
+        "rate": 65.6,
         "region": "近畿"
       },
       {
         "name": "日吉ダム",
-        "rate": 66.6,
+        "rate": 68.7,
         "region": "近畿"
       },
       {
         "name": "比奈知ダム",
-        "rate": 75.1,
+        "rate": 76.0,
         "region": "近畿"
       },
       {
@@ -341,18 +340,23 @@
         "region": "関東"
       },
       {
+        "name": "天ヶ瀬ダム",
+        "rate": 82.4,
+        "region": "近畿"
+      },
+      {
         "name": "室生ダム",
-        "rate": 83.2,
+        "rate": 85.5,
         "region": "近畿"
       },
       {
         "name": "青蓮寺ダム",
-        "rate": 92.4,
+        "rate": 92.9,
         "region": "近畿"
       },
       {
         "name": "布目ダム",
-        "rate": 92.4,
+        "rate": 93.7,
         "region": "近畿"
       }
     ],
