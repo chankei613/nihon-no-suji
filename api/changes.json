@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-31T18:56:02+09:00",
-  "date": "2026-10-31",
+  "generated_at": "2026-11-01T00:51:27+09:00",
+  "date": "2026-11-01",
   "changes": [
     {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "74%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -15.0,
-        "display": "-15.0pt",
-        "direction": "down",
-        "prev_value": 89.0,
-        "prev_date": "2026-10-30"
+        "value": 16.0,
+        "display": "+16.0pt",
+        "direction": "up",
+        "prev_value": 74.0,
+        "prev_date": "2026-10-31"
       },
-      "caption": "ピークは11:00〜12:00の見込み",
-      "score": 6.0,
-      "z": 6.0,
+      "caption": "ピークは18:00〜19:00の見込み",
+      "score": 6.5,
+      "z": 6.5,
       "label": "かなり珍しい変化"
     },
     {
@@ -39,63 +39,6 @@
       "score": 3.43,
       "z": 3.43,
       "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "-9.2℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -6.0,
-        "display": "-6℃",
-        "direction": "down",
-        "prev_value": -3.2,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 2.79,
-      "z": 2.79,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "24℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4.7,
-        "display": "+4.7℃",
-        "direction": "up",
-        "prev_value": 19.3,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 2.42,
-      "z": 2.42,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "107地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -233,
-        "display": "-233地点",
-        "direction": "down",
-        "prev_value": 340,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 2.37,
-      "z": 2.37,
-      "label": "いつもより大きな変化"
     },
     {
       "slug": "dam-storage",
@@ -120,134 +63,20 @@
       "slug": "tokyo-sunshine-hours",
       "name": "東京の日照時間",
       "category": "自然",
-      "value_display": "2時間00分",
+      "value_display": "0時間00分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 120,
-        "display": "+120分",
-        "direction": "up",
-        "prev_value": 0,
-        "prev_date": "2026-10-30"
+        "value": -120,
+        "display": "-120分",
+        "direction": "down",
+        "prev_value": 120,
+        "prev_date": "2026-10-31"
       },
-      "caption": "きょうの東京の日照時間（ここまでの積算）",
+      "caption": "きょうはまだ日照なし",
       "score": 1.5,
       "z": 1.5,
       "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "29.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1.1,
-        "display": "-1.1℃",
-        "direction": "down",
-        "prev_value": 30.5,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "北大東｜きょう日本でいちばん暑い",
-      "score": 1.25,
-      "z": 1.25,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tropical-night-points",
-      "name": "熱帯夜（25℃を下回らなかった）地点数",
-      "category": "自然",
-      "value_display": "3地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -16,
-        "display": "-16地点",
-        "direction": "down",
-        "prev_value": 19,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "きょう一度も25℃を下回らなかった地点（熱帯夜）",
-      "score": 1.17,
-      "z": 1.17,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "cold-points-0",
-      "name": "0℃を下回った地点数",
-      "category": "自然",
-      "value_display": "1地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1,
-        "display": "-1地点",
-        "direction": "down",
-        "prev_value": 2,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "きょう0℃を下回った地点",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "ice-day-points",
-      "name": "真冬日（0℃以上にならなかった）地点数",
-      "category": "自然",
-      "value_display": "1地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1,
-        "display": "-1地点",
-        "direction": "down",
-        "prev_value": 2,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "きょう一度も0℃以上にならなかった地点（真冬日）",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "heavy-rain-warned-municipalities",
-      "name": "大雨警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "1市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1,
-        "display": "+1市町村",
-        "direction": "up",
-        "prev_value": 0,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "1市町村に大雨警報",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "sediment-warning-municipalities",
-      "name": "土砂災害警戒情報が出ている市町村数",
-      "category": "防災",
-      "value_display": "1市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1,
-        "display": "+1市町村",
-        "direction": "up",
-        "prev_value": 0,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "1市町村に土砂災害警戒情報",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
     },
     {
       "slug": "biwako-level",
@@ -269,117 +98,117 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "10回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 5,
-        "display": "+5回",
-        "direction": "up",
-        "prev_value": 5,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "最大は熊本県熊本地方の震度3",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-1h",
-      "name": "全国最大1時間降水量",
-      "category": "自然",
-      "value_display": "11.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -11.5,
-        "display": "-11.5mm",
-        "direction": "down",
-        "prev_value": 23.0,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "狩川｜この1時間でいちばん降った",
-      "score": 0.18,
-      "z": 0.18,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
-      "category": "自然",
-      "value_display": "997.7hPa",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -6.0,
-        "display": "-6hPa",
-        "direction": "down",
-        "prev_value": 1003.7,
-        "prev_date": "2026-10-30"
-      },
-      "caption": "網走｜全国でいちばん気圧が低い",
-      "score": 0.1,
-      "z": 0.1,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "14.5m/s",
+      "value_display": "19.5m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.9,
-        "display": "+2.9m/s",
+        "value": 5.0,
+        "display": "+5m/s",
         "direction": "up",
-        "prev_value": 11.6,
-        "prev_date": "2026-10-30"
+        "prev_value": 14.5,
+        "prev_date": "2026-10-31"
       },
       "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
-      "score": 0.1,
-      "z": 0.1,
+      "score": 0.95,
+      "z": 0.95,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "10地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -97,
+        "display": "-97地点",
+        "direction": "down",
+        "prev_value": 107,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.29,
+      "z": 0.29,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "29.4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 29.4,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "北大東｜きょう日本でいちばん暑い",
+      "score": 0.0,
+      "z": -1.5,
       "label": "通常の範囲"
     },
     {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "-0.4℃",
+      "value_display": "-0.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
-        "direction": "up",
-        "prev_value": -1.4,
-        "prev_date": "2026-10-30"
+        "value": -0.2,
+        "display": "-0.2℃",
+        "direction": "down",
+        "prev_value": -0.4,
+        "prev_date": "2026-10-31"
       },
-      "caption": "生田原｜きょう日本でいちばん寒い",
+      "caption": "留辺蘂｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -0.69,
+      "z": -1.19,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "24℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 24.0,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 0.0,
+      "z": -1.31,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "90mm",
+      "value_display": "83mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 15.5,
-        "display": "+15.5mm",
-        "direction": "up",
-        "prev_value": 74.5,
-        "prev_date": "2026-10-30"
+        "value": -7.0,
+        "display": "-7mm",
+        "direction": "down",
+        "prev_value": 90.0,
+        "prev_date": "2026-10-31"
       },
       "caption": "柏崎｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -0.49,
+      "z": -0.85,
       "label": "通常の範囲"
     },
     {
@@ -394,7 +223,7 @@
         "display": "±0地点",
         "direction": "flat",
         "prev_value": 0,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "きょう35℃以上になった地点",
       "score": 0.0,
@@ -405,57 +234,133 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
+      "value_display": "0地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1,
+        "display": "-1地点",
+        "direction": "down",
+        "prev_value": 1,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "きょう30℃以上になった地点",
+      "score": 0.0,
+      "z": -0.8,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
       "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1地点",
-        "direction": "up",
-        "prev_value": 0,
-        "prev_date": "2026-10-30"
+        "value": 0,
+        "display": "±0地点",
+        "direction": "flat",
+        "prev_value": 1,
+        "prev_date": "2026-10-31"
       },
-      "caption": "きょう30℃以上になった地点",
+      "caption": "きょう0℃を下回った地点",
       "score": 0.0,
-      "z": -0.83,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "ice-day-points",
+      "name": "真冬日（0℃以上にならなかった）地点数",
+      "category": "自然",
+      "value_display": "1地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0,
+        "display": "±0地点",
+        "direction": "flat",
+        "prev_value": 1,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "きょう一度も0℃以上にならなかった地点（真冬日）",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tropical-night-points",
+      "name": "熱帯夜（25℃を下回らなかった）地点数",
+      "category": "自然",
+      "value_display": "3地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0,
+        "display": "±0地点",
+        "direction": "flat",
+        "prev_value": 3,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "きょう一度も25℃を下回らなかった地点（熱帯夜）",
+      "score": 0.0,
+      "z": -1.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "4.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -7.0,
+        "display": "-7mm",
+        "direction": "down",
+        "prev_value": 11.5,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "西興部｜この1時間でいちばん降った",
+      "score": 0.0,
+      "z": -0.64,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "25mm",
+      "value_display": "13.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -14.0,
-        "display": "-14mm",
+        "value": -11.5,
+        "display": "-11.5mm",
         "direction": "down",
-        "prev_value": 39.0,
-        "prev_date": "2026-10-30"
+        "prev_value": 25.0,
+        "prev_date": "2026-10-31"
       },
-      "caption": "長岡｜この3時間でいちばん激しく降った",
+      "caption": "湯沢｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.32,
+      "z": -0.52,
       "label": "通常の範囲"
     },
     {
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "27.5℃",
+      "value_display": "27.1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.1,
-        "display": "-1.1℃",
+        "value": -0.4,
+        "display": "-0.4℃",
         "direction": "down",
-        "prev_value": 28.6,
-        "prev_date": "2026-10-30"
+        "prev_value": 27.5,
+        "prev_date": "2026-10-31"
       },
-      "caption": "南鳥島27.5℃ と 生田原0℃ の差",
+      "caption": "南鳥島27.7℃ と 美深0.6℃ の差",
       "score": 0.0,
-      "z": -0.62,
+      "z": -1.15,
       "label": "通常の範囲"
     },
     {
@@ -466,15 +371,15 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.0,
-        "display": "-3℃",
-        "direction": "down",
-        "prev_value": 25.0,
-        "prev_date": "2026-10-30"
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 22.0,
+        "prev_date": "2026-10-31"
       },
       "caption": "あすの東京の最高気温の予想",
       "score": 0.0,
-      "z": 0.0,
+      "z": -3.0,
       "label": "通常の範囲"
     },
     {
@@ -489,7 +394,7 @@
         "display": "±0℃",
         "direction": "flat",
         "prev_value": 13.0,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
@@ -504,15 +409,15 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1℃",
-        "direction": "up",
-        "prev_value": 22.0,
-        "prev_date": "2026-10-30"
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 23.0,
+        "prev_date": "2026-10-31"
       },
       "caption": "11月6日ごろがいちばん暑くなりそう",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -527,7 +432,7 @@
         "display": "+0.0pt",
         "direction": "flat",
         "prev_value": 10.0,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "あすは雨の心配は少ない",
       "score": 0.0,
@@ -535,22 +440,60 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "value_display": "1,000hPa",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 2.3,
+        "display": "+2.3hPa",
+        "direction": "up",
+        "prev_value": 997.7,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "網走｜全国でいちばん気圧が低い",
+      "score": 0.0,
+      "z": -0.83,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "30%",
+      "value_display": "32%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -1.0,
-        "display": "-1.0pt",
-        "direction": "down",
-        "prev_value": 31.0,
-        "prev_date": "2026-10-30"
+        "value": 2.0,
+        "display": "+2.0pt",
+        "direction": "up",
+        "prev_value": 30.0,
+        "prev_date": "2026-10-31"
       },
-      "caption": "加計｜全国でいちばん空気が乾いている",
+      "caption": "本別｜全国でいちばん空気が乾いている",
       "score": 0.0,
-      "z": -1.2,
+      "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-9.1℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.1,
+        "display": "+0.1℃",
+        "direction": "up",
+        "prev_value": -9.2,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 0.0,
+      "z": -1.43,
       "label": "通常の範囲"
     },
     {
@@ -565,7 +508,7 @@
         "display": "±0円/L",
         "direction": "flat",
         "prev_value": 170.1,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "レギュラーガソリン全国平均（10月26日調査）",
       "score": 0.0,
@@ -603,7 +546,7 @@
         "display": "±0個",
         "direction": "flat",
         "prev_value": 31,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "今年はこれまでに31個の台風が発生",
       "score": 0.0,
@@ -622,7 +565,7 @@
         "display": "±0個",
         "direction": "flat",
         "prev_value": 1,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "台風31号「インファ」が小笠原近海",
       "score": 0.0,
@@ -633,17 +576,36 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "1市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1市町村",
-        "direction": "up",
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
         "prev_value": 0,
         "prev_date": "2026-10-30"
       },
-      "caption": "1市町村に気象警報",
+      "caption": "いま気象警報は出ていない",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "heavy-rain-warned-municipalities",
+      "name": "大雨警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
+        "prev_value": 0,
+        "prev_date": "2026-10-30"
+      },
+      "caption": "いま大雨警報は出ていない",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -668,6 +630,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "sediment-warning-municipalities",
+      "name": "土砂災害警戒情報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0,
+        "display": "±0市町村",
+        "direction": "flat",
+        "prev_value": 0,
+        "prev_date": "2026-10-30"
+      },
+      "caption": "いま土砂災害警戒情報は出ていない",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "volcano-alert-points",
       "name": "噴火警戒レベル2以上の火山数",
       "category": "防災",
@@ -679,7 +660,7 @@
         "display": "±0火山",
         "direction": "flat",
         "prev_value": 8,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "桜島（レベル3）など8火山で警戒レベル2以上",
       "score": 0.0,
@@ -698,7 +679,7 @@
         "display": "±0地点",
         "direction": "flat",
         "prev_value": 58,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "さくらが開花した地点は全国58地点",
       "score": 0.0,
@@ -717,7 +698,7 @@
         "display": "±0地点",
         "direction": "flat",
         "prev_value": 56,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "さくらが満開した地点は全国56地点",
       "score": 0.0,
@@ -736,7 +717,7 @@
         "display": "±0人",
         "direction": "flat",
         "prev_value": 122690000,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "総務省統計局 人口推計（各月1日現在・概算値）",
       "score": 0.0,
@@ -755,7 +736,7 @@
         "display": "+0.0pt",
         "direction": "flat",
         "prev_value": 2.4,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "総務省統計局 労働力調査（完全失業率）",
       "score": 0.0,
@@ -774,7 +755,7 @@
         "display": "+0.0pt",
         "direction": "flat",
         "prev_value": 2.1,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "総務省統計局 消費者物価指数（生鮮食品を含む総合・前年同月比）",
       "score": 0.0,
@@ -793,7 +774,7 @@
         "display": "±0倍",
         "direction": "flat",
         "prev_value": 1.18,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "厚生労働省 職業安定業務統計（有効求人倍率・季節調整値、除学卒）",
       "score": 0.0,
@@ -812,11 +793,30 @@
         "display": "±0人",
         "direction": "flat",
         "prev_value": 862,
-        "prev_date": "2026-10-30"
+        "prev_date": "2026-10-31"
       },
       "caption": "総務省統計局 住民基本台帳人口移動報告（東京都・他都道府県との転入超過数）",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "8回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2,
+        "display": "-2回",
+        "direction": "down",
+        "prev_value": 10,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "最大は熊本県熊本地方の震度3",
+      "score": 0.0,
+      "z": -0.5,
       "label": "通常の範囲"
     },
     {
@@ -855,15 +855,15 @@
       "slug": "days-to-sekki",
       "name": "次の二十四節気まで",
       "category": "こよみ",
-      "value_display": "7日",
+      "value_display": "6日",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1,
         "display": "-1日",
         "direction": "down",
-        "prev_value": 8,
-        "prev_date": "2026-10-30"
+        "prev_value": 7,
+        "prev_date": "2026-10-31"
       },
       "caption": "次の二十四節気「立冬」まで",
       "score": null,
@@ -873,17 +873,17 @@
       "slug": "day-length-tokyo",
       "name": "東京の昼の長さ",
       "category": "こよみ",
-      "value_display": "10時間46分",
+      "value_display": "10時間44分",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -2,
         "display": "-2分",
         "direction": "down",
-        "prev_value": 648.4,
-        "prev_date": "2026-10-30"
+        "prev_value": 646.3,
+        "prev_date": "2026-10-31"
       },
-      "caption": "きょうの昼は10時間46分",
+      "caption": "きょうの昼は10時間44分",
       "score": null,
       "label": "決まった動き"
     },
@@ -891,17 +891,17 @@
       "slug": "days-left-year",
       "name": "今年の残り日数",
       "category": "こよみ",
-      "value_display": "61日",
+      "value_display": "60日",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1,
         "display": "-1日",
         "direction": "down",
-        "prev_value": 62,
-        "prev_date": "2026-10-30"
+        "prev_value": 61,
+        "prev_date": "2026-10-31"
       },
-      "caption": "2026年は83%が過ぎた",
+      "caption": "2026年は84%が過ぎた",
       "score": null,
       "label": "決まった動き"
     },
@@ -909,17 +909,17 @@
       "slug": "moonrise-tokyo",
       "name": "東京の月の出",
       "category": "こよみ",
-      "value_display": "21:14",
+      "value_display": "22:26",
       "change": {
         "type": "absolute",
         "available": true,
         "value": 72,
         "display": "72分遅く",
         "direction": "up",
-        "prev_value": 1202.3,
-        "prev_date": "2026-10-30"
+        "prev_value": 1273.9,
+        "prev_date": "2026-10-31"
       },
-      "caption": "月が昇るのは21:14ごろ",
+      "caption": "月が昇るのは22:26ごろ",
       "score": null,
       "label": "決まった動き"
     },
@@ -927,17 +927,17 @@
       "slug": "moonset-tokyo",
       "name": "東京の月の入り",
       "category": "こよみ",
-      "value_display": "11:32",
+      "value_display": "12:18",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 56,
-        "display": "56分遅く",
+        "value": 46,
+        "display": "46分遅く",
         "direction": "up",
-        "prev_value": 635.2,
-        "prev_date": "2026-10-30"
+        "prev_value": 691.6,
+        "prev_date": "2026-10-31"
       },
-      "caption": "月が沈むのは11:32ごろ",
+      "caption": "月が沈むのは12:18ごろ",
       "score": null,
       "label": "決まった動き"
     },
@@ -945,17 +945,17 @@
       "slug": "days-to-full-moon",
       "name": "次の満月まで",
       "category": "こよみ",
-      "value_display": "24日",
+      "value_display": "23日",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1,
         "display": "-1日",
         "direction": "down",
-        "prev_value": 25,
-        "prev_date": "2026-10-30"
+        "prev_value": 24,
+        "prev_date": "2026-10-31"
       },
-      "caption": "次の満月まであと24日",
+      "caption": "次の満月まであと23日",
       "score": null,
       "label": "決まった動き"
     },
@@ -978,15 +978,15 @@
       "slug": "sunset-tokyo",
       "name": "東京の日の入り時刻",
       "category": "こよみ",
-      "value_display": "16:48",
+      "value_display": "16:47",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1,
         "display": "1分早く",
         "direction": "down",
-        "prev_value": 1008.7,
-        "prev_date": "2026-10-30"
+        "prev_value": 1007.6,
+        "prev_date": "2026-10-31"
       },
       "caption": "きのうより1分早くなった",
       "score": null,
@@ -996,15 +996,15 @@
       "slug": "sunrise-tokyo",
       "name": "東京の日の出時刻",
       "category": "こよみ",
-      "value_display": "06:01",
+      "value_display": "06:02",
       "change": {
         "type": "absolute",
         "available": true,
         "value": 1,
         "display": "1分遅く",
         "direction": "up",
-        "prev_value": 360.3,
-        "prev_date": "2026-10-30"
+        "prev_value": 361.3,
+        "prev_date": "2026-10-31"
       },
       "caption": "きのうより1分遅くなった",
       "score": null,
@@ -1014,17 +1014,17 @@
       "slug": "moon-age",
       "name": "月齢",
       "category": "こよみ",
-      "value_display": "月齢 19.9",
+      "value_display": "月齢 20.9",
       "change": {
         "type": "absolute",
         "available": true,
         "value": 1.0,
         "display": "+1.0",
         "direction": "up",
-        "prev_value": 18.9,
-        "prev_date": "2026-10-30"
+        "prev_value": 19.9,
+        "prev_date": "2026-10-31"
       },
-      "caption": "次の満月まであと24日",
+      "caption": "次の満月まであと23日",
       "score": null,
       "label": "決まった動き"
     }
