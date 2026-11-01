@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T08:39:17+09:00",
+  "generated_at": "2026-11-01T15:45:43+09:00",
   "date": "2026-11-01",
   "changes": [
     {
@@ -25,19 +25,19 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "90%",
+      "value_display": "89%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 16.0,
-        "display": "+16.0pt",
+        "value": 15.0,
+        "display": "+15.0pt",
         "direction": "up",
         "prev_value": 74.0,
         "prev_date": "2026-10-31"
       },
       "caption": "ピークは18:00〜19:00の見込み",
-      "score": 6.5,
-      "z": 6.5,
+      "score": 6.0,
+      "z": 6.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -79,25 +79,6 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "-2.3℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 6.9,
-        "display": "+6.9℃",
-        "direction": "up",
-        "prev_value": -9.2,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 2.81,
-      "z": 2.81,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
@@ -115,6 +96,25 @@
       "score": 2.0,
       "z": 2.0,
       "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-4.5℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 4.7,
+        "display": "+4.7℃",
+        "direction": "up",
+        "prev_value": -9.2,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 1.44,
+      "z": 1.44,
+      "label": "通常の範囲"
     },
     {
       "slug": "min-humidity",
@@ -136,41 +136,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "28%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -23.0,
-        "display": "-23.0pt",
-        "direction": "down",
-        "prev_value": 51.0,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "きょうのピークで電力の28%を太陽光がまかなった",
-      "score": 1.14,
-      "z": 1.14,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-sunshine-hours",
-      "name": "東京の日照時間",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "0時間18分",
+      "value_display": "30.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -102,
-        "display": "-102分",
-        "direction": "down",
-        "prev_value": 120,
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
+        "prev_value": 29.4,
         "prev_date": "2026-10-31"
       },
-      "caption": "きょうの東京の日照時間（ここまでの積算）",
-      "score": 1.12,
-      "z": 1.12,
+      "caption": "所野｜きょう日本でいちばん暑い",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -190,6 +171,25 @@
       "caption": "基準水位(B.S.L.)より24cm低い",
       "score": 1.0,
       "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-sunshine-hours",
+      "name": "東京の日照時間",
+      "category": "自然",
+      "value_display": "0時間42分",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -78,
+        "display": "-78分",
+        "direction": "down",
+        "prev_value": 120,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "きょうの東京の日照時間（ここまでの積算）",
+      "score": 0.62,
+      "z": 0.62,
       "label": "通常の範囲"
     },
     {
@@ -253,38 +253,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "12地点",
+      "value_display": "13地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -95,
-        "display": "-95地点",
+        "value": -94,
+        "display": "-94地点",
         "direction": "down",
         "prev_value": 107,
         "prev_date": "2026-10-31"
       },
       "caption": "きょう雨が降った地点",
-      "score": 0.25,
-      "z": 0.25,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "29.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 29.4,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "北大東｜きょう日本でいちばん暑い",
-      "score": 0.0,
-      "z": -1.5,
+      "score": 0.24,
+      "z": 0.24,
       "label": "通常の範囲"
     },
     {
@@ -481,19 +462,19 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "23℃",
+      "value_display": "22℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
         "prev_value": 23.0,
         "prev_date": "2026-10-31"
       },
       "caption": "11月6日ごろがいちばん暑くなりそう",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -817,6 +798,25 @@
       "caption": "総務省統計局 住民基本台帳人口移動報告（東京都・他都道府県との転入超過数）",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "53%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 2.0,
+        "display": "+2.0pt",
+        "direction": "up",
+        "prev_value": 51.0,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "きょうのピークで電力の53%を太陽光がまかなった",
+      "score": 0.0,
+      "z": -1.86,
       "label": "通常の範囲"
     },
     {

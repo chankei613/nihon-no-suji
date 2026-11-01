@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T08:39:17+09:00",
+  "generated_at": "2026-11-01T15:45:43+09:00",
   "date": "2026-11-01",
   "metrics": [
     {
@@ -7,30 +7,30 @@
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 29.4,
-      "value_display": "29.4℃",
-      "observed_at": "2026-11-01T00:00:00+09:00",
+      "value": 30.4,
+      "value_display": "30.4℃",
+      "observed_at": "2026-11-01T14:00:00+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 29.4,
         "prev_date": "2026-10-31"
       },
-      "caption": "北大東｜きょう日本でいちばん暑い",
+      "caption": "所野｜きょう日本でいちばん暑い",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "place": "北大東",
+        "place": "所野",
         "pref": "沖縄県",
-        "caption": "北大東｜きょう日本でいちばん暑い",
-        "normal_diff": 1.8,
-        "station_prev_diff": 0.0,
-        "record_1st": 35.1,
+        "caption": "所野｜きょう日本でいちばん暑い",
+        "normal_diff": 3.3,
+        "station_prev_diff": 2.0,
+        "record_1st": 35.2,
         "year_extreme": false,
         "all_time_record": false
       },
@@ -3991,16 +3991,16 @@
       "name": "東京の日照時間",
       "category": "自然",
       "unit": "",
-      "value": 18,
-      "value_display": "0時間18分",
-      "observed_at": "2026-11-01T08:30:00+09:00",
+      "value": 42,
+      "value_display": "0時間42分",
+      "observed_at": "2026-11-01T15:30:00+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -102,
-        "display": "-102分",
+        "value": -78,
+        "display": "-78分",
         "direction": "down",
         "prev_value": 120,
         "prev_date": "2026-10-31"
@@ -4009,8 +4009,8 @@
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "total_minutes": 18.0,
-        "last_observed_at": "2026-11-01T08:30:00+09:00",
+        "total_minutes": 42.0,
+        "last_observed_at": "2026-11-01T15:30:00+09:00",
         "caption": "きょうの東京の日照時間（ここまでの積算）"
       },
       "source": {
@@ -4023,16 +4023,16 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value": 12,
-      "value_display": "12地点",
-      "observed_at": "2026-11-01T05:00:00+09:00",
+      "value": 13,
+      "value_display": "13地点",
+      "observed_at": "2026-11-01T15:30:00+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -95,
-        "display": "-95地点",
+        "value": -94,
+        "display": "-94地点",
         "direction": "down",
         "prev_value": 107,
         "prev_date": "2026-10-31"
@@ -4053,9 +4053,10 @@
           "54711",
           "54816",
           "54841",
-          "55166"
+          "55166",
+          "94116"
         ],
-        "now": 2,
+        "now": 1,
         "caption": "きょう雨が降った地点"
       },
       "source": {
@@ -4230,17 +4231,17 @@
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
       "unit": "℃",
-      "value": 23.0,
-      "value_display": "23℃",
+      "value": 22.0,
+      "value_display": "22℃",
       "observed_at": "2026-11-01T05:00:00+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
         "prev_value": 23.0,
         "prev_date": "2026-10-31"
       },
@@ -4453,23 +4454,23 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value": -2.3,
-      "value_display": "-2.3℃",
-      "observed_at": "2026-11-01T08:30:00+09:00",
+      "value": -4.5,
+      "value_display": "-4.5℃",
+      "observed_at": "2026-11-01T15:30:00+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 6.9,
-        "display": "+6.9℃",
+        "value": 4.7,
+        "display": "+4.7℃",
         "direction": "up",
         "prev_value": -9.2,
         "prev_date": "2026-10-31"
       },
       "caption": "氷点下。街とはまるで別世界",
-      "highlight": true,
-      "highlight_reason": "いつもより大きな変化",
+      "highlight": false,
+      "highlight_reason": null,
       "detail": {
         "place": "富士山（標高3775m）",
         "caption": "氷点下。街とはまるで別世界"
@@ -4610,7 +4611,7 @@
       "unit": "個",
       "value": 1,
       "value_display": "1個",
-      "observed_at": "2026-11-01T08:38:00+09:00",
+      "observed_at": "2026-11-01T15:44:00+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
@@ -4631,9 +4632,9 @@
             "number": "2631",
             "name": "インファ",
             "category": "TY",
-            "pressure": "940",
+            "pressure": "950",
             "location": "小笠原近海",
-            "course": "東南東",
+            "course": "南南西",
             "typhoon_number": "2631"
           }
         ],
@@ -4651,7 +4652,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-11-01T08:12:34+09:00",
+      "observed_at": "2026-11-01T15:40:23+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
@@ -4682,7 +4683,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-11-01T08:12:34+09:00",
+      "observed_at": "2026-11-01T15:40:23+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
@@ -4712,7 +4713,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-11-01T08:12:34+09:00",
+      "observed_at": "2026-11-01T15:40:23+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
@@ -4742,7 +4743,7 @@
       "unit": "市町村",
       "value": 0,
       "value_display": "0市町村",
-      "observed_at": "2026-11-01T08:12:34+09:00",
+      "observed_at": "2026-11-01T15:40:23+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
@@ -4772,7 +4773,7 @@
       "unit": "火山",
       "value": 8,
       "value_display": "8火山",
-      "observed_at": "2026-11-01T08:38:03+09:00",
+      "observed_at": "2026-11-01T15:44:32+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
@@ -4845,7 +4846,7 @@
       "unit": "地点",
       "value": 58,
       "value_display": "58地点",
-      "observed_at": "2026-11-01T08:39:04+09:00",
+      "observed_at": "2026-11-01T15:45:31+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
@@ -4875,7 +4876,7 @@
       "unit": "地点",
       "value": 56,
       "value_display": "56地点",
-      "observed_at": "2026-11-01T08:39:04+09:00",
+      "observed_at": "2026-11-01T15:45:31+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
@@ -5371,16 +5372,16 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value": 90.0,
-      "value_display": "90%",
-      "observed_at": "2026-11-01T08:10:00+09:00",
+      "value": 89.0,
+      "value_display": "89%",
+      "observed_at": "2026-11-01T15:10:00+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 16.0,
-        "display": "+16.0pt",
+        "value": 15.0,
+        "display": "+15.0pt",
         "direction": "up",
         "prev_value": 74.0,
         "prev_date": "2026-10-31"
@@ -5390,11 +5391,11 @@
       "highlight_reason": "かなり珍しい変化",
       "detail": {
         "reserve_rate": 11.0,
-        "peak_supply_10MW": 3038.0,
-        "forecast_peak_demand_10MW": 2735.0,
-        "current_demand_10MW": 2192.0,
-        "current_demand_time": "7:00",
-        "current_usage_rate": 84.0,
+        "peak_supply_10MW": 3040.0,
+        "forecast_peak_demand_10MW": 2728.0,
+        "current_demand_10MW": 2454.0,
+        "current_demand_time": "14:00",
+        "current_usage_rate": 89.0,
         "peak_timeband": "18:00〜19:00",
         "area": "東京",
         "caption": "ピークは18:00〜19:00の見込み"
@@ -5409,27 +5410,27 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value": 28.0,
-      "value_display": "28%",
-      "observed_at": "2026-11-01T08:10:00+09:00",
+      "value": 53.0,
+      "value_display": "53%",
+      "observed_at": "2026-11-01T15:10:00+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -23.0,
-        "display": "-23.0pt",
-        "direction": "down",
+        "value": 2.0,
+        "display": "+2.0pt",
+        "direction": "up",
         "prev_value": 51.0,
         "prev_date": "2026-10-31"
       },
-      "caption": "きょうのピークで電力の28%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の53%を太陽光がまかなった",
       "highlight": false,
       "highlight_reason": null,
       "detail": {
-        "peak_output_10MW": 656.0,
+        "peak_output_10MW": 1320.0,
         "area": "東京",
-        "caption": "きょうのピークで電力の28%を太陽光がまかなった"
+        "caption": "きょうのピークで電力の53%を太陽光がまかなった"
       },
       "source": {
         "name": "東京電力パワーグリッド でんき予報",
@@ -5443,7 +5444,7 @@
       "unit": "回",
       "value": 6,
       "value_display": "6回",
-      "observed_at": "2026-11-01T08:39:00+09:00",
+      "observed_at": "2026-11-01T15:45:00+09:00",
       "as_of": "2026-11-01",
       "stale": false,
       "change": {
@@ -5470,11 +5471,11 @@
           "depth": 350
         },
         "latest": {
-          "time": "2026-11-01T07:15:00+09:00",
-          "scale": 30,
-          "name": "",
-          "magnitude": -1,
-          "depth": -1
+          "time": "2026-11-01T13:39:00+09:00",
+          "scale": 20,
+          "name": "愛知県西部",
+          "magnitude": 3.6,
+          "depth": 40
         },
         "capped": false
       },
