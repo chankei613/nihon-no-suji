@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-01T15:45:43+09:00",
+  "updated_at": "2026-11-01T23:28:47+09:00",
   "summary": {
     "count": 61,
     "first_date": "2026-09-02",
     "last_date": "2026-11-01",
     "min_30d": 2,
     "max_30d": 11,
-    "avg_30d": 6.13
+    "avg_30d": 6.17
   },
   "history": [
     {
@@ -260,7 +260,7 @@
     },
     {
       "date": "2026-11-01",
-      "value": 6
+      "value": 7
     }
   ],
   "latest_detail": {
@@ -275,11 +275,11 @@
       "depth": 350
     },
     "latest": {
-      "time": "2026-11-01T13:39:00+09:00",
-      "scale": 20,
-      "name": "愛知県西部",
-      "magnitude": 3.6,
-      "depth": 40
+      "time": "2026-11-01T16:16:00+09:00",
+      "scale": 10,
+      "name": "釧路地方中南部",
+      "magnitude": 2.7,
+      "depth": 20
     },
     "capped": false
   }

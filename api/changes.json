@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-11-01T15:45:43+09:00",
+  "generated_at": "2026-11-01T23:28:47+09:00",
   "date": "2026-11-01",
   "changes": [
     {
       "slug": "cold-points-0",
       "name": "0℃を下回った地点数",
       "category": "自然",
-      "value_display": "14地点",
+      "value_display": "57地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 13,
-        "display": "+13地点",
+        "value": 56,
+        "display": "+56地点",
         "direction": "up",
         "prev_value": 1,
         "prev_date": "2026-10-31"
       },
       "caption": "きょう0℃を下回った地点",
-      "score": 13.0,
-      "z": 13.0,
+      "score": 56.0,
+      "z": 56.0,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "89%",
+      "value_display": "87%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 15.0,
-        "display": "+15.0pt",
+        "value": 13.0,
+        "display": "+13.0pt",
         "direction": "up",
         "prev_value": 74.0,
         "prev_date": "2026-10-31"
       },
       "caption": "ピークは18:00〜19:00の見込み",
-      "score": 6.0,
-      "z": 6.0,
+      "score": 5.0,
+      "z": 5.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -98,22 +98,41 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "-4.5℃",
+      "value_display": "32.2℃",
       "change": {
         "type": "absolute",
         "available": true,
         "value": 4.7,
         "display": "+4.7℃",
         "direction": "up",
-        "prev_value": -9.2,
+        "prev_value": 27.5,
         "prev_date": "2026-10-31"
       },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 1.44,
-      "z": 1.44,
+      "caption": "南鳥島27.2℃ と 留辺蘂-5℃ の差",
+      "score": 1.64,
+      "z": 1.64,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "min-temp",
+      "name": "全国最低気温",
+      "category": "自然",
+      "value_display": "-4.7℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4.3,
+        "display": "-4.3℃",
+        "direction": "down",
+        "prev_value": -0.4,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "標茶｜きょう日本でいちばん寒い",
+      "score": 1.31,
+      "z": 1.31,
       "label": "通常の範囲"
     },
     {
@@ -133,6 +152,25 @@
       "caption": "富士山｜全国でいちばん空気が乾いている",
       "score": 1.2,
       "z": 1.2,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-5℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 4.2,
+        "display": "+4.2℃",
+        "direction": "up",
+        "prev_value": -9.2,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 1.12,
+      "z": 1.12,
       "label": "通常の範囲"
     },
     {
@@ -190,82 +228,6 @@
       "caption": "きょうの東京の日照時間（ここまでの積算）",
       "score": 0.62,
       "z": 0.62,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "30.7℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 3.2,
-        "display": "+3.2℃",
-        "direction": "up",
-        "prev_value": 27.5,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "南鳥島29.9℃ と 白滝-0.8℃ の差",
-      "score": 0.62,
-      "z": 0.62,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "6回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4,
-        "display": "-4回",
-        "direction": "down",
-        "prev_value": 10,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "最大は三重県南東沖の震度3",
-      "score": 0.5,
-      "z": 0.5,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "min-temp",
-      "name": "全国最低気温",
-      "category": "自然",
-      "value_display": "-3.2℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.8,
-        "display": "-2.8℃",
-        "direction": "down",
-        "prev_value": -0.4,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "標茶｜きょう日本でいちばん寒い",
-      "score": 0.4,
-      "z": 0.4,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "13地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -94,
-        "display": "-94地点",
-        "direction": "down",
-        "prev_value": 107,
-        "prev_date": "2026-10-31"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.24,
-      "z": 0.24,
       "label": "通常の範囲"
     },
     {
@@ -383,41 +345,60 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-1h",
-      "name": "全国最大1時間降水量",
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "4.5mm",
+      "value_display": "63地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7.0,
-        "display": "-7mm",
+        "value": -44,
+        "display": "-44地点",
         "direction": "down",
+        "prev_value": 107,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.0,
+      "z": -0.48,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "11.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.0,
+        "display": "±0mm",
+        "direction": "flat",
         "prev_value": 11.5,
         "prev_date": "2026-10-31"
       },
-      "caption": "西興部｜この1時間でいちばん降った",
+      "caption": "鰐浦｜この1時間でいちばん降った",
       "score": 0.0,
-      "z": -0.64,
+      "z": -1.75,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "13.5mm",
+      "value_display": "32.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -11.5,
-        "display": "-11.5mm",
-        "direction": "down",
+        "value": 7.5,
+        "display": "+7.5mm",
+        "direction": "up",
         "prev_value": 25.0,
         "prev_date": "2026-10-31"
       },
-      "caption": "湯沢｜この3時間でいちばん激しく降った",
+      "caption": "弾崎｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.52,
+      "z": -0.84,
       "label": "通常の範囲"
     },
     {
@@ -817,6 +798,25 @@
       "caption": "きょうのピークで電力の53%を太陽光がまかなった",
       "score": 0.0,
       "z": -1.86,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "7回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3,
+        "display": "-3回",
+        "direction": "down",
+        "prev_value": 10,
+        "prev_date": "2026-10-31"
+      },
+      "caption": "最大は三重県南東沖の震度3",
+      "score": 0.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
