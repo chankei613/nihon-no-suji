@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T11:43:23+09:00",
+  "generated_at": "2026-11-02T20:38:41+09:00",
   "date": "2026-11-02",
   "changes": [
     {
@@ -63,19 +63,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "360地点",
+      "value_display": "397地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 297,
-        "display": "+297地点",
+        "value": 334,
+        "display": "+334地点",
         "direction": "up",
         "prev_value": 63,
         "prev_date": "2026-11-01"
       },
       "caption": "きょう雨が降った地点",
-      "score": 3.35,
-      "z": 3.35,
+      "score": 3.92,
+      "z": 3.92,
       "label": "かなり珍しい変化"
     },
     {
@@ -136,6 +136,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "value_display": "11℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.0,
+        "display": "-2℃",
+        "direction": "down",
+        "prev_value": 13.0,
+        "prev_date": "2026-11-01"
+      },
+      "caption": "あすの東京の最低気温の予想",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
@@ -155,98 +174,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "92%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 5.0,
-        "display": "+5.0pt",
-        "direction": "up",
-        "prev_value": 87.0,
-        "prev_date": "2026-11-01"
-      },
-      "caption": "ピークは17:00〜18:00の見込み",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "-1.1℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 3.9,
-        "display": "+3.9℃",
-        "direction": "up",
-        "prev_value": -5.0,
-        "prev_date": "2026-11-01"
-      },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 0.94,
-      "z": 0.94,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "dam-storage",
-      "name": "主要ダムの貯水率",
-      "category": "自然",
-      "value_display": "66.7%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -0.7,
-        "display": "-0.7pt",
-        "direction": "down",
-        "prev_value": 67.4,
-        "prev_date": "2026-11-01"
-      },
-      "caption": "主要17ダムの平均貯水率（やや少なめ）",
-      "score": 0.33,
-      "z": 0.33,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "29.7℃",
+      "value_display": "30.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.7,
-        "display": "-0.7℃",
+        "value": -0.2,
+        "display": "-0.2℃",
         "direction": "down",
         "prev_value": 30.4,
         "prev_date": "2026-11-01"
       },
-      "caption": "盛山｜きょう日本でいちばん暑い",
-      "score": 0.25,
-      "z": 0.25,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "53mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -30.0,
-        "display": "-30mm",
-        "direction": "down",
-        "prev_value": 83.0,
-        "prev_date": "2026-11-01"
-      },
-      "caption": "酒田大沢｜この24時間でいちばん降った",
-      "score": 0.15,
-      "z": 0.15,
+      "caption": "石垣島｜きょう日本でいちばん暑い",
+      "score": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -266,6 +209,25 @@
       "caption": "標茶｜きょう日本でいちばん寒い",
       "score": 0.0,
       "z": -0.4,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "70.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -12.5,
+        "display": "-12.5mm",
+        "direction": "down",
+        "prev_value": 83.0,
+        "prev_date": "2026-11-01"
+      },
+      "caption": "酒田大沢｜この24時間でいちばん降った",
+      "score": 0.0,
+      "z": -0.68,
       "label": "通常の範囲"
     },
     {
@@ -405,38 +367,19 @@
       "slug": "tokyo-forecast-max",
       "name": "東京のあしたの最高気温",
       "category": "自然",
-      "value_display": "20℃",
+      "value_display": "19℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1℃",
+        "value": -2.0,
+        "display": "-2℃",
         "direction": "down",
         "prev_value": 21.0,
         "prev_date": "2026-11-01"
       },
-      "caption": "あすの東京の最高気温の予想",
+      "caption": "あすは涼しい予想",
       "score": 0.0,
-      "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-min",
-      "name": "東京のあしたの最低気温",
-      "category": "自然",
-      "value_display": "12℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -1.0,
-        "display": "-1℃",
-        "direction": "down",
-        "prev_value": 13.0,
-        "prev_date": "2026-11-01"
-      },
-      "caption": "あすの東京の最低気温の予想",
-      "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
@@ -475,6 +418,25 @@
       "caption": "彦根｜全国でいちばん気圧が低い",
       "score": 0.0,
       "z": -0.76,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-6.7℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.7,
+        "display": "-1.7℃",
+        "direction": "down",
+        "prev_value": -5.0,
+        "prev_date": "2026-11-01"
+      },
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 0.0,
+      "z": -0.29,
       "label": "通常の範囲"
     },
     {
@@ -801,22 +763,60 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "66.8%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -0.6,
+        "display": "-0.6pt",
+        "direction": "down",
+        "prev_value": 67.4,
+        "prev_date": "2026-11-01"
+      },
+      "caption": "主要17ダムの平均貯水率（やや少なめ）",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "90%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 3.0,
+        "display": "+3.0pt",
+        "direction": "up",
+        "prev_value": 87.0,
+        "prev_date": "2026-11-01"
+      },
+      "caption": "ピークは16:00〜17:00の見込み",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "7回",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0回",
-        "direction": "flat",
+        "value": -3,
+        "display": "-3回",
+        "direction": "down",
         "prev_value": 7,
         "prev_date": "2026-11-01"
       },
-      "caption": "最大は父島近海の震度2",
+      "caption": "最大は熊本県熊本地方の震度1",
       "score": 0.0,
-      "z": -1.5,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
