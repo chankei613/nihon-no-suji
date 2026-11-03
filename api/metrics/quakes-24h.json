@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-03T21:16:29+09:00",
+  "updated_at": "2026-11-04T04:45:23+09:00",
   "summary": {
-    "count": 63,
+    "count": 64,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-03",
+    "last_date": "2026-11-04",
     "min_30d": 2,
     "max_30d": 11,
-    "avg_30d": 5.8
+    "avg_30d": 5.7
   },
   "history": [
     {
@@ -269,12 +269,16 @@
     {
       "date": "2026-11-03",
       "value": 4
+    },
+    {
+      "date": "2026-11-04",
+      "value": 4
     }
   ],
   "latest_detail": {
     "caption": "最大は千葉県北東部の震度3",
     "window_hours": 24,
-    "max_magnitude": 4.7,
+    "max_magnitude": 5.4,
     "strongest": {
       "time": "2026-11-03T14:40:00+09:00",
       "scale": 30,
@@ -283,11 +287,11 @@
       "depth": 50
     },
     "latest": {
-      "time": "2026-11-03T14:40:00+09:00",
-      "scale": 30,
-      "name": "",
-      "magnitude": -1,
-      "depth": -1
+      "time": "2026-11-04T01:48:00+09:00",
+      "scale": 10,
+      "name": "硫黄島近海",
+      "magnitude": 5.4,
+      "depth": 150
     },
     "capped": false
   }
