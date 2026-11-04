@@ -8,14 +8,14 @@
     "name": "気象庁 アメダス実況",
     "url": "https://www.jma.go.jp/bosai/amedas/"
   },
-  "updated_at": "2026-11-04T16:57:46+09:00",
+  "updated_at": "2026-11-05T01:31:45+09:00",
   "summary": {
-    "count": 63,
+    "count": 64,
     "first_date": "2026-09-03",
-    "last_date": "2026-11-04",
-    "min_30d": 20.5,
+    "last_date": "2026-11-05",
+    "min_30d": 22.0,
     "max_30d": 33.9,
-    "avg_30d": 28.05
+    "avg_30d": 28.46
   },
   "history": [
     {
@@ -269,17 +269,21 @@
     {
       "date": "2026-11-04",
       "value": 31.1
+    },
+    {
+      "date": "2026-11-05",
+      "value": 32.6
     }
   ],
   "latest_detail": {
     "hot": {
       "place": "南鳥島",
-      "temp": 27.1
+      "temp": 27.3
     },
     "cold": {
-      "place": "標茶",
-      "temp": -4.0
+      "place": "生田原",
+      "temp": -5.3
     },
-    "caption": "南鳥島27.1℃ と 標茶-4℃ の差"
+    "caption": "南鳥島27.3℃ と 生田原-5.3℃ の差"
   }
 }
