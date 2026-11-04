@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T09:50:54+09:00",
+  "generated_at": "2026-11-04T16:57:46+09:00",
   "date": "2026-11-04",
   "changes": [
     {
@@ -41,60 +41,22 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "27.1℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.3,
-        "display": "-2.3℃",
-        "direction": "down",
-        "prev_value": 29.4,
-        "prev_date": "2026-11-03"
-      },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 4.25,
-      "z": 4.25,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "87%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 9.0,
-        "display": "+9.0pt",
-        "direction": "up",
-        "prev_value": 78.0,
-        "prev_date": "2026-11-03"
-      },
-      "caption": "ピークは17:00〜18:00の見込み",
-      "score": 3.0,
-      "z": 3.0,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-2.4℃",
+      "value_display": "-1.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.2,
-        "display": "+5.2℃",
+        "value": 6.0,
+        "display": "+6℃",
         "direction": "up",
         "prev_value": -7.6,
         "prev_date": "2026-11-03"
       },
       "caption": "氷点下。街とはまるで別世界",
-      "score": 2.07,
-      "z": 2.07,
+      "score": 2.6,
+      "z": 2.6,
       "label": "いつもより大きな変化"
     },
     {
@@ -136,22 +98,22 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "dam-storage",
-      "name": "主要ダムの貯水率",
-      "category": "自然",
-      "value_display": "68.6%",
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "84%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 1.1,
-        "display": "+1.1pt",
+        "value": 6.0,
+        "display": "+6.0pt",
         "direction": "up",
-        "prev_value": 67.5,
+        "prev_value": 78.0,
         "prev_date": "2026-11-03"
       },
-      "caption": "主要17ダムの平均貯水率（やや少なめ）",
-      "score": 1.67,
-      "z": 1.67,
+      "caption": "ピークは17:00〜18:00の見込み",
+      "score": 1.5,
+      "z": 1.5,
       "label": "いつもより大きな変化"
     },
     {
@@ -171,6 +133,63 @@
       "caption": "きょうのピークで電力の14%を太陽光がまかなった",
       "score": 1.43,
       "z": 1.43,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "68.5%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 1.0,
+        "display": "+1.0pt",
+        "direction": "up",
+        "prev_value": 67.5,
+        "prev_date": "2026-11-03"
+      },
+      "caption": "主要17ダムの平均貯水率（やや少なめ）",
+      "score": 1.33,
+      "z": 1.33,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-week-max-forecast",
+      "name": "今週いちばん暑くなりそうな日の予想最高気温",
+      "category": "自然",
+      "value_display": "26℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 2.0,
+        "display": "+2℃",
+        "direction": "up",
+        "prev_value": 24.0,
+        "prev_date": "2026-11-03"
+      },
+      "caption": "11月6日ごろがいちばん暑くなりそう",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "volcano-alert-points",
+      "name": "噴火警戒レベル2以上の火山数",
+      "category": "防災",
+      "value_display": "7火山",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1,
+        "display": "-1火山",
+        "direction": "down",
+        "prev_value": 8,
+        "prev_date": "2026-11-03"
+      },
+      "caption": "桜島（レベル3）など7火山で警戒レベル2以上",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -209,6 +228,44 @@
       "caption": "陸別｜きょう日本でいちばん寒い",
       "score": 0.57,
       "z": 0.57,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
+      "category": "自然",
+      "value_display": "34mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 20.0,
+        "display": "+20mm",
+        "direction": "up",
+        "prev_value": 14.0,
+        "prev_date": "2026-11-03"
+      },
+      "caption": "大島｜この3時間でいちばん激しく降った",
+      "score": 0.38,
+      "z": 0.38,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "29.4℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
+        "prev_value": 29.4,
+        "prev_date": "2026-11-03"
+      },
+      "caption": "安次嶺｜きょう日本でいちばん暑い",
+      "score": 0.0,
+      "z": -1.67,
       "label": "通常の範囲"
     },
     {
@@ -310,57 +367,38 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "30地点",
+      "value_display": "84地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2地点",
-        "direction": "down",
+        "value": 52,
+        "display": "+52地点",
+        "direction": "up",
         "prev_value": 32,
         "prev_date": "2026-11-03"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.18,
+      "z": -0.42,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-1h",
       "name": "全国最大1時間降水量",
       "category": "自然",
-      "value_display": "3.5mm",
+      "value_display": "11.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.5,
-        "display": "-5.5mm",
-        "direction": "down",
+        "value": 2.5,
+        "display": "+2.5mm",
+        "direction": "up",
         "prev_value": 9.0,
         "prev_date": "2026-11-03"
       },
-      "caption": "八丈島｜この1時間でいちばん降った",
+      "caption": "大島｜この1時間でいちばん降った",
       "score": 0.0,
-      "z": -0.78,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
-      "category": "自然",
-      "value_display": "9.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.5,
-        "display": "-4.5mm",
-        "direction": "down",
-        "prev_value": 14.0,
-        "prev_date": "2026-11-03"
-      },
-      "caption": "新島｜この3時間でいちばん激しく降った",
-      "score": 0.0,
-      "z": -0.87,
+      "z": -1.44,
       "label": "通常の範囲"
     },
     {
@@ -421,41 +459,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-week-max-forecast",
-      "name": "今週いちばん暑くなりそうな日の予想最高気温",
-      "category": "自然",
-      "value_display": "24℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 24.0,
-        "prev_date": "2026-11-03"
-      },
-      "caption": "11月6日ごろがいちばん暑くなりそう",
-      "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1012.7hPa",
+      "value_display": "1010.7hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4.7,
-        "display": "+4.7hPa",
+        "value": 2.7,
+        "display": "+2.7hPa",
         "direction": "up",
         "prev_value": 1008.0,
         "prev_date": "2026-11-03"
       },
       "caption": "宮古島｜全国でいちばん気圧が低い",
       "score": 0.0,
-      "z": -0.25,
+      "z": -0.87,
       "label": "通常の範囲"
     },
     {
@@ -630,25 +649,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "volcano-alert-points",
-      "name": "噴火警戒レベル2以上の火山数",
-      "category": "防災",
-      "value_display": "8火山",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0火山",
-        "direction": "flat",
-        "prev_value": 8,
-        "prev_date": "2026-11-03"
-      },
-      "caption": "桜島（レベル3）など8火山で警戒レベル2以上",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "sakura-kaika-points",
       "name": "さくら開花地点数",
       "category": "自然",
@@ -804,19 +804,19 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "7回",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 3,
-        "display": "+3回",
-        "direction": "up",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 4,
         "prev_date": "2026-11-03"
       },
-      "caption": "最大は千葉県北東部の震度3",
+      "caption": "最大は千葉県東方沖の震度2",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.5,
       "label": "通常の範囲"
     },
     {
