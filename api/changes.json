@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:43:55+09:00",
+  "generated_at": "2026-11-05T20:27:07+09:00",
   "date": "2026-11-05",
   "changes": [
     {
@@ -98,6 +98,25 @@
       "label": "かなり珍しい変化"
     },
     {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "440地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 356,
+        "display": "+356地点",
+        "direction": "up",
+        "prev_value": 84,
+        "prev_date": "2026-11-04"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 4.26,
+      "z": 4.26,
+      "label": "かなり珍しい変化"
+    },
+    {
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
@@ -117,22 +136,22 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "348地点",
+      "value_display": "996.8hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 264,
-        "display": "+264地点",
-        "direction": "up",
-        "prev_value": 84,
+        "value": -13.9,
+        "display": "-13.9hPa",
+        "direction": "down",
+        "prev_value": 1010.7,
         "prev_date": "2026-11-04"
       },
-      "caption": "きょう雨が降った地点",
-      "score": 2.85,
-      "z": 2.85,
+      "caption": "彦根｜全国でいちばん気圧が低い",
+      "score": 2.62,
+      "z": 2.62,
       "label": "いつもより大きな変化"
     },
     {
@@ -171,25 +190,6 @@
       "caption": "あすの東京の最低気温の予想",
       "score": 2.0,
       "z": 2.0,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
-      "category": "自然",
-      "value_display": "1000.2hPa",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -10.5,
-        "display": "-10.5hPa",
-        "direction": "down",
-        "prev_value": 1010.7,
-        "prev_date": "2026-11-04"
-      },
-      "caption": "日田｜全国でいちばん気圧が低い",
-      "score": 1.56,
-      "z": 1.56,
       "label": "いつもより大きな変化"
     },
     {
@@ -269,41 +269,60 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "12.8m/s",
+      "slug": "gas-regular",
+      "name": "レギュラーガソリンの全国平均価格",
+      "category": "経済",
+      "value_display": "170円/L",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.5,
-        "display": "-3.5m/s",
+        "value": -0.1,
+        "display": "-0.1円/L",
+        "direction": "down",
+        "prev_value": 170.1,
+        "prev_date": "2026-11-04"
+      },
+      "caption": "レギュラーガソリン全国平均（11月2日調査）",
+      "score": 0.1,
+      "z": 0.1,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "13.2m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.1,
+        "display": "-3.1m/s",
         "direction": "down",
         "prev_value": 16.3,
         "prev_date": "2026-11-04"
       },
-      "caption": "父島｜全国でいちばん風が強い（10分平均）",
-      "score": 0.27,
-      "z": 0.27,
+      "caption": "西郷岬｜全国でいちばん風が強い（10分平均）",
+      "score": 0.09,
+      "z": 0.09,
       "label": "通常の範囲"
     },
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "29.4℃",
+      "value_display": "29.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 0.3,
+        "display": "+0.3℃",
+        "direction": "up",
         "prev_value": 29.4,
         "prev_date": "2026-11-04"
       },
-      "caption": "安次嶺｜きょう日本でいちばん暑い",
+      "caption": "波照間｜きょう日本でいちばん暑い",
       "score": 0.0,
-      "z": -1.67,
+      "z": -0.67,
       "label": "通常の範囲"
     },
     {
@@ -424,38 +443,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-1℃",
+      "value_display": "-2.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.6,
-        "display": "+0.6℃",
-        "direction": "up",
+        "value": -0.8,
+        "display": "-0.8℃",
+        "direction": "down",
         "prev_value": -1.6,
         "prev_date": "2026-11-04"
       },
       "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "gas-regular",
-      "name": "レギュラーガソリンの全国平均価格",
-      "category": "経済",
-      "value_display": "170.1円/L",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0円/L",
-        "direction": "flat",
-        "prev_value": 170.1,
-        "prev_date": "2026-11-04"
-      },
-      "caption": "レギュラーガソリン全国平均（10月26日調査）",
-      "score": 0.0,
-      "z": 0.0,
+      "z": -0.87,
       "label": "通常の範囲"
     },
     {
@@ -510,7 +510,7 @@
         "prev_value": 1,
         "prev_date": "2026-11-04"
       },
-      "caption": "台風31号「インファ」が日本の南",
+      "caption": "台風31号「インファ」が日本の東",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -766,57 +766,57 @@
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "68.8%",
+      "value_display": "69%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.3,
-        "display": "+0.3pt",
+        "value": 0.5,
+        "display": "+0.5pt",
         "direction": "up",
         "prev_value": 68.5,
         "prev_date": "2026-11-04"
       },
       "caption": "主要17ダムの平均貯水率（やや少なめ）",
       "score": 0.0,
-      "z": -1.0,
+      "z": -0.33,
       "label": "通常の範囲"
     },
     {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "8%",
+      "value_display": "10%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -6.0,
-        "display": "-6.0pt",
+        "value": -4.0,
+        "display": "-4.0pt",
         "direction": "down",
         "prev_value": 14.0,
         "prev_date": "2026-11-04"
       },
-      "caption": "きょうのピークで電力の8%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の10%を太陽光がまかなった",
       "score": 0.0,
-      "z": -1.29,
+      "z": -1.57,
       "label": "通常の範囲"
     },
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "3回",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 4,
         "prev_date": "2026-11-04"
       },
       "caption": "最大は鹿児島県薩摩地方の震度2",
       "score": 0.0,
-      "z": -1.0,
+      "z": -1.5,
       "label": "通常の範囲"
     },
     {

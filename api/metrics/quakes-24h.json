@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-05T11:43:55+09:00",
+  "updated_at": "2026-11-05T20:27:07+09:00",
   "summary": {
     "count": 65,
     "first_date": "2026-09-02",
     "last_date": "2026-11-05",
     "min_30d": 2,
     "max_30d": 11,
-    "avg_30d": 5.67
+    "avg_30d": 5.7
   },
   "history": [
     {
@@ -276,7 +276,7 @@
     },
     {
       "date": "2026-11-05",
-      "value": 3
+      "value": 4
     }
   ],
   "latest_detail": {
@@ -291,11 +291,11 @@
       "depth": 10
     },
     "latest": {
-      "time": "2026-11-05T11:35:00+09:00",
-      "scale": 10,
-      "name": "千葉県南東沖",
-      "magnitude": 3.4,
-      "depth": 70
+      "time": "2026-11-05T14:16:00+09:00",
+      "scale": 20,
+      "name": "鹿児島県薩摩地方",
+      "magnitude": 2.8,
+      "depth": 10
     },
     "capped": false
   }

@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-05T11:43:55+09:00",
+  "generated_at": "2026-11-05T20:27:07+09:00",
   "series": [
     {
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "29.4℃",
+      "value_display": "29.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 0.3,
+        "display": "+0.3℃",
+        "direction": "up",
         "prev_value": 29.4,
         "prev_date": "2026-11-04"
       },
@@ -255,7 +255,7 @@
         },
         {
           "date": "2026-11-05",
-          "value": 29.4
+          "value": 29.7
         }
       ]
     },
@@ -2478,12 +2478,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "348地点",
+      "value_display": "440地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 264,
-        "display": "+264地点",
+        "value": 356,
+        "display": "+356地点",
         "direction": "up",
         "prev_value": 84,
         "prev_date": "2026-11-04"
@@ -2727,7 +2727,7 @@
         },
         {
           "date": "2026-11-05",
-          "value": 348
+          "value": 440
         }
       ]
     },
@@ -4518,12 +4518,12 @@
       "name": "全国の最低海面気圧",
       "category": "自然",
       "unit": "hPa",
-      "value_display": "1000.2hPa",
+      "value_display": "996.8hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -10.5,
-        "display": "-10.5hPa",
+        "value": -13.9,
+        "display": "-13.9hPa",
         "direction": "down",
         "prev_value": 1010.7,
         "prev_date": "2026-11-04"
@@ -4767,7 +4767,7 @@
         },
         {
           "date": "2026-11-05",
-          "value": 1000.2
+          "value": 996.8
         }
       ]
     },
@@ -4776,12 +4776,12 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "12.8m/s",
+      "value_display": "13.2m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.5,
-        "display": "-3.5m/s",
+        "value": -3.1,
+        "display": "-3.1m/s",
         "direction": "down",
         "prev_value": 16.3,
         "prev_date": "2026-11-04"
@@ -5025,7 +5025,7 @@
         },
         {
           "date": "2026-11-05",
-          "value": 12.8
+          "value": 13.2
         }
       ]
     },
@@ -5344,13 +5344,13 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "-1℃",
+      "value_display": "-2.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.6,
-        "display": "+0.6℃",
-        "direction": "up",
+        "value": -0.8,
+        "display": "-0.8℃",
+        "direction": "down",
         "prev_value": -1.6,
         "prev_date": "2026-11-04"
       },
@@ -5593,7 +5593,7 @@
         },
         {
           "date": "2026-11-05",
-          "value": -1.0
+          "value": -2.4
         }
       ]
     },
@@ -5860,13 +5860,13 @@
       "name": "レギュラーガソリンの全国平均価格",
       "category": "経済",
       "unit": "円/L",
-      "value_display": "170.1円/L",
+      "value_display": "170円/L",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0円/L",
-        "direction": "flat",
+        "value": -0.1,
+        "display": "-0.1円/L",
+        "direction": "down",
         "prev_value": 170.1,
         "prev_date": "2026-11-04"
       },
@@ -6109,7 +6109,7 @@
         },
         {
           "date": "2026-11-05",
-          "value": 170.1
+          "value": 170.0
         }
       ]
     },
@@ -11052,12 +11052,12 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value_display": "68.8%",
+      "value_display": "69%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.3,
-        "display": "+0.3pt",
+        "value": 0.5,
+        "display": "+0.5pt",
         "direction": "up",
         "prev_value": 68.5,
         "prev_date": "2026-11-04"
@@ -11301,7 +11301,7 @@
         },
         {
           "date": "2026-11-05",
-          "value": 68.8
+          "value": 69.0
         }
       ]
     },
@@ -11568,12 +11568,12 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "8%",
+      "value_display": "10%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -6.0,
-        "display": "-6.0pt",
+        "value": -4.0,
+        "display": "-4.0pt",
         "direction": "down",
         "prev_value": 14.0,
         "prev_date": "2026-11-04"
@@ -11817,7 +11817,7 @@
         },
         {
           "date": "2026-11-05",
-          "value": 8.0
+          "value": 10.0
         }
       ]
     },
@@ -11826,13 +11826,13 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "3回",
+      "value_display": "4回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1,
-        "display": "-1回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 4,
         "prev_date": "2026-11-04"
       },
@@ -12075,7 +12075,7 @@
         },
         {
           "date": "2026-11-05",
-          "value": 3
+          "value": 4
         }
       ]
     },
