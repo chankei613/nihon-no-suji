@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-05T20:27:07+09:00",
+  "updated_at": "2026-11-06T03:56:22+09:00",
   "summary": {
-    "count": 65,
+    "count": 66,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-05",
+    "last_date": "2026-11-06",
     "min_30d": 2,
     "max_30d": 11,
-    "avg_30d": 5.7
+    "avg_30d": 5.67
   },
   "history": [
     {
@@ -277,25 +277,29 @@
     {
       "date": "2026-11-05",
       "value": 4
+    },
+    {
+      "date": "2026-11-06",
+      "value": 5
     }
   ],
   "latest_detail": {
-    "caption": "最大は鹿児島県薩摩地方の震度2",
+    "caption": "最大は福島県沖の震度2",
     "window_hours": 24,
-    "max_magnitude": 4.1,
+    "max_magnitude": 4.3,
     "strongest": {
-      "time": "2026-11-05T04:28:00+09:00",
+      "time": "2026-11-06T03:05:00+09:00",
       "scale": 20,
-      "name": "鹿児島県薩摩地方",
-      "magnitude": 3.1,
-      "depth": 10
+      "name": "福島県沖",
+      "magnitude": 4.3,
+      "depth": 80
     },
     "latest": {
-      "time": "2026-11-05T14:16:00+09:00",
+      "time": "2026-11-06T03:05:00+09:00",
       "scale": 20,
-      "name": "鹿児島県薩摩地方",
-      "magnitude": 2.8,
-      "depth": 10
+      "name": "福島県沖",
+      "magnitude": 4.3,
+      "depth": 80
     },
     "capped": false
   }
