@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-11-06T09:32:11+09:00",
+  "updated_at": "2026-11-06T16:20:39+09:00",
   "summary": {
     "count": 65,
     "first_date": "2026-09-03",
     "last_date": "2026-11-06",
     "min_30d": 0,
     "max_30d": 2,
-    "avg_30d": 1.1
+    "avg_30d": 1.07
   },
   "history": [
     {
@@ -276,21 +276,11 @@
     },
     {
       "date": "2026-11-06",
-      "value": 1
+      "value": 0
     }
   ],
   "latest_detail": {
-    "typhoons": [
-      {
-        "number": "2631",
-        "name": "インファ",
-        "category": "STS",
-        "pressure": "985",
-        "location": "日本の東",
-        "course": "北東",
-        "typhoon_number": "2631"
-      }
-    ],
-    "caption": "台風31号「インファ」が日本の東"
+    "typhoons": [],
+    "caption": "いま発生している台風はない"
   }
 }
