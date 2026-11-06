@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-11-06T16:20:39+09:00",
+  "updated_at": "2026-11-07T00:20:13+09:00",
   "summary": {
     "count": 66,
     "first_date": "2026-09-02",
     "last_date": "2026-11-06",
     "min_30d": -7.1,
     "max_30d": 5.6,
-    "avg_30d": -1.71,
-    "record_1st": -37.0,
+    "avg_30d": -1.92,
+    "record_1st": -18.0,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -283,14 +283,16 @@
     },
     {
       "date": "2026-11-06",
-      "value": 3.8
+      "value": -2.5
     }
   ],
   "latest_detail": {
-    "place": "美深",
-    "pref": "北海道上川地方",
-    "caption": "美深｜きょう日本でいちばん寒い",
-    "record_1st": -37.0,
+    "place": "酸ケ湯",
+    "pref": "青森県",
+    "caption": "酸ケ湯｜きょう日本でいちばん寒い",
+    "normal_diff": -2.7,
+    "station_prev_diff": -4.8,
+    "record_1st": -18.0,
     "year_extreme": false,
     "all_time_record": false
   }
