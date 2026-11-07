@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-07T16:43:38+09:00",
+  "updated_at": "2026-11-08T00:04:30+09:00",
   "summary": {
-    "count": 65,
+    "count": 66,
     "first_date": "2026-09-04",
-    "last_date": "2026-11-07",
+    "last_date": "2026-11-08",
     "min_30d": 20.0,
     "max_30d": 45.0,
-    "avg_30d": 33.17
+    "avg_30d": 32.83
   },
   "history": [
     {
@@ -277,13 +277,17 @@
     {
       "date": "2026-11-07",
       "value": 30.0
+    },
+    {
+      "date": "2026-11-08",
+      "value": 30.0
     }
   ],
   "latest_detail": {
     "label": "3",
-    "place": "関東東方沖",
-    "at": "2026-11-06T19:39:00+09:00",
+    "place": "茨城県沖",
+    "at": "2026-11-07T20:07:00+09:00",
     "capped": true,
-    "caption": "関東東方沖（11/06）"
+    "caption": "茨城県沖（11/07）"
   }
 }

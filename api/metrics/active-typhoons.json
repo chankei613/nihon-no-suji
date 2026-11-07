@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-11-07T16:43:38+09:00",
+  "updated_at": "2026-11-08T00:04:30+09:00",
   "summary": {
-    "count": 66,
+    "count": 67,
     "first_date": "2026-09-03",
-    "last_date": "2026-11-07",
+    "last_date": "2026-11-08",
     "min_30d": 0,
     "max_30d": 2,
-    "avg_30d": 1.03
+    "avg_30d": 1.0
   },
   "history": [
     {
@@ -281,6 +281,10 @@
     {
       "date": "2026-11-07",
       "value": 1
+    },
+    {
+      "date": "2026-11-08",
+      "value": 1
     }
   ],
   "latest_detail": {
@@ -289,12 +293,12 @@
         "number": "2632",
         "name": "チャンパカ",
         "category": "TS",
-        "pressure": "1002",
-        "location": "マリアナ諸島",
-        "course": "北西",
+        "pressure": "1000",
+        "location": "小笠原近海",
+        "course": "西北西",
         "typhoon_number": "2632"
       }
     ],
-    "caption": "台風32号「チャンパカ」がマリアナ諸島"
+    "caption": "台風32号「チャンパカ」が小笠原近海"
   }
 }
