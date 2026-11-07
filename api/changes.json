@@ -1,24 +1,43 @@
 {
-  "generated_at": "2026-11-08T04:35:16+09:00",
+  "generated_at": "2026-11-08T07:58:50+09:00",
   "date": "2026-11-08",
   "changes": [
     {
       "slug": "cold-points-0",
       "name": "0℃を下回った地点数",
       "category": "自然",
-      "value_display": "42地点",
+      "value_display": "45地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -63,
-        "display": "-63地点",
+        "value": -60,
+        "display": "-60地点",
         "direction": "down",
         "prev_value": 105,
         "prev_date": "2026-11-07"
       },
       "caption": "きょう0℃を下回った地点",
-      "score": 62.0,
-      "z": 62.0,
+      "score": 59.0,
+      "z": 59.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "43市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -16,
+        "display": "-16市町村",
+        "direction": "down",
+        "prev_value": 59,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "43市町村に気象警報",
+      "score": 16.0,
+      "z": 16.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -41,25 +60,6 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "53市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -6,
-        "display": "-6市町村",
-        "direction": "down",
-        "prev_value": 59,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "53市町村に気象警報",
-      "score": 6.0,
-      "z": 6.0,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
@@ -79,22 +79,22 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
-      "category": "自然",
-      "value_display": "28.8℃",
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "18%",
       "change": {
-        "type": "absolute",
+        "type": "percentage_point",
         "available": true,
-        "value": -6.7,
-        "display": "-6.7℃",
+        "value": -34.0,
+        "display": "-34.0pt",
         "direction": "down",
-        "prev_value": 35.5,
+        "prev_value": 52.0,
         "prev_date": "2026-11-07"
       },
-      "caption": "南鳥島25.2℃ と 酸ケ湯-3.6℃ の差",
-      "score": 2.93,
-      "z": 2.93,
+      "caption": "きょうのピークで電力の18%を太陽光がまかなった",
+      "score": 2.71,
+      "z": 2.71,
       "label": "いつもより大きな変化"
     },
     {
@@ -136,6 +136,44 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "value_display": "70%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 60.0,
+        "display": "+60.0pt",
+        "direction": "up",
+        "prev_value": 10.0,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "あすは雨の可能性が高い",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "value_display": "12℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -6.0,
+        "display": "-6℃",
+        "direction": "down",
+        "prev_value": 18.0,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "あすは涼しい予想",
+      "score": 1.5,
+      "z": 1.5,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
@@ -174,25 +212,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "21地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -157,
-        "display": "-157地点",
-        "direction": "down",
-        "prev_value": 178,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 1.16,
-      "z": 1.16,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "ice-day-points",
       "name": "真冬日（0℃以上にならなかった）地点数",
       "category": "自然",
@@ -212,6 +231,44 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "32地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -146,
+        "display": "-146地点",
+        "direction": "down",
+        "prev_value": 178,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "31.7℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.8,
+        "display": "-3.8℃",
+        "direction": "down",
+        "prev_value": 35.5,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "南鳥島28.6℃ と 酸ケ湯-3.1℃ の差",
+      "score": 0.86,
+      "z": 0.86,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
@@ -226,25 +283,6 @@
         "prev_date": "2026-11-07"
       },
       "caption": "比布｜この3時間でいちばん激しく降った",
-      "score": 0.5,
-      "z": 0.5,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "89%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 4.0,
-        "display": "+4.0pt",
-        "direction": "up",
-        "prev_value": 85.0,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "ピークは18:00〜19:00の見込み",
       "score": 0.5,
       "z": 0.5,
       "label": "通常の範囲"
@@ -310,19 +348,19 @@
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "-3.8℃",
+      "value_display": "-4.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.2,
-        "display": "+1.2℃",
+        "value": 0.6,
+        "display": "+0.6℃",
         "direction": "up",
         "prev_value": -5.0,
         "prev_date": "2026-11-07"
       },
-      "caption": "弟子屈｜きょう日本でいちばん寒い",
+      "caption": "野辺山｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -0.87,
+      "z": -1.19,
       "label": "通常の範囲"
     },
     {
@@ -386,57 +424,38 @@
       "slug": "tokyo-sunshine-hours",
       "name": "東京の日照時間",
       "category": "自然",
-      "value_display": "0時間00分",
+      "value_display": "0時間12分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0分",
-        "direction": "flat",
+        "value": 12,
+        "display": "+12分",
+        "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-11-07"
       },
-      "caption": "きょうはまだ日照なし",
+      "caption": "きょうの東京の日照時間（ここまでの積算）",
       "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-max",
-      "name": "東京のあしたの最高気温",
-      "category": "自然",
-      "value_display": "18℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 18.0,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "あすは涼しい予想",
-      "score": 0.0,
-      "z": -1.5,
+      "z": -0.71,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "10℃",
+      "value_display": "9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
         "prev_value": 10.0,
         "prev_date": "2026-11-07"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -459,41 +478,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
-      "category": "自然",
-      "value_display": "10%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
-        "prev_value": 10.0,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "あすは雨の心配は少ない",
-      "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-4.2℃",
+      "value_display": "-4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.5,
-        "display": "+1.5℃",
+        "value": 1.7,
+        "display": "+1.7℃",
         "direction": "up",
         "prev_value": -5.7,
         "prev_date": "2026-11-07"
       },
       "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -0.46,
+      "z": -0.31,
       "label": "通常の範囲"
     },
     {
@@ -548,7 +548,7 @@
         "prev_value": 1,
         "prev_date": "2026-11-07"
       },
-      "caption": "台風32号「チャンパカ」が小笠原近海",
+      "caption": "台風32号「チャンパカ」が日本の南",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -766,17 +766,17 @@
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
-      "value_display": "-25cm",
+      "value_display": "-26cm",
       "change": {
         "type": "absolute",
         "available": true,
         "value": -1.0,
         "display": "-1cm",
         "direction": "down",
-        "prev_value": -24.0,
-        "prev_date": "2026-11-06"
+        "prev_value": -25.0,
+        "prev_date": "2026-11-07"
       },
-      "caption": "基準水位(B.S.L.)より25cm低い",
+      "caption": "基準水位(B.S.L.)より26cm低い",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -785,15 +785,15 @@
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "69.6%",
+      "value_display": "69.9%",
       "change": {
         "type": "percentage_point",
         "available": true,
         "value": 0.3,
         "display": "+0.3pt",
         "direction": "up",
-        "prev_value": 69.3,
-        "prev_date": "2026-11-06"
+        "prev_value": 69.6,
+        "prev_date": "2026-11-07"
       },
       "caption": "主要17ダムの平均貯水率（やや少なめ）",
       "score": 0.0,
@@ -801,22 +801,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "52%",
+      "value_display": "87%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 10.0,
-        "display": "+10.0pt",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
-        "prev_value": 42.0,
-        "prev_date": "2026-11-06"
+        "prev_value": 85.0,
+        "prev_date": "2026-11-07"
       },
-      "caption": "きょうのピークで電力の52%を太陽光がまかなった",
+      "caption": "ピークは18:00〜19:00の見込み",
       "score": 0.0,
-      "z": -0.71,
+      "z": -0.5,
       "label": "通常の範囲"
     },
     {
