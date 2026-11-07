@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-07T10:07:54+09:00",
+  "generated_at": "2026-11-07T16:43:38+09:00",
   "date": "2026-11-07",
   "changes": [
     {
       "slug": "cold-points-0",
       "name": "0℃を下回った地点数",
       "category": "自然",
-      "value_display": "100地点",
+      "value_display": "105地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 99,
-        "display": "+99地点",
+        "value": 104,
+        "display": "+104地点",
         "direction": "up",
         "prev_value": 1,
         "prev_date": "2026-11-06"
       },
       "caption": "きょう0℃を下回った地点",
-      "score": 98.0,
-      "z": 98.0,
+      "score": 103.0,
+      "z": 103.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -60,80 +60,23 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "69市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4,
-        "display": "-4市町村",
-        "direction": "down",
-        "prev_value": 73,
-        "prev_date": "2026-11-06"
-      },
-      "caption": "69市町村に気象警報",
-      "score": 4.0,
-      "z": 4.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "26.9℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -2.1,
-        "display": "-2.1℃",
-        "direction": "down",
-        "prev_value": 29.0,
-        "prev_date": "2026-11-06"
-      },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 3.75,
-      "z": 3.75,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "30.8m/s",
+      "value_display": "33.1m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 10.8,
-        "display": "+10.8m/s",
+        "value": 13.1,
+        "display": "+13.1m/s",
         "direction": "up",
         "prev_value": 20.0,
         "prev_date": "2026-11-06"
       },
       "caption": "えりも岬｜全国でいちばん風が強い（10分平均）",
-      "score": 3.5,
-      "z": 3.5,
+      "score": 4.55,
+      "z": 4.55,
       "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "18℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -7.3,
-        "display": "-7.3℃",
-        "direction": "down",
-        "prev_value": 25.3,
-        "prev_date": "2026-11-06"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 2.82,
-      "z": 2.82,
-      "label": "いつもより大きな変化"
     },
     {
       "slug": "quakes-24h",
@@ -155,41 +98,22 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "-9.7℃",
+      "value_display": "20.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.1,
-        "display": "-4.1℃",
+        "value": -4.5,
+        "display": "-4.5℃",
         "direction": "down",
-        "prev_value": -5.6,
+        "prev_value": 25.3,
         "prev_date": "2026-11-06"
       },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 1.06,
-      "z": 1.06,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-sunshine-hours",
-      "name": "東京の日照時間",
-      "category": "自然",
-      "value_display": "0時間30分",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -90,
-        "display": "-90分",
-        "direction": "down",
-        "prev_value": 120,
-        "prev_date": "2026-11-06"
-      },
-      "caption": "きょうの東京の日照時間（ここまでの積算）",
-      "score": 1.0,
-      "z": 1.0,
+      "caption": "きょうの東京の最高気温",
+      "score": 1.18,
+      "z": 1.18,
       "label": "通常の範囲"
     },
     {
@@ -212,22 +136,98 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "86%",
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
+      "category": "自然",
+      "value_display": "-9.6℃",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
         "value": -4.0,
-        "display": "-4.0pt",
+        "display": "-4℃",
         "direction": "down",
-        "prev_value": 90.0,
+        "prev_value": -5.6,
         "prev_date": "2026-11-06"
       },
-      "caption": "ピークは18:00〜19:00の見込み",
-      "score": 0.5,
-      "z": 0.5,
+      "caption": "氷点下。街とはまるで別世界",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "typhoons-this-year",
+      "name": "今年の台風発生数",
+      "category": "防災",
+      "value_display": "32個",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "+1個",
+        "direction": "up",
+        "prev_value": 31,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "今年はこれまでに32個の台風が発生",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "active-typhoons",
+      "name": "発生中の台風の数",
+      "category": "防災",
+      "value_display": "1個",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "+1個",
+        "direction": "up",
+        "prev_value": 0,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "台風32号「チャンパカ」がマリアナ諸島",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "74市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1,
+        "display": "+1市町村",
+        "direction": "up",
+        "prev_value": 73,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "74市町村に気象警報",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "153.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 29.5,
+        "display": "+29.5mm",
+        "direction": "up",
+        "prev_value": 124.0,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "能生｜この24時間でいちばん降った",
+      "score": 0.32,
+      "z": 0.32,
       "label": "通常の範囲"
     },
     {
@@ -250,41 +250,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "-4.9℃",
+      "value_display": "28.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.4,
-        "display": "-2.4℃",
+        "value": -0.6,
+        "display": "-0.6℃",
         "direction": "down",
-        "prev_value": -2.5,
+        "prev_value": 29.0,
         "prev_date": "2026-11-06"
       },
-      "caption": "酸ケ湯｜きょう日本でいちばん寒い",
+      "caption": "北大東｜きょう日本でいちばん暑い",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
+      "slug": "min-temp",
+      "name": "全国最低気温",
       "category": "自然",
-      "value_display": "134mm",
+      "value_display": "-5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 10.0,
-        "display": "+10mm",
-        "direction": "up",
-        "prev_value": 124.0,
+        "value": -2.5,
+        "display": "-2.5℃",
+        "direction": "down",
+        "prev_value": -2.5,
         "prev_date": "2026-11-06"
       },
-      "caption": "能生｜この24時間でいちばん降った",
+      "caption": "白滝｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -0.78,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -345,22 +345,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
+      "slug": "tokyo-sunshine-hours",
+      "name": "東京の日照時間",
       "category": "自然",
-      "value_display": "152地点",
+      "value_display": "1時間24分",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -50,
-        "display": "-50地点",
+        "value": -36,
+        "display": "-36分",
+        "direction": "down",
+        "prev_value": 120,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "きょうの東京の日照時間（ここまでの積算）",
+      "score": 0.0,
+      "z": -0.14,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "178地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -24,
+        "display": "-24地点",
         "direction": "down",
         "prev_value": 202,
         "prev_date": "2026-11-06"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -0.45,
+      "z": -0.85,
       "label": "通常の範囲"
     },
     {
@@ -511,44 +530,6 @@
         "prev_date": "2026-11-06"
       },
       "caption": "レギュラーガソリン全国平均（11月2日調査）",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "typhoons-this-year",
-      "name": "今年の台風発生数",
-      "category": "防災",
-      "value_display": "31個",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
-        "prev_value": 31,
-        "prev_date": "2026-11-06"
-      },
-      "caption": "今年はこれまでに31個の台風が発生",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "active-typhoons",
-      "name": "発生中の台風の数",
-      "category": "防災",
-      "value_display": "0個",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0個",
-        "direction": "flat",
-        "prev_value": 0,
-        "prev_date": "2026-11-06"
-      },
-      "caption": "いま発生している台風はない",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"
@@ -801,22 +782,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "48%",
+      "value_display": "87%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 6.0,
-        "display": "+6.0pt",
+        "value": -3.0,
+        "display": "-3.0pt",
+        "direction": "down",
+        "prev_value": 90.0,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "ピークは18:00〜19:00の見込み",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "52%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 10.0,
+        "display": "+10.0pt",
         "direction": "up",
         "prev_value": 42.0,
         "prev_date": "2026-11-06"
       },
-      "caption": "きょうのピークで電力の48%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の52%を太陽光がまかなった",
       "score": 0.0,
-      "z": -1.29,
+      "z": -0.71,
       "label": "通常の範囲"
     },
     {
