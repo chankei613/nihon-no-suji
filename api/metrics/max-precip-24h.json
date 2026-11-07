@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-11-08T00:04:30+09:00",
+  "updated_at": "2026-11-08T04:35:16+09:00",
   "summary": {
-    "count": 67,
+    "count": 68,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-07",
-    "min_30d": 18.5,
+    "last_date": "2026-11-08",
+    "min_30d": 22.5,
     "max_30d": 402.0,
-    "avg_30d": 130.05,
-    "record_1st": 269.0,
+    "avg_30d": 132.18,
+    "record_1st": 242.5,
     "all_time_record": false
   },
   "history": [
@@ -287,13 +287,17 @@
     {
       "date": "2026-11-07",
       "value": 153.5
+    },
+    {
+      "date": "2026-11-08",
+      "value": 82.5
     }
   ],
   "latest_detail": {
-    "place": "能生",
+    "place": "高田",
     "pref": "新潟県",
-    "caption": "能生｜この24時間でいちばん降った",
-    "record_1st": 269.0,
+    "caption": "高田｜この24時間でいちばん降った",
+    "record_1st": 242.5,
     "all_time_record": false
   }
 }
