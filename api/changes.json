@@ -1,62 +1,24 @@
 {
-  "generated_at": "2026-11-07T06:01:39+09:00",
+  "generated_at": "2026-11-07T10:07:54+09:00",
   "date": "2026-11-07",
   "changes": [
     {
       "slug": "cold-points-0",
       "name": "0℃を下回った地点数",
       "category": "自然",
-      "value_display": "90地点",
+      "value_display": "100地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 89,
-        "display": "+89地点",
+        "value": 99,
+        "display": "+99地点",
         "direction": "up",
         "prev_value": 1,
         "prev_date": "2026-11-06"
       },
       "caption": "きょう0℃を下回った地点",
-      "score": 88.0,
-      "z": 88.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "81市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 8,
-        "display": "+8市町村",
-        "direction": "up",
-        "prev_value": 73,
-        "prev_date": "2026-11-06"
-      },
-      "caption": "81市町村に気象警報",
-      "score": 8.0,
-      "z": 8.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "25.5℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -3.5,
-        "display": "-3.5℃",
-        "direction": "down",
-        "prev_value": 29.0,
-        "prev_date": "2026-11-06"
-      },
-      "caption": "所野｜きょう日本でいちばん暑い",
-      "score": 7.25,
-      "z": 7.25,
+      "score": 98.0,
+      "z": 98.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -82,19 +44,57 @@
       "slug": "national-temp-spread",
       "name": "全国の気温差（最も暑い地点と寒い地点）",
       "category": "自然",
-      "value_display": "32.3℃",
+      "value_display": "35.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 8.6,
-        "display": "+8.6℃",
+        "value": 11.8,
+        "display": "+11.8℃",
         "direction": "up",
         "prev_value": 23.7,
         "prev_date": "2026-11-06"
       },
-      "caption": "南鳥島27.8℃ と 白滝-4.5℃ の差",
-      "score": 4.36,
-      "z": 4.36,
+      "caption": "南鳥島30.5℃ と 白滝-5℃ の差",
+      "score": 6.64,
+      "z": 6.64,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "69市町村",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4,
+        "display": "-4市町村",
+        "direction": "down",
+        "prev_value": 73,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "69市町村に気象警報",
+      "score": 4.0,
+      "z": 4.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "26.9℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.1,
+        "display": "-2.1℃",
+        "direction": "down",
+        "prev_value": 29.0,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "父島｜きょう日本でいちばん暑い",
+      "score": 3.75,
+      "z": 3.75,
       "label": "かなり珍しい変化"
     },
     {
@@ -136,25 +136,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "42%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 32.0,
-        "display": "+32.0pt",
-        "direction": "up",
-        "prev_value": 10.0,
-        "prev_date": "2026-11-05"
-      },
-      "caption": "きょうのピークで電力の42%を太陽光がまかなった",
-      "score": 2.43,
-      "z": 2.43,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
@@ -174,41 +155,41 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "tokyo-sunshine-hours",
-      "name": "東京の日照時間",
-      "category": "自然",
-      "value_display": "0時間00分",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -120,
-        "display": "-120分",
-        "direction": "down",
-        "prev_value": 120,
-        "prev_date": "2026-11-06"
-      },
-      "caption": "きょうはまだ日照なし",
-      "score": 1.5,
-      "z": 1.5,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-9.9℃",
+      "value_display": "-9.7℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.3,
-        "display": "-4.3℃",
+        "value": -4.1,
+        "display": "-4.1℃",
         "direction": "down",
         "prev_value": -5.6,
         "prev_date": "2026-11-06"
       },
       "caption": "氷点下。街とはまるで別世界",
-      "score": 1.19,
-      "z": 1.19,
+      "score": 1.06,
+      "z": 1.06,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-sunshine-hours",
+      "name": "東京の日照時間",
+      "category": "自然",
+      "value_display": "0時間30分",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -90,
+        "display": "-90分",
+        "direction": "down",
+        "prev_value": 120,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "きょうの東京の日照時間（ここまでの積算）",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -231,22 +212,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "biwako-level",
-      "name": "琵琶湖の水位",
-      "category": "自然",
-      "value_display": "-24cm",
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "86%",
       "change": {
-        "type": "absolute",
+        "type": "percentage_point",
         "available": true,
-        "value": 2.0,
-        "display": "+2cm",
-        "direction": "up",
-        "prev_value": -26.0,
-        "prev_date": "2026-11-05"
+        "value": -4.0,
+        "display": "-4.0pt",
+        "direction": "down",
+        "prev_value": 90.0,
+        "prev_date": "2026-11-06"
       },
-      "caption": "基準水位(B.S.L.)より24cm低い",
-      "score": 1.0,
-      "z": 1.0,
+      "caption": "ピークは18:00〜19:00の見込み",
+      "score": 0.5,
+      "z": 0.5,
       "label": "通常の範囲"
     },
     {
@@ -269,60 +250,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "119地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -83,
-        "display": "-83地点",
-        "direction": "down",
-        "prev_value": 202,
-        "prev_date": "2026-11-06"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 0.06,
-      "z": 0.06,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "min-temp",
       "name": "全国最低気温",
       "category": "自然",
-      "value_display": "-4.2℃",
+      "value_display": "-4.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.7,
-        "display": "-1.7℃",
+        "value": -2.4,
+        "display": "-2.4℃",
         "direction": "down",
         "prev_value": -2.5,
         "prev_date": "2026-11-06"
       },
-      "caption": "白滝｜きょう日本でいちばん寒い",
+      "caption": "酸ケ湯｜きょう日本でいちばん寒い",
       "score": 0.0,
-      "z": -0.4,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "117mm",
+      "value_display": "134mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -7.0,
-        "display": "-7mm",
-        "direction": "down",
+        "value": 10.0,
+        "display": "+10mm",
+        "direction": "up",
         "prev_value": 124.0,
         "prev_date": "2026-11-06"
       },
       "caption": "能生｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -0.97,
+      "z": -0.78,
       "label": "通常の範囲"
     },
     {
@@ -348,19 +310,19 @@
       "slug": "hot-points-30",
       "name": "30℃以上になった地点数",
       "category": "自然",
-      "value_display": "0地点",
+      "value_display": "1地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0地点",
-        "direction": "flat",
+        "value": 1,
+        "display": "+1地点",
+        "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-11-06"
       },
       "caption": "きょう30℃以上になった地点",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -383,22 +345,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-precip-1h",
-      "name": "全国最大1時間降水量",
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "8.5mm",
+      "value_display": "152地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.0,
-        "display": "-4mm",
+        "value": -50,
+        "display": "-50地点",
         "direction": "down",
+        "prev_value": 202,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 0.0,
+      "z": -0.45,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "12.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.0,
+        "display": "±0mm",
+        "direction": "flat",
         "prev_value": 12.5,
         "prev_date": "2026-11-06"
       },
-      "caption": "高田｜この1時間でいちばん降った",
+      "caption": "安塚｜この1時間でいちばん降った",
       "score": 0.0,
-      "z": -1.11,
+      "z": -2.0,
       "label": "通常の範囲"
     },
     {
@@ -782,18 +763,37 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "biwako-level",
+      "name": "琵琶湖の水位",
+      "category": "自然",
+      "value_display": "-25cm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.0,
+        "display": "-1cm",
+        "direction": "down",
+        "prev_value": -24.0,
+        "prev_date": "2026-11-06"
+      },
+      "caption": "基準水位(B.S.L.)より25cm低い",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "69.3%",
+      "value_display": "69.6%",
       "change": {
         "type": "percentage_point",
         "available": true,
         "value": 0.3,
         "display": "+0.3pt",
         "direction": "up",
-        "prev_value": 69.0,
-        "prev_date": "2026-11-05"
+        "prev_value": 69.3,
+        "prev_date": "2026-11-06"
       },
       "caption": "主要17ダムの平均貯水率（やや少なめ）",
       "score": 0.0,
@@ -801,37 +801,37 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "87%",
+      "value_display": "48%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -3.0,
-        "display": "-3.0pt",
-        "direction": "down",
-        "prev_value": 90.0,
+        "value": 6.0,
+        "display": "+6.0pt",
+        "direction": "up",
+        "prev_value": 42.0,
         "prev_date": "2026-11-06"
       },
-      "caption": "ピークは18:00〜19:00の見込み",
+      "caption": "きょうのピークで電力の48%を太陽光がまかなった",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.29,
       "label": "通常の範囲"
     },
     {
       "slug": "snow-points",
       "name": "雪が積もっている地点数",
       "category": "自然",
-      "value_display": "4地点",
+      "value_display": "36地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1地点",
+        "value": 32,
+        "display": "+32地点",
         "direction": "up",
-        "prev_value": 3,
-        "prev_date": "2026-10-30"
+        "prev_value": 4,
+        "prev_date": "2026-11-01"
       },
       "caption": "雪が積もっている地点",
       "score": null,
@@ -841,17 +841,17 @@
       "slug": "max-snow",
       "name": "全国最深積雪",
       "category": "自然",
-      "value_display": "8cm",
+      "value_display": "22cm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4.0,
-        "display": "+4cm",
+        "value": 14.0,
+        "display": "+14cm",
         "direction": "up",
-        "prev_value": 4.0,
-        "prev_date": "2026-10-30"
+        "prev_value": 8.0,
+        "prev_date": "2026-11-01"
       },
-      "caption": "音威子府｜全国でいちばん雪が深い",
+      "caption": "深川｜全国でいちばん雪が深い",
       "score": null,
       "label": "データ蓄積中"
     },
