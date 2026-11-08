@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:58:50+09:00",
+  "generated_at": "2026-11-08T11:40:24+09:00",
   "date": "2026-11-08",
   "changes": [
     {
@@ -25,77 +25,20 @@
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "43市町村",
+      "value_display": "3市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -16,
-        "display": "-16市町村",
+        "value": -56,
+        "display": "-56市町村",
         "direction": "down",
         "prev_value": 59,
         "prev_date": "2026-11-07"
       },
-      "caption": "43市町村に気象警報",
-      "score": 16.0,
-      "z": 16.0,
+      "caption": "3市町村に気象警報",
+      "score": 56.0,
+      "z": 56.0,
       "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "25.1℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -3.3,
-        "display": "-3.3℃",
-        "direction": "down",
-        "prev_value": 28.4,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 9.0,
-      "z": 9.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "12℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -8.8,
-        "display": "-8.8℃",
-        "direction": "down",
-        "prev_value": 20.8,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 3.71,
-      "z": 3.71,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "18%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -34.0,
-        "display": "-34.0pt",
-        "direction": "down",
-        "prev_value": 52.0,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "きょうのピークで電力の18%を太陽光がまかなった",
-      "score": 2.71,
-      "z": 2.71,
-      "label": "いつもより大きな変化"
     },
     {
       "slug": "max-precip-24h",
@@ -114,6 +57,25 @@
       "caption": "高田｜この24時間でいちばん降った",
       "score": 2.56,
       "z": 2.56,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "17回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 8,
+        "display": "+8回",
+        "direction": "up",
+        "prev_value": 9,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "最大は静岡県西部の震度5強",
+      "score": 2.5,
+      "z": 2.5,
       "label": "いつもより大きな変化"
     },
     {
@@ -174,6 +136,25 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "15.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -5.0,
+        "display": "-5℃",
+        "direction": "down",
+        "prev_value": 20.8,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 1.47,
+      "z": 1.47,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
@@ -193,22 +174,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "38%",
+      "value_display": "27.5℃",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": 16.0,
-        "display": "+16.0pt",
-        "direction": "up",
-        "prev_value": 22.0,
+        "value": -0.9,
+        "display": "-0.9℃",
+        "direction": "down",
+        "prev_value": 28.4,
         "prev_date": "2026-11-07"
       },
-      "caption": "二本松｜全国でいちばん空気が乾いている",
-      "score": 1.4,
-      "z": 1.4,
+      "caption": "石垣島｜きょう日本でいちばん暑い",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -234,19 +215,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "32地点",
+      "value_display": "36地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -146,
-        "display": "-146地点",
+        "value": -142,
+        "display": "-142地点",
         "direction": "down",
         "prev_value": 178,
         "prev_date": "2026-11-07"
       },
       "caption": "きょう雨が降った地点",
-      "score": 1.0,
-      "z": 1.0,
+      "score": 0.97,
+      "z": 0.97,
       "label": "通常の範囲"
     },
     {
@@ -269,6 +250,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "tokyo-sunshine-hours",
+      "name": "東京の日照時間",
+      "category": "自然",
+      "value_display": "1時間12分",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 72,
+        "display": "+72分",
+        "direction": "up",
+        "prev_value": 0,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "きょうの東京の日照時間（ここまでの積算）",
+      "score": 0.57,
+      "z": 0.57,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
@@ -283,25 +283,6 @@
         "prev_date": "2026-11-07"
       },
       "caption": "比布｜この3時間でいちばん激しく降った",
-      "score": 0.5,
-      "z": 0.5,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "13回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4,
-        "display": "+4回",
-        "direction": "up",
-        "prev_value": 9,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "最大は静岡県西部の震度5強",
       "score": 0.5,
       "z": 0.5,
       "label": "通常の範囲"
@@ -421,25 +402,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-sunshine-hours",
-      "name": "東京の日照時間",
-      "category": "自然",
-      "value_display": "0時間12分",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 12,
-        "display": "+12分",
-        "direction": "up",
-        "prev_value": 0,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "きょうの東京の日照時間（ここまでの積算）",
-      "score": 0.0,
-      "z": -0.71,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
@@ -462,38 +424,57 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "20℃",
+      "value_display": "21℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 20.0,
         "prev_date": "2026-11-07"
       },
       "caption": "11月13日ごろがいちばん暑くなりそう",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "28%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 6.0,
+        "display": "+6.0pt",
+        "direction": "up",
+        "prev_value": 22.0,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "辻堂｜全国でいちばん空気が乾いている",
+      "score": 0.0,
+      "z": -0.4,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-4℃",
+      "value_display": "-3.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.7,
-        "display": "+1.7℃",
+        "value": 1.8,
+        "display": "+1.8℃",
         "direction": "up",
         "prev_value": -5.7,
         "prev_date": "2026-11-07"
       },
       "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -0.31,
+      "z": -0.23,
       "label": "通常の範囲"
     },
     {
@@ -817,6 +798,25 @@
       "caption": "ピークは18:00〜19:00の見込み",
       "score": 0.0,
       "z": -0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "55%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 3.0,
+        "display": "+3.0pt",
+        "direction": "up",
+        "prev_value": 52.0,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "きょうのピークで電力の55%を太陽光がまかなった",
+      "score": 0.0,
+      "z": -1.71,
       "label": "通常の範囲"
     },
     {
