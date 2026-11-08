@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-11-08T19:43:21+09:00",
+  "updated_at": "2026-11-09T02:14:11+09:00",
   "summary": {
-    "count": 68,
+    "count": 69,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-08",
+    "last_date": "2026-11-09",
     "min_30d": 22.5,
     "max_30d": 402.0,
-    "avg_30d": 132.18,
-    "record_1st": 242.5,
+    "avg_30d": 128.08,
+    "record_1st": 428.0,
     "all_time_record": false
   },
   "history": [
@@ -291,13 +291,17 @@
     {
       "date": "2026-11-08",
       "value": 82.5
+    },
+    {
+      "date": "2026-11-09",
+      "value": 28.5
     }
   ],
   "latest_detail": {
-    "place": "高田",
-    "pref": "新潟県",
-    "caption": "高田｜この24時間でいちばん降った",
-    "record_1st": 242.5,
+    "place": "三宅島",
+    "pref": "東京都",
+    "caption": "三宅島｜この24時間でいちばん降った",
+    "record_1st": 428.0,
     "all_time_record": false
   }
 }
