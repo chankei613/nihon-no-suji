@@ -1,43 +1,62 @@
 {
-  "generated_at": "2026-11-08T11:40:24+09:00",
+  "generated_at": "2026-11-08T19:43:21+09:00",
   "date": "2026-11-08",
   "changes": [
     {
-      "slug": "cold-points-0",
-      "name": "0℃を下回った地点数",
-      "category": "自然",
-      "value_display": "45地点",
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -60,
-        "display": "-60地点",
+        "value": -59,
+        "display": "-59市町村",
         "direction": "down",
-        "prev_value": 105,
+        "prev_value": 59,
         "prev_date": "2026-11-07"
       },
-      "caption": "きょう0℃を下回った地点",
+      "caption": "いま気象警報は出ていない",
       "score": 59.0,
       "z": 59.0,
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "3市町村",
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "value_display": "63地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -56,
-        "display": "-56市町村",
+        "value": -42,
+        "display": "-42地点",
         "direction": "down",
-        "prev_value": 59,
+        "prev_value": 105,
         "prev_date": "2026-11-07"
       },
-      "caption": "3市町村に気象警報",
-      "score": 56.0,
-      "z": 56.0,
+      "caption": "きょう0℃を下回った地点",
+      "score": 41.0,
+      "z": 41.0,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "18回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 9,
+        "display": "+9回",
+        "direction": "up",
+        "prev_value": 9,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "最大は静岡県西部の震度5強",
+      "score": 3.0,
+      "z": 3.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -60,25 +79,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "17回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 8,
-        "display": "+8回",
-        "direction": "up",
-        "prev_value": 9,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "最大は静岡県西部の震度5強",
-      "score": 2.5,
-      "z": 2.5,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
@@ -95,6 +95,25 @@
       "caption": "網走｜全国でいちばん気圧が低い",
       "score": 2.45,
       "z": 2.45,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "value_display": "11℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -7.0,
+        "display": "-7℃",
+        "direction": "down",
+        "prev_value": 18.0,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "あすは涼しい予想",
+      "score": 2.0,
+      "z": 2.0,
       "label": "いつもより大きな変化"
     },
     {
@@ -115,44 +134,6 @@
       "score": 2.0,
       "z": 2.0,
       "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "tokyo-forecast-max",
-      "name": "東京のあしたの最高気温",
-      "category": "自然",
-      "value_display": "12℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -6.0,
-        "display": "-6℃",
-        "direction": "down",
-        "prev_value": 18.0,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "あすは涼しい予想",
-      "score": 1.5,
-      "z": 1.5,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "15.8℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -5.0,
-        "display": "-5℃",
-        "direction": "down",
-        "prev_value": 20.8,
-        "prev_date": "2026-11-07"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 1.47,
-      "z": 1.47,
-      "label": "通常の範囲"
     },
     {
       "slug": "max-wind",
@@ -177,19 +158,19 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "27.5℃",
+      "value_display": "29.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.9,
-        "display": "-0.9℃",
-        "direction": "down",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 28.4,
         "prev_date": "2026-11-07"
       },
-      "caption": "石垣島｜きょう日本でいちばん暑い",
-      "score": 1.0,
-      "z": 1.0,
+      "caption": "波照間｜きょう日本でいちばん暑い",
+      "score": 1.33,
+      "z": 1.33,
       "label": "通常の範囲"
     },
     {
@@ -215,19 +196,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "36地点",
+      "value_display": "37地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -142,
-        "display": "-142地点",
+        "value": -141,
+        "display": "-141地点",
         "direction": "down",
         "prev_value": 178,
         "prev_date": "2026-11-07"
       },
       "caption": "きょう雨が降った地点",
-      "score": 0.97,
-      "z": 0.97,
+      "score": 0.95,
+      "z": 0.95,
       "label": "通常の範囲"
     },
     {
@@ -285,6 +266,25 @@
       "caption": "比布｜この3時間でいちばん激しく降った",
       "score": 0.5,
       "z": 0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "17.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.0,
+        "display": "-3℃",
+        "direction": "down",
+        "prev_value": 20.8,
+        "prev_date": "2026-11-07"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 0.29,
+      "z": 0.29,
       "label": "通常の範囲"
     },
     {
@@ -462,19 +462,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-3.9℃",
+      "value_display": "-7.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.8,
-        "display": "+1.8℃",
-        "direction": "up",
+        "value": -1.5,
+        "display": "-1.5℃",
+        "direction": "down",
         "prev_value": -5.7,
         "prev_date": "2026-11-07"
       },
       "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -0.23,
+      "z": -0.46,
       "label": "通常の範囲"
     },
     {
@@ -785,19 +785,19 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "87%",
+      "value_display": "84%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.0,
-        "display": "+2.0pt",
-        "direction": "up",
+        "value": -1.0,
+        "display": "-1.0pt",
+        "direction": "down",
         "prev_value": 85.0,
         "prev_date": "2026-11-07"
       },
       "caption": "ピークは18:00〜19:00の見込み",
       "score": 0.0,
-      "z": -0.5,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
