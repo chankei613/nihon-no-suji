@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-09T17:38:25+09:00",
+  "updated_at": "2026-11-10T05:00:01+09:00",
   "summary": {
-    "count": 69,
+    "count": 70,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-09",
+    "last_date": "2026-11-10",
     "min_30d": 2,
     "max_30d": 18,
-    "avg_30d": 5.9
+    "avg_30d": 6.03
   },
   "history": [
     {
@@ -293,6 +293,10 @@
     {
       "date": "2026-11-09",
       "value": 9
+    },
+    {
+      "date": "2026-11-10",
+      "value": 8
     }
   ],
   "latest_detail": {
@@ -307,11 +311,11 @@
       "depth": 10
     },
     "latest": {
-      "time": "2026-11-09T14:01:00+09:00",
+      "time": "2026-11-10T00:09:00+09:00",
       "scale": 10,
-      "name": "茨城県沖",
-      "magnitude": 4.5,
-      "depth": 40
+      "name": "瀬戸内海中部",
+      "magnitude": 2.8,
+      "depth": 10
     },
     "capped": false
   }
