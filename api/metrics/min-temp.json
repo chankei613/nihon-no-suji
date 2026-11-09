@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-11-09T06:20:59+09:00",
+  "updated_at": "2026-11-09T10:10:48+09:00",
   "summary": {
     "count": 69,
     "first_date": "2026-09-02",
     "last_date": "2026-11-09",
-    "min_30d": -9.5,
+    "min_30d": -10.4,
     "max_30d": 5.6,
-    "avg_30d": -2.58,
-    "record_1st": -31.4,
+    "avg_30d": -2.61,
+    "record_1st": -33.2,
     "year_extreme": true,
     "all_time_record": false
   },
@@ -295,14 +295,16 @@
     },
     {
       "date": "2026-11-09",
-      "value": -9.5
+      "value": -10.4
     }
   ],
   "latest_detail": {
-    "place": "比布",
-    "pref": "北海道上川地方",
-    "caption": "比布｜きょう日本でいちばん寒い",
-    "record_1st": -31.4,
+    "place": "陸別",
+    "pref": "北海道十勝地方",
+    "caption": "陸別｜きょう日本でいちばん寒い",
+    "normal_diff": -7.0,
+    "station_prev_diff": -3.5,
+    "record_1st": -33.2,
     "year_extreme": true,
     "all_time_record": false
   }
