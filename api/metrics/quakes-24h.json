@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-10T05:00:01+09:00",
+  "updated_at": "2026-11-10T11:53:53+09:00",
   "summary": {
     "count": 70,
     "first_date": "2026-09-02",
     "last_date": "2026-11-10",
     "min_30d": 2,
     "max_30d": 18,
-    "avg_30d": 6.03
+    "avg_30d": 6.0
   },
   "history": [
     {
@@ -296,7 +296,7 @@
     },
     {
       "date": "2026-11-10",
-      "value": 8
+      "value": 7
     }
   ],
   "latest_detail": {
@@ -311,10 +311,10 @@
       "depth": 10
     },
     "latest": {
-      "time": "2026-11-10T00:09:00+09:00",
-      "scale": 10,
-      "name": "瀬戸内海中部",
-      "magnitude": 2.8,
+      "time": "2026-11-10T06:16:00+09:00",
+      "scale": 20,
+      "name": "橘湾",
+      "magnitude": 3.3,
       "depth": 10
     },
     "capped": false
