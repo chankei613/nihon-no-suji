@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-11T09:51:29+09:00",
+  "updated_at": "2026-11-11T17:17:53+09:00",
   "summary": {
     "count": 71,
     "first_date": "2026-09-02",
     "last_date": "2026-11-11",
     "min_30d": 2,
     "max_30d": 18,
-    "avg_30d": 6.03
+    "avg_30d": 5.97
   },
   "history": [
     {
@@ -300,26 +300,26 @@
     },
     {
       "date": "2026-11-11",
-      "value": 7
+      "value": 5
     }
   ],
   "latest_detail": {
-    "caption": "最大は房総半島南方沖の震度2",
+    "caption": "最大は茨城県沖の震度1",
     "window_hours": 24,
-    "max_magnitude": 4.5,
+    "max_magnitude": 4.6,
     "strongest": {
-      "time": "2026-11-10T15:36:00+09:00",
-      "scale": 20,
-      "name": "房総半島南方沖",
-      "magnitude": 4.5,
+      "time": "2026-11-11T12:57:00+09:00",
+      "scale": 10,
+      "name": "茨城県沖",
+      "magnitude": 4.6,
       "depth": 20
     },
     "latest": {
-      "time": "2026-11-11T08:33:00+09:00",
+      "time": "2026-11-11T15:21:00+09:00",
       "scale": 10,
-      "name": "熊本県熊本地方",
-      "magnitude": 2.7,
-      "depth": 0
+      "name": "熊本県阿蘇地方",
+      "magnitude": 2.4,
+      "depth": 10
     },
     "capped": false
   }
