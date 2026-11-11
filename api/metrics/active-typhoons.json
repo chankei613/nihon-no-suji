@@ -8,14 +8,14 @@
     "name": "気象庁 台風情報",
     "url": "https://www.jma.go.jp/bosai/typhoon/data/targetTc.json"
   },
-  "updated_at": "2026-11-11T17:17:53+09:00",
+  "updated_at": "2026-11-12T01:32:49+09:00",
   "summary": {
-    "count": 70,
+    "count": 71,
     "first_date": "2026-09-03",
-    "last_date": "2026-11-11",
+    "last_date": "2026-11-12",
     "min_30d": 0,
     "max_30d": 2,
-    "avg_30d": 0.97
+    "avg_30d": 0.93
   },
   "history": [
     {
@@ -297,20 +297,14 @@
     {
       "date": "2026-11-11",
       "value": 1
+    },
+    {
+      "date": "2026-11-12",
+      "value": 0
     }
   ],
   "latest_detail": {
-    "typhoons": [
-      {
-        "number": "2632",
-        "name": "チャンパカ",
-        "category": "TY",
-        "pressure": "980",
-        "location": "南鳥島近海",
-        "course": "東北東",
-        "typhoon_number": "2632"
-      }
-    ],
-    "caption": "台風32号「チャンパカ」が南鳥島近海"
+    "typhoons": [],
+    "caption": "いま発生している台風はない"
   }
 }

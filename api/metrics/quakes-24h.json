@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-11T17:17:53+09:00",
+  "updated_at": "2026-11-12T01:32:49+09:00",
   "summary": {
-    "count": 71,
+    "count": 72,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-11",
+    "last_date": "2026-11-12",
     "min_30d": 2,
     "max_30d": 18,
-    "avg_30d": 5.97
+    "avg_30d": 6.0
   },
   "history": [
     {
@@ -301,6 +301,10 @@
     {
       "date": "2026-11-11",
       "value": 5
+    },
+    {
+      "date": "2026-11-12",
+      "value": 5
     }
   ],
   "latest_detail": {
@@ -315,10 +319,10 @@
       "depth": 20
     },
     "latest": {
-      "time": "2026-11-11T15:21:00+09:00",
+      "time": "2026-11-11T21:13:00+09:00",
       "scale": 10,
-      "name": "熊本県阿蘇地方",
-      "magnitude": 2.4,
+      "name": "橘湾",
+      "magnitude": 2.3,
       "depth": 10
     },
     "capped": false
