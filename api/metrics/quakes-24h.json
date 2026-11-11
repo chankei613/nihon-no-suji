@@ -8,7 +8,7 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-12T01:32:49+09:00",
+  "updated_at": "2026-11-12T07:59:29+09:00",
   "summary": {
     "count": 72,
     "first_date": "2026-09-02",
@@ -308,22 +308,22 @@
     }
   ],
   "latest_detail": {
-    "caption": "最大は茨城県沖の震度1",
+    "caption": "最大は青森県東方沖の震度2",
     "window_hours": 24,
     "max_magnitude": 4.6,
     "strongest": {
-      "time": "2026-11-11T12:57:00+09:00",
-      "scale": 10,
-      "name": "茨城県沖",
-      "magnitude": 4.6,
-      "depth": 20
+      "time": "2026-11-12T02:15:00+09:00",
+      "scale": 20,
+      "name": "青森県東方沖",
+      "magnitude": 3.6,
+      "depth": 60
     },
     "latest": {
-      "time": "2026-11-11T21:13:00+09:00",
-      "scale": 10,
-      "name": "橘湾",
-      "magnitude": 2.3,
-      "depth": 10
+      "time": "2026-11-12T02:15:00+09:00",
+      "scale": 20,
+      "name": "青森県東方沖",
+      "magnitude": 3.6,
+      "depth": 60
     },
     "capped": false
   }

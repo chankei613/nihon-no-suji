@@ -8,14 +8,14 @@
     "name": "国土交通省 近畿・関東地方整備局",
     "url": "https://www.kkr.mlit.go.jp/river/json/dam.json"
   },
-  "updated_at": "2026-11-12T01:32:49+09:00",
+  "updated_at": "2026-11-12T07:59:29+09:00",
   "summary": {
-    "count": 72,
+    "count": 73,
     "first_date": "2026-09-01",
-    "last_date": "2026-11-11",
+    "last_date": "2026-11-12",
     "min_30d": 53.3,
     "max_30d": 79.1,
-    "avg_30d": 63.86
+    "avg_30d": 63.59
   },
   "history": [
     {
@@ -305,28 +305,32 @@
     {
       "date": "2026-11-11",
       "value": 70.0
+    },
+    {
+      "date": "2026-11-12",
+      "value": 70.3
     }
   ],
   "latest_detail": {
-    "dam_count": 15,
+    "dam_count": 16,
     "region_means": {
-      "近畿": 69.0,
+      "近畿": 69.6,
       "関東": 71.8
     },
     "dams": [
       {
         "name": "猿谷ダム",
-        "rate": 26.8,
+        "rate": 25.3,
         "region": "近畿"
       },
       {
         "name": "真名川ダム",
-        "rate": 27.5,
+        "rate": 27.4,
         "region": "近畿"
       },
       {
         "name": "九頭竜ダム",
-        "rate": 50.9,
+        "rate": 50.6,
         "region": "近畿"
       },
       {
@@ -336,7 +340,7 @@
       },
       {
         "name": "大滝ダム",
-        "rate": 60.2,
+        "rate": 60.3,
         "region": "近畿"
       },
       {
@@ -351,17 +355,22 @@
       },
       {
         "name": "高山ダム",
-        "rate": 76.0,
+        "rate": 75.9,
+        "region": "近畿"
+      },
+      {
+        "name": "日吉ダム",
+        "rate": 77.1,
         "region": "近畿"
       },
       {
         "name": "比奈知ダム",
-        "rate": 81.4,
+        "rate": 81.7,
         "region": "近畿"
       },
       {
         "name": "天ヶ瀬ダム",
-        "rate": 82.2,
+        "rate": 82.3,
         "region": "近畿"
       },
       {
@@ -381,15 +390,15 @@
       },
       {
         "name": "室生ダム",
-        "rate": 94.9,
+        "rate": 95.3,
         "region": "近畿"
       },
       {
         "name": "布目ダム",
-        "rate": 97.2,
+        "rate": 96.7,
         "region": "近畿"
       }
     ],
-    "caption": "主要15ダムの平均貯水率（やや少なめ）"
+    "caption": "主要16ダムの平均貯水率（やや少なめ）"
   }
 }
