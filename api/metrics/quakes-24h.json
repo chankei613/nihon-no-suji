@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-12T13:06:35+09:00",
+  "updated_at": "2026-11-12T22:10:30+09:00",
   "summary": {
     "count": 72,
     "first_date": "2026-09-02",
     "last_date": "2026-11-12",
     "min_30d": 2,
     "max_30d": 18,
-    "avg_30d": 5.93
+    "avg_30d": 6.0
   },
   "history": [
     {
@@ -304,13 +304,13 @@
     },
     {
       "date": "2026-11-12",
-      "value": 3
+      "value": 5
     }
   ],
   "latest_detail": {
     "caption": "最大は青森県東方沖の震度2",
     "window_hours": 24,
-    "max_magnitude": 3.6,
+    "max_magnitude": 4.7,
     "strongest": {
       "time": "2026-11-12T02:15:00+09:00",
       "scale": 20,
@@ -319,11 +319,11 @@
       "depth": 60
     },
     "latest": {
-      "time": "2026-11-12T02:15:00+09:00",
-      "scale": 20,
-      "name": "青森県東方沖",
-      "magnitude": 3.6,
-      "depth": 60
+      "time": "2026-11-12T21:43:00+09:00",
+      "scale": 10,
+      "name": "熊本県熊本地方",
+      "magnitude": 2.1,
+      "depth": 10
     },
     "capped": false
   }

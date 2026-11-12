@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T13:06:35+09:00",
+  "generated_at": "2026-11-12T22:10:30+09:00",
   "date": "2026-11-12",
   "changes": [
     {
@@ -79,6 +79,25 @@
       "label": "かなり珍しい変化"
     },
     {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "10%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -21.0,
+        "display": "-21.0pt",
+        "direction": "down",
+        "prev_value": 31.0,
+        "prev_date": "2026-11-11"
+      },
+      "caption": "富士山｜全国でいちばん空気が乾いている",
+      "score": 2.4,
+      "z": 2.4,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
@@ -98,25 +117,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "-5.3℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4.5,
-        "display": "+4.5℃",
-        "direction": "up",
-        "prev_value": -9.8,
-        "prev_date": "2026-11-11"
-      },
-      "caption": "氷点下。街とはまるで別世界",
-      "score": 1.31,
-      "z": 1.31,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "active-typhoons",
       "name": "発生中の台風の数",
       "category": "防災",
@@ -133,6 +133,44 @@
       "caption": "いま発生している台風はない",
       "score": 1.0,
       "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "snow-points",
+      "name": "雪が積もっている地点数",
+      "category": "自然",
+      "value_display": "10地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -18,
+        "display": "-18地点",
+        "direction": "down",
+        "prev_value": 28,
+        "prev_date": "2026-11-11"
+      },
+      "caption": "雪が積もっている地点",
+      "score": 0.75,
+      "z": 0.75,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-snow",
+      "name": "全国最深積雪",
+      "category": "自然",
+      "value_display": "33cm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -17.0,
+        "display": "-17cm",
+        "direction": "down",
+        "prev_value": 50.0,
+        "prev_date": "2026-11-11"
+      },
+      "caption": "朱鞠内｜全国でいちばん雪が深い",
+      "score": 0.38,
+      "z": 0.38,
       "label": "通常の範囲"
     },
     {
@@ -158,19 +196,19 @@
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "17.9℃",
+      "value_display": "18.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.2,
-        "display": "+2.2℃",
+        "value": 2.5,
+        "display": "+2.5℃",
         "direction": "up",
         "prev_value": 15.7,
         "prev_date": "2026-11-11"
       },
       "caption": "きょうの東京の最高気温",
       "score": 0.0,
-      "z": -0.24,
+      "z": -0.06,
       "label": "通常の範囲"
     },
     {
@@ -386,57 +424,57 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1012.4hPa",
+      "value_display": "1010.2hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.5,
-        "display": "+5.5hPa",
+        "value": 3.3,
+        "display": "+3.3hPa",
         "direction": "up",
         "prev_value": 1006.9,
         "prev_date": "2026-11-11"
       },
-      "caption": "南鳥島｜全国でいちばん気圧が低い",
+      "caption": "網走｜全国でいちばん気圧が低い",
       "score": 0.0,
-      "z": -0.03,
+      "z": -0.79,
       "label": "通常の範囲"
     },
     {
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "11.1m/s",
+      "value_display": "12.2m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.4,
-        "display": "-0.4m/s",
-        "direction": "down",
+        "value": 0.7,
+        "display": "+0.7m/s",
+        "direction": "up",
         "prev_value": 11.5,
         "prev_date": "2026-11-11"
       },
       "caption": "本泊｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
-      "z": -1.17,
+      "z": -1.07,
       "label": "通常の範囲"
     },
     {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "32%",
+      "value_display": "-7.4℃",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1.0pt",
+        "value": 2.4,
+        "display": "+2.4℃",
         "direction": "up",
-        "prev_value": 31.0,
+        "prev_value": -9.8,
         "prev_date": "2026-11-11"
       },
-      "caption": "奈川｜全国でいちばん空気が乾いている",
+      "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -1.6,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -804,56 +842,20 @@
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "3回",
+      "value_display": "5回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 5,
         "prev_date": "2026-11-11"
       },
       "caption": "最大は青森県東方沖の震度2",
       "score": 0.0,
-      "z": -0.5,
+      "z": -1.5,
       "label": "通常の範囲"
-    },
-    {
-      "slug": "snow-points",
-      "name": "雪が積もっている地点数",
-      "category": "自然",
-      "value_display": "28地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4,
-        "display": "+4地点",
-        "direction": "up",
-        "prev_value": 24,
-        "prev_date": "2026-11-09"
-      },
-      "caption": "雪が積もっている地点",
-      "score": null,
-      "label": "データ蓄積中"
-    },
-    {
-      "slug": "max-snow",
-      "name": "全国最深積雪",
-      "category": "自然",
-      "value_display": "50cm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 6.0,
-        "display": "+6cm",
-        "direction": "up",
-        "prev_value": 44.0,
-        "prev_date": "2026-11-09"
-      },
-      "caption": "朱鞠内｜全国でいちばん雪が深い",
-      "score": null,
-      "label": "データ蓄積中"
     },
     {
       "slug": "days-to-sekki",

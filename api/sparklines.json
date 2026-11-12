@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T13:06:35+09:00",
+  "generated_at": "2026-11-12T22:10:30+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -522,12 +522,12 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "17.9℃",
+      "value_display": "18.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2.2,
-        "display": "+2.2℃",
+        "value": 2.5,
+        "display": "+2.5℃",
         "direction": "up",
         "prev_value": 15.7,
         "prev_date": "2026-11-11"
@@ -771,7 +771,7 @@
         },
         {
           "date": "2026-11-12",
-          "value": 17.9
+          "value": 18.2
         }
       ]
     },
@@ -4626,12 +4626,12 @@
       "name": "全国の最低海面気圧",
       "category": "自然",
       "unit": "hPa",
-      "value_display": "1012.4hPa",
+      "value_display": "1010.2hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.5,
-        "display": "+5.5hPa",
+        "value": 3.3,
+        "display": "+3.3hPa",
         "direction": "up",
         "prev_value": 1006.9,
         "prev_date": "2026-11-11"
@@ -4875,7 +4875,7 @@
         },
         {
           "date": "2026-11-12",
-          "value": 1012.4
+          "value": 1010.2
         }
       ]
     },
@@ -4884,13 +4884,13 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "11.1m/s",
+      "value_display": "12.2m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.4,
-        "display": "-0.4m/s",
-        "direction": "down",
+        "value": 0.7,
+        "display": "+0.7m/s",
+        "direction": "up",
         "prev_value": 11.5,
         "prev_date": "2026-11-11"
       },
@@ -5133,7 +5133,7 @@
         },
         {
           "date": "2026-11-12",
-          "value": 11.1
+          "value": 12.2
         }
       ]
     },
@@ -5142,13 +5142,13 @@
       "name": "全国の最小湿度",
       "category": "自然",
       "unit": "%",
-      "value_display": "32%",
+      "value_display": "10%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 1.0,
-        "display": "+1.0pt",
-        "direction": "up",
+        "value": -21.0,
+        "display": "-21.0pt",
+        "direction": "down",
         "prev_value": 31.0,
         "prev_date": "2026-11-11"
       },
@@ -5391,7 +5391,7 @@
         },
         {
           "date": "2026-11-12",
-          "value": 32.0
+          "value": 10.0
         }
       ]
     },
@@ -5400,15 +5400,15 @@
       "name": "雪が積もっている地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "28地点",
+      "value_display": "10地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4,
-        "display": "+4地点",
-        "direction": "up",
-        "prev_value": 24,
-        "prev_date": "2026-11-09"
+        "value": -18,
+        "display": "-18地点",
+        "direction": "down",
+        "prev_value": 28,
+        "prev_date": "2026-11-11"
       },
       "points": [
         {
@@ -5430,6 +5430,10 @@
         {
           "date": "2026-11-11",
           "value": 28
+        },
+        {
+          "date": "2026-11-12",
+          "value": 10
         }
       ]
     },
@@ -5438,15 +5442,15 @@
       "name": "全国最深積雪",
       "category": "自然",
       "unit": "cm",
-      "value_display": "50cm",
+      "value_display": "33cm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 6.0,
-        "display": "+6cm",
-        "direction": "up",
-        "prev_value": 44.0,
-        "prev_date": "2026-11-09"
+        "value": -17.0,
+        "display": "-17cm",
+        "direction": "down",
+        "prev_value": 50.0,
+        "prev_date": "2026-11-11"
       },
       "points": [
         {
@@ -5468,6 +5472,10 @@
         {
           "date": "2026-11-11",
           "value": 50.0
+        },
+        {
+          "date": "2026-11-12",
+          "value": 33.0
         }
       ]
     },
@@ -5476,12 +5484,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "-5.3℃",
+      "value_display": "-7.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4.5,
-        "display": "+4.5℃",
+        "value": 2.4,
+        "display": "+2.4℃",
         "direction": "up",
         "prev_value": -9.8,
         "prev_date": "2026-11-11"
@@ -5725,7 +5733,7 @@
         },
         {
           "date": "2026-11-12",
-          "value": -5.3
+          "value": -7.4
         }
       ]
     },
@@ -12286,13 +12294,13 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "3回",
+      "value_display": "5回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2回",
-        "direction": "down",
+        "value": 0,
+        "display": "±0回",
+        "direction": "flat",
         "prev_value": 5,
         "prev_date": "2026-11-11"
       },
@@ -12535,7 +12543,7 @@
         },
         {
           "date": "2026-11-12",
-          "value": 3
+          "value": 5
         }
       ]
     },
