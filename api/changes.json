@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-15T04:27:10+09:00",
+  "generated_at": "2026-11-15T08:19:54+09:00",
   "date": "2026-11-15",
   "changes": [
+    {
+      "slug": "tokyo-forecast-pop",
+      "name": "東京のあしたの降水確率",
+      "category": "自然",
+      "value_display": "10%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -70.0,
+        "display": "-70.0pt",
+        "direction": "down",
+        "prev_value": 80.0,
+        "prev_date": "2026-11-14"
+      },
+      "caption": "あすは雨の心配は少ない",
+      "score": 6.0,
+      "z": 6.0,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "cold-points-0",
       "name": "0℃を下回った地点数",
@@ -38,6 +57,44 @@
       "caption": "北大東｜きょう日本でいちばん暑い",
       "score": 5.25,
       "z": 5.25,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "467地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 328,
+        "display": "+328地点",
+        "direction": "up",
+        "prev_value": 139,
+        "prev_date": "2026-11-14"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 3.95,
+      "z": 3.95,
+      "label": "かなり珍しい変化"
+    },
+    {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "2%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -38.0,
+        "display": "-38.0pt",
+        "direction": "down",
+        "prev_value": 40.0,
+        "prev_date": "2026-11-14"
+      },
+      "caption": "きょうのピークで電力の2%を太陽光がまかなった",
+      "score": 3.12,
+      "z": 3.12,
       "label": "かなり珍しい変化"
     },
     {
@@ -79,6 +136,25 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "tokyo-forecast-max",
+      "name": "東京のあしたの最高気温",
+      "category": "自然",
+      "value_display": "19℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 5.0,
+        "display": "+5℃",
+        "direction": "up",
+        "prev_value": 14.0,
+        "prev_date": "2026-11-14"
+      },
+      "caption": "あすは涼しい予想",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
@@ -95,25 +171,6 @@
       "caption": "きょうの東京の最高気温",
       "score": 1.35,
       "z": 1.35,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "302地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 163,
-        "display": "+163地点",
-        "direction": "up",
-        "prev_value": 139,
-        "prev_date": "2026-11-14"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 1.33,
-      "z": 1.33,
       "label": "通常の範囲"
     },
     {
@@ -150,6 +207,25 @@
         "prev_date": "2026-11-14"
       },
       "caption": "いま大雨警報は出ていない",
+      "score": 1.0,
+      "z": 1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "10回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 5,
+        "display": "+5回",
+        "direction": "up",
+        "prev_value": 5,
+        "prev_date": "2026-11-14"
+      },
+      "caption": "最大は熊本県熊本地方の震度3",
       "score": 1.0,
       "z": 1.0,
       "label": "通常の範囲"
@@ -228,6 +304,25 @@
       "caption": "きょうはまだ日照なし",
       "score": 0.29,
       "z": 0.29,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-wind",
+      "name": "全国最大風速（10分平均）",
+      "category": "自然",
+      "value_display": "14.6m/s",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 4.0,
+        "display": "+4m/s",
+        "direction": "up",
+        "prev_value": 10.6,
+        "prev_date": "2026-11-14"
+      },
+      "caption": "友ケ島｜全国でいちばん風が強い（10分平均）",
+      "score": 0.07,
+      "z": 0.07,
       "label": "通常の範囲"
     },
     {
@@ -348,19 +443,19 @@
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "51mm",
+      "value_display": "52.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 10.0,
-        "display": "+10mm",
+        "value": 11.5,
+        "display": "+11.5mm",
         "direction": "up",
         "prev_value": 41.0,
         "prev_date": "2026-11-14"
       },
-      "caption": "屋久島｜この3時間でいちばん激しく降った",
+      "caption": "上中｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.63,
+      "z": -0.47,
       "label": "通常の範囲"
     },
     {
@@ -383,41 +478,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-forecast-max",
-      "name": "東京のあしたの最高気温",
-      "category": "自然",
-      "value_display": "14℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
-        "prev_value": 14.0,
-        "prev_date": "2026-11-14"
-      },
-      "caption": "あすは涼しい予想",
-      "score": 0.0,
-      "z": -2.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
-      "value_display": "12℃",
+      "value_display": "13℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 12.0,
         "prev_date": "2026-11-14"
       },
       "caption": "あすの東京の最低気温の予想",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -435,25 +511,6 @@
         "prev_date": "2026-11-14"
       },
       "caption": "11月16日ごろがいちばん暑くなりそう",
-      "score": 0.0,
-      "z": -1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-forecast-pop",
-      "name": "東京のあしたの降水確率",
-      "category": "自然",
-      "value_display": "80%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
-        "prev_value": 80.0,
-        "prev_date": "2026-11-14"
-      },
-      "caption": "あすは雨の可能性が高い",
       "score": 0.0,
       "z": -1.0,
       "label": "通常の範囲"
@@ -478,41 +535,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "max-wind",
-      "name": "全国最大風速（10分平均）",
-      "category": "自然",
-      "value_display": "11.2m/s",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.6,
-        "display": "+0.6m/s",
-        "direction": "up",
-        "prev_value": 10.6,
-        "prev_date": "2026-11-14"
-      },
-      "caption": "瀬戸｜全国でいちばん風が強い（10分平均）",
-      "score": 0.0,
-      "z": -1.14,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-2.3℃",
+      "value_display": "-1.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.5,
-        "display": "+0.5℃",
+        "value": 1.2,
+        "display": "+1.2℃",
         "direction": "up",
         "prev_value": -2.8,
         "prev_date": "2026-11-14"
       },
       "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -1.19,
+      "z": -0.75,
       "label": "通常の範囲"
     },
     {
@@ -770,89 +808,51 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1cm",
-        "direction": "down",
-        "prev_value": -29.0,
-        "prev_date": "2026-11-13"
+        "value": 0.0,
+        "display": "±0cm",
+        "direction": "flat",
+        "prev_value": -30.0,
+        "prev_date": "2026-11-14"
       },
       "caption": "基準水位(B.S.L.)より30cm低い",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.0,
       "label": "通常の範囲"
     },
     {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "70.2%",
+      "value_display": "70.3%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -0.1,
-        "display": "-0.1pt",
-        "direction": "down",
-        "prev_value": 70.3,
-        "prev_date": "2026-11-13"
+        "value": 0.1,
+        "display": "+0.1pt",
+        "direction": "up",
+        "prev_value": 70.2,
+        "prev_date": "2026-11-14"
       },
       "caption": "主要17ダムの平均貯水率（やや少なめ）",
       "score": 0.0,
-      "z": -1.67,
+      "z": -1.33,
       "label": "通常の範囲"
     },
     {
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "92%",
+      "value_display": "91%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
         "prev_value": 89.0,
         "prev_date": "2026-11-14"
       },
       "caption": "ピークは18:00〜19:00の見込み",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "40%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -1.0,
-        "display": "-1.0pt",
-        "direction": "down",
-        "prev_value": 41.0,
-        "prev_date": "2026-11-13"
-      },
-      "caption": "きょうのピークで電力の40%を太陽光がまかなった",
-      "score": 0.0,
-      "z": -1.5,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "7回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 2,
-        "display": "+2回",
-        "direction": "up",
-        "prev_value": 5,
-        "prev_date": "2026-11-14"
-      },
-      "caption": "最大は熊本県熊本地方の震度3",
       "score": 0.0,
       "z": -0.5,
       "label": "通常の範囲"

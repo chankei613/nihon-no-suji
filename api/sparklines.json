@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T04:27:10+09:00",
+  "generated_at": "2026-11-15T08:19:54+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -2586,12 +2586,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "302地点",
+      "value_display": "467地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 163,
-        "display": "+163地点",
+        "value": 328,
+        "display": "+328地点",
         "direction": "up",
         "prev_value": 139,
         "prev_date": "2026-11-14"
@@ -2835,7 +2835,7 @@
         },
         {
           "date": "2026-11-15",
-          "value": 302
+          "value": 467
         }
       ]
     },
@@ -3102,12 +3102,12 @@
       "name": "全国最大3時間降水量",
       "category": "自然",
       "unit": "mm",
-      "value_display": "51mm",
+      "value_display": "52.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 10.0,
-        "display": "+10mm",
+        "value": 11.5,
+        "display": "+11.5mm",
         "direction": "up",
         "prev_value": 41.0,
         "prev_date": "2026-11-14"
@@ -3351,7 +3351,7 @@
         },
         {
           "date": "2026-11-15",
-          "value": 51.0
+          "value": 52.5
         }
       ]
     },
@@ -3618,13 +3618,13 @@
       "name": "東京のあしたの最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "14℃",
+      "value_display": "19℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 5.0,
+        "display": "+5℃",
+        "direction": "up",
         "prev_value": 14.0,
         "prev_date": "2026-11-14"
       },
@@ -3867,7 +3867,7 @@
         },
         {
           "date": "2026-11-15",
-          "value": 14.0
+          "value": 19.0
         }
       ]
     },
@@ -3876,13 +3876,13 @@
       "name": "東京のあしたの最低気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "12℃",
+      "value_display": "13℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 12.0,
         "prev_date": "2026-11-14"
       },
@@ -4125,7 +4125,7 @@
         },
         {
           "date": "2026-11-15",
-          "value": 12.0
+          "value": 13.0
         }
       ]
     },
@@ -4392,13 +4392,13 @@
       "name": "東京のあしたの降水確率",
       "category": "自然",
       "unit": "%",
-      "value_display": "80%",
+      "value_display": "10%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.0,
-        "display": "+0.0pt",
-        "direction": "flat",
+        "value": -70.0,
+        "display": "-70.0pt",
+        "direction": "down",
         "prev_value": 80.0,
         "prev_date": "2026-11-14"
       },
@@ -4641,7 +4641,7 @@
         },
         {
           "date": "2026-11-15",
-          "value": 80.0
+          "value": 10.0
         }
       ]
     },
@@ -4908,12 +4908,12 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "11.2m/s",
+      "value_display": "14.6m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.6,
-        "display": "+0.6m/s",
+        "value": 4.0,
+        "display": "+4m/s",
         "direction": "up",
         "prev_value": 10.6,
         "prev_date": "2026-11-14"
@@ -5157,7 +5157,7 @@
         },
         {
           "date": "2026-11-15",
-          "value": 11.2
+          "value": 14.6
         }
       ]
     },
@@ -5508,12 +5508,12 @@
       "name": "富士山頂の気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "-2.3℃",
+      "value_display": "-1.6℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.5,
-        "display": "+0.5℃",
+        "value": 1.2,
+        "display": "+1.2℃",
         "direction": "up",
         "prev_value": -2.8,
         "prev_date": "2026-11-14"
@@ -5757,7 +5757,7 @@
         },
         {
           "date": "2026-11-15",
-          "value": -2.3
+          "value": -1.6
         }
       ]
     },
@@ -11390,17 +11390,13 @@
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.0,
-        "display": "-1cm",
-        "direction": "down",
-        "prev_value": -29.0,
-        "prev_date": "2026-11-13"
+        "value": 0.0,
+        "display": "±0cm",
+        "direction": "flat",
+        "prev_value": -30.0,
+        "prev_date": "2026-11-14"
       },
       "points": [
-        {
-          "date": "2026-09-16",
-          "value": -25.0
-        },
         {
           "date": "2026-09-17",
           "value": -27.0
@@ -11636,6 +11632,10 @@
         {
           "date": "2026-11-14",
           "value": -30.0
+        },
+        {
+          "date": "2026-11-15",
+          "value": -30.0
         }
       ]
     },
@@ -11644,21 +11644,17 @@
       "name": "主要ダムの貯水率",
       "category": "自然",
       "unit": "%",
-      "value_display": "70.2%",
+      "value_display": "70.3%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -0.1,
-        "display": "-0.1pt",
-        "direction": "down",
-        "prev_value": 70.3,
-        "prev_date": "2026-11-13"
+        "value": 0.1,
+        "display": "+0.1pt",
+        "direction": "up",
+        "prev_value": 70.2,
+        "prev_date": "2026-11-14"
       },
       "points": [
-        {
-          "date": "2026-09-16",
-          "value": 86.7
-        },
         {
           "date": "2026-09-17",
           "value": 86.2
@@ -11894,6 +11890,10 @@
         {
           "date": "2026-11-14",
           "value": 70.2
+        },
+        {
+          "date": "2026-11-15",
+          "value": 70.3
         }
       ]
     },
@@ -11902,12 +11902,12 @@
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "92%",
+      "value_display": "91%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
+        "value": 2.0,
+        "display": "+2.0pt",
         "direction": "up",
         "prev_value": 89.0,
         "prev_date": "2026-11-14"
@@ -12151,7 +12151,7 @@
         },
         {
           "date": "2026-11-15",
-          "value": 92.0
+          "value": 91.0
         }
       ]
     },
@@ -12160,21 +12160,17 @@
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
       "unit": "%",
-      "value_display": "40%",
+      "value_display": "2%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -1.0,
-        "display": "-1.0pt",
+        "value": -38.0,
+        "display": "-38.0pt",
         "direction": "down",
-        "prev_value": 41.0,
-        "prev_date": "2026-11-13"
+        "prev_value": 40.0,
+        "prev_date": "2026-11-14"
       },
       "points": [
-        {
-          "date": "2026-09-16",
-          "value": 4.0
-        },
         {
           "date": "2026-09-17",
           "value": 29.0
@@ -12410,6 +12406,10 @@
         {
           "date": "2026-11-14",
           "value": 40.0
+        },
+        {
+          "date": "2026-11-15",
+          "value": 2.0
         }
       ]
     },
@@ -12418,12 +12418,12 @@
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
       "unit": "回",
-      "value_display": "7回",
+      "value_display": "10回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 2,
-        "display": "+2回",
+        "value": 5,
+        "display": "+5回",
         "direction": "up",
         "prev_value": 5,
         "prev_date": "2026-11-14"
@@ -12667,7 +12667,7 @@
         },
         {
           "date": "2026-11-15",
-          "value": 7
+          "value": 10
         }
       ]
     },
