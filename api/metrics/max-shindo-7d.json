@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-14T23:26:59+09:00",
+  "updated_at": "2026-11-15T04:27:10+09:00",
   "summary": {
-    "count": 72,
+    "count": 73,
     "first_date": "2026-09-04",
-    "last_date": "2026-11-14",
+    "last_date": "2026-11-15",
     "min_30d": 20.0,
     "max_30d": 50.0,
-    "avg_30d": 35.5
+    "avg_30d": 36.17
   },
   "history": [
     {
@@ -305,13 +305,17 @@
     {
       "date": "2026-11-14",
       "value": 50.0
+    },
+    {
+      "date": "2026-11-15",
+      "value": 40.0
     }
   ],
   "latest_detail": {
-    "label": "5強",
-    "place": "静岡県西部",
-    "at": "2026-11-08T01:04:00+09:00",
+    "label": "4",
+    "place": "熊本県天草・芦北地方",
+    "at": "2026-11-08T10:53:00+09:00",
     "capped": true,
-    "caption": "静岡県西部（11/08）"
+    "caption": "熊本県天草・芦北地方（11/08）"
   }
 }
