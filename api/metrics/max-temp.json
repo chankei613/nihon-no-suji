@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
   },
-  "updated_at": "2026-11-14T08:49:10+09:00",
+  "updated_at": "2026-11-14T15:57:30+09:00",
   "summary": {
     "count": 74,
     "first_date": "2026-09-02",
     "last_date": "2026-11-14",
-    "min_30d": 25.9,
+    "min_30d": 27.2,
     "max_30d": 33.6,
-    "avg_30d": 30.11,
-    "record_1st": 35.6,
+    "avg_30d": 30.21,
+    "record_1st": 35.1,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -315,14 +315,16 @@
     },
     {
       "date": "2026-11-14",
-      "value": 25.9
+      "value": 29.0
     }
   ],
   "latest_detail": {
-    "place": "石垣島",
+    "place": "北大東",
     "pref": "沖縄県",
-    "caption": "石垣島｜きょう日本でいちばん暑い",
-    "record_1st": 35.6,
+    "caption": "北大東｜きょう日本でいちばん暑い",
+    "normal_diff": 2.8,
+    "station_prev_diff": 0.7,
+    "record_1st": 35.1,
     "year_extreme": false,
     "all_time_record": false
   }
