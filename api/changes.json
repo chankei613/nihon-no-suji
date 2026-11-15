@@ -1,7 +1,26 @@
 {
-  "generated_at": "2026-11-15T08:19:54+09:00",
+  "generated_at": "2026-11-15T12:00:46+09:00",
   "date": "2026-11-15",
   "changes": [
+    {
+      "slug": "rain-points",
+      "name": "雨が降った地点数",
+      "category": "自然",
+      "value_display": "618地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 479,
+        "display": "+479地点",
+        "direction": "up",
+        "prev_value": 139,
+        "prev_date": "2026-11-14"
+      },
+      "caption": "きょう雨が降った地点",
+      "score": 6.35,
+      "z": 6.35,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
@@ -60,44 +79,6 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "rain-points",
-      "name": "雨が降った地点数",
-      "category": "自然",
-      "value_display": "467地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 328,
-        "display": "+328地点",
-        "direction": "up",
-        "prev_value": 139,
-        "prev_date": "2026-11-14"
-      },
-      "caption": "きょう雨が降った地点",
-      "score": 3.95,
-      "z": 3.95,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "2%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -38.0,
-        "display": "-38.0pt",
-        "direction": "down",
-        "prev_value": 40.0,
-        "prev_date": "2026-11-14"
-      },
-      "caption": "きょうのピークで電力の2%を太陽光がまかなった",
-      "score": 3.12,
-      "z": 3.12,
-      "label": "かなり珍しい変化"
-    },
-    {
       "slug": "usd-jpy",
       "name": "ドル円レート",
       "category": "経済",
@@ -114,25 +95,6 @@
       "caption": "1ドル＝158.88円（11月11日）",
       "score": 2.95,
       "z": 2.95,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "min-humidity",
-      "name": "全国の最小湿度",
-      "category": "自然",
-      "value_display": "56%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 22.0,
-        "display": "+22.0pt",
-        "direction": "up",
-        "prev_value": 34.0,
-        "prev_date": "2026-11-14"
-      },
-      "caption": "菅平｜全国でいちばん空気が乾いている",
-      "score": 2.4,
-      "z": 2.4,
       "label": "いつもより大きな変化"
     },
     {
@@ -155,22 +117,41 @@
       "label": "いつもより大きな変化"
     },
     {
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "12%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -28.0,
+        "display": "-28.0pt",
+        "direction": "down",
+        "prev_value": 40.0,
+        "prev_date": "2026-11-14"
+      },
+      "caption": "きょうのピークで電力の12%を太陽光がまかなった",
+      "score": 1.88,
+      "z": 1.88,
+      "label": "いつもより大きな変化"
+    },
+    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "14.1℃",
+      "value_display": "14.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -4.9,
-        "display": "-4.9℃",
+        "value": -4.8,
+        "display": "-4.8℃",
         "direction": "down",
         "prev_value": 19.0,
         "prev_date": "2026-11-14"
       },
       "caption": "きょうの東京の最高気温",
-      "score": 1.35,
-      "z": 1.35,
+      "score": 1.29,
+      "z": 1.29,
       "label": "通常の範囲"
     },
     {
@@ -212,25 +193,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "10回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 5,
-        "display": "+5回",
-        "direction": "up",
-        "prev_value": 5,
-        "prev_date": "2026-11-14"
-      },
-      "caption": "最大は熊本県熊本地方の震度3",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "snow-points",
       "name": "雪が積もっている地点数",
       "category": "自然",
@@ -247,6 +209,25 @@
       "caption": "雪が積もっている地点",
       "score": 0.75,
       "z": 0.75,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-humidity",
+      "name": "全国の最小湿度",
+      "category": "自然",
+      "value_display": "46%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 12.0,
+        "display": "+12.0pt",
+        "direction": "up",
+        "prev_value": 34.0,
+        "prev_date": "2026-11-14"
+      },
+      "caption": "神流｜全国でいちばん空気が乾いている",
+      "score": 0.5,
+      "z": 0.5,
       "label": "通常の範囲"
     },
     {
@@ -348,19 +329,19 @@
       "slug": "max-precip-24h",
       "name": "全国最大24時間降水量",
       "category": "自然",
-      "value_display": "124.5mm",
+      "value_display": "125mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 4.0,
-        "display": "+4mm",
+        "value": 4.5,
+        "display": "+4.5mm",
         "direction": "up",
         "prev_value": 120.5,
         "prev_date": "2026-11-14"
       },
       "caption": "久米島｜この24時間でいちばん降った",
       "score": 0.0,
-      "z": -1.12,
+      "z": -1.09,
       "label": "通常の範囲"
     },
     {
@@ -510,7 +491,7 @@
         "prev_value": 19.0,
         "prev_date": "2026-11-14"
       },
-      "caption": "11月16日ごろがいちばん暑くなりそう",
+      "caption": "11月19日ごろがいちばん暑くなりそう",
       "score": 0.0,
       "z": -1.0,
       "label": "通常の範囲"
@@ -519,38 +500,38 @@
       "slug": "min-pressure",
       "name": "全国の最低海面気圧",
       "category": "自然",
-      "value_display": "1,001hPa",
+      "value_display": "999.6hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3.8,
-        "display": "-3.8hPa",
+        "value": -5.2,
+        "display": "-5.2hPa",
         "direction": "down",
         "prev_value": 1004.8,
         "prev_date": "2026-11-14"
       },
-      "caption": "日田｜全国でいちばん気圧が低い",
+      "caption": "彦根｜全国でいちばん気圧が低い",
       "score": 0.0,
-      "z": -0.61,
+      "z": -0.11,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-1.6℃",
+      "value_display": "-1℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.2,
-        "display": "+1.2℃",
+        "value": 1.8,
+        "display": "+1.8℃",
         "direction": "up",
         "prev_value": -2.8,
         "prev_date": "2026-11-14"
       },
       "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -0.75,
+      "z": -0.38,
       "label": "通常の範囲"
     },
     {
@@ -842,19 +823,38 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "91%",
+      "value_display": "90%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.0,
-        "display": "+2.0pt",
+        "value": 1.0,
+        "display": "+1.0pt",
         "direction": "up",
         "prev_value": 89.0,
         "prev_date": "2026-11-14"
       },
       "caption": "ピークは18:00〜19:00の見込み",
       "score": 0.0,
-      "z": -0.5,
+      "z": -1.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "8回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3,
+        "display": "+3回",
+        "direction": "up",
+        "prev_value": 5,
+        "prev_date": "2026-11-14"
+      },
+      "caption": "最大は熊本県熊本地方の震度3",
+      "score": 0.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
