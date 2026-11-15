@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mxtemsadext00_rct.csv"
   },
-  "updated_at": "2026-11-15T12:00:46+09:00",
+  "updated_at": "2026-11-15T20:26:12+09:00",
   "summary": {
     "count": 75,
     "first_date": "2026-09-02",
     "last_date": "2026-11-15",
-    "min_30d": 26.3,
+    "min_30d": 27.2,
     "max_30d": 33.6,
-    "avg_30d": 30.03,
-    "record_1st": 35.1,
+    "avg_30d": 30.07,
+    "record_1st": 35.9,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -319,14 +319,16 @@
     },
     {
       "date": "2026-11-15",
-      "value": 26.3
+      "value": 27.5
     }
   ],
   "latest_detail": {
-    "place": "北大東",
+    "place": "西表島",
     "pref": "沖縄県",
-    "caption": "北大東｜きょう日本でいちばん暑い",
-    "record_1st": 35.1,
+    "caption": "西表島｜きょう日本でいちばん暑い",
+    "normal_diff": 2.0,
+    "station_prev_diff": 1.0,
+    "record_1st": 35.9,
     "year_extreme": false,
     "all_time_record": false
   }
