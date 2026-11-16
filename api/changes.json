@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T12:00:20+09:00",
+  "generated_at": "2026-11-16T20:59:07+09:00",
   "date": "2026-11-16",
   "changes": [
     {
@@ -25,57 +25,38 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "120地点",
+      "value_display": "125地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -584,
-        "display": "-584地点",
+        "value": -579,
+        "display": "-579地点",
         "direction": "down",
         "prev_value": 704,
         "prev_date": "2026-11-15"
       },
       "caption": "きょう雨が降った地点",
-      "score": 7.77,
-      "z": 7.77,
+      "score": 7.69,
+      "z": 7.69,
       "label": "かなり珍しい変化"
     },
     {
       "slug": "tokyo-forecast-pop",
       "name": "東京のあしたの降水確率",
       "category": "自然",
-      "value_display": "70%",
+      "value_display": "80%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 60.0,
-        "display": "+60.0pt",
+        "value": 70.0,
+        "display": "+70.0pt",
         "direction": "up",
         "prev_value": 10.0,
         "prev_date": "2026-11-15"
       },
       "caption": "あすは雨の可能性が高い",
-      "score": 5.0,
-      "z": 5.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "cold-points-0",
-      "name": "0℃を下回った地点数",
-      "category": "自然",
-      "value_display": "3地点",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -53,
-        "display": "-53地点",
-        "direction": "down",
-        "prev_value": 56,
-        "prev_date": "2026-11-15"
-      },
-      "caption": "きょう0℃を下回った地点",
-      "score": 4.3,
-      "z": 4.3,
+      "score": 6.0,
+      "z": 6.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -136,25 +117,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "min-temp",
-      "name": "全国最低気温",
-      "category": "自然",
-      "value_display": "-1℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 6.0,
-        "display": "+6℃",
-        "direction": "up",
-        "prev_value": -7.0,
-        "prev_date": "2026-11-15"
-      },
-      "caption": "東神楽｜きょう日本でいちばん寒い",
-      "score": 2.18,
-      "z": 2.18,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
@@ -177,19 +139,19 @@
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
-      "value_display": "20.1℃",
+      "value_display": "20.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.3,
-        "display": "+5.3℃",
+        "value": 5.7,
+        "display": "+5.7℃",
         "direction": "up",
         "prev_value": 14.8,
         "prev_date": "2026-11-15"
       },
       "caption": "きょうの東京の最高気温",
-      "score": 1.59,
-      "z": 1.59,
+      "score": 1.82,
+      "z": 1.82,
       "label": "いつもより大きな変化"
     },
     {
@@ -250,22 +212,41 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "dam-storage",
-      "name": "主要ダムの貯水率",
+      "slug": "min-temp",
+      "name": "全国最低気温",
       "category": "自然",
-      "value_display": "71.1%",
+      "value_display": "-2.8℃",
       "change": {
-        "type": "percentage_point",
+        "type": "absolute",
         "available": true,
-        "value": 0.8,
-        "display": "+0.8pt",
+        "value": 4.2,
+        "display": "+4.2℃",
         "direction": "up",
-        "prev_value": 70.3,
+        "prev_value": -7.0,
         "prev_date": "2026-11-15"
       },
-      "caption": "主要17ダムの平均貯水率（やや少なめ）",
-      "score": 1.0,
-      "z": 1.0,
+      "caption": "白滝｜きょう日本でいちばん寒い",
+      "score": 1.12,
+      "z": 1.12,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "cold-points-0",
+      "name": "0℃を下回った地点数",
+      "category": "自然",
+      "value_display": "37地点",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -19,
+        "display": "-19地点",
+        "direction": "down",
+        "prev_value": 56,
+        "prev_date": "2026-11-15"
+      },
+      "caption": "きょう0℃を下回った地点",
+      "score": 0.9,
+      "z": 0.9,
       "label": "通常の範囲"
     },
     {
@@ -288,6 +269,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "dam-storage",
+      "name": "主要ダムの貯水率",
+      "category": "自然",
+      "value_display": "71%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": 0.7,
+        "display": "+0.7pt",
+        "direction": "up",
+        "prev_value": 70.3,
+        "prev_date": "2026-11-15"
+      },
+      "caption": "主要17ダムの平均貯水率（やや少なめ）",
+      "score": 0.67,
+      "z": 0.67,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
@@ -302,6 +302,25 @@
         "prev_date": "2026-11-15"
       },
       "caption": "佐野｜全国でいちばん空気が乾いている",
+      "score": 0.5,
+      "z": 0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "6回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -4,
+        "display": "-4回",
+        "direction": "down",
+        "prev_value": 10,
+        "prev_date": "2026-11-15"
+      },
+      "caption": "最大は石川県能登地方の震度1",
       "score": 0.5,
       "z": 0.5,
       "label": "通常の範囲"
@@ -367,19 +386,19 @@
       "slug": "max-temp",
       "name": "全国最高気温",
       "category": "自然",
-      "value_display": "27.4℃",
+      "value_display": "28℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.1,
-        "display": "-0.1℃",
-        "direction": "down",
+        "value": 0.5,
+        "display": "+0.5℃",
+        "direction": "up",
         "prev_value": 27.5,
         "prev_date": "2026-11-15"
       },
-      "caption": "盛山｜きょう日本でいちばん暑い",
+      "caption": "北大東｜きょう日本でいちばん暑い",
       "score": 0.0,
-      "z": -1.25,
+      "z": -0.25,
       "label": "通常の範囲"
     },
     {
@@ -500,38 +519,38 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "15.6m/s",
+      "value_display": "16m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.0,
-        "display": "+1m/s",
+        "value": 1.4,
+        "display": "+1.4m/s",
         "direction": "up",
         "prev_value": 14.6,
         "prev_date": "2026-11-15"
       },
-      "caption": "飛島｜全国でいちばん風が強い（10分平均）",
+      "caption": "宗谷岬｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
-      "z": -0.95,
+      "z": -0.77,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-4.2℃",
+      "value_display": "-5.9℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.1,
-        "display": "+0.1℃",
-        "direction": "up",
+        "value": -1.6,
+        "display": "-1.6℃",
+        "direction": "down",
         "prev_value": -4.3,
         "prev_date": "2026-11-15"
       },
       "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -1.44,
+      "z": -0.5,
       "label": "通常の範囲"
     },
     {
@@ -823,38 +842,19 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "89%",
+      "value_display": "86%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 3.0,
-        "display": "+3.0pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 86.0,
         "prev_date": "2026-11-15"
       },
       "caption": "ピークは17:00〜18:00の見込み",
       "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "7回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -3,
-        "display": "-3回",
-        "direction": "down",
-        "prev_value": 10,
-        "prev_date": "2026-11-15"
-      },
-      "caption": "最大は熊本県熊本地方の震度2",
-      "score": 0.0,
-      "z": 0.0,
+      "z": -1.5,
       "label": "通常の範囲"
     },
     {
