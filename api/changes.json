@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T07:28:46+09:00",
+  "generated_at": "2026-11-17T13:45:05+09:00",
   "date": "2026-11-17",
   "changes": [
     {
@@ -41,41 +41,22 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "25℃",
+      "slug": "solar-share-tokyo",
+      "name": "東京エリアの太陽光発電シェア（ピーク）",
+      "category": "インフラ",
+      "value_display": "4%",
       "change": {
-        "type": "absolute",
+        "type": "percentage_point",
         "available": true,
-        "value": -3.0,
-        "display": "-3℃",
+        "value": -36.0,
+        "display": "-36.0pt",
         "direction": "down",
-        "prev_value": 28.0,
+        "prev_value": 40.0,
         "prev_date": "2026-11-16"
       },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 6.0,
-      "z": 6.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "usd-jpy",
-      "name": "ドル円レート",
-      "category": "経済",
-      "value_display": "159.71円",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.83,
-        "display": "+0.83円",
-        "direction": "up",
-        "prev_value": 158.88,
-        "prev_date": "2026-11-11"
-      },
-      "caption": "1ドル＝159.71円（11月12日）",
-      "score": 2.8,
-      "z": 2.8,
+      "caption": "きょうのピークで電力の4%を太陽光がまかなった",
+      "score": 2.88,
+      "z": 2.88,
       "label": "いつもより大きな変化"
     },
     {
@@ -117,25 +98,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "solar-share-tokyo",
-      "name": "東京エリアの太陽光発電シェア（ピーク）",
-      "category": "インフラ",
-      "value_display": "40%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": 28.0,
-        "display": "+28.0pt",
-        "direction": "up",
-        "prev_value": 12.0,
-        "prev_date": "2026-11-15"
-      },
-      "caption": "きょうのピークで電力の40%を太陽光がまかなった",
-      "score": 1.88,
-      "z": 1.88,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "tokyo-max-temp",
       "name": "東京の最高気温",
       "category": "自然",
@@ -152,25 +114,6 @@
       "caption": "きょうの東京の最高気温",
       "score": 1.82,
       "z": 1.82,
-      "label": "いつもより大きな変化"
-    },
-    {
-      "slug": "min-pressure",
-      "name": "全国の最低海面気圧",
-      "category": "自然",
-      "value_display": "1008.9hPa",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 10.8,
-        "display": "+10.8hPa",
-        "direction": "up",
-        "prev_value": 998.1,
-        "prev_date": "2026-11-16"
-      },
-      "caption": "日田｜全国でいちばん気圧が低い",
-      "score": 1.79,
-      "z": 1.79,
       "label": "いつもより大きな変化"
     },
     {
@@ -209,6 +152,25 @@
       "caption": "きょうはまだ日照なし",
       "score": 1.43,
       "z": 1.43,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "29℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
+        "prev_value": 28.0,
+        "prev_date": "2026-11-16"
+      },
+      "caption": "北大東｜きょう日本でいちばん暑い",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -266,6 +228,25 @@
       "caption": "南鳥島27.8℃ と 中杵臼-5.1℃ の差",
       "score": 0.58,
       "z": 0.58,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "min-pressure",
+      "name": "全国の最低海面気圧",
+      "category": "自然",
+      "value_display": "1005.1hPa",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 7.0,
+        "display": "+7hPa",
+        "direction": "up",
+        "prev_value": 998.1,
+        "prev_date": "2026-11-16"
+      },
+      "caption": "日田｜全国でいちばん気圧が低い",
+      "score": 0.5,
+      "z": 0.5,
       "label": "通常の範囲"
     },
     {
@@ -405,57 +386,57 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "45地点",
+      "value_display": "187地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -80,
-        "display": "-80地点",
-        "direction": "down",
+        "value": 62,
+        "display": "+62地点",
+        "direction": "up",
         "prev_value": 125,
         "prev_date": "2026-11-16"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.26,
       "label": "通常の範囲"
     },
     {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "36mm",
+      "value_display": "38.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 14.5,
-        "display": "+14.5mm",
+        "value": 17.0,
+        "display": "+17mm",
         "direction": "up",
         "prev_value": 21.5,
         "prev_date": "2026-11-16"
       },
-      "caption": "屋久島｜この3時間でいちばん激しく降った",
+      "caption": "日向｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": -0.33,
+      "z": -0.1,
       "label": "通常の範囲"
     },
     {
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "20℃",
+      "value_display": "19℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
         "prev_value": 20.0,
         "prev_date": "2026-11-16"
       },
       "caption": "11月19日ごろがいちばん暑くなりそう",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -481,38 +462,38 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "41%",
+      "value_display": "31%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 7.0,
-        "display": "+7.0pt",
-        "direction": "up",
+        "value": -3.0,
+        "display": "-3.0pt",
+        "direction": "down",
         "prev_value": 34.0,
         "prev_date": "2026-11-16"
       },
-      "caption": "奥尻｜全国でいちばん空気が乾いている",
+      "caption": "長沼｜全国でいちばん空気が乾いている",
       "score": 0.0,
-      "z": -0.75,
+      "z": -1.75,
       "label": "通常の範囲"
     },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-6.7℃",
+      "value_display": "-3.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.8,
-        "display": "-0.8℃",
-        "direction": "down",
+        "value": 2.4,
+        "display": "+2.4℃",
+        "direction": "up",
         "prev_value": -5.9,
         "prev_date": "2026-11-16"
       },
       "caption": "氷点下。街とはまるで別世界",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -532,6 +513,25 @@
       "caption": "レギュラーガソリン全国平均（11月9日調査）",
       "score": 0.0,
       "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "usd-jpy",
+      "name": "ドル円レート",
+      "category": "経済",
+      "value_display": "159.85円",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 0.14,
+        "display": "+0.14円",
+        "direction": "up",
+        "prev_value": 159.71,
+        "prev_date": "2026-11-12"
+      },
+      "caption": "1ドル＝159.85円（11月13日）",
+      "score": 0.0,
+      "z": -0.56,
       "label": "通常の範囲"
     },
     {
@@ -823,19 +823,19 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "88%",
+      "value_display": "89%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 2.0,
-        "display": "+2.0pt",
+        "value": 3.0,
+        "display": "+3.0pt",
         "direction": "up",
         "prev_value": 86.0,
         "prev_date": "2026-11-16"
       },
       "caption": "ピークは16:00〜17:00の見込み",
       "score": 0.0,
-      "z": -0.5,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -852,7 +852,7 @@
         "prev_value": 6,
         "prev_date": "2026-11-16"
       },
-      "caption": "最大は石川県能登地方の震度1",
+      "caption": "最大は宮古島近海の震度1",
       "score": 0.0,
       "z": 0.0,
       "label": "通常の範囲"

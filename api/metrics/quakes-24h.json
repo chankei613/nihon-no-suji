@@ -8,7 +8,7 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-17T07:28:46+09:00",
+  "updated_at": "2026-11-17T13:45:05+09:00",
   "summary": {
     "count": 77,
     "first_date": "2026-09-02",
@@ -328,22 +328,22 @@
     }
   ],
   "latest_detail": {
-    "caption": "最大は石川県能登地方の震度1",
+    "caption": "最大は宮古島近海の震度1",
     "window_hours": 24,
-    "max_magnitude": 5.1,
+    "max_magnitude": 3.9,
     "strongest": {
-      "time": "2026-11-16T13:24:00+09:00",
-      "scale": 10,
-      "name": "石川県能登地方",
-      "magnitude": 5.1,
-      "depth": 280
-    },
-    "latest": {
       "time": "2026-11-17T01:45:00+09:00",
       "scale": 10,
       "name": "宮古島近海",
       "magnitude": 3.9,
       "depth": 30
+    },
+    "latest": {
+      "time": "2026-11-17T10:40:00+09:00",
+      "scale": 10,
+      "name": "熊本県天草・芦北地方",
+      "magnitude": 2.6,
+      "depth": 10
     },
     "capped": false
   }
