@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-11-17T23:50:27+09:00",
+  "updated_at": "2026-11-18T08:06:45+09:00",
   "summary": {
-    "count": 77,
+    "count": 78,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-17",
+    "last_date": "2026-11-18",
     "min_30d": -20.2,
     "max_30d": 2.2,
-    "avg_30d": -5.42,
-    "record_1st": -37.6,
+    "avg_30d": -5.46,
+    "record_1st": -28.6,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -328,15 +328,19 @@
     {
       "date": "2026-11-17",
       "value": -8.1
+    },
+    {
+      "date": "2026-11-18",
+      "value": -5.6
     }
   ],
   "latest_detail": {
-    "place": "幌加内",
+    "place": "上川",
     "pref": "北海道上川地方",
-    "caption": "幌加内｜きょう日本でいちばん寒い",
-    "normal_diff": -5.3,
-    "station_prev_diff": -5.2,
-    "record_1st": -37.6,
+    "caption": "上川｜きょう日本でいちばん寒い",
+    "normal_diff": -1.8,
+    "station_prev_diff": -0.3,
+    "record_1st": -28.6,
     "year_extreme": false,
     "all_time_record": false
   }
