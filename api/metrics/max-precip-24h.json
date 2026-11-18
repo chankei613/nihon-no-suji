@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-11-18T23:30:33+09:00",
+  "updated_at": "2026-11-19T07:16:35+09:00",
   "summary": {
-    "count": 78,
+    "count": 79,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-18",
+    "last_date": "2026-11-19",
     "min_30d": 8.0,
     "max_30d": 402.0,
-    "avg_30d": 131.57,
-    "record_1st": 384.0,
+    "avg_30d": 132.03,
+    "record_1st": 437.0,
     "all_time_record": false
   },
   "history": [
@@ -331,13 +331,17 @@
     {
       "date": "2026-11-18",
       "value": 148.0
+    },
+    {
+      "date": "2026-11-19",
+      "value": 144.5
     }
   ],
   "latest_detail": {
-    "place": "利島",
-    "pref": "東京都",
-    "caption": "利島｜この24時間でいちばん降った",
-    "record_1st": 384.0,
+    "place": "普代",
+    "pref": "岩手県",
+    "caption": "普代｜この24時間でいちばん降った",
+    "record_1st": 437.0,
     "all_time_record": false
   }
 }
