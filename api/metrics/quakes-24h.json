@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-18T13:41:24+09:00",
+  "updated_at": "2026-11-18T23:30:33+09:00",
   "summary": {
     "count": 78,
     "first_date": "2026-09-02",
     "last_date": "2026-11-18",
     "min_30d": 2,
     "max_30d": 18,
-    "avg_30d": 6.5
+    "avg_30d": 6.47
   },
   "history": [
     {
@@ -328,26 +328,26 @@
     },
     {
       "date": "2026-11-18",
-      "value": 9
+      "value": 8
     }
   ],
   "latest_detail": {
-    "caption": "最大は熊本県天草・芦北地方の震度3",
+    "caption": "最大は日本海中部の震度3",
     "window_hours": 24,
-    "max_magnitude": 4.5,
+    "max_magnitude": 5,
     "strongest": {
-      "time": "2026-11-18T02:54:00+09:00",
+      "time": "2026-11-18T18:37:00+09:00",
       "scale": 30,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 3.3,
-      "depth": 0
+      "name": "日本海中部",
+      "magnitude": 5,
+      "depth": 10
     },
     "latest": {
-      "time": "2026-11-18T10:52:00+09:00",
-      "scale": 10,
-      "name": "岐阜県飛騨地方",
-      "magnitude": 2.1,
-      "depth": 10
+      "time": "2026-11-18T18:37:00+09:00",
+      "scale": 30,
+      "name": "",
+      "magnitude": -1,
+      "depth": -1
     },
     "capped": false
   }
