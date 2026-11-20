@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-20T07:25:00+09:00",
+  "updated_at": "2026-11-20T12:42:17+09:00",
   "summary": {
     "count": 80,
     "first_date": "2026-09-02",
     "last_date": "2026-11-20",
     "min_30d": 2,
     "max_30d": 68,
-    "avg_30d": 9.5
+    "avg_30d": 9.43
   },
   "history": [
     {
@@ -336,26 +336,26 @@
     },
     {
       "date": "2026-11-20",
-      "value": 27
+      "value": 25
     }
   ],
   "latest_detail": {
-    "caption": "最大は熊本県天草・芦北地方の震度3",
+    "caption": "最大は熊本県天草・芦北地方の震度2",
     "window_hours": 24,
-    "max_magnitude": 3.6,
+    "max_magnitude": 3.7,
     "strongest": {
-      "time": "2026-11-19T09:38:00+09:00",
-      "scale": 30,
+      "time": "2026-11-19T20:41:00+09:00",
+      "scale": 20,
       "name": "熊本県天草・芦北地方",
-      "magnitude": 3.6,
+      "magnitude": 3.3,
       "depth": 10
     },
     "latest": {
-      "time": "2026-11-20T05:02:00+09:00",
+      "time": "2026-11-20T11:58:00+09:00",
       "scale": 10,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 2.7,
-      "depth": 10
+      "name": "宮城県沖",
+      "magnitude": 3.7,
+      "depth": 60
     },
     "capped": false
   }
