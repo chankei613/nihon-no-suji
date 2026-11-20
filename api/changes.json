@@ -1,43 +1,24 @@
 {
-  "generated_at": "2026-11-20T12:42:17+09:00",
+  "generated_at": "2026-11-20T22:31:11+09:00",
   "date": "2026-11-20",
   "changes": [
     {
       "slug": "quakes-24h",
       "name": "地震回数（過去24時間・震度1以上）",
       "category": "防災",
-      "value_display": "25回",
+      "value_display": "23回",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -43,
-        "display": "-43回",
+        "value": -45,
+        "display": "-45回",
         "direction": "down",
         "prev_value": 68,
         "prev_date": "2026-11-19"
       },
-      "caption": "最大は熊本県天草・芦北地方の震度2",
-      "score": 20.0,
-      "z": 20.0,
-      "label": "かなり珍しい変化"
-    },
-    {
-      "slug": "warned-municipalities",
-      "name": "気象警報が出ている市町村数",
-      "category": "防災",
-      "value_display": "38市町村",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 7,
-        "display": "+7市町村",
-        "direction": "up",
-        "prev_value": 31,
-        "prev_date": "2026-11-19"
-      },
-      "caption": "38市町村に気象警報",
-      "score": 6.0,
-      "z": 6.0,
+      "caption": "最大は熊本県天草・芦北地方の震度4",
+      "score": 21.0,
+      "z": 21.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -60,117 +41,98 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
-      "category": "自然",
-      "value_display": "25.3℃",
+      "slug": "warned-municipalities",
+      "name": "気象警報が出ている市町村数",
+      "category": "防災",
+      "value_display": "27市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -1.6,
-        "display": "-1.6℃",
+        "value": -4,
+        "display": "-4市町村",
         "direction": "down",
-        "prev_value": 26.9,
+        "prev_value": 31,
         "prev_date": "2026-11-19"
       },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 2.5,
-      "z": 2.5,
-      "label": "いつもより大きな変化"
+      "caption": "27市町村に気象警報",
+      "score": 3.0,
+      "z": 3.0,
+      "label": "かなり珍しい変化"
     },
     {
       "slug": "cold-points-0",
       "name": "0℃を下回った地点数",
       "category": "自然",
-      "value_display": "199地点",
+      "value_display": "215地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 59,
-        "display": "+59地点",
+        "value": 75,
+        "display": "+75地点",
         "direction": "up",
         "prev_value": 140,
         "prev_date": "2026-11-19"
       },
       "caption": "きょう0℃を下回った地点",
-      "score": 1.81,
-      "z": 1.81,
+      "score": 2.57,
+      "z": 2.57,
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "tokyo-forecast-min",
-      "name": "東京のあしたの最低気温",
+      "slug": "max-temp",
+      "name": "全国最高気温",
       "category": "自然",
-      "value_display": "5℃",
+      "value_display": "25.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.0,
-        "display": "-2℃",
+        "value": -1.4,
+        "display": "-1.4℃",
         "direction": "down",
-        "prev_value": 7.0,
+        "prev_value": 26.9,
         "prev_date": "2026-11-19"
       },
-      "caption": "あすの東京の最低気温の予想",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
+      "caption": "父島｜きょう日本でいちばん暑い",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "sediment-warning-municipalities",
       "name": "土砂災害警戒情報が出ている市町村数",
       "category": "防災",
-      "value_display": "1市町村",
+      "value_display": "2市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1,
-        "display": "+1市町村",
+        "value": 2,
+        "display": "+2市町村",
         "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-11-19"
       },
-      "caption": "1市町村に土砂災害警戒情報",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
+      "caption": "2市町村に土砂災害警戒情報",
+      "score": 2.0,
+      "z": 2.0,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "dam-storage",
       "name": "主要ダムの貯水率",
       "category": "自然",
-      "value_display": "73.1%",
+      "value_display": "73.2%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 0.9,
-        "display": "+0.9pt",
+        "value": 1.0,
+        "display": "+1.0pt",
         "direction": "up",
         "prev_value": 72.2,
         "prev_date": "2026-11-19"
       },
       "caption": "主要16ダムの平均貯水率（やや少なめ）",
-      "score": 1.0,
-      "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "15.8℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -4.1,
-        "display": "-4.1℃",
-        "direction": "down",
-        "prev_value": 19.9,
-        "prev_date": "2026-11-19"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 0.78,
-      "z": 0.78,
+      "score": 1.33,
+      "z": 1.33,
       "label": "通常の範囲"
     },
     {
@@ -190,25 +152,6 @@
       "caption": "朱鞠内｜全国でいちばん雪が深い",
       "score": 0.56,
       "z": 0.56,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "110mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -34.5,
-        "display": "-34.5mm",
-        "direction": "down",
-        "prev_value": 144.5,
-        "prev_date": "2026-11-19"
-      },
-      "caption": "大潟｜この24時間でいちばん降った",
-      "score": 0.51,
-      "z": 0.51,
       "label": "通常の範囲"
     },
     {
@@ -247,6 +190,44 @@
       "caption": "総務省統計局 消費者物価指数（生鮮食品を含む総合・前年同月比）",
       "score": 0.2,
       "z": 0.2,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "16.9℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -3.0,
+        "display": "-3℃",
+        "direction": "down",
+        "prev_value": 19.9,
+        "prev_date": "2026-11-19"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 0.17,
+      "z": 0.17,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "123.5mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -21.0,
+        "display": "-21mm",
+        "direction": "down",
+        "prev_value": 144.5,
+        "prev_date": "2026-11-19"
+      },
+      "caption": "柏崎｜この24時間でいちばん降った",
+      "score": 0.0,
+      "z": -0.19,
       "label": "通常の範囲"
     },
     {
@@ -329,19 +310,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "211地点",
+      "value_display": "270地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2,
-        "display": "-2地点",
-        "direction": "down",
+        "value": 57,
+        "display": "+57地点",
+        "direction": "up",
         "prev_value": 213,
         "prev_date": "2026-11-19"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.06,
+      "z": -0.42,
       "label": "通常の範囲"
     },
     {
@@ -421,6 +402,25 @@
       "label": "通常の範囲"
     },
     {
+      "slug": "tokyo-forecast-min",
+      "name": "東京のあしたの最低気温",
+      "category": "自然",
+      "value_display": "6℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
+        "prev_value": 7.0,
+        "prev_date": "2026-11-19"
+      },
+      "caption": "あすの東京の最低気温の予想",
+      "score": 0.0,
+      "z": 0.0,
+      "label": "通常の範囲"
+    },
+    {
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
@@ -481,19 +481,19 @@
       "slug": "max-wind",
       "name": "全国最大風速（10分平均）",
       "category": "自然",
-      "value_display": "16.7m/s",
+      "value_display": "19.2m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -0.8,
-        "display": "-0.8m/s",
-        "direction": "down",
+        "value": 1.7,
+        "display": "+1.7m/s",
+        "direction": "up",
         "prev_value": 17.5,
         "prev_date": "2026-11-19"
       },
-      "caption": "新島｜全国でいちばん風が強い（10分平均）",
+      "caption": "飛島｜全国でいちばん風が強い（10分平均）",
       "score": 0.0,
-      "z": -1.1,
+      "z": -0.67,
       "label": "通常の範囲"
     },
     {
@@ -538,19 +538,19 @@
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-20℃",
+      "value_display": "-20.2℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.1,
-        "display": "-2.1℃",
+        "value": -2.3,
+        "display": "-2.3℃",
         "direction": "down",
         "prev_value": -17.9,
         "prev_date": "2026-11-19"
       },
       "caption": "真冬並みの厳しい寒さ",
       "score": 0.0,
-      "z": -0.19,
+      "z": -0.06,
       "label": "通常の範囲"
     },
     {
@@ -823,19 +823,19 @@
       "slug": "elec-usage-tokyo",
       "name": "東京エリアの電力使用率",
       "category": "インフラ",
-      "value_display": "87%",
+      "value_display": "86%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 1.0,
-        "display": "+1.0pt",
-        "direction": "up",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 86.0,
         "prev_date": "2026-11-19"
       },
       "caption": "ピークは17:00〜18:00の見込み",
       "score": 0.0,
-      "z": -1.0,
+      "z": -1.5,
       "label": "通常の範囲"
     },
     {
