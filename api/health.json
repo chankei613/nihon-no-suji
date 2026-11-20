@@ -1,91 +1,93 @@
 {
-  "generated_at": "2026-11-20T22:31:11+09:00",
-  "overall": "ok",
-  "degraded": [],
+  "generated_at": "2026-11-21T06:30:46+09:00",
+  "overall": "degraded",
+  "degraded": [
+    "mlit_water"
+  ],
   "collectors": [
     {
       "name": "jma_rank",
       "status": "ok",
       "metrics": 4,
-      "at": "2026-11-20T22:30:02+09:00"
+      "at": "2026-11-21T06:28:56+09:00"
     },
     {
       "name": "jma_amedas",
       "status": "ok",
       "metrics": 14,
-      "at": "2026-11-20T22:30:03+09:00"
+      "at": "2026-11-21T06:28:57+09:00"
     },
     {
       "name": "jma_forecast",
       "status": "ok",
       "metrics": 4,
-      "at": "2026-11-20T22:30:04+09:00"
+      "at": "2026-11-21T06:28:58+09:00"
     },
     {
       "name": "jma_typhoon",
       "status": "ok",
       "metrics": 2,
-      "at": "2026-11-20T22:30:04+09:00"
+      "at": "2026-11-21T06:28:58+09:00"
     },
     {
       "name": "jma_warning",
       "status": "ok",
       "metrics": 4,
-      "at": "2026-11-20T22:30:05+09:00"
+      "at": "2026-11-21T06:28:58+09:00"
     },
     {
       "name": "jma_volcano",
       "status": "ok",
       "metrics": 1,
-      "at": "2026-11-20T22:30:45+09:00"
+      "at": "2026-11-21T06:29:58+09:00"
     },
     {
       "name": "jma_sakura",
       "status": "ok",
       "metrics": 2,
-      "at": "2026-11-20T22:30:46+09:00"
+      "at": "2026-11-21T06:30:00+09:00"
     },
     {
       "name": "mlit_water",
-      "status": "ok",
-      "metrics": 2,
-      "at": "2026-11-20T22:31:00+09:00"
+      "status": "degraded",
+      "metrics": 1,
+      "at": "2026-11-21T06:30:31+09:00"
     },
     {
       "name": "tepco_pg",
       "status": "ok",
-      "metrics": 2,
-      "at": "2026-11-20T22:31:00+09:00"
+      "metrics": 1,
+      "at": "2026-11-21T06:30:32+09:00"
     },
     {
       "name": "p2pquake",
       "status": "ok",
       "metrics": 2,
-      "at": "2026-11-20T22:31:01+09:00"
+      "at": "2026-11-21T06:30:35+09:00"
     },
     {
       "name": "enecho_gas",
       "status": "ok",
       "metrics": 1,
-      "at": "2026-11-20T22:31:02+09:00"
+      "at": "2026-11-21T06:30:36+09:00"
     },
     {
       "name": "boj_fx",
       "status": "ok",
       "metrics": 1,
-      "at": "2026-11-20T22:31:02+09:00"
+      "at": "2026-11-21T06:30:37+09:00"
     },
     {
       "name": "estat",
       "status": "ok",
       "metrics": 5,
-      "at": "2026-11-20T22:31:11+09:00"
+      "at": "2026-11-21T06:30:46+09:00"
     },
     {
       "name": "astro",
       "status": "ok",
       "metrics": 9,
-      "at": "2026-11-20T22:31:11+09:00"
+      "at": "2026-11-21T06:30:46+09:00"
     }
   ]
 }
