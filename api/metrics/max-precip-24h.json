@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-11-24T00:15:02+09:00",
+  "updated_at": "2026-11-24T11:32:23+09:00",
   "summary": {
-    "count": 83,
+    "count": 84,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-23",
+    "last_date": "2026-11-24",
     "min_30d": 8.0,
     "max_30d": 292.5,
-    "avg_30d": 110.08,
-    "record_1st": 405.5,
+    "avg_30d": 104.0,
+    "record_1st": 325.0,
     "all_time_record": false
   },
   "history": [
@@ -351,13 +351,17 @@
     {
       "date": "2026-11-23",
       "value": 62.0
+    },
+    {
+      "date": "2026-11-24",
+      "value": 87.0
     }
   ],
   "latest_detail": {
-    "place": "今庄",
-    "pref": "福井県",
-    "caption": "今庄｜この24時間でいちばん降った",
-    "record_1st": 405.5,
+    "place": "深浦",
+    "pref": "青森県",
+    "caption": "深浦｜この24時間でいちばん降った",
+    "record_1st": 325.0,
     "all_time_record": false
   }
 }

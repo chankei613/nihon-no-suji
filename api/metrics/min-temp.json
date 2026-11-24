@@ -8,16 +8,16 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-11-24T00:15:02+09:00",
+  "updated_at": "2026-11-24T11:32:23+09:00",
   "summary": {
-    "count": 83,
+    "count": 84,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-23",
+    "last_date": "2026-11-24",
     "min_30d": -20.2,
-    "max_30d": 1.0,
-    "avg_30d": -6.81,
-    "record_1st": -33.2,
-    "year_extreme": false,
+    "max_30d": -0.4,
+    "avg_30d": -6.99,
+    "record_1st": -19.9,
+    "year_extreme": true,
     "all_time_record": false
   },
   "history": [
@@ -352,16 +352,20 @@
     {
       "date": "2026-11-23",
       "value": -12.4
+    },
+    {
+      "date": "2026-11-24",
+      "value": -4.3
     }
   ],
   "latest_detail": {
-    "place": "陸別",
-    "pref": "北海道十勝地方",
-    "caption": "陸別｜きょう日本でいちばん寒い",
-    "normal_diff": -5.0,
-    "station_prev_diff": -0.7,
-    "record_1st": -33.2,
-    "year_extreme": false,
+    "place": "大井沢",
+    "pref": "山形県",
+    "caption": "大井沢｜きょう日本でいちばん寒い",
+    "normal_diff": -3.6,
+    "station_prev_diff": -1.0,
+    "record_1st": -19.9,
+    "year_extreme": true,
     "all_time_record": false
   }
 }
