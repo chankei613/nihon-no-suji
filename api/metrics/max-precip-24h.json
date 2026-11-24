@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/pre_rct/alltable/pre24h00_rct.csv"
   },
-  "updated_at": "2026-11-24T21:53:33+09:00",
+  "updated_at": "2026-11-25T08:14:46+09:00",
   "summary": {
-    "count": 84,
+    "count": 85,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-24",
+    "last_date": "2026-11-25",
     "min_30d": 8.0,
     "max_30d": 292.5,
-    "avg_30d": 104.05,
-    "record_1st": 325.0,
+    "avg_30d": 97.33,
+    "record_1st": 393.0,
     "all_time_record": false
   },
   "history": [
@@ -355,13 +355,17 @@
     {
       "date": "2026-11-24",
       "value": 88.5
+    },
+    {
+      "date": "2026-11-25",
+      "value": 82.0
     }
   ],
   "latest_detail": {
-    "place": "深浦",
-    "pref": "青森県",
-    "caption": "深浦｜この24時間でいちばん降った",
-    "record_1st": 325.0,
+    "place": "御母衣",
+    "pref": "岐阜県",
+    "caption": "御母衣｜この24時間でいちばん降った",
+    "record_1st": 393.0,
     "all_time_record": false
   }
 }

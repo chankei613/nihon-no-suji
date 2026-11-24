@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-24T21:53:33+09:00",
+  "updated_at": "2026-11-25T08:14:46+09:00",
   "summary": {
-    "count": 84,
+    "count": 85,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-24",
+    "last_date": "2026-11-25",
     "min_30d": 2,
     "max_30d": 68,
-    "avg_30d": 9.97
+    "avg_30d": 10.03
   },
   "history": [
     {
@@ -353,25 +353,29 @@
     {
       "date": "2026-11-24",
       "value": 8
+    },
+    {
+      "date": "2026-11-25",
+      "value": 9
     }
   ],
   "latest_detail": {
-    "caption": "最大は熊本県天草・芦北地方の震度3",
+    "caption": "最大は福島県会津の震度2",
     "window_hours": 24,
     "max_magnitude": 4,
     "strongest": {
-      "time": "2026-11-24T01:12:00+09:00",
-      "scale": 30,
-      "name": "熊本県天草・芦北地方",
-      "magnitude": 3.9,
+      "time": "2026-11-25T06:46:00+09:00",
+      "scale": 20,
+      "name": "福島県会津",
+      "magnitude": 3.8,
       "depth": 10
     },
     "latest": {
-      "time": "2026-11-24T21:07:00+09:00",
+      "time": "2026-11-25T07:20:00+09:00",
       "scale": 10,
-      "name": "福島県沖",
-      "magnitude": 4,
-      "depth": 20
+      "name": "福島県会津",
+      "magnitude": 3.4,
+      "depth": 10
     },
     "capped": false
   }
