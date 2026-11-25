@@ -8,15 +8,15 @@
     "name": "気象庁「最新の気象データ」",
     "url": "https://www.data.jma.go.jp/stats/data/mdrr/tem_rct/alltable/mntemsadext00_rct.csv"
   },
-  "updated_at": "2026-11-25T14:39:07+09:00",
+  "updated_at": "2026-11-26T02:34:12+09:00",
   "summary": {
-    "count": 85,
+    "count": 86,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-25",
+    "last_date": "2026-11-26",
     "min_30d": -20.2,
     "max_30d": -0.4,
-    "avg_30d": -7.12,
-    "record_1st": -24.2,
+    "avg_30d": -7.4,
+    "record_1st": -29.6,
     "year_extreme": false,
     "all_time_record": false
   },
@@ -360,15 +360,17 @@
     {
       "date": "2026-11-25",
       "value": -7.8
+    },
+    {
+      "date": "2026-11-26",
+      "value": -10.9
     }
   ],
   "latest_detail": {
-    "place": "白滝",
-    "pref": "北海道網走・北見・紋別地方",
-    "caption": "白滝｜きょう日本でいちばん寒い",
-    "normal_diff": -2.4,
-    "station_prev_diff": -3.3,
-    "record_1st": -24.2,
+    "place": "根室中標津",
+    "pref": "北海道根室地方",
+    "caption": "根室中標津｜きょう日本でいちばん寒い",
+    "record_1st": -29.6,
     "year_extreme": false,
     "all_time_record": false
   }
