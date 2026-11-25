@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-11-25T08:14:46+09:00",
+  "generated_at": "2026-11-25T14:39:07+09:00",
   "date": "2026-11-25",
   "changes": [
     {
       "slug": "warned-municipalities",
       "name": "気象警報が出ている市町村数",
       "category": "防災",
-      "value_display": "2市町村",
+      "value_display": "0市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -12,
-        "display": "-12市町村",
+        "value": -14,
+        "display": "-14市町村",
         "direction": "down",
         "prev_value": 14,
         "prev_date": "2026-11-24"
       },
-      "caption": "2市町村に気象警報",
-      "score": 11.0,
-      "z": 11.0,
+      "caption": "いま気象警報は出ていない",
+      "score": 13.0,
+      "z": 13.0,
       "label": "かなり珍しい変化"
     },
     {
@@ -79,25 +79,6 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "11.4℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -7.9,
-        "display": "-7.9℃",
-        "direction": "down",
-        "prev_value": 19.3,
-        "prev_date": "2026-11-24"
-      },
-      "caption": "きょうの東京の最高気温",
-      "score": 2.45,
-      "z": 2.45,
-      "label": "いつもより大きな変化"
-    },
-    {
       "slug": "cold-points-0",
       "name": "0℃を下回った地点数",
       "category": "自然",
@@ -117,20 +98,20 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "fuji-temp",
-      "name": "富士山頂の気温",
-      "category": "自然",
-      "value_display": "-19.1℃",
+      "slug": "usd-jpy",
+      "name": "ドル円レート",
+      "category": "経済",
+      "value_display": "159.2円",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -6.2,
-        "display": "-6.2℃",
+        "value": -0.5,
+        "display": "-0.5円",
         "direction": "down",
-        "prev_value": -12.9,
-        "prev_date": "2026-11-24"
+        "prev_value": 159.7,
+        "prev_date": "2026-11-19"
       },
-      "caption": "真冬並みの厳しい寒さ",
+      "caption": "1ドル＝159.2円（11月20日）",
       "score": 2.38,
       "z": 2.38,
       "label": "いつもより大きな変化"
@@ -139,19 +120,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "51地点",
+      "value_display": "76地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -375,
-        "display": "-375地点",
+        "value": -350,
+        "display": "-350地点",
         "direction": "down",
         "prev_value": 426,
         "prev_date": "2026-11-24"
       },
       "caption": "きょう雨が降った地点",
-      "score": 2.31,
-      "z": 2.31,
+      "score": 2.08,
+      "z": 2.08,
       "label": "いつもより大きな変化"
     },
     {
@@ -193,41 +174,79 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "national-temp-spread",
-      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "slug": "fuji-temp",
+      "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "35.7℃",
+      "value_display": "-17.5℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 5.3,
-        "display": "+5.3℃",
+        "value": -4.6,
+        "display": "-4.6℃",
+        "direction": "down",
+        "prev_value": -12.9,
+        "prev_date": "2026-11-24"
+      },
+      "caption": "真冬並みの厳しい寒さ",
+      "score": 1.37,
+      "z": 1.37,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "national-temp-spread",
+      "name": "全国の気温差（最も暑い地点と寒い地点）",
+      "category": "自然",
+      "value_display": "35.8℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 5.4,
+        "display": "+5.4℃",
         "direction": "up",
         "prev_value": 30.4,
         "prev_date": "2026-11-24"
       },
-      "caption": "南鳥島28.3℃ と 白滝-7.4℃ の差",
+      "caption": "南鳥島28.8℃ と 酸ケ湯-7℃ の差",
+      "score": 1.35,
+      "z": 1.35,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-sunshine-hours",
+      "name": "東京の日照時間",
+      "category": "自然",
+      "value_display": "1時間54分",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 102,
+        "display": "+102分",
+        "direction": "up",
+        "prev_value": 12,
+        "prev_date": "2026-11-24"
+      },
+      "caption": "きょうの東京の日照時間（ここまでの積算）",
       "score": 1.29,
       "z": 1.29,
       "label": "通常の範囲"
     },
     {
-      "slug": "usd-jpy",
-      "name": "ドル円レート",
-      "category": "経済",
-      "value_display": "159.7円",
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "14.4℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.35,
-        "display": "+0.35円",
-        "direction": "up",
-        "prev_value": 159.35,
-        "prev_date": "2026-11-18"
+        "value": -4.9,
+        "display": "-4.9℃",
+        "direction": "down",
+        "prev_value": 19.3,
+        "prev_date": "2026-11-24"
       },
-      "caption": "1ドル＝159.7円（11月19日）",
-      "score": 1.23,
-      "z": 1.23,
+      "caption": "きょうの東京の最高気温",
+      "score": 1.0,
+      "z": 1.0,
       "label": "通常の範囲"
     },
     {
@@ -266,6 +285,44 @@
       "caption": "白滝｜きょう日本でいちばん寒い",
       "score": 0.56,
       "z": 0.56,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "elec-usage-tokyo",
+      "name": "東京エリアの電力使用率",
+      "category": "インフラ",
+      "value_display": "86%",
+      "change": {
+        "type": "percentage_point",
+        "available": true,
+        "value": -4.0,
+        "display": "-4.0pt",
+        "direction": "down",
+        "prev_value": 90.0,
+        "prev_date": "2026-11-24"
+      },
+      "caption": "ピークは17:00〜18:00の見込み",
+      "score": 0.5,
+      "z": 0.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "12回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 4,
+        "display": "+4回",
+        "direction": "up",
+        "prev_value": 8,
+        "prev_date": "2026-11-24"
+      },
+      "caption": "最大は福島県会津の震度2",
+      "score": 0.5,
+      "z": 0.5,
       "label": "通常の範囲"
     },
     {
@@ -345,41 +402,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-sunshine-hours",
-      "name": "東京の日照時間",
-      "category": "自然",
-      "value_display": "0時間54分",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 42,
-        "display": "+42分",
-        "direction": "up",
-        "prev_value": 12,
-        "prev_date": "2026-11-24"
-      },
-      "caption": "きょうの東京の日照時間（ここまでの積算）",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "max-precip-3h",
       "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "11mm",
+      "value_display": "23.5mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -19.5,
-        "display": "-19.5mm",
+        "value": -7.0,
+        "display": "-7mm",
         "direction": "down",
         "prev_value": 30.5,
         "prev_date": "2026-11-24"
       },
-      "caption": "鹿島｜この3時間でいちばん激しく降った",
+      "caption": "川谷｜この3時間でいちばん激しく降った",
       "score": 0.0,
-      "z": 0.0,
+      "z": -1.05,
       "label": "通常の範囲"
     },
     {
@@ -405,19 +443,19 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "20℃",
+      "value_display": "21℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": 1.0,
+        "display": "+1℃",
+        "direction": "up",
         "prev_value": 20.0,
         "prev_date": "2026-11-24"
       },
       "caption": "11月28日ごろがいちばん暑くなりそう",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -481,19 +519,19 @@
       "slug": "min-humidity",
       "name": "全国の最小湿度",
       "category": "自然",
-      "value_display": "36%",
+      "value_display": "22%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": 8.0,
-        "display": "+8.0pt",
-        "direction": "up",
+        "value": -6.0,
+        "display": "-6.0pt",
+        "direction": "down",
         "prev_value": 28.0,
         "prev_date": "2026-11-24"
       },
-      "caption": "江戸川臨海｜全国でいちばん空気が乾いている",
+      "caption": "中標津｜全国でいちばん空気が乾いている",
       "score": 0.0,
-      "z": 0.0,
+      "z": -0.5,
       "label": "通常の範囲"
     },
     {
@@ -801,60 +839,22 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "elec-usage-tokyo",
-      "name": "東京エリアの電力使用率",
-      "category": "インフラ",
-      "value_display": "87%",
-      "change": {
-        "type": "percentage_point",
-        "available": true,
-        "value": -3.0,
-        "display": "-3.0pt",
-        "direction": "down",
-        "prev_value": 90.0,
-        "prev_date": "2026-11-24"
-      },
-      "caption": "ピークは17:00〜18:00の見込み",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "13%",
+      "value_display": "37%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -10.0,
-        "display": "-10.0pt",
-        "direction": "down",
+        "value": 14.0,
+        "display": "+14.0pt",
+        "direction": "up",
         "prev_value": 23.0,
         "prev_date": "2026-11-24"
       },
-      "caption": "きょうのピークで電力の13%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の37%を太陽光がまかなった",
       "score": 0.0,
-      "z": -0.5,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "9回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1,
-        "display": "+1回",
-        "direction": "up",
-        "prev_value": 8,
-        "prev_date": "2026-11-24"
-      },
-      "caption": "最大は福島県会津の震度2",
-      "score": 0.0,
-      "z": -1.0,
+      "z": -0.1,
       "label": "通常の範囲"
     },
     {
