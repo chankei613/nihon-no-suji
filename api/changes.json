@@ -1,24 +1,43 @@
 {
-  "generated_at": "2026-11-26T10:08:52+09:00",
+  "generated_at": "2026-11-26T19:00:03+09:00",
   "date": "2026-11-26",
   "changes": [
+    {
+      "slug": "tokyo-net-migration",
+      "name": "東京都の転入超過数",
+      "category": "社会",
+      "value_display": "-771人",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -1633,
+        "display": "-1633人",
+        "direction": "down",
+        "prev_value": 862,
+        "prev_date": "2026-11-25"
+      },
+      "caption": "総務省統計局 住民基本台帳人口移動報告（東京都・他都道府県との転入超過数）",
+      "score": 1633.0,
+      "z": 1633.0,
+      "label": "かなり珍しい変化"
+    },
     {
       "slug": "fuji-temp",
       "name": "富士山頂の気温",
       "category": "自然",
-      "value_display": "-9.3℃",
+      "value_display": "-7.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 8.2,
-        "display": "+8.2℃",
+        "value": 9.7,
+        "display": "+9.7℃",
         "direction": "up",
         "prev_value": -17.5,
         "prev_date": "2026-11-25"
       },
       "caption": "氷点下。街とはまるで別世界",
-      "score": 3.35,
-      "z": 3.35,
+      "score": 4.24,
+      "z": 4.24,
       "label": "かなり珍しい変化"
     },
     {
@@ -41,23 +60,42 @@
       "label": "かなり珍しい変化"
     },
     {
-      "slug": "max-temp",
-      "name": "全国最高気温",
+      "slug": "max-precip-3h",
+      "name": "全国最大3時間降水量",
       "category": "自然",
-      "value_display": "23.2℃",
+      "value_display": "72mm",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -2.2,
-        "display": "-2.2℃",
-        "direction": "down",
-        "prev_value": 25.4,
+        "value": 48.5,
+        "display": "+48.5mm",
+        "direction": "up",
+        "prev_value": 23.5,
         "prev_date": "2026-11-25"
       },
-      "caption": "父島｜きょう日本でいちばん暑い",
-      "score": 3.0,
-      "z": 3.0,
-      "label": "かなり珍しい変化"
+      "caption": "久米島｜この3時間でいちばん激しく降った",
+      "score": 2.9,
+      "z": 2.9,
+      "label": "いつもより大きな変化"
+    },
+    {
+      "slug": "max-precip-1h",
+      "name": "全国最大1時間降水量",
+      "category": "自然",
+      "value_display": "27mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 21.0,
+        "display": "+21mm",
+        "direction": "up",
+        "prev_value": 6.0,
+        "prev_date": "2026-11-25"
+      },
+      "caption": "渡名喜｜激しい雨",
+      "score": 2.5,
+      "z": 2.5,
+      "label": "いつもより大きな変化"
     },
     {
       "slug": "snow-points",
@@ -79,25 +117,6 @@
       "label": "いつもより大きな変化"
     },
     {
-      "slug": "tokyo-max-temp",
-      "name": "東京の最高気温",
-      "category": "自然",
-      "value_display": "9.1℃",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -5.3,
-        "display": "-5.3℃",
-        "direction": "down",
-        "prev_value": 14.4,
-        "prev_date": "2026-11-25"
-      },
-      "caption": "冬の寒さ",
-      "score": 1.21,
-      "z": 1.21,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "tokyo-forecast-min",
       "name": "東京のあしたの最低気温",
       "category": "自然",
@@ -114,44 +133,6 @@
       "caption": "あすの東京の最低気温の予想",
       "score": 1.0,
       "z": 1.0,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "quakes-24h",
-      "name": "地震回数（過去24時間・震度1以上）",
-      "category": "防災",
-      "value_display": "16回",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 4,
-        "display": "+4回",
-        "direction": "up",
-        "prev_value": 12,
-        "prev_date": "2026-11-25"
-      },
-      "caption": "最大は熊本県天草・芦北地方の震度3",
-      "score": 0.5,
-      "z": 0.5,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-24h",
-      "name": "全国最大24時間降水量",
-      "category": "自然",
-      "value_display": "52mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -30.0,
-        "display": "-30mm",
-        "direction": "down",
-        "prev_value": 82.0,
-        "prev_date": "2026-11-25"
-      },
-      "caption": "川谷｜この24時間でいちばん降った",
-      "score": 0.48,
-      "z": 0.48,
       "label": "通常の範囲"
     },
     {
@@ -209,6 +190,82 @@
       "caption": "きょうの東京の日照時間（ここまでの積算）",
       "score": 0.14,
       "z": 0.14,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "gas-regular",
+      "name": "レギュラーガソリンの全国平均価格",
+      "category": "経済",
+      "value_display": "169.9円/L",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -0.1,
+        "display": "-0.1円/L",
+        "direction": "down",
+        "prev_value": 170.0,
+        "prev_date": "2026-11-25"
+      },
+      "caption": "レギュラーガソリン全国平均（11月24日調査）",
+      "score": 0.1,
+      "z": 0.1,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-temp",
+      "name": "全国最高気温",
+      "category": "自然",
+      "value_display": "25.3℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -0.1,
+        "display": "-0.1℃",
+        "direction": "down",
+        "prev_value": 25.4,
+        "prev_date": "2026-11-25"
+      },
+      "caption": "北大東｜きょう日本でいちばん暑い",
+      "score": 0.0,
+      "z": -1.2,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "tokyo-max-temp",
+      "name": "東京の最高気温",
+      "category": "自然",
+      "value_display": "15.9℃",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 1.5,
+        "display": "+1.5℃",
+        "direction": "up",
+        "prev_value": 14.4,
+        "prev_date": "2026-11-25"
+      },
+      "caption": "きょうの東京の最高気温",
+      "score": 0.0,
+      "z": -0.79,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "max-precip-24h",
+      "name": "全国最大24時間降水量",
+      "category": "自然",
+      "value_display": "80mm",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": -2.0,
+        "display": "-2mm",
+        "direction": "down",
+        "prev_value": 82.0,
+        "prev_date": "2026-11-25"
+      },
+      "caption": "久米島｜この24時間でいちばん降った",
+      "score": 0.0,
+      "z": -1.15,
       "label": "通常の範囲"
     },
     {
@@ -310,57 +367,19 @@
       "slug": "rain-points",
       "name": "雨が降った地点数",
       "category": "自然",
-      "value_display": "73地点",
+      "value_display": "96地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -3,
-        "display": "-3地点",
-        "direction": "down",
+        "value": 20,
+        "display": "+20地点",
+        "direction": "up",
         "prev_value": 76,
         "prev_date": "2026-11-25"
       },
       "caption": "きょう雨が降った地点",
       "score": 0.0,
-      "z": -1.2,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-1h",
-      "name": "全国最大1時間降水量",
-      "category": "自然",
-      "value_display": "7mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 1.0,
-        "display": "+1mm",
-        "direction": "up",
-        "prev_value": 6.0,
-        "prev_date": "2026-11-25"
-      },
-      "caption": "浜中｜この1時間でいちばん降った",
-      "score": 0.0,
-      "z": -1.56,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "max-precip-3h",
-      "name": "全国最大3時間降水量",
-      "category": "自然",
-      "value_display": "20.5mm",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": -3.0,
-        "display": "-3mm",
-        "direction": "down",
-        "prev_value": 23.5,
-        "prev_date": "2026-11-25"
-      },
-      "caption": "鶴岡｜この3時間でいちばん激しく降った",
-      "score": 0.0,
-      "z": -1.37,
+      "z": -1.04,
       "label": "通常の範囲"
     },
     {
@@ -405,19 +424,19 @@
       "slug": "tokyo-week-max-forecast",
       "name": "今週いちばん暑くなりそうな日の予想最高気温",
       "category": "自然",
-      "value_display": "21℃",
+      "value_display": "20℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0.0,
-        "display": "±0℃",
-        "direction": "flat",
+        "value": -1.0,
+        "display": "-1℃",
+        "direction": "down",
         "prev_value": 21.0,
         "prev_date": "2026-11-25"
       },
       "caption": "11月28日ごろがいちばん暑くなりそう",
       "score": 0.0,
-      "z": -1.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -494,25 +513,6 @@
       "caption": "肘折｜全国でいちばん雪が深い",
       "score": 0.0,
       "z": -0.33,
-      "label": "通常の範囲"
-    },
-    {
-      "slug": "gas-regular",
-      "name": "レギュラーガソリンの全国平均価格",
-      "category": "経済",
-      "value_display": "170円/L",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0.0,
-        "display": "±0円/L",
-        "direction": "flat",
-        "prev_value": 170.0,
-        "prev_date": "2026-11-25"
-      },
-      "caption": "レギュラーガソリン全国平均（11月16日調査）",
-      "score": 0.0,
-      "z": 0.0,
       "label": "通常の範囲"
     },
     {
@@ -782,25 +782,6 @@
       "label": "通常の範囲"
     },
     {
-      "slug": "tokyo-net-migration",
-      "name": "東京都の転入超過数",
-      "category": "社会",
-      "value_display": "862人",
-      "change": {
-        "type": "absolute",
-        "available": true,
-        "value": 0,
-        "display": "±0人",
-        "direction": "flat",
-        "prev_value": 862,
-        "prev_date": "2026-11-25"
-      },
-      "caption": "総務省統計局 住民基本台帳人口移動報告（東京都・他都道府県との転入超過数）",
-      "score": 0.0,
-      "z": 0.0,
-      "label": "通常の範囲"
-    },
-    {
       "slug": "biwako-level",
       "name": "琵琶湖の水位",
       "category": "自然",
@@ -842,19 +823,38 @@
       "slug": "solar-share-tokyo",
       "name": "東京エリアの太陽光発電シェア（ピーク）",
       "category": "インフラ",
-      "value_display": "30%",
+      "value_display": "37%",
       "change": {
         "type": "percentage_point",
         "available": true,
-        "value": -7.0,
-        "display": "-7.0pt",
-        "direction": "down",
+        "value": 0.0,
+        "display": "+0.0pt",
+        "direction": "flat",
         "prev_value": 37.0,
         "prev_date": "2026-11-25"
       },
-      "caption": "きょうのピークで電力の30%を太陽光がまかなった",
+      "caption": "きょうのピークで電力の37%を太陽光がまかなった",
       "score": 0.0,
-      "z": -0.8,
+      "z": -1.5,
+      "label": "通常の範囲"
+    },
+    {
+      "slug": "quakes-24h",
+      "name": "地震回数（過去24時間・震度1以上）",
+      "category": "防災",
+      "value_display": "15回",
+      "change": {
+        "type": "absolute",
+        "available": true,
+        "value": 3,
+        "display": "+3回",
+        "direction": "up",
+        "prev_value": 12,
+        "prev_date": "2026-11-25"
+      },
+      "caption": "最大は熊本県天草・芦北地方の震度3",
+      "score": 0.0,
+      "z": 0.0,
       "label": "通常の範囲"
     },
     {
