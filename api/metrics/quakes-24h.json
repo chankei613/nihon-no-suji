@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-26T02:34:12+09:00",
+  "updated_at": "2026-11-26T10:08:52+09:00",
   "summary": {
     "count": 86,
     "first_date": "2026-09-02",
     "last_date": "2026-11-26",
     "min_30d": 2,
     "max_30d": 68,
-    "avg_30d": 10.17
+    "avg_30d": 10.33
   },
   "history": [
     {
@@ -360,25 +360,25 @@
     },
     {
       "date": "2026-11-26",
-      "value": 11
+      "value": 16
     }
   ],
   "latest_detail": {
-    "caption": "最大は与那国島近海の震度2",
+    "caption": "最大は熊本県天草・芦北地方の震度3",
     "window_hours": 24,
     "max_magnitude": 4.3,
     "strongest": {
-      "time": "2026-11-25T19:18:00+09:00",
-      "scale": 20,
-      "name": "与那国島近海",
-      "magnitude": 4.3,
-      "depth": 50
+      "time": "2026-11-26T07:31:00+09:00",
+      "scale": 30,
+      "name": "熊本県天草・芦北地方",
+      "magnitude": 4,
+      "depth": 0
     },
     "latest": {
-      "time": "2026-11-25T23:14:00+09:00",
-      "scale": 10,
+      "time": "2026-11-26T08:56:00+09:00",
+      "scale": 20,
       "name": "熊本県天草・芦北地方",
-      "magnitude": 2.4,
+      "magnitude": 2.8,
       "depth": 10
     },
     "capped": false
