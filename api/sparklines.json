@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T13:10:39+09:00",
+  "generated_at": "2026-11-28T22:31:04+09:00",
   "series": [
     {
       "slug": "max-temp",
@@ -522,13 +522,13 @@
       "name": "東京の最高気温",
       "category": "自然",
       "unit": "℃",
-      "value_display": "12.6℃",
+      "value_display": "17.8℃",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -5.2,
-        "display": "-5.2℃",
-        "direction": "down",
+        "value": 0.0,
+        "display": "±0℃",
+        "direction": "flat",
         "prev_value": 17.8,
         "prev_date": "2026-11-27"
       },
@@ -771,7 +771,7 @@
         },
         {
           "date": "2026-11-28",
-          "value": 12.6
+          "value": 17.8
         }
       ]
     },
@@ -1554,12 +1554,12 @@
       "name": "0℃を下回った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "4地点",
+      "value_display": "5地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -111,
-        "display": "-111地点",
+        "value": -110,
+        "display": "-110地点",
         "direction": "down",
         "prev_value": 115,
         "prev_date": "2026-11-27"
@@ -1803,7 +1803,7 @@
         },
         {
           "date": "2026-11-28",
-          "value": 4
+          "value": 5
         }
       ]
     },
@@ -2586,12 +2586,12 @@
       "name": "雨が降った地点数",
       "category": "自然",
       "unit": "地点",
-      "value_display": "239地点",
+      "value_display": "366地点",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 120,
-        "display": "+120地点",
+        "value": 247,
+        "display": "+247地点",
         "direction": "up",
         "prev_value": 119,
         "prev_date": "2026-11-27"
@@ -2835,7 +2835,7 @@
         },
         {
           "date": "2026-11-28",
-          "value": 239
+          "value": 366
         }
       ]
     },
@@ -4650,12 +4650,12 @@
       "name": "全国の最低海面気圧",
       "category": "自然",
       "unit": "hPa",
-      "value_display": "990.9hPa",
+      "value_display": "987.6hPa",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": -11.7,
-        "display": "-11.7hPa",
+        "value": -15.0,
+        "display": "-15hPa",
         "direction": "down",
         "prev_value": 1002.6,
         "prev_date": "2026-11-27"
@@ -4899,7 +4899,7 @@
         },
         {
           "date": "2026-11-28",
-          "value": 990.9
+          "value": 987.6
         }
       ]
     },
@@ -4908,12 +4908,12 @@
       "name": "全国最大風速（10分平均）",
       "category": "自然",
       "unit": "m/s",
-      "value_display": "14.3m/s",
+      "value_display": "17.5m/s",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 1.9,
-        "display": "+1.9m/s",
+        "value": 5.1,
+        "display": "+5.1m/s",
         "direction": "up",
         "prev_value": 12.4,
         "prev_date": "2026-11-27"
@@ -5157,7 +5157,7 @@
         },
         {
           "date": "2026-11-28",
-          "value": 14.3
+          "value": 17.5
         }
       ]
     },
@@ -7076,13 +7076,13 @@
       "name": "気象警報が出ている市町村数",
       "category": "防災",
       "unit": "市町村",
-      "value_display": "0市町村",
+      "value_display": "10市町村",
       "change": {
         "type": "absolute",
         "available": true,
-        "value": 0,
-        "display": "±0市町村",
-        "direction": "flat",
+        "value": 10,
+        "display": "+10市町村",
+        "direction": "up",
         "prev_value": 0,
         "prev_date": "2026-11-27"
       },
@@ -7325,7 +7325,7 @@
         },
         {
           "date": "2026-11-28",
-          "value": 0
+          "value": 10
         }
       ]
     },
