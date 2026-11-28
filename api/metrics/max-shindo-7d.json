@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-28T22:31:04+09:00",
+  "updated_at": "2026-11-29T06:15:46+09:00",
   "summary": {
-    "count": 86,
+    "count": 87,
     "first_date": "2026-09-04",
-    "last_date": "2026-11-28",
+    "last_date": "2026-11-29",
     "min_30d": 30.0,
     "max_30d": 50.0,
-    "avg_30d": 41.67
+    "avg_30d": 41.17
   },
   "history": [
     {
@@ -360,6 +360,10 @@
     },
     {
       "date": "2026-11-28",
+      "value": 30.0
+    },
+    {
+      "date": "2026-11-29",
       "value": 30.0
     }
   ],

@@ -8,14 +8,14 @@
     "name": "P2P地震情報 API（元データ：気象庁）",
     "url": "https://api.p2pquake.net/v2/history?codes=551"
   },
-  "updated_at": "2026-11-28T22:31:04+09:00",
+  "updated_at": "2026-11-29T06:15:46+09:00",
   "summary": {
-    "count": 88,
+    "count": 89,
     "first_date": "2026-09-02",
-    "last_date": "2026-11-28",
+    "last_date": "2026-11-29",
     "min_30d": 2,
     "max_30d": 68,
-    "avg_30d": 10.17
+    "avg_30d": 10.2
   },
   "history": [
     {
@@ -369,12 +369,16 @@
     {
       "date": "2026-11-28",
       "value": 7
+    },
+    {
+      "date": "2026-11-29",
+      "value": 6
     }
   ],
   "latest_detail": {
     "caption": "最大は熊本県天草・芦北地方の震度2",
     "window_hours": 24,
-    "max_magnitude": 3.2,
+    "max_magnitude": 6.8,
     "strongest": {
       "time": "2026-11-28T18:39:00+09:00",
       "scale": 20,
@@ -383,11 +387,11 @@
       "depth": 10
     },
     "latest": {
-      "time": "2026-11-28T21:28:00+09:00",
+      "time": "2026-11-28T22:15:00+09:00",
       "scale": 10,
-      "name": "和歌山県北部",
-      "magnitude": 2.3,
-      "depth": 10
+      "name": "カムチャツカ半島付近",
+      "magnitude": 6.8,
+      "depth": 180
     },
     "capped": false
   }
